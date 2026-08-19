@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Container } from "@/components/ui/container";
 
 const navigationItems = [
   { label: "Home", href: "/" },
@@ -13,7 +14,7 @@ const navigationItems = [
 export function PublicHeader() {
   return (
     <header className="border-b border-border bg-background text-foreground">
-      <div className="mx-auto flex min-h-20 max-w-7xl items-center justify-between px-6">
+      <Container className="flex min-h-20 items-center justify-between">
         <Link href="/" className="text-xl font-bold">
           MineVision
         </Link>
@@ -39,7 +40,7 @@ export function PublicHeader() {
         >
           Admin
         </Link>
-      </div>
+      </Container>
     </header>
   );
 }

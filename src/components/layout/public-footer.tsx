@@ -1,9 +1,10 @@
 import Link from "next/link";
+import { Container } from "@/components/ui/container";
 
 export function PublicFooter() {
   return (
     <footer className="border-t border-border bg-background text-muted-foreground">
-      <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 md:flex-row md:items-center md:justify-between">
+      <Container className="flex flex-col gap-4 py-8 md:flex-row md:items-center md:justify-between">
         <div>
           <p className="font-semibold text-foreground">MineVision</p>
           <p className="mt-1 text-sm">
@@ -34,7 +35,7 @@ export function PublicFooter() {
         </nav>
 
         <p className="text-sm">© {new Date().getFullYear()} MineVision</p>
-      </div>
+      </Container>
     </footer>
   );
 }
