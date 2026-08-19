@@ -12,9 +12,9 @@ const navigationItems = [
 
 export function PublicHeader() {
   return (
-    <header className="border-b border-white/10 bg-slate-950 text-white">
+    <header className="border-b border-border bg-background text-foreground">
       <div className="mx-auto flex min-h-20 max-w-7xl items-center justify-between px-6">
-        <Link href="/" className="text-xl font-semibold">
+        <Link href="/" className="text-xl font-bold">
           MineVision
         </Link>
 
@@ -24,7 +24,7 @@ export function PublicHeader() {
               <li key={item.href}>
                 <Link
                   href={item.href}
-                  className="text-sm text-slate-300 transition-colors hover:text-white"
+                  className="text-sm text-muted-foreground transition-colors hover:text-foreground"
                 >
                   {item.label}
                 </Link>
@@ -35,7 +35,7 @@ export function PublicHeader() {
 
         <Link
           href="/admin/login"
-          className="rounded-full border border-cyan-500 px-5 py-2 text-sm font-medium transition-colors hover:bg-cyan-500 hover:text-slate-950"
+          className="rounded-full border border-brand-cyan px-5 py-2 text-sm font-bold transition-colors hover:bg-brand-cyan hover:text-background"
         >
           Admin
         </Link>
