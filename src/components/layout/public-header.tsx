@@ -1,27 +1,23 @@
 import Link from "next/link";
-import { Container } from "@/components/ui/container";
 
-const navigationItems = [
-  { label: "Home", href: "/" },
-  { label: "Education", href: "/education" },
-  { label: "Industry", href: "/industry" },
-  { label: "Commodities", href: "/commodities" },
-  { label: "Career", href: "/career" },
-  { label: "Intelligence", href: "/intelligence" },
-  { label: "Economy", href: "/economy" },
-] as const;
+import { Container } from "@/components/ui/container";
+import { siteConfig } from "@/config/site";
 
 export function PublicHeader() {
   return (
     <header className="border-b border-border bg-background text-foreground">
       <Container className="flex min-h-20 items-center justify-between">
-        <Link href="/" className="text-xl font-bold">
-          MineVision
+        <Link
+          href="/"
+          className="text-xl font-bold"
+          aria-label="MineVision Home"
+        >
+          {siteConfig.name}
         </Link>
 
         <nav aria-label="Main navigation">
           <ul className="hidden items-center gap-6 lg:flex">
-            {navigationItems.map((item) => (
+            {siteConfig.mainNavigation.map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
