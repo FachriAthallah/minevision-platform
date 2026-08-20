@@ -16,7 +16,8 @@
     "data:validate:intelligence": "tsx scripts/validate-intelligence-import.ts",
     "data:preflight:intelligence": "tsx scripts/preflight-intelligence-import.ts",
     "data:dry-run:intelligence": "tsx scripts/dry-run-intelligence-import.ts",
-    "data:import:intelligence": "tsx scripts/import-intelligence.ts"
+    "data:import:intelligence": "tsx scripts/import-intelligence.ts",
+    "data:verify:intelligence": "tsx scripts/verify-intelligence-import.ts"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
