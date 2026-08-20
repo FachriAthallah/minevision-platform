@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.0",
+  "datasetName": "Produksi Batubara Indonesia 2019-2024",
+  "description": "Staging awal data produksi batubara nasional. Nilai dari dokumen sumber dalam juta ton telah dikonversi menjadi metric ton.",
+  "productionRecords": [
+    {
+      "commoditySlug": "batubara",
+      "year": 2019,
+      "value": 616000000,
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "verificationStatus": "pending",
+      "notes": "Dikonversi dari 616 juta ton menjadi 616.000.000 metric ton.",
+      "sources": [
+        {
+          "sourceSlug": "kementerian-esdm",
+          "citationLabel": "Produksi Batubara Indonesia 2019",
+          "pageReference": null,
+          "sourceUrl": "https://www.esdm.go.id/"
+        }
+      ]
+    },
+    {
+      "commoditySlug": "batubara",
+      "year": 2020,
+      "value": 564000000,
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "verificationStatus": "pending",
+      "notes": "Dikonversi dari 564 juta ton menjadi 564.000.000 metric ton.",
+      "sources": [
+        {
+          "sourceSlug": "kementerian-esdm",
+          "citationLabel": "Produksi Batubara Indonesia 2020",
+          "pageReference": null,
+          "sourceUrl": "https://www.esdm.go.id/"
+        }
+      ]
+    },
+    {
+      "commoditySlug": "batubara",
+      "year": 2021,
+      "value": 614000000,
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "verificationStatus": "pending",
+      "notes": "Dikonversi dari 614 juta ton menjadi 614.000.000 metric ton.",
+      "sources": [
+        {
+          "sourceSlug": "kementerian-esdm",
+          "citationLabel": "Produksi Batubara Indonesia 2021",
+          "pageReference": null,
+          "sourceUrl": "https://www.esdm.go.id/"
+        }
+      ]
+    },
+    {
+      "commoditySlug": "batubara",
+      "year": 2022,
+      "value": 687000000,
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "verificationStatus": "pending",
+      "notes": "Dikonversi dari 687 juta ton menjadi 687.000.000 metric ton.",
+      "sources": [
+        {
+          "sourceSlug": "kementerian-esdm",
+          "citationLabel": "Produksi Batubara Indonesia 2022",
+          "pageReference": null,
+          "sourceUrl": "https://www.esdm.go.id/"
+        }
+      ]
+    },
+    {
+      "commoditySlug": "batubara",
+      "year": 2023,
+      "value": 775200000,
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "verificationStatus": "pending",
+      "notes": "Dikonversi dari 775,2 juta ton menjadi 775.200.000 metric ton.",
+      "sources": [
+        {
+          "sourceSlug": "kementerian-esdm",
+          "citationLabel": "Produksi Batubara Indonesia 2023",
+          "pageReference": null,
+          "sourceUrl": "https://www.esdm.go.id/"
+        }
+      ]
+    },
+    {
+      "commoditySlug": "batubara",
+      "year": 2024,
+      "value": 836000000,
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "verificationStatus": "pending",
+      "notes": "Dikonversi dari 836 juta ton menjadi 836.000.000 metric ton.",
+      "sources": [
+        {
+          "sourceSlug": "kementerian-esdm",
+          "citationLabel": "Produksi Batubara Indonesia 2024",
+          "pageReference": null,
+          "sourceUrl": "https://www.esdm.go.id/"
+        }
+      ]
+    }
+  ],
+  "priceRecords": []
+}
