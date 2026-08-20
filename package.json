@@ -13,7 +13,8 @@
     "db:studio": "drizzle-kit studio",
     "db:seed": "tsx scripts/seed.ts",
     "db:verify": "tsx scripts/verify-database.ts",
-    "data:validate:intelligence": "tsx scripts/validate-intelligence-import.ts"
+    "data:validate:intelligence": "tsx scripts/validate-intelligence-import.ts",
+    "data:preflight:intelligence": "tsx scripts/preflight-intelligence-import.ts"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
