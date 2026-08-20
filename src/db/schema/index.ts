@@ -8,3 +8,4 @@ export * from "./sources";
 export * from "./commodity-prices";
 export * from "./commodity-production-locations";
 export * from "./regions";
+export * from "./commodity-production-sources";
