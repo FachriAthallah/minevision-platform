@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "datasetName": "Produksi Batubara Indonesia 2019-2024",
-  "description": "Staging awal data produksi batubara nasional. Nilai dari dokumen sumber dalam juta ton telah dikonversi menjadi metric ton.",
+  "description": "Staging data produksi batubara nasional. Nilai dalam juta ton dikonversi menjadi metric ton. Record hanya diberi status verified setelah dicocokkan dengan publikasi resmi.",
   "productionRecords": [
     {
       "commoditySlug": "batubara",
@@ -10,11 +10,11 @@
       "unitCode": "metric_ton",
       "recordType": "actual",
       "verificationStatus": "pending",
-      "notes": "Dikonversi dari 616 juta ton menjadi 616.000.000 metric ton.",
+      "notes": "Dikonversi dari 616 juta ton. Masih memerlukan konfirmasi dari tabel statistik primer ESDM.",
       "sources": [
         {
           "sourceSlug": "kementerian-esdm",
-          "citationLabel": "Produksi Batubara Indonesia 2019",
+          "citationLabel": "Data Intelligence MineVision - Produksi Batubara 2019",
           "pageReference": null,
           "sourceUrl": "https://www.esdm.go.id/"
         }
@@ -23,17 +23,17 @@
     {
       "commoditySlug": "batubara",
       "year": 2020,
-      "value": 564000000,
+      "value": 561000000,
       "unitCode": "metric_ton",
       "recordType": "actual",
-      "verificationStatus": "pending",
-      "notes": "Dikonversi dari 564 juta ton menjadi 564.000.000 metric ton.",
+      "verificationStatus": "verified",
+      "notes": "Dikoreksi dari 564 juta ton menjadi 561 juta ton berdasarkan publikasi resmi ESDM.",
       "sources": [
         {
           "sourceSlug": "kementerian-esdm",
-          "citationLabel": "Produksi Batubara Indonesia 2020",
+          "citationLabel": "Domestic Coal Demand in 2020 was Met, Says Mineral and Coal Director General",
           "pageReference": null,
-          "sourceUrl": "https://www.esdm.go.id/"
+          "sourceUrl": "https://esdm.go.id/en/media-center/news-archives/domestic-coal-demand-in-2020-was-met-says-mineral-and-coal-director-general"
         }
       ]
     },
@@ -43,14 +43,14 @@
       "value": 614000000,
       "unitCode": "metric_ton",
       "recordType": "actual",
-      "verificationStatus": "pending",
-      "notes": "Dikonversi dari 614 juta ton menjadi 614.000.000 metric ton.",
+      "verificationStatus": "verified",
+      "notes": "Produksi nasional 614 juta ton berdasarkan publikasi resmi ESDM.",
       "sources": [
         {
           "sourceSlug": "kementerian-esdm",
-          "citationLabel": "Produksi Batubara Indonesia 2021",
+          "citationLabel": "Tahun 2021, PNBP dan Investasi Subsektor Minerba Lebihi Target",
           "pageReference": null,
-          "sourceUrl": "https://www.esdm.go.id/"
+          "sourceUrl": "https://esdm.go.id/id/media-center/arsip-berita/tahun-2021-pnbp-dan-investasi-subsektor-minerba-lebihi-target"
         }
       ]
     },
@@ -61,13 +61,13 @@
       "unitCode": "metric_ton",
       "recordType": "actual",
       "verificationStatus": "pending",
-      "notes": "Dikonversi dari 687 juta ton menjadi 687.000.000 metric ton.",
+      "notes": "Nilai 687 juta ton didukung artikel jurnal ESDM, tetapi masih menunggu tabel statistik primer.",
       "sources": [
         {
           "sourceSlug": "kementerian-esdm",
-          "citationLabel": "Produksi Batubara Indonesia 2022",
+          "citationLabel": "Peramalan Puncak Produksi dan Umur Cadangan Batubara di Indonesia",
           "pageReference": null,
-          "sourceUrl": "https://www.esdm.go.id/"
+          "sourceUrl": "https://jurnal.tekmira.esdm.go.id/index.php/minerba/article/view/1302"
         }
       ]
     },
@@ -77,14 +77,14 @@
       "value": 775200000,
       "unitCode": "metric_ton",
       "recordType": "actual",
-      "verificationStatus": "pending",
-      "notes": "Dikonversi dari 775,2 juta ton menjadi 775.200.000 metric ton.",
+      "verificationStatus": "verified",
+      "notes": "Produksi nasional 775,2 juta ton berdasarkan publikasi resmi ESDM.",
       "sources": [
         {
           "sourceSlug": "kementerian-esdm",
-          "citationLabel": "Produksi Batubara Indonesia 2023",
+          "citationLabel": "Minerba Tetap Jadi Tulang Punggung PNBP Sektor ESDM",
           "pageReference": null,
-          "sourceUrl": "https://www.esdm.go.id/"
+          "sourceUrl": "https://esdm.go.id/en/media-center/news-archives/minerba-tetap-jadi-tulang-punggung-pnbp-sektor-esdm-tembus-rp17296-triliun"
         }
       ]
     },
@@ -94,14 +94,14 @@
       "value": 836000000,
       "unitCode": "metric_ton",
       "recordType": "actual",
-      "verificationStatus": "pending",
-      "notes": "Dikonversi dari 836 juta ton menjadi 836.000.000 metric ton.",
+      "verificationStatus": "verified",
+      "notes": "Produksi nasional mencapai 836 juta ton berdasarkan keterangan resmi Ditjen Minerba.",
       "sources": [
         {
           "sourceSlug": "kementerian-esdm",
-          "citationLabel": "Produksi Batubara Indonesia 2024",
+          "citationLabel": "Komoditas Batubara Pegang Peranan Penting bagi Pertumbuhan Ekonomi Nasional",
           "pageReference": null,
-          "sourceUrl": "https://www.esdm.go.id/"
+          "sourceUrl": "https://esdm.go.id/id/media-center/arsip-berita/komoditas-batubara-pegang-peranan-penting-bagi-pertumbuhan-ekonomi-nasional"
         }
       ]
     }
