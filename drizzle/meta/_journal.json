@@ -29,6 +29,13 @@
       "when": 1787213170858,
       "tag": "0003_intelligence-master-data",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1787213535106,
+      "tag": "0004_commodity-production",
+      "breakpoints": true
     }
   ]
 }

@@ -60,6 +60,16 @@ export const measurementCategoryEnum = pgEnum("measurement_category", [
   "other",
 ]);
 
+export const dataRecordTypeEnum = pgEnum(
+  "data_record_type",
+  [
+    "actual",
+    "provisional",
+    "projection",
+    "revised",
+  ],
+);
+
 export function createTimestampColumns() {
   return {
     createdAt: timestamp("created_at", {
