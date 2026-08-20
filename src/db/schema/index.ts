@@ -6,3 +6,5 @@ export * from "./content-sources";
 export * from "./measurement-units";
 export * from "./sources";
 export * from "./commodity-prices";
+export * from "./commodity-production-locations";
+export * from "./regions";

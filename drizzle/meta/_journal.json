@@ -43,6 +43,13 @@
       "when": 1787213897351,
       "tag": "0005_commodity-domestic-prices",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1787238970219,
+      "tag": "0006_regions-production-locations",
+      "breakpoints": true
     }
   ]
 }

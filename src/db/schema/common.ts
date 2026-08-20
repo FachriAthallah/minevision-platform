@@ -76,6 +76,13 @@ export const pricePeriodEnum = pgEnum("price_period", [
   "custom",
 ]);
 
+export const regionLevelEnum = pgEnum("region_level", [
+  "country",
+  "province",
+  "regency",
+  "city",
+]);
+
 export function createTimestampColumns() {
   return {
     createdAt: timestamp("created_at", {
