@@ -17,9 +17,7 @@ import {
 export const sources = pgTable(
   "sources",
   {
-    id: uuid("id")
-      .defaultRandom()
-      .primaryKey(),
+    id: uuid("id").defaultRandom().primaryKey(),
 
     name: varchar("name", {
       length: 200,
@@ -41,13 +39,9 @@ export const sources = pgTable(
 
     description: text("description"),
 
-    isOfficial: boolean("is_official")
-      .default(false)
-      .notNull(),
+    isOfficial: boolean("is_official").default(false).notNull(),
 
-    verificationStatus: verificationStatusEnum(
-      "verification_status",
-    )
+    verificationStatus: verificationStatusEnum("verification_status")
       .default("pending")
       .notNull(),
 
@@ -56,26 +50,18 @@ export const sources = pgTable(
       mode: "date",
     }),
 
-    isActive: boolean("is_active")
-      .default(true)
-      .notNull(),
+    isActive: boolean("is_active").default(true).notNull(),
 
     ...createTimestampColumns(),
   },
   (table) => [
     index("sources_type_idx").on(table.type),
 
-    index("sources_verification_status_idx").on(
-      table.verificationStatus,
-    ),
+    index("sources_verification_status_idx").on(table.verificationStatus),
 
-    index("sources_is_official_idx").on(
-      table.isOfficial,
-    ),
+    index("sources_is_official_idx").on(table.isOfficial),
 
-    index("sources_is_active_idx").on(
-      table.isActive,
-    ),
+    index("sources_is_active_idx").on(table.isActive),
   ],
 );
 
