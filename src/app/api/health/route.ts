@@ -1,3 +1,5 @@
+import { env } from "@/lib/env";
+
 export const dynamic = "force-dynamic";
 
 export function GET() {
@@ -5,7 +7,7 @@ export function GET() {
     {
       status: "ok",
       service: "minevision-platform",
-      environment: process.env.NODE_ENV,
+      environment: env.NODE_ENV,
       timestamp: new Date().toISOString(),
     },
     {
