@@ -36,7 +36,7 @@ export function HeroSection() {
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
           <Link
-            href="/education"
+            href="#explore"
             className="brand-gradient inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold text-primary-foreground shadow-[var(--shadow-float)] transition-opacity hover:opacity-90"
           >
             Jelajahi MineVision
