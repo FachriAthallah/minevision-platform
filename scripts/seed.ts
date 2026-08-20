@@ -7,6 +7,7 @@ import { measurementUnits, sources } from "../src/db/schema";
 
 config({
   path: ".env.local",
+  quiet: true,
 });
 
 const databaseUrl = process.env.DATABASE_MIGRATION_URL;
@@ -168,20 +169,26 @@ async function seedMeasurementUnits() {
 async function runSeed() {
   console.log("Menjalankan seed MineVision Development...");
 
-  await database.transaction(async () => {
-    await seedSources();
-    await seedMeasurementUnits();
-  });
+  await seedSources();
+  await seedMeasurementUnits();
 
   console.log("Seed MineVision Development berhasil.");
 }
 
-try {
-  await runSeed();
-} catch (error) {
-  console.error("Seed MineVision Development gagal:", error);
+async function main() {
+  try {
+    await runSeed();
+  } catch (error) {
+    console.error("Seed MineVision Development gagal:", error);
+
+    process.exitCode = 1;
+  } finally {
+    await postgresClient.end();
+  }
+}
+
+main().catch((error) => {
+  console.error("Terjadi error yang tidak tertangani:", error);
 
   process.exitCode = 1;
-} finally {
-  await postgresClient.end();
-}
+});
