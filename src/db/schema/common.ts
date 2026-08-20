@@ -44,6 +44,22 @@ export const contentTypeEnum = pgEnum("content_type", [
   "page",
 ]);
 
+export const commodityCategoryEnum = pgEnum("commodity_category", [
+  "metal_mineral",
+  "non_metal_mineral",
+  "energy",
+]);
+
+export const measurementCategoryEnum = pgEnum("measurement_category", [
+  "mass",
+  "currency",
+  "currency_per_mass",
+  "percentage",
+  "energy",
+  "count",
+  "other",
+]);
+
 export function createTimestampColumns() {
   return {
     createdAt: timestamp("created_at", {
