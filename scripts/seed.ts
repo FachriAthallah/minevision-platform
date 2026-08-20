@@ -3,7 +3,9 @@ import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
 
 import type { NewMeasurementUnit, NewSource } from "../src/db/schema";
-import { measurementUnits, sources } from "../src/db/schema";
+import { commodities, measurementUnits, sources } from "../src/db/schema";
+
+import { commoditySeed } from "./data/commodities";
 
 config({
   path: ".env.local",
@@ -166,11 +168,40 @@ async function seedMeasurementUnits() {
   );
 }
 
+async function seedCommodities() {
+  for (const commodity of commoditySeed) {
+    await database
+      .insert(commodities)
+      .values(commodity)
+      .onConflictDoUpdate({
+        target: commodities.slug,
+        set: {
+          name: commodity.name,
+          symbol: commodity.symbol,
+          category: commodity.category,
+          defaultProductionUnitCode: commodity.defaultProductionUnitCode,
+          imageUrl: commodity.imageUrl,
+          isIntelligenceTracked: commodity.isIntelligenceTracked,
+          displayOrder: commodity.displayOrder,
+          isActive: commodity.isActive,
+          updatedAt: new Date(),
+        },
+      });
+  }
+
+  console.log(`Commodities seed selesai: ${commoditySeed.length} record.`);
+}
+
 async function runSeed() {
   console.log("Menjalankan seed MineVision Development...");
 
+  /*
+   * Urutan seed harus dijaga karena commodities memiliki
+   * foreign key ke measurement_units.
+   */
   await seedSources();
   await seedMeasurementUnits();
+  await seedCommodities();
 
   console.log("Seed MineVision Development berhasil.");
 }
