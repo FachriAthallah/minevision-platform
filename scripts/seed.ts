@@ -2,53 +2,66 @@ import { config } from "dotenv";
 import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
 
+import {
+  commodities,
+  commodityPriceStandards,
+  measurementUnits,
+  regions,
+  sources,
+} from "../src/db/schema";
+
 import type { NewMeasurementUnit, NewSource } from "../src/db/schema";
-import { commodities, measurementUnits, sources } from "../src/db/schema";
 
 import { commoditySeed } from "./data/commodities";
+import { priceStandardSeed } from "./data/price-standards";
+import { regionSeed } from "./data/regions";
+
+/*
+|--------------------------------------------------------------------------
+| Environment
+|--------------------------------------------------------------------------
+*/
 
 config({
   path: ".env.local",
-  quiet: true,
 });
 
-const databaseUrl = process.env.DATABASE_MIGRATION_URL;
+const dataurl = process.env.DATABASE_MIGRATION_URL;
 
-if (!databaseUrl) {
-  throw new Error(
-    "DATABASE_MIGRATION_URL wajib tersedia untuk menjalankan seed.",
-  );
+if (!dataurl) {
+  throw new Error("DATABASE_MIGRATION_URL tidak ditemukan di file .env.local.");
 }
 
-if (
-  !databaseUrl.startsWith("postgresql://") &&
-  !databaseUrl.startsWith("postgres://")
-) {
-  throw new Error(
-    "DATABASE_MIGRATION_URL harus menggunakan protokol PostgreSQL.",
-  );
-}
+/*
+|--------------------------------------------------------------------------
+| Database connection
+|--------------------------------------------------------------------------
+*/
 
-const postgresClient = postgres(databaseUrl, {
-  prepare: false,
-  max: 1,
+const sqlClient = postgres(dataurl, {
   ssl: "require",
-  connect_timeout: 10,
-  idle_timeout: 20,
+  max: 1,
+  prepare: false,
 });
 
-const database = drizzle(postgresClient);
+const database = drizzle(sqlClient);
+
+/*
+|--------------------------------------------------------------------------
+| Sources master data
+|--------------------------------------------------------------------------
+*/
 
 const sourceSeed: NewSource[] = [
   {
     name: "Kementerian Energi dan Sumber Daya Mineral",
     slug: "kementerian-esdm",
-    type: "government",
     organization:
       "Kementerian Energi dan Sumber Daya Mineral Republik Indonesia",
+    type: "government",
     url: "https://www.esdm.go.id/",
     description:
-      "Sumber resmi pemerintah untuk data, kebijakan, dan publikasi sektor energi dan sumber daya mineral Indonesia.",
+      "Sumber resmi pemerintah Indonesia untuk data energi, mineral, dan batubara.",
     isOfficial: true,
     verificationStatus: "verified",
     verifiedAt: new Date(),
@@ -56,12 +69,25 @@ const sourceSeed: NewSource[] = [
   },
   {
     name: "Badan Pusat Statistik",
-    slug: "badan-pusat-statistik",
-    type: "statistics_agency",
+    slug: "bps",
     organization: "Badan Pusat Statistik Republik Indonesia",
+    type: "statistics_agency",
     url: "https://www.bps.go.id/id",
     description:
-      "Sumber resmi statistik nasional Indonesia, termasuk data ekonomi, ekspor, investasi, dan produk domestik bruto.",
+      "Sumber statistik resmi Indonesia untuk data ekonomi, industri, perdagangan, dan kependudukan.",
+    isOfficial: true,
+    verificationStatus: "verified",
+    verifiedAt: new Date(),
+    isActive: true,
+  },
+  {
+    name: "Logam Mulia ANTAM",
+    slug: "logam-mulia-antam",
+    organization: "PT Aneka Tambang Tbk",
+    type: "market_data",
+    url: "https://www.logammulia.com/",
+    description:
+      "Sumber resmi informasi dan harga emas batangan ritel Logam Mulia ANTAM.",
     isOfficial: true,
     verificationStatus: "verified",
     verifiedAt: new Date(),
@@ -69,56 +95,71 @@ const sourceSeed: NewSource[] = [
   },
 ];
 
+/*
+|--------------------------------------------------------------------------
+| Measurement units master data
+|--------------------------------------------------------------------------
+*/
+
 const measurementUnitSeed: NewMeasurementUnit[] = [
   {
-    code: "metric_ton",
     name: "Metric Ton",
+    code: "metric_ton",
     symbol: "t",
     category: "mass",
     description: "Satuan massa setara dengan 1.000 kilogram.",
     isActive: true,
   },
   {
-    code: "dry_metric_ton",
     name: "Dry Metric Ton",
+    code: "dry_metric_ton",
     symbol: "dmt",
     category: "mass",
-    description: "Satuan massa material dalam kondisi kering.",
+    description:
+      "Satuan metrik ton berdasarkan berat material dalam kondisi kering.",
     isActive: true,
   },
   {
-    code: "kilogram",
     name: "Kilogram",
+    code: "kilogram",
     symbol: "kg",
     category: "mass",
-    description: "Satuan massa dalam Sistem Internasional.",
+    description: "Satuan massa kilogram.",
     isActive: true,
   },
   {
-    code: "gram",
     name: "Gram",
+    code: "gram",
     symbol: "g",
     category: "mass",
-    description: "Satuan massa setara dengan 0,001 kilogram.",
+    description: "Satuan massa gram.",
     isActive: true,
   },
   {
-    code: "troy_ounce",
     name: "Troy Ounce",
+    code: "troy_ounce",
     symbol: "oz t",
     category: "mass",
-    description: "Satuan massa yang umum digunakan untuk logam mulia.",
+    description:
+      "Satuan massa yang umum digunakan dalam perdagangan logam mulia.",
     isActive: true,
   },
   {
-    code: "megawatt",
     name: "Megawatt",
+    code: "megawatt",
     symbol: "MW",
     category: "energy",
-    description: "Satuan kapasitas daya yang digunakan dalam data energi.",
+    description:
+      "Satuan daya yang digunakan untuk kapasitas pembangkit energi.",
     isActive: true,
   },
 ];
+
+/*
+|--------------------------------------------------------------------------
+| Seed sources
+|--------------------------------------------------------------------------
+*/
 
 async function seedSources() {
   for (const source of sourceSeed) {
@@ -129,13 +170,12 @@ async function seedSources() {
         target: sources.slug,
         set: {
           name: source.name,
-          type: source.type,
           organization: source.organization,
+          type: source.type,
           url: source.url,
           description: source.description,
           isOfficial: source.isOfficial,
           verificationStatus: source.verificationStatus,
-          verifiedAt: source.verifiedAt,
           isActive: source.isActive,
           updatedAt: new Date(),
         },
@@ -144,6 +184,12 @@ async function seedSources() {
 
   console.log(`Sources seed selesai: ${sourceSeed.length} record.`);
 }
+
+/*
+|--------------------------------------------------------------------------
+| Seed measurement units
+|--------------------------------------------------------------------------
+*/
 
 async function seedMeasurementUnits() {
   for (const unit of measurementUnitSeed) {
@@ -168,6 +214,12 @@ async function seedMeasurementUnits() {
   );
 }
 
+/*
+|--------------------------------------------------------------------------
+| Seed commodities
+|--------------------------------------------------------------------------
+*/
+
 async function seedCommodities() {
   for (const commodity of commoditySeed) {
     await database
@@ -176,14 +228,7 @@ async function seedCommodities() {
       .onConflictDoUpdate({
         target: commodities.slug,
         set: {
-          name: commodity.name,
-          symbol: commodity.symbol,
-          category: commodity.category,
-          defaultProductionUnitCode: commodity.defaultProductionUnitCode,
-          imageUrl: commodity.imageUrl,
-          isIntelligenceTracked: commodity.isIntelligenceTracked,
-          displayOrder: commodity.displayOrder,
-          isActive: commodity.isActive,
+          ...commodity,
           updatedAt: new Date(),
         },
       });
@@ -192,34 +237,150 @@ async function seedCommodities() {
   console.log(`Commodities seed selesai: ${commoditySeed.length} record.`);
 }
 
-async function runSeed() {
-  console.log("Menjalankan seed MineVision Development...");
+/*
+|--------------------------------------------------------------------------
+| Seed regions
+|--------------------------------------------------------------------------
+*/
 
-  /*
-   * Urutan seed harus dijaga karena commodities memiliki
-   * foreign key ke measurement_units.
-   */
-  await seedSources();
-  await seedMeasurementUnits();
-  await seedCommodities();
+async function seedRegions() {
+  for (const region of regionSeed) {
+    await database
+      .insert(regions)
+      .values(region)
+      .onConflictDoUpdate({
+        target: regions.slug,
+        set: {
+          ...region,
+          updatedAt: new Date(),
+        },
+      });
+  }
 
-  console.log("Seed MineVision Development berhasil.");
+  console.log(`Regions seed selesai: ${regionSeed.length} record.`);
 }
 
-async function main() {
-  try {
-    await runSeed();
-  } catch (error) {
-    console.error("Seed MineVision Development gagal:", error);
+/*
+|--------------------------------------------------------------------------
+| Seed commodity price standards
+|--------------------------------------------------------------------------
+*/
 
-    process.exitCode = 1;
+async function seedPriceStandards() {
+  /*
+   * Ambil seluruh source yang sudah tersimpan untuk membuat pemetaan:
+   * source slug -> source UUID
+   */
+  const storedSources = await database
+    .select({
+      id: sources.id,
+      slug: sources.slug,
+    })
+    .from(sources);
+
+  /*
+   * Ambil seluruh komoditas untuk membuat pemetaan:
+   * commodity slug -> commodity UUID
+   */
+  const storedCommodities = await database
+    .select({
+      id: commodities.id,
+      slug: commodities.slug,
+    })
+    .from(commodities);
+
+  const sourceIdBySlug = new Map(
+    storedSources.map((source) => [source.slug, source.id]),
+  );
+
+  const commodityIdBySlug = new Map(
+    storedCommodities.map((commodity) => [commodity.slug, commodity.id]),
+  );
+
+  for (const standard of priceStandardSeed) {
+    const commodityId = commodityIdBySlug.get(standard.commoditySlug);
+
+    const issuingSourceId = sourceIdBySlug.get(standard.issuingSourceSlug);
+
+    if (!commodityId) {
+      throw new Error(
+        `Komoditas dengan slug "${standard.commoditySlug}" tidak ditemukan.`,
+      );
+    }
+
+    if (!issuingSourceId) {
+      throw new Error(
+        `Source dengan slug "${standard.issuingSourceSlug}" tidak ditemukan.`,
+      );
+    }
+
+    await database
+      .insert(commodityPriceStandards)
+      .values({
+        commodityId,
+        issuingSourceId,
+        code: standard.code,
+        name: standard.name,
+        description: standard.description,
+        methodology: standard.methodology,
+        defaultCurrencyCode: standard.defaultCurrencyCode,
+        defaultUnitCode: standard.defaultUnitCode,
+        isActive: standard.isActive,
+      })
+      .onConflictDoUpdate({
+        target: commodityPriceStandards.code,
+        set: {
+          commodityId,
+          issuingSourceId,
+          name: standard.name,
+          description: standard.description,
+          methodology: standard.methodology,
+          defaultCurrencyCode: standard.defaultCurrencyCode,
+          defaultUnitCode: standard.defaultUnitCode,
+          isActive: standard.isActive,
+          updatedAt: new Date(),
+        },
+      });
+  }
+
+  console.log(
+    `Price standards seed selesai: ${priceStandardSeed.length} record.`,
+  );
+}
+
+/*
+|--------------------------------------------------------------------------
+| Main seed runner
+|--------------------------------------------------------------------------
+*/
+
+async function main() {
+  console.log("Menjalankan seed MineVision Development...");
+
+  try {
+    /*
+     * Urutan tidak boleh sembarangan.
+     * Price standard membutuhkan source dan commodity terlebih dahulu.
+     */
+    await seedSources();
+    await seedMeasurementUnits();
+    await seedCommodities();
+    await seedRegions();
+    await seedPriceStandards();
+
+    console.log("Seed MineVision Development berhasil.");
   } finally {
-    await postgresClient.end();
+    await sqlClient.end();
   }
 }
 
-main().catch((error) => {
-  console.error("Terjadi error yang tidak tertangani:", error);
+/*
+|--------------------------------------------------------------------------
+| Execute
+|--------------------------------------------------------------------------
+*/
 
+main().catch((error: unknown) => {
+  console.error("Seed MineVision Development gagal:", error);
   process.exitCode = 1;
 });
