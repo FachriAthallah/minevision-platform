@@ -5,3 +5,4 @@ export * from "./content";
 export * from "./content-sources";
 export * from "./measurement-units";
 export * from "./sources";
+export * from "./commodity-prices";

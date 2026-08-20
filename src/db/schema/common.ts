@@ -60,15 +60,21 @@ export const measurementCategoryEnum = pgEnum("measurement_category", [
   "other",
 ]);
 
-export const dataRecordTypeEnum = pgEnum(
-  "data_record_type",
-  [
-    "actual",
-    "provisional",
-    "projection",
-    "revised",
-  ],
-);
+export const dataRecordTypeEnum = pgEnum("data_record_type", [
+  "actual",
+  "provisional",
+  "projection",
+  "revised",
+]);
+
+export const pricePeriodEnum = pgEnum("price_period", [
+  "daily",
+  "weekly",
+  "monthly",
+  "quarterly",
+  "annual",
+  "custom",
+]);
 
 export function createTimestampColumns() {
   return {
