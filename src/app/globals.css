@@ -25,6 +25,10 @@
   --radius-medium: 0.75rem;
   --radius-large: 1rem;
   --radius-full: 9999px;
+
+  --chart-production: #22d3ee;
+  --chart-projection: #2dd4bf;
+  --chart-grid: #1e3a5f;
 }
 
 @theme inline {
