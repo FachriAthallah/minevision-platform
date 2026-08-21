@@ -50,6 +50,13 @@
       "when": 1787238970219,
       "tag": "0006_regions-production-locations",
       "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1787244907830,
+      "tag": "0007_goofy_siren",
+      "breakpoints": true
     }
   ]
 }

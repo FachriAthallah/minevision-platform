@@ -25,6 +25,7 @@ const requiredTables = [
   "measurement_units",
   "commodities",
   "commodity_production",
+  "commodity_production_sources",
   "commodity_price_standards",
   "commodity_domestic_prices",
   "regions",
