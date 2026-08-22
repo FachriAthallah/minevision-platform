@@ -11,6 +11,7 @@ import {
   sources,
 } from "@/db/schema";
 
+import { isPubliclyVisible } from "../policies/publication-visibility";
 import type { ProductionQuery } from "../schemas/production-query";
 
 export async function getPublicProduction(query: ProductionQuery) {
@@ -25,6 +26,9 @@ export async function getPublicProduction(query: ProductionQuery) {
       year: commodityProduction.year,
       productionValue: commodityProduction.productionValue,
       recordType: commodityProduction.recordType,
+
+      verificationStatus: commodityProduction.verificationStatus,
+      publicationStatus: commodityProduction.publicationStatus,
 
       unitCode: measurementUnits.code,
       unitName: measurementUnits.name,
@@ -42,11 +46,15 @@ export async function getPublicProduction(query: ProductionQuery) {
         eq(commodities.isActive, true),
         eq(commodities.isIntelligenceTracked, true),
         eq(measurementUnits.isActive, true),
+
+        // Lapisan keamanan pertama: filter langsung di database.
         eq(commodityProduction.verificationStatus, "verified"),
         eq(commodityProduction.publicationStatus, "published"),
+
         query.fromYear !== undefined
           ? gte(commodityProduction.year, query.fromYear)
           : undefined,
+
         query.toYear !== undefined
           ? lte(commodityProduction.year, query.toYear)
           : undefined,
@@ -54,22 +62,23 @@ export async function getPublicProduction(query: ProductionQuery) {
     )
     .orderBy(asc(commodityProduction.year));
 
-  if (productionRows.length === 0) {
+  // Lapisan keamanan kedua: policy aplikasi.
+  // Ini mencegah data non-publik lolos jika query berubah di masa depan.
+  const publiclyVisibleRows = productionRows.filter(isPubliclyVisible);
+
+  if (publiclyVisibleRows.length === 0) {
     return [];
   }
 
-  const productionIds = productionRows.map((record) => record.id);
+  const productionIds = publiclyVisibleRows.map((record) => record.id);
 
   const citationRows = await db
     .select({
       productionId: commodityProductionSources.productionId,
 
       citationLabel: commodityProductionSources.citationLabel,
-
       pageReference: commodityProductionSources.pageReference,
-
       citationUrl: commodityProductionSources.sourceUrl,
-
       isPrimary: commodityProductionSources.isPrimary,
 
       sourceName: sources.name,
@@ -121,7 +130,7 @@ export async function getPublicProduction(query: ProductionQuery) {
     citationsByProductionId.set(citation.productionId, currentCitations);
   }
 
-  return productionRows.map((record) => ({
+  return publiclyVisibleRows.map((record) => ({
     commodity: {
       name: record.commodityName,
       slug: record.commoditySlug,
