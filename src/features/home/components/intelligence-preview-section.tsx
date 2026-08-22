@@ -1,18 +1,13 @@
 import type { ReactNode } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import {
-  ArrowRight,
-  CalendarDays,
-  Globe,
-  Info,
-} from "lucide-react";
+import { ArrowRight, CalendarDays, Globe, Info } from "lucide-react";
 
 import { ProductionPreviewChart } from "./intelligence-preview-chart";
 
 const coverage = [
   {
-    label: "Periode",
+    label: "Periode target",
     value: "2019–2025",
     icon: CalendarDays,
   },
@@ -61,26 +56,22 @@ const commodities = [
   {
     name: "Nikel",
     image: "/images/commodities/nikel.jpg",
-    description:
-      "Baterai • Stainless steel • Permintaan global tinggi",
+    description: "Baterai • Stainless steel • Permintaan global tinggi",
   },
   {
     name: "Batubara",
     image: "/images/commodities/batubara.jpg",
-    description:
-      "Energi • Industri • Sumber energi utama",
+    description: "Energi • Industri • Sumber energi utama",
   },
   {
     name: "Emas",
     image: "/images/commodities/emas.jpg",
-    description:
-      "Investasi • Perhiasan • Nilai lindung tinggi",
+    description: "Investasi • Perhiasan • Nilai lindung tinggi",
   },
   {
     name: "Tembaga",
     image: "/images/commodities/tembaga.jpg",
-    description:
-      "Elektrifikasi • Konstruksi • Konduktivitas unggul",
+    description: "Elektrifikasi • Konstruksi • Konduktivitas unggul",
   },
 ] as const;
 
@@ -91,12 +82,7 @@ type ChartPanelProps = {
   children: ReactNode;
 };
 
-function ChartPanel({
-  title,
-  unit,
-  source,
-  children,
-}: ChartPanelProps) {
+function ChartPanel({ title, unit, source, children }: ChartPanelProps) {
   return (
     <article className="rounded-2xl border border-border bg-surface/70 p-6 shadow-sm backdrop-blur">
       <div className="flex items-start justify-between gap-4">
@@ -107,10 +93,7 @@ function ChartPanel({
             {unit}
           </span>
 
-          <Info
-            aria-hidden="true"
-            className="h-4 w-4 text-muted-foreground"
-          />
+          <Info aria-hidden="true" className="h-4 w-4 text-muted-foreground" />
         </h3>
 
         <Link
@@ -123,9 +106,7 @@ function ChartPanel({
 
       <div className="mt-6 h-[270px]">{children}</div>
 
-      <p className="mt-4 text-xs text-muted-foreground">
-        {source}
-      </p>
+      <p className="mt-4 text-xs text-muted-foreground">{source}</p>
     </article>
   );
 }
@@ -137,7 +118,6 @@ function DomesticPricePanel() {
         <div>
           <h3 className="flex items-center gap-2 text-lg font-bold text-foreground">
             Harga Domestik Komoditas
-
             <Info
               aria-hidden="true"
               className="h-4 w-4 text-muted-foreground"
@@ -217,9 +197,8 @@ export function IntelligencePreviewSection() {
           </h2>
 
           <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-            Ringkasan visual data produksi dan harga domestik komoditas
-            untuk membantu memahami perkembangan sektor pertambangan
-            Indonesia.
+            Ringkasan visual data produksi dan harga domestik komoditas untuk
+            membantu memahami perkembangan sektor pertambangan Indonesia.
           </p>
 
           <div className="mt-8 space-y-4">
@@ -231,15 +210,10 @@ export function IntelligencePreviewSection() {
                   key={item.label}
                   className="rounded-2xl border border-border bg-surface/70 p-4"
                 >
-                  <p className="text-xs text-muted-foreground">
-                    {item.label}
-                  </p>
+                  <p className="text-xs text-muted-foreground">{item.label}</p>
 
                   <div className="mt-2 flex items-center gap-2 text-sm text-foreground">
-                    <Icon
-                      aria-hidden="true"
-                      className="h-4 w-4 text-accent"
-                    />
+                    <Icon aria-hidden="true" className="h-4 w-4 text-accent" />
 
                     {item.value}
                   </div>
@@ -251,8 +225,8 @@ export function IntelligencePreviewSection() {
 
         <ChartPanel
           title="Tren Produksi"
-          unit="(preview)"
-          source="Data demonstrasi antarmuka — akan diganti dengan dataset produksi tervalidasi."
+          unit="(data publik)"
+          source="Dataset awal: Batubara • Hanya data Final/Published yang dapat ditampilkan."
         >
           <ProductionPreviewChart />
         </ChartPanel>
@@ -268,8 +242,8 @@ export function IntelligencePreviewSection() {
             </h3>
 
             <p className="mt-2 max-w-md text-sm text-muted-foreground">
-              Jelajahi komoditas strategis yang mendorong pertumbuhan
-              sektor pertambangan Indonesia.
+              Jelajahi komoditas strategis yang mendorong pertumbuhan sektor
+              pertambangan Indonesia.
             </p>
           </div>
 
@@ -278,11 +252,7 @@ export function IntelligencePreviewSection() {
             className="inline-flex items-center gap-2 text-sm font-medium text-accent transition-colors hover:text-primary"
           >
             Lihat semua komoditas
-
-            <ArrowRight
-              aria-hidden="true"
-              className="h-4 w-4"
-            />
+            <ArrowRight aria-hidden="true" className="h-4 w-4" />
           </Link>
         </div>
 
@@ -315,11 +285,7 @@ export function IntelligencePreviewSection() {
                   className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-accent transition-colors hover:text-primary"
                 >
                   Pelajari lebih lanjut
-
-                  <ArrowRight
-                    aria-hidden="true"
-                    className="h-3.5 w-3.5"
-                  />
+                  <ArrowRight aria-hidden="true" className="h-3.5 w-3.5" />
                 </Link>
               </div>
             </article>
