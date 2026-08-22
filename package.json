@@ -17,7 +17,9 @@
     "data:preflight:intelligence": "tsx scripts/preflight-intelligence-import.ts",
     "data:dry-run:intelligence": "tsx scripts/dry-run-intelligence-import.ts",
     "data:import:intelligence": "tsx scripts/import-intelligence.ts",
-    "data:verify:intelligence": "tsx scripts/verify-intelligence-import.ts"
+    "data:verify:intelligence": "tsx scripts/verify-intelligence-import.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
@@ -43,6 +45,7 @@
     "eslint-config-next": "16.3.1",
     "tailwindcss": "^4",
     "tsx": "^4.23.12",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^4.1.11"
   }
 }
