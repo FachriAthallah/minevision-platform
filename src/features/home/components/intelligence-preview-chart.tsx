@@ -11,61 +11,9 @@ import {
   YAxis,
 } from "recharts";
 
-type ProductionRecordType = "actual" | "provisional" | "projection" | "revised";
-
-type PublicProductionRecord = {
-  commodity: {
-    name: string;
-    slug: string;
-    symbol: string | null;
-  };
-  year: number;
-  value: number;
-  unit: {
-    code: string;
-    name: string;
-    symbol: string;
-  };
-  recordType: ProductionRecordType;
-  sources: Array<{
-    label: string;
-    pageReference: string | null;
-    url: string | null;
-    isPrimary: boolean;
-    source: {
-      name: string;
-      slug: string;
-      organization: string;
-    };
-  }>;
-};
-
-type ProductionApiResponse =
-  | {
-      success: true;
-      data: PublicProductionRecord[];
-      meta: {
-        count: number;
-        filters: {
-          commodity: string;
-          fromYear?: number;
-          toYear?: number;
-        };
-      };
-    }
-  | {
-      success: false;
-      error: {
-        code: string;
-        message: string;
-      };
-    };
-
-type ProductionChartPoint = {
-  year: number;
-  actual: number | null;
-  projected: number | null;
-};
+import { fetchPublicProduction } from "@/features/intelligence/client/fetch-public-production";
+import { transformProductionRecords } from "@/features/intelligence/lib/production-series";
+import type { PublicProductionRecord } from "@/features/intelligence/types/production";
 
 type ProductionRequestState =
   | {
@@ -78,15 +26,6 @@ type ProductionRequestState =
       status: "success";
       records: PublicProductionRecord[];
     };
-
-const actualRecordPriority: Record<
-  Exclude<ProductionRecordType, "projection">,
-  number
-> = {
-  provisional: 1,
-  actual: 2,
-  revised: 3,
-};
 
 const axisStyle = {
   stroke: "var(--color-muted-foreground, #94a3b8)",
@@ -103,47 +42,6 @@ const tooltipStyle = {
   fontSize: 12,
 };
 
-function transformProductionRecords(
-  records: PublicProductionRecord[],
-): ProductionChartPoint[] {
-  const pointsByYear = new Map<
-    number,
-    ProductionChartPoint & {
-      actualPriority: number;
-    }
-  >();
-
-  for (const record of records) {
-    const currentPoint = pointsByYear.get(record.year) ?? {
-      year: record.year,
-      actual: null,
-      projected: null,
-      actualPriority: 0,
-    };
-
-    if (record.recordType === "projection") {
-      currentPoint.projected = record.value;
-    } else {
-      const priority = actualRecordPriority[record.recordType];
-
-      if (priority >= currentPoint.actualPriority) {
-        currentPoint.actual = record.value;
-        currentPoint.actualPriority = priority;
-      }
-    }
-
-    pointsByYear.set(record.year, currentPoint);
-  }
-
-  return Array.from(pointsByYear.values())
-    .sort((firstPoint, secondPoint) => firstPoint.year - secondPoint.year)
-    .map((point) => ({
-      year: point.year,
-      actual: point.actual,
-      projected: point.projected,
-    }));
-}
-
 export function ProductionPreviewChart() {
   const [requestVersion, setRequestVersion] = useState(0);
 
@@ -156,25 +54,14 @@ export function ProductionPreviewChart() {
 
     async function loadProduction() {
       try {
-        const response = await fetch(
-          "/api/v1/intelligence/production?commodity=batubara",
-          {
-            headers: {
-              Accept: "application/json",
-            },
-            signal: abortController.signal,
-          },
-        );
-
-        const payload = (await response.json()) as ProductionApiResponse;
-
-        if (!response.ok || !payload.success) {
-          throw new Error("Public production API returned an error.");
-        }
+        const records = await fetchPublicProduction({
+          commodity: "batubara",
+          signal: abortController.signal,
+        });
 
         setRequestState({
           status: "success",
-          records: payload.data,
+          records,
         });
       } catch (error) {
         if (abortController.signal.aborted) {
@@ -328,8 +215,8 @@ export function ProductionPreviewChart() {
 
             <Line
               type="monotone"
-              dataKey="actual"
-              name="Produksi aktual"
+              dataKey="historical"
+              name="Data historis"
               stroke="var(--chart-production, #22d3ee)"
               strokeWidth={3}
               connectNulls={false}
@@ -347,7 +234,7 @@ export function ProductionPreviewChart() {
 
             <Line
               type="monotone"
-              dataKey="projected"
+              dataKey="projection"
               name="Proyeksi"
               stroke="var(--chart-projection, #2dd4bf)"
               strokeWidth={3}
