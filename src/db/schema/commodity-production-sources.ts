@@ -1,5 +1,7 @@
+import { sql } from "drizzle-orm";
 import {
   boolean,
+  check,
   index,
   pgTable,
   text,
@@ -52,6 +54,10 @@ export const commodityProductionSources = pgTable(
       table.citationLabel,
     ),
 
+    uniqueIndex("commodity_production_sources_one_primary_idx")
+      .on(table.productionId)
+      .where(sql`${table.isPrimary} = true`),
+
     index("commodity_production_sources_production_id_idx").on(
       table.productionId,
     ),
@@ -61,6 +67,11 @@ export const commodityProductionSources = pgTable(
     index("commodity_production_sources_primary_idx").on(
       table.productionId,
       table.isPrimary,
+    ),
+
+    check(
+      "commodity_production_sources_citation_label_check",
+      sql`NULLIF(BTRIM(${table.citationLabel}), '') IS NOT NULL`,
     ),
   ],
 );

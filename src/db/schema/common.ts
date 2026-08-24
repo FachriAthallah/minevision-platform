@@ -67,6 +67,17 @@ export const dataRecordTypeEnum = pgEnum("data_record_type", [
   "revised",
 ]);
 
+export const gdpPriceBasisEnum = pgEnum("gdp_price_basis", [
+  "current_prices",
+  "constant_prices",
+]);
+
+export const statisticalDataStatusEnum = pgEnum("statistical_data_status", [
+  "final",
+  "preliminary",
+  "very_preliminary",
+]);
+
 export const pricePeriodEnum = pgEnum("price_period", [
   "daily",
   "weekly",
