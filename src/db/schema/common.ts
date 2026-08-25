@@ -83,6 +83,11 @@ export const investmentOriginTypeEnum = pgEnum("investment_origin_type", [
   "pmdn",
 ]);
 
+export const tradeDataAvailabilityEnum = pgEnum(
+  "trade_data_availability",
+  ["reported", "not_reported", "reported_zero", "estimated"],
+);
+
 export const pricePeriodEnum = pgEnum("price_period", [
   "daily",
   "weekly",

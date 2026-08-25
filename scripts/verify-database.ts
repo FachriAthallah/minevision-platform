@@ -34,12 +34,15 @@ const requiredTables = [
   "economic_gdp_sources",
   "mining_investment_annual",
   "mining_investment_sources",
+  "minerba_exports_annual",
+  "minerba_export_sources",
 ] as const;
 
 const requiredViews = [
   "economic_gdp_annual_metrics",
   "mining_investment_annual_metrics",
   "mining_investment_annual_summary",
+  "minerba_exports_annual_metrics",
 ] as const;
 
 const requiredPolicies = [
@@ -59,6 +62,14 @@ const requiredPolicies = [
     tableName: "mining_investment_sources",
     policyName: "public_read_sources_of_published_mining_investment",
   },
+  {
+    tableName: "minerba_exports_annual",
+    policyName: "public_read_published_verified_minerba_exports",
+  },
+  {
+    tableName: "minerba_export_sources",
+    policyName: "public_read_sources_of_published_minerba_exports",
+  },
 ] as const;
 
 const minimumMasterRecords: Record<string, number> = {
@@ -71,6 +82,15 @@ const minimumMasterRecords: Record<string, number> = {
 
 const expectedGdpYears = [2019, 2020, 2021, 2022, 2023, 2024, 2025];
 const expectedInvestmentYears = [2019, 2020, 2021, 2022, 2023, 2024, 2025];
+const expectedExportYears = [2019, 2020, 2021, 2022, 2023, 2024, 2025];
+
+const expectedExportRecords = 49;
+const expectedExportCommodities = 7;
+const expectedReportedExportRecords = 35;
+const expectedNotReportedExportRecords = 14;
+const expectedFinalExportRecords = 35;
+const expectedNonFinalExportRecords = 14;
+const expectedExportSourceRecords = 54;
 
 type DatabaseTable = {
   table_name: string;
@@ -119,6 +139,26 @@ type InvestmentSummary = {
   source_records: number;
   metrics_view_records: number;
   summary_view_records: number;
+};
+
+type ExportSummary = {
+  total: number;
+  first_year: number | null;
+  last_year: number | null;
+  distinct_years: number;
+  available_years: number[] | null;
+  distinct_commodities: number;
+  reported_records: number;
+  not_reported_records: number;
+  unexpected_availability_records: number;
+  invalid_reported_payload_records: number;
+  invalid_not_reported_payload_records: number;
+  invalid_status_records: number;
+  invalid_data_status_records: number;
+  invalid_record_type_records: number;
+  records_without_sources: number;
+  source_records: number;
+  view_records: number;
 };
 
 async function verifyTables() {
@@ -753,6 +793,332 @@ async function verifyInvestmentData(
   return valid;
 }
 
+async function verifyExportData(
+  tableMap: Map<string, boolean>,
+  viewSet: Set<string>,
+) {
+  console.log("\nMemeriksa data ekspor minerba:");
+
+  if (
+    !tableMap.has("minerba_exports_annual") ||
+    !tableMap.has("minerba_export_sources") ||
+    !viewSet.has("minerba_exports_annual_metrics")
+  ) {
+    console.error(
+      "[FAIL] Pemeriksaan ekspor tidak dapat dilakukan karena " +
+        "tabel atau view belum lengkap.",
+    );
+
+    return false;
+  }
+
+  const result = await sqlClient<ExportSummary[]>`
+    SELECT
+      COUNT(*)::integer AS total,
+
+      MIN(export_record.year)::integer
+        AS first_year,
+
+      MAX(export_record.year)::integer
+        AS last_year,
+
+      COUNT(DISTINCT export_record.year)::integer
+        AS distinct_years,
+
+      ARRAY_AGG(
+        DISTINCT export_record.year::integer
+        ORDER BY export_record.year::integer
+      ) AS available_years,
+
+      COUNT(DISTINCT export_record.commodity_id)::integer
+        AS distinct_commodities,
+
+      COUNT(*) FILTER (
+        WHERE export_record.data_availability = 'reported'
+      )::integer AS reported_records,
+
+      COUNT(*) FILTER (
+        WHERE export_record.data_availability = 'not_reported'
+      )::integer AS not_reported_records,
+
+      COUNT(*) FILTER (
+        WHERE export_record.data_availability NOT IN (
+          'reported',
+          'not_reported'
+        )
+      )::integer AS unexpected_availability_records,
+
+      COUNT(*) FILTER (
+        WHERE
+          export_record.data_availability = 'reported'
+          AND (
+            export_record.destination_region_id IS NULL
+            OR export_record.export_volume IS NULL
+            OR export_record.volume_unit_code IS NULL
+            OR export_record.volume_scale IS NULL
+            OR export_record.fob_value IS NULL
+            OR export_record.fob_value_scale IS NULL
+          )
+      )::integer AS invalid_reported_payload_records,
+
+      COUNT(*) FILTER (
+        WHERE
+          export_record.data_availability = 'not_reported'
+          AND (
+            export_record.destination_region_id IS NOT NULL
+            OR export_record.export_volume IS NOT NULL
+            OR export_record.volume_unit_code IS NOT NULL
+            OR export_record.volume_scale IS NOT NULL
+            OR export_record.fob_value IS NOT NULL
+            OR export_record.fob_value_scale IS NOT NULL
+          )
+      )::integer AS invalid_not_reported_payload_records,
+
+      COUNT(*) FILTER (
+        WHERE
+          export_record.verification_status <> 'pending'
+          OR export_record.publication_status <> 'draft'
+      )::integer AS invalid_status_records,
+
+      COUNT(*) FILTER (
+        WHERE export_record.data_status <> 'final'
+      )::integer AS invalid_data_status_records,
+
+      COUNT(*) FILTER (
+        WHERE export_record.record_type <> 'actual'
+      )::integer AS invalid_record_type_records,
+
+      COUNT(*) FILTER (
+        WHERE NOT EXISTS (
+          SELECT 1
+          FROM public.minerba_export_sources AS export_source
+          WHERE
+            export_source.minerba_export_id =
+              export_record.id
+        )
+      )::integer AS records_without_sources,
+
+      (
+        SELECT COUNT(*)::integer
+        FROM public.minerba_export_sources
+      ) AS source_records,
+
+      (
+        SELECT COUNT(*)::integer
+        FROM public.minerba_exports_annual_metrics
+      ) AS view_records
+
+    FROM public.minerba_exports_annual AS export_record;
+  `;
+
+  const summary = result[0];
+
+  if (!summary) {
+    console.error("[FAIL] Ringkasan data ekspor minerba tidak ditemukan.");
+
+    return false;
+  }
+
+  let valid = true;
+
+  if (summary.total !== expectedExportRecords) {
+    console.error(
+      `[FAIL] minerba_exports_annual: ${summary.total} record, ` +
+        `diharapkan ${expectedExportRecords}`,
+    );
+
+    valid = false;
+  } else {
+    console.log(`[OK] minerba_exports_annual: ${summary.total} record`);
+  }
+
+  if (
+    summary.first_year !== expectedExportYears[0] ||
+    summary.last_year !== expectedExportYears.at(-1) ||
+    summary.distinct_years !== expectedExportYears.length
+  ) {
+    console.error(
+      `[FAIL] Rentang tahun ekspor tidak lengkap: ` +
+        `${summary.first_year ?? "null"}-` +
+        `${summary.last_year ?? "null"}, ` +
+        `${summary.distinct_years} tahun berbeda`,
+    );
+
+    valid = false;
+  } else {
+    console.log("[OK] Rentang tahun ekspor lengkap: 2019-2025");
+  }
+
+  const availableYears = summary.available_years ?? [];
+
+  if (JSON.stringify(availableYears) !== JSON.stringify(expectedExportYears)) {
+    console.error(
+      `[FAIL] Tahun ekspor tidak sesuai: ` + `${availableYears.join(", ")}`,
+    );
+
+    valid = false;
+  } else {
+    console.log(
+      `[OK] Tahun ekspor tersedia: ` + `${availableYears.join(", ")}`,
+    );
+  }
+
+  if (summary.distinct_commodities !== expectedExportCommodities) {
+    console.error(
+      `[FAIL] Komoditas ekspor: ` +
+        `${summary.distinct_commodities}, ` +
+        `diharapkan ${expectedExportCommodities}`,
+    );
+
+    valid = false;
+  } else {
+    console.log(
+      `[OK] Komoditas ekspor: ` + `${summary.distinct_commodities} komoditas`,
+    );
+  }
+
+  if (summary.reported_records !== expectedReportedExportRecords) {
+    console.error(
+      `[FAIL] Data ekspor reported: ` +
+        `${summary.reported_records} record, ` +
+        `diharapkan ${expectedReportedExportRecords}`,
+    );
+
+    valid = false;
+  } else {
+    console.log(
+      `[OK] Data ekspor reported: ` + `${summary.reported_records} record`,
+    );
+  }
+
+  if (summary.not_reported_records !== expectedNotReportedExportRecords) {
+    console.error(
+      `[FAIL] Data ekspor not_reported: ` +
+        `${summary.not_reported_records} record, ` +
+        `diharapkan ${expectedNotReportedExportRecords}`,
+    );
+
+    valid = false;
+  } else {
+    console.log(
+      `[OK] Data ekspor not_reported: ` +
+        `${summary.not_reported_records} record`,
+    );
+  }
+
+  if (summary.unexpected_availability_records > 0) {
+    console.error(
+      `[FAIL] ${summary.unexpected_availability_records} record ` +
+        "memiliki data_availability yang tidak diharapkan",
+    );
+
+    valid = false;
+  } else {
+    console.log("[OK] Seluruh status ketersediaan ekspor sesuai");
+  }
+
+  if (summary.invalid_reported_payload_records > 0) {
+    console.error(
+      `[FAIL] ${summary.invalid_reported_payload_records} record ` +
+        "reported tidak memiliki payload lengkap",
+    );
+
+    valid = false;
+  } else {
+    console.log("[OK] Seluruh record reported memiliki payload lengkap");
+  }
+
+  if (summary.invalid_not_reported_payload_records > 0) {
+    console.error(
+      `[FAIL] ${summary.invalid_not_reported_payload_records} ` +
+        "record not_reported masih memiliki payload ekspor",
+    );
+
+    valid = false;
+  } else {
+    console.log("[OK] Seluruh record not_reported tidak memiliki payload");
+  }
+
+  if (summary.invalid_status_records > 0) {
+    console.error(
+      `[FAIL] ${summary.invalid_status_records} record ekspor ` +
+        "tidak berstatus pending dan draft",
+    );
+
+    valid = false;
+  } else {
+    console.log("[OK] Seluruh data ekspor masih pending dan draft");
+  }
+
+  if (summary.invalid_data_status_records !== expectedNonFinalExportRecords) {
+    console.error(
+      "[FAIL] Jumlah data ekspor non-final tidak sesuai: " +
+        `${summary.invalid_data_status_records} record, ` +
+        `diharapkan ${expectedNonFinalExportRecords}`,
+    );
+
+    valid = false;
+  } else {
+    console.log(
+      "[OK] Status data ekspor sesuai: " +
+        `${expectedFinalExportRecords} final, ` +
+        `${expectedNonFinalExportRecords} non-final`,
+    );
+  }
+
+  if (summary.invalid_record_type_records > 0) {
+    console.error(
+      `[FAIL] ${summary.invalid_record_type_records} record ` +
+        "ekspor bukan actual",
+    );
+
+    valid = false;
+  } else {
+    console.log("[OK] Seluruh data ekspor bertipe actual");
+  }
+
+  if (summary.records_without_sources > 0) {
+    console.error(
+      `[FAIL] ${summary.records_without_sources} record ekspor ` +
+        "tidak memiliki sumber",
+    );
+
+    valid = false;
+  } else {
+    console.log("[OK] Seluruh record ekspor memiliki sumber");
+  }
+
+  if (summary.source_records !== expectedExportSourceRecords) {
+    console.error(
+      `[FAIL] minerba_export_sources: ${summary.source_records} record, ` +
+        `diharapkan ${expectedExportSourceRecords}`,
+    );
+
+    valid = false;
+  } else {
+    console.log(
+      `[OK] minerba_export_sources: ${summary.source_records} record`,
+    );
+  }
+
+  if (summary.view_records !== expectedExportRecords) {
+    console.error(
+      `[FAIL] minerba_exports_annual_metrics: ` +
+        `${summary.view_records} record, ` +
+        `diharapkan ${expectedExportRecords}`,
+    );
+
+    valid = false;
+  } else {
+    console.log(
+      `[OK] minerba_exports_annual_metrics: ` +
+        `${summary.view_records} record`,
+    );
+  }
+
+  return valid;
+}
+
 async function main() {
   console.log("Menjalankan verifikasi database MineVision...");
 
@@ -779,6 +1145,11 @@ async function main() {
       viewVerification.viewSet,
     );
 
+    const exportDataValid = await verifyExportData(
+      tableVerification.tableMap,
+      viewVerification.viewSet,
+    );
+
     const databaseValid =
       tableVerification.valid &&
       rlsValid &&
@@ -786,7 +1157,8 @@ async function main() {
       policiesValid &&
       masterRecordsValid &&
       gdpDataValid &&
-      investmentDataValid;
+      investmentDataValid &&
+      exportDataValid;
 
     if (!databaseValid) {
       throw new Error(
