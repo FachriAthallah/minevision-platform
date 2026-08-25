@@ -78,6 +78,13 @@
       "when": 1787639159937,
       "tag": "0010_database-schema-sync-exports",
       "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1787642320757,
+      "tag": "0011_database-schema-sync-smelters",
+      "breakpoints": true
     }
   ]
 }

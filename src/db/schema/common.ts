@@ -83,10 +83,29 @@ export const investmentOriginTypeEnum = pgEnum("investment_origin_type", [
   "pmdn",
 ]);
 
-export const tradeDataAvailabilityEnum = pgEnum(
-  "trade_data_availability",
-  ["reported", "not_reported", "reported_zero", "estimated"],
-);
+export const tradeDataAvailabilityEnum = pgEnum("trade_data_availability", [
+  "reported",
+  "not_reported",
+  "reported_zero",
+  "estimated",
+]);
+
+export const smelterFacilityTypeEnum = pgEnum("smelter_facility_type", [
+  "smelter",
+  "refinery",
+  "integrated_processing",
+  "other",
+]);
+
+export const smelterFacilityStatusEnum = pgEnum("smelter_facility_status", [
+  "planned",
+  "construction",
+  "commissioning",
+  "operating",
+  "temporarily_suspended",
+  "inactive",
+  "unknown",
+]);
 
 export const pricePeriodEnum = pgEnum("price_period", [
   "daily",

@@ -36,6 +36,10 @@ const requiredTables = [
   "mining_investment_sources",
   "minerba_exports_annual",
   "minerba_export_sources",
+  "smelter_operators",
+  "smelter_facilities",
+  "smelter_facility_outputs",
+  "smelter_facility_sources",
 ] as const;
 
 const requiredViews = [
@@ -43,6 +47,8 @@ const requiredViews = [
   "mining_investment_annual_metrics",
   "mining_investment_annual_summary",
   "minerba_exports_annual_metrics",
+  "smelter_facility_catalog",
+  "smelter_summary_by_commodity",
 ] as const;
 
 const requiredPolicies = [
@@ -70,6 +76,22 @@ const requiredPolicies = [
     tableName: "minerba_export_sources",
     policyName: "public_read_sources_of_published_minerba_exports",
   },
+  {
+    tableName: "smelter_operators",
+    policyName: "smelter_operators_public_read",
+  },
+  {
+    tableName: "smelter_facilities",
+    policyName: "smelter_facilities_public_read",
+  },
+  {
+    tableName: "smelter_facility_outputs",
+    policyName: "smelter_facility_outputs_public_read",
+  },
+  {
+    tableName: "smelter_facility_sources",
+    policyName: "smelter_facility_sources_public_read",
+  },
 ] as const;
 
 const minimumMasterRecords: Record<string, number> = {
@@ -91,6 +113,18 @@ const expectedNotReportedExportRecords = 14;
 const expectedFinalExportRecords = 35;
 const expectedNonFinalExportRecords = 14;
 const expectedExportSourceRecords = 54;
+
+const expectedSmelterOperatorRecords = 8;
+const expectedSmelterFacilityRecords = 9;
+const expectedSmelterOutputRecords = 9;
+const expectedSmelterSourceRecords = 11;
+const expectedSmelterCommodityRecords = 4;
+const expectedSmelterProvinceRecords = 7;
+const expectedPublishedVerifiedSmelterRecords = 7;
+const expectedPendingDraftSmelterRecords = 2;
+const expectedSmelterTypeRecords = 6;
+const expectedRefineryTypeRecords = 2;
+const expectedIntegratedProcessingTypeRecords = 1;
 
 type DatabaseTable = {
   table_name: string;
@@ -159,6 +193,29 @@ type ExportSummary = {
   records_without_sources: number;
   source_records: number;
   view_records: number;
+};
+
+type SmelterSummary = {
+  operator_records: number;
+  facility_records: number;
+  output_records: number;
+  source_records: number;
+  catalog_records: number;
+  summary_records: number;
+  commodity_records: number;
+  province_records: number;
+  operating_facilities: number;
+  active_facilities: number;
+  published_verified_facilities: number;
+  pending_draft_facilities: number;
+  invalid_status_combinations: number;
+  smelter_type_records: number;
+  refinery_type_records: number;
+  integrated_processing_type_records: number;
+  other_type_records: number;
+  facilities_without_outputs: number;
+  facilities_without_sources: number;
+  facilities_with_invalid_primary_outputs: number;
 };
 
 async function verifyTables() {
@@ -1119,6 +1176,376 @@ async function verifyExportData(
   return valid;
 }
 
+async function verifySmelterData(
+  tableMap: Map<string, boolean>,
+  viewSet: Set<string>,
+) {
+  const requiredSmelterTables = [
+    "smelter_operators",
+    "smelter_facilities",
+    "smelter_facility_outputs",
+    "smelter_facility_sources",
+  ];
+
+  const requiredSmelterViews = [
+    "smelter_facility_catalog",
+    "smelter_summary_by_commodity",
+  ];
+
+  if (
+    requiredSmelterTables.some((tableName) => !tableMap.has(tableName)) ||
+    requiredSmelterViews.some((viewName) => !viewSet.has(viewName))
+  ) {
+    console.error(
+      "\n[FAIL] Verifikasi data smelter dilewati karena tabel atau view " +
+        "smelter belum lengkap.",
+    );
+
+    return false;
+  }
+
+  const [summary] = await sqlClient<SmelterSummary[]>`
+    SELECT
+      (
+        SELECT COUNT(*)::integer
+        FROM public.smelter_operators
+      ) AS operator_records,
+      COUNT(*)::integer AS facility_records,
+      (
+        SELECT COUNT(*)::integer
+        FROM public.smelter_facility_outputs
+      ) AS output_records,
+      (
+        SELECT COUNT(*)::integer
+        FROM public.smelter_facility_sources
+      ) AS source_records,
+      (
+        SELECT COUNT(*)::integer
+        FROM public.smelter_facility_catalog
+      ) AS catalog_records,
+      (
+        SELECT COUNT(*)::integer
+        FROM public.smelter_summary_by_commodity
+      ) AS summary_records,
+      (
+        SELECT COUNT(DISTINCT facility_output.commodity_id)::integer
+        FROM public.smelter_facility_outputs AS facility_output
+      ) AS commodity_records,
+      COUNT(DISTINCT facility.province_region_id)::integer
+        AS province_records,
+      (
+        COUNT(*) FILTER (
+          WHERE facility.current_status = 'operating'
+        )
+      )::integer AS operating_facilities,
+      (
+        COUNT(*) FILTER (
+          WHERE facility.is_active = true
+        )
+      )::integer AS active_facilities,
+      (
+        COUNT(*) FILTER (
+          WHERE
+            facility.verification_status = 'verified'
+            AND facility.publication_status = 'published'
+            AND facility.is_active = true
+        )
+      )::integer AS published_verified_facilities,
+      (
+        COUNT(*) FILTER (
+          WHERE
+            facility.verification_status = 'pending'
+            AND facility.publication_status = 'draft'
+            AND facility.is_active = true
+        )
+      )::integer AS pending_draft_facilities,
+      (
+        COUNT(*) FILTER (
+          WHERE NOT (
+            (
+              facility.verification_status = 'verified'
+              AND facility.publication_status = 'published'
+              AND facility.is_active = true
+            )
+            OR
+            (
+              facility.verification_status = 'pending'
+              AND facility.publication_status = 'draft'
+              AND facility.is_active = true
+            )
+          )
+        )
+      )::integer AS invalid_status_combinations,
+      (
+        COUNT(*) FILTER (
+          WHERE facility.facility_type = 'smelter'
+        )
+      )::integer AS smelter_type_records,
+      (
+        COUNT(*) FILTER (
+          WHERE facility.facility_type = 'refinery'
+        )
+      )::integer AS refinery_type_records,
+      (
+        COUNT(*) FILTER (
+          WHERE facility.facility_type = 'integrated_processing'
+        )
+      )::integer AS integrated_processing_type_records,
+      (
+        COUNT(*) FILTER (
+          WHERE facility.facility_type = 'other'
+        )
+      )::integer AS other_type_records,
+      (
+        COUNT(*) FILTER (
+          WHERE NOT EXISTS (
+            SELECT 1
+            FROM public.smelter_facility_outputs AS facility_output
+            WHERE facility_output.facility_id = facility.id
+          )
+        )
+      )::integer AS facilities_without_outputs,
+      (
+        COUNT(*) FILTER (
+          WHERE NOT EXISTS (
+            SELECT 1
+            FROM public.smelter_facility_sources AS facility_source
+            WHERE facility_source.facility_id = facility.id
+          )
+        )
+      )::integer AS facilities_without_sources,
+      (
+        SELECT COUNT(*)::integer
+        FROM (
+          SELECT checked_facility.id
+          FROM public.smelter_facilities AS checked_facility
+          LEFT JOIN public.smelter_facility_outputs AS checked_output
+            ON checked_output.facility_id = checked_facility.id
+          GROUP BY checked_facility.id
+          HAVING
+            COUNT(*) FILTER (
+              WHERE checked_output.is_primary = true
+            ) <> 1
+        ) AS invalid_primary_output
+      ) AS facilities_with_invalid_primary_outputs
+    FROM public.smelter_facilities AS facility;
+  `;
+
+  if (!summary) {
+    console.error("\n[FAIL] Ringkasan data smelter tidak tersedia.");
+
+    return false;
+  }
+
+  let valid = true;
+
+  console.log("\nMemeriksa data fasilitas smelter:");
+
+  if (summary.operator_records !== expectedSmelterOperatorRecords) {
+    console.error(
+      `[FAIL] smelter_operators: ${summary.operator_records} record, ` +
+        `diharapkan ${expectedSmelterOperatorRecords}`,
+    );
+
+    valid = false;
+  } else {
+    console.log(`[OK] smelter_operators: ${summary.operator_records} record`);
+  }
+
+  if (summary.facility_records !== expectedSmelterFacilityRecords) {
+    console.error(
+      `[FAIL] smelter_facilities: ${summary.facility_records} record, ` +
+        `diharapkan ${expectedSmelterFacilityRecords}`,
+    );
+
+    valid = false;
+  } else {
+    console.log(`[OK] smelter_facilities: ${summary.facility_records} record`);
+  }
+
+  if (summary.output_records !== expectedSmelterOutputRecords) {
+    console.error(
+      `[FAIL] smelter_facility_outputs: ${summary.output_records} record, ` +
+        `diharapkan ${expectedSmelterOutputRecords}`,
+    );
+
+    valid = false;
+  } else {
+    console.log(
+      `[OK] smelter_facility_outputs: ${summary.output_records} record`,
+    );
+  }
+
+  if (summary.source_records !== expectedSmelterSourceRecords) {
+    console.error(
+      `[FAIL] smelter_facility_sources: ${summary.source_records} record, ` +
+        `diharapkan ${expectedSmelterSourceRecords}`,
+    );
+
+    valid = false;
+  } else {
+    console.log(
+      `[OK] smelter_facility_sources: ${summary.source_records} record`,
+    );
+  }
+
+  if (summary.catalog_records !== expectedSmelterFacilityRecords) {
+    console.error(
+      `[FAIL] smelter_facility_catalog: ${summary.catalog_records} record, ` +
+        `diharapkan ${expectedSmelterFacilityRecords}`,
+    );
+
+    valid = false;
+  } else {
+    console.log(
+      `[OK] smelter_facility_catalog: ${summary.catalog_records} record`,
+    );
+  }
+
+  if (summary.summary_records !== expectedSmelterCommodityRecords) {
+    console.error(
+      `[FAIL] smelter_summary_by_commodity: ${summary.summary_records} ` +
+        `record, diharapkan ${expectedSmelterCommodityRecords}`,
+    );
+
+    valid = false;
+  } else {
+    console.log(
+      `[OK] smelter_summary_by_commodity: ${summary.summary_records} record`,
+    );
+  }
+
+  if (summary.commodity_records !== expectedSmelterCommodityRecords) {
+    console.error(
+      `[FAIL] Komoditas smelter: ${summary.commodity_records}, ` +
+        `diharapkan ${expectedSmelterCommodityRecords}`,
+    );
+
+    valid = false;
+  } else {
+    console.log(`[OK] Komoditas smelter: ${summary.commodity_records}`);
+  }
+
+  if (summary.province_records !== expectedSmelterProvinceRecords) {
+    console.error(
+      `[FAIL] Provinsi fasilitas smelter: ${summary.province_records}, ` +
+        `diharapkan ${expectedSmelterProvinceRecords}`,
+    );
+
+    valid = false;
+  } else {
+    console.log(`[OK] Provinsi fasilitas smelter: ${summary.province_records}`);
+  }
+
+  if (summary.operating_facilities !== expectedSmelterFacilityRecords) {
+    console.error(
+      `[FAIL] Fasilitas berstatus operating: ` +
+        `${summary.operating_facilities}, ` +
+        `diharapkan ${expectedSmelterFacilityRecords}`,
+    );
+
+    valid = false;
+  } else {
+    console.log(
+      `[OK] Seluruh ${summary.operating_facilities} fasilitas ` +
+        "berstatus operating",
+    );
+  }
+
+  if (summary.active_facilities !== expectedSmelterFacilityRecords) {
+    console.error(
+      `[FAIL] Fasilitas aktif: ${summary.active_facilities}, ` +
+        `diharapkan ${expectedSmelterFacilityRecords}`,
+    );
+
+    valid = false;
+  } else {
+    console.log("[OK] Seluruh fasilitas smelter aktif");
+  }
+
+  if (
+    summary.published_verified_facilities !==
+      expectedPublishedVerifiedSmelterRecords ||
+    summary.pending_draft_facilities !== expectedPendingDraftSmelterRecords ||
+    summary.invalid_status_combinations > 0
+  ) {
+    console.error(
+      "[FAIL] Distribusi status fasilitas smelter tidak sesuai: " +
+        `${summary.published_verified_facilities} verified/published, ` +
+        `${summary.pending_draft_facilities} pending/draft, ` +
+        `${summary.invalid_status_combinations} kombinasi tidak valid`,
+    );
+
+    valid = false;
+  } else {
+    console.log(
+      "[OK] Status fasilitas sesuai: " +
+        `${expectedPublishedVerifiedSmelterRecords} verified/published, ` +
+        `${expectedPendingDraftSmelterRecords} pending/draft`,
+    );
+  }
+
+  if (
+    summary.smelter_type_records !== expectedSmelterTypeRecords ||
+    summary.refinery_type_records !== expectedRefineryTypeRecords ||
+    summary.integrated_processing_type_records !==
+      expectedIntegratedProcessingTypeRecords ||
+    summary.other_type_records !== 0
+  ) {
+    console.error(
+      "[FAIL] Distribusi tipe fasilitas tidak sesuai: " +
+        `${summary.smelter_type_records} smelter, ` +
+        `${summary.refinery_type_records} refinery, ` +
+        `${summary.integrated_processing_type_records} integrated_processing, ` +
+        `${summary.other_type_records} other`,
+    );
+
+    valid = false;
+  } else {
+    console.log(
+      "[OK] Tipe fasilitas sesuai: " +
+        `${expectedSmelterTypeRecords} smelter, ` +
+        `${expectedRefineryTypeRecords} refinery, ` +
+        `${expectedIntegratedProcessingTypeRecords} integrated_processing`,
+    );
+  }
+
+  if (summary.facilities_without_outputs > 0) {
+    console.error(
+      `[FAIL] ${summary.facilities_without_outputs} fasilitas ` +
+        "tidak memiliki output",
+    );
+
+    valid = false;
+  } else {
+    console.log("[OK] Seluruh fasilitas memiliki output");
+  }
+
+  if (summary.facilities_without_sources > 0) {
+    console.error(
+      `[FAIL] ${summary.facilities_without_sources} fasilitas ` +
+        "tidak memiliki sumber",
+    );
+
+    valid = false;
+  } else {
+    console.log("[OK] Seluruh fasilitas memiliki sumber");
+  }
+
+  if (summary.facilities_with_invalid_primary_outputs > 0) {
+    console.error(
+      `[FAIL] ${summary.facilities_with_invalid_primary_outputs} fasilitas ` +
+        "tidak memiliki tepat satu output utama",
+    );
+
+    valid = false;
+  } else {
+    console.log("[OK] Setiap fasilitas memiliki tepat satu output utama");
+  }
+
+  return valid;
+}
+
 async function main() {
   console.log("Menjalankan verifikasi database MineVision...");
 
@@ -1150,6 +1577,11 @@ async function main() {
       viewVerification.viewSet,
     );
 
+    const smelterDataValid = await verifySmelterData(
+      tableVerification.tableMap,
+      viewVerification.viewSet,
+    );
+
     const databaseValid =
       tableVerification.valid &&
       rlsValid &&
@@ -1158,7 +1590,8 @@ async function main() {
       masterRecordsValid &&
       gdpDataValid &&
       investmentDataValid &&
-      exportDataValid;
+      exportDataValid &&
+      smelterDataValid;
 
     if (!databaseValid) {
       throw new Error(
