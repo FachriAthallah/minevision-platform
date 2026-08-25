@@ -9,3 +9,7 @@ export * from "./commodity-prices";
 export * from "./commodity-production-locations";
 export * from "./regions";
 export * from "./commodity-production-sources";
+export * from "./economic-gdp";
+export * from "./mining-investment";
+export * from "./minerba-exports";
+export * from "./smelters";

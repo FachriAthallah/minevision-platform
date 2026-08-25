@@ -67,6 +67,46 @@ export const dataRecordTypeEnum = pgEnum("data_record_type", [
   "revised",
 ]);
 
+export const gdpPriceBasisEnum = pgEnum("gdp_price_basis", [
+  "current_prices",
+  "constant_prices",
+]);
+
+export const statisticalDataStatusEnum = pgEnum("statistical_data_status", [
+  "final",
+  "preliminary",
+  "very_preliminary",
+]);
+
+export const investmentOriginTypeEnum = pgEnum("investment_origin_type", [
+  "pma",
+  "pmdn",
+]);
+
+export const tradeDataAvailabilityEnum = pgEnum("trade_data_availability", [
+  "reported",
+  "not_reported",
+  "reported_zero",
+  "estimated",
+]);
+
+export const smelterFacilityTypeEnum = pgEnum("smelter_facility_type", [
+  "smelter",
+  "refinery",
+  "integrated_processing",
+  "other",
+]);
+
+export const smelterFacilityStatusEnum = pgEnum("smelter_facility_status", [
+  "planned",
+  "construction",
+  "commissioning",
+  "operating",
+  "temporarily_suspended",
+  "inactive",
+  "unknown",
+]);
+
 export const pricePeriodEnum = pgEnum("price_period", [
   "daily",
   "weekly",
