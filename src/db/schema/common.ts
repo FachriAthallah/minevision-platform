@@ -78,6 +78,11 @@ export const statisticalDataStatusEnum = pgEnum("statistical_data_status", [
   "very_preliminary",
 ]);
 
+export const investmentOriginTypeEnum = pgEnum("investment_origin_type", [
+  "pma",
+  "pmdn",
+]);
+
 export const pricePeriodEnum = pgEnum("price_period", [
   "daily",
   "weekly",

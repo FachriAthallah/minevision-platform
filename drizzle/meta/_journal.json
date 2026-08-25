@@ -64,6 +64,13 @@
       "when": 1787588850314,
       "tag": "0008_database-schema-sync-gdp",
       "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1787637483462,
+      "tag": "0009_database-schema-sync-investment",
+      "breakpoints": true
     }
   ]
 }
