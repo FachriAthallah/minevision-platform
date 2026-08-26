@@ -156,13 +156,15 @@ export function OverviewSection() {
           return (
             <article
               key={item.title}
-              className="flex gap-5 rounded-2xl border border-border bg-surface/70 p-7 shadow-sm backdrop-blur transition-colors hover:border-accent/40"
+              className="group relative flex overflow-hidden rounded-2xl border border-brand-cyan/20 bg-[linear-gradient(135deg,rgba(40,103,228,0.19)_0%,rgba(0,177,196,0.12)_50%,rgba(60,195,171,0.15)_100%)] p-7 shadow-[0_18px_46px_rgba(0,0,0,0.18)] backdrop-blur transition-all hover:-translate-y-1 hover:border-brand-cyan/50 hover:shadow-[0_22px_55px_rgba(0,177,196,0.12)]"
             >
-              <Icon
-                aria-hidden="true"
-                className="h-8 w-8 shrink-0 text-primary"
-                strokeWidth={1.5}
-              />
+              <span className="mr-5 flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-background/35">
+                <Icon
+                  aria-hidden="true"
+                  className="h-7 w-7 text-brand-cyan transition-colors group-hover:text-brand-teal"
+                  strokeWidth={1.5}
+                />
+              </span>
 
               <div className="flex min-w-0 flex-1 flex-col">
                 <h3 className="text-lg font-bold text-foreground">
