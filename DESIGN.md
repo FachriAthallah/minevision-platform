@@ -55,6 +55,8 @@ Layout yang tersedia di Figma saat ini mencakup:
 
 Halaman Economy belum memiliki layout khusus. Layout Economy akan dikembangkan menggunakan DNA visual yang sama dengan halaman Intelligence dan Industry.
 
+Variasi Home yang menampilkan hero tanpa global header tidak menjadi target implementasi. Global header tetap wajib terlihat agar pengguna dapat berpindah modul tanpa kembali melalui jalur tidak langsung.
+
 Standarisasi nama layar yang digunakan:
 
 - `Home`
@@ -185,6 +187,7 @@ Navigasi pendukung:
 - About
 - Privacy
 - Authentication
+- Account
 - MineBot
 
 Struktur modul data:
@@ -247,6 +250,19 @@ Struktur modul data:
 5. Pengguna dapat membuka sumber atau halaman terkait.
 
 MineBot tidak boleh menghalangi kontrol utama, grafik, atau navigasi pada layar kecil.
+
+### 7.5 Authentication Flow
+
+1. Pengguna memilih tombol Login pada global header.
+2. Sistem membuka satu halaman Login untuk user dan administrator.
+3. User memilih Google login; administrator menggunakan bagian Akses Pengelola dengan email/password.
+4. Sistem menyelesaikan authentication callback dan memverifikasi session pada server.
+5. Sistem memastikan profil aplikasi tersedia dan menentukan application role.
+6. User dikembalikan ke halaman publik yang dituju atau area akun.
+7. Administrator dengan role valid diarahkan ke Admin Dashboard.
+8. Header user terautentikasi mengganti tombol Login dengan account menu dan logout tanpa menghilangkan navigasi modul.
+
+Google login biasa tidak boleh menampilkan atau menghasilkan state seolah-olah user memperoleh akses administrator.
 
 ---
 
@@ -444,6 +460,15 @@ Karakter header dari Figma:
 - Search dan authentication action di kanan.
 - Active page menggunakan underline cyan.
 
+Coverage:
+
+- Global header wajib terlihat pada Home dan seluruh halaman publik.
+- Area akun/user yang terautentikasi tetap menggunakan global header agar modul lain selalu dapat ditemukan.
+- Header tidak boleh dihilangkan dari hero fullscreen; header dapat menggunakan overlay atau floating positioning selama kontras dan keterbacaannya memenuhi accessibility baseline.
+- Anonymous state menampilkan tombol Login.
+- Authenticated user state menampilkan avatar atau account menu, tetapi mempertahankan Search dan navigasi utama.
+- Admin Dashboard menggunakan admin topbar/sidebar tersendiri serta menyediakan tautan yang jelas untuk kembali ke website publik.
+
 Desktop:
 
 - Tinggi visual sekitar 68 px.
@@ -459,6 +484,8 @@ Mobile:
 - Minimum touch target 44 × 44 px.
 
 Header dapat menjadi sticky, tetapi harus mempertahankan keterbacaan dan tidak menutupi anchor target.
+
+Pada layar kecil, account action dan logout dapat berada di dalam drawer, tetapi akses menuju modul utama tidak boleh hilang.
 
 ---
 
@@ -723,6 +750,8 @@ Urutan utama:
 
 Home berfungsi sebagai pengenalan platform dan jalur navigasi, bukan dashboard penuh.
 
+Global header pada urutan pertama bersifat wajib. Desain hero tanpa header visible dianggap belum memenuhi navigation acceptance criteria.
+
 ---
 
 ## 11.2 Education
@@ -810,6 +839,29 @@ Status record harus dibedakan secara visual:
 | Projection  | Dashed line atau secondary style |
 
 Projection tidak boleh menggunakan gaya yang identik dengan actual.
+
+---
+
+## 11.6 Login and Authenticated User Area
+
+Login menggunakan satu page composition dengan:
+
+1. MineVision identity dan penjelasan singkat.
+2. Primary action `Lanjutkan dengan Google` untuk user.
+3. Pemisah visual yang jelas.
+4. Bagian `Akses Pengelola` untuk email/password administrator.
+5. Loading, callback, invalid-session, dan provider-error states.
+6. Tautan kembali ke halaman publik.
+
+User tidak memiliki email/password self-registration pada MVP. Administrator juga tidak memiliki public sign-up; akun administrator dibuat atau diundang melalui trusted internal process.
+
+Area akun minimum mencakup:
+
+- identitas dasar dari akun Google;
+- status session;
+- logout;
+- global header dan navigation;
+- placeholder yang jujur untuk fitur akun lanjutan yang belum tersedia, tanpa menjanjikan Quiz, bookmark, atau personalisasi sebagai fitur MVP.
 
 ---
 
@@ -1263,6 +1315,9 @@ Sebuah halaman dianggap selesai jika:
 
 - Mengikuti visual identity MineVision.
 - Responsif pada mobile, tablet, dan desktop.
+- Home dan area user menyediakan global navigation yang terlihat dan dapat digunakan.
+- Authenticated state mempertahankan navigasi modul dan menyediakan account menu serta logout.
+- Admin Dashboard menyediakan navigation shell dan jalur kembali ke website publik.
 - Semua kontrol dapat digunakan dengan keyboard.
 - Loading, empty, dan error state tersedia.
 - Data tidak menampilkan record non-publik.
@@ -1296,6 +1351,8 @@ Sebuah halaman dianggap selesai jika:
 | Complete responsive audit            | Planned              |
 | Accessibility audit                  | Planned              |
 | MineBot experience                   | Planned              |
+| Unified Login design                 | Planned for MVP      |
+| Authenticated header and account UI  | Planned for MVP      |
 | Admin design system                  | Planned              |
 
 ---
@@ -1314,3 +1371,6 @@ Urutan pekerjaan desain berikutnya:
 8. Menentukan responsive behavior Economy.
 9. Melakukan accessibility review.
 10. Melakukan visual comparison antara Figma dan implementasi.
+11. Memperbaiki Home composition agar global header selalu terlihat.
+12. Mendesain unified Login, authentication callback states, dan authenticated header.
+13. Mendesain area akun minimum dan Admin Dashboard navigation shell.

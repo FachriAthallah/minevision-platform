@@ -1175,6 +1175,23 @@ Log SHOULD mempunyai:
 
 ---
 
+## 18.5 Authentication and Authorization
+
+- Konten publik MUST tetap dapat diakses tanpa login.
+- Optional user login MUST menggunakan Google OAuth melalui Supabase Auth pada MVP.
+- Administrator MUST menggunakan akun email/password yang dibuat atau diundang melalui trusted internal process.
+- User dan administrator MUST menggunakan Supabase Auth sebagai identity source yang sama.
+- Password, access token, refresh token, dan provider token MUST NOT disimpan pada application tables atau log.
+- User baru MUST memperoleh application role `user` secara default.
+- Role administratif MUST NOT diberikan berdasarkan provider, alamat email, domain email, redirect parameter, atau pilihan UI saja.
+- PostgreSQL/Supabase role `authenticated` MUST NOT dianggap sama dengan application role administrator.
+- Protected admin operation MUST memeriksa session, role, permission, resource, dan action pada server.
+- User MUST NOT dapat mengubah role assignment miliknya sendiri.
+- OAuth callback MUST menggunakan redirect allowlist dan menolak external destination yang tidak disetujui.
+- UI hiding dan navigation state MUST NOT digunakan sebagai authorization mechanism.
+
+---
+
 # 19. Testing Rules
 
 ## 19.1 Required Test Types

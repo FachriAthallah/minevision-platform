@@ -21,7 +21,7 @@ Prinsip produk yang wajib dipatuhi:
 |---|---|
 | Source-first | Setiap data faktual publik harus memiliki sumber, periode, satuan, dan status. Jangan menampilkan angka tanpa sumber. |
 | No fabricated data | Jangan mengisi data kosong dengan estimasi atau interpolasi otomatis. Tampilkan sebagai data tidak tersedia. |
-| Public by default | Seluruh modul publik dapat diakses tanpa login. Login hanya untuk admin. |
+| Public by default | Seluruh modul publik dapat diakses tanpa login. User login melalui Google bersifat opsional; Admin Dashboard tetap memerlukan role dan permission. |
 | Progressive complexity | Tampilkan ringkasan lebih dahulu. Detail, grafik, sumber, dan relasi ditampilkan ketika dibutuhkan. |
 | One source of truth | Indikator yang digunakan beberapa modul harus mengambil record yang sama, bukan salinan terpisah. |
 
@@ -37,7 +37,7 @@ Prinsip produk yang wajib dipatuhi:
 | Validasi | Zod untuk form, API payload, import, dan environment |
 | Database | Supabase PostgreSQL sebagai single source of truth |
 | ORM | Drizzle ORM dan Drizzle Kit |
-| Auth | Supabase Auth untuk admin |
+| Auth | Supabase Auth untuk optional Google user login dan administrator |
 | Authorization | Application RBAC dan PostgreSQL RLS |
 | Storage | Supabase Storage |
 | Search | PostgreSQL Full-Text Search dan `pg_trgm`; `pgvector` untuk MineBot jika telah diimplementasikan |
@@ -62,7 +62,7 @@ Teknologi yang belum tersedia pada `package.json`, configuration, atau kode dian
 2. Project foundation Next.js, environment, lint, dan type-check
 3. Database foundation, migration, seed, dan data ingestion
 4. Content dan API integration
-5. Authentication admin, RBAC, RLS, dan Admin CRUD
+5. Unified user/admin authentication, RBAC, RLS, dan Admin CRUD
 6. Global Search dan MineBot AI
 7. Testing, security, monitoring, dan CI/CD
 8. Production deployment
