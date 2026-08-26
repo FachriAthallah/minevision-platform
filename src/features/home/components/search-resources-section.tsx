@@ -2,11 +2,6 @@ import Link from "next/link";
 import {
   ArrowRight,
   Bot,
-  ChevronRight,
-  FileText,
-  Globe,
-  Landmark,
-  PieChart,
   Search,
 } from "lucide-react";
 
@@ -30,34 +25,6 @@ const popularSearches = [
   {
     label: "K3",
     href: "/search?q=K3",
-  },
-] as const;
-
-const resources = [
-  {
-    label: "Kementerian ESDM",
-    href: "/search?source=esdm",
-    icon: Landmark,
-  },
-  {
-    label: "BPS",
-    href: "/search?source=bps",
-    icon: PieChart,
-  },
-  {
-    label: "Minerba",
-    href: "/search?source=minerba",
-    icon: Globe,
-  },
-  {
-    label: "Company Reports",
-    href: "/industry",
-    icon: FileText,
-  },
-  {
-    label: "Official Sources",
-    href: "/search?source=official",
-    icon: Globe,
   },
 ] as const;
 
@@ -170,43 +137,6 @@ export function SearchResourcesSection() {
         </article>
       </div>
 
-      <div className="mt-10 grid items-center gap-8 rounded-2xl border border-border bg-surface/70 p-8 shadow-sm backdrop-blur lg:grid-cols-[1.2fr_repeat(5,minmax(0,1fr))]">
-        <div className="lg:border-r lg:border-border lg:pr-8">
-          <h3 className="text-2xl font-bold text-foreground">Resources</h3>
-
-          <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-            Akses sumber data dan informasi untuk mendukung keputusan berbasis
-            data yang lebih baik.
-          </p>
-        </div>
-
-        {resources.map((resource) => {
-          const Icon = resource.icon;
-
-          return (
-            <Link
-              key={resource.label}
-              href={resource.href}
-              className="flex items-center justify-between gap-3 text-sm text-foreground transition-colors hover:text-accent"
-            >
-              <span className="flex items-center gap-3">
-                <Icon
-                  aria-hidden="true"
-                  className="h-6 w-6 shrink-0 text-accent"
-                  strokeWidth={1.5}
-                />
-
-                {resource.label}
-              </span>
-
-              <ChevronRight
-                aria-hidden="true"
-                className="h-4 w-4 shrink-0 text-muted-foreground"
-              />
-            </Link>
-          );
-        })}
-      </div>
     </section>
   );
 }
