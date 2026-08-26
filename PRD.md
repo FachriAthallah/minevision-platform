@@ -6,10 +6,10 @@
 | ---------------- | ------------------------------------------------- |
 | Product          | MineVision Intelligence Platform Indonesia (MVIP) |
 | Document         | Product Requirements Document                     |
-| Version          | 2.0 Draft                                         |
+| Version          | 2.1 Draft                                         |
 | Status           | Planning Review                                   |
 | Product Owner    | Muhammad Fachri Athallah Sofyan                   |
-| Last Updated     | 25 August 2026                                    |
+| Last Updated     | 26 August 2026                                    |
 | Primary Language | Bahasa Indonesia                                  |
 
 > Dokumen ini menjadi sumber utama untuk tujuan produk, ruang lingkup, MVP, kebutuhan teknis tingkat produk, dan metrik keberhasilan MineVision. Detail arsitektur, UI/UX, database, dan aturan engineering dipelihara secara terpisah dalam `ARCHITECTURE.md`, `DESIGN.md`, `SCHEMA.md`, dan `RULES.md`.
@@ -48,6 +48,7 @@ MineVision menyediakan pengalaman eksplorasi terpadu dengan:
 - sumber dan periode data yang dapat ditelusuri;
 - pencarian lintas modul;
 - MineBot AI yang menggunakan knowledge base MineVision;
+- optional user account melalui Google untuk identitas pengguna MVP;
 - private admin dashboard untuk pengelolaan, verifikasi, dan publikasi data.
 
 ---
@@ -88,7 +89,7 @@ Menyediakan MineBot AI yang membantu pengguna memahami informasi MineVision mela
 | ---------------------- | ----------------------------------------------------------------------------------------- |
 | Source-first           | Data faktual publik harus dapat ditelusuri kembali ke sumbernya.                          |
 | No fabricated data     | Nilai yang tidak tersedia tidak boleh dibuat atau disajikan sebagai fakta.                |
-| Public by default      | Konten publik dapat diakses tanpa registrasi atau login.                                  |
+| Public by default      | Konten publik dapat diakses tanpa login; akun user bersifat opsional.                     |
 | Governed publication   | Hanya data verified dan published yang dapat muncul secara publik.                        |
 | Progressive complexity | Ringkasan ditampilkan terlebih dahulu, kemudian detail dan sumber.                        |
 | One source of truth    | Informasi yang sama harus menggunakan record terkontrol yang konsisten.                   |
@@ -105,6 +106,7 @@ Menyediakan MineBot AI yang membantu pengguna memahami informasi MineVision mela
 
 - Menjelaskan identitas dan nilai utama MineVision.
 - Memberikan akses ke seluruh modul utama.
+- Selalu menampilkan global navigation pada desktop, tablet, dan mobile.
 - Menampilkan ringkasan informasi dan data prioritas.
 - Menyediakan entry point menuju Global Search dan MineBot AI.
 
@@ -193,7 +195,17 @@ Menyediakan MineBot AI yang membantu pengguna memahami informasi MineVision mela
 - Disclaimer.
 - Fallback untuk pertanyaan yang tidak didukung atau memiliki konteks tidak memadai.
 
-#### 3.1.10 About dan Supporting Pages
+#### 3.1.10 User Authentication and Account
+
+- Satu entry point Login digunakan oleh user dan administrator.
+- User publik dapat login secara opsional menggunakan Google.
+- Identitas hasil Google login dicatat melalui Supabase Auth dan dihubungkan dengan profil aplikasi di PostgreSQL.
+- User yang baru pertama kali login selalu memperoleh role aplikasi `user`.
+- User terautentikasi tetap hanya dapat mengakses data publik yang memenuhi publication policy.
+- Header menampilkan account menu dan logout setelah user login tanpa menghilangkan navigasi publik.
+- Area akun minimum menampilkan identitas dasar dan status session; fitur personalisasi lanjutan dapat ditambahkan setelah MVP.
+
+#### 3.1.11 About dan Supporting Pages
 
 - Informasi mengenai MineVision.
 - Tujuan dan batas penggunaan platform.
@@ -203,7 +215,9 @@ Menyediakan MineBot AI yang membantu pengguna memahami informasi MineVision mela
 
 ### 3.2 Private Admin Scope
 
-- Administrator authentication.
+- Administrator authentication melalui entry point Login yang sama.
+- Administrator menggunakan akun email/password yang dibuat atau diundang secara internal dan tidak dapat melakukan self-registration.
+- Redirect menuju Admin Dashboard hanya dilakukan setelah session dan role diverifikasi pada server.
 - Protected admin routes.
 - Role and permission enforcement.
 - Dashboard ringkasan operasional.
@@ -232,8 +246,8 @@ Menyediakan MineBot AI yang membantu pengguna memahami informasi MineVision mela
 
 ### 3.4 Out of Scope for Initial Product Release
 
-- Registrasi dan login pengguna publik.
-- Profil pengguna publik.
+- Self-registration user publik menggunakan email/password.
+- Profil pengguna publik lanjutan di luar identitas dasar akun.
 - Bookmark dan personalisasi.
 - Riwayat percakapan MineBot yang tersimpan untuk pengguna publik.
 - Native Android atau iOS application.
@@ -267,7 +281,11 @@ MVP MineVision harus membuktikan bahwa platform dapat menyajikan informasi perta
 MVP mencakup:
 
 - Home dan About.
-- Navigasi publik yang responsive.
+- Navigasi publik yang responsive dan selalu tersedia pada Home serta area user.
+- Satu halaman Login untuk user dan administrator.
+- Google login opsional untuk user publik.
+- Pencatatan identitas user Google pada Supabase Auth dan profil aplikasi minimum di PostgreSQL.
+- Authenticated header state, account menu, dan logout untuk user.
 - Halaman utama enam kelompok informasi: Edukasi, Industri, Komoditas, Karier, Intelligence, dan Ekonomi.
 - List dan detail untuk konten prioritas yang telah disiapkan.
 - Data Intelligence produksi menggunakan record verified dan published.
@@ -284,7 +302,8 @@ MVP mencakup:
 
 MVP admin mencakup:
 
-- Administrator login.
+- Administrator login menggunakan akun email/password yang dibuat atau diundang secara internal.
+- Server-side role resolution dan redirect menuju Admin Dashboard.
 - Protected admin layout and routes.
 - Administrator role validation.
 - Tampilan daftar dan detail record prioritas.
@@ -330,6 +349,8 @@ MVP dinyatakan selesai apabila:
 
 - seluruh fitur Must Have telah memenuhi acceptance criteria;
 - seluruh priority public flows dapat digunakan end-to-end;
+- Google login user, logout, profile provisioning, dan authenticated navigation bekerja end-to-end;
+- administrator login tidak dapat digunakan untuk memperoleh role admin melalui registrasi publik atau Google login biasa;
 - admin publication flow bekerja end-to-end;
 - data publik mempertahankan source dan period metadata;
 - tidak ada data non-final yang bocor melalui UI atau API;
@@ -341,8 +362,9 @@ MVP dinyatakan selesai apabila:
 
 ### 4.7 Deferred after MVP
 
-- Public user accounts.
 - Bookmark dan personalization.
+- Public email/password self-registration.
+- Advanced user profile dan account preferences.
 - Persistent public chat history.
 - Advanced comparison and data export.
 - Automated content recommendation.
@@ -365,11 +387,14 @@ Bagian ini menetapkan kebutuhan teknis tingkat produk. Detail keputusan komponen
 - Bahasa utama aplikasi, API, validation, dan testing adalah TypeScript.
 - Implementasi saat ini menggunakan Next.js App Router dan React.
 - Halaman publik harus dapat digunakan tanpa autentikasi.
+- Login user bersifat opsional dan tidak boleh menjadi gate bagi konten publik.
 - Halaman admin harus dilindungi oleh authentication dan authorization.
 
 ### TR-02. User Interface
 
 - UI harus responsive pada mobile, tablet, dan desktop.
+- Home dan area user harus mempertahankan global navigation; authenticated state hanya mengganti authentication action dengan account menu.
+- Admin Dashboard harus memiliki navigasi operasional yang jelas dan jalur kembali ke website publik.
 - Komponen umum harus dapat digunakan kembali.
 - Loading, empty, error, success, and not-found states harus ditangani secara eksplisit.
 - Grafik harus menampilkan label, unit, periode, sumber, dan tooltip yang relevan.
@@ -384,6 +409,7 @@ Bagian ini menetapkan kebutuhan teknis tingkat produk. Detail keputusan komponen
 - Data numerik harus mempertahankan unit, periode, source, dan status yang relevan.
 - Dokumen atau media disimpan melalui storage dengan access policy yang sesuai.
 - Struktur dan lifecycle data dijelaskan dalam `SCHEMA.md`.
+- Identitas autentikasi dikelola oleh Supabase Auth dan profil/role aplikasi direlasikan melalui `auth.users.id`.
 
 ### TR-04. Data Governance
 
@@ -424,17 +450,23 @@ Bagian ini menetapkan kebutuhan teknis tingkat produk. Detail keputusan komponen
 
 ### TR-08. Authentication and Authorization
 
-- Autentikasi hanya diwajibkan untuk administrator pada MVP.
+- Supabase Auth menjadi satu sumber identitas untuk user dan administrator.
+- User publik dapat login secara opsional melalui Google OAuth; public content tetap dapat diakses tanpa session.
+- Administrator menggunakan akun email/password yang dibuat atau diundang secara internal.
+- Public Google login tidak boleh memberikan role administratif secara otomatis.
+- Setiap user baru memperoleh role aplikasi `user` secara default.
+- Redirect setelah login ditentukan oleh role yang diverifikasi pada server, bukan pilihan UI atau provider login.
 - Authorization harus diterapkan pada application layer dan database layer bila relevan.
 - Route protection tidak boleh hanya bergantung pada UI hiding.
 - Session dan credential harus dikelola secara aman.
+- Password tidak boleh disimpan pada tabel aplikasi.
 - Tindakan sensitif harus dicatat dalam audit log.
 
 ### TR-09. Security
 
 - Secret hanya disimpan melalui protected environment configuration.
 - Input harus divalidasi dan output harus ditangani untuk mencegah injection dan cross-site scripting.
-- Admin, Search, dan MineBot endpoint harus mendukung rate limiting.
+- Authentication, Admin, Search, dan MineBot endpoint harus mendukung rate limiting.
 - Security headers harus diterapkan pada production.
 - Dependency, source code, dan secret scanning harus menjadi bagian release checks.
 - Tidak boleh ada critical atau high-severity vulnerability yang belum ditangani pada release.
@@ -528,6 +560,8 @@ Technology not yet implemented remains a planning baseline until it is validated
 | SM-18 | Critical or high-severity unresolved vulnerabilities | 0          | Security scan and review       |
 | SM-19 | Secrets committed to repository                      | 0          | Secret scanning                |
 | SM-20 | Priority authorization and RLS scenarios passing     | 100%       | Security and integration tests |
+| SM-AUTH-01 | User Google login and profile provisioning failures | 0 blocker | Authentication E2E test        |
+| SM-AUTH-02 | Unauthorized administrator access                   | 0         | Authorization security test    |
 
 ### 6.5 Search and MineBot Metrics
 
@@ -563,6 +597,9 @@ Product Owner dapat menyetujui MVP apabila seluruh kondisi berikut terpenuhi:
 - success metrics yang dikategorikan sebagai release gate telah terpenuhi;
 - data governance audit tidak menemukan data non-publik yang terekspos;
 - priority flows dapat digunakan pada desktop dan mobile;
+- Home dan authenticated user area menyediakan navigasi menuju modul utama;
+- user dapat login melalui Google, tercatat pada identity/profile store, dan logout dengan aman;
+- user biasa tidak dapat memperoleh atau menggunakan akses administrator;
 - administrator dapat mengelola lifecycle data prioritas;
 - search dan MineBot memenuhi minimum quality gate yang disepakati;
 - production deployment, monitoring, backup, dan rollback tersedia;

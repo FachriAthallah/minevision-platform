@@ -6,12 +6,12 @@
 | ------------------ | ------------------------------------------------- |
 | Product            | MineVision Intelligence Platform Indonesia (MVIP) |
 | Document           | System Architecture                               |
-| Version            | 1.0 Draft                                         |
+| Version            | 1.1 Draft                                         |
 | Status             | Planning Review                                   |
 | Product Owner      | Muhammad Fachri Athallah Sofyan                   |
 | Architecture Style | Modular Full-Stack Monolith                       |
 | Deployment Model   | Vercel + Supabase                                 |
-| Last Updated       | 25 August 2026                                    |
+| Last Updated       | 26 August 2026                                    |
 
 > Dokumen ini menjadi sumber utama untuk arsitektur sistem, teknologi, struktur kode, aliran data, integrasi layanan, deployment topology, dan keputusan teknis MineVision. Struktur database dijelaskan dalam `SCHEMA.md`, UI/UX dalam `DESIGN.md`, kebutuhan produk dalam `PRD.md`, dan aturan engineering dalam `RULES.md`.
 
@@ -37,6 +37,7 @@ Arsitektur MineVision harus:
 - menjaga konsistensi data antarhalaman dan modul;
 - mendukung server-side rendering dan interaksi client-side;
 - menyediakan API publik yang terversi;
+- mendukung optional authenticated user melalui Google tanpa membatasi akses anonim ke konten publik;
 - mendukung private admin dashboard;
 - mendukung Global Search dan MineBot AI;
 - memungkinkan pengujian otomatis;
@@ -102,7 +103,7 @@ Pemisahan tersebut bukan bagian dari MVP.
 
 ```mermaid
 flowchart TB
-    User[Public User]
+    User[Anonymous or Authenticated User]
     Admin[Administrator]
 
     subgraph Client["Client Layer"]
@@ -155,7 +156,9 @@ flowchart TB
     DataAccess --> Database
     Database --> RLS
 
+    PublicUI -. Optional Google login .-> Auth
     AdminUI --> Auth
+    Auth --> Database
     AppServices --> Storage
     SearchService --> Database
     MineBotService --> Vector
@@ -173,16 +176,19 @@ Arsitektur memiliki trust boundary berikut:
 1. **Public Browser Boundary**  
    Input dari browser selalu dianggap tidak terpercaya dan harus divalidasi.
 
-2. **Admin Boundary**  
+2. **Authenticated User Boundary**
+   Session user bersifat opsional, tetapi identity, callback, profile provisioning, dan account data tetap diperlakukan sebagai protected flow.
+
+3. **Admin Boundary**
    Akses admin membutuhkan authentication, authorization, dan protected server-side operation.
 
-3. **Application Boundary**  
+4. **Application Boundary**
    Business logic dan secret hanya dijalankan pada server.
 
-4. **Database Boundary**  
+5. **Database Boundary**
    Query aplikasi dibatasi oleh schema, constraints, application policy, dan Row Level Security.
 
-5. **External Service Boundary**  
+6. **External Service Boundary**
    Data yang dikirim ke AI, monitoring, peta, atau layanan lain harus dibatasi sesuai kebutuhan.
 
 ---
@@ -194,6 +200,7 @@ Arsitektur memiliki trust boundary berikut:
 Presentation Layer bertanggung jawab atas:
 
 - halaman publik;
+- halaman login dan area akun user;
 - halaman admin;
 - layout;
 - navigasi;
@@ -207,6 +214,8 @@ Presentation Layer bertanggung jawab atas:
 - loading state;
 - empty state;
 - error state.
+
+Home dan seluruh public/account presentation menggunakan global navigation. Authenticated state hanya mengganti authentication action dengan account menu; navigasi modul tidak boleh hilang. Admin Dashboard menggunakan navigation shell tersendiri dan menyediakan jalur kembali ke website publik.
 
 Komponen pada layer ini tidak boleh mengandung query database langsung.
 
@@ -304,7 +313,7 @@ Supporting Services adalah logical dependency, bukan microservice internal MineV
 
 | Area                   | Technology                        | Status                         | Purpose                                              |
 | ---------------------- | --------------------------------- | ------------------------------ | ---------------------------------------------------- |
-| Admin Authentication   | Supabase Auth                     | Planned                        | Administrator authentication                         |
+| User and Admin Auth     | Supabase Auth                     | Planned for MVP                | Google login user dan email/password administrator   |
 | Authorization          | Application RBAC + PostgreSQL RLS | Planned/Partial                | Defense-in-depth access control                      |
 | File Storage           | Supabase Storage                  | Planned                        | Public media, source document, dan controlled import |
 | Search                 | PostgreSQL Full-Text Search       | Planned                        | Global keyword search                                |
@@ -354,6 +363,8 @@ Teknologi kondisional tidak dianggap sebagai dependency wajib sampai keputusan i
 | AI architecture          | Retrieval-Augmented Generation | Mengurangi jawaban tanpa dasar dan mempertahankan citation                   |
 | Map                      | MapLibre + GeoJSON             | Open, fleksibel, dan tidak mengunci aplikasi pada satu vendor                |
 | Visualization            | Recharts                       | Cocok dengan React dan kebutuhan dashboard MineVision                        |
+| Identity source          | Supabase Auth                  | Satu identity store untuk user dan administrator                             |
+| Application access      | Server-side role resolution    | Memisahkan authenticated user dari administrator                             |
 
 ---
 
@@ -394,12 +405,15 @@ minevision-platform/
   |   |   |   |-- search/
   |   |   |   \-- layout.tsx
   |   |   |
+  |   |   |-- login/                   # Planned unified login target
+  |   |   |-- auth/callback/           # Planned OAuth callback
+  |   |   |-- account/                 # Planned minimum user area
+  |   |   |
   |   |   |-- (admin)/                 # Planned
   |   |   |   |-- admin/
   |   |   |   \-- layout.tsx
   |   |   |
-  |   |   |-- admin/
-  |   |   |   \-- login/
+  |   |   |-- admin/login/             # Current placeholder; replaced by unified login
   |   |   |
   |   |   |-- api/
   |   |   |   |-- health/
@@ -889,31 +903,52 @@ flowchart LR
 
 ---
 
-## 14. Admin Architecture
+## 14. Authentication and Admin Architecture
 
-Admin Dashboard masih berstatus planned.
+Unified authentication dan Admin Dashboard masih berstatus planned. Konten publik tetap dapat digunakan tanpa session.
 
-### 14.1 Authentication Flow
+### 14.1 Unified Identity Model
+
+Supabase Auth menjadi satu sumber identitas untuk seluruh akun MVP:
+
+- user publik login secara opsional melalui Google OAuth;
+- administrator login menggunakan akun email/password yang dibuat atau diundang secara internal;
+- kedua jenis akun dicatat pada internal schema `auth.users`;
+- aplikasi membuat atau memastikan profil aplikasi yang berelasi dengan `auth.users.id` secara idempotent;
+- user baru memperoleh application role `user` secara default;
+- role administrator hanya diberikan melalui trusted administrative process;
+- provider login, domain email, parameter redirect, atau pilihan UI tidak boleh digunakan sebagai bukti role administrator;
+- password dikelola oleh Supabase Auth dan tidak disimpan pada application schema.
+
+PostgreSQL role `authenticated` hanya menunjukkan bahwa session valid. Role tersebut tidak sama dengan application role `administrator`.
+
+### 14.2 Authentication Flow
 
 ```mermaid
 sequenceDiagram
-    participant A as Administrator
-    participant UI as Admin UI
+    actor Visitor
+    participant UI as Unified Login UI
     participant Auth as Supabase Auth
     participant S as MineVision Server
     participant DB as PostgreSQL
 
-    A->>UI: Submit credentials
-    UI->>Auth: Authenticate
+    Visitor->>UI: Choose Google or email/password
+    UI->>Auth: Authenticate with allowed provider
     Auth-->>UI: Secure session
-    UI->>S: Request protected operation
+    UI->>S: Complete callback
     S->>Auth: Validate session
-    S->>DB: Check role and permission
-    DB-->>S: Authorization result
-    S-->>UI: Protected response
+    S->>DB: Provision profile and resolve application role
+    DB-->>S: User profile and authorization result
+    alt Application role is administrator
+        S-->>UI: Redirect to Admin Dashboard
+    else Application role is user
+        S-->>UI: Return to intended public page or account area
+    end
 ```
 
-### 14.2 Admin Mutation Flow
+Authentication callback hanya boleh mengarahkan ke destination internal yang telah divalidasi. Google login biasa tidak pernah meningkatkan role menjadi administrator.
+
+### 14.3 Admin Mutation Flow
 
 ```mermaid
 flowchart LR
@@ -937,7 +972,7 @@ flowchart LR
     Audit --> Result
 ```
 
-### 14.3 Admin Publication Flow
+### 14.4 Admin Publication Flow
 
 ```text
 Draft
@@ -965,7 +1000,7 @@ verification_status = verified
 publication_status = published
 ```
 
-### 14.4 Mutation Boundary
+### 14.5 Mutation Boundary
 
 Admin mutation harus dijalankan pada server melalui:
 
@@ -1264,8 +1299,11 @@ Security diterapkan melalui beberapa lapisan.
 
 ### 20.4 Authentication Boundary
 
-- Public user tidak memerlukan session.
-- Admin memerlukan authentication.
+- Konten dan public API tetap dapat digunakan tanpa session.
+- User dapat memiliki session opsional melalui Google OAuth.
+- Administrator memerlukan session valid dan application role/permission yang sesuai.
+- Supabase `authenticated` role tidak boleh diperlakukan sebagai administrator.
+- Profile provisioning dan role resolution dilakukan melalui trusted server/database boundary.
 - Authorization diperiksa di server.
 - UI hiding bukan authorization mechanism.
 - Session harus menggunakan secure cookie behavior yang sesuai.
@@ -1689,7 +1727,8 @@ GraphQL belum diperlukan untuk scope MVP.
 - AI dan map provider memiliki kuota, biaya, dan kebijakan eksternal.
 - Peta bergantung pada ketersediaan koordinat yang tervalidasi.
 - Bahasa utama MVP adalah Bahasa Indonesia.
-- Public user account bukan bagian MVP.
+- Optional public user account melalui Google merupakan bagian MVP, tetapi konten publik tetap tidak memerlukan login.
+- User email/password self-registration dan fitur personalisasi lanjutan tidak termasuk MVP.
 - Architecture harus tetap dapat dijalankan tanpa MineBot apabila external AI service sedang tidak tersedia.
 
 ---
@@ -1789,7 +1828,9 @@ Komponen berikut masih direncanakan:
 
 - Economy data UI;
 - smelter catalog UI;
-- admin authentication;
+- unified user and admin authentication;
+- Google OAuth callback, user profile provisioning, dan authenticated navigation state;
+- administrator email/password provisioning dan role resolution;
 - admin CRUD;
 - publication workflow UI;
 - audit log application flow;

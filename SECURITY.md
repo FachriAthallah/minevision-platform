@@ -39,40 +39,71 @@ MineVision memiliki batas akses berikut:
 
 | Area               | Access                            |
 | ------------------ | --------------------------------- |
-| Public Website     | Tanpa login                       |
-| Public API         | Tanpa login dengan pembatasan     |
-| Admin Dashboard    | Admin terautentikasi              |
-| Admin API          | Authentication dan authorization  |
-| Database           | Server-side dan role terbatas     |
-| Migration          | Developer atau deployment process |
-| Data ingestion     | Internal process                  |
-| MineBot            | Public dengan rate limit          |
-| Environment secret | Server-side only                  |
+| Public Website         | Tanpa login; optional user session            |
+| User Account           | Google-authenticated user                     |
+| Public API             | Tanpa login dengan pembatasan                  |
+| Admin Dashboard        | Admin terautentikasi dan terotorisasi          |
+| Admin API              | Authentication dan authorization              |
+| Database               | Server-side dan role terbatas                  |
+| Migration              | Developer atau deployment process             |
+| Data ingestion         | Internal process                              |
+| MineBot                | Public dengan rate limit                       |
+| Environment secret     | Server-side only                               |
 
-Public user tidak boleh memiliki akses ke fungsi administratif.
+Anonymous user dan authenticated user biasa tidak boleh memiliki akses ke fungsi administratif. Supabase/PostgreSQL role `authenticated` tidak sama dengan application role administrator.
 
 ## 4. Authentication
 
-Authentication hanya digunakan untuk Admin Dashboard.
+Supabase Auth menjadi identity provider tunggal untuk optional user account dan administrator.
 
 Authentication harus:
 
 - menggunakan Supabase Auth;
+- mendukung Google OAuth untuk user publik;
+- mendukung email/password hanya untuk akun administrator yang dibuat atau diundang secara internal pada MVP;
 - dilakukan melalui mekanisme session yang aman;
 - memeriksa session pada server;
 - menolak session yang tidak valid;
 - mendukung logout;
 - menggunakan expiration;
 - melindungi proses pemulihan akun;
-- mencegah brute-force login.
+- mencegah brute-force login;
+- tidak menyimpan password pada application database;
+- menggunakan callback destination yang berada dalam allowlist internal.
 
-Tidak adanya tombol admin pada frontend bukan authentication.
+Tidak adanya tombol admin pada frontend bukan authentication atau authorization.
 
 Jika session tidak tersedia:
 
 ```text
 401 UNAUTHENTICATED
 ```
+
+### 4.1 Google OAuth User Flow
+
+- Scope OAuth harus dibatasi pada kebutuhan identitas minimum.
+- Redirect URI harus didaftarkan secara eksplisit untuk development, preview, dan production.
+- Callback harus memvalidasi state/session exchange dan destination internal sebelum redirect.
+- First login menghasilkan Supabase Auth identity dan profile provisioning yang idempotent.
+- User baru selalu memperoleh application role `user`.
+- Google provider token tidak boleh disimpan kecuali terdapat kebutuhan produk yang disetujui; MVP tidak membutuhkannya.
+- Kegagalan provisioning tidak boleh menghasilkan partial privileged account.
+
+### 4.2 Administrator Credential Flow
+
+- Administrator tidak dapat melakukan public self-registration.
+- Akun dibuat atau diundang melalui trusted administrative process.
+- Role administratif diberikan secara terpisah dari proses authentication.
+- Alamat email, domain email, provider, atau parameter client tidak boleh digunakan sendiri untuk memberikan role administratif.
+- Password dikelola oleh Supabase Auth dan tidak pernah dapat dibaca kembali oleh aplikasi.
+- MFA harus dievaluasi sebagai release requirement untuk administrator production.
+
+### 4.3 Account Linking and Lifecycle
+
+- Account linking tidak boleh menggabungkan identity hanya berdasarkan input client.
+- Konflik identity dengan email yang sama harus gagal aman dan tidak meningkatkan privilege.
+- Account deletion, session revocation, profile cleanup, retention, dan audit preservation harus ditetapkan sebelum production.
+- Privacy notice harus menjelaskan data identitas minimum yang diproses dari Google.
 
 ## 5. Authorization
 
@@ -82,6 +113,7 @@ Target role:
 
 | Role             | Tanggung jawab                   |
 | ---------------- | -------------------------------- |
+| `user`           | Mengakses area akun tanpa administrative permission |
 | `administrator`  | Mengelola sistem dan akses       |
 | `content_editor` | Membuat dan mengubah konten      |
 | `data_editor`    | Mengelola data intelligence      |
@@ -350,7 +382,7 @@ Rate limiting bukan pengganti authentication atau authorization.
 
 ## 16. Session Security
 
-Admin session harus:
+Seluruh authenticated session harus:
 
 - menggunakan cookie yang aman;
 - menggunakan `HttpOnly` jika session disimpan pada cookie;
@@ -363,6 +395,8 @@ Admin session harus:
 Token tidak boleh disimpan dalam URL.
 
 Tindakan sensitif dapat meminta verifikasi ulang jika risiko penggunaannya tinggi.
+
+Session user biasa tidak boleh digunakan sebagai bukti administrator. Protected admin operation harus melakukan authorization check pada server untuk setiap request sensitif.
 
 ## 17. CSRF Protection
 
@@ -591,6 +625,8 @@ Audit log wajib untuk tindakan administratif penting, seperti:
 - import;
 - export.
 
+User login/logout dapat dicatat sebagai security event dengan data minimum. Log tersebut tidak boleh menyimpan OAuth token atau data profil yang tidak diperlukan.
+
 Audit record minimal mencatat:
 
 - actor;
@@ -673,6 +709,11 @@ Jangan menghapus log yang dibutuhkan untuk investigasi.
 Pengujian keamanan minimal mencakup:
 
 - public user tidak dapat mengakses Admin Dashboard;
+- Google login menghasilkan role `user`, bukan role administratif;
+- identity/profile provisioning bersifat idempotent;
+- callback menolak destination eksternal yang tidak diizinkan;
+- konflik identity tidak meningkatkan privilege;
+- authenticated user tetap hanya melihat data verified/published;
 - unauthenticated request ditolak;
 - role tanpa permission ditolak;
 - object-level authorization diperiksa;
@@ -720,6 +761,9 @@ Dilarang:
 - menggunakan wildcard CORS pada Admin API;
 - menyimpan token pada URL;
 - mencatat password atau authorization header;
+- menyimpan password pada application table;
+- memberikan role admin berdasarkan Google provider, alamat email, domain email, atau pilihan UI saja;
+- memperlakukan Supabase/PostgreSQL role `authenticated` sebagai application role administrator;
 - menggunakan dependency force fix tanpa review;
 - menggunakan production database untuk eksperimen;
 - melewati verification sebelum publication;

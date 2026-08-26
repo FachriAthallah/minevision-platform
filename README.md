@@ -14,7 +14,7 @@ MineVision adalah platform informasi pertambangan Indonesia yang menyediakan edu
 - MineBot AI
 - Private Admin Dashboard
 
-Website publik dapat diakses tanpa login. Authentication digunakan untuk Admin Dashboard.
+Website publik dapat diakses tanpa login. MVP merencanakan optional user login melalui Google dan administrator login melalui akun email/password internal, dengan Supabase Auth sebagai identity provider tunggal dan role terpisah untuk melindungi Admin Dashboard.
 
 ## Technology Stack
 
