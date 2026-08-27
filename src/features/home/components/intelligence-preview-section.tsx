@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowRight, CalendarDays, Globe, Info } from "lucide-react";
 
 import { ProductionPreviewChart } from "./intelligence-preview-chart";
+import { DomesticPricePreview } from "./domestic-price-preview";
 
 const coverage = [
   {
@@ -17,40 +18,6 @@ const coverage = [
     icon: Globe,
   },
 ] as const;
-
-type DomesticPriceReference = {
-  commodity: string;
-  standard: string;
-  unit: string;
-  value: number | null;
-};
-
-const domesticPriceReferences: DomesticPriceReference[] = [
-  {
-    commodity: "Batubara",
-    standard: "Harga Batubara Acuan (HBA)",
-    unit: "USD/ton",
-    value: null,
-  },
-  {
-    commodity: "Nikel",
-    standard: "Harga Patokan Mineral (HPM)",
-    unit: "USD/dmt",
-    value: null,
-  },
-  {
-    commodity: "Emas",
-    standard: "Harga emas domestik",
-    unit: "Rp/gram",
-    value: null,
-  },
-  {
-    commodity: "Tembaga",
-    standard: "Harga Mineral Acuan (HMA)",
-    unit: "USD/dmt",
-    value: null,
-  },
-];
 
 const commodities = [
   {
@@ -111,71 +78,6 @@ function ChartPanel({ title, unit, source, children }: ChartPanelProps) {
   );
 }
 
-function DomesticPricePanel() {
-  return (
-    <article className="rounded-2xl border border-border bg-surface/70 p-6 shadow-sm backdrop-blur">
-      <div className="flex items-start justify-between gap-4">
-        <div>
-          <h3 className="flex items-center gap-2 text-lg font-bold text-foreground">
-            Harga Domestik Komoditas
-            <Info
-              aria-hidden="true"
-              className="h-4 w-4 text-muted-foreground"
-            />
-          </h3>
-
-          <p className="mt-1 text-xs text-muted-foreground">
-            Standar harga berbeda untuk setiap komoditas
-          </p>
-        </div>
-
-        <Link
-          href="/intelligence"
-          className="shrink-0 rounded-lg border border-border px-3 py-1.5 text-xs text-muted-foreground transition-colors hover:text-foreground"
-        >
-          Lihat detail
-        </Link>
-      </div>
-
-      <div className="mt-6 grid gap-3 sm:grid-cols-2">
-        {domesticPriceReferences.map((item) => (
-          <div
-            key={item.commodity}
-            className="rounded-xl border border-border bg-background/40 p-4"
-          >
-            <div className="flex items-start justify-between gap-3">
-              <div>
-                <h4 className="font-semibold text-foreground">
-                  {item.commodity}
-                </h4>
-
-                <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
-                  {item.standard}
-                </p>
-              </div>
-
-              <span className="shrink-0 rounded-md border border-border px-2 py-1 text-[10px] text-accent">
-                {item.unit}
-              </span>
-            </div>
-
-            <p className="mt-4 text-sm font-semibold text-foreground">
-              {item.value === null
-                ? "Belum dihubungkan"
-                : `${item.value.toLocaleString("id-ID")} ${item.unit}`}
-            </p>
-          </div>
-        ))}
-      </div>
-
-      <p className="mt-4 text-xs text-muted-foreground">
-        Nilai akan ditampilkan setelah dataset harga domestik tervalidasi
-        dihubungkan.
-      </p>
-    </article>
-  );
-}
-
 export function IntelligencePreviewSection() {
   return (
     <section
@@ -231,7 +133,7 @@ export function IntelligencePreviewSection() {
           <ProductionPreviewChart />
         </ChartPanel>
 
-        <DomesticPricePanel />
+        <DomesticPricePreview />
       </div>
 
       <div className="mt-8 rounded-2xl border border-border bg-surface/70 p-6 shadow-sm sm:p-8">
