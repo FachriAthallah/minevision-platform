@@ -255,7 +255,7 @@ MineBot tidak boleh menghalangi kontrol utama, grafik, atau navigasi pada layar 
 
 1. Pengguna memilih tombol Login pada global header.
 2. Sistem membuka satu halaman Login untuk user dan administrator.
-3. User memilih Google login; administrator menggunakan bagian Akses Pengelola dengan email/password.
+3. User memilih email/password atau Google; administrator menggunakan form email/password yang sama dengan akun internal.
 4. Sistem menyelesaikan authentication callback dan memverifikasi session pada server.
 5. Sistem memastikan profil aplikasi tersedia dan menentukan application role.
 6. User dikembalikan ke halaman publik yang dituju atau area akun.
@@ -846,18 +846,19 @@ Projection tidak boleh menggunakan gaya yang identik dengan actual.
 
 Login menggunakan satu page composition dengan:
 
-1. MineVision identity dan penjelasan singkat.
-2. Primary action `Lanjutkan dengan Google` untuk user.
-3. Pemisah visual yang jelas.
-4. Bagian `Akses Pengelola` untuk email/password administrator.
-5. Loading, callback, invalid-session, dan provider-error states.
-6. Tautan kembali ke halaman publik.
+1. MineVision identity pada sisi kiri atas card.
+2. Heading dan tautan menuju create account yang terpusat.
+3. Field berlabel `Email` dan `Password` dengan sudut lengkung.
+4. Primary action `Sign in` untuk user maupun administrator.
+5. Pemisah visual dan secondary action `Continue with Google`.
+6. Loading, callback, invalid-session, dan provider-error states.
+7. Logo menjadi tautan kembali ke halaman publik.
 
-User tidak memiliki email/password self-registration pada MVP. Administrator juga tidak memiliki public sign-up; akun administrator dibuat atau diundang melalui trusted internal process.
+Create Account menggunakan page composition yang konsisten dengan field `Username`, `Your E-mail`, `Create Password`, dan `Repeat Password`, primary action `Get Started`, serta Google login di bawahnya. Public sign-up selalu menghasilkan role `user`. Administrator tidak memiliki public sign-up; akun administrator dibuat atau diundang melalui trusted internal process.
 
 Area akun minimum mencakup:
 
-- identitas dasar dari akun Google;
+- identitas dasar dari akun email/password atau Google;
 - status session;
 - logout;
 - global header dan navigation;

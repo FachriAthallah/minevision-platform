@@ -40,7 +40,7 @@ MineVision memiliki batas akses berikut:
 | Area               | Access                            |
 | ------------------ | --------------------------------- |
 | Public Website         | Tanpa login; optional user session            |
-| User Account           | Google-authenticated user                     |
+| User Account           | Email/password atau Google-authenticated user |
 | Public API             | Tanpa login dengan pembatasan                  |
 | Admin Dashboard        | Admin terautentikasi dan terotorisasi          |
 | Admin API              | Authentication dan authorization              |
@@ -59,8 +59,8 @@ Supabase Auth menjadi identity provider tunggal untuk optional user account dan 
 Authentication harus:
 
 - menggunakan Supabase Auth;
-- mendukung Google OAuth untuk user publik;
-- mendukung email/password hanya untuk akun administrator yang dibuat atau diundang secara internal pada MVP;
+- mendukung Google OAuth dan email/password untuk user publik;
+- menggunakan form login yang sama untuk akun administrator yang dibuat atau diundang secara internal;
 - dilakukan melalui mekanisme session yang aman;
 - memeriksa session pada server;
 - menolak session yang tidak valid;
@@ -89,7 +89,15 @@ Jika session tidak tersedia:
 - Google provider token tidak boleh disimpan kecuali terdapat kebutuhan produk yang disetujui; MVP tidak membutuhkannya.
 - Kegagalan provisioning tidak boleh menghasilkan partial privileged account.
 
-### 4.2 Administrator Credential Flow
+### 4.2 Public Email/Password Flow
+
+- Registrasi publik hanya dapat menghasilkan application role `user`.
+- Username, email, password, dan konfirmasi password divalidasi pada server.
+- Password hanya diteruskan ke Supabase Auth dan tidak disimpan pada application tables atau log.
+- Konfirmasi email mengikuti konfigurasi Supabase Auth sebelum session dianggap aktif.
+- Error response tidak boleh membocorkan credential atau detail internal database.
+
+### 4.3 Administrator Credential Flow
 
 - Administrator tidak dapat melakukan public self-registration.
 - Akun dibuat atau diundang melalui trusted administrative process.
@@ -97,13 +105,14 @@ Jika session tidak tersedia:
 - Alamat email, domain email, provider, atau parameter client tidak boleh digunakan sendiri untuk memberikan role administratif.
 - Password dikelola oleh Supabase Auth dan tidak pernah dapat dibaca kembali oleh aplikasi.
 - MFA harus dievaluasi sebagai release requirement untuk administrator production.
+- Setelah identity internal tersedia, developer memberikan role melalui `npm run auth:assign-admin -- <email>` menggunakan migration connection; script tidak membuat identity, tidak menerima password, dan tidak tersedia melalui UI publik.
 
-### 4.3 Account Linking and Lifecycle
+### 4.4 Account Linking and Lifecycle
 
 - Account linking tidak boleh menggabungkan identity hanya berdasarkan input client.
 - Konflik identity dengan email yang sama harus gagal aman dan tidak meningkatkan privilege.
 - Account deletion, session revocation, profile cleanup, retention, dan audit preservation harus ditetapkan sebelum production.
-- Privacy notice harus menjelaskan data identitas minimum yang diproses dari Google.
+- Privacy notice harus menjelaskan data identitas minimum yang diproses dari email/password maupun Google.
 
 ## 5. Authorization
 

@@ -1741,9 +1741,9 @@ Upsert tidak boleh mengubah verified/published record secara diam-diam.
 
 ---
 
-# 20. Tables Not Yet Implemented
+# 20. Authentication and Other Supporting Tables
 
-Tabel berikut belum menjadi bagian current physical schema.
+Bagian ini membedakan tabel autentikasi yang sudah tersedia dari supporting tables yang masih direncanakan.
 
 ## 20.1 Authentication, User Profile, and Admin
 
@@ -1751,23 +1751,26 @@ Supabase Authentication menggunakan schema internal:
 
 `auth.users`
 
-Google user dan administrator menggunakan identity store yang sama. Pada MVP:
+User dan administrator menggunakan identity store yang sama. Pada MVP:
 
-- user publik login melalui Google OAuth;
+- user publik membuat akun atau login melalui email/password maupun Google OAuth;
 - administrator login melalui akun email/password yang dibuat atau diundang secara internal;
-- login Google pertama membuat identity pada `auth.users` melalui Supabase Auth;
+- proses sign-up atau login pertama membuat identity pada `auth.users` melalui Supabase Auth;
 - application profile dibuat atau dipastikan tersedia secara idempotent dengan primary key yang mereferensikan `auth.users.id`;
 - user baru selalu memperoleh application role `user`;
 - role administratif hanya dapat diberikan melalui trusted administrative process;
 - password, access token, refresh token, dan Google provider token tidak disimpan pada application tables.
 
-Planned public schema:
+Current physical public schema:
 
 - `user_profiles`
 - `roles`
+- `user_role_assignments`
+
+Deferred untuk granular permission workflow:
+
 - `permissions`
 - `role_permissions`
-- `user_role_assignments`
 
 Logical responsibility:
 
@@ -1779,7 +1782,9 @@ Logical responsibility:
 | `role_permissions`      | Relasi role dengan permission                                                  |
 | `user_role_assignments` | Assignment role kepada identity; tidak dapat dimutasi sendiri oleh public user |
 
-`user_profiles` hanya menyimpan data aplikasi minimum seperti display name, avatar reference, dan timestamp yang diperlukan. Email dan provider identity tetap bersumber dari Supabase Auth kecuali terdapat kebutuhan terverifikasi untuk menyimpan snapshot terpisah.
+`user_profiles` menggunakan `auth.users.id` sebagai primary key dan menyimpan `username`, display name, avatar reference, serta timestamp. Email dan provider identity tetap bersumber dari Supabase Auth. Relasi profile dan role assignment menggunakan `ON DELETE CASCADE` terhadap identity, sedangkan `assigned_by` menggunakan `ON DELETE SET NULL` agar jejak assignment tetap konsisten.
+
+Trigger `private.handle_new_auth_user` membuat profil secara idempotent dan memberikan role `user` untuk identity baru. Function berada di schema non-public, menggunakan `SECURITY DEFINER` dengan `search_path` kosong, dan tidak menerima role dari metadata client.
 
 RLS target:
 
@@ -1788,9 +1793,9 @@ RLS target:
 - application role `user` tidak memperoleh admin mutation permission;
 - PostgreSQL role `authenticated` tidak diperlakukan sebagai application role administrator;
 - administrator tetap memerlukan server-side authorization dan permission check;
-- account deletion harus mempunyai perilaku relasi yang terdokumentasi sebelum migration dibuat.
+- penghapusan identity menghapus profil dan role assignment terkait melalui foreign key cascade.
 
-Nama field, enum, constraint, index, trigger/profile-provisioning mechanism, dan delete behavior final dikunci saat tahap authentication schema dimulai. Bagian ini adalah target logical schema dan belum menjadi current physical schema.
+Role yang di-seed saat ini adalah `user`, `administrator`, `content_editor`, `data_editor`, `data_verifier`, dan `publisher`. Permission tables dan audit log tetap ditambahkan bersama admin mutation workflow.
 
 ## 20.2 Audit Log
 

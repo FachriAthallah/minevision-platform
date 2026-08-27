@@ -85,6 +85,13 @@
       "when": 1787642320757,
       "tag": "0011_database-schema-sync-smelters",
       "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1787757053700,
+      "tag": "0012_unified-auth-foundation",
+      "breakpoints": true
     }
   ]
 }

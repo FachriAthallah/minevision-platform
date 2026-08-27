@@ -49,7 +49,7 @@ export default function RootLayout({
   children,
 }: RootLayoutProps) {
   return (
-    <html lang="id">
+    <html lang="id" data-scroll-behavior="smooth">
       <body
         className={`${lato.variable} ${merriweather.variable} antialiased`}
       >

@@ -24,7 +24,7 @@ MineVision adalah platform publik mengenai:
 - Global Search;
 - MineBot AI.
 
-Seluruh konten publik tetap dapat digunakan tanpa login. MVP merencanakan optional user login melalui Google dan administrator login melalui akun email/password yang dibuat atau diundang secara internal. Keduanya menggunakan Supabase Auth; akses Admin Dashboard tetap memerlukan server-side role dan permission validation.
+Seluruh konten publik tetap dapat digunakan tanpa login. MVP mendukung optional user account melalui Google atau registrasi email/password. Administrator memakai entry point Login yang sama, tetapi akunnya dibuat atau diundang secara internal dan memperoleh role melalui proses tepercaya. Seluruh identity menggunakan Supabase Auth; akses Admin Dashboard tetap memerlukan server-side role dan permission validation.
 
 ## 2. Technology Baseline
 

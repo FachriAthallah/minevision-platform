@@ -40,6 +40,9 @@ const requiredTables = [
   "smelter_facilities",
   "smelter_facility_outputs",
   "smelter_facility_sources",
+  "roles",
+  "user_profiles",
+  "user_role_assignments",
 ] as const;
 
 const requiredViews = [
@@ -92,6 +95,22 @@ const requiredPolicies = [
     tableName: "smelter_facility_sources",
     policyName: "smelter_facility_sources_public_read",
   },
+  {
+    tableName: "roles",
+    policyName: "roles_authenticated_read",
+  },
+  {
+    tableName: "user_profiles",
+    policyName: "user_profiles_read_own",
+  },
+  {
+    tableName: "user_profiles",
+    policyName: "user_profiles_update_own",
+  },
+  {
+    tableName: "user_role_assignments",
+    policyName: "user_role_assignments_read_own",
+  },
 ] as const;
 
 const minimumMasterRecords: Record<string, number> = {
@@ -142,6 +161,11 @@ type DatabasePolicy = {
 
 type CountResult = {
   total: number;
+};
+
+type AuthFoundationSummary = {
+  role_count: number;
+  provisioning_trigger_exists: boolean;
 };
 
 type GdpSummary = {
@@ -1546,6 +1570,40 @@ async function verifySmelterData(
   return valid;
 }
 
+async function verifyAuthFoundation() {
+  console.log("\nMemeriksa authentication foundation:");
+
+  const summaries = await sqlClient<AuthFoundationSummary[]>`
+    SELECT
+      (SELECT COUNT(*)::int FROM public.roles) AS role_count,
+      EXISTS (
+        SELECT 1
+        FROM pg_trigger
+        WHERE
+          tgname = 'on_auth_user_created'
+          AND tgrelid = 'auth.users'::regclass
+          AND NOT tgisinternal
+      ) AS provisioning_trigger_exists;
+  `;
+
+  const summary = summaries[0];
+
+  if (!summary || summary.role_count < 6) {
+    console.error("[FAIL] Role minimum MineVision belum tersedia");
+    return false;
+  }
+
+  if (!summary.provisioning_trigger_exists) {
+    console.error("[FAIL] Trigger provisioning auth user tidak ditemukan");
+    return false;
+  }
+
+  console.log(`[OK] ${summary.role_count} role aplikasi tersedia`);
+  console.log("[OK] Trigger provisioning auth user tersedia");
+
+  return true;
+}
+
 async function main() {
   console.log("Menjalankan verifikasi database MineVision...");
 
@@ -1582,6 +1640,8 @@ async function main() {
       viewVerification.viewSet,
     );
 
+    const authFoundationValid = await verifyAuthFoundation();
+
     const databaseValid =
       tableVerification.valid &&
       rlsValid &&
@@ -1591,7 +1651,8 @@ async function main() {
       gdpDataValid &&
       investmentDataValid &&
       exportDataValid &&
-      smelterDataValid;
+      smelterDataValid &&
+      authFoundationValid;
 
     if (!databaseValid) {
       throw new Error(
