@@ -37,7 +37,7 @@ Arsitektur MineVision harus:
 - menjaga konsistensi data antarhalaman dan modul;
 - mendukung server-side rendering dan interaksi client-side;
 - menyediakan API publik yang terversi;
-- mendukung optional authenticated user melalui Google tanpa membatasi akses anonim ke konten publik;
+- mendukung optional authenticated user melalui email/password atau Google tanpa membatasi akses anonim ke konten publik;
 - mendukung private admin dashboard;
 - mendukung Global Search dan MineBot AI;
 - memungkinkan pengujian otomatis;
@@ -156,7 +156,7 @@ flowchart TB
     DataAccess --> Database
     Database --> RLS
 
-    PublicUI -. Optional Google login .-> Auth
+    PublicUI -. Optional user login .-> Auth
     AdminUI --> Auth
     Auth --> Database
     AppServices --> Storage
@@ -313,7 +313,7 @@ Supporting Services adalah logical dependency, bukan microservice internal MineV
 
 | Area                   | Technology                        | Status                         | Purpose                                              |
 | ---------------------- | --------------------------------- | ------------------------------ | ---------------------------------------------------- |
-| User and Admin Auth     | Supabase Auth                     | Planned for MVP                | Google login user dan email/password administrator   |
+| User and Admin Auth     | Supabase Auth                     | Foundation implemented         | Email/password dan Google user; internal administrator account |
 | Authorization          | Application RBAC + PostgreSQL RLS | Planned/Partial                | Defense-in-depth access control                      |
 | File Storage           | Supabase Storage                  | Planned                        | Public media, source document, dan controlled import |
 | Search                 | PostgreSQL Full-Text Search       | Planned                        | Global keyword search                                |
@@ -905,13 +905,13 @@ flowchart LR
 
 ## 14. Authentication and Admin Architecture
 
-Unified authentication dan Admin Dashboard masih berstatus planned. Konten publik tetap dapat digunakan tanpa session.
+Unified authentication foundation telah diimplementasikan pada development. Admin data-management workflow masih berstatus planned. Konten publik tetap dapat digunakan tanpa session.
 
 ### 14.1 Unified Identity Model
 
 Supabase Auth menjadi satu sumber identitas untuk seluruh akun MVP:
 
-- user publik login secara opsional melalui Google OAuth;
+- user publik membuat akun atau login secara opsional melalui email/password maupun Google OAuth;
 - administrator login menggunakan akun email/password yang dibuat atau diundang secara internal;
 - kedua jenis akun dicatat pada internal schema `auth.users`;
 - aplikasi membuat atau memastikan profil aplikasi yang berelasi dengan `auth.users.id` secara idempotent;
@@ -946,7 +946,7 @@ sequenceDiagram
     end
 ```
 
-Authentication callback hanya boleh mengarahkan ke destination internal yang telah divalidasi. Google login biasa tidak pernah meningkatkan role menjadi administrator.
+Authentication callback hanya boleh mengarahkan ke destination internal yang telah divalidasi. Public registration dan Google login biasa tidak pernah meningkatkan role menjadi administrator.
 
 ### 14.3 Admin Mutation Flow
 
@@ -1300,7 +1300,7 @@ Security diterapkan melalui beberapa lapisan.
 ### 20.4 Authentication Boundary
 
 - Konten dan public API tetap dapat digunakan tanpa session.
-- User dapat memiliki session opsional melalui Google OAuth.
+- User dapat memiliki session opsional melalui email/password atau Google OAuth.
 - Administrator memerlukan session valid dan application role/permission yang sesuai.
 - Supabase `authenticated` role tidak boleh diperlakukan sebagai administrator.
 - Profile provisioning dan role resolution dilakukan melalui trusted server/database boundary.
@@ -1727,8 +1727,8 @@ GraphQL belum diperlukan untuk scope MVP.
 - AI dan map provider memiliki kuota, biaya, dan kebijakan eksternal.
 - Peta bergantung pada ketersediaan koordinat yang tervalidasi.
 - Bahasa utama MVP adalah Bahasa Indonesia.
-- Optional public user account melalui Google merupakan bagian MVP, tetapi konten publik tetap tidak memerlukan login.
-- User email/password self-registration dan fitur personalisasi lanjutan tidak termasuk MVP.
+- Optional public user account melalui email/password atau Google merupakan bagian MVP, tetapi konten publik tetap tidak memerlukan login.
+- Fitur personalisasi lanjutan tidak termasuk MVP.
 - Architecture harus tetap dapat dijalankan tanpa MineBot apabila external AI service sedang tidak tersedia.
 
 ---

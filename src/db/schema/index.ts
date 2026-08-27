@@ -13,3 +13,4 @@ export * from "./economic-gdp";
 export * from "./mining-investment";
 export * from "./minerba-exports";
 export * from "./smelters";
+export * from "./auth";

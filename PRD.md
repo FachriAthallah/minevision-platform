@@ -48,7 +48,7 @@ MineVision menyediakan pengalaman eksplorasi terpadu dengan:
 - sumber dan periode data yang dapat ditelusuri;
 - pencarian lintas modul;
 - MineBot AI yang menggunakan knowledge base MineVision;
-- optional user account melalui Google untuk identitas pengguna MVP;
+- optional user account melalui Google atau email/password untuk identitas pengguna MVP;
 - private admin dashboard untuk pengelolaan, verifikasi, dan publikasi data.
 
 ---
@@ -198,8 +198,8 @@ Menyediakan MineBot AI yang membantu pengguna memahami informasi MineVision mela
 #### 3.1.10 User Authentication and Account
 
 - Satu entry point Login digunakan oleh user dan administrator.
-- User publik dapat login secara opsional menggunakan Google.
-- Identitas hasil Google login dicatat melalui Supabase Auth dan dihubungkan dengan profil aplikasi di PostgreSQL.
+- User publik dapat membuat akun atau login secara opsional menggunakan email/password maupun Google.
+- Seluruh identity dicatat melalui Supabase Auth dan dihubungkan dengan profil aplikasi di PostgreSQL.
 - User yang baru pertama kali login selalu memperoleh role aplikasi `user`.
 - User terautentikasi tetap hanya dapat mengakses data publik yang memenuhi publication policy.
 - Header menampilkan account menu dan logout setelah user login tanpa menghilangkan navigasi publik.
@@ -246,7 +246,7 @@ Menyediakan MineBot AI yang membantu pengguna memahami informasi MineVision mela
 
 ### 3.4 Out of Scope for Initial Product Release
 
-- Self-registration user publik menggunakan email/password.
+- Fitur pemulihan password mandiri yang belum melalui security review production.
 - Profil pengguna publik lanjutan di luar identitas dasar akun.
 - Bookmark dan personalisasi.
 - Riwayat percakapan MineBot yang tersimpan untuk pengguna publik.
@@ -283,8 +283,8 @@ MVP mencakup:
 - Home dan About.
 - Navigasi publik yang responsive dan selalu tersedia pada Home serta area user.
 - Satu halaman Login untuk user dan administrator.
-- Google login opsional untuk user publik.
-- Pencatatan identitas user Google pada Supabase Auth dan profil aplikasi minimum di PostgreSQL.
+- Login dan create account email/password serta Google login opsional untuk user publik.
+- Pencatatan identity user pada Supabase Auth dan profil aplikasi minimum di PostgreSQL.
 - Authenticated header state, account menu, dan logout untuk user.
 - Halaman utama enam kelompok informasi: Edukasi, Industri, Komoditas, Karier, Intelligence, dan Ekonomi.
 - List dan detail untuk konten prioritas yang telah disiapkan.
@@ -349,7 +349,7 @@ MVP dinyatakan selesai apabila:
 
 - seluruh fitur Must Have telah memenuhi acceptance criteria;
 - seluruh priority public flows dapat digunakan end-to-end;
-- Google login user, logout, profile provisioning, dan authenticated navigation bekerja end-to-end;
+- login email/password atau Google, logout, profile provisioning, dan authenticated navigation bekerja end-to-end;
 - administrator login tidak dapat digunakan untuk memperoleh role admin melalui registrasi publik atau Google login biasa;
 - admin publication flow bekerja end-to-end;
 - data publik mempertahankan source dan period metadata;
@@ -363,7 +363,7 @@ MVP dinyatakan selesai apabila:
 ### 4.7 Deferred after MVP
 
 - Bookmark dan personalization.
-- Public email/password self-registration.
+- Advanced account preferences dan identity linking lintas provider.
 - Advanced user profile dan account preferences.
 - Persistent public chat history.
 - Advanced comparison and data export.
@@ -451,9 +451,9 @@ Bagian ini menetapkan kebutuhan teknis tingkat produk. Detail keputusan komponen
 ### TR-08. Authentication and Authorization
 
 - Supabase Auth menjadi satu sumber identitas untuk user dan administrator.
-- User publik dapat login secara opsional melalui Google OAuth; public content tetap dapat diakses tanpa session.
+- User publik dapat membuat akun atau login secara opsional melalui email/password maupun Google OAuth; public content tetap dapat diakses tanpa session.
 - Administrator menggunakan akun email/password yang dibuat atau diundang secara internal.
-- Public Google login tidak boleh memberikan role administratif secara otomatis.
+- Public registration dan Google login tidak boleh memberikan role administratif secara otomatis.
 - Setiap user baru memperoleh role aplikasi `user` secara default.
 - Redirect setelah login ditentukan oleh role yang diverifikasi pada server, bukan pilihan UI atau provider login.
 - Authorization harus diterapkan pada application layer dan database layer bila relevan.
@@ -560,7 +560,7 @@ Technology not yet implemented remains a planning baseline until it is validated
 | SM-18 | Critical or high-severity unresolved vulnerabilities | 0          | Security scan and review       |
 | SM-19 | Secrets committed to repository                      | 0          | Secret scanning                |
 | SM-20 | Priority authorization and RLS scenarios passing     | 100%       | Security and integration tests |
-| SM-AUTH-01 | User Google login and profile provisioning failures | 0 blocker | Authentication E2E test        |
+| SM-AUTH-01 | User login and profile provisioning failures        | 0 blocker | Authentication E2E test        |
 | SM-AUTH-02 | Unauthorized administrator access                   | 0         | Authorization security test    |
 
 ### 6.5 Search and MineBot Metrics
@@ -598,7 +598,7 @@ Product Owner dapat menyetujui MVP apabila seluruh kondisi berikut terpenuhi:
 - data governance audit tidak menemukan data non-publik yang terekspos;
 - priority flows dapat digunakan pada desktop dan mobile;
 - Home dan authenticated user area menyediakan navigasi menuju modul utama;
-- user dapat login melalui Google, tercatat pada identity/profile store, dan logout dengan aman;
+- user dapat mendaftar atau login melalui email/password maupun Google, tercatat pada identity/profile store, dan logout dengan aman;
 - user biasa tidak dapat memperoleh atau menggunakan akses administrator;
 - administrator dapat mengelola lifecycle data prioritas;
 - search dan MineBot memenuhi minimum quality gate yang disepakati;

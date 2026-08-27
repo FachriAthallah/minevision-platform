@@ -42,8 +42,10 @@ Nilainya dikonfigurasi melalui pengaturan project Vercel dan tidak disimpan di r
 | Variable | Scope | Fungsi |
 |---|---|---|
 | `DATABASE_URL` | Server | Koneksi aplikasi ke PostgreSQL |
-| `DIRECT_URL` | Server | Koneksi langsung untuk migration |
+| `DATABASE_MIGRATION_URL` | Server | Koneksi session/direct untuk Drizzle migration |
 | `NEXT_PUBLIC_APP_URL` | Public | Base URL aplikasi jika absolute URL diperlukan |
+| `NEXT_PUBLIC_SUPABASE_URL` | Public | URL project Supabase untuk Auth client |
+| `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` | Public | Publishable key Supabase untuk Auth client |
 | `NODE_ENV` | Runtime | Menentukan mode runtime |
 
 Variable aktual yang diwajibkan aplikasi mengikuti:
@@ -68,14 +70,14 @@ Contoh format:
 DATABASE_URL=postgresql://USER:PASSWORD@HOST:6543/postgres
 ```
 
-### `DIRECT_URL`
+### `DATABASE_MIGRATION_URL`
 
 Digunakan untuk Drizzle migration dan operasi database yang membutuhkan koneksi langsung atau session pooler.
 
 Contoh format:
 
 ```env
-DIRECT_URL=postgresql://USER:PASSWORD@HOST:5432/postgres
+DATABASE_MIGRATION_URL=postgresql://USER:PASSWORD@HOST:5432/postgres
 ```
 
 Contoh tersebut hanya menunjukkan format. Jangan menyalin placeholder sebagai credential sebenarnya.
@@ -95,6 +97,7 @@ Boleh digunakan untuk:
 - public application URL;
 - public feature configuration;
 - identifier publik yang memang dirancang untuk frontend.
+- Supabase project URL dan publishable key yang tetap dibatasi oleh Auth serta RLS.
 
 Tidak boleh digunakan untuk:
 
@@ -122,6 +125,17 @@ Jika request menuju aplikasi yang sama, prioritaskan relative URL:
 ```
 
 Gunakan absolute URL hanya jika benar-benar dibutuhkan.
+
+## 6.1 Supabase Auth Client
+
+Authentication menggunakan:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=https://PROJECT_REF.supabase.co
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=sb_publishable_xxx
+```
+
+Publishable key bukan service-role credential dan tidak boleh digunakan untuk melewati RLS. Service-role key tidak diperlukan oleh unified authentication foundation dan tidak boleh dikirim ke browser.
 
 ## 7. Local Setup
 
@@ -337,7 +351,7 @@ Periksa:
 
 ### Migration gagal tetapi aplikasi terhubung
 
-Periksa apakah migration menggunakan `DIRECT_URL`, bukan transaction pooler runtime.
+Periksa apakah migration menggunakan `DATABASE_MIGRATION_URL`, bukan transaction pooler runtime.
 
 ### Build production gagal
 
