@@ -1,20 +1,17 @@
 import type { Metadata } from "next";
 
-import { ModulePlaceholder } from "@/components/shared/module-placeholder";
+import { educationArticles } from "@/features/education/content/education-content";
+import { EducationPage as EducationExperience } from "@/features/education/education-page";
 
 export const metadata: Metadata = {
-  title: "Education",
+  title: "Edukasi Pertambangan",
   description:
-    "Edukasi mengenai konsep, tahapan, metode, teknologi, dan keselamatan pertambangan.",
+    "Materi edukasi pertambangan mengenai konsep, tahapan kegiatan, metode, alat berat, keselamatan kerja, dan istilah teknis.",
+  alternates: {
+    canonical: "/education",
+  },
 };
 
 export default function EducationPage() {
-  return (
-    <ModulePlaceholder
-      eyebrow="Education"
-      title="Memahami Pertambangan dari Dasar"
-      description="Pelajari pengertian pertambangan, tahapan kegiatan, metode penambangan, alat berat, keselamatan kerja, dan istilah pertambangan."
-      nextStep="memindahkan layout dan struktur konten Education dari referensi Lovable."
-    />
-  );
+  return <EducationExperience article={educationArticles[0]} />;
 }

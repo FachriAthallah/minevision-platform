@@ -125,3 +125,21 @@ a {
   background: var(--brand-cyan);
   color: var(--background);
 }
+
+@media (min-width: 1024px) and (max-height: 959px) {
+  .education-sidebar-category-label,
+  .education-sidebar-trend-intro,
+  .education-sidebar-trend-caption,
+  .education-sidebar-minebot-description {
+    display: none;
+  }
+
+  .education-sidebar-category-link {
+    min-height: 2.25rem;
+    padding-block: 0.5rem;
+  }
+
+  .education-sidebar-trend-link {
+    min-height: 1.75rem;
+  }
+}
