@@ -51,7 +51,7 @@ type ChartPanelProps = {
 
 function ChartPanel({ title, unit, source, children }: ChartPanelProps) {
   return (
-    <article className="rounded-2xl border border-border bg-surface/70 p-6 shadow-sm backdrop-blur">
+    <article className="self-start rounded-2xl border border-border bg-surface/70 p-6 shadow-sm backdrop-blur">
       <div className="flex items-start justify-between gap-4">
         <h3 className="flex flex-wrap items-center gap-2 text-lg font-bold text-foreground">
           {title}
@@ -85,7 +85,7 @@ export function IntelligencePreviewSection() {
       aria-labelledby="intelligence-heading"
       className="mx-auto max-w-[1320px] scroll-mt-24 px-6 py-24"
     >
-      <div className="grid gap-6 lg:grid-cols-[320px_1fr_1fr]">
+      <div className="grid items-start gap-6 lg:grid-cols-[320px_1fr_1fr]">
         <div>
           <span className="inline-block rounded-md border border-border px-3 py-1 text-[11px] font-semibold tracking-widest text-accent">
             INTELLIGENCE
