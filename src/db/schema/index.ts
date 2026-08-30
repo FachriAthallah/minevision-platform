@@ -14,3 +14,5 @@ export * from "./mining-investment";
 export * from "./minerba-exports";
 export * from "./smelters";
 export * from "./auth";
+export * from "./industry-companies";
+export * from "./industry-reports";

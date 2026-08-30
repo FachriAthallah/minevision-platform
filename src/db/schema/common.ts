@@ -123,6 +123,11 @@ export const regionLevelEnum = pgEnum("region_level", [
   "city",
 ]);
 
+export const industryReportTypeEnum = pgEnum("industry_report_type", [
+  "annual_report",
+  "sustainability_report",
+]);
+
 export function createTimestampColumns() {
   return {
     createdAt: timestamp("created_at", {

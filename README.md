@@ -254,3 +254,56 @@ Status fitur dan rencana implementasi selanjutnya dicatat pada `ROADMAP.md`.
 ## License
 
 Status lisensi project belum ditentukan.
+
+# MineVision Industry Metadata Import
+
+## Penempatan file
+
+Salin file ke lokasi berikut di root proyek `minevision-platform`:
+
+| File paket ini                             | Lokasi proyek                              |
+| ------------------------------------------ | ------------------------------------------ |
+| `data/staging/industry/companies.json`     | `data/staging/industry/companies.json`     |
+| `scripts/industry/import-industry-data.ts` | `scripts/industry/import-industry-data.ts` |
+| `scripts/industry/verify-industry-data.ts` | `scripts/industry/verify-industry-data.ts` |
+
+File `data/staging/industry/reports.json` yang sudah tersedia tetap digunakan dan tidak perlu diganti.
+
+## Tambahan `package.json`
+
+Tambahkan tiga properti berikut ke dalam objek `scripts` tanpa menghapus script yang sudah ada:
+
+```json
+{
+  "data:dry-run:industry": "tsx scripts/industry/import-industry-data.ts",
+  "data:import:industry": "tsx scripts/industry/import-industry-data.ts --commit",
+  "data:verify:industry": "tsx scripts/industry/verify-industry-data.ts"
+}
+```
+
+## Urutan menjalankan
+
+```powershell
+npm run data:dry-run:industry
+npm run data:import:industry
+npm run data:verify:industry
+npm run db:verify
+npx tsc --noEmit
+git diff --check
+```
+
+Dry-run memvalidasi 12 perusahaan, 35 laporan, 12 logo, 35 objek Storage, dan kesesuaian ukuran file tanpa mengubah database.
+
+Importer menggunakan satu transaksi database. Jika satu record gagal, seluruh perubahan dalam transaksi dibatalkan. Importer juga idempotent: data yang sama akan dilewati pada eksekusi berikutnya.
+
+## Target hasil
+
+| Data                            | Target |
+| ------------------------------- | -----: |
+| `industry_companies`            |     12 |
+| `industry_reports`              |     35 |
+| objek bucket `industry-reports` |     35 |
+
+Freeport Indonesia memiliki dua laporan untuk 2024 dan 2025. Sebelas perusahaan lainnya masing-masing memiliki tiga laporan untuk 2023-2025.
+
+Profil lengkap dalam dokumen Industri tersedia untuk 10 perusahaan. Bayan Resources dan Trimegah Bangun Persada tetap dibuat sebagai perusahaan terverifikasi agar laporan resminya memiliki foreign key yang valid, tetapi field profil yang belum tersedia dibiarkan `null` dan diberi catatan untuk pengayaan berikutnya.

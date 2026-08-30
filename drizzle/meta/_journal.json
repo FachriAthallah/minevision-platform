@@ -92,6 +92,20 @@
       "when": 1787757053700,
       "tag": "0012_unified-auth-foundation",
       "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1788018898404,
+      "tag": "0013_industry-foundation",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1788021507421,
+      "tag": "0014_industry-reports-storage",
+      "breakpoints": true
     }
   ]
 }
