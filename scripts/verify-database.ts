@@ -40,6 +40,8 @@ const requiredTables = [
   "smelter_facilities",
   "smelter_facility_outputs",
   "smelter_facility_sources",
+  "industry_companies",
+  "industry_reports",
   "roles",
   "user_profiles",
   "user_role_assignments",
@@ -94,6 +96,14 @@ const requiredPolicies = [
   {
     tableName: "smelter_facility_sources",
     policyName: "smelter_facility_sources_public_read",
+  },
+  {
+    tableName: "industry_companies",
+    policyName: "industry_companies_public_select_policy",
+  },
+  {
+    tableName: "industry_reports",
+    policyName: "industry_reports_public_select_policy",
   },
   {
     tableName: "roles",

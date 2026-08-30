@@ -20,7 +20,12 @@
     "data:import:intelligence": "tsx scripts/import-intelligence.ts",
     "data:verify:intelligence": "tsx scripts/verify-intelligence-import.ts",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "data:prepare:industry-reports": "node scripts/industry/generate-reports-manifest.mjs",
+    "data:upload:industry-reports": "tsx scripts/industry/upload-reports-to-storage.ts",
+    "data:dry-run:industry": "tsx scripts/industry/import-industry-data.ts",
+    "data:import:industry": "tsx scripts/industry/import-industry-data.ts --commit",
+    "data:verify:industry": "tsx scripts/industry/verify-industry-data.ts"
   },
   "dependencies": {
     "@supabase/ssr": "0.12.5",
@@ -35,6 +40,7 @@
     "react-dom": "19.2.8",
     "recharts": "^3.10.1",
     "tailwind-merge": "^3.6.0",
+    "tus-js-client": "4.3.1",
     "zod": "^4.4.3"
   },
   "devDependencies": {
