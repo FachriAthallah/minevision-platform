@@ -25,7 +25,11 @@
     "data:upload:industry-reports": "tsx scripts/industry/upload-reports-to-storage.ts",
     "data:dry-run:industry": "tsx scripts/industry/import-industry-data.ts",
     "data:import:industry": "tsx scripts/industry/import-industry-data.ts --commit",
-    "data:verify:industry": "tsx scripts/industry/verify-industry-data.ts"
+    "data:verify:industry": "tsx scripts/industry/verify-industry-data.ts",
+    "data:prepare:industry-foundation": "node scripts/industry/generate-company-foundation-manifest.mjs",
+    "data:dry-run:industry-foundation": "tsx scripts/industry/import-industry-foundation.ts",
+    "data:import:industry-foundation": "tsx scripts/industry/import-industry-foundation.ts --commit",
+    "data:verify:industry-foundation": "tsx scripts/industry/verify-industry-foundation.ts"
   },
   "dependencies": {
     "@supabase/ssr": "0.12.5",
