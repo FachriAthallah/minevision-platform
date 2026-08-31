@@ -45,6 +45,16 @@ const sampleCompany = {
         "/api/v1/industry/reports/22222222-2222-4222-8222-222222222222/download",
     },
   ],
+  production: [],
+  financials: [],
+  operationSites: [],
+  dataSummary: {
+    productionRecordCount: 0,
+    financialRecordCount: 0,
+    operationSiteCount: 0,
+    productionYears: [],
+    financialYears: [],
+  },
 };
 
 describe("GET /api/v1/industry/companies/[slug]", () => {
