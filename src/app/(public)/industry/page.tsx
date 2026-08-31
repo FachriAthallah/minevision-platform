@@ -1,20 +1,50 @@
 import type { Metadata } from "next";
 
-import { ModulePlaceholder } from "@/components/shared/module-placeholder";
+import { IndustryPublicPage as IndustryExperience } from "@/features/industry/components/industry-public-page";
+import { parseIndustryCategory } from "@/features/industry/lib/industry-view";
+import {
+  getPublicIndustryExperience,
+  type PublicIndustryExperience,
+} from "@/features/industry/server/get-public-industry-experience";
 
 export const metadata: Metadata = {
-  title: "Industry",
+  title: "Industri Pertambangan Indonesia",
   description:
-    "Informasi perusahaan, operasi, dan teknologi industri pertambangan Indonesia.",
+    "Direktori perusahaan tambang utama, laporan tahunan dan keberlanjutan, serta wilayah operasi pertambangan Indonesia.",
+  alternates: {
+    canonical: "/industry",
+  },
 };
 
-export default function IndustryPage() {
+type IndustryPageProps = {
+  searchParams: Promise<{
+    category?: string | string[];
+  }>;
+};
+
+const emptyExperience: PublicIndustryExperience = {
+  companies: [],
+  reports: [],
+};
+
+export default async function IndustryPage({ searchParams }: IndustryPageProps) {
+  const query = await searchParams;
+  const activeCategory = parseIndustryCategory(query.category);
+  let experience = emptyExperience;
+  let dataError = false;
+
+  try {
+    experience = await getPublicIndustryExperience(activeCategory === "reports");
+  } catch (error: unknown) {
+    console.error("Failed to load Industry public experience:", error);
+    dataError = true;
+  }
+
   return (
-    <ModulePlaceholder
-      eyebrow="Industry"
-      title="Mengenal Industri Pertambangan Indonesia"
-      description="Jelajahi profil perusahaan tambang, lokasi operasi, komoditas utama, produksi, kontribusi industri, dan perkembangan teknologi."
-      nextStep="membangun daftar perusahaan, halaman detail perusahaan, dan teknologi pertambangan."
+    <IndustryExperience
+      activeCategory={activeCategory}
+      experience={experience}
+      dataError={dataError}
     />
   );
 }
