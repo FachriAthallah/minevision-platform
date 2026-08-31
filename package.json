@@ -26,6 +26,7 @@
     "data:dry-run:industry": "tsx scripts/industry/import-industry-data.ts",
     "data:import:industry": "tsx scripts/industry/import-industry-data.ts --commit",
     "data:verify:industry": "tsx scripts/industry/verify-industry-data.ts",
+    "data:export:industry-sites": "tsx scripts/industry/export-operation-sites.ts",
     "data:prepare:industry-foundation": "node scripts/industry/generate-company-foundation-manifest.mjs",
     "data:dry-run:industry-foundation": "tsx scripts/industry/import-industry-foundation.ts",
     "data:import:industry-foundation": "tsx scripts/industry/import-industry-foundation.ts --commit",
