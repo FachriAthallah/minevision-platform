@@ -40,6 +40,14 @@ export const industryReportIdSchema = z
   .string()
   .uuid("ID laporan memiliki format yang tidak valid");
 
+export const industryOperationSiteQuerySchema = z.object({
+  companySlug: industryCompanySlugSchema.optional(),
+});
+
 export type IndustryCompanyQuery = z.infer<
   typeof industryCompanyQuerySchema
+>;
+
+export type IndustryOperationSiteQuery = z.infer<
+  typeof industryOperationSiteQuerySchema
 >;
