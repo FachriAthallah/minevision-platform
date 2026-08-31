@@ -128,6 +128,60 @@ export const industryReportTypeEnum = pgEnum("industry_report_type", [
   "sustainability_report",
 ]);
 
+export const industryDataAvailabilityEnum = pgEnum(
+  "industry_data_availability",
+  ["reported", "not_normalized", "not_reported"],
+);
+
+export const industryFinancialMetricEnum = pgEnum(
+  "industry_financial_metric",
+  [
+    "total_assets",
+    "revenue",
+    "net_income",
+    "profit_for_year",
+    "operating_income",
+  ],
+);
+
+export const industryAuditStatusEnum = pgEnum("industry_audit_status", [
+  "audited",
+  "unaudited",
+  "unknown",
+]);
+
+export const industryOperationSiteTypeEnum = pgEnum(
+  "industry_operation_site_type",
+  [
+    "mine",
+    "underground_mine",
+    "smelter",
+    "refinery",
+    "port",
+    "industrial_complex",
+    "project",
+    "operating_area",
+  ],
+);
+
+export const industryOperationSiteStatusEnum = pgEnum(
+  "industry_operation_site_status",
+  [
+    "operating",
+    "ramp_up",
+    "development",
+    "construction",
+    "limited_operation",
+    "care_and_maintenance",
+    "closed",
+  ],
+);
+
+export const industryCoordinatePrecisionEnum = pgEnum(
+  "industry_coordinate_precision",
+  ["exact", "approximate", "regency_centroid", "province_centroid", "withheld"],
+);
+
 export function createTimestampColumns() {
   return {
     createdAt: timestamp("created_at", {

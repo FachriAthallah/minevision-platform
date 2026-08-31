@@ -42,6 +42,9 @@ const requiredTables = [
   "smelter_facility_sources",
   "industry_companies",
   "industry_reports",
+  "industry_company_production",
+  "industry_company_financials",
+  "industry_operation_sites",
   "roles",
   "user_profiles",
   "user_role_assignments",
@@ -106,6 +109,18 @@ const requiredPolicies = [
     policyName: "industry_reports_public_select_policy",
   },
   {
+    tableName: "industry_company_production",
+    policyName: "industry_company_production_public_select_policy",
+  },
+  {
+    tableName: "industry_company_financials",
+    policyName: "industry_company_financials_public_select_policy",
+  },
+  {
+    tableName: "industry_operation_sites",
+    policyName: "industry_operation_sites_public_select_policy",
+  },
+  {
     tableName: "roles",
     policyName: "roles_authenticated_read",
   },
@@ -125,7 +140,7 @@ const requiredPolicies = [
 
 const minimumMasterRecords: Record<string, number> = {
   sources: 3,
-  measurement_units: 6,
+  measurement_units: 8,
   commodities: 23,
   regions: 1,
   commodity_price_standards: 6,
