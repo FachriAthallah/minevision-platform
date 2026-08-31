@@ -16,3 +16,6 @@ export * from "./smelters";
 export * from "./auth";
 export * from "./industry-companies";
 export * from "./industry-reports";
+export * from "./industry-company-production";
+export * from "./industry-company-financials";
+export * from "./industry-operation-sites";

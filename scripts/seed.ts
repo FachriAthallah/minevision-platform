@@ -120,6 +120,15 @@ const measurementUnitSeed: NewMeasurementUnit[] = [
     isActive: true,
   },
   {
+    name: "Wet Metric Ton",
+    code: "wet_metric_ton",
+    symbol: "wmt",
+    category: "mass",
+    description:
+      "Satuan metrik ton berdasarkan berat material dalam kondisi basah.",
+    isActive: true,
+  },
+  {
     name: "Kilogram",
     code: "kilogram",
     symbol: "kg",
@@ -142,6 +151,14 @@ const measurementUnitSeed: NewMeasurementUnit[] = [
     category: "mass",
     description:
       "Satuan massa yang umum digunakan dalam perdagangan logam mulia.",
+    isActive: true,
+  },
+  {
+    name: "Pound",
+    code: "pound",
+    symbol: "lb",
+    category: "mass",
+    description: "Satuan massa avoirdupois setara dengan 0,45359237 kilogram.",
     isActive: true,
   },
   {
