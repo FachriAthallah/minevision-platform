@@ -4,7 +4,6 @@ import type { PublicIndustryCompanySummary } from "../types/industry";
 import type { IndustryReportCatalogItem } from "../types/industry-view";
 import {
   filterIndustryCompanies,
-  filterIndustryOperations,
   filterIndustryReports,
   formatFileSize,
   formatIndustryReportType,
@@ -111,13 +110,6 @@ describe("Industry public UI helpers", () => {
         reportType: "sustainability_report",
       }),
     ).toEqual([reports[1]]);
-  });
-
-  it("memfilter wilayah berdasarkan nama perusahaan atau teks wilayah", () => {
-    expect(filterIndustryOperations(companies, "sorowako")[0]?.slug).toBe(
-      "vale-indonesia",
-    );
-    expect(filterIndustryOperations(companies, "bukit asam")).toHaveLength(1);
   });
 
   it("memetakan label laporan dan format ukuran file", () => {

@@ -28,7 +28,7 @@ const categories: IndustryCategoryItem[] = [
   {
     id: "operations",
     title: "Wilayah Operasi",
-    description: "Keterangan persebaran kegiatan operasional perusahaan.",
+    description: "Peta interaktif berbagai lokasi operasi perusahaan.",
     icon: MapPinned,
   },
 ];

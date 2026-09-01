@@ -1,4 +1,5 @@
 import type { PublicIndustryCompanySummary } from "../types/industry";
+import { getIndustryCompanyPresentation } from "../content/industry-company-content";
 import type {
   IndustryCategory,
   IndustryReportCatalogItem,
@@ -45,13 +46,18 @@ export function filterIndustryCompanies(
   const search = normalizeSearchValue(query);
 
   return companies.filter((company) =>
-    includesSearchValue(search, [
-      company.name,
-      company.companyType,
-      company.businessField,
-      company.headquartersAddress,
-      company.operationAreaDescription,
-    ]),
+    {
+      const presentation = getIndustryCompanyPresentation(company.slug);
+
+      return includesSearchValue(search, [
+        company.name,
+        company.companyType,
+        company.businessField,
+        company.operationAreaDescription,
+        presentation?.mainOperation,
+        presentation?.primaryCommodity,
+      ]);
+    },
   );
 }
 
@@ -77,21 +83,6 @@ export function filterIndustryReports(
 
     return matchesSearch && matchesCompany && matchesYear && matchesType;
   });
-}
-
-export function filterIndustryOperations(
-  companies: PublicIndustryCompanySummary[],
-  query: string,
-): PublicIndustryCompanySummary[] {
-  const search = normalizeSearchValue(query);
-
-  return companies.filter((company) =>
-    includesSearchValue(search, [
-      company.name,
-      company.headquartersAddress,
-      company.operationAreaDescription,
-    ]),
-  );
 }
 
 export function formatIndustryReportType(
