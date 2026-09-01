@@ -25,6 +25,7 @@ type IndustryPageProps = {
 const emptyExperience: PublicIndustryExperience = {
   companies: [],
   reports: [],
+  operationSites: [],
 };
 
 export default async function IndustryPage({ searchParams }: IndustryPageProps) {

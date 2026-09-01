@@ -3,6 +3,7 @@ import { Bot } from "lucide-react";
 export function MineBotFab() {
   return (
     <button
+      id="minebot"
       type="button"
       className="fixed right-4 bottom-6 z-40 flex flex-col items-center gap-1.5 sm:right-8 sm:bottom-8"
       aria-label="Buka MineBot AI"

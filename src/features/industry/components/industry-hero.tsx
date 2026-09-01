@@ -1,40 +1,43 @@
-import { Building2, FileText, Landmark, ShieldCheck } from "lucide-react";
+import { Building2, FileText, Landmark, MapPinned } from "lucide-react";
 
 import { Container } from "@/components/ui/container";
 import type { PublicIndustryCompanySummary } from "@/features/industry/types/industry";
+import type { PublicIndustryOperationSite } from "@/features/industry/types/industry";
+import { getIndustryHeroStatistics } from "@/features/industry/lib/industry-company-view";
 
 type IndustryHeroProps = {
   companies: PublicIndustryCompanySummary[];
+  operationSites: PublicIndustryOperationSite[];
   dataError: boolean;
 };
 
-export function IndustryHero({ companies, dataError }: IndustryHeroProps) {
-  const reportCount = companies.reduce(
-    (total, company) => total + company.reportCount,
-    0,
-  );
-  const reportYears = Array.from(
-    new Set(companies.flatMap((company) => company.availableReportYears)),
-  ).sort((left, right) => left - right);
-  const yearRange = reportYears.length
-    ? `${reportYears[0]}–${reportYears.at(-1)}`
-    : "Belum tersedia";
+export function IndustryHero({
+  companies,
+  operationSites,
+  dataError,
+}: IndustryHeroProps) {
+  const statistics = getIndustryHeroStatistics(companies, operationSites);
 
   const stats = [
     {
       icon: Building2,
-      value: dataError ? "—" : String(companies.length),
-      label: "Perusahaan publik",
+      value: dataError ? "—" : String(statistics.companyCount),
+      label: "Perusahaan Utama",
+      description: "Perusahaan tambang utama Indonesia.",
     },
     {
       icon: FileText,
-      value: dataError ? "—" : String(reportCount),
-      label: "Laporan tersedia",
+      value: dataError ? "—" : String(statistics.reportCount),
+      label: "Laporan Tersedia",
+      description:
+        "Informasi resmi berdasarkan laporan tahunan dan keberlanjutan perusahaan.",
     },
     {
-      icon: ShieldCheck,
-      value: dataError ? "—" : yearRange,
-      label: "Periode laporan",
+      icon: MapPinned,
+      value: dataError ? "—" : String(statistics.operationSiteCount),
+      label: "Lokasi Operasi",
+      description:
+        "Peta berbagai lokasi operasi industri pertambangan Indonesia.",
     },
   ];
 
@@ -42,19 +45,15 @@ export function IndustryHero({ companies, dataError }: IndustryHeroProps) {
     <section className="relative isolate overflow-hidden border-b border-border pb-16 pt-32 sm:pb-20 sm:pt-36">
       <div
         aria-hidden="true"
-        className="absolute inset-0 -z-20 bg-[linear-gradient(115deg,#020817_0%,#061426_50%,#0a1d31_100%)]"
+        className="absolute inset-0 -z-30 bg-[linear-gradient(115deg,#020817_0%,#061426_50%,#0a1d31_100%)]"
       />
       <div
         aria-hidden="true"
-        className="absolute inset-0 -z-10 opacity-35 [background-image:linear-gradient(rgba(159,172,186,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(159,172,186,0.08)_1px,transparent_1px)] [background-size:48px_48px] [mask-image:linear-gradient(to_right,transparent,black_48%,black)]"
+        className="absolute inset-0 -z-20 bg-[url('/images/industry/bg_industry.png')] bg-cover bg-[position:62%_center] opacity-65 sm:bg-center"
       />
       <div
         aria-hidden="true"
-        className="absolute -right-24 top-12 -z-10 size-[430px] rounded-full bg-brand-blue/10 blur-3xl"
-      />
-      <div
-        aria-hidden="true"
-        className="absolute right-[12%] top-[30%] -z-10 size-64 rounded-full bg-brand-teal/8 blur-3xl"
+        className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(2,8,23,0.98)_0%,rgba(2,8,23,0.87)_48%,rgba(2,8,23,0.58)_100%),linear-gradient(0deg,rgba(2,8,23,0.88)_0%,transparent_58%)]"
       />
 
       <Container className="max-w-[1320px]">
@@ -83,10 +82,13 @@ export function IndustryHero({ companies, dataError }: IndustryHeroProps) {
                 <span className="flex size-10 shrink-0 items-center justify-center rounded-xl border border-brand-cyan/25 bg-brand-cyan/5">
                   <stat.icon aria-hidden="true" className="size-5 text-brand-cyan" />
                 </span>
-                <div>
+                <div className="min-w-0">
                   <p className="text-lg font-bold text-foreground">{stat.value}</p>
-                  <p className="text-xs leading-5 text-muted-foreground">
+                  <p className="text-sm font-bold leading-5 text-foreground">
                     {stat.label}
+                  </p>
+                  <p className="mt-1 text-xs leading-5 text-muted-foreground">
+                    {stat.description}
                   </p>
                 </div>
               </div>

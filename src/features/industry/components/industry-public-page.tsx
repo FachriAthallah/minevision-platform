@@ -5,6 +5,7 @@ import type { IndustryCategory } from "@/features/industry/types/industry-view";
 import { IndustryCategoryNavigation } from "./industry-category-navigation";
 import { IndustryExplorer } from "./industry-explorer";
 import { IndustryHero } from "./industry-hero";
+import { IndustryTrustedSources } from "./industry-trusted-sources";
 
 type IndustryPublicPageProps = {
   activeCategory: IndustryCategory;
@@ -19,7 +20,11 @@ export function IndustryPublicPage({
 }: IndustryPublicPageProps) {
   return (
     <div className="bg-background">
-      <IndustryHero companies={experience.companies} dataError={dataError} />
+      <IndustryHero
+        companies={experience.companies}
+        operationSites={experience.operationSites}
+        dataError={dataError}
+      />
 
       <section className="relative py-12 sm:py-16 lg:py-20">
         <div
@@ -35,9 +40,16 @@ export function IndustryPublicPage({
               category={activeCategory}
               companies={experience.companies}
               reports={experience.reports}
+              operationSites={experience.operationSites}
               dataError={dataError}
             />
           </div>
+
+          <IndustryTrustedSources
+            activeCategory={activeCategory}
+            companies={experience.companies}
+            operationSites={experience.operationSites}
+          />
         </Container>
       </section>
     </div>

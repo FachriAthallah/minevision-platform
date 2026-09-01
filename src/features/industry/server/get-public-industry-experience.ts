@@ -1,53 +1,41 @@
 import "server-only";
 
 import { getPublicIndustryCompanies } from "./get-public-industry-companies";
-import { getPublicIndustryCompanyBySlug } from "./get-public-industry-company";
-import type { PublicIndustryCompanySummary } from "../types/industry";
+import { getPublicIndustryOperationSites } from "./get-public-industry-operation-sites";
+import { getPublicIndustryReports } from "./get-public-industry-reports";
+import type {
+  PublicIndustryCompanySummary,
+  PublicIndustryOperationSite,
+} from "../types/industry";
 import type { IndustryReportCatalogItem } from "../types/industry-view";
 
 export type PublicIndustryExperience = {
   companies: PublicIndustryCompanySummary[];
   reports: IndustryReportCatalogItem[];
+  operationSites: PublicIndustryOperationSite[];
 };
 
 export async function getPublicIndustryExperience(
   includeReports: boolean,
 ): Promise<PublicIndustryExperience> {
-  const companies = await getPublicIndustryCompanies({});
+  const [companies, operationSites] = await Promise.all([
+    getPublicIndustryCompanies({}),
+    getPublicIndustryOperationSites({}),
+  ]);
 
   if (!includeReports || companies.length === 0) {
     return {
       companies,
       reports: [],
+      operationSites,
     };
   }
 
-  const companyDetails = await Promise.all(
-    companies.map((company) => getPublicIndustryCompanyBySlug(company.slug)),
-  );
-
-  const reports = companyDetails
-    .flatMap((company) =>
-      company
-        ? company.reports.map((report) => ({
-            ...report,
-            companyId: company.id,
-            companyName: company.name,
-            companySlug: company.slug,
-            companyLogoPath: company.logoPath,
-            companyDisplayOrder: company.displayOrder,
-          }))
-        : [],
-    )
-    .sort(
-      (left, right) =>
-        right.reportYear - left.reportYear ||
-        left.companyDisplayOrder - right.companyDisplayOrder ||
-        left.reportType.localeCompare(right.reportType),
-    );
+  const reports = await getPublicIndustryReports();
 
   return {
     companies,
     reports,
+    operationSites,
   };
 }
