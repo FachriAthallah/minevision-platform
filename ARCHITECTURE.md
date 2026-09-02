@@ -442,7 +442,7 @@ minevision-platform/
   |   |   |-- index.ts
   |   |   \-- schema/
   |   |       |-- common.ts
-  |   |       |-- commodities.ts
+  |   |       |-- commodity.ts
   |   |       |-- commodity-prices.ts
   |   |       |-- commodity-production.ts
   |   |       |-- economic-gdp.ts

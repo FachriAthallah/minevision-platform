@@ -396,7 +396,7 @@ Target record:
   "symbol": null,
   "category": "energy",
   "description": "Komoditas energi pertambangan.",
-  "imageUrl": "/images/commodities/batubara.jpg",
+  "imageUrl": "/images/commodity/batubara.jpg",
   "isIntelligenceTracked": true
 }
 ```
