@@ -19,25 +19,25 @@ const coverage = [
   },
 ] as const;
 
-const commodities = [
+const Commodity = [
   {
     name: "Nikel",
-    image: "/images/commodities/nikel.jpg",
+    image: "/images/commodity/nikel.jpg",
     description: "Baterai • Stainless steel • Permintaan global tinggi",
   },
   {
     name: "Batubara",
-    image: "/images/commodities/batubara.jpg",
+    image: "/images/commodity/batubara.jpg",
     description: "Energi • Industri • Sumber energi utama",
   },
   {
     name: "Emas",
-    image: "/images/commodities/emas.jpg",
+    image: "/images/commodity/emas.jpg",
     description: "Investasi • Perhiasan • Nilai lindung tinggi",
   },
   {
     name: "Tembaga",
-    image: "/images/commodities/tembaga.jpg",
+    image: "/images/commodity/tembaga.jpg",
     description: "Elektrifikasi • Konstruksi • Konduktivitas unggul",
   },
 ] as const;
@@ -150,7 +150,7 @@ export function IntelligencePreviewSection() {
           </div>
 
           <Link
-            href="/commodities"
+            href="/commodity"
             className="inline-flex items-center gap-2 text-sm font-medium text-accent transition-colors hover:text-primary"
           >
             Lihat semua komoditas
@@ -159,7 +159,7 @@ export function IntelligencePreviewSection() {
         </div>
 
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {commodities.map((commodity) => (
+          {Commodity.map((commodity) => (
             <article
               key={commodity.name}
               className="overflow-hidden rounded-2xl border border-border bg-background/40"
@@ -183,7 +183,7 @@ export function IntelligencePreviewSection() {
                 </p>
 
                 <Link
-                  href="/commodities"
+                  href="/commodity"
                   className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-accent transition-colors hover:text-primary"
                 >
                   Pelajari lebih lanjut

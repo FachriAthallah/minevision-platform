@@ -182,7 +182,7 @@ Navigasi publik utama:
 
 Navigasi pendukung:
 
-- Commodities
+- Commodity
 - Search
 - About
 - Privacy
@@ -742,7 +742,7 @@ Urutan utama:
 3. Indonesia Mining at a Glance.
 4. Explore MineVision.
 5. Mining Intelligence preview.
-6. Featured commodities.
+6. Featured commodity.
 7. Search entry point.
 8. MineBot CTA.
 9. Data source strip.

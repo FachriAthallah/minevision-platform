@@ -59,7 +59,7 @@ const modules = [
     title: "Komoditas",
     description:
       "Profil komoditas, karakteristik, penggunaan, dan rantai pasoknya.",
-    href: "/commodities",
+    href: "/commodity",
   },
   {
     icon: Briefcase,

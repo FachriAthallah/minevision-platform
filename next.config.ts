@@ -38,6 +38,16 @@ if (process.env.NODE_ENV === "production") {
 const nextConfig: NextConfig = {
   poweredByHeader: false,
 
+  async redirects() {
+    return [
+      {
+        source: "/commodities/:path*",
+        destination: "/commodity/:path*",
+        permanent: true,
+      },
+    ];
+  },
+
   async headers() {
     return [
       {

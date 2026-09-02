@@ -23,8 +23,8 @@ export const siteConfig = {
       href: "/industry",
     },
     {
-      label: "Commodities",
-      href: "/commodities",
+      label: "Commodity",
+      href: "/commodity",
     },
     {
       label: "Career",
