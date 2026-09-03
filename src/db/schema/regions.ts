@@ -6,11 +6,13 @@ import {
   index,
   jsonb,
   numeric,
+  pgPolicy,
   pgTable,
   uniqueIndex,
   uuid,
   varchar,
 } from "drizzle-orm/pg-core";
+import { anonRole, authenticatedRole } from "drizzle-orm/supabase";
 
 import { createTimestampColumns, regionLevelEnum } from "./common";
 
@@ -91,8 +93,15 @@ export const regions = pgTable(
         )
       `,
     ),
+
+    pgPolicy("regions_public_read", {
+      as: "permissive",
+      for: "select",
+      to: [anonRole, authenticatedRole],
+      using: sql`${table.isActive} = true`,
+    }),
   ],
-);
+).enableRLS();
 
 export type Region = typeof regions.$inferSelect;
 

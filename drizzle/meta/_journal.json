@@ -120,6 +120,13 @@
       "when": 1788116111484,
       "tag": "0016_industry-company-data-indexes",
       "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1788442495008,
+      "tag": "0017_commodity-data-foundation",
+      "breakpoints": true
     }
   ]
 }
