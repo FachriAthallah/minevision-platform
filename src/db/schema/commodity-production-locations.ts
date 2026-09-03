@@ -41,7 +41,7 @@ export const commodityProductionLocations = pgTable(
         onUpdate: "cascade",
       }),
 
-    year: smallint("year").notNull(),
+    year: smallint("year"),
 
     productionValue: numeric("production_value", {
       precision: 24,
@@ -82,14 +82,22 @@ export const commodityProductionLocations = pgTable(
     notes: text("notes"),
 
     ...createTimestampColumns(),
+
+    locationDetail: text("location_detail"),
   },
   (table) => [
-    uniqueIndex("commodity_production_locations_unique_idx").on(
-      table.commodityId,
-      table.regionId,
-      table.year,
-      table.recordType,
-    ),
+    uniqueIndex("commodity_production_locations_annual_unique_idx")
+      .on(
+        table.commodityId,
+        table.regionId,
+        table.year,
+        table.recordType,
+      )
+      .where(sql`${table.year} IS NOT NULL`),
+
+    uniqueIndex("commodity_production_locations_undated_unique_idx")
+      .on(table.commodityId, table.regionId, table.recordType)
+      .where(sql`${table.year} IS NULL`),
 
     index("commodity_production_locations_commodity_idx").on(table.commodityId),
 
@@ -153,6 +161,20 @@ export const commodityProductionLocations = pgTable(
           ${table.productionValue} IS NOT NULL
           OR ${table.producerRank} IS NOT NULL
           OR ${table.sharePercentage} IS NOT NULL
+          OR NULLIF(BTRIM(${table.locationDetail}), '') IS NOT NULL
+        `,
+    ),
+
+    check(
+      "commodity_production_locations_period_data_check",
+      sql`
+          ${table.year} IS NOT NULL
+          OR (
+            ${table.productionValue} IS NULL
+            AND ${table.unitCode} IS NULL
+            AND ${table.sharePercentage} IS NULL
+            AND ${table.producerRank} IS NULL
+          )
         `,
     ),
   ],
