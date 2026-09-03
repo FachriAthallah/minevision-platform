@@ -3,6 +3,7 @@ import {
   check,
   index,
   numeric,
+  pgPolicy,
   pgTable,
   smallint,
   text,
@@ -10,6 +11,7 @@ import {
   uuid,
   varchar,
 } from "drizzle-orm/pg-core";
+import { anonRole, authenticatedRole } from "drizzle-orm/supabase";
 
 import { commodities } from "./commodities";
 import {
@@ -87,12 +89,7 @@ export const commodityProductionLocations = pgTable(
   },
   (table) => [
     uniqueIndex("commodity_production_locations_annual_unique_idx")
-      .on(
-        table.commodityId,
-        table.regionId,
-        table.year,
-        table.recordType,
-      )
+      .on(table.commodityId, table.regionId, table.year, table.recordType)
       .where(sql`${table.year} IS NOT NULL`),
 
     uniqueIndex("commodity_production_locations_undated_unique_idx")
@@ -123,62 +120,91 @@ export const commodityProductionLocations = pgTable(
     check(
       "commodity_production_locations_value_check",
       sql`
-          ${table.productionValue} IS NULL
-          OR ${table.productionValue} >= 0
-        `,
+        ${table.productionValue} IS NULL
+        OR ${table.productionValue} >= 0
+      `,
     ),
 
     check(
       "commodity_production_locations_share_check",
       sql`
-          ${table.sharePercentage} IS NULL
-          OR (
-            ${table.sharePercentage} >= 0
-            AND ${table.sharePercentage} <= 100
-          )
-        `,
+        ${table.sharePercentage} IS NULL
+        OR (
+          ${table.sharePercentage} >= 0
+          AND ${table.sharePercentage} <= 100
+        )
+      `,
     ),
 
     check(
       "commodity_production_locations_rank_check",
       sql`
-          ${table.producerRank} IS NULL
-          OR ${table.producerRank} > 0
-        `,
+        ${table.producerRank} IS NULL
+        OR ${table.producerRank} > 0
+      `,
     ),
 
     check(
       "commodity_production_locations_unit_check",
       sql`
-          ${table.productionValue} IS NULL
-          OR ${table.unitCode} IS NOT NULL
-        `,
+        ${table.productionValue} IS NULL
+        OR ${table.unitCode} IS NOT NULL
+      `,
     ),
 
     check(
       "commodity_production_locations_data_check",
       sql`
-          ${table.productionValue} IS NOT NULL
-          OR ${table.producerRank} IS NOT NULL
-          OR ${table.sharePercentage} IS NOT NULL
-          OR NULLIF(BTRIM(${table.locationDetail}), '') IS NOT NULL
-        `,
+        ${table.productionValue} IS NOT NULL
+        OR ${table.producerRank} IS NOT NULL
+        OR ${table.sharePercentage} IS NOT NULL
+        OR NULLIF(BTRIM(${table.locationDetail}), '') IS NOT NULL
+      `,
     ),
 
     check(
       "commodity_production_locations_period_data_check",
       sql`
-          ${table.year} IS NOT NULL
-          OR (
-            ${table.productionValue} IS NULL
-            AND ${table.unitCode} IS NULL
-            AND ${table.sharePercentage} IS NULL
-            AND ${table.producerRank} IS NULL
-          )
-        `,
+        ${table.year} IS NOT NULL
+        OR (
+          ${table.productionValue} IS NULL
+          AND ${table.unitCode} IS NULL
+          AND ${table.sharePercentage} IS NULL
+          AND ${table.producerRank} IS NULL
+        )
+      `,
     ),
+
+    pgPolicy("commodity_production_locations_public_read", {
+      as: "permissive",
+      for: "select",
+      to: [anonRole, authenticatedRole],
+      using: sql`
+        ${table.verificationStatus} = 'verified'
+        AND ${table.publicationStatus} = 'published'
+        AND EXISTS (
+          SELECT 1
+          FROM "commodities" AS commodity
+          WHERE commodity.id = ${table.commodityId}
+            AND commodity.is_active = true
+        )
+        AND EXISTS (
+          SELECT 1
+          FROM "regions" AS region
+          WHERE region.id = ${table.regionId}
+            AND region.is_active = true
+        )
+        AND EXISTS (
+          SELECT 1
+          FROM "sources" AS source
+          WHERE source.id = ${table.sourceId}
+            AND source.is_active = true
+            AND source.verification_status = 'verified'
+        )
+      `,
+    }),
   ],
-);
+).enableRLS();
 
 export type CommodityProductionLocation =
   typeof commodityProductionLocations.$inferSelect;

@@ -195,6 +195,10 @@ const requiredPolicies = [
     tableName: "user_role_assignments",
     policyName: "user_role_assignments_read_own",
   },
+  {
+    tableName: "commodity_production_locations",
+    policyName: "commodity_production_locations_public_read",
+  },
 ] as const;
 
 const minimumMasterRecords: Record<string, number> = {
