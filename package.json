@@ -19,6 +19,7 @@
     "data:dry-run:intelligence": "tsx scripts/dry-run-intelligence-import.ts",
     "data:import:intelligence": "tsx scripts/import-intelligence.ts",
     "data:verify:intelligence": "tsx scripts/verify-intelligence-import.ts",
+    "data:validate:commodity": "tsx scripts/validate-commodity-import.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "data:prepare:industry-reports": "node scripts/industry/generate-reports-manifest.mjs",
