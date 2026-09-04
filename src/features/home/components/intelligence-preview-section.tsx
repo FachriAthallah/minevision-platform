@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, CalendarDays, Globe, Info } from "lucide-react";
 
+import { getPublicCommodities } from "@/features/commodity/server/get-public-commodities";
+
 import { ProductionPreviewChart } from "./intelligence-preview-chart";
 import { DomesticPricePreview } from "./domestic-price-preview";
 
@@ -19,25 +21,21 @@ const coverage = [
   },
 ] as const;
 
-const Commodity = [
+const featuredCommodityConfig = [
   {
-    name: "Nikel",
-    image: "/images/commodity/nikel.jpg",
+    slug: "nikel",
     description: "Baterai • Stainless steel • Permintaan global tinggi",
   },
   {
-    name: "Batubara",
-    image: "/images/commodity/batubara.jpg",
+    slug: "batubara",
     description: "Energi • Industri • Sumber energi utama",
   },
   {
-    name: "Emas",
-    image: "/images/commodity/emas.jpg",
+    slug: "emas",
     description: "Investasi • Perhiasan • Nilai lindung tinggi",
   },
   {
-    name: "Tembaga",
-    image: "/images/commodity/tembaga.jpg",
+    slug: "tembaga",
     description: "Elektrifikasi • Konstruksi • Konduktivitas unggul",
   },
 ] as const;
@@ -78,7 +76,26 @@ function ChartPanel({ title, unit, source, children }: ChartPanelProps) {
   );
 }
 
-export function IntelligencePreviewSection() {
+export async function IntelligencePreviewSection() {
+  const commodities = await getPublicCommodities({});
+
+  const featuredCommodities = featuredCommodityConfig.flatMap((item) => {
+    const commodity = commodities.find(
+      (candidate) => candidate.slug === item.slug,
+    );
+
+    if (!commodity) {
+      return [];
+    }
+
+    return [
+      {
+        ...commodity,
+        previewDescription: item.description,
+      },
+    ];
+  });
+
   return (
     <section
       id="intelligence"
@@ -159,39 +176,52 @@ export function IntelligencePreviewSection() {
         </div>
 
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {Commodity.map((commodity) => (
-            <article
-              key={commodity.name}
-              className="overflow-hidden rounded-2xl border border-border bg-background/40"
-            >
-              <Image
-                src={commodity.image}
-                alt={`Komoditas ${commodity.name}`}
-                width={640}
-                height={512}
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                className="h-32 w-full object-cover"
-              />
+          {featuredCommodities.map((commodity) => {
+            const imageUrl =
+              commodity.image?.url ?? `/images/commodity/${commodity.slug}.png`;
 
-              <div className="p-5">
-                <h4 className="text-lg font-bold text-foreground">
-                  {commodity.name}
-                </h4>
+            const imageAlt =
+              commodity.image?.alt ?? `Gambar komoditas ${commodity.name}`;
 
-                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                  {commodity.description}
-                </p>
-
+            return (
+              <article
+                key={commodity.id}
+                className="group overflow-hidden rounded-2xl border border-border bg-background/40"
+              >
                 <Link
-                  href="/commodity"
-                  className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-accent transition-colors hover:text-primary"
+                  href={`/commodity/${commodity.slug}`}
+                  aria-label={`Pelajari komoditas ${commodity.name}`}
+                  className="block"
                 >
-                  Pelajari lebih lanjut
-                  <ArrowRight aria-hidden="true" className="h-3.5 w-3.5" />
+                  <div className="flex h-32 items-center justify-center overflow-hidden bg-[radial-gradient(circle_at_center,_#d1d5db_0%,_#f8fafc_58%,_#ffffff_100%)] px-4 py-3">
+                    <Image
+                      src={imageUrl}
+                      alt={imageAlt}
+                      width={640}
+                      height={512}
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                      className="h-full w-full object-contain transition-transform duration-300 group-hover:scale-[1.03]"
+                    />
+                  </div>
+
+                  <div className="p-5">
+                    <h4 className="text-lg font-bold text-foreground">
+                      {commodity.name}
+                    </h4>
+
+                    <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                      {commodity.previewDescription}
+                    </p>
+
+                    <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-accent transition-colors group-hover:text-primary">
+                      Pelajari lebih lanjut
+                      <ArrowRight aria-hidden="true" className="h-3.5 w-3.5" />
+                    </span>
+                  </div>
                 </Link>
-              </div>
-            </article>
-          ))}
+              </article>
+            );
+          })}
         </div>
       </div>
     </section>
