@@ -1,0 +1,255 @@
+{
+  "schemaVersion": "1.0",
+  "commoditySlug": "timah",
+  "commodity": {
+    "description": "Timah merupakan logam berwarna putih keperakan yang bersifat lunak, tahan terhadap korosi, dan memiliki titik leleh yang relatif rendah. Logam ini diperoleh terutama dari mineral kasiterit (SnO₂), yang menjadi sumber utama bijih timah di dunia. Karena sifatnya yang mudah dibentuk dan tidak mudah mengalami oksidasi, timah banyak dimanfaatkan dalam berbagai industri, mulai dari elektronik hingga pelapisan logam. Indonesia merupakan salah satu produsen dan eksportir timah terbesar di dunia. Sebagian besar cadangan dan produksi timah nasional berasal dari Provinsi Kepulauan Bangka Belitung serta sebagian wilayah Kepulauan Riau. Industri timah nasional memiliki peran penting dalam perdagangan mineral global dan menjadi salah satu penyumbang devisa negara.",
+    "specification": "Nama Komoditas: Timah; Nama Internasional: Tin; Kategori: Mineral Logam; Simbol Kimia: Sn; Nomor Atom: 50; Golongan: Logam Pascatransisi; Warna: Putih keperakan; Kekerasan (Mohs): 2,5 – 3; Mineral Pembawa Utama: Kasiterit (Cassiterite), Stannite",
+    "image": null
+  },
+  "profile": {
+    "title": "Timah: Profil Komoditas Pertambangan",
+    "slug": "timah",
+    "excerpt": "Timah merupakan logam berwarna putih keperakan yang bersifat lunak, tahan terhadap korosi, dan memiliki titik leleh yang relatif rendah. Logam ini diperoleh terutama dari mineral kasiterit (SnO₂), yang menjadi sumber utama bijih timah di dunia. Karena sifatnya yang mudah dibentuk dan tidak mudah mengalami oksidasi, timah banyak dimanfaatkan dalam berbagai industri, mulai dari elektronik hingga pelapisan logam.",
+    "body": "# Timah\n\n## Definisi\n\nTimah merupakan logam berwarna putih keperakan yang bersifat lunak, tahan terhadap korosi, dan memiliki titik leleh yang relatif rendah. Logam ini diperoleh terutama dari mineral kasiterit (SnO₂), yang menjadi sumber utama bijih timah di dunia. Karena sifatnya yang mudah dibentuk dan tidak mudah mengalami oksidasi, timah banyak dimanfaatkan dalam berbagai industri, mulai dari elektronik hingga pelapisan logam.\n\nIndonesia merupakan salah satu produsen dan eksportir timah terbesar di dunia. Sebagian besar cadangan dan produksi timah nasional berasal dari Provinsi Kepulauan Bangka Belitung serta sebagian wilayah Kepulauan Riau. Industri timah nasional memiliki peran penting dalam perdagangan mineral global dan menjadi salah satu penyumbang devisa negara.\n\n## Karakteristik\n\n| Karakteristik | Keterangan |\n| --- | --- |\n| Warna | Putih keperakan |\n| Kilap | Logam (Metallic Luster) |\n| Kekerasan | 1,5 Mohs |\n| Berat Jenis | ± 7,31 g/cm³ |\n| Titik Leleh | 231,9°C |\n| Titik Didih | 2.602°C |\n| Ketahanan Korosi | Sangat Baik |\n| Sifat Mekanik | Lunak, mudah ditempa dan dibentuk |\n| Konduktivitas Listrik | Baik |\n| Mineral Utama | Kasiterit |\n\n## Jenis-jenis\n\nTimah Primer\n\nTimah primer merupakan endapan timah yang masih berada di dalam batuan induknya, umumnya berupa urat hidrotermal yang mengandung mineral kasiterit.\n\nTimah Sekunder (Aluvial)\n\nTimah sekunder terbentuk akibat proses pelapukan dan erosi endapan primer, kemudian terbawa oleh aliran air dan mengendap di sungai, lembah, maupun daerah pesisir.\n\n## Metode Penambangan\n\n| Metode | Keterangan |\n| --- | --- |\n| Open Pit Mining | Digunakan pada endapan primer yang berada dekat permukaan |\n| Underground Mining | Digunakan pada beberapa endapan primer yang berada di bawah permukaan |\n| Hydraulic Mining | Menggunakan semprotan air bertekanan tinggi untuk endapan alluvial |\n| Dredging | Penambangan menggunakan kapal keruk atau kapal isap di perairan dangkal |\n\n## Kegunaan\n\n| Bidang | Pemanfaatan |\n| --- | --- |\n| Pelapisan Logam | Melapisi baja untuk mencegah korosi (tin plating) |\n| Elektronik | Bahan utama solder pada papan sirkuit elektronik |\n| Kemasan | Kaleng makanan dan minuman |\n| Industri Kimia | Bahan baku senyawa organotin dan katalis |\n| Energi Terbarukan | Komponen panel surya dan teknologi penyimpanan energi |\n| Paduan Logam | Pembuatan perunggu (bronze), babbitt metal, dan logam khusus lainnya |\n\n## Dampak Lingkungan\n\nDampak:\n\nPerubahan bentang alam akibat penggalian tambang terbuka\n\nKerusakan lahan dan terbentuknya kolong bekas tambang\n\nSedimentasi pada sungai dan wilayah pesisir\n\nGangguan terhadap ekosistem laut akibat penambangan lepas pantai\n\nPenurunan kualitas air akibat aktivitas penambangan\n\nHilangnya vegetasi dan habitat satwa\n\nUpaya Mitigasi:\n\nReklamasi lahan bekas tambang\n\nPemanfaatan kolong bekas tambang untuk perikanan, wisata, atau sumber air baku.\n\nRehabilitasi kawasan pesisir dan penanaman kembali mangrove\n\nPengelolaan sedimentasi dan kualitas air secara berkala\n\nPenerapan prinsip Good Mining Practice sesuai regulasi yang berlaku",
+    "readingTimeMinutes": 2,
+    "isFeatured": false,
+    "publicationStatus": "published",
+    "publishedAt": "2026-09-02T00:00:00+07:00",
+    "sources": [
+      {
+        "sourceSlug": "esdm-neraca-2025",
+        "citationLabel": "Neraca Sumber Daya dan Cadangan 2025",
+        "pageReference": null
+      },
+      {
+        "sourceSlug": "usgs-mcs-2025",
+        "citationLabel": "Mineral Commodity Summaries 2025",
+        "pageReference": null
+      }
+    ]
+  },
+  "resourceStatistics": [
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "ore",
+      "availabilityStatus": "reported",
+      "value": "6430661657",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan pasir/bijih timah; status data 31 Desember 2024."
+    },
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "contained_metal",
+      "availabilityStatus": "reported",
+      "value": "1438663",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan logam timah; status data 31 Desember 2024."
+    }
+  ],
+  "productionLocations": [
+    {
+      "regionSlug": "kepulauan-bangka-belitung",
+      "locationDetail": "Pulau Bangka, Belitung, dan perairan sekitarnya",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "kepulauan-riau",
+      "locationDetail": "Kundur, Karimun, dan Singkep",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "kalimantan-barat",
+      "locationDetail": "Ketapang dan sekitarnya (sebaran/endapan aluvial)",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    }
+  ],
+  "globalStatisticSets": [
+    {
+      "statisticYear": 2024,
+      "metricCode": "mine_production",
+      "basisCode": "contained_metal",
+      "unitCode": "metric_ton",
+      "availabilityStatus": "reported",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "bgs-world-mineral-production-2020-2024",
+        "sourceUrl": "https://nora.nerc.ac.uk/id/eprint/541620/",
+        "pageReference": null
+      },
+      "supportingSources": [
+        {
+          "sourceSlug": "usgs-mcs-2025",
+          "sourceUrl": "https://pubs.usgs.gov/publication/mcs2025",
+          "pageReference": null,
+          "sourceRole": "cross_check",
+          "citationLabel": "Mineral Commodity Summaries 2025"
+        }
+      ],
+      "entries": [
+        {
+          "countryRegionSlug": "tiongkok",
+          "rank": 1,
+          "value": "74000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "indonesia",
+          "rank": 2,
+          "value": "49905",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "peru",
+          "rank": 3,
+          "value": "32317",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "brasil",
+          "rank": 4,
+          "value": "27662",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "republik-demokratik-kongo",
+          "rank": 5,
+          "value": "23624",
+          "notes": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Angka mengikuti definisi dan satuan sumber asal; data tahun 2024."
+    }
+  ],
+  "producers": [
+    {
+      "producerKey": "timah",
+      "companyName": "PT TIMAH Tbk",
+      "industryCompanySlug": null,
+      "operationArea": "Kepulauan Bangka Belitung dan Kepulauan Riau",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 1,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "mitra-stania-prima",
+      "companyName": "PT Mitra Stania Prima",
+      "industryCompanySlug": null,
+      "operationArea": "Pulau Bangka, Kepulauan Bangka Belitung",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 2,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "refined-bangka-tin",
+      "companyName": "PT Refined Bangka Tin",
+      "industryCompanySlug": null,
+      "operationArea": "Pulau Bangka, Kepulauan Bangka Belitung",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 3,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "artha-cipta-langgeng",
+      "companyName": "PT Artha Cipta Langgeng",
+      "industryCompanySlug": null,
+      "operationArea": "Pulau Bangka, Kepulauan Bangka Belitung",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 4,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "menara-cipta-mulia",
+      "companyName": "PT Menara Cipta Mulia",
+      "industryCompanySlug": null,
+      "operationArea": "Pulau Bangka, Kepulauan Bangka Belitung",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 5,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    }
+  ]
+}

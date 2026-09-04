@@ -1,0 +1,299 @@
+{
+  "schemaVersion": "1.0",
+  "commoditySlug": "emas",
+  "commodity": {
+    "description": "Emas merupakan logam mulia yang memiliki nilai ekonomi tinggi karena sifatnya yang langka, tahan terhadap korosi, mudah dibentuk, dan memiliki konduktivitas listrik yang baik. Dalam industri pertambangan, emas termasuk salah satu komoditas strategis yang dimanfaatkan sebagai bahan baku industri, instrumen investasi, serta cadangan devisa negara. Emas terbentuk melalui proses geologi yang melibatkan aktivitas hidrotermal maupun magmatik, sehingga umumnya ditemukan berasosiasi dengan mineral kuarsa dan sulfida. Indonesia merupakan salah satu negara penghasil emas terbesar di dunia dengan berbagai tambang berskala besar yang tersebar di Papua, Nusa Tenggara Barat, Maluku Utara, hingga Sumatera.",
+    "specification": "Nama Komoditas: Emas; Nama Internasional: Gold; Kategori: Mineral Logam; Simbol Kimia: Au; Nomor Atom: 79; Golongan: Logam Mulia; Warna: Kuning Mengkilap; Kekerasan (Mohs): 2,5 – 3; Mineral Pembawa Utama: Native Gold, Electrum, Calaverite, Sylvanite",
+    "image": null
+  },
+  "profile": {
+    "title": "Emas: Profil Komoditas Pertambangan",
+    "slug": "emas",
+    "excerpt": "Emas merupakan logam mulia yang memiliki nilai ekonomi tinggi karena sifatnya yang langka, tahan terhadap korosi, mudah dibentuk, dan memiliki konduktivitas listrik yang baik. Dalam industri pertambangan, emas termasuk salah satu komoditas strategis yang dimanfaatkan sebagai bahan baku industri, instrumen investasi, serta cadangan devisa negara.",
+    "body": "# Emas\n\n## Definisi\n\nEmas merupakan logam mulia yang memiliki nilai ekonomi tinggi karena sifatnya yang langka, tahan terhadap korosi, mudah dibentuk, dan memiliki konduktivitas listrik yang baik. Dalam industri pertambangan, emas termasuk salah satu komoditas strategis yang dimanfaatkan sebagai bahan baku industri, instrumen investasi, serta cadangan devisa negara.\n\nEmas terbentuk melalui proses geologi yang melibatkan aktivitas hidrotermal maupun magmatik, sehingga umumnya ditemukan berasosiasi dengan mineral kuarsa dan sulfida. Indonesia merupakan salah satu negara penghasil emas terbesar di dunia dengan berbagai tambang berskala besar yang tersebar di Papua, Nusa Tenggara Barat, Maluku Utara, hingga Sumatera.\n\n## Karakteristik\n\n| Karakteristik | Keterangan |\n| --- | --- |\n| Warna | Kuning Mengkilap |\n| Kilap | Logam (Metallic Luster) |\n| Kekerasan | 2,5 – 3 Mohs |\n| Berat Jenis | ± 19,3 g/cm³ |\n| Titik Leleh | 1.064°C |\n| Titik Didih | 2.856°C |\n| Ketahanan Korosi | Sangat tinggi |\n| Kelenturan | Sangat mudah ditempa dan ditarik menjadi kawat |\n| Konduktivitas | Sangat baik pada Listrik |\n| Ketahanan Korosi | Sangat tinggi dan tidak mudah teroksidasi |\n\n## Jenis-jenis\n\nSecara geologi, endapan nikel dibedakan menjadi dua jenis utama:\n\nEmas Primer (Lode Gold)\n\nEmas primer merupakan endapan emas yang masih berada di dalam batuan induknya dan terbentuk melalui proses hidrotermal. Endapan ini umumnya ditemukan dalam urat kuarsa yang berasosiasi dengan mineral sulfida.\n\nEmas Plaser (Placer Gold)\n\nEmas plaser merupakan endapan emas hasil pelapukan batuan yang kemudian terbawa oleh aliran sungai dan mengendap di dasar sungai maupun dataran banjir.\n\n## Metode Penambangan\n\n| Metode | Keterangan |\n| --- | --- |\n| Open Pit Mining | Digunakan untuk endapan emas yang berada dekat permukaan |\n| Underground Mining | Digunakan untuk endapan emas primer yang berada jauh di bawah permukaan |\n| Placer Mining | Digunakan untuk endapan emas aluvial di sungai atau dataran banjir |\n| Heap Leaching | Metode pengolahan bijih berkadar rendah menggunakan larutan pelindi. |\n\n## Kegunaan\n\n| Bidang | Pemanfaatan |\n| --- | --- |\n| Investasi | Logam mulia, emas batangan, dan instrumen investasi |\n| Perhiasan | Cincin, kalung, gelang, anting, dan aksesoris |\n| Elektronik | Komponen semikonduktor, konektor, dan sirkuit elektronik |\n| Kedokteran | Peralatan medis dan kedokteran gigi |\n| Kedirgantaraan | Pelapis komponen satelit dan pesawat Antariksa |\n| Keuangan | Cadangan devisa bank sentral |\n\n## Dampak Lingkungan\n\nDampak:\n\nPerubahan bentang alam akibat kegiatan penambangan\n\nDeforestasi dan hilangnya habitat satwa\n\nSedimentasi pada sungai dan daerah aliran sungai\n\nPotensi pencemaran air akibat penggunaan bahan kimia pada pengolahan emas, terutama merkuri dan sianida pada pertambangan skala kecil yang tidak memenuhi standar\n\nEmisi debu dan kebisingan dari kegiatan operasional\n\nUpaya Mitigasi:\n\nReklamasi dan revegetasi lahan pascatambang\n\nPenggunaan teknologi pengolahan emas tanpa merkuri\n\nPengelolaan tailing dan limbah sesuai standar lingkungan\n\nPemantauan kualitas air, udara, dan tanah secara berkala\n\nPenerapan prinsip Good Mining Practice dan kepatuhan terhadap regulasi lingkungan",
+    "readingTimeMinutes": 2,
+    "isFeatured": false,
+    "publicationStatus": "published",
+    "publishedAt": "2026-09-02T00:00:00+07:00",
+    "sources": [
+      {
+        "sourceSlug": "esdm-neraca-2025",
+        "citationLabel": "Neraca Sumber Daya dan Cadangan 2025",
+        "pageReference": null
+      },
+      {
+        "sourceSlug": "usgs-mcs-2025",
+        "citationLabel": "Mineral Commodity Summaries 2025",
+        "pageReference": null
+      }
+    ]
+  },
+  "resourceStatistics": [
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "ore",
+      "availabilityStatus": "reported",
+      "value": "3460852064",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan bijih emas primer; status data 31 Desember 2024."
+    },
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "contained_metal",
+      "availabilityStatus": "reported",
+      "value": "3444",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan logam emas primer; status data 31 Desember 2024."
+    }
+  ],
+  "productionLocations": [
+    {
+      "regionSlug": "papua-tengah",
+      "locationDetail": "Mimika (Grasberg)",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "nusa-tenggara-barat",
+      "locationDetail": "Sumbawa Barat (Batu Hijau)",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "sumatera-utara",
+      "locationDetail": "Tapanuli Selatan (Martabe)",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "maluku-utara",
+      "locationDetail": "Halmahera Utara (Gosowong)",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "jawa-timur",
+      "locationDetail": "Banyuwangi (Tumpang Pitu)",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "jawa-barat",
+      "locationDetail": "Bogor (Pongkor)",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "banten",
+      "locationDetail": "Lebak (Cikotok dan Cibaliung; operasi/riwayat produksi)",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    }
+  ],
+  "globalStatisticSets": [
+    {
+      "statisticYear": 2024,
+      "metricCode": "mine_production",
+      "basisCode": "contained_metal",
+      "unitCode": "kilogram",
+      "availabilityStatus": "reported",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "bgs-world-mineral-production-2020-2024",
+        "sourceUrl": "https://nora.nerc.ac.uk/id/eprint/541620/",
+        "pageReference": null
+      },
+      "supportingSources": [
+        {
+          "sourceSlug": "usgs-mcs-2025",
+          "sourceUrl": "https://pubs.usgs.gov/publication/mcs2025",
+          "pageReference": null,
+          "sourceRole": "cross_check",
+          "citationLabel": "Mineral Commodity Summaries 2025"
+        }
+      ],
+      "entries": [
+        {
+          "countryRegionSlug": "tiongkok",
+          "rank": 1,
+          "value": "377242",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "rusia",
+          "rank": 2,
+          "value": "330000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "australia",
+          "rank": 3,
+          "value": "284007",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "kanada",
+          "rank": 4,
+          "value": "200069",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "amerika-serikat",
+          "rank": 5,
+          "value": "159000",
+          "notes": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Angka mengikuti definisi dan satuan sumber asal; data tahun 2024."
+    }
+  ],
+  "producers": [
+    {
+      "producerKey": "freeport-indonesia",
+      "companyName": "PT Freeport Indonesia",
+      "industryCompanySlug": null,
+      "operationArea": "Mimika, Papua Tengah",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 1,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "amman-mineral-nusa-tenggara",
+      "companyName": "PT Amman Mineral Nusa Tenggara",
+      "industryCompanySlug": null,
+      "operationArea": "Sumbawa Barat, Nusa Tenggara Barat",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 2,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "agincourt-resources",
+      "companyName": "PT Agincourt Resources",
+      "industryCompanySlug": null,
+      "operationArea": "Martabe, Tapanuli Selatan, Sumatera Utara",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 3,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "nusa-halmahera-minerals",
+      "companyName": "PT Nusa Halmahera Minerals",
+      "industryCompanySlug": null,
+      "operationArea": "Gosowong, Halmahera Utara, Maluku Utara",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 4,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "bumi-suksesindo",
+      "companyName": "PT Bumi Suksesindo",
+      "industryCompanySlug": null,
+      "operationArea": "Tumpang Pitu, Banyuwangi, Jawa Timur",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 5,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    }
+  ]
+}

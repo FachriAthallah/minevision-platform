@@ -1,0 +1,277 @@
+{
+  "schemaVersion": "1.0",
+  "commoditySlug": "kobalt",
+  "commodity": {
+    "description": "Kobalt merupakan logam transisi yang memiliki ketahanan tinggi terhadap panas, korosi, dan keausan. Logam ini menjadi salah satu komoditas strategis dunia karena merupakan bahan baku utama dalam pembuatan baterai lithium-ion yang digunakan pada kendaraan listrik (Electric Vehicle/EV), perangkat elektronik, dan sistem penyimpanan energi. Di Indonesia, kobalt umumnya diperoleh sebagai produk samping (by-product) dari pengolahan bijih nikel laterit. Dengan besarnya industri nikel nasional, Indonesia memiliki potensi besar menjadi salah satu produsen kobalt dunia melalui program hilirisasi mineral.",
+    "specification": "Nama Komoditas: Kobalt; Nama Internasional: Cobalt; Kategori: Mineral Logam; Simbol Kimia: Co; Nomor Atom: 27; Golongan: Logam transisi; Warna: Abu-abu kebiruan; Kekerasan (Mohs): 5; Mineral Pembawa Utama: Cobaltite (CoAsS), Linnaeite (Co₃S₄), Asbolane",
+    "image": null
+  },
+  "profile": {
+    "title": "Kobalt: Profil Komoditas Pertambangan",
+    "slug": "kobalt",
+    "excerpt": "Kobalt merupakan logam transisi yang memiliki ketahanan tinggi terhadap panas, korosi, dan keausan. Logam ini menjadi salah satu komoditas strategis dunia karena merupakan bahan baku utama dalam pembuatan baterai lithium-ion yang digunakan pada kendaraan listrik (Electric Vehicle/EV), perangkat elektronik, dan sistem penyimpanan energi.",
+    "body": "# Kobalt\n\n## Definisi\n\nKobalt merupakan logam transisi yang memiliki ketahanan tinggi terhadap panas, korosi, dan keausan. Logam ini menjadi salah satu komoditas strategis dunia karena merupakan bahan baku utama dalam pembuatan baterai lithium-ion yang digunakan pada kendaraan listrik (Electric Vehicle/EV), perangkat elektronik, dan sistem penyimpanan energi.\n\nDi Indonesia, kobalt umumnya diperoleh sebagai produk samping (by-product) dari pengolahan bijih nikel laterit. Dengan besarnya industri nikel nasional, Indonesia memiliki potensi besar menjadi salah satu produsen kobalt dunia melalui program hilirisasi mineral.\n\n## Karakteristik\n\n| Karakteristik | Keterangan |\n| --- | --- |\n| Warna | Abu-abu kebiruan |\n| Kilap | Logam (metallic luster) |\n| Kekerasan | 5 Mohs |\n| Berat Jenis | ± 8,90 g/cm³ |\n| Titik Leleh | 1.495°C |\n| Titik Didih | 2.927°C |\n| Ketahanan Korosi | Sangat baik |\n| Sifat Mekanik | Keras, tahan aus, dan tahan panas |\n| Konduktivitas Listrik | Cukup baik terhadap panas dan listrik |\n| Sifat Magnetik | Feromagnetik |\n\n## Jenis-jenis\n\nAda 2 jenis dari Kobalt ini, yaitu:\n\nKobalt Laterit\n\nDiperoleh dari pengolahan bijih nikel laterit jenis limonit melalui proses HPAL, merupakan sumber utama produksi kobalt Indonesia saat ini.\n\nKobalt Sulfida\n\nTerbentuk bersama endapan tembaga-nikel sulfida, banyak ditemukan di Republik Demokratik Kongo dan sejumlah negara penghasil tembaga.\n\n## Metode Penambangan\n\n| Metode | Keterangan |\n| --- | --- |\n| Open Pit Mining | Digunakan pada endapan nikel laterit yang mengandung kobalt |\n| Underground Mining | Digunakan pada endapan sulfida di beberapa negara |\n| HPAL Processing | Teknologi utama untuk mengekstraksi nikel dan kobalt dari bijih laterit |\n\n## Kegunaan\n\n| Bidang | Pemanfaatan |\n| --- | --- |\n| Kendaraan Listrik | Katoda baterai lithium-ion |\n| Elektronik | Smartphone, laptop, dan perangkat elektronik |\n| Industri Dirgantara | Superalloy untuk mesin pesawat |\n| Energi | Penyimpanan energi dan baterai industri |\n| Industri Kimia | Katalis dan pigmen |\n| Medis | Implan dan peralatan kesehatan tertentu |\n\n## Dampak Lingkungan\n\nDampak:\n\nPembukaan lahan tambang\n\nSedimentasi sungai\n\nTimbulan limbah proses HPAL\n\nEmisi debu dan kebisingan\n\nPotensi pencemaran air apabila limbah tidak dikelola dengan baik\n\nUpaya Mitigasi:\n\nReklamasi lahan\n\nPengelolaan limbah proses HPAL sesuai standar\n\nPengolahan air limbah\n\nPemantauan kualitas lingkungan\n\nPenerapan Good Mining Practice",
+    "readingTimeMinutes": 2,
+    "isFeatured": false,
+    "publicationStatus": "published",
+    "publishedAt": "2026-09-02T00:00:00+07:00",
+    "sources": [
+      {
+        "sourceSlug": "esdm-neraca-2025",
+        "citationLabel": "Neraca Sumber Daya dan Cadangan 2025",
+        "pageReference": null
+      },
+      {
+        "sourceSlug": "usgs-mcs-2025",
+        "citationLabel": "Mineral Commodity Summaries 2025",
+        "pageReference": null
+      }
+    ]
+  },
+  "resourceStatistics": [
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "ore",
+      "availabilityStatus": "reported",
+      "value": "1049284054",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan bijih pembawa kobalt; status data 31 Desember 2024."
+    },
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "contained_metal",
+      "availabilityStatus": "reported",
+      "value": "755453",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan logam kobalt; status data 31 Desember 2024."
+    }
+  ],
+  "productionLocations": [
+    {
+      "regionSlug": "sulawesi-tengah",
+      "locationDetail": "Morowali dan Morowali Utara; produk ikutan nikel laterit",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "sulawesi-tenggara",
+      "locationDetail": "Konawe, Konawe Utara, dan Kolaka; produk ikutan nikel",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "maluku-utara",
+      "locationDetail": "Halmahera Tengah, Halmahera Timur, dan Pulau Obi",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "sulawesi-selatan",
+      "locationDetail": "Luwu Timur (Sorowako)",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "papua-barat-daya",
+      "locationDetail": "Pulau Gag; keterdapatan bersama nikel laterit",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    }
+  ],
+  "globalStatisticSets": [
+    {
+      "statisticYear": 2024,
+      "metricCode": "mine_production",
+      "basisCode": "contained_metal",
+      "unitCode": "metric_ton",
+      "availabilityStatus": "reported",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "bgs-world-mineral-production-2020-2024",
+        "sourceUrl": "https://nora.nerc.ac.uk/id/eprint/541620/",
+        "pageReference": null
+      },
+      "supportingSources": [
+        {
+          "sourceSlug": "usgs-mcs-2025",
+          "sourceUrl": "https://pubs.usgs.gov/publication/mcs2025",
+          "pageReference": null,
+          "sourceRole": "cross_check",
+          "citationLabel": "Mineral Commodity Summaries 2025"
+        }
+      ],
+      "entries": [
+        {
+          "countryRegionSlug": "republik-demokratik-kongo",
+          "rank": 1,
+          "value": "200253",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "indonesia",
+          "rank": 2,
+          "value": "31570",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "rusia",
+          "rank": 3,
+          "value": "8200",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "australia",
+          "rank": 4,
+          "value": "4776",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "kuba",
+          "rank": 5,
+          "value": "3500",
+          "notes": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Angka mengikuti definisi dan satuan sumber asal; data tahun 2024."
+    }
+  ],
+  "producers": [
+    {
+      "producerKey": "weda-bay-nickel",
+      "companyName": "PT Weda Bay Nickel",
+      "industryCompanySlug": null,
+      "operationArea": "Halmahera Tengah; kobalt sebagai ikutan nikel laterit",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 1,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "trimegah-bangun-persada",
+      "companyName": "PT Trimegah Bangun Persada Tbk",
+      "industryCompanySlug": null,
+      "operationArea": "Pulau Obi; kobalt sebagai ikutan nikel laterit",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 2,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "vale-indonesia",
+      "companyName": "PT Vale Indonesia Tbk",
+      "industryCompanySlug": null,
+      "operationArea": "Sorowako; bijih nikel mengandung kobalt",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 3,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "aneka-tambang",
+      "companyName": "PT Aneka Tambang Tbk (ANTAM)",
+      "industryCompanySlug": null,
+      "operationArea": "Sulawesi Tenggara dan Maluku Utara; ikutan nikel",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 4,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "gane-permai-sentosa",
+      "companyName": "PT Gane Permai Sentosa",
+      "industryCompanySlug": null,
+      "operationArea": "Pulau Obi, Maluku Utara; tambang nikel-kobalt",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 5,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    }
+  ]
+}

@@ -631,7 +631,6 @@ export const commodityImportFileSchema = z
       .length(1, "Setiap komoditas wajib memiliki tepat satu global statistic set"),
     producers: z
       .array(commodityProducerSchema)
-      .min(1, "Setiap komoditas wajib memiliki minimal satu produsen")
       .max(5, "Setiap komoditas hanya boleh memiliki maksimal lima produsen"),
   })
   .strict()

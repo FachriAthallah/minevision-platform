@@ -1,0 +1,231 @@
+{
+  "schemaVersion": "1.0",
+  "commoditySlug": "zeolit",
+  "commodity": {
+    "description": "Zeolit merupakan kelompok mineral aluminosilikat terhidrasi yang memiliki struktur kristal berpori (microporous). Struktur tersebut memungkinkan zeolit menyerap molekul air, menukar ion (ion exchange), serta mengadsorpsi berbagai senyawa kimia. Sifat inilah yang menjadikan zeolit sebagai salah satu mineral industri paling penting di dunia. Di Indonesia, zeolit alam terbentuk terutama dari alterasi abu vulkanik sehingga banyak ditemukan pada wilayah yang memiliki sejarah aktivitas gunung api. Zeolit dimanfaatkan dalam pengolahan air, pertanian, peternakan, industri kimia, pengolahan limbah, serta sebagai adsorben pada berbagai proses industri.",
+    "specification": "Nama Komoditas: Zeolit; Nama Internasional: Zeolite; Kategori: Mineral Non-Logam; Kelompok Mineral: Mineral Aluminosilikat Terhidrasi (Hydrated Aluminosilicate); Mineral Penyusun Utama: Klinoptilolit (Clinoptilolite), Mordenit (Mordenite), Analsim (Analcime), Kabasit (Chabazite), Filipsit (Phillipsite); Rumus Kimia: Mx/n[(AlO₂)x(SiO₂)y]·mH₂O (M = Na, K, Ca, Mg); Warna: Putih, krem, abu-abu, kehijauan, kekuningan; Kekerasan (Mohs): 3,5 – 5,5; Proses Pembentukan: Alterasi abu vulkanik oleh air tanah atau air laut selama jutaan tahun",
+    "image": null
+  },
+  "profile": {
+    "title": "Zeolit: Profil Komoditas Pertambangan",
+    "slug": "zeolit",
+    "excerpt": "Zeolit merupakan kelompok mineral aluminosilikat terhidrasi yang memiliki struktur kristal berpori (microporous). Struktur tersebut memungkinkan zeolit menyerap molekul air, menukar ion (ion exchange), serta mengadsorpsi berbagai senyawa kimia. Sifat inilah yang menjadikan zeolit sebagai salah satu mineral industri paling penting di dunia.",
+    "body": "# Zeolit\n\n## Definisi\n\nZeolit merupakan kelompok mineral aluminosilikat terhidrasi yang memiliki struktur kristal berpori (microporous). Struktur tersebut memungkinkan zeolit menyerap molekul air, menukar ion (ion exchange), serta mengadsorpsi berbagai senyawa kimia. Sifat inilah yang menjadikan zeolit sebagai salah satu mineral industri paling penting di dunia.\n\nDi Indonesia, zeolit alam terbentuk terutama dari alterasi abu vulkanik sehingga banyak ditemukan pada wilayah yang memiliki sejarah aktivitas gunung api. Zeolit dimanfaatkan dalam pengolahan air, pertanian, peternakan, industri kimia, pengolahan limbah, serta sebagai adsorben pada berbagai proses industri.\n\n## Karakteristik\n\n| Karakteristik | Keterangan |\n| --- | --- |\n| Warna | Putih, krem, abu-abu, kehijauan |\n| Kilap | Kaca hingga kusam |\n| Kekerasan | 3,5 – 5,5 Mohs |\n| Berat Jenis | ± 2,0–2,3 g/cm³ |\n| Struktur | Kristal berpori (microporous) |\n| Kapasitas Tukar Kation | Tinggi |\n| Daya Serap Air | Sangat tinggi |\n| Ketahanan Panas | Stabil hingga sekitar 700°C (tergantung jenis zeolit) |\n\n## Jenis-jenis\n\nAda 4 jenis Zeolit, seperti:\n\nKlinoptilolit (Clinoptilolite)\n\nMerupakan jenis zeolit alam yang paling banyak ditemukan di Indonesia.\n\nMordenit (Mordenite)\n\nMemiliki kandungan silika yang tinggi.\n\nAnalsim (Analcime)\n\nZeolit dengan struktur kristal kubik.\n\nKabasit (Chabazite)\n\nMemiliki rongga kristal yang relatif besar.\n\n## Metode Penambangan\n\n| Metode | Keterangan |\n| --- | --- |\n| Open Pit Mining | Metode utama penambangan zeolit |\n| Quarry Mining | Digunakan pada endapan batuan zeolit yang kompak |\n| Mechanical Excavation | Penggalian menggunakan excavator tanpa peledakan besar |\n| Crushing & Milling | Penghancuran dan penggilingan sesuai ukuran kebutuhan industri |\n\n## Kegunaan\n\n| Bidang | Pemanfaatan |\n| --- | --- |\n| Pengolahan Air | Menyerap logam berat, amonia, dan meningkatkan kualitas air |\n| Pertanian | Pembenah tanah dan penyimpan unsur hara |\n| Peternakan | Campuran pakan ternak dan pengendali bau amonia |\n| Perikanan | Menjaga kualitas air kolam dan tambak |\n| Industri Kimia | Katalis, adsorben, dan penukar ion |\n| Pengolahan Limbah | Menyerap logam berat dan limbah cair industri |\n| Industri Migas | Adsorben pada proses pemurnian gas |\n| Kesehatan | Bahan tambahan pada beberapa produk farmasi dan kesehatan (sesuai regulasi) |\n\n## Dampak Lingkungan\n\nDampak:\n\nPerubahan bentang alam pada area penambangan\n\nHilangnya vegetasi dan penutup lahan\n\nDebu dari proses penambangan, penghancuran, dan penggilingan\n\nSedimentasi akibat limpasan material saat musim hujan\n\nPotensi gangguan terhadap ekosistem apabila reklamasi tidak dilakukan\n\nUpaya Mitigasi:\n\nReklamasi dan revegetasi lahan pascatambang\n\nPengendalian debu melalui penyiraman jalan tambang\n\nPengelolaan drainase dan kolam pengendapan (settling pond)\n\nPemanfaatan material sisa untuk keperluan konstruksi atau reklamasi\n\nPenerapan prinsip Good Mining Practice sesuai ketentuan Kementerian ESDM",
+    "readingTimeMinutes": 2,
+    "isFeatured": false,
+    "publicationStatus": "published",
+    "publishedAt": "2026-09-02T00:00:00+07:00",
+    "sources": [
+      {
+        "sourceSlug": "esdm-neraca-2025",
+        "citationLabel": "Neraca Sumber Daya dan Cadangan 2025",
+        "pageReference": null
+      },
+      {
+        "sourceSlug": "usgs-mcs-2025",
+        "citationLabel": "Mineral Commodity Summaries 2025",
+        "pageReference": null
+      }
+    ]
+  },
+  "resourceStatistics": [
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "raw_material",
+      "availabilityStatus": "reported",
+      "value": "5878086",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan nasional zeolit; status data 31 Desember 2024."
+    }
+  ],
+  "productionLocations": [
+    {
+      "regionSlug": "banten",
+      "locationDetail": "Bayah/Lebak",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "jawa-barat",
+      "locationDetail": "Tasikmalaya, Sukabumi, Ciamis, dan Bogor",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "jawa-tengah",
+      "locationDetail": "Klaten dan Wonogiri",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "jawa-timur",
+      "locationDetail": "Malang dan Blitar",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "lampung",
+      "locationDetail": "Lampung Selatan",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "sumatera-barat",
+      "locationDetail": "Solok",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "nusa-tenggara-barat",
+      "locationDetail": "Dompu dan Sumbawa",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "sulawesi-selatan",
+      "locationDetail": "Bone",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    }
+  ],
+  "globalStatisticSets": [
+    {
+      "statisticYear": 2024,
+      "metricCode": "mine_production",
+      "basisCode": "not_comparable",
+      "unitCode": null,
+      "availabilityStatus": "source_unavailable",
+      "recordType": "actual",
+      "primarySource": null,
+      "supportingSources": [],
+      "entries": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Tidak tersedia seri produksi antarnegara yang seragam dan dapat diperlakukan sebagai peringkat baku."
+    }
+  ],
+  "producers": [
+    {
+      "producerKey": "nusantara-agritech",
+      "companyName": "PT Nusantara Agritech",
+      "industryCompanySlug": null,
+      "operationArea": "Lampung; tambang dan pengolahan zeolit alam",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 1,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "excellent-zeolit-indonesia",
+      "companyName": "PT Excellent Zeolit Indonesia",
+      "industryCompanySlug": null,
+      "operationArea": "Sukabumi, Jawa Barat",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 2,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "citra-investama-anugerah-asia-zeolite",
+      "companyName": "PT Citra Investama Anugerah / Asia Zeolite",
+      "industryCompanySlug": null,
+      "operationArea": "Lampung; kuari dan pengolahan",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 3,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "nusagri",
+      "companyName": "CV Nusagri",
+      "industryCompanySlug": null,
+      "operationArea": "Lampung; produsen zeolit alam",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 4,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    }
+  ]
+}

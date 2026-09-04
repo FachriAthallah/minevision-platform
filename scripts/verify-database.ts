@@ -203,7 +203,7 @@ const requiredPolicies = [
 
 const minimumMasterRecords: Record<string, number> = {
   sources: 3,
-  measurement_units: 8,
+  measurement_units: 9,
   commodities: 23,
   regions: 1,
   commodity_price_standards: 6,

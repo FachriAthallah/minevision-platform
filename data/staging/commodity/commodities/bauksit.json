@@ -1,0 +1,255 @@
+{
+  "schemaVersion": "1.0",
+  "commoditySlug": "bauksit",
+  "commodity": {
+    "description": "Bauksit merupakan bijih utama penghasil aluminium yang terbentuk melalui proses pelapukan intensif batuan kaya aluminium di daerah beriklim tropis dan subtropis. Komoditas ini tersusun atas campuran mineral aluminium hidrat, seperti gibbsite, boehmite, dan diaspore, serta mengandung mineral pengotor seperti besi oksida, silika, dan titanium dioksida. Sebagai bahan baku utama industri aluminium, bauksit memiliki peran penting dalam berbagai sektor, mulai dari transportasi, konstruksi, elektronik, hingga energi. Indonesia termasuk salah satu negara yang memiliki sumber daya bauksit cukup besar, terutama di Provinsi Kalimantan Barat dan Kepulauan Riau, serta terus mengembangkan industri hilirisasi untuk meningkatkan nilai tambah mineral di dalam negeri.",
+    "specification": "Nama Komoditas: Bauksit; Nama Internasional: Bauxite; Kategori: Mineral Logam; Simbol Kimia: -; Nomor Atom: -; Golongan: Batuan sedimen residu; Warna: Merah kecoklatan, coklat, putih ke abu-abuan; Kekerasan (Mohs): 1 - 3; Mineral Pembawa Utama: Gibbsite (Al(OH)₃), Boehmite (γ-AlO(OH)), Diaspore (α-AlO(OH))",
+    "image": null
+  },
+  "profile": {
+    "title": "Bauksit: Profil Komoditas Pertambangan",
+    "slug": "bauksit",
+    "excerpt": "Bauksit merupakan bijih utama penghasil aluminium yang terbentuk melalui proses pelapukan intensif batuan kaya aluminium di daerah beriklim tropis dan subtropis. Komoditas ini tersusun atas campuran mineral aluminium hidrat, seperti gibbsite, boehmite, dan diaspore, serta mengandung mineral pengotor seperti besi oksida, silika, dan titanium dioksida.",
+    "body": "# Bauksit\n\n## Definisi\n\nBauksit merupakan bijih utama penghasil aluminium yang terbentuk melalui proses pelapukan intensif batuan kaya aluminium di daerah beriklim tropis dan subtropis. Komoditas ini tersusun atas campuran mineral aluminium hidrat, seperti gibbsite, boehmite, dan diaspore, serta mengandung mineral pengotor seperti besi oksida, silika, dan titanium dioksida.\n\nSebagai bahan baku utama industri aluminium, bauksit memiliki peran penting dalam berbagai sektor, mulai dari transportasi, konstruksi, elektronik, hingga energi. Indonesia termasuk salah satu negara yang memiliki sumber daya bauksit cukup besar, terutama di Provinsi Kalimantan Barat dan Kepulauan Riau, serta terus mengembangkan industri hilirisasi untuk meningkatkan nilai tambah mineral di dalam negeri.\n\n## Karakteristik\n\n| Karakteristik | Keterangan |\n| --- | --- |\n| Warna | Merah kecoklatan hingga putih keabu-abuan |\n| Kilap | Kusam hingga tanah (earthy) |\n| Kekerasan | 1 – 3 Mohs |\n| Berat Jenis | ± 2,0–2,6 g/cm³ |\n| Titik Leleh | - |\n| Titik Didih | - |\n| Ketahanan Korosi | Tidak berlaku karena merupakan bijih |\n| Sifat Mekanik | Lunak, berpori, ringan |\n| Kandungan Utama | Aluminium Oksida (Al₂O₃) |\n| Kandungan Pengotor | Besi oksida (Fe₂O₃), Silika (SiO₂), Titanium Dioksida (TiO₂) |\n\n## Jenis-jenis\n\nTerdapat 3 jenis dari Bauksit, seperti:\n\nBauksit Gibbsite\n\nJenis bauksit yang paling umum ditemukan di daerah tropis, termasuk Indonesia.\n\nBauksit Boehmite\n\nBauksit yang didominasi oleh mineral boehmite.\n\nBauksit Diaspore\n\nJenis bauksit yang didominasi mineral diaspore.\n\n## Metode Penambangan\n\n| Metode | Keterangan |\n| --- | --- |\n| Open Pit Mining | Metode utama yang digunakan untuk menambang endapan bauksit di Indonesia |\n| Selective Mining | Dilakukan untuk memisahkan bijih berdasarkan kadar aluminium dan kandungan pengotor |\n| Surface Mining | Digunakan pada endapan dangkal dengan lapisan penutup yang tipis |\n\n## Kegunaan\n\n| Bidang | Pemanfaatan |\n| --- | --- |\n| Bidang Aluminium | Bahan baku utama pembuatan aluminium |\n| Transportasi | Material kendaraan, pesawat, kapal, dan kereta api |\n| Konstruksi | Pintu, jendela, rangka bangunan, dan atap |\n| Elektronik | Casing perangkat elektronik, kabel, dan komponen Listrik |\n| Kemasan | Kaleng minuman dan kemasan makanan |\n| Industri Refaktori | Bahan baku tahan panas untuk tungku industri |\n| Industri Kimia | Bahan baku aluminium sulfat dan berbagai senyawa aluminium lainnya |\n\n## Dampak Lingkungan\n\nDampak:\n\nPerubahan bentang alam akibat pembukaan lahan\n\nHilangnya tutupan vegetasi dan habitat satwa\n\nErosi tanah dan sedimentasi sungai\n\nPenurunan kualitas air akibat limpasan tanah laterit\n\nDebu dari kegiatan penambangan dan pengangkutan\n\nTimbulan limbah red mud pada proses pengolahan alumina apabila tidak dikelola dengan baik\n\nUpaya Mitigasi:\n\nReklamasi dan revegetasi lahan pascatambang\n\nPengendalian erosi dan sedimentasi melalui kolam pengendapan\n\nPengelolaan limbah red mud sesuai standar lingkungan\n\nPemantauan kualitas air, udara, dan tanah secara berkala\n\nPenerapan prinsip Good Mining Practice dan kepatuhan terhadap regulasi lingkungan",
+    "readingTimeMinutes": 2,
+    "isFeatured": false,
+    "publicationStatus": "published",
+    "publishedAt": "2026-09-02T00:00:00+07:00",
+    "sources": [
+      {
+        "sourceSlug": "esdm-neraca-2025",
+        "citationLabel": "Neraca Sumber Daya dan Cadangan 2025",
+        "pageReference": null
+      },
+      {
+        "sourceSlug": "usgs-mcs-2025",
+        "citationLabel": "Mineral Commodity Summaries 2025",
+        "pageReference": null
+      }
+    ]
+  },
+  "resourceStatistics": [
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "ore",
+      "availabilityStatus": "reported",
+      "value": "2865174843",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan bijih bauksit; status data 31 Desember 2024."
+    },
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "alumina",
+      "availabilityStatus": "reported",
+      "value": "552309528",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan alumina (Al₂O₃); status data 31 Desember 2024."
+    }
+  ],
+  "productionLocations": [
+    {
+      "regionSlug": "kalimantan-barat",
+      "locationDetail": "Ketapang, Sanggau, Mempawah, Landak, dan Tayan",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "kepulauan-riau",
+      "locationDetail": "Bintan dan pulau-pulau sekitarnya",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "kalimantan-tengah",
+      "locationDetail": "Kotawaringin Barat dan Lamandau",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    }
+  ],
+  "globalStatisticSets": [
+    {
+      "statisticYear": 2024,
+      "metricCode": "mine_production",
+      "basisCode": "gross_ore",
+      "unitCode": "metric_ton",
+      "availabilityStatus": "reported",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "bgs-world-mineral-production-2020-2024",
+        "sourceUrl": "https://nora.nerc.ac.uk/id/eprint/541620/",
+        "pageReference": null
+      },
+      "supportingSources": [
+        {
+          "sourceSlug": "usgs-mcs-2025",
+          "sourceUrl": "https://pubs.usgs.gov/publication/mcs2025",
+          "pageReference": null,
+          "sourceRole": "cross_check",
+          "citationLabel": "Mineral Commodity Summaries 2025"
+        }
+      ],
+      "entries": [
+        {
+          "countryRegionSlug": "guinea",
+          "rank": 1,
+          "value": "142000000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "australia",
+          "rank": 2,
+          "value": "100462000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "tiongkok",
+          "rank": 3,
+          "value": "64200000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "brasil",
+          "rank": 4,
+          "value": "31848662",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "india",
+          "rank": 5,
+          "value": "24705314",
+          "notes": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Angka mengikuti definisi dan satuan sumber asal; data tahun 2024."
+    }
+  ],
+  "producers": [
+    {
+      "producerKey": "aneka-tambang",
+      "companyName": "PT Aneka Tambang Tbk (ANTAM)",
+      "industryCompanySlug": null,
+      "operationArea": "Tayan dan Mempawah, Kalimantan Barat",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 1,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "cita-mineral-investindo",
+      "companyName": "PT Cita Mineral Investindo Tbk",
+      "industryCompanySlug": null,
+      "operationArea": "Ketapang, Kalimantan Barat",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 2,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "laman-mining",
+      "companyName": "PT Laman Mining",
+      "industryCompanySlug": null,
+      "operationArea": "Ketapang, Kalimantan Barat",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 3,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "dinamika-sejahtera-mandiri",
+      "companyName": "PT Dinamika Sejahtera Mandiri",
+      "industryCompanySlug": null,
+      "operationArea": "Sanggau, Kalimantan Barat",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 4,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "putra-alam-lestari",
+      "companyName": "PT Putra Alam Lestari",
+      "industryCompanySlug": null,
+      "operationArea": "Kalimantan Barat",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 5,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    }
+  ]
+}

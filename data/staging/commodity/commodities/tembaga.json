@@ -1,0 +1,219 @@
+{
+  "schemaVersion": "1.0",
+  "commoditySlug": "tembaga",
+  "commodity": {
+    "description": "Tembaga adalah logam berwarna merah jingga yang dikenal karena memiliki konduktivitas listrik dan termal yang sangat baik. Logam ini termasuk salah satu komoditas mineral strategis yang berperan penting dalam berbagai sektor industri, terutama kelistrikan, elektronik, konstruksi, telekomunikasi, dan energi terbarukan. Dalam dunia pertambangan, tembaga umumnya ditemukan dalam bentuk mineral sulfida maupun oksida. Indonesia merupakan salah satu negara penghasil tembaga terbesar di dunia dengan tambang-tambang berskala besar yang berkontribusi signifikan terhadap produksi global, seperti Tambang Grasberg di Papua Tengah dan Batu Hijau di Nusa Tenggara Barat.",
+    "specification": "Nama Komoditas: Tembaga; Nama Internasional: Copper; Kategori: Mineral Logam; Simbol Kimia: Cu; Nomor Atom: 29; Golongan: Logam Transisi; Warna: Merah jingga mengkilap; Kekerasan (Mohs): 2,5 – 3; Mineral Pembawa Utama: Chalcopyrite, Bornite, Chalcocite, Malachite, Azurite",
+    "image": null
+  },
+  "profile": {
+    "title": "Tembaga: Profil Komoditas Pertambangan",
+    "slug": "tembaga",
+    "excerpt": "Tembaga adalah logam berwarna merah jingga yang dikenal karena memiliki konduktivitas listrik dan termal yang sangat baik. Logam ini termasuk salah satu komoditas mineral strategis yang berperan penting dalam berbagai sektor industri, terutama kelistrikan, elektronik, konstruksi, telekomunikasi, dan energi terbarukan.",
+    "body": "# Tembaga\n\n## Definisi\n\nTembaga adalah logam berwarna merah jingga yang dikenal karena memiliki konduktivitas listrik dan termal yang sangat baik. Logam ini termasuk salah satu komoditas mineral strategis yang berperan penting dalam berbagai sektor industri, terutama kelistrikan, elektronik, konstruksi, telekomunikasi, dan energi terbarukan.\n\nDalam dunia pertambangan, tembaga umumnya ditemukan dalam bentuk mineral sulfida maupun oksida. Indonesia merupakan salah satu negara penghasil tembaga terbesar di dunia dengan tambang-tambang berskala besar yang berkontribusi signifikan terhadap produksi global, seperti Tambang Grasberg di Papua Tengah dan Batu Hijau di Nusa Tenggara Barat.\n\n## Karakteristik\n\n| Karakteristik | Keterangan |\n| --- | --- |\n| Warna | Merah jingga |\n| Kilap | Logam (Metallic Luster) |\n| Kekerasan | 2,5 – 3 Mohs |\n| Berat Jenis | ± 8,96 g/cm³ |\n| Titik Leleh | 1.084°C |\n| Titik Didih | 2.562°C |\n| Ketahanan Korosi | Baik, membentuk lapisan pelindung alami |\n| Sifat Mekanik | Mudah ditempa, dibentuk, dan ditarik menjadi kawat |\n| Konduktivitas Listrik | Sangat tinggi |\n| Konduktivitas Termal | Sangat tinggi |\n\n## Jenis-jenis\n\nTembaga Sulfida\n\nMerupakan jenis endapan tembaga yang paling umum ditemukan dan menjadi sumber utama produksi dunia.\n\nTembaga Oksida\n\nTerbentuk akibat proses pelapukan endapan sulfida di dekat permukaan.\n\n## Metode Penambangan\n\n| Metode | Keterangan |\n| --- | --- |\n| Open Pit Mining | Digunakan untuk endapan yang berada dekat permukaan dan menjadi metode utama di Indonesia |\n| Underground Mining | Digunakan untuk endapan tembaga yang berada pada kedalaman tertentu |\n| Block Caving | Metode penambangan bawah tanah berskala besar yang diterapkan pada endapan porfiri, seperti di Grasberg |\n\n## Kegunaan\n\n| Bidang | Pemanfaatan |\n| --- | --- |\n| Kelistrikan | Kabel listrik, transformator, generator, dan motor Listrik |\n| Elektronik | Papan sirkuit, konektor, semikonduktor, dan perangkat elektronik |\n| Konstruksi | Pipa, atap, sistem perpipaan, dan material bangunan |\n| Transportasi | Kendaraan bermotor, kereta api, kapal, dan pesawat |\n| Energi Terbarukan | Panel surya, turbin angin, dan baterai kendaraan Listrik |\n| Industri | Bahan baku paduan logam seperti kuningan dan perunggu |\n\n## Dampak Lingkungan\n\nDampak:\n\nPerubahan bentang alam akibat kegiatan penambangan\n\nDeforestasi dan hilangnya habitat alami\n\nPotensi terbentuknya air asam tambang (acid mine drainage) dari mineral sulfida\n\nSedimentasi pada sungai akibat kegiatan penggalian\n\nEmisi debu dan kebisingan selama operasi penambangan\n\nTimbulan limbah batuan penutup (waste rock) dan tailing hasil pengolahan bijih\n\nUpaya Mitigasi:\n\nReklamasi dan revegetasi lahan pascatambang\n\nPengelolaan tailing dan batuan penutup sesuai standar lingkungan\n\nPengendalian air asam tambang melalui sistem pengolahan air\n\nPemantauan kualitas air, udara, dan tanah secara berkala\n\nPenerapan prinsip Good Mining Practice dan kepatuhan terhadap regulasi lingkungan",
+    "readingTimeMinutes": 2,
+    "isFeatured": false,
+    "publicationStatus": "published",
+    "publishedAt": "2026-09-02T00:00:00+07:00",
+    "sources": [
+      {
+        "sourceSlug": "esdm-neraca-2025",
+        "citationLabel": "Neraca Sumber Daya dan Cadangan 2025",
+        "pageReference": null
+      },
+      {
+        "sourceSlug": "usgs-mcs-2025",
+        "citationLabel": "Mineral Commodity Summaries 2025",
+        "pageReference": null
+      }
+    ]
+  },
+  "resourceStatistics": [
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "ore",
+      "availabilityStatus": "reported",
+      "value": "2857860963",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan bijih tembaga; status data 31 Desember 2024."
+    },
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "contained_metal",
+      "availabilityStatus": "reported",
+      "value": "21325644",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan logam tembaga; status data 31 Desember 2024."
+    }
+  ],
+  "productionLocations": [
+    {
+      "regionSlug": "papua-tengah",
+      "locationDetail": "Mimika (Grasberg)",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "nusa-tenggara-barat",
+      "locationDetail": "Sumbawa Barat (Batu Hijau)",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "maluku",
+      "locationDetail": "Pulau Wetar, Maluku Barat Daya",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    }
+  ],
+  "globalStatisticSets": [
+    {
+      "statisticYear": 2024,
+      "metricCode": "mine_production",
+      "basisCode": "contained_metal",
+      "unitCode": "metric_ton",
+      "availabilityStatus": "reported",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "bgs-world-mineral-production-2020-2024",
+        "sourceUrl": "https://nora.nerc.ac.uk/id/eprint/541620/",
+        "pageReference": null
+      },
+      "supportingSources": [
+        {
+          "sourceSlug": "usgs-mcs-2025",
+          "sourceUrl": "https://pubs.usgs.gov/publication/mcs2025",
+          "pageReference": null,
+          "sourceRole": "cross_check",
+          "citationLabel": "Mineral Commodity Summaries 2025"
+        }
+      ],
+      "entries": [
+        {
+          "countryRegionSlug": "chili",
+          "rank": 1,
+          "value": "5506000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "republik-demokratik-kongo",
+          "rank": 2,
+          "value": "3157579",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "peru",
+          "rank": 3,
+          "value": "2736150",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "tiongkok",
+          "rank": 4,
+          "value": "1842920",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "amerika-serikat",
+          "rank": 5,
+          "value": "1060000",
+          "notes": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Angka mengikuti definisi dan satuan sumber asal; data tahun 2024."
+    }
+  ],
+  "producers": [
+    {
+      "producerKey": "freeport-indonesia",
+      "companyName": "PT Freeport Indonesia",
+      "industryCompanySlug": null,
+      "operationArea": "Mimika, Papua Tengah",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 1,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "amman-mineral-nusa-tenggara",
+      "companyName": "PT Amman Mineral Nusa Tenggara",
+      "industryCompanySlug": null,
+      "operationArea": "Sumbawa Barat, Nusa Tenggara Barat",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 2,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "batutua-tembaga-raya",
+      "companyName": "PT Batutua Tembaga Raya",
+      "industryCompanySlug": null,
+      "operationArea": "Pulau Wetar, Maluku Barat Daya",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 3,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    }
+  ]
+}

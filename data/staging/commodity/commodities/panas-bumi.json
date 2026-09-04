@@ -1,0 +1,331 @@
+{
+  "schemaVersion": "1.0",
+  "commoditySlug": "panas-bumi",
+  "commodity": {
+    "description": "Panas bumi merupakan energi yang berasal dari panas alami di dalam kerak bumi. Energi ini dihasilkan oleh proses peluruhan radioaktif alami, panas sisa pembentukan bumi, serta aktivitas magma yang memanaskan batuan dan air bawah permukaan. Energi tersebut kemudian dimanfaatkan untuk menghasilkan listrik maupun berbagai keperluan non-kelistrikan. Indonesia merupakan salah satu negara dengan potensi panas bumi terbesar di dunia karena berada di jalur Ring of Fire yang memiliki lebih dari 120 gunung api aktif. Berdasarkan data Kementerian ESDM, Indonesia memiliki potensi panas bumi sekitar 23,9 GW, atau sekitar 40% dari total potensi panas bumi dunia. Panas bumi termasuk energi baru terbarukan yang memiliki emisi karbon rendah, tersedia sepanjang waktu (baseload energy), serta menjadi salah satu sumber energi utama dalam transisi menuju energi bersih.",
+    "specification": "Nama Komoditas: Panas Bumi; Nama Internasional: Geothermal Energy; Kategori: Energi Terbarukan; Kelompok Sumber Daya: Energi Panas Bumi (Geothermal Resources); Sumber Energi: Panas alami dari interior bumi yang tersimpan dalam batuan dan fluida bawah permukaan; Bentuk Energi: Uap panas (steam), air panas (hot water), dan fluida panas bumi (geothermal brine); Suhu Reservoir: Umumnya 90–350°C; Proses Pembentukan: Aktivitas magmatik, vulkanisme, dan sirkulasi air bawah tanah pada zona tektonik aktif",
+    "image": null
+  },
+  "profile": {
+    "title": "Panas Bumi: Profil Komoditas Pertambangan",
+    "slug": "panas-bumi",
+    "excerpt": "Panas bumi merupakan energi yang berasal dari panas alami di dalam kerak bumi. Energi ini dihasilkan oleh proses peluruhan radioaktif alami, panas sisa pembentukan bumi, serta aktivitas magma yang memanaskan batuan dan air bawah permukaan. Energi tersebut kemudian dimanfaatkan untuk menghasilkan listrik maupun berbagai keperluan non-kelistrikan.",
+    "body": "# Panas Bumi\n\n## Definisi\n\nPanas bumi merupakan energi yang berasal dari panas alami di dalam kerak bumi. Energi ini dihasilkan oleh proses peluruhan radioaktif alami, panas sisa pembentukan bumi, serta aktivitas magma yang memanaskan batuan dan air bawah permukaan. Energi tersebut kemudian dimanfaatkan untuk menghasilkan listrik maupun berbagai keperluan non-kelistrikan.\n\nIndonesia merupakan salah satu negara dengan potensi panas bumi terbesar di dunia karena berada di jalur Ring of Fire yang memiliki lebih dari 120 gunung api aktif. Berdasarkan data Kementerian ESDM, Indonesia memiliki potensi panas bumi sekitar 23,9 GW, atau sekitar 40% dari total potensi panas bumi dunia. Panas bumi termasuk energi baru terbarukan yang memiliki emisi karbon rendah, tersedia sepanjang waktu (baseload energy), serta menjadi salah satu sumber energi utama dalam transisi menuju energi bersih.\n\n## Karakteristik\n\n| Karakteristik | Keterangan |\n| --- | --- |\n| Jenis Energi | Energi terbarukan |\n| Sumber Panas | Magma dan aktivitas geologi |\n| Emisi Karbon | Sangat rendah dibanding energi fosil |\n| Faktor Kapasitas | Tinggi (umumnya >90%) |\n| Ketersediaan | Beroperasi 24 jam (baseload) |\n| Umur Lapangan | Dapat mencapai lebih dari 30 tahun dengan pengelolaan reservoir yang baik |\n| Lokasi | Berasosiasi dengan kawasan vulkanik dan sesar aktif |\n\n## Jenis-jenis\n\nTerdapat 4 jenis dari Panas Bumi ini, seperti:\n\nDry Steam System\n\nReservoir menghasilkan uap kering secara langsung.\n\nFlash Steam System\n\nJenis pembangkit panas bumi yang paling banyak digunakan di Indonesia.\n\nBinary Cycle System\n\nDigunakan pada reservoir bersuhu sedang.\n\nDirect Use\n\nPemanfaatan panas bumi tanpa menghasilkan listrik.\n\nEksplorasi dan Pemanfaatan\n\n| Metode | Keterangan |\n| --- | --- |\n| Eksplorasi Geologi | Identifikasi sistem panas bumi melalui pemetaan geologi, geokimia, dan geofisika |\n| Pengeboran Sumur Produksi | Mengambil uap atau fluida panas dari reservoir |\n| Pembangkit Listrik Panas Bumi (PLTP) | Mengubah energi panas menjadi energi listrik melalui turbin dan generator |\n| Reinjeksi | Mengembalikan fluida ke reservoir untuk menjaga tekanan dan keberlanjutan sumber daya |\n\n## Kegunaan\n\n| Bidang | Pemanfaatan |\n| --- | --- |\n| Pembangkit Listrik | Sumber energi untuk PLTP |\n| Industri | Penyedia panas proses industri tertentu |\n| Pertanian | Pengeringan hasil pertanian dan rumah kaca (greenhouse) |\n| Perikanan | Pemanasan kolam budidaya ikan |\n| Pariwisata | Pemandian air panas dan wisata geotermal |\n| Kesehatan | Spa dan terapi air panas alami |\n\n## Dampak Lingkungan\n\nDampak:\n\nPerubahan bentang alam pada area pengeboran dan pembangunan fasilitas\n\nEmisi gas alamiah seperti hidrogen sulfida (H₂S) dalam jumlah terbatas\n\nPotensi penurunan tekanan reservoir apabila reinjeksi tidak dilakukan dengan baik\n\nKebisingan selama proses pengeboran\n\nPotensi gangguan terhadap ekosistem lokal\n\nUpaya Mitigasi:\n\nReinjeksi fluida panas bumi ke dalam reservoir\n\nPemantauan kualitas udara, air, dan aktivitas seismik secara berkala\n\nPengendalian emisi H₂S menggunakan teknologi pengolahan gas\n\nReklamasi area pengeboran setelah konstruksi selesai\n\nPenerapan Good Geothermal Practice sesuai ketentuan Kementerian ESDM\n\nPengembangan fasilitas dengan meminimalkan pembukaan lahan",
+    "readingTimeMinutes": 2,
+    "isFeatured": false,
+    "publicationStatus": "published",
+    "publishedAt": "2026-09-02T00:00:00+07:00",
+    "sources": [
+      {
+        "sourceSlug": "esdm-neraca-2025",
+        "citationLabel": "Neraca Sumber Daya dan Cadangan 2025",
+        "pageReference": null
+      },
+      {
+        "sourceSlug": "irena-renewable-capacity-statistics-2025",
+        "citationLabel": "Renewable Capacity Statistics 2025",
+        "pageReference": null
+      }
+    ]
+  },
+  "resourceStatistics": [
+    {
+      "statisticYear": 2024,
+      "statisticType": "resource",
+      "materialBasis": "energy_capacity",
+      "availabilityStatus": "reported",
+      "value": "23741.35",
+      "unitCode": "megawatt",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Total sumber daya panas bumi; status data 31 Desember 2024."
+    },
+    {
+      "statisticYear": 2024,
+      "statisticType": "installed_capacity",
+      "materialBasis": "energy_capacity",
+      "availabilityStatus": "reported",
+      "value": "2688.99",
+      "unitCode": "megawatt",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Kapasitas terpasang panas bumi; status data 31 Desember 2024."
+    },
+    {
+      "statisticYear": 2024,
+      "statisticType": "working_area_count",
+      "materialBasis": null,
+      "availabilityStatus": "reported",
+      "value": "63",
+      "unitCode": "count",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Jumlah Wilayah Kerja Panas Bumi (WKP); status data 31 Desember 2024."
+    }
+  ],
+  "productionLocations": [
+    {
+      "regionSlug": "jawa-barat",
+      "locationDetail": "Kamojang, Darajat, Wayang Windu, Salak, dan Patuha",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "jawa-tengah",
+      "locationDetail": "Dieng",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "sumatera-utara",
+      "locationDetail": "Sarulla, Sibayak, dan Sorik Marapi",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "lampung",
+      "locationDetail": "Ulubelu",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "sumatera-selatan",
+      "locationDetail": "Lumut Balai dan Rantau Dedap",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "sumatera-barat",
+      "locationDetail": "Muara Laboh",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "sulawesi-utara",
+      "locationDetail": "Lahendong",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "nusa-tenggara-timur",
+      "locationDetail": "Mataloko dan Ulumbu",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "maluku",
+      "locationDetail": "Tulehu",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    }
+  ],
+  "globalStatisticSets": [
+    {
+      "statisticYear": 2024,
+      "metricCode": "installed_capacity",
+      "basisCode": "installed_capacity",
+      "unitCode": "megawatt",
+      "availabilityStatus": "reported",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "irena-renewable-capacity-statistics-2025",
+        "sourceUrl": "https://www.irena.org/Publications/2025/Mar/Renewable-capacity-statistics-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "entries": [
+        {
+          "countryRegionSlug": "amerika-serikat",
+          "rank": 1,
+          "value": "3900",
+          "notes": "Nilai perkiraan dari sumber"
+        },
+        {
+          "countryRegionSlug": "indonesia",
+          "rank": 2,
+          "value": "2700",
+          "notes": "Nilai perkiraan dari sumber"
+        },
+        {
+          "countryRegionSlug": "filipina",
+          "rank": 3,
+          "value": "1900",
+          "notes": "Nilai perkiraan dari sumber"
+        },
+        {
+          "countryRegionSlug": "turki",
+          "rank": 4,
+          "value": "1700",
+          "notes": "Nilai perkiraan dari sumber"
+        },
+        {
+          "countryRegionSlug": "selandia-baru",
+          "rank": 5,
+          "value": "1100",
+          "notes": "Nilai perkiraan dari sumber"
+        }
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Angka mengikuti definisi dan satuan sumber asal; data tahun 2024."
+    }
+  ],
+  "producers": [
+    {
+      "producerKey": "pertamina-geothermal-energy",
+      "companyName": "PT Pertamina Geothermal Energy Tbk",
+      "industryCompanySlug": null,
+      "operationArea": "Kamojang, Lahendong, Lumut Balai, Ulubelu, Karaha, dan area lain",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 1,
+      "primarySource": {
+        "sourceSlug": "esdm-heesi-2024",
+        "sourceUrl": "https://www.esdm.go.id/en/publication/handbook-of-energy-economic-statistics-of-indonesia-heesi",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "star-energy-geothermal",
+      "companyName": "Star Energy Geothermal",
+      "industryCompanySlug": null,
+      "operationArea": "Wayang Windu, Salak, dan Darajat",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 2,
+      "primarySource": {
+        "sourceSlug": "esdm-heesi-2024",
+        "sourceUrl": "https://www.esdm.go.id/en/publication/handbook-of-energy-economic-statistics-of-indonesia-heesi",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "supreme-energy",
+      "companyName": "PT Supreme Energy",
+      "industryCompanySlug": null,
+      "operationArea": "Muara Laboh dan Rantau Dedap; Rajabasa dalam pengembangan",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 3,
+      "primarySource": {
+        "sourceSlug": "esdm-heesi-2024",
+        "sourceUrl": "https://www.esdm.go.id/en/publication/handbook-of-energy-economic-statistics-of-indonesia-heesi",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "sorik-marapi-geothermal-power",
+      "companyName": "PT Sorik Marapi Geothermal Power",
+      "industryCompanySlug": null,
+      "operationArea": "Mandailing Natal, Sumatera Utara",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 4,
+      "primarySource": {
+        "sourceSlug": "esdm-heesi-2024",
+        "sourceUrl": "https://www.esdm.go.id/en/publication/handbook-of-energy-economic-statistics-of-indonesia-heesi",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "geo-dipa-energi",
+      "companyName": "PT Geo Dipa Energi (Persero)",
+      "industryCompanySlug": null,
+      "operationArea": "Dieng, Jawa Tengah dan Patuha, Jawa Barat",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 5,
+      "primarySource": {
+        "sourceSlug": "esdm-heesi-2024",
+        "sourceUrl": "https://www.esdm.go.id/en/publication/handbook-of-energy-economic-statistics-of-indonesia-heesi",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    }
+  ]
+}

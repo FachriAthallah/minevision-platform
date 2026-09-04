@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "commoditySlug": "timbal",
+  "commodity": {
+    "description": "Timbal merupakan logam berat berwarna abu-abu kebiruan yang memiliki massa jenis tinggi, lunak, mudah dibentuk, serta tahan terhadap korosi. Timbal telah dimanfaatkan selama ribuan tahun untuk berbagai kebutuhan industri, terutama sebagai bahan baku baterai, pelindung radiasi, kabel, dan berbagai produk logam. Dalam kegiatan pertambangan, timbal umumnya ditemukan bersama seng dan perak pada endapan sulfida. Di Indonesia, timbal bukan merupakan komoditas utama, melainkan diperoleh sebagai produk samping dari penambangan seng dan mineral polimetalik. Potensi timbal nasional tersebar di Sumatera, Jawa, Sulawesi, dan Papua.",
+    "specification": "Nama Komoditas: Timbal; Nama Internasional: Lead; Kategori: Mineral Logam; Simbol Kimia: Pb; Nomor Atom: 82; Golongan: Logam pascatransisi; Warna: Abu-abu kebiruan; Kekerasan (Mohs): 1,5; Mineral Pembawa Utama: Galena (PbS), Cerussite (PbCO₃), Anglesite (PbSO₄)",
+    "image": null
+  },
+  "profile": {
+    "title": "Timbal: Profil Komoditas Pertambangan",
+    "slug": "timbal",
+    "excerpt": "Timbal merupakan logam berat berwarna abu-abu kebiruan yang memiliki massa jenis tinggi, lunak, mudah dibentuk, serta tahan terhadap korosi. Timbal telah dimanfaatkan selama ribuan tahun untuk berbagai kebutuhan industri, terutama sebagai bahan baku baterai, pelindung radiasi, kabel, dan berbagai produk logam.",
+    "body": "# Timbal\n\n## Definisi\n\nTimbal merupakan logam berat berwarna abu-abu kebiruan yang memiliki massa jenis tinggi, lunak, mudah dibentuk, serta tahan terhadap korosi. Timbal telah dimanfaatkan selama ribuan tahun untuk berbagai kebutuhan industri, terutama sebagai bahan baku baterai, pelindung radiasi, kabel, dan berbagai produk logam.\n\nDalam kegiatan pertambangan, timbal umumnya ditemukan bersama seng dan perak pada endapan sulfida. Di Indonesia, timbal bukan merupakan komoditas utama, melainkan diperoleh sebagai produk samping dari penambangan seng dan mineral polimetalik. Potensi timbal nasional tersebar di Sumatera, Jawa, Sulawesi, dan Papua.\n\n## Karakteristik\n\n| Karakteristik | Keterangan |\n| --- | --- |\n| Warna | Abu-abu kebiruan |\n| Kilap | Logam (metallic luster) |\n| Kekerasan | 1,5 Mohs |\n| Berat Jenis | ± 11,34 g/cm³ |\n| Titik Leleh | 327,5 °C |\n| Titik Didih | 1.749°C |\n| Ketahanan Korosi | Sangat baik |\n| Sifat Mekanik | Lunak, mudah dibentuk, memiliki densitas tinggi |\n| Konduktivitas Listrik | Rendah |\n| Sifat Toksikologi | Beracun bagi manusia dan lingkungan bila terpapar berlebihan |\n\n## Jenis-jenis\n\nTerdapat 3 jenis dari Timbal ini, ialah:\n\nGalena\n\nMineral timbal yang paling penting dan menjadi sumber utama produksi dunia\n\nCerussite\n\nMineral karbonat timbal yang terbentuk akibat pelapukan galena\n\nAnglesite\n\nMineral sulfat timbal hasil oksidasi galena\n\n## Metode Penambangan\n\n| Metode | Keterangan |\n| --- | --- |\n| Open Pit Mining | Digunakan untuk endapan dekat permukaan |\n| Underground Mining | Metode utama pada endapan sulfida yang berada di bawah permukaan |\n| Flotation Processing | Memisahkan mineral timbal dari mineral lainnya sebelum peleburan |\n\n## Kegunaan\n\n| Bidang | Pemanfaatan |\n| --- | --- |\n| Baterai | Bahan utama baterai timbal-asam (lead-acid battery) |\n| Industri Energi | Sistem penyimpanan energi dan UPS |\n| Pelindung Radiasi | Rumah sakit, laboratorium, dan fasilitas nuklir |\n| Kabel | Selubung kabel bawah tanah dan bawah laut |\n| Industri Kimia | Pigmen dan senyawa kimia tertentu |\n| Amunisi | Bahan baku proyektil dan pemberat |\n\n## Dampak Lingkungan\n\nDampak:\n\nPerubahan bentang alam akibat kegiatan penambangan\n\nTimbulan tailing dan batuan penutup\n\nPotensi pencemaran tanah dan air oleh logam berat apabila limbah tidak dikelola dengan baik\n\nEmisi debu selama penambangan dan pengolahan\n\nGangguan terhadap ekosistem sekitar tambang\n\nUpaya Mitigasi:\n\nPengelolaan limbah dan tailing sesuai standar lingkungan\n\nReklamasi lahan pascatambang\n\nPemantauan kualitas air dan tanah secara berkala\n\nPengendalian debu dan emisi\n\nPenerapan prinsip Good Mining Practice",
+    "readingTimeMinutes": 2,
+    "isFeatured": false,
+    "publicationStatus": "published",
+    "publishedAt": "2026-09-02T00:00:00+07:00",
+    "sources": [
+      {
+        "sourceSlug": "esdm-neraca-2025",
+        "citationLabel": "Neraca Sumber Daya dan Cadangan 2025",
+        "pageReference": null
+      },
+      {
+        "sourceSlug": "usgs-mcs-2025",
+        "citationLabel": "Mineral Commodity Summaries 2025",
+        "pageReference": null
+      }
+    ]
+  },
+  "resourceStatistics": [
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "ore",
+      "availabilityStatus": "reported",
+      "value": "75531848",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan bijih pembawa timbal; status data 31 Desember 2024."
+    },
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "contained_metal",
+      "availabilityStatus": "reported",
+      "value": "2010233",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan logam timbal; status data 31 Desember 2024."
+    }
+  ],
+  "productionLocations": [
+    {
+      "regionSlug": "kalimantan-tengah",
+      "locationDetail": "Lamandau/Kotawaringin Barat; konsentrat timbal dari endapan polimetalik",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "sumatera-utara",
+      "locationDetail": "Dairi (Anjing Hitam dan Lae Jehe; proyek, belum produksi komersial)",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "banten",
+      "locationDetail": "Lebak/Cikotok; wilayah produksi historis dan keterdapatan polimetalik",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    }
+  ],
+  "globalStatisticSets": [
+    {
+      "statisticYear": 2024,
+      "metricCode": "mine_production",
+      "basisCode": "contained_metal",
+      "unitCode": "metric_ton",
+      "availabilityStatus": "reported",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "bgs-world-mineral-production-2020-2024",
+        "sourceUrl": "https://nora.nerc.ac.uk/id/eprint/541620/",
+        "pageReference": null
+      },
+      "supportingSources": [
+        {
+          "sourceSlug": "usgs-mcs-2025",
+          "sourceUrl": "https://pubs.usgs.gov/publication/mcs2025",
+          "pageReference": null,
+          "sourceRole": "cross_check",
+          "citationLabel": "Mineral Commodity Summaries 2025"
+        }
+      ],
+      "entries": [
+        {
+          "countryRegionSlug": "tiongkok",
+          "rank": 1,
+          "value": "1926000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "australia",
+          "rank": 2,
+          "value": "441130",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "amerika-serikat",
+          "rank": 3,
+          "value": "296000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "peru",
+          "rank": 4,
+          "value": "291319",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "meksiko",
+          "rank": 5,
+          "value": "278177",
+          "notes": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Angka mengikuti definisi dan satuan sumber asal; data tahun 2024."
+    }
+  ],
+  "producers": [
+    {
+      "producerKey": "kapuas-prima-coal-kobar-lamandau-mineral",
+      "companyName": "PT Kapuas Prima Coal Tbk / PT Kobar Lamandau Mineral",
+      "industryCompanySlug": null,
+      "operationArea": "Kalimantan Tengah; konsentrat timbal dari endapan polimetalik",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 1,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    }
+  ]
+}

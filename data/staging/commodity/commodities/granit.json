@@ -1,0 +1,209 @@
+{
+  "schemaVersion": "1.0",
+  "commoditySlug": "granit",
+  "commodity": {
+    "description": "Granit merupakan batuan beku intrusif yang terbentuk dari proses pendinginan dan kristalisasi magma secara perlahan di dalam kerak bumi. Proses tersebut menghasilkan tekstur kristalin berbutir kasar yang tersusun terutama oleh mineral kuarsa, feldspar, dan mika. Kandungan kuarsa yang tinggi memberikan granit sifat keras, kuat, dan tahan terhadap pelapukan. Granit termasuk salah satu komoditas mineral non-logam yang memiliki nilai ekonomi tinggi karena banyak dimanfaatkan sebagai batu dimensi (dimension stone) untuk konstruksi, dekorasi, monumen, hingga infrastruktur. Indonesia memiliki potensi granit yang cukup besar, terutama di Kepulauan Riau, Bangka Belitung, Kalimantan, Sumatera, dan Sulawesi.",
+    "specification": "Nama Komoditas: Granit; Nama Internasional: Granite; Kategori: Mineral Non-Logam; Kelompok Mineral: Batuan Beku Intrusif (Igneous Intrusive Rock); Komposisi Utama: Kuarsa (Quartz), Feldspar, Mika; Mineral Penyusun Utama: Kuarsa (SiO₂), Feldspar (Ortoklas & Plagioklas), Biotit, Muskovit, Hornblende; Warna: Putih, abu-abu, merah muda, kemerahan, hitam, hingga kehijauan; Kekerasan (Mohs): 6 – 7; Proses Pembentukan: Kristalisasi magma secara perlahan di bawah permukaan bumi",
+    "image": null
+  },
+  "profile": {
+    "title": "Granit: Profil Komoditas Pertambangan",
+    "slug": "granit",
+    "excerpt": "Granit merupakan batuan beku intrusif yang terbentuk dari proses pendinginan dan kristalisasi magma secara perlahan di dalam kerak bumi. Proses tersebut menghasilkan tekstur kristalin berbutir kasar yang tersusun terutama oleh mineral kuarsa, feldspar, dan mika. Kandungan kuarsa yang tinggi memberikan granit sifat keras, kuat, dan tahan terhadap pelapukan.",
+    "body": "# Granit\n\n## Definisi\n\nGranit merupakan batuan beku intrusif yang terbentuk dari proses pendinginan dan kristalisasi magma secara perlahan di dalam kerak bumi. Proses tersebut menghasilkan tekstur kristalin berbutir kasar yang tersusun terutama oleh mineral kuarsa, feldspar, dan mika. Kandungan kuarsa yang tinggi memberikan granit sifat keras, kuat, dan tahan terhadap pelapukan.\n\nGranit termasuk salah satu komoditas mineral non-logam yang memiliki nilai ekonomi tinggi karena banyak dimanfaatkan sebagai batu dimensi (dimension stone) untuk konstruksi, dekorasi, monumen, hingga infrastruktur. Indonesia memiliki potensi granit yang cukup besar, terutama di Kepulauan Riau, Bangka Belitung, Kalimantan, Sumatera, dan Sulawesi.\n\n## Karakteristik\n\n| Karakteristik | Keterangan |\n| --- | --- |\n| Warna | Putih, abu-abu, merah muda, hitam, kehijauan |\n| Kilap | Kaca hingga kusam |\n| Kekerasan | 6 - 7 Mohs |\n| Berat Jenis | ± 2,63–2,75 g/cm³ |\n| Komposisi Utama | Kuarsa, Feldspar, Mika |\n| Tekstur | Berbutir kasar (Phaneritic) |\n| Ketahanan | Sangat kuat terhadap tekanan, goresan, dan pelapukan |\n| Daya Serap Air | Rendah |\n\n## Jenis-jenis\n\nTerdapat 4 jenis dari granit ini, seperti:\n\nGranit Putih (White Granite)\n\nDidominasi oleh mineral feldspar berwarna terang dan kuarsa.\n\nGranit Merah (red granite)\n\nMengandung feldspar kalium dalam jumlah tinggi.\n\nGranit Hitam (black granite)\n\nDidominasi oleh mineral mafik seperti biotit dan hornblende.\n\nGranit Abu-abu (grey granite)\n\nMerupakan jenis granit yang paling banyak ditemukan.\n\n## Metode Penambangan\n\n| Metode | Keterangan |\n| --- | --- |\n| Quarry Mining | Metode utama menggunakan sistem tambang terbuka |\n| Diamond Wire Saw | Pemotongan blok granit menggunakan kawat berlian untuk menghasilkan blok utuh |\n| Chain Saw Cutting | Digunakan pada beberapa tambang dengan kondisi batuan tertentu |\n| Controlled Blasting | Peledakan terkendali untuk meminimalkan kerusakan pada blok granit |\n\n## Kegunaan\n\n| Bidang | Pemanfaatan |\n| --- | --- |\n| Konstruksi | Lantai, dinding, tangga, dan fasad bangunan |\n| Infrastruktur | Agregat jalan, jembatan, dan pondasi bangunan |\n| Dekorasi Interior | Countertop, meja dapur, wastafel, dan lantai premium |\n| Monumen | Batu nisan, prasasti, dan monumen nasional |\n| Arsitektur | Material bangunan bertingkat dan gedung perkantoran |\n| Industri | Batu pecah (crushed stone) untuk beton dan aspal |\n\n## Dampak Lingkungan\n\nDampak:\n\nPerubahan bentang alam akibat pembentukan area tambang terbuka\n\nHilangnya vegetasi dan habitat alami\n\nDebu dari proses pemotongan dan penghancuran batu\n\nKebisingan dari alat berat dan mesin pemotong\n\nTimbulan limbah batu (stone waste) dari proses pemotongan\n\nUpaya Mitigasi:\n\nReklamasi dan revegetasi lahan pascatambang\n\nPemanfaatan limbah granit sebagai agregat konstruksi dan bahan baku beton\n\nPengendalian debu melalui penyiraman area tambang dan sistem dust suppression\n\nPengelolaan drainase tambang untuk mencegah erosi dan sedimentasi\n\nPenerapan prinsip Good Mining Practice sesuai ketentuan Kementerian ESDM",
+    "readingTimeMinutes": 2,
+    "isFeatured": false,
+    "publicationStatus": "published",
+    "publishedAt": "2026-09-02T00:00:00+07:00",
+    "sources": [
+      {
+        "sourceSlug": "esdm-neraca-2025",
+        "citationLabel": "Neraca Sumber Daya dan Cadangan 2025",
+        "pageReference": null
+      },
+      {
+        "sourceSlug": "usgs-mcs-2025",
+        "citationLabel": "Mineral Commodity Summaries 2025",
+        "pageReference": null
+      }
+    ]
+  },
+  "resourceStatistics": [
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "raw_material",
+      "availabilityStatus": "reported",
+      "value": "1298796414",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan nasional granit; status data 31 Desember 2024."
+    }
+  ],
+  "productionLocations": [
+    {
+      "regionSlug": "kepulauan-riau",
+      "locationDetail": "Karimun dan Bintan",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "kepulauan-bangka-belitung",
+      "locationDetail": "Bangka dan Belitung",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "kalimantan-barat",
+      "locationDetail": "Bengkayang, Sanggau, dan Singkawang",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "sumatera-utara",
+      "locationDetail": "Tapanuli dan sekitarnya",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "lampung",
+      "locationDetail": "Tanggamus",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "sulawesi-tengah",
+      "locationDetail": "Donggala",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    }
+  ],
+  "globalStatisticSets": [
+    {
+      "statisticYear": 2024,
+      "metricCode": "mine_production",
+      "basisCode": "not_comparable",
+      "unitCode": null,
+      "availabilityStatus": "source_unavailable",
+      "recordType": "actual",
+      "primarySource": null,
+      "supportingSources": [],
+      "entries": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Tidak tersedia seri produksi antarnegara yang seragam dan dapat diperlakukan sebagai peringkat baku."
+    }
+  ],
+  "producers": [
+    {
+      "producerKey": "karimun-granite",
+      "companyName": "PT Karimun Granite",
+      "industryCompanySlug": null,
+      "operationArea": "Karimun, Kepulauan Riau",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 1,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "adiguna-granit-lestari",
+      "companyName": "PT Adiguna Granit Lestari",
+      "industryCompanySlug": null,
+      "operationArea": "Karimun, Kepulauan Riau",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 2,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "pacific-granitama",
+      "companyName": "PT Pacific Granitama",
+      "industryCompanySlug": null,
+      "operationArea": "Kepulauan Bangka Belitung",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 3,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "vitrama-properti-dan-stone-industry",
+      "companyName": "PT Vitrama Properti & Stone Industry",
+      "industryCompanySlug": null,
+      "operationArea": "Kepulauan Bangka Belitung",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 4,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    }
+  ]
+}

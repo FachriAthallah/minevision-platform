@@ -1,0 +1,277 @@
+{
+  "schemaVersion": "1.0",
+  "commoditySlug": "nikel",
+  "commodity": {
+    "description": "Nikel adalah logam berwarna putih keperakan yang memiliki ketahanan tinggi terhadap korosi, oksidasi, dan suhu tinggi. Logam ini termasuk dalam kelompok logam transisi dan merupakan salah satu komoditas tambang strategis yang memiliki nilai ekonomi tinggi. Nikel banyak dimanfaatkan sebagai bahan baku pembuatan baja tahan karat (stainless steel), paduan logam berkinerja tinggi, serta baterai kendaraan listrik (Electric Vehicle/EV). Indonesia merupakan produsen nikel terbesar di dunia dan memiliki cadangan nikel yang sangat besar, sehingga berperan penting dalam rantai pasok industri global, khususnya industri baterai dan kendaraan listrik.",
+    "specification": "Nama Komoditas: Nikel; Nama Internasional: Nickel; Kategori: Mineral logam; Simbol Kimia: Ni; Nomor Atom: 28; Golongan: Logam transisi; Warna: Putih keperakan dengan sedikit semburat kekuningan; Kekerasan (Mohs): 3,5 – 4; Mineral Pembawa Utama: Garnierit, Pentlandit, Limonit, Saprolit",
+    "image": null
+  },
+  "profile": {
+    "title": "Nikel: Profil Komoditas Pertambangan",
+    "slug": "nikel",
+    "excerpt": "Nikel adalah logam berwarna putih keperakan yang memiliki ketahanan tinggi terhadap korosi, oksidasi, dan suhu tinggi. Logam ini termasuk dalam kelompok logam transisi dan merupakan salah satu komoditas tambang strategis yang memiliki nilai ekonomi tinggi. Nikel banyak dimanfaatkan sebagai bahan baku pembuatan baja tahan karat (stainless steel), paduan logam berkinerja tinggi, serta baterai kendaraan listrik (Electric Vehicle/EV).",
+    "body": "# Nikel\n\n## Definisi\n\nNikel adalah logam berwarna putih keperakan yang memiliki ketahanan tinggi terhadap korosi, oksidasi, dan suhu tinggi. Logam ini termasuk dalam kelompok logam transisi dan merupakan salah satu komoditas tambang strategis yang memiliki nilai ekonomi tinggi. Nikel banyak dimanfaatkan sebagai bahan baku pembuatan baja tahan karat (stainless steel), paduan logam berkinerja tinggi, serta baterai kendaraan listrik (Electric Vehicle/EV).\n\nIndonesia merupakan produsen nikel terbesar di dunia dan memiliki cadangan nikel yang sangat besar, sehingga berperan penting dalam rantai pasok industri global, khususnya industri baterai dan kendaraan listrik.\n\n## Karakteristik\n\n| Karakteristik | Keterangan |\n| --- | --- |\n| Warna | Putih Keperakan |\n| Kilap | Logam (Metallic Luster) |\n| Kekerasan | 3,5 – 4 |\n| Berat Jenis | ± 8,9 g/cm³ |\n| Titik Leleh | 1.455°C |\n| Titik Didih | 2.913°C |\n| Ketahanan Korosi | Sangat tinggi |\n| Sifat Magnetik | Feromagnetik pada suhu ruang |\n| Konduktivitas | Baik terhadap panas dan listrik |\n| Sifat Kimia | Tahan terhadap oksidasi dan berbagai jenis asam lemah |\n\n## Jenis-jenis\n\nSecara geologi, endapan nikel dibedakan menjadi dua jenis utama:\n\nNikel Laterit\n\nTerbentuk melalui proses pelapukan batuan ultramafik di daerah beriklim tropis. Jenis ini mendominasi cadangan nikel Indonesia dan menjadi sumber utama produksi nasional.\n\nNikel Sulfida\n\nTerbentuk melalui aktivitas magmatik dan banyak ditemukan di negara seperti Kanada, Rusia, dan Australia.\n\n## Metode Penambangan\n\n| Metode | Keterangan |\n| --- | --- |\n| Open Pit Mining | Metode yang paling umum digunakan di Indonesia untuk menambang nikel laterit karena endapan berada dekat permukaan |\n| Underground Mining | Digunakan pada endapan nikel sulfida yang berada jauh di bawah permukaan tanah |\n| Selective Mining | Dilakukan untuk memisahkan bijih berdasarkan kadar nikel sehingga kualitas bahan baku tetap terjaga |\n\n## Kegunaan\n\n| Bidang | Pemanfaatan |\n| --- | --- |\n| Industri Baja | Bahan utama pembuatan stainless steel |\n| Kendaraan Listrik | Material katoda baterai lithium-ion |\n| Industri Logam | Paduan logam tahan panas dan korosi |\n| Energi | Komponen turbin dan pembangkit listrik |\n| Elektronik | Komponen baterai isi ulang, konektor, dan peralatan elektronik |\n| Kedirgantaraan | Pembuatan superalloy untuk mesin pesawat |\n| Pelapisan Logam | Electroplating untuk meningkatkan ketahanan korosi |\n\n## Dampak Lingkungan\n\nKegiatan pertambangan nikel memberikan manfaat ekonomi yang besar, tetapi juga dapat menimbulkan dampak terhadap lingkungan apabila tidak dikelola dengan baik.\n\nDampak:\n\nPerubahan bentang alam akibat pembukaan lahan\n\nDeforestasi dan hilangnya habitat satwa\n\nPeningkatan sedimentasi di sungai dan pesisir\n\nPenurunan kualitas air akibat limpasan material tambang\n\nEmisi debu dan kebisingan selama kegiatan operasional\n\nPotensi pencemaran akibat limbah pengolahan (tailing)\n\nUpaya Mitigasi:\n\nReklamasi dan revegetasi lahan pascatambang\n\nPengelolaan air tambang dan pengendalian sedimentasi\n\nPemantauan kualitas air, udara, dan tanah secara berkala\n\nPengelolaan limbah sesuai standar lingkungan\n\nPenerapan praktik pertambangan yang baik (Good Mining Practice) sesuai regulasi nasional",
+    "readingTimeMinutes": 2,
+    "isFeatured": false,
+    "publicationStatus": "published",
+    "publishedAt": "2026-09-02T00:00:00+07:00",
+    "sources": [
+      {
+        "sourceSlug": "esdm-neraca-2025",
+        "citationLabel": "Neraca Sumber Daya dan Cadangan 2025",
+        "pageReference": null
+      },
+      {
+        "sourceSlug": "usgs-mcs-2025",
+        "citationLabel": "Mineral Commodity Summaries 2025",
+        "pageReference": null
+      }
+    ]
+  },
+  "resourceStatistics": [
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "ore",
+      "availabilityStatus": "reported",
+      "value": "5913865814",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan bijih nikel; status data 31 Desember 2024."
+    },
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "contained_metal",
+      "availabilityStatus": "reported",
+      "value": "62029856",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan logam nikel; status data 31 Desember 2024."
+    }
+  ],
+  "productionLocations": [
+    {
+      "regionSlug": "sulawesi-tenggara",
+      "locationDetail": "Konawe, Konawe Utara, Kolaka, Kolaka Utara, Kolaka Timur",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "sulawesi-tengah",
+      "locationDetail": "Morowali dan Morowali Utara",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "sulawesi-selatan",
+      "locationDetail": "Luwu Timur (Sorowako)",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "maluku-utara",
+      "locationDetail": "Halmahera Tengah, Halmahera Timur, dan Pulau Obi",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "papua-barat-daya",
+      "locationDetail": "Pulau Gag, Raja Ampat",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    }
+  ],
+  "globalStatisticSets": [
+    {
+      "statisticYear": 2024,
+      "metricCode": "mine_production",
+      "basisCode": "contained_metal",
+      "unitCode": "metric_ton",
+      "availabilityStatus": "reported",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "bgs-world-mineral-production-2020-2024",
+        "sourceUrl": "https://nora.nerc.ac.uk/id/eprint/541620/",
+        "pageReference": null
+      },
+      "supportingSources": [
+        {
+          "sourceSlug": "usgs-mcs-2025",
+          "sourceUrl": "https://pubs.usgs.gov/publication/mcs2025",
+          "pageReference": null,
+          "sourceRole": "cross_check",
+          "citationLabel": "Mineral Commodity Summaries 2025"
+        }
+      ],
+      "entries": [
+        {
+          "countryRegionSlug": "indonesia",
+          "rank": 1,
+          "value": "2328000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "filipina",
+          "rank": 2,
+          "value": "354132",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "rusia",
+          "rank": 3,
+          "value": "268700",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "australia",
+          "rank": 4,
+          "value": "128157",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "kanada",
+          "rank": 5,
+          "value": "125363",
+          "notes": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Angka mengikuti definisi dan satuan sumber asal; data tahun 2024."
+    }
+  ],
+  "producers": [
+    {
+      "producerKey": "vale-indonesia",
+      "companyName": "PT Vale Indonesia Tbk",
+      "industryCompanySlug": null,
+      "operationArea": "Sorowako, Luwu Timur, Sulawesi Selatan",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 1,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "aneka-tambang",
+      "companyName": "PT Aneka Tambang Tbk (ANTAM)",
+      "industryCompanySlug": null,
+      "operationArea": "Pomalaa/Kolaka, Konawe Utara, dan Halmahera Timur",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 2,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "weda-bay-nickel",
+      "companyName": "PT Weda Bay Nickel",
+      "industryCompanySlug": null,
+      "operationArea": "Halmahera Tengah, Maluku Utara",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 3,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "trimegah-bangun-persada",
+      "companyName": "PT Trimegah Bangun Persada Tbk (Harita Nickel)",
+      "industryCompanySlug": null,
+      "operationArea": "Pulau Obi, Maluku Utara",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 4,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "gag-nikel",
+      "companyName": "PT Gag Nikel",
+      "industryCompanySlug": null,
+      "operationArea": "Pulau Gag, Raja Ampat, Papua Barat Daya",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 5,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    }
+  ]
+}

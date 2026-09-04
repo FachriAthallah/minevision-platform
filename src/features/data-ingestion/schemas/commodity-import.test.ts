@@ -643,11 +643,11 @@ describe("commodityImportFileSchema", () => {
     );
   });
 
-  it("menolak produsen kosong, key/order duplikat, dan URL non-HTTPS", () => {
+  it("menerima produsen kosong serta menolak key/order duplikat dan URL non-HTTPS", () => {
     const emptyProducers = createValidCommodityFile();
     emptyProducers.producers = [];
     expect(commodityImportFileSchema.safeParse(emptyProducers).success).toBe(
-      false,
+      true,
     );
 
     const duplicates = createValidCommodityFile();
