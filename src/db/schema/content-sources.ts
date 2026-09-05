@@ -1,12 +1,15 @@
+import { sql } from "drizzle-orm";
 import {
   index,
   integer,
+  pgPolicy,
   pgTable,
   primaryKey,
   text,
   timestamp,
   uuid,
 } from "drizzle-orm/pg-core";
+import { anonRole, authenticatedRole } from "drizzle-orm/supabase";
 
 import { createTimestampColumns } from "./common";
 import { contents } from "./content";
@@ -51,8 +54,31 @@ export const contentSources = pgTable(
     index("content_sources_source_id_idx").on(table.sourceId),
 
     index("content_sources_display_order_idx").on(table.displayOrder),
+
+    pgPolicy("content_sources_commodity_public_read", {
+      as: "permissive",
+      for: "select",
+      to: [anonRole, authenticatedRole],
+      using: sql`
+        EXISTS (
+          SELECT 1
+          FROM "contents" AS content
+          WHERE content.id = ${table.contentId}
+            AND content.module = 'commodities'
+            AND content.type = 'commodity_profile'
+            AND content.status = 'published'
+        )
+        AND EXISTS (
+          SELECT 1
+          FROM "sources" AS source
+          WHERE source.id = ${table.sourceId}
+            AND source.is_active = true
+            AND source.verification_status = 'verified'
+        )
+      `,
+    }),
   ],
-);
+).enableRLS();
 
 export type ContentSource = typeof contentSources.$inferSelect;
 

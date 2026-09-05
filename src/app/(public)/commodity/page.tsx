@@ -1,20 +1,33 @@
 import type { Metadata } from "next";
 
-import { ModulePlaceholder } from "@/components/shared/module-placeholder";
+import { CommodityCatalog } from "@/features/commodity/components/commodity-catalog";
+import { parseCommodityCatalogFilters } from "@/features/commodity/lib/commodity-view";
+import { getPublicCommodities } from "@/features/commodity/server/get-public-commodities";
 
 export const metadata: Metadata = {
-  title: "Commodity",
+  title: "Komoditas Pertambangan Indonesia",
   description:
-    "Informasi komoditas mineral logam, non-logam, dan energi Indonesia.",
+    "Jelajahi 23 profil komoditas mineral logam, mineral non-logam, dan energi Indonesia beserta data serta sumber resminya.",
+  alternates: {
+    canonical: "/commodity",
+  },
 };
 
-export default function CommoditiesPage() {
+export default async function CommoditiesPage({
+  searchParams,
+}: {
+  searchParams: Promise<{
+    search?: string | string[];
+    category?: string | string[];
+  }>;
+}) {
+  const filters = parseCommodityCatalogFilters(await searchParams);
+  const commodities = await getPublicCommodities({});
+
   return (
-    <ModulePlaceholder
-      eyebrow="Commodity"
-      title="Jelajahi Komoditas Tambang Indonesia"
-      description="Pelajari mineral logam, mineral non-logam, dan komoditas energi beserta karakteristik, metode penambangan, kegunaan, cadangan, dan produksinya."
-      nextStep="membangun kategori komoditas dan halaman detail setiap komoditas."
+    <CommodityCatalog
+      commodities={commodities}
+      filters={filters}
     />
   );
 }

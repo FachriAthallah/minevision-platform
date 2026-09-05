@@ -1,0 +1,256 @@
+{
+  "schemaVersion": "1.0",
+  "commoditySlug": "bentonit",
+  "commodity": {
+    "description": "Bentonit merupakan mineral lempung yang didominasi oleh mineral montmorillonite dari kelompok smektit. Mineral ini terbentuk melalui proses alterasi abu vulkanik yang mengalami pelapukan dan perubahan kimia dalam jangka waktu geologi yang panjang. Karakteristik utama bentonit adalah kemampuannya menyerap air, mengembang (swelling), memiliki luas permukaan yang tinggi, serta daya adsorpsi yang sangat baik. Sifat tersebut menjadikan bentonit sebagai salah satu mineral industri yang banyak dimanfaatkan dalam pengeboran minyak dan gas, pengecoran logam, pemurnian minyak sawit, pengolahan air, kosmetik, farmasi, hingga penyerap limbah.",
+    "specification": "Nama Komoditas: Bentonit; Nama Internasional: Bentonite; Kategori: Mineral Non-Logam; Kelompok Mineral: Mineral Lempung (Clay Mineral); Komponen Utama: Montmorillonite (kelompok Smektit); Rumus Kimia: (Na,Ca)₀.₃₃(Al,Mg)₂Si₄O₁₀(OH)₂·nH₂O; Warna: Putih, krem, abu-abu, kehijauan, cokelat; Kekerasan (Mohs): 1 – 2; Proses Pembentukan: Alterasi abu vulkanik yang mengalami pelapukan dalam lingkungan alkali selama jutaan tahun",
+    "image": null
+  },
+  "profile": {
+    "title": "Bentonit: Profil Komoditas Pertambangan",
+    "slug": "bentonit",
+    "excerpt": "Bentonit merupakan mineral lempung yang didominasi oleh mineral montmorillonite dari kelompok smektit. Mineral ini terbentuk melalui proses alterasi abu vulkanik yang mengalami pelapukan dan perubahan kimia dalam jangka waktu geologi yang panjang.",
+    "body": "# Bentonit\n\n## Definisi\n\nBentonit merupakan mineral lempung yang didominasi oleh mineral montmorillonite dari kelompok smektit. Mineral ini terbentuk melalui proses alterasi abu vulkanik yang mengalami pelapukan dan perubahan kimia dalam jangka waktu geologi yang panjang.\n\nKarakteristik utama bentonit adalah kemampuannya menyerap air, mengembang (swelling), memiliki luas permukaan yang tinggi, serta daya adsorpsi yang sangat baik. Sifat tersebut menjadikan bentonit sebagai salah satu mineral industri yang banyak dimanfaatkan dalam pengeboran minyak dan gas, pengecoran logam, pemurnian minyak sawit, pengolahan air, kosmetik, farmasi, hingga penyerap limbah.\n\n## Karakteristik\n\n| Karakteristik | Keterangan |\n| --- | --- |\n| Warna | Putih, krem, abu-abu, hijau muda |\n| Kilap | Kusam (Earthy) |\n| Kekerasan | 1–2 Mohs |\n| Berat Jenis | ± 2,2–2,8 g/cm³ |\n| Komposisi Utama | Montmorillonite |\n| Daya Serap Air | Sangat tinggi |\n| Sifat Mengembang | Sangat baik, terutama bentonit natrium |\n| Kapasitas Tukar Kation | Tinggi |\n\n## Jenis-jenis\n\nTerdapat 3 jenis bentonit, seperti:\n\nBentonit Natrium (Sodium Bentonite)\n\nMerupakan bentonit dengan kandungan natrium yang dominan.\n\nBentonit Kalsium (Calcium Bentonite)\n\nDidominasi oleh ion kalsium.\n\nBentonit Teraktivasi\n\nMerupakan bentonit yang telah diproses menggunakan aktivasi asam atau panas.\n\n## Metode Penambangan\n\n| Metode | Keterangan |\n| --- | --- |\n| Open Pit Mining | Metode utama penambangan bentonit |\n| Quarry Mining | Digunakan pada endapan yang relatif tebal |\n| Mechanical Excavation | Penggalian menggunakan excavator tanpa peledakan |\n| Drying & Milling | Pengeringan dan penggilingan setelah penambangan untuk menghasilkan ukuran sesuai kebutuhan industri |\n\n## Kegunaan\n\n| Bidang | Pemanfaatan |\n| --- | --- |\n| Industri Migas | Lumpur pemboran (drilling mud) pada pengeboran minyak dan gas |\n| Industri Pengecoran | Bahan pengikat (binder) pasir cetak pada industri foundry |\n| Industri Minyak Nabati | Pemucat minyak sawit (bleaching earth) |\n| Pengolahan Air | Adsorben logam berat dan penyerap polutan |\n| Lingkungan | Lapisan kedap air pada landfill dan kolam limbah |\n| Farmasi | Bahan pembawa (excipient) dan adsorben |\n| Kosmetik | Masker wajah, bedak, dan produk perawatan kulit |\n| Peternakan | Bahan tambahan pakan ternak dan penyerap racun (mycotoxin binder) |\n\n## Dampak Lingkungan\n\nDampak:\n\nPerubahan bentang alam akibat tambang terbuka\n\nHilangnya vegetasi pada area penambangan\n\nDebu dari proses penambangan dan pengolahan\n\nSedimentasi pada badan air akibat limpasan material halus\n\nPenurunan kualitas lahan apabila reklamasi tidak dilakukan\n\nUpaya Mitigasi:\n\nReklamasi dan revegetasi lahan pascatambang\n\nPengelolaan kolam pengendapan (settling pond)\n\nPengendalian debu melalui penyiraman jalan tambang\n\nPemanfaatan limbah hasil pengolahan bentonit\n\nPenerapan Good Mining Practice sesuai ketentuan Kementerian ESDM",
+    "readingTimeMinutes": 2,
+    "isFeatured": false,
+    "publicationStatus": "published",
+    "publishedAt": "2026-09-02T00:00:00+07:00",
+    "sources": [
+      {
+        "sourceSlug": "esdm-neraca-2025",
+        "citationLabel": "Neraca Sumber Daya dan Cadangan 2025",
+        "pageReference": null
+      },
+      {
+        "sourceSlug": "usgs-mcs-2025",
+        "citationLabel": "Mineral Commodity Summaries 2025",
+        "pageReference": null
+      }
+    ]
+  },
+  "resourceStatistics": [
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "raw_material",
+      "availabilityStatus": "reported",
+      "value": "36812654",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan nasional bentonit; status data 31 Desember 2024."
+    }
+  ],
+  "productionLocations": [
+    {
+      "regionSlug": "jawa-barat",
+      "locationDetail": "Tasikmalaya, Garut, Sukabumi, dan Bogor",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "banten",
+      "locationDetail": "Lebak",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "jawa-tengah",
+      "locationDetail": "Boyolali dan Wonogiri",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "jawa-timur",
+      "locationDetail": "Pacitan, Ponorogo, dan Trenggalek",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "lampung",
+      "locationDetail": "Lampung Selatan",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "sumatera-barat",
+      "locationDetail": "Solok",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "kalimantan-selatan",
+      "locationDetail": "Banjar",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "nusa-tenggara-barat",
+      "locationDetail": "Sumbawa",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    }
+  ],
+  "globalStatisticSets": [
+    {
+      "statisticYear": 2024,
+      "metricCode": "mine_production",
+      "basisCode": "raw_material",
+      "unitCode": "metric_ton",
+      "availabilityStatus": "reported",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "bgs-world-mineral-production-2020-2024",
+        "sourceUrl": "https://nora.nerc.ac.uk/id/eprint/541620/",
+        "pageReference": null
+      },
+      "supportingSources": [
+        {
+          "sourceSlug": "usgs-mcs-2025",
+          "sourceUrl": "https://pubs.usgs.gov/publication/mcs2025",
+          "pageReference": null,
+          "sourceRole": "cross_check",
+          "citationLabel": "Mineral Commodity Summaries 2025"
+        }
+      ],
+      "entries": [
+        {
+          "countryRegionSlug": "amerika-serikat",
+          "rank": 1,
+          "value": "4800000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "india",
+          "rank": 2,
+          "value": "3500000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "turki",
+          "rank": 3,
+          "value": "2528367",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "tiongkok",
+          "rank": 4,
+          "value": "2100000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "iran",
+          "rank": 5,
+          "value": "1200000",
+          "notes": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Angka mengikuti definisi dan satuan sumber asal; data tahun 2024."
+    }
+  ],
+  "producers": [
+    {
+      "producerKey": "indonesia-bentonite",
+      "companyName": "PT Indonesia Bentonite",
+      "industryCompanySlug": null,
+      "operationArea": "Jawa Barat; tambang dan pengolahan bentonit",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 1,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "bentonit-makmur-sentosa",
+      "companyName": "PT Bentonit Makmur Sentosa",
+      "industryCompanySlug": null,
+      "operationArea": "Pacitan, Jawa Timur",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 2,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "bentonit-alam-indonesia",
+      "companyName": "PT Bentonit Alam Indonesia",
+      "industryCompanySlug": null,
+      "operationArea": "Jawa Barat; bentonit alam",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 3,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    }
+  ]
+}

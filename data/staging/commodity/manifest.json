@@ -1,0 +1,304 @@
+{
+  "schemaVersion": "1.0",
+  "datasetName": "MineVision Commodity Dataset – Final Terverifikasi",
+  "description": "Dataset staging 23 komoditas berdasarkan dokumen Data Komoditas – Final Terverifikasi, data cadangan dan sumber daya status 31 Desember 2024.",
+  "effectiveDate": "2024-12-31",
+  "commodityFiles": [
+    {
+      "commoditySlug": "nikel",
+      "filePath": "commodities/nikel.json"
+    },
+    {
+      "commoditySlug": "emas",
+      "filePath": "commodities/emas.json"
+    },
+    {
+      "commoditySlug": "tembaga",
+      "filePath": "commodities/tembaga.json"
+    },
+    {
+      "commoditySlug": "timah",
+      "filePath": "commodities/timah.json"
+    },
+    {
+      "commoditySlug": "bauksit",
+      "filePath": "commodities/bauksit.json"
+    },
+    {
+      "commoditySlug": "perak",
+      "filePath": "commodities/perak.json"
+    },
+    {
+      "commoditySlug": "bijih-besi",
+      "filePath": "commodities/bijih-besi.json"
+    },
+    {
+      "commoditySlug": "mangan",
+      "filePath": "commodities/mangan.json"
+    },
+    {
+      "commoditySlug": "kobalt",
+      "filePath": "commodities/kobalt.json"
+    },
+    {
+      "commoditySlug": "timbal",
+      "filePath": "commodities/timbal.json"
+    },
+    {
+      "commoditySlug": "seng",
+      "filePath": "commodities/seng.json"
+    },
+    {
+      "commoditySlug": "batu-kapur",
+      "filePath": "commodities/batu-kapur.json"
+    },
+    {
+      "commoditySlug": "marmer",
+      "filePath": "commodities/marmer.json"
+    },
+    {
+      "commoditySlug": "granit",
+      "filePath": "commodities/granit.json"
+    },
+    {
+      "commoditySlug": "kaolin",
+      "filePath": "commodities/kaolin.json"
+    },
+    {
+      "commoditySlug": "pasir-silika",
+      "filePath": "commodities/pasir-silika.json"
+    },
+    {
+      "commoditySlug": "bentonit",
+      "filePath": "commodities/bentonit.json"
+    },
+    {
+      "commoditySlug": "zeolit",
+      "filePath": "commodities/zeolit.json"
+    },
+    {
+      "commoditySlug": "feldspar",
+      "filePath": "commodities/feldspar.json"
+    },
+    {
+      "commoditySlug": "fosfat",
+      "filePath": "commodities/fosfat.json"
+    },
+    {
+      "commoditySlug": "gipsum",
+      "filePath": "commodities/gipsum.json"
+    },
+    {
+      "commoditySlug": "batubara",
+      "filePath": "commodities/batubara.json"
+    },
+    {
+      "commoditySlug": "panas-bumi",
+      "filePath": "commodities/panas-bumi.json"
+    }
+  ],
+  "sourceCatalog": [
+    {
+      "slug": "esdm-neraca-2025",
+      "name": "Neraca Sumber Daya dan Cadangan Mineral, Batubara, dan Panas Bumi Indonesia Tahun 2025",
+      "type": "government",
+      "organization": "Badan Geologi, Kementerian ESDM",
+      "url": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+      "description": "Sumber resmi sumber daya, cadangan, dan sebaran komoditas dengan data termutakhirkan 31 Desember 2024.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "bgs-world-mineral-production-2020-2024",
+      "name": "World Mineral Production 2020–2024",
+      "type": "government",
+      "organization": "British Geological Survey",
+      "url": "https://nora.nerc.ac.uk/id/eprint/541620/",
+      "description": "Publikasi produksi mineral dunia yang memuat data tahun 2020–2024.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "usgs-mcs-2025",
+      "name": "Mineral Commodity Summaries 2025",
+      "type": "government",
+      "organization": "U.S. Geological Survey",
+      "url": "https://pubs.usgs.gov/publication/mcs2025",
+      "description": "Publikasi ringkasan komoditas mineral untuk pemeriksaan silang.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "energy-institute-statistical-review-2025",
+      "name": "Statistical Review of World Energy 2025",
+      "type": "other",
+      "organization": "Energy Institute",
+      "url": "https://www.energyinst.org/statistical-review",
+      "description": "Sumber pemeriksaan silang produksi batubara dunia tahun 2024.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "irena-renewable-capacity-statistics-2025",
+      "name": "Renewable Capacity Statistics 2025",
+      "type": "other",
+      "organization": "International Renewable Energy Agency",
+      "url": "https://www.irena.org/Publications/2025/Mar/Renewable-capacity-statistics-2025",
+      "description": "Sumber kapasitas terpasang panas bumi global pada akhir 2024.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "esdm-heesi-2024",
+      "name": "Handbook of Energy & Economic Statistics of Indonesia 2024",
+      "type": "government",
+      "organization": "Kementerian ESDM",
+      "url": "https://www.esdm.go.id/en/publication/handbook-of-energy-economic-statistics-of-indonesia-heesi",
+      "description": "Sumber data energi nasional dan operasi panas bumi.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "esdm-modi-company-registry",
+      "name": "Minerba One Data Indonesia – Data Perusahaan",
+      "type": "government",
+      "organization": "Direktorat Jenderal Mineral dan Batubara, Kementerian ESDM",
+      "url": "https://modi.esdm.go.id/portal/dataPerusahaan",
+      "description": "Portal resmi untuk pemeriksaan identitas perusahaan pertambangan mineral dan batubara.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    }
+  ],
+  "countryCatalog": [
+    {
+      "code": "ID",
+      "name": "Indonesia",
+      "slug": "indonesia"
+    },
+    {
+      "code": "PH",
+      "name": "Filipina",
+      "slug": "filipina"
+    },
+    {
+      "code": "RU",
+      "name": "Rusia",
+      "slug": "rusia"
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "slug": "australia"
+    },
+    {
+      "code": "CA",
+      "name": "Kanada",
+      "slug": "kanada"
+    },
+    {
+      "code": "CN",
+      "name": "Tiongkok",
+      "slug": "tiongkok"
+    },
+    {
+      "code": "US",
+      "name": "Amerika Serikat",
+      "slug": "amerika-serikat"
+    },
+    {
+      "code": "CL",
+      "name": "Chili",
+      "slug": "chili"
+    },
+    {
+      "code": "CD",
+      "name": "Republik Demokratik Kongo",
+      "slug": "republik-demokratik-kongo"
+    },
+    {
+      "code": "PE",
+      "name": "Peru",
+      "slug": "peru"
+    },
+    {
+      "code": "BR",
+      "name": "Brasil",
+      "slug": "brasil"
+    },
+    {
+      "code": "GN",
+      "name": "Guinea",
+      "slug": "guinea"
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "slug": "india"
+    },
+    {
+      "code": "MX",
+      "name": "Meksiko",
+      "slug": "meksiko"
+    },
+    {
+      "code": "PL",
+      "name": "Polandia",
+      "slug": "polandia"
+    },
+    {
+      "code": "BO",
+      "name": "Bolivia",
+      "slug": "bolivia"
+    },
+    {
+      "code": "ZA",
+      "name": "Afrika Selatan",
+      "slug": "afrika-selatan"
+    },
+    {
+      "code": "GA",
+      "name": "Gabon",
+      "slug": "gabon"
+    },
+    {
+      "code": "GH",
+      "name": "Ghana",
+      "slug": "ghana"
+    },
+    {
+      "code": "CU",
+      "name": "Kuba",
+      "slug": "kuba"
+    },
+    {
+      "code": "TR",
+      "name": "Turki",
+      "slug": "turki"
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "slug": "iran"
+    },
+    {
+      "code": "IT",
+      "name": "Italia",
+      "slug": "italia"
+    },
+    {
+      "code": "MA",
+      "name": "Maroko",
+      "slug": "maroko"
+    },
+    {
+      "code": "ES",
+      "name": "Spanyol",
+      "slug": "spanyol"
+    },
+    {
+      "code": "NZ",
+      "name": "Selandia Baru",
+      "slug": "selandia-baru"
+    }
+  ]
+}

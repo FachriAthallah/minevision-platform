@@ -1,4 +1,13 @@
-import { boolean, index, pgTable, text, varchar } from "drizzle-orm/pg-core";
+import { sql } from "drizzle-orm";
+import {
+  boolean,
+  index,
+  pgPolicy,
+  pgTable,
+  text,
+  varchar,
+} from "drizzle-orm/pg-core";
+import { anonRole, authenticatedRole } from "drizzle-orm/supabase";
 
 import { createTimestampColumns, measurementCategoryEnum } from "./common";
 
@@ -29,8 +38,15 @@ export const measurementUnits = pgTable(
     index("measurement_units_category_idx").on(table.category),
 
     index("measurement_units_is_active_idx").on(table.isActive),
+
+    pgPolicy("measurement_units_public_read", {
+      as: "permissive",
+      for: "select",
+      to: [anonRole, authenticatedRole],
+      using: sql`${table.isActive} = true`,
+    }),
   ],
-);
+).enableRLS();
 
 export type MeasurementUnit = typeof measurementUnits.$inferSelect;
 

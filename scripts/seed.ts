@@ -170,6 +170,14 @@ const measurementUnitSeed: NewMeasurementUnit[] = [
       "Satuan daya yang digunakan untuk kapasitas pembangkit energi.",
     isActive: true,
   },
+  {
+    name: "Count",
+    code: "count",
+    symbol: "unit",
+    category: "count",
+    description: "Satuan hitungan untuk jumlah entitas atau wilayah kerja.",
+    isActive: true,
+  },
 ];
 
 /*

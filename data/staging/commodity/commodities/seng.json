@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "commoditySlug": "seng",
+  "commodity": {
+    "description": "Seng merupakan logam berwarna putih kebiruan yang memiliki ketahanan korosi sangat baik sehingga banyak digunakan sebagai pelapis baja (galvanizing). Selain itu, seng juga dimanfaatkan dalam industri paduan logam, baterai, otomotif, konstruksi, dan farmasi. Di Indonesia, seng umumnya ditemukan bersama timbal dan perak dalam endapan polimetalik. Produksi seng nasional masih relatif terbatas dibandingkan negara produsen utama dunia, namun Indonesia memiliki potensi pengembangan melalui proyek-proyek tambang baru, terutama di Sumatera Utara.",
+    "specification": "Nama Komoditas: Seng; Nama Internasional: Zinc; Kategori: Mineral Logam; Simbol Kimia: Zn; Nomor Atom: 30; Golongan: Logam transisi; Warna: Putih kebiruan; Kekerasan (Mohs): 2,5; Mineral Pembawa Utama: Sfalerit (ZnS), Smithsonite (ZnCO₃), Hemimorphite (Zn₄Si₂O₇(OH)₂·H₂O)",
+    "image": null
+  },
+  "profile": {
+    "title": "Seng: Profil Komoditas Pertambangan",
+    "slug": "seng",
+    "excerpt": "Seng merupakan logam berwarna putih kebiruan yang memiliki ketahanan korosi sangat baik sehingga banyak digunakan sebagai pelapis baja (galvanizing). Selain itu, seng juga dimanfaatkan dalam industri paduan logam, baterai, otomotif, konstruksi, dan farmasi.",
+    "body": "# Seng\n\n## Definisi\n\nSeng merupakan logam berwarna putih kebiruan yang memiliki ketahanan korosi sangat baik sehingga banyak digunakan sebagai pelapis baja (galvanizing). Selain itu, seng juga dimanfaatkan dalam industri paduan logam, baterai, otomotif, konstruksi, dan farmasi.\n\nDi Indonesia, seng umumnya ditemukan bersama timbal dan perak dalam endapan polimetalik. Produksi seng nasional masih relatif terbatas dibandingkan negara produsen utama dunia, namun Indonesia memiliki potensi pengembangan melalui proyek-proyek tambang baru, terutama di Sumatera Utara.\n\n## Karakteristik\n\n| Karakteristik | Keterangan |\n| --- | --- |\n| Warna | Putih kebiruan |\n| Kilap | Logam (metallic luster) |\n| Kekerasan | 2,5 Mohs |\n| Berat Jenis | ± 7,14 g/cm³ |\n| Titik Leleh | 419,5 °C |\n| Titik Didih | 907°C |\n| Ketahanan Korosi | Sangat baik |\n| Sifat Mekanik | Rapuh pada suhu ruang, lebih ulet pada suhu tertentu |\n| Konduktivitas Listrik | Baik |\n| Sifat Kimia | Reaktif terhadap asam dan basa kuat |\n\n## Jenis-jenis\n\nTerdapat 3 jenis dari Seng ini, seperti:\n\nSfalerit\n\nMineral seng yang paling penting secara ekonomi.\n\nSmithsonite\n\nMineral karbonat seng.\n\nHemimorphite\n\nMineral silikat seng.\n\n## Metode Penambangan\n\n| Metode | Keterangan |\n| --- | --- |\n| Open Pit Mining | Digunakan pada endapan dangkal |\n| Underground Mining | Metode utama pada endapan sulfida |\n| Flotation Processing | Memisahkan konsentrat seng sebelum peleburan |\n\n## Kegunaan\n\n| Bidang | Pemanfaatan |\n| --- | --- |\n| Galvanisasi | Pelapis baja untuk mencegah korosi |\n| Industri Baja | Produksi baja galvanis |\n| Paduan Logam | Kuningan (brass) dan berbagai paduan lainnya |\n| Bateraai | Baterai alkaline dan zinc-carbon |\n| Konstruksi | Atap, pipa, pagar, dan struktur bangunan |\n| Farmasi | Suplemen seng dan produk kesehatan |\n\n## Dampak Lingkungan\n\nDampak:\n\nPerubahan bentang alam akibat kegiatan penambangan\n\nPotensi pencemaran logam berat apabila limbah tidak dikelola dengan baik\n\nSedimentasi pada badan air\n\nEmisi debu dan kebisingan\n\nTimbulan tailing hasil pengolahan\n\nUpaya Mitigasi:\n\nPengelolaan tailing sesuai standar lingkungan\n\nReklamasi dan revegetasi lahan\n\nPengolahan air limbah sebelum dilepas ke lingkungan\n\nPemantauan kualitas air, tanah, dan udara secara berkala\n\nPenerapan prinsip Good Mining Practice\n\nMineral Non Logam",
+    "readingTimeMinutes": 1,
+    "isFeatured": false,
+    "publicationStatus": "published",
+    "publishedAt": "2026-09-02T00:00:00+07:00",
+    "sources": [
+      {
+        "sourceSlug": "esdm-neraca-2025",
+        "citationLabel": "Neraca Sumber Daya dan Cadangan 2025",
+        "pageReference": null
+      },
+      {
+        "sourceSlug": "usgs-mcs-2025",
+        "citationLabel": "Mineral Commodity Summaries 2025",
+        "pageReference": null
+      }
+    ]
+  },
+  "resourceStatistics": [
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "ore",
+      "availabilityStatus": "reported",
+      "value": "114150715",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan bijih pembawa seng; status data 31 Desember 2024."
+    },
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "contained_metal",
+      "availabilityStatus": "reported",
+      "value": "2813252",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan logam seng; status data 31 Desember 2024."
+    }
+  ],
+  "productionLocations": [
+    {
+      "regionSlug": "kalimantan-tengah",
+      "locationDetail": "Lamandau/Kotawaringin Barat; konsentrat seng dari endapan polimetalik",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "sumatera-utara",
+      "locationDetail": "Dairi (Anjing Hitam dan Lae Jehe; proyek, belum produksi komersial)",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "banten",
+      "locationDetail": "Lebak/Cikotok; wilayah produksi historis dan keterdapatan polimetalik",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    }
+  ],
+  "globalStatisticSets": [
+    {
+      "statisticYear": 2024,
+      "metricCode": "mine_production",
+      "basisCode": "contained_metal",
+      "unitCode": "metric_ton",
+      "availabilityStatus": "reported",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "bgs-world-mineral-production-2020-2024",
+        "sourceUrl": "https://nora.nerc.ac.uk/id/eprint/541620/",
+        "pageReference": null
+      },
+      "supportingSources": [
+        {
+          "sourceSlug": "usgs-mcs-2025",
+          "sourceUrl": "https://pubs.usgs.gov/publication/mcs2025",
+          "pageReference": null,
+          "sourceRole": "cross_check",
+          "citationLabel": "Mineral Commodity Summaries 2025"
+        }
+      ],
+      "entries": [
+        {
+          "countryRegionSlug": "tiongkok",
+          "rank": 1,
+          "value": "3954000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "peru",
+          "rank": 2,
+          "value": "1270646",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "australia",
+          "rank": 3,
+          "value": "1104550",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "india",
+          "rank": 4,
+          "value": "857001",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "meksiko",
+          "rank": 5,
+          "value": "773200",
+          "notes": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Angka mengikuti definisi dan satuan sumber asal; data tahun 2024."
+    }
+  ],
+  "producers": [
+    {
+      "producerKey": "kapuas-prima-coal-kobar-lamandau-mineral",
+      "companyName": "PT Kapuas Prima Coal Tbk / PT Kobar Lamandau Mineral",
+      "industryCompanySlug": null,
+      "operationArea": "Kalimantan Tengah; konsentrat seng dari endapan polimetalik",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 1,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "schemaVersion": "1.0",
+  "commoditySlug": "batubara",
+  "commodity": {
+    "description": "Batubara merupakan batuan sedimen organik yang terbentuk dari akumulasi sisa-sisa tumbuhan purba yang mengalami proses pembatubaraan (coalification) selama jutaan tahun akibat tekanan, temperatur, dan aktivitas geologi. Batubara menjadi salah satu sumber energi primer terpenting di dunia karena digunakan sebagai bahan bakar pembangkit listrik, industri semen, industri baja, hingga bahan baku hilirisasi seperti gasifikasi dan pencairan batubara.",
+    "specification": "Nama Komoditas: Batubara; Nama Internasional: Coal; Kategori: Energi; Kelompok Mineral: Bahan Galian Energi Fosil; Komposisi Utama: Karbon (C), Hidrogen (H), Oksigen (O), Nitrogen (N), Sulfur (S), dan mineral anorganik; Warna: Cokelat tua hingga hitam; Kekerasan (Mohs): 1 – 3; Proses Pembentukan: Pembusukan sisa tumbuhan purba yang mengalami tekanan dan temperatur tinggi selama jutaan tahun (coalification)",
+    "image": null
+  },
+  "profile": {
+    "title": "Batubara: Profil Komoditas Pertambangan",
+    "slug": "batubara",
+    "excerpt": "Batubara merupakan batuan sedimen organik yang terbentuk dari akumulasi sisa-sisa tumbuhan purba yang mengalami proses pembatubaraan (coalification) selama jutaan tahun akibat tekanan, temperatur, dan aktivitas geologi.",
+    "body": "# Batubara\n\n## Definisi\n\nBatubara merupakan batuan sedimen organik yang terbentuk dari akumulasi sisa-sisa tumbuhan purba yang mengalami proses pembatubaraan (coalification) selama jutaan tahun akibat tekanan, temperatur, dan aktivitas geologi.\n\nBatubara menjadi salah satu sumber energi primer terpenting di dunia karena digunakan sebagai bahan bakar pembangkit listrik, industri semen, industri baja, hingga bahan baku hilirisasi seperti gasifikasi dan pencairan batubara.\n\n## Karakteristik\n\n| Karakteristik | Keterangan |\n| --- | --- |\n| Warna | Cokelat tua hingga hitam |\n| Kilap | Kusam hingga mengilap |\n| Kekerasan | 1 - 3 Mohs |\n| Berat Jenis | ± 1,1–1,5 g/cm³ |\n| Kandungan Karbon | ± 25–95% |\n| Nilai Kalori | ± 2.500–7.500 kcal/kg |\n| Kandungan Abu | Bervariasi (5–20%) |\n| Kandungan Sulfur | Rendah hingga tinggi tergantung lokasi endapan |\n\n## Jenis-jenis\n\nTerdapat 4 jenis batubara ini, seperti:\n\nLignit (Lignite)\n\nMerupakan batubara muda dengan tingkat pembatubaraan paling rendah.\n\nSubbituminus (Sub-bituminous)\n\nJenis batubara yang paling banyak ditemukan di Indonesia.\n\nBituminus (Bituminous)\n\nMemiliki kandungan karbon lebih tinggi.\n\nAntrasit (Anthracite)\n\nMerupakan batubara dengan kualitas tertinggi.\n\n## Metode Penambangan\n\n| Metode | Keterangan |\n| --- | --- |\n| Open Pit Mining | Metode paling banyak digunakan di Indonesia karena sebagian besar endapan berada dekat permukaan |\n| Strip Mining | Digunakan pada endapan yang relatif datar dan memanjang |\n| Underground Mining | Digunakan pada endapan yang berada di kedalaman besar |\n| Highwall Mining | Digunakan sebagai lanjutan tambang terbuka pada kondisi tertentu |\n\n## Kegunaan\n\n| Bidang | Pemanfaatan |\n| --- | --- |\n| Pembangkit Listrik | Bahan bakar PLTU |\n| Industri Baja | Bahan baku kokas (coking coal) |\n| Industri Semen | Sumber energi untuk proses pembakaran klinker |\n| Industri Kimia | Gasifikasi menjadi syngas, metanol, amonia, dan DME |\n| Industri Kertas | Sumber energi pada proses produksi |\n| Industri Keramik | Bahan bakar tungku pembakaran |\n| Hilirisasi | Liquefaction dan gasification untuk menghasilkan bahan bakar sintetis |\n\n## Dampak Lingkungan\n\nDampak:\n\nPerubahan bentang alam akibat tambang terbuka\n\nDeforestasi dan hilangnya habitat satwa\n\nAir asam tambang (Acid Mine Drainage/AMD)\n\nPencemaran udara akibat debu dan emisi\n\nEmisi gas rumah kaca dari pembakaran batubara\n\nPenurunan kualitas air permukaan dan air tanah\n\nUpaya Mitigasi:\n\nReklamasi dan revegetasi lahan pascatambang\n\nPengelolaan air asam tambang melalui instalasi pengolahan air\n\nPengendalian debu dengan penyiraman jalan tambang\n\nPenerapan sistem pemantauan kualitas udara dan air\n\nPelaksanaan Good Mining Practice sesuai ketentuan Kementerian ESDM\n\nPengembangan teknologi hilirisasi dan pemanfaatan batubara yang lebih bersih (clean coal technology)",
+    "readingTimeMinutes": 2,
+    "isFeatured": false,
+    "publicationStatus": "published",
+    "publishedAt": "2026-09-02T00:00:00+07:00",
+    "sources": [
+      {
+        "sourceSlug": "esdm-neraca-2025",
+        "citationLabel": "Neraca Sumber Daya dan Cadangan 2025",
+        "pageReference": null
+      },
+      {
+        "sourceSlug": "energy-institute-statistical-review-2025",
+        "citationLabel": "Statistical Review of World Energy 2025",
+        "pageReference": null
+      }
+    ]
+  },
+  "resourceStatistics": [
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "raw_material",
+      "availabilityStatus": "reported",
+      "value": "31955500000",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan nasional batubara; status data 31 Desember 2024."
+    },
+    {
+      "statisticYear": 2024,
+      "statisticType": "resource",
+      "materialBasis": "raw_material",
+      "availabilityStatus": "reported",
+      "value": "97960760000",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Sumber daya nasional batubara; status data 31 Desember 2024."
+    }
+  ],
+  "productionLocations": [
+    {
+      "regionSlug": "kalimantan-timur",
+      "locationDetail": "Kutai Timur, Kutai Kartanegara, Berau, dan Paser",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "kalimantan-selatan",
+      "locationDetail": "Tabalong, Balangan, Tanah Bumbu, dan Kotabaru",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "kalimantan-tengah",
+      "locationDetail": "Murung Raya, Barito Utara, dan Barito Selatan",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "kalimantan-utara",
+      "locationDetail": "Malinau, Bulungan, dan Nunukan",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "sumatera-selatan",
+      "locationDetail": "Muara Enim, Lahat, dan Musi Banyuasin",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "jambi",
+      "locationDetail": "Sarolangun, Bungo, dan Tebo",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "bengkulu",
+      "locationDetail": "Bengkulu Tengah dan Bengkulu Utara",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "aceh",
+      "locationDetail": "Aceh Barat dan Nagan Raya",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    }
+  ],
+  "globalStatisticSets": [
+    {
+      "statisticYear": 2024,
+      "metricCode": "mine_production",
+      "basisCode": "raw_material",
+      "unitCode": "metric_ton",
+      "availabilityStatus": "reported",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "bgs-world-mineral-production-2020-2024",
+        "sourceUrl": "https://nora.nerc.ac.uk/id/eprint/541620/",
+        "pageReference": null
+      },
+      "supportingSources": [
+        {
+          "sourceSlug": "energy-institute-statistical-review-2025",
+          "sourceUrl": "https://www.energyinst.org/statistical-review",
+          "pageReference": null,
+          "sourceRole": "cross_check",
+          "citationLabel": "Statistical Review of World Energy 2025"
+        }
+      ],
+      "entries": [
+        {
+          "countryRegionSlug": "tiongkok",
+          "rank": 1,
+          "value": "4758962000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "india",
+          "rank": 2,
+          "value": "1013000000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "indonesia",
+          "rank": 3,
+          "value": "836120000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "amerika-serikat",
+          "rank": 4,
+          "value": "464976582",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "australia",
+          "rank": 5,
+          "value": "463228590",
+          "notes": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Angka mengikuti definisi dan satuan sumber asal; data tahun 2024."
+    }
+  ],
+  "producers": [
+    {
+      "producerKey": "kaltim-prima-coal",
+      "companyName": "PT Kaltim Prima Coal",
+      "industryCompanySlug": null,
+      "operationArea": "Sangatta, Kutai Timur, Kalimantan Timur",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 1,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "adaro-indonesia",
+      "companyName": "PT Adaro Indonesia",
+      "industryCompanySlug": null,
+      "operationArea": "Tabalong dan Balangan, Kalimantan Selatan",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 2,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "berau-coal",
+      "companyName": "PT Berau Coal",
+      "industryCompanySlug": null,
+      "operationArea": "Berau, Kalimantan Timur",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 3,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "arutmin-indonesia",
+      "companyName": "PT Arutmin Indonesia",
+      "industryCompanySlug": null,
+      "operationArea": "Tanah Bumbu dan Kotabaru, Kalimantan Selatan",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 4,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    },
+    {
+      "producerKey": "bukit-asam",
+      "companyName": "PT Bukit Asam Tbk",
+      "industryCompanySlug": null,
+      "operationArea": "Tanjung Enim, Muara Enim, Sumatera Selatan",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 5,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    }
+  ]
+}

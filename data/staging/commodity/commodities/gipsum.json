@@ -1,0 +1,197 @@
+{
+  "schemaVersion": "1.0",
+  "commoditySlug": "gipsum",
+  "commodity": {
+    "description": "Gipsum merupakan mineral sulfat alami yang tersusun atas kalsium sulfat dihidrat (CaSO₄·2H₂O). Mineral ini terbentuk terutama melalui proses evaporasi air laut atau danau yang memiliki kadar garam tinggi, sehingga termasuk dalam kelompok mineral evaporit. Selain terbentuk secara alami, gipsum juga dapat dihasilkan sebagai produk samping industri, seperti Flue Gas Desulfurization Gypsum (FGD Gypsum) dari pembangkit listrik. Gipsum merupakan salah satu mineral industri yang memiliki permintaan tinggi karena digunakan sebagai bahan baku utama papan gipsum (gypsum board), semen, plester, cetakan keramik, bahan kedokteran, serta pembenah tanah di sektor pertanian.",
+    "specification": "Nama Komoditas: Gipsum; Nama Internasional: Gypsum; Kategori: Mineral Non-Logam; Kelompok Mineral: Mineral Sulfat; Mineral Penyusun Utama: Gipsum, dengan asosiasi anhidrit (Anhydrite) dan kalsit (Calcite); Rumus Kimia: CaSO₄·2H₂O (Kalsium Sulfat Dihidrat); Warna: Putih, bening, abu-abu, kekuningan, merah muda; Kekerasan (Mohs): 2; Proses Pembentukan: Penguapan (evaporasi) air laut atau danau asin, serta hasil hidrasi mineral anhidrit",
+    "image": null
+  },
+  "profile": {
+    "title": "Gipsum: Profil Komoditas Pertambangan",
+    "slug": "gipsum",
+    "excerpt": "Gipsum merupakan mineral sulfat alami yang tersusun atas kalsium sulfat dihidrat (CaSO₄·2H₂O). Mineral ini terbentuk terutama melalui proses evaporasi air laut atau danau yang memiliki kadar garam tinggi, sehingga termasuk dalam kelompok mineral evaporit. Selain terbentuk secara alami, gipsum juga dapat dihasilkan sebagai produk samping industri, seperti Flue Gas Desulfurization Gypsum (FGD Gypsum) dari pembangkit listrik.",
+    "body": "# Gipsum\n\n## Definisi\n\nGipsum merupakan mineral sulfat alami yang tersusun atas kalsium sulfat dihidrat (CaSO₄·2H₂O). Mineral ini terbentuk terutama melalui proses evaporasi air laut atau danau yang memiliki kadar garam tinggi, sehingga termasuk dalam kelompok mineral evaporit. Selain terbentuk secara alami, gipsum juga dapat dihasilkan sebagai produk samping industri, seperti Flue Gas Desulfurization Gypsum (FGD Gypsum) dari pembangkit listrik.\n\nGipsum merupakan salah satu mineral industri yang memiliki permintaan tinggi karena digunakan sebagai bahan baku utama papan gipsum (gypsum board), semen, plester, cetakan keramik, bahan kedokteran, serta pembenah tanah di sektor pertanian.\n\n## Karakteristik\n\n| Karakteristik | Keterangan |\n| --- | --- |\n| Warna | Putih, bening, abu-abu, kekuningan |\n| Kilap | Kaca hingga sutra (Vitreous to Silky) |\n| Kekerasan | 2 Mohs |\n| Berat Jenis | ± 2,3 g/cm³ |\n| Belahan | Sempurna pada satu arah |\n| Kelarutan | Sedikit larut dalam air |\n| Ketahanan Panas | Kehilangan air kristal pada suhu sekitar 100–180°C membentuk plaster of Paris |\n| Sifat Kimia | Stabil pada kondisi normal, mudah mengalami dehidrasi saat dipanaskan |\n\n## Jenis-jenis\n\nTerdapat 4 jenis dari Gipsum ini, di antaranya:\n\nGipsum Alami (Natural Gypsum)\n\nTerbentuk secara alami melalui proses evaporasi.\n\nGipsum Sintetis (Synthetic Gypsum)\n\nMerupakan hasil samping proses industri, terutama FGD Gypsum.\n\nAlabaster\n\nVarietas gipsum berbutir halus.\n\nSelenite\n\nVarietas gipsum berbentuk kristal bening.\n\n## Metode Penambangan\n\n| Metode | Keterangan |\n| --- | --- |\n| Open Pit Mining | Metode utama untuk penambangan gipsum |\n| Quarry Mining | Digunakan pada endapan gipsum masif |\n| Mechanical Excavation | Penggalian menggunakan excavator tanpa peledakan besar |\n| Crushing & Grinding | Penghancuran dan penggilingan sebelum dipasarkan atau diproses lebih lanjut |\n\n## Kegunaan\n\n| Bidang | Pemanfaatan |\n| --- | --- |\n| Industri Semen | Pengatur waktu ikat (setting time regulator) pada semen Portland |\n| Material Bangunan | Bahan baku papan gipsum, plafon, dan dinding partisi |\n| Konstruksi | Plester dan mortar |\n| Kedokteran | Bahan cetakan gigi dan gips ortopedi |\n| Keramik | Cetakan pada industri keramik dan sanitari |\n| Pertanian | Pembenah tanah dan sumber unsur kalsium serta sulfur |\n| Industri Kimia | Bahan baku kalsium sulfat dan produk turunannya |\n\n## Dampak Lingkungan\n\nDampak:\n\nPerubahan bentang alam akibat tambang terbuka\n\nHilangnya vegetasi pada area penambangan\n\nDebu dari proses penambangan, penghancuran, dan pengangkutan\n\nSedimentasi akibat limpasan material pada musim hujan\n\nGangguan terhadap habitat lokal apabila reklamasi tidak dilakukan\n\nUpaya Mitigasi:\n\nReklamasi dan revegetasi lahan pascatambang\n\nPengendalian debu melalui penyiraman jalan tambang dan sistem dust suppression\n\nPengelolaan drainase serta kolam pengendapan (settling pond)\n\nPemanfaatan limbah gipsum dan penggunaan FGD Gypsum sebagai alternatif bahan baku\n\nPenerapan prinsip Good Mining Practice sesuai ketentuan Kementerian ESDM\n\nEnergi",
+    "readingTimeMinutes": 2,
+    "isFeatured": false,
+    "publicationStatus": "published",
+    "publishedAt": "2026-09-02T00:00:00+07:00",
+    "sources": [
+      {
+        "sourceSlug": "esdm-neraca-2025",
+        "citationLabel": "Neraca Sumber Daya dan Cadangan 2025",
+        "pageReference": null
+      },
+      {
+        "sourceSlug": "usgs-mcs-2025",
+        "citationLabel": "Mineral Commodity Summaries 2025",
+        "pageReference": null
+      }
+    ]
+  },
+  "resourceStatistics": [
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "raw_material",
+      "availabilityStatus": "not_reported",
+      "value": null,
+      "unitCode": null,
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan nasional gipsum belum tercatat pada neraca 2024; status data 31 Desember 2024."
+    },
+    {
+      "statisticYear": 2024,
+      "statisticType": "resource",
+      "materialBasis": "raw_material",
+      "availabilityStatus": "reported",
+      "value": "170890",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Sumber daya nasional gipsum; status data 31 Desember 2024."
+    }
+  ],
+  "productionLocations": [
+    {
+      "regionSlug": "aceh",
+      "locationDetail": "Aceh Besar; keterdapatan sumber daya",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "jawa-barat",
+      "locationDetail": "Cirebon; keterdapatan sumber daya",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "jawa-tengah",
+      "locationDetail": "Rembang; keterdapatan sumber daya",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "jawa-timur",
+      "locationDetail": "Tuban, Gresik, dan Bojonegoro; keterdapatan sumber daya",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "sulawesi-selatan",
+      "locationDetail": "Maros; keterdapatan sumber daya",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "nusa-tenggara-timur",
+      "locationDetail": "Kupang; keterdapatan sumber daya",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    }
+  ],
+  "globalStatisticSets": [
+    {
+      "statisticYear": 2024,
+      "metricCode": "mine_production",
+      "basisCode": "raw_material",
+      "unitCode": "metric_ton",
+      "availabilityStatus": "reported",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "bgs-world-mineral-production-2020-2024",
+        "sourceUrl": "https://nora.nerc.ac.uk/id/eprint/541620/",
+        "pageReference": null
+      },
+      "supportingSources": [
+        {
+          "sourceSlug": "usgs-mcs-2025",
+          "sourceUrl": "https://pubs.usgs.gov/publication/mcs2025",
+          "pageReference": null,
+          "sourceRole": "cross_check",
+          "citationLabel": "Mineral Commodity Summaries 2025"
+        }
+      ],
+      "entries": [
+        {
+          "countryRegionSlug": "amerika-serikat",
+          "rank": 1,
+          "value": "19900000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "spanyol",
+          "rank": 2,
+          "value": "14146250",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "turki",
+          "rank": 3,
+          "value": "11589988",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "meksiko",
+          "rank": 4,
+          "value": "9800000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "brasil",
+          "rank": 5,
+          "value": "5724608",
+          "notes": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Angka mengikuti definisi dan satuan sumber asal; data tahun 2024."
+    }
+  ],
+  "producers": []
+}

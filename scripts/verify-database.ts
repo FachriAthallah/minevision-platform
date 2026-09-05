@@ -30,6 +30,13 @@ const requiredTables = [
   "commodity_domestic_prices",
   "regions",
   "commodity_production_locations",
+  "commodity_contents",
+  "commodity_resource_statistics",
+  "commodity_resource_statistic_sources",
+  "commodity_global_statistic_sets",
+  "commodity_global_statistic_entries",
+  "commodity_global_statistic_set_sources",
+  "commodity_producers",
   "economic_gdp_annual",
   "economic_gdp_sources",
   "mining_investment_annual",
@@ -60,6 +67,58 @@ const requiredViews = [
 ] as const;
 
 const requiredPolicies = [
+  {
+    tableName: "commodities",
+    policyName: "commodities_public_read",
+  },
+  {
+    tableName: "measurement_units",
+    policyName: "measurement_units_public_read",
+  },
+  {
+    tableName: "regions",
+    policyName: "regions_public_read",
+  },
+  {
+    tableName: "sources",
+    policyName: "sources_public_read",
+  },
+  {
+    tableName: "contents",
+    policyName: "contents_commodity_public_read",
+  },
+  {
+    tableName: "content_sources",
+    policyName: "content_sources_commodity_public_read",
+  },
+  {
+    tableName: "commodity_contents",
+    policyName: "commodity_contents_public_read",
+  },
+  {
+    tableName: "commodity_resource_statistics",
+    policyName: "commodity_resource_stats_public_read",
+  },
+  {
+    tableName: "commodity_resource_statistic_sources",
+    policyName: "commodity_resource_stat_sources_public_read",
+  },
+  {
+    tableName: "commodity_global_statistic_sets",
+    policyName: "commodity_global_sets_public_read",
+  },
+  {
+    tableName: "commodity_global_statistic_entries",
+    policyName: "commodity_global_entries_public_read",
+  },
+  {
+    tableName: "commodity_global_statistic_set_sources",
+    policyName: "commodity_global_set_sources_public_read",
+  },
+  {
+    tableName: "commodity_producers",
+    policyName: "commodity_producers_public_read",
+  },
   {
     tableName: "economic_gdp_annual",
     policyName: "public_read_published_verified_gdp",
@@ -136,11 +195,15 @@ const requiredPolicies = [
     tableName: "user_role_assignments",
     policyName: "user_role_assignments_read_own",
   },
+  {
+    tableName: "commodity_production_locations",
+    policyName: "commodity_production_locations_public_read",
+  },
 ] as const;
 
 const minimumMasterRecords: Record<string, number> = {
   sources: 3,
-  measurement_units: 8,
+  measurement_units: 9,
   commodities: 23,
   regions: 1,
   commodity_price_standards: 6,

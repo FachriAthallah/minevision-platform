@@ -1,9 +1,11 @@
+import { sql } from "drizzle-orm";
 import {
   type AnyPgColumn,
   boolean,
   index,
   integer,
   jsonb,
+  pgPolicy,
   pgTable,
   text,
   timestamp,
@@ -11,6 +13,7 @@ import {
   uuid,
   varchar,
 } from "drizzle-orm/pg-core";
+import { anonRole, authenticatedRole } from "drizzle-orm/supabase";
 
 import {
   contentModuleEnum,
@@ -122,8 +125,19 @@ export const contents = pgTable(
     index("contents_published_at_idx").on(table.publishedAt),
 
     index("contents_is_featured_idx").on(table.isFeatured),
+
+    pgPolicy("contents_commodity_public_read", {
+      as: "permissive",
+      for: "select",
+      to: [anonRole, authenticatedRole],
+      using: sql`
+        ${table.module} = 'commodities'
+        AND ${table.type} = 'commodity_profile'
+        AND ${table.status} = 'published'
+      `,
+    }),
   ],
-);
+).enableRLS();
 
 export type ContentCategory = typeof contentCategories.$inferSelect;
 

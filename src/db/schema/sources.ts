@@ -1,12 +1,15 @@
+import { sql } from "drizzle-orm";
 import {
   boolean,
   index,
+  pgPolicy,
   pgTable,
   text,
   timestamp,
   uuid,
   varchar,
 } from "drizzle-orm/pg-core";
+import { anonRole, authenticatedRole } from "drizzle-orm/supabase";
 
 import {
   createTimestampColumns,
@@ -62,8 +65,18 @@ export const sources = pgTable(
     index("sources_is_official_idx").on(table.isOfficial),
 
     index("sources_is_active_idx").on(table.isActive),
+
+    pgPolicy("sources_public_read", {
+      as: "permissive",
+      for: "select",
+      to: [anonRole, authenticatedRole],
+      using: sql`
+        ${table.isActive} = true
+        AND ${table.verificationStatus} = 'verified'
+      `,
+    }),
   ],
-);
+).enableRLS();
 
 export type Source = typeof sources.$inferSelect;
 

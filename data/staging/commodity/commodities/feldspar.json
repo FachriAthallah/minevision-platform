@@ -1,0 +1,198 @@
+{
+  "schemaVersion": "1.0",
+  "commoditySlug": "feldspar",
+  "commodity": {
+    "description": "Feldspar merupakan kelompok mineral silikat yang paling melimpah di kerak bumi, mencakup sekitar 60% dari total volume kerak bumi. Mineral ini tersusun atas unsur aluminium, silikon, serta logam alkali seperti kalium, natrium, dan kalsium. Feldspar merupakan komponen utama berbagai batuan beku, seperti granit, diorit, dan riolit, serta ditemukan pada beberapa batuan metamorf dan sedimen. Dalam dunia industri, feldspar merupakan salah satu mineral non-logam yang sangat penting karena berfungsi sebagai flux, yaitu bahan yang menurunkan titik lebur campuran pada proses pembakaran. Oleh karena itu, feldspar menjadi bahan baku utama industri keramik, porselen, kaca, enamel, glasir, hingga fiberglass.",
+    "specification": "Nama Komoditas: Feldspar; Nama Internasional: Feldspar; Kategori: Mineral Non-Logam; Kelompok Mineral: Tektosilikat (Framework Silicate); Mineral Penyusun Utama: Kalium Feldspar (Orthoclase, Microcline), Plagioklas (Albite, Anorthite); Rumus Kimia: KAlSi₃O₈ – NaAlSi₃O₈ – CaAl₂Si₂O₈; Warna: Putih, merah muda, abu-abu, krem, kehijauan; Kekerasan (Mohs): 6 – 6,5; Proses Pembentukan: Kristalisasi magma pada batuan beku dan metamorfisme regional maupun kontak",
+    "image": null
+  },
+  "profile": {
+    "title": "Feldspar: Profil Komoditas Pertambangan",
+    "slug": "feldspar",
+    "excerpt": "Feldspar merupakan kelompok mineral silikat yang paling melimpah di kerak bumi, mencakup sekitar 60% dari total volume kerak bumi. Mineral ini tersusun atas unsur aluminium, silikon, serta logam alkali seperti kalium, natrium, dan kalsium. Feldspar merupakan komponen utama berbagai batuan beku, seperti granit, diorit, dan riolit, serta ditemukan pada beberapa batuan metamorf dan sedimen.",
+    "body": "# Feldspar\n\n## Definisi\n\nFeldspar merupakan kelompok mineral silikat yang paling melimpah di kerak bumi, mencakup sekitar 60% dari total volume kerak bumi. Mineral ini tersusun atas unsur aluminium, silikon, serta logam alkali seperti kalium, natrium, dan kalsium. Feldspar merupakan komponen utama berbagai batuan beku, seperti granit, diorit, dan riolit, serta ditemukan pada beberapa batuan metamorf dan sedimen.\n\nDalam dunia industri, feldspar merupakan salah satu mineral non-logam yang sangat penting karena berfungsi sebagai flux, yaitu bahan yang menurunkan titik lebur campuran pada proses pembakaran. Oleh karena itu, feldspar menjadi bahan baku utama industri keramik, porselen, kaca, enamel, glasir, hingga fiberglass.\n\n## Karakteristik\n\n| Karakteristik | Keterangan |\n| --- | --- |\n| Warna | Putih, krem, abu-abu, merah muda |\n| Kilap | Kaca (Vitreous) |\n| Kekerasan | 6 – 6,5 Mohs |\n| Berat Jenis | ± 2,55–2,76 g/cm³ |\n| Belahan | Dua arah sempurna dengan sudut hampir 90° |\n| Komposisi | Kalium, Natrium, Kalsium Aluminosilikat |\n| Ketahanan Panas | tinggi |\n| Sifat Kimia | Stabil terhadap sebagian besar bahan kimia pada kondisi normal |\n\n## Jenis-jenis\n\nTerdapat 4 jenis Feldspar ini, seperti:\n\nKalium Feldspar (Potassium Feldspar)\n\nMeliputi Orthoclase, Microcline, dan Sanidine.\n\nNatrium Feldspar (Albite)\n\nMerupakan anggota plagioklas yang kaya natrium.\n\nKalsium Feldspar (Anorthite)\n\nAnggota plagioklas yang kaya kalsium.\n\nPlagioklas Feldspar\n\nMerupakan seri mineral antara albite dan anorthite.\n\n## Metode Penambangan\n\n| Metode | Keterangan |\n| --- | --- |\n| Open Pit Mining | Metode utama penambangan feldspar |\n| Quarry Mining | Digunakan pada endapan granit dan pegmatit yang tersingkap di permukaan |\n| Drilling and Blasting | Digunakan pada batuan yang kompak untuk memudahkan penggalian |\n| Crushing & Beneficiation | Penghancuran, pemisahan mineral pengotor, dan penggilingan sebelum dipasarkan |\n\n## Kegunaan\n\n| Bidang | Pemanfaatan |\n| --- | --- |\n| Industri Keramik | Bahan baku ubin, porselen, sanitary ware, dan tableware |\n| Industri Kaca | Menurunkan titik lebur dan meningkatkan kekuatan kaca |\n| Glasir & Enamel | Memberikan permukaan halus dan mengilap |\n| Fiberglass | Bahan baku serat kaca |\n| Cat | Bahan pengisi (filler) untuk meningkatkan daya tahan |\n| Plastik | Pengisi mineral pada produk plastik |\n| Industri Refraktori | Komponen bahan tahan panas tertentu |\n\n## Dampak Lingkungan\n\nDampak:\n\nPerubahan bentang alam akibat kegiatan penambangan\n\nHilangnya vegetasi dan lapisan tanah penutup\n\nDebu dari proses pengeboran, penghancuran, dan pengangkutan\n\nSedimentasi pada badan air akibat limpasan material\n\nKebisingan dari alat berat dan kegiatan peledakan pada beberapa lokasi\n\nUpaya Mitigasi:\n\nReklamasi dan revegetasi lahan pascatambang\n\nPengendalian debu melalui penyiraman jalan tambang dan dust suppression\n\nPengelolaan air limpasan menggunakan kolam pengendapan (settling pond)\n\nPemanfaatan material sisa hasil pengolahan sebagai agregat atau bahan konstruksi\n\nPenerapan Good Mining Practice sesuai ketentuan Kementerian ESDM",
+    "readingTimeMinutes": 2,
+    "isFeatured": false,
+    "publicationStatus": "published",
+    "publishedAt": "2026-09-02T00:00:00+07:00",
+    "sources": [
+      {
+        "sourceSlug": "esdm-neraca-2025",
+        "citationLabel": "Neraca Sumber Daya dan Cadangan 2025",
+        "pageReference": null
+      },
+      {
+        "sourceSlug": "usgs-mcs-2025",
+        "citationLabel": "Mineral Commodity Summaries 2025",
+        "pageReference": null
+      }
+    ]
+  },
+  "resourceStatistics": [
+    {
+      "statisticYear": 2024,
+      "statisticType": "reserve",
+      "materialBasis": "raw_material",
+      "availabilityStatus": "reported",
+      "value": "180863149",
+      "unitCode": "metric_ton",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025",
+        "sourceUrl": "https://geologi.esdm.go.id/publikasi/laporan-dan-buku/neraca-sumber-daya-dan-cadangan-mineral-batubara-dan-panas-bumi-indonesia-tahun-2025",
+        "pageReference": null
+      },
+      "supportingSources": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Cadangan nasional feldspar; status data 31 Desember 2024."
+    }
+  ],
+  "productionLocations": [
+    {
+      "regionSlug": "kepulauan-bangka-belitung",
+      "locationDetail": "Bangka dan Belitung",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "kepulauan-riau",
+      "locationDetail": "Bintan dan Karimun",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "kalimantan-barat",
+      "locationDetail": "Singkawang, Bengkayang, dan Sanggau",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "sumatera-utara",
+      "locationDetail": "Dairi",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "jawa-barat",
+      "locationDetail": "Sukabumi",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    },
+    {
+      "regionSlug": "lampung",
+      "locationDetail": "Tanggamus",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "esdm-neraca-2025"
+      },
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": null
+    }
+  ],
+  "globalStatisticSets": [
+    {
+      "statisticYear": 2024,
+      "metricCode": "mine_production",
+      "basisCode": "raw_material",
+      "unitCode": "metric_ton",
+      "availabilityStatus": "reported",
+      "recordType": "actual",
+      "primarySource": {
+        "sourceSlug": "bgs-world-mineral-production-2020-2024",
+        "sourceUrl": "https://nora.nerc.ac.uk/id/eprint/541620/",
+        "pageReference": null
+      },
+      "supportingSources": [
+        {
+          "sourceSlug": "usgs-mcs-2025",
+          "sourceUrl": "https://pubs.usgs.gov/publication/mcs2025",
+          "pageReference": null,
+          "sourceRole": "cross_check",
+          "citationLabel": "Mineral Commodity Summaries 2025"
+        }
+      ],
+      "entries": [
+        {
+          "countryRegionSlug": "turki",
+          "rank": 1,
+          "value": "8983207",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "tiongkok",
+          "rank": 2,
+          "value": "5900000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "iran",
+          "rank": 3,
+          "value": "5200000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "india",
+          "rank": 4,
+          "value": "5000000",
+          "notes": null
+        },
+        {
+          "countryRegionSlug": "italia",
+          "rank": 5,
+          "value": "2200000",
+          "notes": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Angka mengikuti definisi dan satuan sumber asal; data tahun 2024."
+    }
+  ],
+  "producers": [
+    {
+      "producerKey": "sibelco-lautan-minerals",
+      "companyName": "PT Sibelco Lautan Minerals",
+      "industryCompanySlug": null,
+      "operationArea": "Kepulauan Bangka Belitung",
+      "primaryRegionSlug": null,
+      "producerRole": null,
+      "displayOrder": 1,
+      "primarySource": {
+        "sourceSlug": "esdm-modi-company-registry",
+        "sourceUrl": "https://modi.esdm.go.id/portal/dataPerusahaan",
+        "pageReference": null
+      },
+      "isActive": true,
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "notes": "Daftar dibatasi pada operator yang dicatat sebagai produsen dalam dokumen Final Terverifikasi."
+    }
+  ]
+}
