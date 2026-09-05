@@ -55,6 +55,8 @@ const requiredTables = [
   "roles",
   "user_profiles",
   "user_role_assignments",
+  "career_professions",
+  "career_profile_items",
 ] as const;
 
 const requiredViews = [
@@ -198,6 +200,22 @@ const requiredPolicies = [
   {
     tableName: "commodity_production_locations",
     policyName: "commodity_production_locations_public_read",
+  },
+  {
+    tableName: "contents",
+    policyName: "contents_career_public_read",
+  },
+  {
+    tableName: "content_sources",
+    policyName: "content_sources_career_public_read",
+  },
+  {
+    tableName: "career_professions",
+    policyName: "career_professions_public_read",
+  },
+  {
+    tableName: "career_profile_items",
+    policyName: "career_profile_items_public_read",
   },
 ] as const;
 

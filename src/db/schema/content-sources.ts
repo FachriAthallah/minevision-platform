@@ -77,6 +77,29 @@ export const contentSources = pgTable(
         )
       `,
     }),
+
+    pgPolicy("content_sources_career_public_read", {
+      as: "permissive",
+      for: "select",
+      to: [anonRole, authenticatedRole],
+      using: sql`
+    EXISTS (
+      SELECT 1
+      FROM "contents" AS content
+      WHERE content.id = ${table.contentId}
+        AND content.module = 'career'
+        AND content.type = 'profession'
+        AND content.status = 'published'
+    )
+    AND EXISTS (
+      SELECT 1
+      FROM "sources" AS source
+      WHERE source.id = ${table.sourceId}
+        AND source.is_active = true
+        AND source.verification_status = 'verified'
+    )
+  `,
+    }),
   ],
 ).enableRLS();
 

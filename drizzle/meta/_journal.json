@@ -134,6 +134,13 @@
       "when": 1788445242429,
       "tag": "0018_commodity-production-locations-public-read",
       "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1788617649437,
+      "tag": "0019_career-data-foundation",
+      "breakpoints": true
     }
   ]
 }
