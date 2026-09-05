@@ -24,6 +24,7 @@
     "data:dry-run:commodity": "tsx scripts/dry-run-commodity-import.ts",
     "data:import:commodity": "tsx scripts/import-commodity.ts",
     "data:verify:commodity": "tsx scripts/verify-commodity-import.ts",
+    "data:validate:career": "tsx scripts/validate-career-import.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "data:prepare:industry-reports": "node scripts/industry/generate-reports-manifest.mjs",
