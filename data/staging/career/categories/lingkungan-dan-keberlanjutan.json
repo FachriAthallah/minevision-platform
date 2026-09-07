@@ -1,0 +1,3289 @@
+{
+  "schemaVersion": "1.0",
+  "categorySlug": "lingkungan-dan-keberlanjutan",
+  "category": {
+    "name": "Lingkungan dan Keberlanjutan",
+    "slug": "lingkungan-dan-keberlanjutan",
+    "description": "Deskripsi Kategori",
+    "displayOrder": 7,
+    "isActive": true
+  },
+  "profile": {
+    "title": "Lingkungan dan Keberlanjutan",
+    "slug": "lingkungan-dan-keberlanjutan",
+    "excerpt": "Deskripsi Kategori",
+    "body": "Deskripsi Kategori\n\nKategori Lingkungan dan Keberlanjutan mencakup profesi yang bertugas mengidentifikasi, mengelola, memantau, serta mengurangi dampak lingkungan dan sosial yang dapat timbul sepanjang siklus kegiatan pertambangan. Ruang lingkupnya dapat dimulai dari tahap perencanaan dan studi lingkungan, dilanjutkan pada tahap konstruksi dan operasi, hingga reklamasi serta pascatambang.\n\nDalam industri pertambangan, pengelolaan lingkungan tidak hanya berfokus pada kepatuhan terhadap dokumen dan peraturan, tetapi juga mencakup pengelolaan air, kualitas udara, limbah, keanekaragaman hayati, penggunaan lahan, reklamasi, hubungan dengan masyarakat, serta peningkatan kinerja keberlanjutan. Pemerintah menempatkan pengelolaan lingkungan, reklamasi, dan pascatambang sebagai bagian penting dari penerapan kaidah pertambangan yang baik dan pembangunan berkelanjutan.\n\nContoh Profesi\n\nPengelolaan Lingkungan Pertambangan\n\nEnvironmental Engineer\n\nEnvironmental Officer\n\nEnvironmental Specialist\n\nEnvironmental Analyst\n\nEnvironmental Coordinator\n\nEnvironmental Supervisor\n\nEnvironmental Superintendent\n\nEnvironmental Manager\n\nMine Environmental Engineer\n\nMine Environmental Officer\n\nMine Environmental Specialist\n\nMining Environmental Coordinator\n\nEnvironmental Compliance Officer\n\nEnvironmental Compliance Specialist\n\nEnvironmental Compliance Coordinator\n\nEnvironmental Management Officer\n\nEnvironmental Management System Specialist\n\nEnvironmental Performance Analyst\n\nEnvironmental Monitoring Officer\n\nEnvironmental Monitoring Technician\n\nEnvironmental Field Officer\n\nEnvironmental Field Technician\n\nEnvironmental Inspector\n\nEnvironmental Auditor\n\nEnvironmental Advisor\n\nEnvironmental Consultant\n\nPengelolaan Air dan Kualitas Lingkungan\n\nWater Management Engineer\n\nWater Management Specialist\n\nWater Management Officer\n\nMine Water Engineer\n\nMine Water Specialist\n\nMine Water Management Engineer\n\nWater Resources Engineer\n\nHydrologist\n\nMine Hydrologist\n\nHydrogeologist\n\nMine Hydrogeologist\n\nWater Quality Specialist\n\nWater Quality Officer\n\nWater Quality Analyst\n\nWater Monitoring Technician\n\nEnvironmental Sampling Technician\n\nSurface Water Specialist\n\nGroundwater Specialist\n\nDewatering Environmental Specialist\n\nMine Drainage Engineer\n\nWater Treatment Engineer\n\nWastewater Treatment Engineer\n\nWater Treatment Plant Operator\n\nEffluent Treatment Specialist\n\nAcid Mine Drainage Specialist\n\nAcid Mine Water Engineer\n\nMine Water Treatment Specialist\n\nPengelolaan Limbah dan Bahan Berbahaya\n\nWaste Management Officer\n\nWaste Management Specialist\n\nWaste Management Engineer\n\nWaste Management Supervisor\n\nWaste Management Coordinator\n\nWaste Management Manager\n\nHazardous Waste Officer\n\nHazardous Waste Specialist\n\nWaste Compliance Officer\n\nWaste Minimization Specialist\n\nWaste Treatment Engineer\n\nIndustrial Waste Specialist\n\nEnvironmental Waste Technician\n\nWaste Facility Supervisor\n\nTailings Environmental Specialist\n\nTailings Management Specialist\n\nTailings Environmental Engineer\n\nTailings Monitoring Officer\n\nReklamasi, Revegetasi, dan Pascatambang\n\nReclamation Engineer\n\nReclamation Specialist\n\nReclamation Officer\n\nReclamation Supervisor\n\nReclamation Coordinator\n\nReclamation Superintendent\n\nReclamation Manager\n\nMine Reclamation Engineer\n\nMine Reclamation Specialist\n\nPost-Mining Specialist\n\nPost-Mining Officer\n\nPost-Mining Engineer\n\nPost-Mining Coordinator\n\nClosure Planning Specialist\n\nMine Closure Specialist\n\nMine Closure Engineer\n\nMine Closure Planner\n\nMine Closure Coordinator\n\nMine Closure Manager\n\nRevegetation Specialist\n\nRevegetation Officer\n\nRevegetation Supervisor\n\nLand Rehabilitation Specialist\n\nLand Rehabilitation Officer\n\nLand Restoration Specialist\n\nLand Restoration Engineer\n\nSoil Scientist\n\nSoil Conservation Specialist\n\nTopsoil Management Specialist\n\nNursery Specialist\n\nNursery Officer\n\nRehabilitation Monitoring Officer\n\nKeanekaragaman Hayati dan Konservasi\n\nBiodiversity Specialist\n\nBiodiversity Officer\n\nBiodiversity Coordinator\n\nBiodiversity Manager\n\nBiodiversity Monitoring Officer\n\nEcologist\n\nMine Ecologist\n\nRestoration Ecologist\n\nConservation Specialist\n\nConservation Officer\n\nWildlife Specialist\n\nWildlife Monitoring Officer\n\nFlora and Fauna Specialist\n\nTerrestrial Ecologist\n\nAquatic Ecologist\n\nHabitat Restoration Specialist\n\nBiodiversity Data Analyst\n\nEnvironmental Ecology Specialist\n\nKeberlanjutan dan ESG\n\nSustainability Officer\n\nSustainability Specialist\n\nSustainability Analyst\n\nSustainability Engineer\n\nSustainability Coordinator\n\nSustainability Supervisor\n\nSustainability Superintendent\n\nSustainability Manager\n\nSustainability Advisor\n\nESG Officer\n\nESG Specialist\n\nESG Analyst\n\nESG Coordinator\n\nESG Manager\n\nESG Reporting Specialist\n\nESG Data Analyst\n\nSustainability Reporting Officer\n\nSustainability Performance Analyst\n\nSustainable Mining Specialist\n\nResponsible Mining Specialist\n\nClimate Change Specialist\n\nClimate Risk Analyst\n\nCarbon Management Specialist\n\nCarbon Accounting Analyst\n\nGreenhouse Gas Analyst\n\nEnergy and Carbon Specialist\n\nDecarbonization Specialist\n\nEnvironmental and Social Governance Specialist\n\nSosial dan Hubungan Masyarakat Tambang\n\nCommunity Development Officer\n\nCommunity Development Specialist\n\nCommunity Development Coordinator\n\nCommunity Development Supervisor\n\nCommunity Development Manager\n\nCommunity Relations Officer\n\nCommunity Relations Specialist\n\nCommunity Relations Coordinator\n\nCommunity Engagement Officer\n\nCommunity Engagement Specialist\n\nCommunity Engagement Coordinator\n\nSocial Performance Officer\n\nSocial Performance Specialist\n\nSocial Performance Manager\n\nSocial Impact Analyst\n\nSocial Impact Assessment Specialist\n\nSocial Safeguards Specialist\n\nStakeholder Engagement Officer\n\nStakeholder Engagement Specialist\n\nStakeholder Relations Officer\n\nExternal Relations Officer\n\nExternal Relations Specialist\n\nCorporate Social Responsibility Officer\n\nCSR Specialist\n\nCSR Coordinator\n\nCSR Manager\n\nCommunity Investment Specialist\n\nCommunity Empowerment Officer\n\nCommunity Livelihood Specialist\n\nProgram Pengembangan dan Pemberdayaan Masyarakat (PPM) Officer\n\nRuang Lingkup Pekerjaan\n\nReklamasi merupakan kegiatan yang dilakukan sepanjang tahapan usaha pertambangan untuk menata, memulihkan, dan memperbaiki kualitas lingkungan. Pelaksanaan reklamasi dan pascatambang dapat mencakup penataan lahan, revegetasi, pemantauan, serta pemanfaatan lahan sesuai rencana dan ketentuan yang berlaku. Profesi dalam kategori Lingkungan dan Keberlanjutan dapat terlibat dalam kegiatan berikut:\n\nMengidentifikasi aspek dan potensi dampak lingkungan dari kegiatan pertambangan.\n\nMendukung penyusunan, pelaksanaan, pemantauan, dan evaluasi program pengelolaan lingkungan.\n\nMemastikan kegiatan operasional memperhatikan persyaratan lingkungan, komitmen perusahaan, serta ketentuan yang berlaku.\n\nMelakukan pemantauan kualitas air permukaan, air tanah, air limbah, udara, tanah, kebisingan, getaran, dan parameter lingkungan lain sesuai kebutuhan.\n\nMelaksanakan pengambilan sampel lingkungan serta mengelola data hasil pemantauan.\n\nMengawasi pengelolaan air tambang, drainase, pengendalian limpasan, pengolahan air, dan pelepasan air sesuai ketentuan yang berlaku.\n\nMengidentifikasi dan mengelola potensi pembentukan air asam tambang.\n\nMendukung pengelolaan limbah, termasuk pemilahan, penyimpanan, pengangkutan, pengolahan, pemanfaatan, dan dokumentasi sesuai jenis limbah serta ketentuan yang berlaku.\n\nMemantau kondisi fasilitas penyimpanan atau pengelolaan limbah dan material sisa kegiatan pertambangan.\n\nMelaksanakan inspeksi lingkungan pada area tambang, fasilitas pengolahan, bengkel, stockpile, area penyimpanan, dan fasilitas pendukung.\n\nMenyusun laporan pemantauan, evaluasi, kepatuhan, serta kinerja lingkungan.\n\nMengelola data lingkungan dan melakukan analisis tren untuk mendukung pengambilan keputusan.\n\nMenyusun atau mendukung pelaksanaan rencana reklamasi dan pascatambang.\n\nMelakukan penataan lahan, pengelolaan tanah pucuk, pengendalian erosi, revegetasi, pemeliharaan tanaman, dan pemantauan keberhasilan reklamasi.\n\nMengembangkan rencana penutupan tambang (mine closure) dan mengidentifikasi kebutuhan pengelolaan jangka panjang.\n\nMelakukan pemantauan flora, fauna, habitat, dan kondisi keanekaragaman hayati.\n\nMengembangkan program konservasi, perlindungan habitat, pemulihan ekosistem, atau pengelolaan keanekaragaman hayati.\n\nMengumpulkan dan mengelola data keberlanjutan, termasuk data lingkungan, sosial, tata kelola, energi, emisi, serta indikator kinerja lainnya.\n\nMendukung penyusunan laporan keberlanjutan dan pengungkapan ESG sesuai kerangka atau kebutuhan perusahaan.\n\nMengidentifikasi peluang efisiensi sumber daya, pengurangan emisi, pengelolaan energi, dan peningkatan kinerja keberlanjutan.\n\nMelakukan pemetaan pemangku kepentingan dan membangun komunikasi dengan masyarakat sekitar.\n\nMengembangkan serta melaksanakan program pengembangan dan pemberdayaan masyarakat.\n\nMelakukan pemantauan dampak sosial, evaluasi program masyarakat, dan pengukuran manfaat program.\n\nBerkoordinasi dengan tim operasi, geologi, perencanaan tambang, HSE, legal, pemerintah, masyarakat, konsultan, dan pemangku kepentingan lain.\n\nKompetensi\n\nKompetensi Teknis Umum\n\nMemahami dasar pengelolaan lingkungan.\n\nMemahami aspek dan dampak lingkungan kegiatan pertambangan.\n\nMemahami prinsip pencegahan dan pengendalian pencemaran.\n\nMemahami dasar pengelolaan air.\n\nMemahami dasar pengelolaan limbah.\n\nMemahami dasar pemantauan kualitas lingkungan.\n\nMemahami pengelolaan data dan pelaporan lingkungan.\n\nMemahami prinsip reklamasi dan pascatambang.\n\nMemahami dasar konservasi keanekaragaman hayati.\n\nMemahami prinsip keberlanjutan.\n\nMemahami dasar ESG.\n\nMemahami keterkaitan aspek lingkungan, sosial, dan tata kelola.\n\nMemahami komunikasi dengan pemangku kepentingan.\n\nMemahami prinsip pengembangan dan pemberdayaan masyarakat.\n\nKompetensi Teknis Spesialis\n\nPenyusunan dan evaluasi program pengelolaan lingkungan.\n\nPemantauan kualitas air.\n\nPemantauan kualitas udara.\n\nPemantauan kualitas tanah.\n\nPemantauan kebisingan dan getaran.\n\nPengambilan sampel lingkungan.\n\nAnalisis dan interpretasi data lingkungan.\n\nPengelolaan air tambang.\n\nPengelolaan air permukaan dan air tanah.\n\nPengelolaan drainase tambang.\n\nPengolahan air limbah.\n\nPengelolaan air asam tambang.\n\nPengelolaan limbah.\n\nPengelolaan limbah berbahaya sesuai ketentuan.\n\nPengelolaan tailings dari perspektif lingkungan.\n\nAudit dan inspeksi lingkungan.\n\nEvaluasi kepatuhan lingkungan.\n\nPengelolaan sistem manajemen lingkungan.\n\nPengelolaan data lingkungan.\n\nReklamasi lahan.\n\nPenataan lahan bekas tambang.\n\nPengelolaan tanah pucuk.\n\nPengendalian erosi dan sedimentasi.\n\nRevegetasi.\n\nPemeliharaan dan pemantauan tanaman.\n\nEvaluasi keberhasilan reklamasi.\n\nPerencanaan pascatambang.\n\nPerencanaan penutupan tambang.\n\nPemantauan keanekaragaman hayati.\n\nSurvei flora dan fauna.\n\nKonservasi habitat.\n\nRestorasi ekosistem.\n\nPengelolaan emisi gas rumah kaca.\n\nInventarisasi emisi.\n\nManajemen karbon.\n\nAnalisis risiko iklim.\n\nPenyusunan laporan keberlanjutan.\n\nPengelolaan data ESG.\n\nAnalisis kinerja keberlanjutan.\n\nAnalisis dampak sosial.\n\nPemetaan pemangku kepentingan.\n\nKeterlibatan masyarakat.\n\nPengembangan program PPM atau CSR.\n\nMonitoring dan evaluasi program sosial.\n\nKompetensi nonteknik\n\nKemampuan analitis.\n\nKemampuan memecahkan masalah.\n\nKetelitian dalam pengelolaan data.\n\nKemampuan observasi lapangan.\n\nKemampuan menyusun laporan teknis.\n\nKemampuan menginterpretasikan data.\n\nKemampuan komunikasi dengan berbagai pihak.\n\nKemampuan bernegosiasi dan membangun hubungan.\n\nEmpati dan kepekaan sosial.\n\nKemampuan bekerja dalam tim multidisiplin.\n\nKemampuan mengelola proyek.\n\nKemampuan mengambil keputusan berbasis data.\n\nKemampuan beradaptasi terhadap kondisi lapangan.\n\nKemampuan menyampaikan informasi teknis secara mudah dipahami.\n\nIntegritas dan tanggung jawab profesional.\n\nKemampuan berpikir jangka panjang.\n\nPendidikan yang Relevan\n\nPendidikan Utama\n\nTeknik Lingkungan\n\nIlmu Lingkungan\n\nKesehatan Lingkungan\n\nTeknik Pertambangan\n\nTeknik Geologi\n\nTeknik Geodesi atau Geomatika\n\nTeknik Kimia\n\nTeknik Sipil\n\nTeknik Industri\n\nTeknik Kehutanan\n\nKehutanan\n\nKonservasi Sumber Daya Hutan\n\nBiologi\n\nEkologi\n\nIlmu Tanah\n\nAgroteknologi\n\nAgronomi\n\nIlmu Kelautan, untuk lokasi dan kegiatan yang relevan\n\nGeografi\n\nPengelolaan Sumber Daya Alam\n\nPembangunan Sosial\n\nKesejahteraan Sosial\n\nSosiologi\n\nAntropologi\n\nIlmu Komunikasi\n\nEkonomi Pembangunan\n\nManajemen\n\nBidang lain yang relevan dengan kebutuhan jabatan.\n\nPendidikan Pendukung untuk Posisi Tertentu\n\nProgram Diploma Teknik Lingkungan.\n\nProgram Diploma Pengelolaan Lingkungan.\n\nProgram Diploma Kehutanan.\n\nProgram Diploma Konservasi.\n\nProgram Diploma Pengelolaan Sumber Daya Alam.\n\nProgram vokasi pengelolaan air dan limbah.\n\nProgram vokasi reklamasi dan rehabilitasi lahan.\n\nProgram vokasi pemantauan lingkungan.\n\nProgram vokasi pengembangan masyarakat.\n\nProgram pendidikan yang berkaitan dengan GIS dan penginderaan jauh.\n\nProgram pendidikan yang berkaitan dengan analisis data atau sistem informasi.\n\nPendidikan lain sesuai kebutuhan operasional dan persyaratan jabatan\n\nSoftware yang Digunakan\n\n| A. Sistem Manajemen Lingkungan dan Kepatuhan |\n| --- |\n| Enablon |\n| Intelex |\n| Sphera |\n| B. GIS dan Analisis Spasial |\n| ArcGIS Pro |\n| QGIS |\n| Google Earth Pro |\n| C. Pemodelan Air dan Lingkungan |\n| HEC-RAS |\n| HEC-HMS |\n| GoldSim |\n| MODFLOW |\n| PHREEQC |\n| D. Pengolahan Data dan Pelaporan |\n| Microsoft Excel |\n| Microsoft Power BI |\n| Microsoft Word dan PowerPoint |\n| E. Analisis Data dan Otomasi |\n| Python |\n| R |\n| PostgreSQL/PostGIS |\n\nPelatihan Relevan\n\nPelatihan teknis\n\nPelatihan manajemen lingkungan pertambangan.\n\nPelatihan pengelolaan dan pemantauan lingkungan tambang.\n\nPelatihan sistem manajemen lingkungan.\n\nPelatihan inspeksi dan audit lingkungan.\n\nPelatihan pengelolaan kepatuhan lingkungan.\n\nPelatihan pengambilan sampel lingkungan.\n\nPelatihan pemantauan kualitas air.\n\nPelatihan pemantauan kualitas udara.\n\nPelatihan pemantauan kualitas tanah.\n\nPelatihan pemantauan kebisingan dan getaran.\n\nPelatihan pengelolaan air tambang.\n\nPelatihan pengelolaan air asam tambang.\n\nPelatihan pengolahan air limbah.\n\nPelatihan pengelolaan limbah.\n\nPelatihan pengelolaan limbah berbahaya sesuai ketentuan.\n\nPelatihan pengelolaan tailings.\n\nPelatihan reklamasi dan pascatambang.\n\nPelatihan penataan lahan.\n\nPelatihan pengelolaan tanah pucuk.\n\nPelatihan pengendalian erosi dan sedimentasi.\n\nPelatihan revegetasi.\n\nPelatihan rehabilitasi lahan.\n\nPelatihan perencanaan penutupan tambang.\n\nPelatihan pemantauan keanekaragaman hayati.\n\nPelatihan survei flora dan fauna.\n\nPelatihan konservasi dan restorasi ekosistem.\n\nPelatihan GIS untuk pengelolaan lingkungan.\n\nPelatihan penginderaan jauh.\n\nPelatihan analisis data lingkungan.\n\nPelatihan inventarisasi emisi gas rumah kaca.\n\nPelatihan manajemen karbon.\n\nPelatihan pelaporan ESG dan keberlanjutan.\n\nPelatihan analisis risiko iklim.\n\nPelatihan analisis dampak sosial.\n\nPelatihan keterlibatan pemangku kepentingan.\n\nPelatihan pengembangan masyarakat.\n\nPelatihan monitoring dan evaluasi program PPM atau CSR.\n\nPelatihan keselamatan\n\nInduksi keselamatan pertambangan.\n\nKeselamatan kerja lapangan.\n\nIdentifikasi bahaya dan penilaian risiko.\n\nKeselamatan pengambilan sampel lingkungan.\n\nKeselamatan bekerja di dekat alat berat.\n\nKeselamatan lalu lintas tambang.\n\nKeselamatan kerja di dekat lereng dan area tambang aktif.\n\nKeselamatan bekerja di sekitar badan air.\n\nKeselamatan penggunaan peralatan pemantauan.\n\nKeselamatan penggunaan bahan kimia.\n\nKeselamatan pengelolaan limbah.\n\nPenggunaan alat pelindung diri.\n\nKeselamatan bekerja di ketinggian apabila relevan.\n\nKeselamatan ruang terbatas apabila relevan.\n\nPertolongan pertama sesuai kebutuhan tempat kerja.\n\nTanggap darurat.\n\nPelatihan keselamatan berdasarkan risiko spesifik lokasi.",
+    "coverImageUrl": null,
+    "status": "published",
+    "publishedAt": "2026-09-05T00:00:00.000Z",
+    "readingTimeMinutes": null,
+    "isFeatured": false,
+    "metadata": {},
+    "sources": [
+      {
+        "sourceSlug": "jdih-esdm-go-id-4",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 0
+      },
+      {
+        "sourceSlug": "jdih-esdm-go-id-6",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 1
+      },
+      {
+        "sourceSlug": "esdm-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 2
+      },
+      {
+        "sourceSlug": "www-minerba-esdm-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 3
+      },
+      {
+        "sourceSlug": "www-esdm-go-id-2",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 4
+      },
+      {
+        "sourceSlug": "bpsdm-esdm-go-id-9",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 5
+      },
+      {
+        "sourceSlug": "www-esdm-go-id-3",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 6
+      },
+      {
+        "sourceSlug": "www-esdm-go-id-4",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 7
+      },
+      {
+        "sourceSlug": "www-esdm-go-id-5",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 8
+      },
+      {
+        "sourceSlug": "jurnal-tekmira-esdm-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 9
+      }
+    ]
+  },
+  "professions": [
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Engineer",
+      "slug": "environmental-engineer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Officer",
+      "slug": "environmental-officer",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Specialist",
+      "slug": "environmental-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Analyst",
+      "slug": "environmental-analyst",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Coordinator",
+      "slug": "environmental-coordinator",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Supervisor",
+      "slug": "environmental-supervisor",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Superintendent",
+      "slug": "environmental-superintendent",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Manager",
+      "slug": "environmental-manager",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Mine Environmental Engineer",
+      "slug": "mine-environmental-engineer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Mine Environmental Officer",
+      "slug": "mine-environmental-officer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Mine Environmental Specialist",
+      "slug": "mine-environmental-specialist",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Mining Environmental Coordinator",
+      "slug": "mining-environmental-coordinator",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Compliance Officer",
+      "slug": "environmental-compliance-officer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Compliance Specialist",
+      "slug": "environmental-compliance-specialist",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Compliance Coordinator",
+      "slug": "environmental-compliance-coordinator",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Management Officer",
+      "slug": "environmental-management-officer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Management System Specialist",
+      "slug": "environmental-management-system-specialist",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Performance Analyst",
+      "slug": "environmental-performance-analyst",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Monitoring Officer",
+      "slug": "environmental-monitoring-officer",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Monitoring Technician",
+      "slug": "environmental-monitoring-technician",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Field Officer",
+      "slug": "environmental-field-officer",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Field Technician",
+      "slug": "environmental-field-technician",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Inspector",
+      "slug": "environmental-inspector",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Auditor",
+      "slug": "environmental-auditor",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Advisor",
+      "slug": "environmental-advisor",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "pengelolaan-lingkungan-pertambangan",
+      "groupLabel": "Pengelolaan Lingkungan Pertambangan",
+      "name": "Environmental Consultant",
+      "slug": "environmental-consultant",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Water Management Engineer",
+      "slug": "water-management-engineer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Water Management Specialist",
+      "slug": "water-management-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Water Management Officer",
+      "slug": "water-management-officer",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Mine Water Engineer",
+      "slug": "mine-water-engineer",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Mine Water Specialist",
+      "slug": "mine-water-specialist",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Mine Water Management Engineer",
+      "slug": "mine-water-management-engineer",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Water Resources Engineer",
+      "slug": "water-resources-engineer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Hydrologist",
+      "slug": "hydrologist",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Mine Hydrologist",
+      "slug": "mine-hydrologist",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Hydrogeologist",
+      "slug": "hydrogeologist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Mine Hydrogeologist",
+      "slug": "mine-hydrogeologist",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Water Quality Specialist",
+      "slug": "water-quality-specialist",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Water Quality Officer",
+      "slug": "water-quality-officer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Water Quality Analyst",
+      "slug": "water-quality-analyst",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Water Monitoring Technician",
+      "slug": "water-monitoring-technician",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Environmental Sampling Technician",
+      "slug": "environmental-sampling-technician",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Surface Water Specialist",
+      "slug": "surface-water-specialist",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Groundwater Specialist",
+      "slug": "groundwater-specialist",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Dewatering Environmental Specialist",
+      "slug": "dewatering-environmental-specialist",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Mine Drainage Engineer",
+      "slug": "mine-drainage-engineer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Water Treatment Engineer",
+      "slug": "water-treatment-engineer",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Wastewater Treatment Engineer",
+      "slug": "wastewater-treatment-engineer",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Water Treatment Plant Operator",
+      "slug": "water-treatment-plant-operator",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Effluent Treatment Specialist",
+      "slug": "effluent-treatment-specialist",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Acid Mine Drainage Specialist",
+      "slug": "acid-mine-drainage-specialist",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Acid Mine Water Engineer",
+      "slug": "acid-mine-water-engineer",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "pengelolaan-air-dan-kualitas-lingkungan",
+      "groupLabel": "Pengelolaan Air dan Kualitas Lingkungan",
+      "name": "Mine Water Treatment Specialist",
+      "slug": "mine-water-treatment-specialist",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "pengelolaan-limbah-dan-bahan-berbahaya",
+      "groupLabel": "Pengelolaan Limbah dan Bahan Berbahaya",
+      "name": "Waste Management Officer",
+      "slug": "waste-management-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "pengelolaan-limbah-dan-bahan-berbahaya",
+      "groupLabel": "Pengelolaan Limbah dan Bahan Berbahaya",
+      "name": "Waste Management Specialist",
+      "slug": "waste-management-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "pengelolaan-limbah-dan-bahan-berbahaya",
+      "groupLabel": "Pengelolaan Limbah dan Bahan Berbahaya",
+      "name": "Waste Management Engineer",
+      "slug": "waste-management-engineer",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "pengelolaan-limbah-dan-bahan-berbahaya",
+      "groupLabel": "Pengelolaan Limbah dan Bahan Berbahaya",
+      "name": "Waste Management Supervisor",
+      "slug": "waste-management-supervisor",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "pengelolaan-limbah-dan-bahan-berbahaya",
+      "groupLabel": "Pengelolaan Limbah dan Bahan Berbahaya",
+      "name": "Waste Management Coordinator",
+      "slug": "waste-management-coordinator",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "pengelolaan-limbah-dan-bahan-berbahaya",
+      "groupLabel": "Pengelolaan Limbah dan Bahan Berbahaya",
+      "name": "Waste Management Manager",
+      "slug": "waste-management-manager",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "pengelolaan-limbah-dan-bahan-berbahaya",
+      "groupLabel": "Pengelolaan Limbah dan Bahan Berbahaya",
+      "name": "Hazardous Waste Officer",
+      "slug": "hazardous-waste-officer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "pengelolaan-limbah-dan-bahan-berbahaya",
+      "groupLabel": "Pengelolaan Limbah dan Bahan Berbahaya",
+      "name": "Hazardous Waste Specialist",
+      "slug": "hazardous-waste-specialist",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "pengelolaan-limbah-dan-bahan-berbahaya",
+      "groupLabel": "Pengelolaan Limbah dan Bahan Berbahaya",
+      "name": "Waste Compliance Officer",
+      "slug": "waste-compliance-officer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "pengelolaan-limbah-dan-bahan-berbahaya",
+      "groupLabel": "Pengelolaan Limbah dan Bahan Berbahaya",
+      "name": "Waste Minimization Specialist",
+      "slug": "waste-minimization-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "pengelolaan-limbah-dan-bahan-berbahaya",
+      "groupLabel": "Pengelolaan Limbah dan Bahan Berbahaya",
+      "name": "Waste Treatment Engineer",
+      "slug": "waste-treatment-engineer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "pengelolaan-limbah-dan-bahan-berbahaya",
+      "groupLabel": "Pengelolaan Limbah dan Bahan Berbahaya",
+      "name": "Industrial Waste Specialist",
+      "slug": "industrial-waste-specialist",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "pengelolaan-limbah-dan-bahan-berbahaya",
+      "groupLabel": "Pengelolaan Limbah dan Bahan Berbahaya",
+      "name": "Environmental Waste Technician",
+      "slug": "environmental-waste-technician",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "pengelolaan-limbah-dan-bahan-berbahaya",
+      "groupLabel": "Pengelolaan Limbah dan Bahan Berbahaya",
+      "name": "Waste Facility Supervisor",
+      "slug": "waste-facility-supervisor",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "pengelolaan-limbah-dan-bahan-berbahaya",
+      "groupLabel": "Pengelolaan Limbah dan Bahan Berbahaya",
+      "name": "Tailings Environmental Specialist",
+      "slug": "tailings-environmental-specialist",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "pengelolaan-limbah-dan-bahan-berbahaya",
+      "groupLabel": "Pengelolaan Limbah dan Bahan Berbahaya",
+      "name": "Tailings Management Specialist",
+      "slug": "tailings-management-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "pengelolaan-limbah-dan-bahan-berbahaya",
+      "groupLabel": "Pengelolaan Limbah dan Bahan Berbahaya",
+      "name": "Tailings Environmental Engineer",
+      "slug": "tailings-environmental-engineer",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "pengelolaan-limbah-dan-bahan-berbahaya",
+      "groupLabel": "Pengelolaan Limbah dan Bahan Berbahaya",
+      "name": "Tailings Monitoring Officer",
+      "slug": "tailings-monitoring-officer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Reclamation Engineer",
+      "slug": "reclamation-engineer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Reclamation Specialist",
+      "slug": "reclamation-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Reclamation Officer",
+      "slug": "reclamation-officer",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Reclamation Supervisor",
+      "slug": "reclamation-supervisor",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Reclamation Coordinator",
+      "slug": "reclamation-coordinator",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Reclamation Superintendent",
+      "slug": "reclamation-superintendent",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Reclamation Manager",
+      "slug": "reclamation-manager",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Mine Reclamation Engineer",
+      "slug": "mine-reclamation-engineer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Mine Reclamation Specialist",
+      "slug": "mine-reclamation-specialist",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Post-Mining Specialist",
+      "slug": "post-mining-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Post-Mining Officer",
+      "slug": "post-mining-officer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Post-Mining Engineer",
+      "slug": "post-mining-engineer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Post-Mining Coordinator",
+      "slug": "post-mining-coordinator",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Closure Planning Specialist",
+      "slug": "closure-planning-specialist",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Mine Closure Specialist",
+      "slug": "mine-closure-specialist",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Mine Closure Engineer",
+      "slug": "mine-closure-engineer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Mine Closure Planner",
+      "slug": "mine-closure-planner",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Mine Closure Coordinator",
+      "slug": "mine-closure-coordinator",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Mine Closure Manager",
+      "slug": "mine-closure-manager",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Revegetation Specialist",
+      "slug": "revegetation-specialist",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Revegetation Officer",
+      "slug": "revegetation-officer",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Revegetation Supervisor",
+      "slug": "revegetation-supervisor",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Land Rehabilitation Specialist",
+      "slug": "land-rehabilitation-specialist",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Land Rehabilitation Officer",
+      "slug": "land-rehabilitation-officer",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Land Restoration Specialist",
+      "slug": "land-restoration-specialist",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Land Restoration Engineer",
+      "slug": "land-restoration-engineer",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Soil Scientist",
+      "slug": "soil-scientist",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Soil Conservation Specialist",
+      "slug": "soil-conservation-specialist",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Topsoil Management Specialist",
+      "slug": "topsoil-management-specialist",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Nursery Specialist",
+      "slug": "nursery-specialist",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Nursery Officer",
+      "slug": "nursery-officer",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "reklamasi-revegetasi-dan-pascatambang",
+      "groupLabel": "Reklamasi, Revegetasi, dan Pascatambang",
+      "name": "Rehabilitation Monitoring Officer",
+      "slug": "rehabilitation-monitoring-officer",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "keanekaragaman-hayati-dan-konservasi",
+      "groupLabel": "Keanekaragaman Hayati dan Konservasi",
+      "name": "Biodiversity Specialist",
+      "slug": "biodiversity-specialist",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "keanekaragaman-hayati-dan-konservasi",
+      "groupLabel": "Keanekaragaman Hayati dan Konservasi",
+      "name": "Biodiversity Officer",
+      "slug": "biodiversity-officer",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "keanekaragaman-hayati-dan-konservasi",
+      "groupLabel": "Keanekaragaman Hayati dan Konservasi",
+      "name": "Biodiversity Coordinator",
+      "slug": "biodiversity-coordinator",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "keanekaragaman-hayati-dan-konservasi",
+      "groupLabel": "Keanekaragaman Hayati dan Konservasi",
+      "name": "Biodiversity Manager",
+      "slug": "biodiversity-manager",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "keanekaragaman-hayati-dan-konservasi",
+      "groupLabel": "Keanekaragaman Hayati dan Konservasi",
+      "name": "Biodiversity Monitoring Officer",
+      "slug": "biodiversity-monitoring-officer",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "keanekaragaman-hayati-dan-konservasi",
+      "groupLabel": "Keanekaragaman Hayati dan Konservasi",
+      "name": "Ecologist",
+      "slug": "ecologist",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "keanekaragaman-hayati-dan-konservasi",
+      "groupLabel": "Keanekaragaman Hayati dan Konservasi",
+      "name": "Mine Ecologist",
+      "slug": "mine-ecologist",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "keanekaragaman-hayati-dan-konservasi",
+      "groupLabel": "Keanekaragaman Hayati dan Konservasi",
+      "name": "Restoration Ecologist",
+      "slug": "restoration-ecologist",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "keanekaragaman-hayati-dan-konservasi",
+      "groupLabel": "Keanekaragaman Hayati dan Konservasi",
+      "name": "Conservation Specialist",
+      "slug": "conservation-specialist",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "keanekaragaman-hayati-dan-konservasi",
+      "groupLabel": "Keanekaragaman Hayati dan Konservasi",
+      "name": "Conservation Officer",
+      "slug": "conservation-officer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "keanekaragaman-hayati-dan-konservasi",
+      "groupLabel": "Keanekaragaman Hayati dan Konservasi",
+      "name": "Wildlife Specialist",
+      "slug": "wildlife-specialist",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "keanekaragaman-hayati-dan-konservasi",
+      "groupLabel": "Keanekaragaman Hayati dan Konservasi",
+      "name": "Wildlife Monitoring Officer",
+      "slug": "wildlife-monitoring-officer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "keanekaragaman-hayati-dan-konservasi",
+      "groupLabel": "Keanekaragaman Hayati dan Konservasi",
+      "name": "Flora and Fauna Specialist",
+      "slug": "flora-and-fauna-specialist",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "keanekaragaman-hayati-dan-konservasi",
+      "groupLabel": "Keanekaragaman Hayati dan Konservasi",
+      "name": "Terrestrial Ecologist",
+      "slug": "terrestrial-ecologist",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "keanekaragaman-hayati-dan-konservasi",
+      "groupLabel": "Keanekaragaman Hayati dan Konservasi",
+      "name": "Aquatic Ecologist",
+      "slug": "aquatic-ecologist",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "keanekaragaman-hayati-dan-konservasi",
+      "groupLabel": "Keanekaragaman Hayati dan Konservasi",
+      "name": "Habitat Restoration Specialist",
+      "slug": "habitat-restoration-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "keanekaragaman-hayati-dan-konservasi",
+      "groupLabel": "Keanekaragaman Hayati dan Konservasi",
+      "name": "Biodiversity Data Analyst",
+      "slug": "biodiversity-data-analyst",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "keanekaragaman-hayati-dan-konservasi",
+      "groupLabel": "Keanekaragaman Hayati dan Konservasi",
+      "name": "Environmental Ecology Specialist",
+      "slug": "environmental-ecology-specialist",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Sustainability Officer",
+      "slug": "sustainability-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Sustainability Specialist",
+      "slug": "sustainability-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Sustainability Analyst",
+      "slug": "sustainability-analyst",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Sustainability Engineer",
+      "slug": "sustainability-engineer",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Sustainability Coordinator",
+      "slug": "sustainability-coordinator",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Sustainability Supervisor",
+      "slug": "sustainability-supervisor",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Sustainability Superintendent",
+      "slug": "sustainability-superintendent",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Sustainability Manager",
+      "slug": "sustainability-manager",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Sustainability Advisor",
+      "slug": "sustainability-advisor",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "ESG Officer",
+      "slug": "esg-officer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "ESG Specialist",
+      "slug": "esg-specialist",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "ESG Analyst",
+      "slug": "esg-analyst",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "ESG Coordinator",
+      "slug": "esg-coordinator",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "ESG Manager",
+      "slug": "esg-manager",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "ESG Reporting Specialist",
+      "slug": "esg-reporting-specialist",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "ESG Data Analyst",
+      "slug": "esg-data-analyst",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Sustainability Reporting Officer",
+      "slug": "sustainability-reporting-officer",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Sustainability Performance Analyst",
+      "slug": "sustainability-performance-analyst",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Sustainable Mining Specialist",
+      "slug": "sustainable-mining-specialist",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Responsible Mining Specialist",
+      "slug": "responsible-mining-specialist",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Climate Change Specialist",
+      "slug": "climate-change-specialist",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Climate Risk Analyst",
+      "slug": "climate-risk-analyst",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Carbon Management Specialist",
+      "slug": "carbon-management-specialist",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Carbon Accounting Analyst",
+      "slug": "carbon-accounting-analyst",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Greenhouse Gas Analyst",
+      "slug": "greenhouse-gas-analyst",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Energy and Carbon Specialist",
+      "slug": "energy-and-carbon-specialist",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Decarbonization Specialist",
+      "slug": "decarbonization-specialist",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "keberlanjutan-dan-esg",
+      "groupLabel": "Keberlanjutan dan ESG",
+      "name": "Environmental and Social Governance Specialist",
+      "slug": "environmental-and-social-governance-specialist",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Community Development Officer",
+      "slug": "community-development-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Community Development Specialist",
+      "slug": "community-development-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Community Development Coordinator",
+      "slug": "community-development-coordinator",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Community Development Supervisor",
+      "slug": "community-development-supervisor",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Community Development Manager",
+      "slug": "community-development-manager",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Community Relations Officer",
+      "slug": "community-relations-officer",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Community Relations Specialist",
+      "slug": "community-relations-specialist",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Community Relations Coordinator",
+      "slug": "community-relations-coordinator",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Community Engagement Officer",
+      "slug": "community-engagement-officer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Community Engagement Specialist",
+      "slug": "community-engagement-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Community Engagement Coordinator",
+      "slug": "community-engagement-coordinator",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Social Performance Officer",
+      "slug": "social-performance-officer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Social Performance Specialist",
+      "slug": "social-performance-specialist",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Social Performance Manager",
+      "slug": "social-performance-manager",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Social Impact Analyst",
+      "slug": "social-impact-analyst",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Social Impact Assessment Specialist",
+      "slug": "social-impact-assessment-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Social Safeguards Specialist",
+      "slug": "social-safeguards-specialist",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Stakeholder Engagement Officer",
+      "slug": "stakeholder-engagement-officer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Stakeholder Engagement Specialist",
+      "slug": "stakeholder-engagement-specialist",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Stakeholder Relations Officer",
+      "slug": "stakeholder-relations-officer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "External Relations Officer",
+      "slug": "external-relations-officer",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "External Relations Specialist",
+      "slug": "external-relations-specialist",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Corporate Social Responsibility Officer",
+      "slug": "corporate-social-responsibility-officer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "CSR Specialist",
+      "slug": "csr-specialist",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "CSR Coordinator",
+      "slug": "csr-coordinator",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "CSR Manager",
+      "slug": "csr-manager",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Community Investment Specialist",
+      "slug": "community-investment-specialist",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Community Empowerment Officer",
+      "slug": "community-empowerment-officer",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Community Livelihood Specialist",
+      "slug": "community-livelihood-specialist",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "sosial-dan-hubungan-masyarakat-tambang",
+      "groupLabel": "Sosial dan Hubungan Masyarakat Tambang",
+      "name": "Program Pengembangan dan Pemberdayaan Masyarakat (PPM) Officer",
+      "slug": "program-pengembangan-dan-pemberdayaan-masyarakat-ppm-officer",
+      "description": null,
+      "displayOrder": 29
+    }
+  ],
+  "profileItems": [
+    {
+      "itemKey": "work-scope-informasi-utama-reklamasi-merupakan-kegiatan-yang-dilakukan-sepanjang-tahapan-usaha-pertambangan-untuk-menata-memulihkan-dan-memperbaiki-kualitas-lin",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Reklamasi merupakan kegiatan yang dilakukan sepanjang tahapan usaha pertambangan untuk menata, memulihkan, dan memperbaiki kualitas lingkungan. Pelaksanaan reklamasi dan pascatambang dapat mencakup penataan lahan, revegetasi, pemantauan, serta pemanfaatan lahan sesuai rencana dan ketentuan yang berlaku. Profesi dalam kategori Lingkungan dan Keberlanjutan dapat terlibat dalam kegiatan berikut:",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengidentifikasi-aspek-dan-potensi-dampak-lingkungan-dari-kegiatan-pertambangan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengidentifikasi aspek dan potensi dampak lingkungan dari kegiatan pertambangan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-penyusunan-pelaksanaan-pemantauan-dan-evaluasi-program-pengelolaan-lingkungan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung penyusunan, pelaksanaan, pemantauan, dan evaluasi program pengelolaan lingkungan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memastikan-kegiatan-operasional-memperhatikan-persyaratan-lingkungan-komitmen-perusahaan-serta-ketentuan-yang-berlaku",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memastikan kegiatan operasional memperhatikan persyaratan lingkungan, komitmen perusahaan, serta ketentuan yang berlaku.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pemantauan-kualitas-air-permukaan-air-tanah-air-limbah-udara-tanah-kebisingan-getaran-dan-parameter-lingkungan-lain-sesuai",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pemantauan kualitas air permukaan, air tanah, air limbah, udara, tanah, kebisingan, getaran, dan parameter lingkungan lain sesuai kebutuhan.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melaksanakan-pengambilan-sampel-lingkungan-serta-mengelola-data-hasil-pemantauan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melaksanakan pengambilan sampel lingkungan serta mengelola data hasil pemantauan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengawasi-pengelolaan-air-tambang-drainase-pengendalian-limpasan-pengolahan-air-dan-pelepasan-air-sesuai-ketentuan-yang-berlaku",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengawasi pengelolaan air tambang, drainase, pengendalian limpasan, pengolahan air, dan pelepasan air sesuai ketentuan yang berlaku.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengidentifikasi-dan-mengelola-potensi-pembentukan-air-asam-tambang",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengidentifikasi dan mengelola potensi pembentukan air asam tambang.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-pengelolaan-limbah-termasuk-pemilahan-penyimpanan-pengangkutan-pengolahan-pemanfaatan-dan-dokumentasi-sesuai-jenis-limbah-s",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung pengelolaan limbah, termasuk pemilahan, penyimpanan, pengangkutan, pengolahan, pemanfaatan, dan dokumentasi sesuai jenis limbah serta ketentuan yang berlaku.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memantau-kondisi-fasilitas-penyimpanan-atau-pengelolaan-limbah-dan-material-sisa-kegiatan-pertambangan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memantau kondisi fasilitas penyimpanan atau pengelolaan limbah dan material sisa kegiatan pertambangan.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melaksanakan-inspeksi-lingkungan-pada-area-tambang-fasilitas-pengolahan-bengkel-stockpile-area-penyimpanan-dan-fasilitas-pendukung",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melaksanakan inspeksi lingkungan pada area tambang, fasilitas pengolahan, bengkel, stockpile, area penyimpanan, dan fasilitas pendukung.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-laporan-pemantauan-evaluasi-kepatuhan-serta-kinerja-lingkungan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun laporan pemantauan, evaluasi, kepatuhan, serta kinerja lingkungan.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-data-lingkungan-dan-melakukan-analisis-tren-untuk-mendukung-pengambilan-keputusan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola data lingkungan dan melakukan analisis tren untuk mendukung pengambilan keputusan.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-atau-mendukung-pelaksanaan-rencana-reklamasi-dan-pascatambang",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun atau mendukung pelaksanaan rencana reklamasi dan pascatambang.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-penataan-lahan-pengelolaan-tanah-pucuk-pengendalian-erosi-revegetasi-pemeliharaan-tanaman-dan-pemantauan-keberhasilan-rekla",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan penataan lahan, pengelolaan tanah pucuk, pengendalian erosi, revegetasi, pemeliharaan tanaman, dan pemantauan keberhasilan reklamasi.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengembangkan-rencana-penutupan-tambang-mine-closure-dan-mengidentifikasi-kebutuhan-pengelolaan-jangka-panjang",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengembangkan rencana penutupan tambang (mine closure) dan mengidentifikasi kebutuhan pengelolaan jangka panjang.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pemantauan-flora-fauna-habitat-dan-kondisi-keanekaragaman-hayati",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pemantauan flora, fauna, habitat, dan kondisi keanekaragaman hayati.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengembangkan-program-konservasi-perlindungan-habitat-pemulihan-ekosistem-atau-pengelolaan-keanekaragaman-hayati",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengembangkan program konservasi, perlindungan habitat, pemulihan ekosistem, atau pengelolaan keanekaragaman hayati.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengumpulkan-dan-mengelola-data-keberlanjutan-termasuk-data-lingkungan-sosial-tata-kelola-energi-emisi-serta-indikator-kinerja-lainny",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengumpulkan dan mengelola data keberlanjutan, termasuk data lingkungan, sosial, tata kelola, energi, emisi, serta indikator kinerja lainnya.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-penyusunan-laporan-keberlanjutan-dan-pengungkapan-esg-sesuai-kerangka-atau-kebutuhan-perusahaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung penyusunan laporan keberlanjutan dan pengungkapan ESG sesuai kerangka atau kebutuhan perusahaan.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengidentifikasi-peluang-efisiensi-sumber-daya-pengurangan-emisi-pengelolaan-energi-dan-peningkatan-kinerja-keberlanjutan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengidentifikasi peluang efisiensi sumber daya, pengurangan emisi, pengelolaan energi, dan peningkatan kinerja keberlanjutan.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pemetaan-pemangku-kepentingan-dan-membangun-komunikasi-dengan-masyarakat-sekitar",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pemetaan pemangku kepentingan dan membangun komunikasi dengan masyarakat sekitar.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengembangkan-serta-melaksanakan-program-pengembangan-dan-pemberdayaan-masyarakat",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengembangkan serta melaksanakan program pengembangan dan pemberdayaan masyarakat.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pemantauan-dampak-sosial-evaluasi-program-masyarakat-dan-pengukuran-manfaat-program",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pemantauan dampak sosial, evaluasi program masyarakat, dan pengukuran manfaat program.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-berkoordinasi-dengan-tim-operasi-geologi-perencanaan-tambang-hse-legal-pemerintah-masyarakat-konsultan-dan-pemangku-kepentingan-lain",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Berkoordinasi dengan tim operasi, geologi, perencanaan tambang, HSE, legal, pemerintah, masyarakat, konsultan, dan pemangku kepentingan lain.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-teknis-umum",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi Teknis Umum",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-pengelolaan-lingkungan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar pengelolaan lingkungan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-aspek-dan-dampak-lingkungan-kegiatan-pertambangan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami aspek dan dampak lingkungan kegiatan pertambangan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-prinsip-pencegahan-dan-pengendalian-pencemaran",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami prinsip pencegahan dan pengendalian pencemaran.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-pengelolaan-air",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar pengelolaan air.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-pengelolaan-limbah",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar pengelolaan limbah.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-pemantauan-kualitas-lingkungan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar pemantauan kualitas lingkungan.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-pengelolaan-data-dan-pelaporan-lingkungan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami pengelolaan data dan pelaporan lingkungan.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-prinsip-reklamasi-dan-pascatambang",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami prinsip reklamasi dan pascatambang.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-konservasi-keanekaragaman-hayati",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar konservasi keanekaragaman hayati.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-prinsip-keberlanjutan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami prinsip keberlanjutan.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-esg",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar ESG.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-keterkaitan-aspek-lingkungan-sosial-dan-tata-kelola",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami keterkaitan aspek lingkungan, sosial, dan tata kelola.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-komunikasi-dengan-pemangku-kepentingan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami komunikasi dengan pemangku kepentingan.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-prinsip-pengembangan-dan-pemberdayaan-masyarakat",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami prinsip pengembangan dan pemberdayaan masyarakat.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-teknis-spesialis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi Teknis Spesialis",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "competency-informasi-utama-penyusunan-dan-evaluasi-program-pengelolaan-lingkungan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Penyusunan dan evaluasi program pengelolaan lingkungan.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemantauan-kualitas-air",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemantauan kualitas air.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemantauan-kualitas-udara",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemantauan kualitas udara.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemantauan-kualitas-tanah",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemantauan kualitas tanah.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemantauan-kebisingan-dan-getaran",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemantauan kebisingan dan getaran.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengambilan-sampel-lingkungan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengambilan sampel lingkungan.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "competency-informasi-utama-analisis-dan-interpretasi-data-lingkungan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis dan interpretasi data lingkungan.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengelolaan-air-tambang",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan air tambang.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengelolaan-air-permukaan-dan-air-tanah",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan air permukaan dan air tanah.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengelolaan-drainase-tambang",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan drainase tambang.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengolahan-air-limbah",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan air limbah.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengelolaan-air-asam-tambang",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan air asam tambang.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengelolaan-limbah",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan limbah.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengelolaan-limbah-berbahaya-sesuai-ketentuan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan limbah berbahaya sesuai ketentuan.",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengelolaan-tailings-dari-perspektif-lingkungan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan tailings dari perspektif lingkungan.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "competency-informasi-utama-audit-dan-inspeksi-lingkungan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Audit dan inspeksi lingkungan.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "competency-informasi-utama-evaluasi-kepatuhan-lingkungan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Evaluasi kepatuhan lingkungan.",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengelolaan-sistem-manajemen-lingkungan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan sistem manajemen lingkungan.",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengelolaan-data-lingkungan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan data lingkungan.",
+      "displayOrder": 34
+    },
+    {
+      "itemKey": "competency-informasi-utama-reklamasi-lahan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Reklamasi lahan.",
+      "displayOrder": 35
+    },
+    {
+      "itemKey": "competency-informasi-utama-penataan-lahan-bekas-tambang",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Penataan lahan bekas tambang.",
+      "displayOrder": 36
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengelolaan-tanah-pucuk",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan tanah pucuk.",
+      "displayOrder": 37
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengendalian-erosi-dan-sedimentasi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengendalian erosi dan sedimentasi.",
+      "displayOrder": 38
+    },
+    {
+      "itemKey": "competency-informasi-utama-revegetasi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Revegetasi.",
+      "displayOrder": 39
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-dan-pemantauan-tanaman",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan dan pemantauan tanaman.",
+      "displayOrder": 40
+    },
+    {
+      "itemKey": "competency-informasi-utama-evaluasi-keberhasilan-reklamasi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Evaluasi keberhasilan reklamasi.",
+      "displayOrder": 41
+    },
+    {
+      "itemKey": "competency-informasi-utama-perencanaan-pascatambang",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Perencanaan pascatambang.",
+      "displayOrder": 42
+    },
+    {
+      "itemKey": "competency-informasi-utama-perencanaan-penutupan-tambang",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Perencanaan penutupan tambang.",
+      "displayOrder": 43
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemantauan-keanekaragaman-hayati",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemantauan keanekaragaman hayati.",
+      "displayOrder": 44
+    },
+    {
+      "itemKey": "competency-informasi-utama-survei-flora-dan-fauna",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Survei flora dan fauna.",
+      "displayOrder": 45
+    },
+    {
+      "itemKey": "competency-informasi-utama-konservasi-habitat",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Konservasi habitat.",
+      "displayOrder": 46
+    },
+    {
+      "itemKey": "competency-informasi-utama-restorasi-ekosistem",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Restorasi ekosistem.",
+      "displayOrder": 47
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengelolaan-emisi-gas-rumah-kaca",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan emisi gas rumah kaca.",
+      "displayOrder": 48
+    },
+    {
+      "itemKey": "competency-informasi-utama-inventarisasi-emisi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Inventarisasi emisi.",
+      "displayOrder": 49
+    },
+    {
+      "itemKey": "competency-informasi-utama-manajemen-karbon",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen karbon.",
+      "displayOrder": 50
+    },
+    {
+      "itemKey": "competency-informasi-utama-analisis-risiko-iklim",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis risiko iklim.",
+      "displayOrder": 51
+    },
+    {
+      "itemKey": "competency-informasi-utama-penyusunan-laporan-keberlanjutan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Penyusunan laporan keberlanjutan.",
+      "displayOrder": 52
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengelolaan-data-esg",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan data ESG.",
+      "displayOrder": 53
+    },
+    {
+      "itemKey": "competency-informasi-utama-analisis-kinerja-keberlanjutan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis kinerja keberlanjutan.",
+      "displayOrder": 54
+    },
+    {
+      "itemKey": "competency-informasi-utama-analisis-dampak-sosial",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis dampak sosial.",
+      "displayOrder": 55
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemetaan-pemangku-kepentingan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemetaan pemangku kepentingan.",
+      "displayOrder": 56
+    },
+    {
+      "itemKey": "competency-informasi-utama-keterlibatan-masyarakat",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keterlibatan masyarakat.",
+      "displayOrder": 57
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengembangan-program-ppm-atau-csr",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengembangan program PPM atau CSR.",
+      "displayOrder": 58
+    },
+    {
+      "itemKey": "competency-informasi-utama-monitoring-dan-evaluasi-program-sosial",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Monitoring dan evaluasi program sosial.",
+      "displayOrder": 59
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-nonteknik",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi nonteknik",
+      "displayOrder": 60
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-analitis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan analitis.",
+      "displayOrder": 61
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-memecahkan-masalah",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan memecahkan masalah.",
+      "displayOrder": 62
+    },
+    {
+      "itemKey": "competency-informasi-utama-ketelitian-dalam-pengelolaan-data",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ketelitian dalam pengelolaan data.",
+      "displayOrder": 63
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-observasi-lapangan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan observasi lapangan.",
+      "displayOrder": 64
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-menyusun-laporan-teknis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan menyusun laporan teknis.",
+      "displayOrder": 65
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-menginterpretasikan-data",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan menginterpretasikan data.",
+      "displayOrder": 66
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-komunikasi-dengan-berbagai-pihak",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan komunikasi dengan berbagai pihak.",
+      "displayOrder": 67
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-bernegosiasi-dan-membangun-hubungan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan bernegosiasi dan membangun hubungan.",
+      "displayOrder": 68
+    },
+    {
+      "itemKey": "competency-informasi-utama-empati-dan-kepekaan-sosial",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Empati dan kepekaan sosial.",
+      "displayOrder": 69
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-bekerja-dalam-tim-multidisiplin",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan bekerja dalam tim multidisiplin.",
+      "displayOrder": 70
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-mengelola-proyek",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan mengelola proyek.",
+      "displayOrder": 71
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-mengambil-keputusan-berbasis-data",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan mengambil keputusan berbasis data.",
+      "displayOrder": 72
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-beradaptasi-terhadap-kondisi-lapangan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan beradaptasi terhadap kondisi lapangan.",
+      "displayOrder": 73
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-menyampaikan-informasi-teknis-secara-mudah-dipahami",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan menyampaikan informasi teknis secara mudah dipahami.",
+      "displayOrder": 74
+    },
+    {
+      "itemKey": "competency-informasi-utama-integritas-dan-tanggung-jawab-profesional",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Integritas dan tanggung jawab profesional.",
+      "displayOrder": 75
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-berpikir-jangka-panjang",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan berpikir jangka panjang.",
+      "displayOrder": 76
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-utama",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan Utama",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-lingkungan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Lingkungan",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "education-informasi-utama-ilmu-lingkungan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ilmu Lingkungan",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "education-informasi-utama-kesehatan-lingkungan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kesehatan Lingkungan",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-pertambangan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Pertambangan",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-geologi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Geologi",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-geodesi-atau-geomatika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Geodesi atau Geomatika",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-kimia",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Kimia",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-sipil",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Sipil",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-industri",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Industri",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-kehutanan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Kehutanan",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "education-informasi-utama-kehutanan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kehutanan",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "education-informasi-utama-konservasi-sumber-daya-hutan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Konservasi Sumber Daya Hutan",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "education-informasi-utama-biologi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Biologi",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "education-informasi-utama-ekologi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ekologi",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "education-informasi-utama-ilmu-tanah",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ilmu Tanah",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "education-informasi-utama-agroteknologi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Agroteknologi",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "education-informasi-utama-agronomi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Agronomi",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "education-informasi-utama-ilmu-kelautan-untuk-lokasi-dan-kegiatan-yang-relevan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ilmu Kelautan, untuk lokasi dan kegiatan yang relevan",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "education-informasi-utama-geografi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Geografi",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "education-informasi-utama-pengelolaan-sumber-daya-alam",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan Sumber Daya Alam",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "education-informasi-utama-pembangunan-sosial",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pembangunan Sosial",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "education-informasi-utama-kesejahteraan-sosial",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kesejahteraan Sosial",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "education-informasi-utama-sosiologi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sosiologi",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "education-informasi-utama-antropologi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Antropologi",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "education-informasi-utama-ilmu-komunikasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ilmu Komunikasi",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "education-informasi-utama-ekonomi-pembangunan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ekonomi Pembangunan",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "education-informasi-utama-manajemen",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "education-informasi-utama-bidang-lain-yang-relevan-dengan-kebutuhan-jabatan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Bidang lain yang relevan dengan kebutuhan jabatan.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-pendukung-untuk-posisi-tertentu",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan Pendukung untuk Posisi Tertentu",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-teknik-lingkungan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Teknik Lingkungan.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-pengelolaan-lingkungan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Pengelolaan Lingkungan.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-kehutanan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Kehutanan.",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-konservasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Konservasi.",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-pengelolaan-sumber-daya-alam",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Pengelolaan Sumber Daya Alam.",
+      "displayOrder": 34
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-pengelolaan-air-dan-limbah",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi pengelolaan air dan limbah.",
+      "displayOrder": 35
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-reklamasi-dan-rehabilitasi-lahan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi reklamasi dan rehabilitasi lahan.",
+      "displayOrder": 36
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-pemantauan-lingkungan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi pemantauan lingkungan.",
+      "displayOrder": 37
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-pengembangan-masyarakat",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi pengembangan masyarakat.",
+      "displayOrder": 38
+    },
+    {
+      "itemKey": "education-informasi-utama-program-pendidikan-yang-berkaitan-dengan-gis-dan-penginderaan-jauh",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program pendidikan yang berkaitan dengan GIS dan penginderaan jauh.",
+      "displayOrder": 39
+    },
+    {
+      "itemKey": "education-informasi-utama-program-pendidikan-yang-berkaitan-dengan-analisis-data-atau-sistem-informasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program pendidikan yang berkaitan dengan analisis data atau sistem informasi.",
+      "displayOrder": 40
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-lain-sesuai-kebutuhan-operasional-dan-persyaratan-jabatan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan lain sesuai kebutuhan operasional dan persyaratan jabatan",
+      "displayOrder": 41
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-enablon",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: Enablon",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-intelex",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: Intelex",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-sphera",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: Sphera",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-b-gis-dan-analisis-spasial",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: B. GIS dan Analisis Spasial",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-arcgis-pro",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: ArcGIS Pro",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-qgis",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: QGIS",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-google-earth-pro",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: Google Earth Pro",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-c-pemodelan-air-dan-lingkungan",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: C. Pemodelan Air dan Lingkungan",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-hec-ras",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: HEC-RAS",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-hec-hms",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: HEC-HMS",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-goldsim",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: GoldSim",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-modflow",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: MODFLOW",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-phreeqc",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: PHREEQC",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-d-pengolahan-data-dan-pelaporan",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: D. Pengolahan Data dan Pelaporan",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-microsoft-excel",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: Microsoft Excel",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-microsoft-power-bi",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: Microsoft Power BI",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-microsoft-word-dan-powerpoint",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: Microsoft Word dan PowerPoint",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-e-analisis-data-dan-otomasi",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: E. Analisis Data dan Otomasi",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-python",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: Python",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-r",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: R",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "software-informasi-utama-sistem-manajemen-lingkungan-dan-kepatuhan-postgresql-postgis",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Manajemen Lingkungan dan Kepatuhan: PostgreSQL/PostGIS",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-teknis",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan teknis",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-manajemen-lingkungan-pertambangan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan manajemen lingkungan pertambangan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengelolaan-dan-pemantauan-lingkungan-tambang",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengelolaan dan pemantauan lingkungan tambang.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-sistem-manajemen-lingkungan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan sistem manajemen lingkungan.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-inspeksi-dan-audit-lingkungan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan inspeksi dan audit lingkungan.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengelolaan-kepatuhan-lingkungan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengelolaan kepatuhan lingkungan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengambilan-sampel-lingkungan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengambilan sampel lingkungan.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemantauan-kualitas-air",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemantauan kualitas air.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemantauan-kualitas-udara",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemantauan kualitas udara.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemantauan-kualitas-tanah",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemantauan kualitas tanah.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemantauan-kebisingan-dan-getaran",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemantauan kebisingan dan getaran.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengelolaan-air-tambang",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengelolaan air tambang.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengelolaan-air-asam-tambang",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengelolaan air asam tambang.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengolahan-air-limbah",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengolahan air limbah.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengelolaan-limbah",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengelolaan limbah.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengelolaan-limbah-berbahaya-sesuai-ketentuan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengelolaan limbah berbahaya sesuai ketentuan.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengelolaan-tailings",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengelolaan tailings.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-reklamasi-dan-pascatambang",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan reklamasi dan pascatambang.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-penataan-lahan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan penataan lahan.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengelolaan-tanah-pucuk",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengelolaan tanah pucuk.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengendalian-erosi-dan-sedimentasi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengendalian erosi dan sedimentasi.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-revegetasi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan revegetasi.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-rehabilitasi-lahan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan rehabilitasi lahan.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-perencanaan-penutupan-tambang",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan perencanaan penutupan tambang.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemantauan-keanekaragaman-hayati",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemantauan keanekaragaman hayati.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-survei-flora-dan-fauna",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan survei flora dan fauna.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-konservasi-dan-restorasi-ekosistem",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan konservasi dan restorasi ekosistem.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-gis-untuk-pengelolaan-lingkungan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan GIS untuk pengelolaan lingkungan.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-penginderaan-jauh",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan penginderaan jauh.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-analisis-data-lingkungan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan analisis data lingkungan.",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-inventarisasi-emisi-gas-rumah-kaca",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan inventarisasi emisi gas rumah kaca.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-manajemen-karbon",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan manajemen karbon.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pelaporan-esg-dan-keberlanjutan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pelaporan ESG dan keberlanjutan.",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-analisis-risiko-iklim",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan analisis risiko iklim.",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-analisis-dampak-sosial",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan analisis dampak sosial.",
+      "displayOrder": 34
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keterlibatan-pemangku-kepentingan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keterlibatan pemangku kepentingan.",
+      "displayOrder": 35
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengembangan-masyarakat",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengembangan masyarakat.",
+      "displayOrder": 36
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-monitoring-dan-evaluasi-program-ppm-atau-csr",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan monitoring dan evaluasi program PPM atau CSR.",
+      "displayOrder": 37
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan",
+      "displayOrder": 38
+    },
+    {
+      "itemKey": "training-informasi-utama-induksi-keselamatan-pertambangan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Induksi keselamatan pertambangan.",
+      "displayOrder": 39
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-kerja-lapangan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan kerja lapangan.",
+      "displayOrder": 40
+    },
+    {
+      "itemKey": "training-informasi-utama-identifikasi-bahaya-dan-penilaian-risiko",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Identifikasi bahaya dan penilaian risiko.",
+      "displayOrder": 41
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-pengambilan-sampel-lingkungan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan pengambilan sampel lingkungan.",
+      "displayOrder": 42
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-bekerja-di-dekat-alat-berat",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan bekerja di dekat alat berat.",
+      "displayOrder": 43
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-lalu-lintas-tambang",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan lalu lintas tambang.",
+      "displayOrder": 44
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-kerja-di-dekat-lereng-dan-area-tambang-aktif",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan kerja di dekat lereng dan area tambang aktif.",
+      "displayOrder": 45
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-bekerja-di-sekitar-badan-air",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan bekerja di sekitar badan air.",
+      "displayOrder": 46
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-penggunaan-peralatan-pemantauan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan penggunaan peralatan pemantauan.",
+      "displayOrder": 47
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-penggunaan-bahan-kimia",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan penggunaan bahan kimia.",
+      "displayOrder": 48
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-pengelolaan-limbah",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan pengelolaan limbah.",
+      "displayOrder": 49
+    },
+    {
+      "itemKey": "training-informasi-utama-penggunaan-alat-pelindung-diri",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Penggunaan alat pelindung diri.",
+      "displayOrder": 50
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-bekerja-di-ketinggian-apabila-relevan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan bekerja di ketinggian apabila relevan.",
+      "displayOrder": 51
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-ruang-terbatas-apabila-relevan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan ruang terbatas apabila relevan.",
+      "displayOrder": 52
+    },
+    {
+      "itemKey": "training-informasi-utama-pertolongan-pertama-sesuai-kebutuhan-tempat-kerja",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pertolongan pertama sesuai kebutuhan tempat kerja.",
+      "displayOrder": 53
+    },
+    {
+      "itemKey": "training-informasi-utama-tanggap-darurat",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Tanggap darurat.",
+      "displayOrder": 54
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-berdasarkan-risiko-spesifik-lokasi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan berdasarkan risiko spesifik lokasi.",
+      "displayOrder": 55
+    }
+  ]
+}

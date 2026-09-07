@@ -1,0 +1,2421 @@
+{
+  "schemaVersion": "1.0",
+  "categorySlug": "survei-gis-dan-geospasial",
+  "category": {
+    "name": "Survei, GIS, dan Geospasial",
+    "slug": "survei-gis-dan-geospasial",
+    "description": "Deskripsi Kategori",
+    "displayOrder": 4,
+    "isActive": true
+  },
+  "profile": {
+    "title": "Survei, GIS, dan Geospasial",
+    "slug": "survei-gis-dan-geospasial",
+    "excerpt": "Deskripsi Kategori",
+    "body": "Deskripsi Kategori\n\nKategori Survei, GIS, dan Geospasial mencakup profesi yang berperan dalam memperoleh, mengolah, menganalisis, serta menyajikan informasi mengenai posisi, bentuk, elevasi, luas, volume, batas, dan kondisi spasial suatu wilayah pertambangan. Bidang ini menggunakan metode pengukuran terestris, GNSS, pemetaan digital, fotogrametri, penginderaan jauh, pemindaian laser, serta Sistem Informasi Geografis (Geographic Information System/GIS).\n\nDalam kegiatan pertambangan, data survei dan geospasial digunakan untuk mendukung pemetaan wilayah, penentuan batas, desain dan kemajuan tambang, pengukuran volume, pemantauan perubahan topografi, pengelolaan infrastruktur, serta pengendalian kegiatan operasional. Ketelitian data sangat penting karena hasil pengukuran dapat menjadi dasar bagi perencanaan teknis, evaluasi produksi, pengawasan kondisi lapangan, dan dokumentasi kegiatan pertambangan. Ketentuan teknis pertambangan juga mengatur bahwa survei untuk pemetaan perencanaan dan kemajuan kegiatan pertambangan dapat dilakukan oleh Juru Ukur Tambang yang ditetapkan sesuai ketentuan yang berlaku.\n\nContoh Profesi\n\nSurvei dan Pengukuran Tambang\n\nMine Surveyor\n\nMining Surveyor\n\nMine Survey Engineer\n\nMine Survey Superintendent\n\nMine Survey Supervisor\n\nMine Survey Coordinator\n\nMine Survey Officer\n\nMine Survey Technician\n\nMine Survey Assistant\n\nJuru Ukur Tambang\n\nSurveyor Tambang\n\nSurvey Technician\n\nSurvey Assistant\n\nSurvey Crew Leader\n\nSurvey Crew Member\n\nField Surveyor\n\nEngineering Surveyor\n\nConstruction Surveyor\n\nTopographic Surveyor\n\nCadastral Surveyor\n\nBoundary Surveyor\n\nQuantity Survey Technician\n\nVolume Surveyor\n\nStockpile Surveyor\n\nPit Surveyor\n\nUnderground Mine Surveyor\n\nUnderground Survey Technician\n\nTunnel Surveyor\n\nUnderground Survey Assistant\n\nGeodesi dan Geomatika\n\nGeodetic Engineer\n\nGeodesy Engineer\n\nGeomatics Engineer\n\nGeospatial Engineer\n\nGeospatial Surveyor\n\nGeospatial Technician\n\nGeospatial Data Specialist\n\nGeospatial Data Engineer\n\nGeospatial Analyst\n\nGeospatial Data Analyst\n\nSpatial Data Specialist\n\nSpatial Data Analyst\n\nGeodetic Surveyor\n\nGeodetic Technician\n\nPositioning Specialist\n\nGNSS Survey Specialist\n\nGNSS Surveyor\n\nGNSS Technician\n\nGIS dan Pemetaan Digital\n\nGIS Specialist\n\nGIS Analyst\n\nGIS Engineer\n\nGIS Officer\n\nGIS Coordinator\n\nGIS Supervisor\n\nGIS Technician\n\nGIS Administrator\n\nGIS Database Administrator\n\nGIS Data Manager\n\nGIS Developer\n\nGIS Application Specialist\n\nSpatial Database Specialist\n\nSpatial Data Manager\n\nCartographer\n\nDigital Cartographer\n\nMapping Specialist\n\nMapping Technician\n\nGeospatial Mapping Officer\n\nMine Mapping Specialist\n\nPenginderaan Jauh, Fotogrametri, dan Drone\n\nRemote Sensing Specialist\n\nRemote Sensing Analyst\n\nRemote Sensing Engineer\n\nRemote Sensing Technician\n\nSatellite Imagery Analyst\n\nGeospatial Imagery Analyst\n\nPhotogrammetrist\n\nPhotogrammetry Specialist\n\nPhotogrammetry Technician\n\nAerial Survey Specialist\n\nAerial Mapping Specialist\n\nDrone Surveyor\n\nDrone Mapping Specialist\n\nUAV Survey Pilot\n\nUAV Mapping Technician\n\nUAV Data Analyst\n\nDrone Data Processor\n\nLiDAR Specialist\n\nLiDAR Surveyor\n\nLiDAR Data Analyst\n\nLaser Scanning Specialist\n\nTerrestrial Laser Scanning Technicia\n\nPemodelan Permukaan dan Analisis Spasial\n\nDigital Terrain Model Specialist\n\nTerrain Modelling Specialist\n\nSurface Modelling Engineer\n\nTopographic Data Analyst\n\nSpatial Modelling Specialist\n\nGeospatial Modelling Engineer\n\n3D Mapping Specialist\n\n3D Spatial Data Analyst\n\nMine Surface Modeler\n\nVolume Calculation Specialist\n\nEarthworks Quantity Analyst\n\nGeospatial Visualization Specialist\n\nPengelolaan Data dan Sistem Geospasial\n\nGeospatial Database Administrator\n\nSpatial Database Engineer\n\nGeospatial Data Manager\n\nGeospatial Information Officer\n\nGeospatial Systems Administrator\n\nEnterprise GIS Specialist\n\nGIS Solutions Architect\n\nGeospatial Application Developer\n\nWeb GIS Developer\n\nGeospatial Software Developer\n\nSpatial Data Quality Analyst\n\nGeospatial Data Governance Specialist\n\nGeospatial Information Management Specialist\n\nRuang Lingkup Pekerjaan\n\nRuang lingkup pekerjaan dapat berbeda antara tambang terbuka dan tambang bawah tanah. Pada tambang bawah tanah, survei dapat mencakup pengendalian arah pengembangan, pengukuran terowongan, serta pemindahan kontrol pengukuran ke area bawah tanah. Profesi dalam kategori Survei, GIS, dan Geospasial dapat terlibat dalam kegiatan berikut:\n\nMelakukan pengukuran posisi, jarak, sudut, elevasi, dan koordinat menggunakan peralatan survei sesuai kebutuhan pekerjaan.\n\nMenetapkan, memeriksa, serta memelihara titik kontrol atau jaringan kontrol survei.\n\nMelakukan pengukuran topografi dan kondisi permukaan untuk menghasilkan data kontur, elevasi, serta model permukaan.\n\nMelakukan survei situasi, pengukuran detail, dan pemetaan area tambang maupun fasilitas pendukung.\n\nMelakukan stakeout atau pematokan lokasi berdasarkan desain dan rencana teknis yang telah ditetapkan.\n\nMengukur kemajuan kegiatan penambangan, perkembangan area kerja, posisi bench, jalan tambang, stockpile, area penimbunan, dan fasilitas lainnya.\n\nMenghitung luas, volume, tonase estimasi, atau perubahan bentuk permukaan berdasarkan data survei dan model spasial.\n\nMelakukan survei batas wilayah, titik batas, serta dokumentasi spasial sesuai kebutuhan dan ketentuan yang berlaku.\n\nMengumpulkan, mengolah, memvalidasi, dan memperbarui data spasial menggunakan perangkat lunak survei dan GIS.\n\nMembuat peta topografi, peta kemajuan tambang, peta infrastruktur, peta tematik, penampang, serta visualisasi spasial lainnya.\n\nMengintegrasikan data geologi, survei, lingkungan, infrastruktur, perizinan, dan data operasional ke dalam sistem GIS.\n\nMenggunakan citra satelit, foto udara, drone, fotogrametri, atau LiDAR untuk memperoleh informasi kondisi area dan perubahan permukaan.\n\nMelakukan analisis spasial untuk mendukung perencanaan, pengelolaan lahan, pemantauan lingkungan, keselamatan, dan pengambilan keputusan.\n\nMelakukan pemeriksaan kualitas data (quality assurance/quality control atau QA/QC), termasuk ketelitian, konsistensi, kelengkapan, dan kesesuaian sistem koordinat.\n\nMenyusun peta, laporan, basis data, model digital, serta dokumentasi hasil pengukuran.\n\nBerkoordinasi dengan tim geologi, perencanaan tambang, operasi, geoteknik, lingkungan, legal, dan teknologi informasi.\n\nKompetensi\n\nKompetensi teknis umum\n\nMemahami dasar survei, pemetaan, dan sistem koordinat.\n\nMemahami prinsip penentuan posisi dan pengukuran.\n\nMampu membaca peta, gambar teknis, kontur, serta penampang.\n\nMemahami dasar geodesi dan referensi koordinat.\n\nMemahami penggunaan sistem koordinat geografis dan sistem koordinat proyeksi.\n\nMemahami prinsip pengukuran jarak, sudut, elevasi, dan koordinat.\n\nMemahami dasar pengolahan data survei.\n\nMemahami pembuatan peta topografi dan peta tematik.\n\nMemahami dasar pengelolaan data spasial.\n\nMemahami prinsip ketelitian dan pengendalian kualitas data.\n\nMemahami dokumentasi hasil pengukuran.\n\nMemahami keselamatan kerja pada kegiatan survei lapangan.\n\nKompetensi teknis spesialis\n\nPengoperasian total station.\n\nPengoperasian GNSS/GPS survei.\n\nPengukuran poligon.\n\nPengukuran detail situasi.\n\nPengukuran topografi.\n\nPengukuran elevasi dan leveling.\n\nPenetapan serta pengelolaan titik kontrol.\n\nStakeout dan pematokan desain.\n\nSurvei kemajuan tambang.\n\nPengukuran stockpile dan perhitungan volume.\n\nPembuatan peta topografi dan penampang.\n\nSurvei batas wilayah.\n\nSurvei tambang bawah tanah.\n\nPengolahan data survei.\n\nPengelolaan sistem koordinat dan transformasi koordinat.\n\nAnalisis GIS.\n\nManajemen basis data spasial.\n\nAnalisis spasial.\n\nKartografi digital.\n\nPenginderaan jauh.\n\nInterpretasi citra satelit.\n\nFotogrametri.\n\nPengolahan data drone/UAV.\n\nPengolahan data LiDAR.\n\nPembuatan Digital Elevation Model (DEM).\n\nPembuatan Digital Terrain Model (DTM).\n\nPemodelan permukaan tiga dimensi.\n\nPengembangan aplikasi GIS atau Web GIS.\n\nPengelolaan dan validasi data geospasial.\n\nKompetensi nonteknis\n\nKetelitian dan perhatian terhadap detail.\n\nKemampuan analitis.\n\nKemampuan memecahkan masalah.\n\nKemampuan observasi kondisi lapangan.\n\nBerpikir sistematis dan spasial.\n\nKemampuan mengelola serta menginterpretasikan data.\n\nKomunikasi teknis.\n\nKemampuan menyampaikan informasi spasial secara jelas.\n\nKerja sama dalam tim multidisiplin.\n\nManajemen waktu.\n\nKemampuan bekerja di lapangan.\n\nAdaptabilitas terhadap kondisi medan dan cuaca.\n\nDisiplin dalam mengikuti prosedur.\n\nTanggung jawab terhadap kualitas data.\n\nKesadaran terhadap keselamatan kerja.\n\nPendidikan yang Relevan\n\nPendidikan utama\n\nTeknik Geodesi\n\nTeknik Geomatika\n\nGeomatika\n\nSurvei dan Pemetaan\n\nTeknologi Geospasial\n\nSistem Informasi Geografis\n\nGeografi\n\nGeografi Fisik\n\nPenginderaan Jauh\n\nTeknik Pertambangan, khususnya untuk pekerjaan survei tambang\n\nTeknik Geologi, untuk pekerjaan spasial tertentu\n\nTeknik Sipil, khususnya survei konstruksi atau infrastruktur\n\nPendidikan pendukung untuk posisi tertentu\n\nProgram Diploma Survei dan Pemetaan.\n\nProgram Diploma Geomatika.\n\nProgram Diploma Geodesi.\n\nProgram Vokasi Teknologi Geospasial.\n\nProgram Vokasi Sistem Informasi Geografis.\n\nPendidikan vokasi survei tambang.\n\nPendidikan vokasi pengoperasian alat ukur.\n\nTeknik Informatika atau Sistem Informasi untuk pengembangan GIS dan sistem geospasial.\n\nIlmu Komputer atau Sains Data untuk pengelolaan dan analisis data geospasial.\n\nBidang pendidikan lain yang relevan dengan kebutuhan pekerjaan.\n\nSoftware yang Digunakan\n\n| A. Pengolahan Data Survei dan Tambang |\n| --- |\n| Trimble Business Center (TBC) Mining |\n| Trimble Access Mines |\n| Carlson Mining |\n| Leica Infinity |\n| Topcon Tools |\n| B. GIS dan Analisis Spasial |\n| ArcGIS Pro |\n| ArcGIS Online |\n| QGIS |\n| MapInfo Pro |\n| Global Mapper |\n| C. Fotogrametri, Drone, dan Penginderaan Jauh |\n| Agisoft Metashape |\n| Pix4Dmapper |\n| DJI Terra |\n| ERDAS IMAGINE |\n| ENVI |\n| D. CAD dan Dokumentasi Teknis |\n| AutoCAD |\n| Civil 3D |\n| Bentley OpenRoads atau MicroStation |\n| E. Pengolahan dan Visualisasi Data |\n| Microsoft Excel |\n| Microsoft Power BI |\n| Python atau R |\n| PostgreSQL/PostGIS |\n\nPelatihan Relevan\n\nPelatihan teknis\n\nPelatihan dasar survei dan pemetaan.\n\nPelatihan survei tambang terbuka.\n\nPelatihan survei tambang bawah tanah.\n\nPelatihan pengoperasian total station.\n\nPelatihan survei GNSS/GPS.\n\nPelatihan pengukuran poligon.\n\nPelatihan pengukuran situasi dan detail.\n\nPelatihan pengukuran topografi.\n\nPelatihan leveling dan pengukuran elevasi.\n\nPelatihan penetapan titik kontrol.\n\nPelatihan stakeout dan pematokan.\n\nPelatihan pengukuran kemajuan tambang.\n\nPelatihan pengukuran stockpile.\n\nPelatihan perhitungan luas dan volume.\n\nPelatihan pembuatan peta topografi.\n\nPelatihan pembuatan penampang.\n\nPelatihan survei batas wilayah.\n\nPelatihan pengolahan data survei.\n\nPelatihan penggunaan Trimble Business Center atau perangkat lunak survei lain.\n\nPelatihan ArcGIS.\n\nPelatihan QGIS.\n\nPelatihan analisis spasial.\n\nPelatihan pengelolaan basis data geospasial.\n\nPelatihan kartografi digital.\n\nPelatihan penginderaan jauh.\n\nPelatihan interpretasi citra satelit.\n\nPelatihan fotogrametri.\n\nPelatihan pemetaan menggunakan drone/UAV.\n\nPelatihan pengolahan data LiDAR.\n\nPelatihan pemodelan permukaan tiga dimensi.\n\nPelatihan pengendalian kualitas data survei dan geospasial.\n\nPelatihan keselamatan\n\nKeselamatan dan kesehatan kerja pertambangan.\n\nInduksi keselamatan area tambang.\n\nIdentifikasi bahaya dan penilaian risiko.\n\nKeselamatan kerja survei lapangan.\n\nKeselamatan bekerja di dekat alat berat.\n\nKeselamatan lalu lintas tambang.\n\nKeselamatan bekerja di area aktif tambang.\n\nKeselamatan kerja di dekat lereng, bench, dan area berisiko.\n\nKeselamatan survei tambang bawah tanah.\n\nKeselamatan kerja pada area terbatas atau ruang tertutup apabila relevan.\n\nKeselamatan kerja di ketinggian apabila relevan.\n\nKeselamatan penggunaan peralatan survei.\n\nKeselamatan pengoperasian drone sesuai prosedur yang berlaku.\n\nManajemen kelelahan dan keselamatan perjalanan lapangan.\n\nTanggap darurat.\n\nPertolongan pertama sesuai kebutuhan tempat kerja.\n\nPelatihan keselamatan berdasarkan risiko lokasi dan aktivitas kerja.",
+    "coverImageUrl": null,
+    "status": "published",
+    "publishedAt": "2026-09-05T00:00:00.000Z",
+    "readingTimeMinutes": null,
+    "isFeatured": false,
+    "metadata": {},
+    "sources": [
+      {
+        "sourceSlug": "bpsdm-esdm-go-id-2",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 0
+      },
+      {
+        "sourceSlug": "bpsdm-esdm-go-id-3",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 1
+      },
+      {
+        "sourceSlug": "bpsdm-esdm-go-id-4",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 2
+      },
+      {
+        "sourceSlug": "bpsdm-esdm-go-id-5",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 3
+      },
+      {
+        "sourceSlug": "jdih-esdm-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 4
+      },
+      {
+        "sourceSlug": "jdih-kementerian-esdm-2",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 5
+      },
+      {
+        "sourceSlug": "esri",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 6
+      },
+      {
+        "sourceSlug": "esri-2",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 7
+      },
+      {
+        "sourceSlug": "trimble-geospatial",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 8
+      },
+      {
+        "sourceSlug": "trimble-geospatial-2",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 9
+      },
+      {
+        "sourceSlug": "trimble-geospatial-3",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 10
+      },
+      {
+        "sourceSlug": "geospatial-trimble-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 11
+      }
+    ]
+  },
+  "professions": [
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Mine Surveyor",
+      "slug": "mine-surveyor",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Mining Surveyor",
+      "slug": "mining-surveyor",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Mine Survey Engineer",
+      "slug": "mine-survey-engineer",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Mine Survey Superintendent",
+      "slug": "mine-survey-superintendent",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Mine Survey Supervisor",
+      "slug": "mine-survey-supervisor",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Mine Survey Coordinator",
+      "slug": "mine-survey-coordinator",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Mine Survey Officer",
+      "slug": "mine-survey-officer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Mine Survey Technician",
+      "slug": "mine-survey-technician",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Mine Survey Assistant",
+      "slug": "mine-survey-assistant",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Juru Ukur Tambang",
+      "slug": "juru-ukur-tambang",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Surveyor Tambang",
+      "slug": "surveyor-tambang",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Survey Technician",
+      "slug": "survey-technician",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Survey Assistant",
+      "slug": "survey-assistant",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Survey Crew Leader",
+      "slug": "survey-crew-leader",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Survey Crew Member",
+      "slug": "survey-crew-member",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Field Surveyor",
+      "slug": "field-surveyor",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Engineering Surveyor",
+      "slug": "engineering-surveyor",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Construction Surveyor",
+      "slug": "construction-surveyor",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Topographic Surveyor",
+      "slug": "topographic-surveyor",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Cadastral Surveyor",
+      "slug": "cadastral-surveyor",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Boundary Surveyor",
+      "slug": "boundary-surveyor",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Quantity Survey Technician",
+      "slug": "quantity-survey-technician",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Volume Surveyor",
+      "slug": "volume-surveyor",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Stockpile Surveyor",
+      "slug": "stockpile-surveyor",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Pit Surveyor",
+      "slug": "pit-surveyor",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Underground Mine Surveyor",
+      "slug": "underground-mine-surveyor",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Underground Survey Technician",
+      "slug": "underground-survey-technician",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Tunnel Surveyor",
+      "slug": "tunnel-surveyor",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "survei-dan-pengukuran-tambang",
+      "groupLabel": "Survei dan Pengukuran Tambang",
+      "name": "Underground Survey Assistant",
+      "slug": "underground-survey-assistant",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "geodesi-dan-geomatika",
+      "groupLabel": "Geodesi dan Geomatika",
+      "name": "Geodetic Engineer",
+      "slug": "geodetic-engineer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "geodesi-dan-geomatika",
+      "groupLabel": "Geodesi dan Geomatika",
+      "name": "Geodesy Engineer",
+      "slug": "geodesy-engineer",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "geodesi-dan-geomatika",
+      "groupLabel": "Geodesi dan Geomatika",
+      "name": "Geomatics Engineer",
+      "slug": "geomatics-engineer",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "geodesi-dan-geomatika",
+      "groupLabel": "Geodesi dan Geomatika",
+      "name": "Geospatial Engineer",
+      "slug": "geospatial-engineer",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "geodesi-dan-geomatika",
+      "groupLabel": "Geodesi dan Geomatika",
+      "name": "Geospatial Surveyor",
+      "slug": "geospatial-surveyor",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "geodesi-dan-geomatika",
+      "groupLabel": "Geodesi dan Geomatika",
+      "name": "Geospatial Technician",
+      "slug": "geospatial-technician",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "geodesi-dan-geomatika",
+      "groupLabel": "Geodesi dan Geomatika",
+      "name": "Geospatial Data Specialist",
+      "slug": "geospatial-data-specialist",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "geodesi-dan-geomatika",
+      "groupLabel": "Geodesi dan Geomatika",
+      "name": "Geospatial Data Engineer",
+      "slug": "geospatial-data-engineer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "geodesi-dan-geomatika",
+      "groupLabel": "Geodesi dan Geomatika",
+      "name": "Geospatial Analyst",
+      "slug": "geospatial-analyst",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "geodesi-dan-geomatika",
+      "groupLabel": "Geodesi dan Geomatika",
+      "name": "Geospatial Data Analyst",
+      "slug": "geospatial-data-analyst",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "geodesi-dan-geomatika",
+      "groupLabel": "Geodesi dan Geomatika",
+      "name": "Spatial Data Specialist",
+      "slug": "spatial-data-specialist",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "geodesi-dan-geomatika",
+      "groupLabel": "Geodesi dan Geomatika",
+      "name": "Spatial Data Analyst",
+      "slug": "spatial-data-analyst",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "geodesi-dan-geomatika",
+      "groupLabel": "Geodesi dan Geomatika",
+      "name": "Geodetic Surveyor",
+      "slug": "geodetic-surveyor",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "geodesi-dan-geomatika",
+      "groupLabel": "Geodesi dan Geomatika",
+      "name": "Geodetic Technician",
+      "slug": "geodetic-technician",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "geodesi-dan-geomatika",
+      "groupLabel": "Geodesi dan Geomatika",
+      "name": "Positioning Specialist",
+      "slug": "positioning-specialist",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "geodesi-dan-geomatika",
+      "groupLabel": "Geodesi dan Geomatika",
+      "name": "GNSS Survey Specialist",
+      "slug": "gnss-survey-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "geodesi-dan-geomatika",
+      "groupLabel": "Geodesi dan Geomatika",
+      "name": "GNSS Surveyor",
+      "slug": "gnss-surveyor",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "geodesi-dan-geomatika",
+      "groupLabel": "Geodesi dan Geomatika",
+      "name": "GNSS Technician",
+      "slug": "gnss-technician",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "gis-dan-pemetaan-digital",
+      "groupLabel": "GIS dan Pemetaan Digital",
+      "name": "GIS Specialist",
+      "slug": "gis-specialist",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "gis-dan-pemetaan-digital",
+      "groupLabel": "GIS dan Pemetaan Digital",
+      "name": "GIS Analyst",
+      "slug": "gis-analyst",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "gis-dan-pemetaan-digital",
+      "groupLabel": "GIS dan Pemetaan Digital",
+      "name": "GIS Engineer",
+      "slug": "gis-engineer",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "gis-dan-pemetaan-digital",
+      "groupLabel": "GIS dan Pemetaan Digital",
+      "name": "GIS Officer",
+      "slug": "gis-officer",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "gis-dan-pemetaan-digital",
+      "groupLabel": "GIS dan Pemetaan Digital",
+      "name": "GIS Coordinator",
+      "slug": "gis-coordinator",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "gis-dan-pemetaan-digital",
+      "groupLabel": "GIS dan Pemetaan Digital",
+      "name": "GIS Supervisor",
+      "slug": "gis-supervisor",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "gis-dan-pemetaan-digital",
+      "groupLabel": "GIS dan Pemetaan Digital",
+      "name": "GIS Technician",
+      "slug": "gis-technician",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "gis-dan-pemetaan-digital",
+      "groupLabel": "GIS dan Pemetaan Digital",
+      "name": "GIS Administrator",
+      "slug": "gis-administrator",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "gis-dan-pemetaan-digital",
+      "groupLabel": "GIS dan Pemetaan Digital",
+      "name": "GIS Database Administrator",
+      "slug": "gis-database-administrator",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "gis-dan-pemetaan-digital",
+      "groupLabel": "GIS dan Pemetaan Digital",
+      "name": "GIS Data Manager",
+      "slug": "gis-data-manager",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "gis-dan-pemetaan-digital",
+      "groupLabel": "GIS dan Pemetaan Digital",
+      "name": "GIS Developer",
+      "slug": "gis-developer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "gis-dan-pemetaan-digital",
+      "groupLabel": "GIS dan Pemetaan Digital",
+      "name": "GIS Application Specialist",
+      "slug": "gis-application-specialist",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "gis-dan-pemetaan-digital",
+      "groupLabel": "GIS dan Pemetaan Digital",
+      "name": "Spatial Database Specialist",
+      "slug": "spatial-database-specialist",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "gis-dan-pemetaan-digital",
+      "groupLabel": "GIS dan Pemetaan Digital",
+      "name": "Spatial Data Manager",
+      "slug": "spatial-data-manager",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "gis-dan-pemetaan-digital",
+      "groupLabel": "GIS dan Pemetaan Digital",
+      "name": "Cartographer",
+      "slug": "cartographer",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "gis-dan-pemetaan-digital",
+      "groupLabel": "GIS dan Pemetaan Digital",
+      "name": "Digital Cartographer",
+      "slug": "digital-cartographer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "gis-dan-pemetaan-digital",
+      "groupLabel": "GIS dan Pemetaan Digital",
+      "name": "Mapping Specialist",
+      "slug": "mapping-specialist",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "gis-dan-pemetaan-digital",
+      "groupLabel": "GIS dan Pemetaan Digital",
+      "name": "Mapping Technician",
+      "slug": "mapping-technician",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "gis-dan-pemetaan-digital",
+      "groupLabel": "GIS dan Pemetaan Digital",
+      "name": "Geospatial Mapping Officer",
+      "slug": "geospatial-mapping-officer",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "gis-dan-pemetaan-digital",
+      "groupLabel": "GIS dan Pemetaan Digital",
+      "name": "Mine Mapping Specialist",
+      "slug": "mine-mapping-specialist",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "Remote Sensing Specialist",
+      "slug": "remote-sensing-specialist",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "Remote Sensing Analyst",
+      "slug": "remote-sensing-analyst",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "Remote Sensing Engineer",
+      "slug": "remote-sensing-engineer",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "Remote Sensing Technician",
+      "slug": "remote-sensing-technician",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "Satellite Imagery Analyst",
+      "slug": "satellite-imagery-analyst",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "Geospatial Imagery Analyst",
+      "slug": "geospatial-imagery-analyst",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "Photogrammetrist",
+      "slug": "photogrammetrist",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "Photogrammetry Specialist",
+      "slug": "photogrammetry-specialist",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "Photogrammetry Technician",
+      "slug": "photogrammetry-technician",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "Aerial Survey Specialist",
+      "slug": "aerial-survey-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "Aerial Mapping Specialist",
+      "slug": "aerial-mapping-specialist",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "Drone Surveyor",
+      "slug": "drone-surveyor",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "Drone Mapping Specialist",
+      "slug": "drone-mapping-specialist",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "UAV Survey Pilot",
+      "slug": "uav-survey-pilot",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "UAV Mapping Technician",
+      "slug": "uav-mapping-technician",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "UAV Data Analyst",
+      "slug": "uav-data-analyst",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "Drone Data Processor",
+      "slug": "drone-data-processor",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "LiDAR Specialist",
+      "slug": "lidar-specialist",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "LiDAR Surveyor",
+      "slug": "lidar-surveyor",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "LiDAR Data Analyst",
+      "slug": "lidar-data-analyst",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "Laser Scanning Specialist",
+      "slug": "laser-scanning-specialist",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "penginderaan-jauh-fotogrametri-dan-drone",
+      "groupLabel": "Penginderaan Jauh, Fotogrametri, dan Drone",
+      "name": "Terrestrial Laser Scanning Technicia",
+      "slug": "terrestrial-laser-scanning-technicia",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "pemodelan-permukaan-dan-analisis-spasial",
+      "groupLabel": "Pemodelan Permukaan dan Analisis Spasial",
+      "name": "Digital Terrain Model Specialist",
+      "slug": "digital-terrain-model-specialist",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "pemodelan-permukaan-dan-analisis-spasial",
+      "groupLabel": "Pemodelan Permukaan dan Analisis Spasial",
+      "name": "Terrain Modelling Specialist",
+      "slug": "terrain-modelling-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "pemodelan-permukaan-dan-analisis-spasial",
+      "groupLabel": "Pemodelan Permukaan dan Analisis Spasial",
+      "name": "Surface Modelling Engineer",
+      "slug": "surface-modelling-engineer",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "pemodelan-permukaan-dan-analisis-spasial",
+      "groupLabel": "Pemodelan Permukaan dan Analisis Spasial",
+      "name": "Topographic Data Analyst",
+      "slug": "topographic-data-analyst",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "pemodelan-permukaan-dan-analisis-spasial",
+      "groupLabel": "Pemodelan Permukaan dan Analisis Spasial",
+      "name": "Spatial Modelling Specialist",
+      "slug": "spatial-modelling-specialist",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "pemodelan-permukaan-dan-analisis-spasial",
+      "groupLabel": "Pemodelan Permukaan dan Analisis Spasial",
+      "name": "Geospatial Modelling Engineer",
+      "slug": "geospatial-modelling-engineer",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "pemodelan-permukaan-dan-analisis-spasial",
+      "groupLabel": "Pemodelan Permukaan dan Analisis Spasial",
+      "name": "3D Mapping Specialist",
+      "slug": "3d-mapping-specialist",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "pemodelan-permukaan-dan-analisis-spasial",
+      "groupLabel": "Pemodelan Permukaan dan Analisis Spasial",
+      "name": "3D Spatial Data Analyst",
+      "slug": "3d-spatial-data-analyst",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "pemodelan-permukaan-dan-analisis-spasial",
+      "groupLabel": "Pemodelan Permukaan dan Analisis Spasial",
+      "name": "Mine Surface Modeler",
+      "slug": "mine-surface-modeler",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "pemodelan-permukaan-dan-analisis-spasial",
+      "groupLabel": "Pemodelan Permukaan dan Analisis Spasial",
+      "name": "Volume Calculation Specialist",
+      "slug": "volume-calculation-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "pemodelan-permukaan-dan-analisis-spasial",
+      "groupLabel": "Pemodelan Permukaan dan Analisis Spasial",
+      "name": "Earthworks Quantity Analyst",
+      "slug": "earthworks-quantity-analyst",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "pemodelan-permukaan-dan-analisis-spasial",
+      "groupLabel": "Pemodelan Permukaan dan Analisis Spasial",
+      "name": "Geospatial Visualization Specialist",
+      "slug": "geospatial-visualization-specialist",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "pengelolaan-data-dan-sistem-geospasial",
+      "groupLabel": "Pengelolaan Data dan Sistem Geospasial",
+      "name": "Geospatial Database Administrator",
+      "slug": "geospatial-database-administrator",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "pengelolaan-data-dan-sistem-geospasial",
+      "groupLabel": "Pengelolaan Data dan Sistem Geospasial",
+      "name": "Spatial Database Engineer",
+      "slug": "spatial-database-engineer",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "pengelolaan-data-dan-sistem-geospasial",
+      "groupLabel": "Pengelolaan Data dan Sistem Geospasial",
+      "name": "Geospatial Data Manager",
+      "slug": "geospatial-data-manager",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "pengelolaan-data-dan-sistem-geospasial",
+      "groupLabel": "Pengelolaan Data dan Sistem Geospasial",
+      "name": "Geospatial Information Officer",
+      "slug": "geospatial-information-officer",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "pengelolaan-data-dan-sistem-geospasial",
+      "groupLabel": "Pengelolaan Data dan Sistem Geospasial",
+      "name": "Geospatial Systems Administrator",
+      "slug": "geospatial-systems-administrator",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "pengelolaan-data-dan-sistem-geospasial",
+      "groupLabel": "Pengelolaan Data dan Sistem Geospasial",
+      "name": "Enterprise GIS Specialist",
+      "slug": "enterprise-gis-specialist",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "pengelolaan-data-dan-sistem-geospasial",
+      "groupLabel": "Pengelolaan Data dan Sistem Geospasial",
+      "name": "GIS Solutions Architect",
+      "slug": "gis-solutions-architect",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "pengelolaan-data-dan-sistem-geospasial",
+      "groupLabel": "Pengelolaan Data dan Sistem Geospasial",
+      "name": "Geospatial Application Developer",
+      "slug": "geospatial-application-developer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "pengelolaan-data-dan-sistem-geospasial",
+      "groupLabel": "Pengelolaan Data dan Sistem Geospasial",
+      "name": "Web GIS Developer",
+      "slug": "web-gis-developer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "pengelolaan-data-dan-sistem-geospasial",
+      "groupLabel": "Pengelolaan Data dan Sistem Geospasial",
+      "name": "Geospatial Software Developer",
+      "slug": "geospatial-software-developer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "pengelolaan-data-dan-sistem-geospasial",
+      "groupLabel": "Pengelolaan Data dan Sistem Geospasial",
+      "name": "Spatial Data Quality Analyst",
+      "slug": "spatial-data-quality-analyst",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "pengelolaan-data-dan-sistem-geospasial",
+      "groupLabel": "Pengelolaan Data dan Sistem Geospasial",
+      "name": "Geospatial Data Governance Specialist",
+      "slug": "geospatial-data-governance-specialist",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "pengelolaan-data-dan-sistem-geospasial",
+      "groupLabel": "Pengelolaan Data dan Sistem Geospasial",
+      "name": "Geospatial Information Management Specialist",
+      "slug": "geospatial-information-management-specialist",
+      "description": null,
+      "displayOrder": 12
+    }
+  ],
+  "profileItems": [
+    {
+      "itemKey": "work-scope-informasi-utama-ruang-lingkup-pekerjaan-dapat-berbeda-antara-tambang-terbuka-dan-tambang-bawah-tanah-pada-tambang-bawah-tanah-survei-dapat-mencakup-p",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ruang lingkup pekerjaan dapat berbeda antara tambang terbuka dan tambang bawah tanah. Pada tambang bawah tanah, survei dapat mencakup pengendalian arah pengembangan, pengukuran terowongan, serta pemindahan kontrol pengukuran ke area bawah tanah. Profesi dalam kategori Survei, GIS, dan Geospasial dapat terlibat dalam kegiatan berikut:",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pengukuran-posisi-jarak-sudut-elevasi-dan-koordinat-menggunakan-peralatan-survei-sesuai-kebutuhan-pekerjaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pengukuran posisi, jarak, sudut, elevasi, dan koordinat menggunakan peralatan survei sesuai kebutuhan pekerjaan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menetapkan-memeriksa-serta-memelihara-titik-kontrol-atau-jaringan-kontrol-survei",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menetapkan, memeriksa, serta memelihara titik kontrol atau jaringan kontrol survei.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pengukuran-topografi-dan-kondisi-permukaan-untuk-menghasilkan-data-kontur-elevasi-serta-model-permukaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pengukuran topografi dan kondisi permukaan untuk menghasilkan data kontur, elevasi, serta model permukaan.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-survei-situasi-pengukuran-detail-dan-pemetaan-area-tambang-maupun-fasilitas-pendukung",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan survei situasi, pengukuran detail, dan pemetaan area tambang maupun fasilitas pendukung.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-stakeout-atau-pematokan-lokasi-berdasarkan-desain-dan-rencana-teknis-yang-telah-ditetapkan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan stakeout atau pematokan lokasi berdasarkan desain dan rencana teknis yang telah ditetapkan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengukur-kemajuan-kegiatan-penambangan-perkembangan-area-kerja-posisi-bench-jalan-tambang-stockpile-area-penimbunan-dan-fasilitas-lai",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengukur kemajuan kegiatan penambangan, perkembangan area kerja, posisi bench, jalan tambang, stockpile, area penimbunan, dan fasilitas lainnya.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menghitung-luas-volume-tonase-estimasi-atau-perubahan-bentuk-permukaan-berdasarkan-data-survei-dan-model-spasial",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menghitung luas, volume, tonase estimasi, atau perubahan bentuk permukaan berdasarkan data survei dan model spasial.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-survei-batas-wilayah-titik-batas-serta-dokumentasi-spasial-sesuai-kebutuhan-dan-ketentuan-yang-berlaku",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan survei batas wilayah, titik batas, serta dokumentasi spasial sesuai kebutuhan dan ketentuan yang berlaku.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengumpulkan-mengolah-memvalidasi-dan-memperbarui-data-spasial-menggunakan-perangkat-lunak-survei-dan-gis",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengumpulkan, mengolah, memvalidasi, dan memperbarui data spasial menggunakan perangkat lunak survei dan GIS.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-membuat-peta-topografi-peta-kemajuan-tambang-peta-infrastruktur-peta-tematik-penampang-serta-visualisasi-spasial-lainnya",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Membuat peta topografi, peta kemajuan tambang, peta infrastruktur, peta tematik, penampang, serta visualisasi spasial lainnya.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengintegrasikan-data-geologi-survei-lingkungan-infrastruktur-perizinan-dan-data-operasional-ke-dalam-sistem-gis",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengintegrasikan data geologi, survei, lingkungan, infrastruktur, perizinan, dan data operasional ke dalam sistem GIS.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menggunakan-citra-satelit-foto-udara-drone-fotogrametri-atau-lidar-untuk-memperoleh-informasi-kondisi-area-dan-perubahan-permukaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menggunakan citra satelit, foto udara, drone, fotogrametri, atau LiDAR untuk memperoleh informasi kondisi area dan perubahan permukaan.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-analisis-spasial-untuk-mendukung-perencanaan-pengelolaan-lahan-pemantauan-lingkungan-keselamatan-dan-pengambilan-keputusan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan analisis spasial untuk mendukung perencanaan, pengelolaan lahan, pemantauan lingkungan, keselamatan, dan pengambilan keputusan.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pemeriksaan-kualitas-data-quality-assurance-quality-control-atau-qa-qc-termasuk-ketelitian-konsistensi-kelengkapan-dan-kese",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pemeriksaan kualitas data (quality assurance/quality control atau QA/QC), termasuk ketelitian, konsistensi, kelengkapan, dan kesesuaian sistem koordinat.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-peta-laporan-basis-data-model-digital-serta-dokumentasi-hasil-pengukuran",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun peta, laporan, basis data, model digital, serta dokumentasi hasil pengukuran.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-berkoordinasi-dengan-tim-geologi-perencanaan-tambang-operasi-geoteknik-lingkungan-legal-dan-teknologi-informasi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Berkoordinasi dengan tim geologi, perencanaan tambang, operasi, geoteknik, lingkungan, legal, dan teknologi informasi.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-teknis-umum",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi teknis umum",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-survei-pemetaan-dan-sistem-koordinat",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar survei, pemetaan, dan sistem koordinat.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-prinsip-penentuan-posisi-dan-pengukuran",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami prinsip penentuan posisi dan pengukuran.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-informasi-utama-mampu-membaca-peta-gambar-teknis-kontur-serta-penampang",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mampu membaca peta, gambar teknis, kontur, serta penampang.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-geodesi-dan-referensi-koordinat",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar geodesi dan referensi koordinat.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-penggunaan-sistem-koordinat-geografis-dan-sistem-koordinat-proyeksi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami penggunaan sistem koordinat geografis dan sistem koordinat proyeksi.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-prinsip-pengukuran-jarak-sudut-elevasi-dan-koordinat",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami prinsip pengukuran jarak, sudut, elevasi, dan koordinat.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-pengolahan-data-survei",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar pengolahan data survei.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-pembuatan-peta-topografi-dan-peta-tematik",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami pembuatan peta topografi dan peta tematik.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-pengelolaan-data-spasial",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar pengelolaan data spasial.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-prinsip-ketelitian-dan-pengendalian-kualitas-data",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami prinsip ketelitian dan pengendalian kualitas data.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dokumentasi-hasil-pengukuran",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dokumentasi hasil pengukuran.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-keselamatan-kerja-pada-kegiatan-survei-lapangan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami keselamatan kerja pada kegiatan survei lapangan.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-teknis-spesialis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi teknis spesialis",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengoperasian-total-station",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengoperasian total station.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengoperasian-gnss-gps-survei",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengoperasian GNSS/GPS survei.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengukuran-poligon",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengukuran poligon.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengukuran-detail-situasi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengukuran detail situasi.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengukuran-topografi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengukuran topografi.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengukuran-elevasi-dan-leveling",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengukuran elevasi dan leveling.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "competency-informasi-utama-penetapan-serta-pengelolaan-titik-kontrol",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Penetapan serta pengelolaan titik kontrol.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "competency-informasi-utama-stakeout-dan-pematokan-desain",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Stakeout dan pematokan desain.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "competency-informasi-utama-survei-kemajuan-tambang",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Survei kemajuan tambang.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengukuran-stockpile-dan-perhitungan-volume",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengukuran stockpile dan perhitungan volume.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "competency-informasi-utama-pembuatan-peta-topografi-dan-penampang",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pembuatan peta topografi dan penampang.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "competency-informasi-utama-survei-batas-wilayah",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Survei batas wilayah.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "competency-informasi-utama-survei-tambang-bawah-tanah",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Survei tambang bawah tanah.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengolahan-data-survei",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan data survei.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengelolaan-sistem-koordinat-dan-transformasi-koordinat",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan sistem koordinat dan transformasi koordinat.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "competency-informasi-utama-analisis-gis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis GIS.",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "competency-informasi-utama-manajemen-basis-data-spasial",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen basis data spasial.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "competency-informasi-utama-analisis-spasial",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis spasial.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "competency-informasi-utama-kartografi-digital",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kartografi digital.",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "competency-informasi-utama-penginderaan-jauh",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Penginderaan jauh.",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "competency-informasi-utama-interpretasi-citra-satelit",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Interpretasi citra satelit.",
+      "displayOrder": 34
+    },
+    {
+      "itemKey": "competency-informasi-utama-fotogrametri",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Fotogrametri.",
+      "displayOrder": 35
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengolahan-data-drone-uav",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan data drone/UAV.",
+      "displayOrder": 36
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengolahan-data-lidar",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan data LiDAR.",
+      "displayOrder": 37
+    },
+    {
+      "itemKey": "competency-informasi-utama-pembuatan-digital-elevation-model-dem",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pembuatan Digital Elevation Model (DEM).",
+      "displayOrder": 38
+    },
+    {
+      "itemKey": "competency-informasi-utama-pembuatan-digital-terrain-model-dtm",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pembuatan Digital Terrain Model (DTM).",
+      "displayOrder": 39
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemodelan-permukaan-tiga-dimensi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan permukaan tiga dimensi.",
+      "displayOrder": 40
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengembangan-aplikasi-gis-atau-web-gis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengembangan aplikasi GIS atau Web GIS.",
+      "displayOrder": 41
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengelolaan-dan-validasi-data-geospasial",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan dan validasi data geospasial.",
+      "displayOrder": 42
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-nonteknis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi nonteknis",
+      "displayOrder": 43
+    },
+    {
+      "itemKey": "competency-informasi-utama-ketelitian-dan-perhatian-terhadap-detail",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ketelitian dan perhatian terhadap detail.",
+      "displayOrder": 44
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-analitis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan analitis.",
+      "displayOrder": 45
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-memecahkan-masalah",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan memecahkan masalah.",
+      "displayOrder": 46
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-observasi-kondisi-lapangan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan observasi kondisi lapangan.",
+      "displayOrder": 47
+    },
+    {
+      "itemKey": "competency-informasi-utama-berpikir-sistematis-dan-spasial",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Berpikir sistematis dan spasial.",
+      "displayOrder": 48
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-mengelola-serta-menginterpretasikan-data",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan mengelola serta menginterpretasikan data.",
+      "displayOrder": 49
+    },
+    {
+      "itemKey": "competency-informasi-utama-komunikasi-teknis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Komunikasi teknis.",
+      "displayOrder": 50
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-menyampaikan-informasi-spasial-secara-jelas",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan menyampaikan informasi spasial secara jelas.",
+      "displayOrder": 51
+    },
+    {
+      "itemKey": "competency-informasi-utama-kerja-sama-dalam-tim-multidisiplin",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kerja sama dalam tim multidisiplin.",
+      "displayOrder": 52
+    },
+    {
+      "itemKey": "competency-informasi-utama-manajemen-waktu",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen waktu.",
+      "displayOrder": 53
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-bekerja-di-lapangan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan bekerja di lapangan.",
+      "displayOrder": 54
+    },
+    {
+      "itemKey": "competency-informasi-utama-adaptabilitas-terhadap-kondisi-medan-dan-cuaca",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Adaptabilitas terhadap kondisi medan dan cuaca.",
+      "displayOrder": 55
+    },
+    {
+      "itemKey": "competency-informasi-utama-disiplin-dalam-mengikuti-prosedur",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Disiplin dalam mengikuti prosedur.",
+      "displayOrder": 56
+    },
+    {
+      "itemKey": "competency-informasi-utama-tanggung-jawab-terhadap-kualitas-data",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Tanggung jawab terhadap kualitas data.",
+      "displayOrder": 57
+    },
+    {
+      "itemKey": "competency-informasi-utama-kesadaran-terhadap-keselamatan-kerja",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kesadaran terhadap keselamatan kerja.",
+      "displayOrder": 58
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-utama",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan utama",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-geodesi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Geodesi",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-geomatika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Geomatika",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "education-informasi-utama-geomatika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Geomatika",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "education-informasi-utama-survei-dan-pemetaan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Survei dan Pemetaan",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "education-informasi-utama-teknologi-geospasial",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknologi Geospasial",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "education-informasi-utama-sistem-informasi-geografis",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Informasi Geografis",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "education-informasi-utama-geografi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Geografi",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "education-informasi-utama-geografi-fisik",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Geografi Fisik",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "education-informasi-utama-penginderaan-jauh",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Penginderaan Jauh",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-pertambangan-khususnya-untuk-pekerjaan-survei-tambang",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Pertambangan, khususnya untuk pekerjaan survei tambang",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-geologi-untuk-pekerjaan-spasial-tertentu",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Geologi, untuk pekerjaan spasial tertentu",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-sipil-khususnya-survei-konstruksi-atau-infrastruktur",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Sipil, khususnya survei konstruksi atau infrastruktur",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-pendukung-untuk-posisi-tertentu",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan pendukung untuk posisi tertentu",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-survei-dan-pemetaan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Survei dan Pemetaan.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-geomatika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Geomatika.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-geodesi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Geodesi.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-teknologi-geospasial",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Vokasi Teknologi Geospasial.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-sistem-informasi-geografis",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Vokasi Sistem Informasi Geografis.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-vokasi-survei-tambang",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan vokasi survei tambang.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-vokasi-pengoperasian-alat-ukur",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan vokasi pengoperasian alat ukur.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-informatika-atau-sistem-informasi-untuk-pengembangan-gis-dan-sistem-geospasial",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Informatika atau Sistem Informasi untuk pengembangan GIS dan sistem geospasial.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "education-informasi-utama-ilmu-komputer-atau-sains-data-untuk-pengelolaan-dan-analisis-data-geospasial",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ilmu Komputer atau Sains Data untuk pengelolaan dan analisis data geospasial.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "education-informasi-utama-bidang-pendidikan-lain-yang-relevan-dengan-kebutuhan-pekerjaan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Bidang pendidikan lain yang relevan dengan kebutuhan pekerjaan.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-trimble-business-center-tbc-mining",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: Trimble Business Center (TBC) Mining",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-trimble-access-mines",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: Trimble Access Mines",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-carlson-mining",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: Carlson Mining",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-leica-infinity",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: Leica Infinity",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-topcon-tools",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: Topcon Tools",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-b-gis-dan-analisis-spasial",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: B. GIS dan Analisis Spasial",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-arcgis-pro",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: ArcGIS Pro",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-arcgis-online",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: ArcGIS Online",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-qgis",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: QGIS",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-mapinfo-pro",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: MapInfo Pro",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-global-mapper",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: Global Mapper",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-c-fotogrametri-drone-dan-penginderaan-jauh",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: C. Fotogrametri, Drone, dan Penginderaan Jauh",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-agisoft-metashape",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: Agisoft Metashape",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-pix4dmapper",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: Pix4Dmapper",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-dji-terra",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: DJI Terra",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-erdas-imagine",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: ERDAS IMAGINE",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-envi",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: ENVI",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-d-cad-dan-dokumentasi-teknis",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: D. CAD dan Dokumentasi Teknis",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-autocad",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: AutoCAD",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-civil-3d",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: Civil 3D",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-bentley-openroads-atau-microstation",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: Bentley OpenRoads atau MicroStation",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-e-pengolahan-dan-visualisasi-data",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: E. Pengolahan dan Visualisasi Data",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-microsoft-excel",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: Microsoft Excel",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-microsoft-power-bi",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: Microsoft Power BI",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-python-atau-r",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: Python atau R",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "software-informasi-utama-pengolahan-data-survei-dan-tambang-postgresql-postgis",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan Data Survei dan Tambang: PostgreSQL/PostGIS",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-teknis",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan teknis",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-dasar-survei-dan-pemetaan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan dasar survei dan pemetaan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-survei-tambang-terbuka",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan survei tambang terbuka.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-survei-tambang-bawah-tanah",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan survei tambang bawah tanah.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengoperasian-total-station",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengoperasian total station.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-survei-gnss-gps",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan survei GNSS/GPS.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengukuran-poligon",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengukuran poligon.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengukuran-situasi-dan-detail",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengukuran situasi dan detail.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengukuran-topografi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengukuran topografi.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-leveling-dan-pengukuran-elevasi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan leveling dan pengukuran elevasi.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-penetapan-titik-kontrol",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan penetapan titik kontrol.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-stakeout-dan-pematokan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan stakeout dan pematokan.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengukuran-kemajuan-tambang",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengukuran kemajuan tambang.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengukuran-stockpile",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengukuran stockpile.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-perhitungan-luas-dan-volume",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan perhitungan luas dan volume.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pembuatan-peta-topografi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pembuatan peta topografi.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pembuatan-penampang",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pembuatan penampang.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-survei-batas-wilayah",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan survei batas wilayah.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengolahan-data-survei",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengolahan data survei.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-penggunaan-trimble-business-center-atau-perangkat-lunak-survei-lain",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan penggunaan Trimble Business Center atau perangkat lunak survei lain.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-arcgis",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan ArcGIS.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-qgis",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan QGIS.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-analisis-spasial",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan analisis spasial.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengelolaan-basis-data-geospasial",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengelolaan basis data geospasial.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-kartografi-digital",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan kartografi digital.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-penginderaan-jauh",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan penginderaan jauh.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-interpretasi-citra-satelit",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan interpretasi citra satelit.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-fotogrametri",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan fotogrametri.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemetaan-menggunakan-drone-uav",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemetaan menggunakan drone/UAV.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengolahan-data-lidar",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengolahan data LiDAR.",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemodelan-permukaan-tiga-dimensi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemodelan permukaan tiga dimensi.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengendalian-kualitas-data-survei-dan-geospasial",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengendalian kualitas data survei dan geospasial.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-dan-kesehatan-kerja-pertambangan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan dan kesehatan kerja pertambangan.",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "training-informasi-utama-induksi-keselamatan-area-tambang",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Induksi keselamatan area tambang.",
+      "displayOrder": 34
+    },
+    {
+      "itemKey": "training-informasi-utama-identifikasi-bahaya-dan-penilaian-risiko",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Identifikasi bahaya dan penilaian risiko.",
+      "displayOrder": 35
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-kerja-survei-lapangan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan kerja survei lapangan.",
+      "displayOrder": 36
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-bekerja-di-dekat-alat-berat",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan bekerja di dekat alat berat.",
+      "displayOrder": 37
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-lalu-lintas-tambang",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan lalu lintas tambang.",
+      "displayOrder": 38
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-bekerja-di-area-aktif-tambang",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan bekerja di area aktif tambang.",
+      "displayOrder": 39
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-kerja-di-dekat-lereng-bench-dan-area-berisiko",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan kerja di dekat lereng, bench, dan area berisiko.",
+      "displayOrder": 40
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-survei-tambang-bawah-tanah",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan survei tambang bawah tanah.",
+      "displayOrder": 41
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-kerja-pada-area-terbatas-atau-ruang-tertutup-apabila-relevan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan kerja pada area terbatas atau ruang tertutup apabila relevan.",
+      "displayOrder": 42
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-kerja-di-ketinggian-apabila-relevan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan kerja di ketinggian apabila relevan.",
+      "displayOrder": 43
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-penggunaan-peralatan-survei",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan penggunaan peralatan survei.",
+      "displayOrder": 44
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-pengoperasian-drone-sesuai-prosedur-yang-berlaku",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan pengoperasian drone sesuai prosedur yang berlaku.",
+      "displayOrder": 45
+    },
+    {
+      "itemKey": "training-informasi-utama-manajemen-kelelahan-dan-keselamatan-perjalanan-lapangan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen kelelahan dan keselamatan perjalanan lapangan.",
+      "displayOrder": 46
+    },
+    {
+      "itemKey": "training-informasi-utama-tanggap-darurat",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Tanggap darurat.",
+      "displayOrder": 47
+    },
+    {
+      "itemKey": "training-informasi-utama-pertolongan-pertama-sesuai-kebutuhan-tempat-kerja",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pertolongan pertama sesuai kebutuhan tempat kerja.",
+      "displayOrder": 48
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-berdasarkan-risiko-lokasi-dan-aktivitas-kerja",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan berdasarkan risiko lokasi dan aktivitas kerja.",
+      "displayOrder": 49
+    }
+  ]
+}

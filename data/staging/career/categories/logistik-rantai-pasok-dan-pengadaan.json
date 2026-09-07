@@ -1,0 +1,4165 @@
+{
+  "schemaVersion": "1.0",
+  "categorySlug": "logistik-rantai-pasok-dan-pengadaan",
+  "category": {
+    "name": "Logistik, Rantai Pasok, dan Pengadaan",
+    "slug": "logistik-rantai-pasok-dan-pengadaan",
+    "description": "Deskripsi Kategori",
+    "displayOrder": 9,
+    "isActive": true
+  },
+  "profile": {
+    "title": "Logistik, Rantai Pasok, dan Pengadaan",
+    "slug": "logistik-rantai-pasok-dan-pengadaan",
+    "excerpt": "Deskripsi Kategori",
+    "body": "Deskripsi Kategori\n\nKategori Logistik, Rantai Pasok, dan Pengadaan mencakup profesi yang memastikan barang, material, suku cadang, peralatan, dan jasa yang dibutuhkan tersedia dalam jumlah, mutu, waktu, lokasi, serta biaya yang sesuai dengan kebutuhan operasi. Dalam industri pertambangan, fungsi ini penting karena kegiatan operasional bergantung pada ketersediaan berbagai kebutuhan, mulai dari bahan bakar, suku cadang alat berat, material pendukung, bahan peledak yang pengadaannya mengikuti ketentuan khusus, hingga jasa teknis dan kontraktor.\n\nRantai pasok pertambangan tidak hanya mencakup pembelian dan pengiriman barang. Bidang ini juga melibatkan perencanaan kebutuhan, pemilihan dan evaluasi pemasok, pengelolaan kontrak, pengendalian persediaan, pergudangan, transportasi, pengelolaan material, serta koordinasi antara lokasi tambang, kantor pusat, pemasok, dan penyedia jasa. Logistik pada dasarnya mencakup proses perencanaan, pelaksanaan, dan pengendalian aliran barang, jasa, informasi, serta sumber daya dari titik asal hingga pengguna.\n\nContoh Profesi\n\nPengadaan dan Pembelian\n\nProcurement Officer\n\nProcurement Specialist\n\nProcurement Analyst\n\nProcurement Coordinator\n\nProcurement Supervisor\n\nProcurement Superintendent\n\nProcurement Manager\n\nProcurement Superintendent\n\nProcurement Administrator\n\nProcurement Assistant\n\nProcurement Engineer\n\nProcurement Planning Officer\n\nProcurement Planning Analyst\n\nProcurement Planning Specialist\n\nProcurement Operations Officer\n\nPurchasing Officer\n\nPurchasing Specialist\n\nPurchasing Analyst\n\nPurchasing Coordinator\n\nPurchasing Supervisor\n\nPurchasing Manager\n\nPurchasing Administrator\n\nBuyer\n\nSenior Buyer\n\nTechnical Buyer\n\nProject Buyer\n\nCategory Buyer\n\nStrategic Buyer\n\nOperational Buyer\n\nDirect Procurement Specialist\n\nIndirect Procurement Specialist\n\nCapital Procurement Specialist\n\nOperational Procurement Specialist\n\nStrategic Sourcing dan Manajemen Pemasok\n\nStrategic Sourcing Specialist\n\nStrategic Sourcing Analyst\n\nStrategic Sourcing Officer\n\nStrategic Sourcing Manager\n\nSourcing Specialist\n\nSourcing Analyst\n\nSourcing Officer\n\nSourcing Coordinator\n\nSourcing Manager\n\nCategory Management Specialist\n\nCategory Manager\n\nCategory Procurement Manager\n\nSupplier Relationship Officer\n\nSupplier Relationship Specialist\n\nSupplier Relationship Manager\n\nSupplier Performance Analyst\n\nSupplier Performance Specialist\n\nSupplier Development Specialist\n\nSupplier Development Engineer\n\nVendor Management Officer\n\nVendor Management Specialist\n\nVendor Management Coordinator\n\nVendor Management Manager\n\nVendor Analyst\n\nVendor Coordinator\n\nVendor Qualification Specialist\n\nSupplier Quality Engineer\n\nSupplier Quality Specialist\n\nSupplier Risk Analyst\n\nSupplier Risk Specialist\n\nKontrak dan Pengadaan Jasa\n\nContract Officer\n\nContract Specialist\n\nContract Analyst\n\nContract Administrator\n\nContract Coordinator\n\nContract Supervisor\n\nContract Superintendent\n\nContract Manager\n\nCommercial Contract Officer\n\nProcurement Contract Specialist\n\nContract Procurement Officer\n\nContract Engineer\n\nContract Compliance Officer\n\nContract Performance Analyst\n\nContract Management Specialist\n\nTender Officer\n\nTender Specialist\n\nTender Analyst\n\nTender Coordinator\n\nTender Administrator\n\nBid Coordinator\n\nBid Specialist\n\nCommercial Officer\n\nCommercial Specialist\n\nCommercial Analyst\n\nCommercial Coordinator\n\nCommercial Manager\n\nContract and Procurement Manager\n\nContract and Supply Chain Manager\n\nPerencanaan Rantai Pasok\n\nSupply Chain Planner\n\nSupply Chain Planning Analyst\n\nSupply Chain Planning Specialist\n\nSupply Chain Coordinator\n\nSupply Chain Officer\n\nSupply Chain Analyst\n\nSupply Chain Specialist\n\nSupply Chain Supervisor\n\nSupply Chain Superintendent\n\nSupply Chain Manager\n\nSupply Chain Planning Manager\n\nIntegrated Supply Chain Planner\n\nMaterials Planning Specialist\n\nMaterial Planner\n\nMaterial Planning Analyst\n\nMaterial Requirements Planner\n\nDemand Planner\n\nDemand Planning Analyst\n\nDemand Planning Specialist\n\nSupply Planner\n\nSupply Planning Analyst\n\nSupply Planning Specialist\n\nInventory Planner\n\nInventory Planning Analyst\n\nSupply Chain Performance Analyst\n\nSupply Chain Improvement Specialist\n\nSupply Chain Optimization Analyst\n\nSupply Chain Risk Specialist\n\nPengelolaan Material dan Persediaan\n\nMaterials Officer\n\nMaterials Specialist\n\nMaterials Analyst\n\nMaterials Coordinator\n\nMaterials Supervisor\n\nMaterials Superintendent\n\nMaterials Manager\n\nMaterials Controller\n\nMaterial Control Officer\n\nMaterial Control Specialist\n\nMaterial Control Supervisor\n\nMaterial Planner\n\nMaterial Requirements Planner\n\nInventory Controller\n\nInventory Control Officer\n\nInventory Control Specialist\n\nInventory Analyst\n\nInventory Coordinator\n\nInventory Supervisor\n\nInventory Manager\n\nStock Controller\n\nStock Control Officer\n\nStock Control Analyst\n\nSpare Parts Controller\n\nSpare Parts Analyst\n\nSpare Parts Coordinator\n\nCritical Spares Specialist\n\nMaterials Management Specialist\n\nMaterials Management Engineer\n\nPergudangan dan Penyimpanan\n\nWarehouse Officer\n\nWarehouse Administrator\n\nWarehouse Clerk\n\nWarehouse Operator\n\nWarehouse Technician\n\nWarehouse Coordinator\n\nWarehouse Supervisor\n\nWarehouse Superintendent\n\nWarehouse Manager\n\nWarehouse Operations Officer\n\nWarehouse Operations Supervisor\n\nWarehouse Inventory Controller\n\nWarehouse Materials Controller\n\nWarehouse Receiving Officer\n\nWarehouse Receiving Clerk\n\nWarehouse Dispatch Officer\n\nWarehouse Dispatch Coordinator\n\nWarehouse Logistics Officer\n\nStorekeeper\n\nSenior Storekeeper\n\nStoreperson\n\nStores Officer\n\nStores Coordinator\n\nStores Supervisor\n\nStores Superintendent\n\nStores Manager\n\nMaterials Storekeeper\n\nSpare Parts Storekeeper\n\nWarehouse Systems Analyst\n\nLogistik dan Transportasi\n\nLogistics Officer\n\nLogistics Specialist\n\nLogistics Analyst\n\nLogistics Coordinator\n\nLogistics Supervisor\n\nLogistics Superintendent\n\nLogistics Manager\n\nLogistics Operations Officer\n\nLogistics Operations Coordinator\n\nLogistics Planning Officer\n\nLogistics Planner\n\nLogistics Planning Analyst\n\nTransportation Officer\n\nTransportation Specialist\n\nTransportation Coordinator\n\nTransportation Planner\n\nTransportation Supervisor\n\nTransportation Manager\n\nTransport Logistics Coordinator\n\nFreight Coordinator\n\nFreight Specialist\n\nFreight Forwarding Officer\n\nFreight Analyst\n\nShipping Officer\n\nShipping Coordinator\n\nShipping Specialist\n\nShipping Administrator\n\nMarine Logistics Officer\n\nPort Logistics Officer\n\nPort Operations Coordinator\n\nPort Operations Supervisor\n\nCargo Coordinator\n\nCargo Officer\n\nCargo Operations Specialist\n\nHeavy Haul Logistics Coordinator\n\nProject Logistics Specialist\n\nEkspor, Impor, dan Perdagangan\n\nExport Officer\n\nExport Coordinator\n\nExport Specialist\n\nExport Documentation Officer\n\nImport Officer\n\nImport Coordinator\n\nImport Specialist\n\nImport Documentation Officer\n\nExport–Import Officer\n\nExport–Import Specialist\n\nCustoms Compliance Officer\n\nCustoms Specialist\n\nCustoms Documentation Officer\n\nCustoms Clearance Specialist\n\nTrade Compliance Officer\n\nTrade Compliance Specialist\n\nInternational Logistics Officer\n\nInternational Logistics Specialist\n\nInternational Freight Coordinator\n\nShipping Documentation Specialist\n\nCommercial Shipping Officer\n\nCommodity Logistics Officer\n\nKepemimpinan dan Manajemen\n\nSupply Chain Supervisor\n\nSupply Chain Superintendent\n\nSupply Chain Manager\n\nSupply Chain General Manager\n\nHead of Supply Chain\n\nHead of Procurement\n\nHead of Purchasing\n\nHead of Logistics\n\nHead of Warehouse\n\nHead of Materials Management\n\nProcurement and Supply Chain Manager\n\nLogistics and Supply Chain Manager\n\nProcurement and Logistics Manager\n\nMaterials and Logistics Manager\n\nSupply Chain Operations Manager\n\nSupply Chain Excellence Manager\n\nSupply Chain Transformation Manager\n\nChief Procurement Officer\n\nChief Supply Chain Officer\n\nRuang Lingkup Pekerjaan\n\nPengadaan berfokus pada proses memperoleh barang atau jasa, sedangkan logistik lebih menekankan pengelolaan perpindahan, penyimpanan, dan distribusi. Rantai pasok memiliki cakupan lebih luas karena menghubungkan perencanaan kebutuhan, pengadaan, pemasok, persediaan, logistik, hingga pengguna akhir. Profesi dalam kategori Logistik, Rantai Pasok, dan Pengadaan dapat terlibat dalam kegiatan berikut:\n\nMengidentifikasi kebutuhan barang, material, suku cadang, peralatan, dan jasa.\n\nMenyusun rencana kebutuhan berdasarkan rencana operasi, pemeliharaan, proyek, atau kebutuhan departemen.\n\nMenyusun strategi pengadaan sesuai kebutuhan bisnis dan kebijakan perusahaan.\n\nMelakukan pencarian, identifikasi, dan evaluasi calon pemasok.\n\nMelakukan proses permintaan penawaran (request for quotation/RFQ) atau proses pengadaan lainnya sesuai prosedur.\n\nMembandingkan aspek harga, mutu, spesifikasi, waktu pengiriman, kemampuan pemasok, serta persyaratan komersial.\n\nMelakukan negosiasi harga, ketentuan pengiriman, waktu penyediaan, dan persyaratan kontrak.\n\nMenyiapkan dokumen pengadaan, permintaan pembelian, pesanan pembelian, serta dokumentasi pendukung.\n\nMengelola proses tender dan evaluasi penawaran sesuai kebijakan serta prosedur yang berlaku.\n\nMenyusun, meninjau, mengadministrasikan, dan memantau pelaksanaan kontrak.\n\nMemantau kinerja pemasok berdasarkan kualitas, ketepatan waktu, biaya, layanan, dan kepatuhan terhadap ketentuan.\n\nMengidentifikasi risiko pemasok dan risiko gangguan rantai pasok.\n\nMengelola hubungan dengan pemasok dan penyedia jasa.\n\nMerencanakan kebutuhan persediaan berdasarkan tingkat konsumsi, waktu pengadaan, kebutuhan operasional, dan tingkat persediaan yang ditetapkan.\n\nMengendalikan jumlah stok untuk mengurangi risiko kekurangan maupun kelebihan persediaan.\n\nMengelola material kritis dan suku cadang penting untuk mendukung keandalan operasi.\n\nMenerima, memeriksa, mencatat, menyimpan, dan menyalurkan material.\n\nMemastikan material disimpan sesuai persyaratan keselamatan, kondisi penyimpanan, dan prosedur perusahaan.\n\nMelakukan pencatatan keluar-masuk barang serta rekonsiliasi data persediaan.\n\nMelaksanakan pemeriksaan fisik persediaan atau stock opname.\n\nMerencanakan transportasi dan pengiriman material dari pemasok ke lokasi operasi.\n\nMengoordinasikan pengangkutan darat, laut, udara, atau kombinasi moda sesuai kebutuhan.\n\nMengelola dokumen pengiriman, penerimaan, ekspor, impor, serta kepabeanan apabila relevan.\n\nMengoordinasikan kegiatan logistik di pelabuhan, gudang, lokasi tambang, atau fasilitas pendukung.\n\nMemantau status pengiriman dan mengatasi keterlambatan atau gangguan distribusi.\n\nMengelola data biaya pengadaan, persediaan, transportasi, dan kinerja rantai pasok.\n\nMenyusun laporan pengadaan, logistik, persediaan, serta kinerja pemasok.\n\nBerkoordinasi dengan tim operasi, pemeliharaan, produksi, keuangan, legal, HSE, gudang, proyek, dan pemasok.\n\nKompetensi\n\nKompetensi teknis umum\n\nMemahami konsep dasar rantai pasok.\n\nMemahami proses pengadaan.\n\nMemahami proses pembelian.\n\nMemahami dasar logistik.\n\nMemahami pengelolaan material.\n\nMemahami pengelolaan persediaan.\n\nMemahami proses pergudangan.\n\nMemahami dasar manajemen pemasok.\n\nMemahami dasar pengelolaan kontrak.\n\nMemahami alur dokumen pengadaan.\n\nMemahami perencanaan kebutuhan material.\n\nMemahami proses penerimaan dan pengiriman barang.\n\nMemahami dasar pengendalian biaya.\n\nMemahami pengelolaan data dan pelaporan.\n\nMemahami dasar manajemen risiko rantai pasok.\n\nKompetensi teknis spesialis\n\nPengadaan dan Strategic Sourcing:\n\nAnalisis kebutuhan pengadaan.\n\nPenyusunan strategi pengadaan.\n\nPencarian dan seleksi pemasok.\n\nEvaluasi pemasok.\n\nAnalisis penawaran.\n\nAnalisis harga.\n\nNegosiasi komersial.\n\nPengelolaan kategori pengadaan.\n\nPengadaan barang langsung dan tidak langsung.\n\nPengadaan barang modal.\n\nPengelolaan hubungan pemasok.\n\nPengukuran kinerja pemasok.\n\nPengembangan pemasok.\n\nManajemen risiko pemasok.\n\nPengelolaan proses tender.\n\nKontrak:\n\nPenyusunan ruang lingkup pekerjaan.\n\nAdministrasi kontrak.\n\nPemantauan pelaksanaan kontrak.\n\nEvaluasi kinerja kontraktor.\n\nPengelolaan perubahan kontrak.\n\nPengelolaan klaim.\n\nPengendalian dokumen kontrak.\n\nAnalisis risiko kontrak.\n\nPemantauan kepatuhan kontrak.\n\nPerencanaan Rantai Pasok:\n\nPerencanaan permintaan.\n\nPerencanaan pasokan.\n\nPerencanaan kebutuhan material.\n\nPerencanaan persediaan.\n\nAnalisis tingkat persediaan.\n\nPerencanaan kebutuhan suku cadang.\n\nAnalisis waktu pengadaan.\n\nOptimasi rantai pasok.\n\nAnalisis kapasitas pemasok.\n\nAnalisis risiko gangguan pasokan.\n\nPergudangan dan Persediaan:\n\nPengendalian persediaan.\n\nPengelolaan material.\n\nPengelolaan suku cadang.\n\nPenerimaan barang.\n\nPenyimpanan material.\n\nPengeluaran dan distribusi material.\n\nPengelolaan lokasi penyimpanan.\n\nPengendalian stok.\n\nStock opname.\n\nRekonsiliasi persediaan.\n\nPengelolaan material kritis.\n\nPengelolaan material lambat bergerak.\n\nPengelolaan material berlebih.\n\nLogistik dan Transportasi:\n\nPerencanaan transportasi.\n\nKoordinasi pengiriman.\n\nPengelolaan freight.\n\nPengelolaan transportasi darat.\n\nKoordinasi transportasi laut.\n\nPengelolaan logistik pelabuhan.\n\nPengelolaan muatan.\n\nPengelolaan dokumen pengiriman.\n\nPemantauan status pengiriman.\n\nPengelolaan biaya logistik.\n\nPengelolaan risiko transportasi.\n\nPerencanaan logistik proyek.\n\nEkspor dan Impor:\n\nPengelolaan dokumen ekspor.\n\nPengelolaan dokumen impor.\n\nPemahaman dasar kepabeanan.\n\nKoordinasi proses customs clearance.\n\nPengelolaan dokumen pengiriman internasional.\n\nPemahaman dasar perdagangan internasional.\n\nKepatuhan perdagangan\n\nKompetensi nonteknis\n\nKemampuan komunikasi.\n\nKemampuan negosiasi.\n\nKemampuan analitis.\n\nKemampuan memecahkan masalah.\n\nKetelitian dalam pengelolaan dokumen.\n\nKemampuan mengelola prioritas.\n\nManajemen waktu.\n\nKemampuan bekerja di bawah tekanan.\n\nKemampuan koordinasi lintas departemen.\n\nKemampuan membangun hubungan profesional.\n\nKemampuan mengambil keputusan berbasis data.\n\nKemampuan mengelola risiko.\n\nKemampuan beradaptasi terhadap perubahan kebutuhan.\n\nKemampuan menyusun laporan.\n\nIntegritas dan objektivitas.\n\nKemampuan menjaga kerahasiaan informasi komersial.\n\nPendidikan yang Relevan\n\nPendidikan utama\n\nManajemen Logistik\n\nLogistik dan Rantai Pasok\n\nManajemen Rantai Pasok\n\nManajemen\n\nManajemen Bisnis\n\nAdministrasi Bisnis\n\nAdministrasi Niaga\n\nTeknik Industri\n\nTeknik Logistik\n\nTeknik Sistem\n\nTeknik Transportasi\n\nTeknik Perkapalan, untuk bidang logistik laut tertentu\n\nTeknik Kelautan, untuk bidang yang relevan\n\nTeknik Pertambangan\n\nTeknik Mesin\n\nTeknik Elektro\n\nTeknik Sipil\n\nAkuntansi\n\nEkonomi\n\nEkonomi Pembangunan\n\nKeuangan\n\nHukum, terutama untuk bidang kontrak dan kepatuhan\n\nPerdagangan Internasional\n\nManajemen Transportasi\n\nManajemen Pelabuhan\n\nKepabeanan\n\nBidang lain yang relevan dengan kebutuhan jabatan.\n\nPendidikan pendukung untuk posisi tertentu\n\nProgram Diploma Logistik.\n\nProgram Diploma Manajemen Logistik.\n\nProgram Diploma Administrasi Bisnis.\n\nProgram Diploma Manajemen Transportasi.\n\nProgram Diploma Manajemen Pelabuhan.\n\nProgram Diploma Kepabeanan.\n\nProgram Diploma Manajemen Rantai Pasok.\n\nProgram vokasi pergudangan.\n\nProgram vokasi pengelolaan persediaan.\n\nProgram vokasi pengadaan.\n\nProgram vokasi administrasi kontrak.\n\nProgram vokasi ekspor dan impor.\n\nPendidikan kejuruan bidang logistik, bisnis, administrasi, atau bidang terkait.\n\nPendidikan lain sesuai kebutuhan jabatan.\n\nSoftware yang Digunakan\n\n| A. Enterprise Resource Planning dan Pengadaan |\n| --- |\n| SAP S/4HANA |\n| SAP Ariba |\n| Oracle Fusion Cloud Procurement |\n| Microsoft Dynamics 365 |\n| B. Manajemen Gudang dan Persediaan |\n| SAP Materials Management (SAP MM) |\n| SAP Extended Warehouse Management (SAP EWM) |\n| Oracle Warehouse Management |\n| Manhattan Active Warehouse Management |\n| C. Perencanaan Rantai Pasok |\n| SAP Integrated Business Planning (SAP IBP) |\n| Oracle Supply Chain Planning |\n| Kinaxis RapidResponse |\n| D. Logistik dan Transportasi |\n| SAP Transportation Management |\n| Oracle Transportation Management |\n| CargoWise |\n| E. Analisis Data dan Pelaporan |\n| Microsoft Excel |\n| Microsoft Power BI |\n| Tableau |\n| Python |\n\nPelatihan Relevan\n\nPelatihan teknis\n\nPelatihan dasar manajemen rantai pasok.\n\nPelatihan perencanaan rantai pasok.\n\nPelatihan perencanaan kebutuhan material.\n\nPelatihan perencanaan permintaan dan pasokan.\n\nPelatihan pengadaan barang dan jasa.\n\nPelatihan proses pembelian.\n\nPelatihan strategic sourcing.\n\nPelatihan manajemen kategori.\n\nPelatihan evaluasi dan seleksi pemasok.\n\nPelatihan manajemen hubungan pemasok.\n\nPelatihan pengukuran kinerja pemasok.\n\nPelatihan negosiasi pengadaan.\n\nPelatihan manajemen kontrak.\n\nPelatihan administrasi kontrak.\n\nPelatihan pengelolaan tender.\n\nPelatihan pengendalian persediaan.\n\nPelatihan manajemen material.\n\nPelatihan pengelolaan suku cadang.\n\nPelatihan manajemen gudang.\n\nPelatihan penerimaan dan penyimpanan barang.\n\nPelatihan stock opname.\n\nPelatihan pengelolaan material kritis.\n\nPelatihan manajemen logistik.\n\nPelatihan perencanaan transportasi.\n\nPelatihan pengelolaan freight.\n\nPelatihan logistik pelabuhan.\n\nPelatihan logistik proyek.\n\nPelatihan ekspor dan impor.\n\nPelatihan dokumentasi perdagangan.\n\nPelatihan dasar kepabeanan.\n\nPelatihan manajemen risiko rantai pasok.\n\nPelatihan penggunaan SAP atau ERP.\n\nPelatihan penggunaan sistem pengadaan.\n\nPelatihan penggunaan sistem manajemen gudang.\n\nPelatihan analisis data menggunakan Excel.\n\nPelatihan dashboard menggunakan Power BI.\n\nPelatihan keselamatan\n\nInduksi keselamatan pertambangan.\n\nKeselamatan kerja di gudang.\n\nIdentifikasi bahaya dan penilaian risiko.\n\nKeselamatan penanganan material.\n\nKeselamatan pengangkatan dan pemindahan beban.\n\nKeselamatan penggunaan forklift atau alat angkat sesuai kebutuhan.\n\nKeselamatan lalu lintas tambang.\n\nKeselamatan transportasi.\n\nKeselamatan kegiatan pemuatan dan pembongkaran.\n\nKeselamatan kerja di area pelabuhan apabila relevan.\n\nKeselamatan pengelolaan bahan berbahaya.\n\nPenggunaan alat pelindung diri.\n\nErgonomi dan penanganan material secara manual.\n\nTanggap darurat.\n\nPertolongan pertama sesuai kebutuhan tempat kerja.\n\nPelatihan keselamatan berdasarkan risiko spesifik pekerjaan",
+    "coverImageUrl": null,
+    "status": "published",
+    "publishedAt": "2026-09-05T00:00:00.000Z",
+    "readingTimeMinutes": null,
+    "isFeatured": false,
+    "metadata": {},
+    "sources": [
+      {
+        "sourceSlug": "jdih-esdm-go-id-7",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 0
+      },
+      {
+        "sourceSlug": "www-esdm-go-id-6",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 1
+      },
+      {
+        "sourceSlug": "www-minerba-esdm-go-id-2",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 2
+      },
+      {
+        "sourceSlug": "www-lkpp-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 3
+      },
+      {
+        "sourceSlug": "jdih-lkpp-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 4
+      },
+      {
+        "sourceSlug": "www-bpsdm-esdm-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 5
+      },
+      {
+        "sourceSlug": "www-sap-com-2",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 6
+      },
+      {
+        "sourceSlug": "www-sap-com-3",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 7
+      },
+      {
+        "sourceSlug": "www-sap-com-4",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 8
+      },
+      {
+        "sourceSlug": "www-oracle-com-2",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 9
+      },
+      {
+        "sourceSlug": "www-oracle-com-3",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 10
+      },
+      {
+        "sourceSlug": "www-oracle-com-4",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 11
+      },
+      {
+        "sourceSlug": "www-microsoft-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 12
+      },
+      {
+        "sourceSlug": "www-kinaxis-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 13
+      },
+      {
+        "sourceSlug": "www-cargowise-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 14
+      },
+      {
+        "sourceSlug": "www-cips-org",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 15
+      },
+      {
+        "sourceSlug": "www-ascm-org",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 16
+      },
+      {
+        "sourceSlug": "www-ibm-com-2",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 17
+      },
+      {
+        "sourceSlug": "www-icdx-co-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 18
+      },
+      {
+        "sourceSlug": "www-spil-co-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 19
+      }
+    ]
+  },
+  "professions": [
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Procurement Officer",
+      "slug": "procurement-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Procurement Specialist",
+      "slug": "procurement-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Procurement Analyst",
+      "slug": "procurement-analyst",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Procurement Coordinator",
+      "slug": "procurement-coordinator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Procurement Supervisor",
+      "slug": "procurement-supervisor",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Procurement Superintendent",
+      "slug": "procurement-superintendent",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Procurement Manager",
+      "slug": "procurement-manager",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Procurement Administrator",
+      "slug": "procurement-administrator",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Procurement Assistant",
+      "slug": "procurement-assistant",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Procurement Engineer",
+      "slug": "procurement-engineer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Procurement Planning Officer",
+      "slug": "procurement-planning-officer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Procurement Planning Analyst",
+      "slug": "procurement-planning-analyst",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Procurement Planning Specialist",
+      "slug": "procurement-planning-specialist",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Procurement Operations Officer",
+      "slug": "procurement-operations-officer",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Purchasing Officer",
+      "slug": "purchasing-officer",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Purchasing Specialist",
+      "slug": "purchasing-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Purchasing Analyst",
+      "slug": "purchasing-analyst",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Purchasing Coordinator",
+      "slug": "purchasing-coordinator",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Purchasing Supervisor",
+      "slug": "purchasing-supervisor",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Purchasing Manager",
+      "slug": "purchasing-manager",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Purchasing Administrator",
+      "slug": "purchasing-administrator",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Buyer",
+      "slug": "buyer",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Senior Buyer",
+      "slug": "senior-buyer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Technical Buyer",
+      "slug": "technical-buyer",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Project Buyer",
+      "slug": "project-buyer",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Category Buyer",
+      "slug": "category-buyer",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Strategic Buyer",
+      "slug": "strategic-buyer",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Operational Buyer",
+      "slug": "operational-buyer",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Direct Procurement Specialist",
+      "slug": "direct-procurement-specialist",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Indirect Procurement Specialist",
+      "slug": "indirect-procurement-specialist",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Capital Procurement Specialist",
+      "slug": "capital-procurement-specialist",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "pengadaan-dan-pembelian",
+      "groupLabel": "Pengadaan dan Pembelian",
+      "name": "Operational Procurement Specialist",
+      "slug": "operational-procurement-specialist",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Strategic Sourcing Specialist",
+      "slug": "strategic-sourcing-specialist",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Strategic Sourcing Analyst",
+      "slug": "strategic-sourcing-analyst",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Strategic Sourcing Officer",
+      "slug": "strategic-sourcing-officer",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Strategic Sourcing Manager",
+      "slug": "strategic-sourcing-manager",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Sourcing Specialist",
+      "slug": "sourcing-specialist",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Sourcing Analyst",
+      "slug": "sourcing-analyst",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Sourcing Officer",
+      "slug": "sourcing-officer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Sourcing Coordinator",
+      "slug": "sourcing-coordinator",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Sourcing Manager",
+      "slug": "sourcing-manager",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Category Management Specialist",
+      "slug": "category-management-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Category Manager",
+      "slug": "category-manager",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Category Procurement Manager",
+      "slug": "category-procurement-manager",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Supplier Relationship Officer",
+      "slug": "supplier-relationship-officer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Supplier Relationship Specialist",
+      "slug": "supplier-relationship-specialist",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Supplier Relationship Manager",
+      "slug": "supplier-relationship-manager",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Supplier Performance Analyst",
+      "slug": "supplier-performance-analyst",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Supplier Performance Specialist",
+      "slug": "supplier-performance-specialist",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Supplier Development Specialist",
+      "slug": "supplier-development-specialist",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Supplier Development Engineer",
+      "slug": "supplier-development-engineer",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Vendor Management Officer",
+      "slug": "vendor-management-officer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Vendor Management Specialist",
+      "slug": "vendor-management-specialist",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Vendor Management Coordinator",
+      "slug": "vendor-management-coordinator",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Vendor Management Manager",
+      "slug": "vendor-management-manager",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Vendor Analyst",
+      "slug": "vendor-analyst",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Vendor Coordinator",
+      "slug": "vendor-coordinator",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Vendor Qualification Specialist",
+      "slug": "vendor-qualification-specialist",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Supplier Quality Engineer",
+      "slug": "supplier-quality-engineer",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Supplier Quality Specialist",
+      "slug": "supplier-quality-specialist",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Supplier Risk Analyst",
+      "slug": "supplier-risk-analyst",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "strategic-sourcing-dan-manajemen-pemasok",
+      "groupLabel": "Strategic Sourcing dan Manajemen Pemasok",
+      "name": "Supplier Risk Specialist",
+      "slug": "supplier-risk-specialist",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Contract Officer",
+      "slug": "contract-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Contract Specialist",
+      "slug": "contract-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Contract Analyst",
+      "slug": "contract-analyst",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Contract Administrator",
+      "slug": "contract-administrator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Contract Coordinator",
+      "slug": "contract-coordinator",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Contract Supervisor",
+      "slug": "contract-supervisor",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Contract Superintendent",
+      "slug": "contract-superintendent",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Contract Manager",
+      "slug": "contract-manager",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Commercial Contract Officer",
+      "slug": "commercial-contract-officer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Procurement Contract Specialist",
+      "slug": "procurement-contract-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Contract Procurement Officer",
+      "slug": "contract-procurement-officer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Contract Engineer",
+      "slug": "contract-engineer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Contract Compliance Officer",
+      "slug": "contract-compliance-officer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Contract Performance Analyst",
+      "slug": "contract-performance-analyst",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Contract Management Specialist",
+      "slug": "contract-management-specialist",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Tender Officer",
+      "slug": "tender-officer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Tender Specialist",
+      "slug": "tender-specialist",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Tender Analyst",
+      "slug": "tender-analyst",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Tender Coordinator",
+      "slug": "tender-coordinator",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Tender Administrator",
+      "slug": "tender-administrator",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Bid Coordinator",
+      "slug": "bid-coordinator",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Bid Specialist",
+      "slug": "bid-specialist",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Commercial Officer",
+      "slug": "commercial-officer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Commercial Specialist",
+      "slug": "commercial-specialist",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Commercial Analyst",
+      "slug": "commercial-analyst",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Commercial Coordinator",
+      "slug": "commercial-coordinator",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Commercial Manager",
+      "slug": "commercial-manager",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Contract and Procurement Manager",
+      "slug": "contract-and-procurement-manager",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "kontrak-dan-pengadaan-jasa",
+      "groupLabel": "Kontrak dan Pengadaan Jasa",
+      "name": "Contract and Supply Chain Manager",
+      "slug": "contract-and-supply-chain-manager",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Supply Chain Planner",
+      "slug": "supply-chain-planner",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Supply Chain Planning Analyst",
+      "slug": "supply-chain-planning-analyst",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Supply Chain Planning Specialist",
+      "slug": "supply-chain-planning-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Supply Chain Coordinator",
+      "slug": "supply-chain-coordinator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Supply Chain Officer",
+      "slug": "supply-chain-officer",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Supply Chain Analyst",
+      "slug": "supply-chain-analyst",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Supply Chain Specialist",
+      "slug": "supply-chain-specialist",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Supply Chain Supervisor",
+      "slug": "supply-chain-supervisor",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Supply Chain Superintendent",
+      "slug": "supply-chain-superintendent",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Supply Chain Manager",
+      "slug": "supply-chain-manager",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Supply Chain Planning Manager",
+      "slug": "supply-chain-planning-manager",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Integrated Supply Chain Planner",
+      "slug": "integrated-supply-chain-planner",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Materials Planning Specialist",
+      "slug": "materials-planning-specialist",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Material Planner",
+      "slug": "material-planner",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Material Planning Analyst",
+      "slug": "material-planning-analyst",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Material Requirements Planner",
+      "slug": "material-requirements-planner",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Demand Planner",
+      "slug": "demand-planner",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Demand Planning Analyst",
+      "slug": "demand-planning-analyst",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Demand Planning Specialist",
+      "slug": "demand-planning-specialist",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Supply Planner",
+      "slug": "supply-planner",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Supply Planning Analyst",
+      "slug": "supply-planning-analyst",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Supply Planning Specialist",
+      "slug": "supply-planning-specialist",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Inventory Planner",
+      "slug": "inventory-planner",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Inventory Planning Analyst",
+      "slug": "inventory-planning-analyst",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Supply Chain Performance Analyst",
+      "slug": "supply-chain-performance-analyst",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Supply Chain Improvement Specialist",
+      "slug": "supply-chain-improvement-specialist",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Supply Chain Optimization Analyst",
+      "slug": "supply-chain-optimization-analyst",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "name": "Supply Chain Risk Specialist",
+      "slug": "supply-chain-risk-specialist",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Materials Officer",
+      "slug": "materials-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Materials Specialist",
+      "slug": "materials-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Materials Analyst",
+      "slug": "materials-analyst",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Materials Coordinator",
+      "slug": "materials-coordinator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Materials Supervisor",
+      "slug": "materials-supervisor",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Materials Superintendent",
+      "slug": "materials-superintendent",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Materials Manager",
+      "slug": "materials-manager",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Materials Controller",
+      "slug": "materials-controller",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Material Control Officer",
+      "slug": "material-control-officer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Material Control Specialist",
+      "slug": "material-control-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Material Control Supervisor",
+      "slug": "material-control-supervisor",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Material Planner",
+      "slug": "material-planner",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Material Requirements Planner",
+      "slug": "material-requirements-planner",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Inventory Controller",
+      "slug": "inventory-controller",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Inventory Control Officer",
+      "slug": "inventory-control-officer",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Inventory Control Specialist",
+      "slug": "inventory-control-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Inventory Analyst",
+      "slug": "inventory-analyst",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Inventory Coordinator",
+      "slug": "inventory-coordinator",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Inventory Supervisor",
+      "slug": "inventory-supervisor",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Inventory Manager",
+      "slug": "inventory-manager",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Stock Controller",
+      "slug": "stock-controller",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Stock Control Officer",
+      "slug": "stock-control-officer",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Stock Control Analyst",
+      "slug": "stock-control-analyst",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Spare Parts Controller",
+      "slug": "spare-parts-controller",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Spare Parts Analyst",
+      "slug": "spare-parts-analyst",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Spare Parts Coordinator",
+      "slug": "spare-parts-coordinator",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Critical Spares Specialist",
+      "slug": "critical-spares-specialist",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Materials Management Specialist",
+      "slug": "materials-management-specialist",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "pengelolaan-material-dan-persediaan",
+      "groupLabel": "Pengelolaan Material dan Persediaan",
+      "name": "Materials Management Engineer",
+      "slug": "materials-management-engineer",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Warehouse Officer",
+      "slug": "warehouse-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Warehouse Administrator",
+      "slug": "warehouse-administrator",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Warehouse Clerk",
+      "slug": "warehouse-clerk",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Warehouse Operator",
+      "slug": "warehouse-operator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Warehouse Technician",
+      "slug": "warehouse-technician",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Warehouse Coordinator",
+      "slug": "warehouse-coordinator",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Warehouse Supervisor",
+      "slug": "warehouse-supervisor",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Warehouse Superintendent",
+      "slug": "warehouse-superintendent",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Warehouse Manager",
+      "slug": "warehouse-manager",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Warehouse Operations Officer",
+      "slug": "warehouse-operations-officer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Warehouse Operations Supervisor",
+      "slug": "warehouse-operations-supervisor",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Warehouse Inventory Controller",
+      "slug": "warehouse-inventory-controller",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Warehouse Materials Controller",
+      "slug": "warehouse-materials-controller",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Warehouse Receiving Officer",
+      "slug": "warehouse-receiving-officer",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Warehouse Receiving Clerk",
+      "slug": "warehouse-receiving-clerk",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Warehouse Dispatch Officer",
+      "slug": "warehouse-dispatch-officer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Warehouse Dispatch Coordinator",
+      "slug": "warehouse-dispatch-coordinator",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Warehouse Logistics Officer",
+      "slug": "warehouse-logistics-officer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Storekeeper",
+      "slug": "storekeeper",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Senior Storekeeper",
+      "slug": "senior-storekeeper",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Storeperson",
+      "slug": "storeperson",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Stores Officer",
+      "slug": "stores-officer",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Stores Coordinator",
+      "slug": "stores-coordinator",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Stores Supervisor",
+      "slug": "stores-supervisor",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Stores Superintendent",
+      "slug": "stores-superintendent",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Stores Manager",
+      "slug": "stores-manager",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Materials Storekeeper",
+      "slug": "materials-storekeeper",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Spare Parts Storekeeper",
+      "slug": "spare-parts-storekeeper",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "pergudangan-dan-penyimpanan",
+      "groupLabel": "Pergudangan dan Penyimpanan",
+      "name": "Warehouse Systems Analyst",
+      "slug": "warehouse-systems-analyst",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Logistics Officer",
+      "slug": "logistics-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Logistics Specialist",
+      "slug": "logistics-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Logistics Analyst",
+      "slug": "logistics-analyst",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Logistics Coordinator",
+      "slug": "logistics-coordinator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Logistics Supervisor",
+      "slug": "logistics-supervisor",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Logistics Superintendent",
+      "slug": "logistics-superintendent",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Logistics Manager",
+      "slug": "logistics-manager",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Logistics Operations Officer",
+      "slug": "logistics-operations-officer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Logistics Operations Coordinator",
+      "slug": "logistics-operations-coordinator",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Logistics Planning Officer",
+      "slug": "logistics-planning-officer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Logistics Planner",
+      "slug": "logistics-planner",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Logistics Planning Analyst",
+      "slug": "logistics-planning-analyst",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Transportation Officer",
+      "slug": "transportation-officer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Transportation Specialist",
+      "slug": "transportation-specialist",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Transportation Coordinator",
+      "slug": "transportation-coordinator",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Transportation Planner",
+      "slug": "transportation-planner",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Transportation Supervisor",
+      "slug": "transportation-supervisor",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Transportation Manager",
+      "slug": "transportation-manager",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Transport Logistics Coordinator",
+      "slug": "transport-logistics-coordinator",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Freight Coordinator",
+      "slug": "freight-coordinator",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Freight Specialist",
+      "slug": "freight-specialist",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Freight Forwarding Officer",
+      "slug": "freight-forwarding-officer",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Freight Analyst",
+      "slug": "freight-analyst",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Shipping Officer",
+      "slug": "shipping-officer",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Shipping Coordinator",
+      "slug": "shipping-coordinator",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Shipping Specialist",
+      "slug": "shipping-specialist",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Shipping Administrator",
+      "slug": "shipping-administrator",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Marine Logistics Officer",
+      "slug": "marine-logistics-officer",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Port Logistics Officer",
+      "slug": "port-logistics-officer",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Port Operations Coordinator",
+      "slug": "port-operations-coordinator",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Port Operations Supervisor",
+      "slug": "port-operations-supervisor",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Cargo Coordinator",
+      "slug": "cargo-coordinator",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Cargo Officer",
+      "slug": "cargo-officer",
+      "description": null,
+      "displayOrder": 32
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Cargo Operations Specialist",
+      "slug": "cargo-operations-specialist",
+      "description": null,
+      "displayOrder": 33
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Heavy Haul Logistics Coordinator",
+      "slug": "heavy-haul-logistics-coordinator",
+      "description": null,
+      "displayOrder": 34
+    },
+    {
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "name": "Project Logistics Specialist",
+      "slug": "project-logistics-specialist",
+      "description": null,
+      "displayOrder": 35
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "Export Officer",
+      "slug": "export-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "Export Coordinator",
+      "slug": "export-coordinator",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "Export Specialist",
+      "slug": "export-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "Export Documentation Officer",
+      "slug": "export-documentation-officer",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "Import Officer",
+      "slug": "import-officer",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "Import Coordinator",
+      "slug": "import-coordinator",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "Import Specialist",
+      "slug": "import-specialist",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "Import Documentation Officer",
+      "slug": "import-documentation-officer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "Export–Import Officer",
+      "slug": "export-import-officer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "Export–Import Specialist",
+      "slug": "export-import-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "Customs Compliance Officer",
+      "slug": "customs-compliance-officer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "Customs Specialist",
+      "slug": "customs-specialist",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "Customs Documentation Officer",
+      "slug": "customs-documentation-officer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "Customs Clearance Specialist",
+      "slug": "customs-clearance-specialist",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "Trade Compliance Officer",
+      "slug": "trade-compliance-officer",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "Trade Compliance Specialist",
+      "slug": "trade-compliance-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "International Logistics Officer",
+      "slug": "international-logistics-officer",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "International Logistics Specialist",
+      "slug": "international-logistics-specialist",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "International Freight Coordinator",
+      "slug": "international-freight-coordinator",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "Shipping Documentation Specialist",
+      "slug": "shipping-documentation-specialist",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "Commercial Shipping Officer",
+      "slug": "commercial-shipping-officer",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "ekspor-impor-dan-perdagangan",
+      "groupLabel": "Ekspor, Impor, dan Perdagangan",
+      "name": "Commodity Logistics Officer",
+      "slug": "commodity-logistics-officer",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Supply Chain Supervisor",
+      "slug": "supply-chain-supervisor",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Supply Chain Superintendent",
+      "slug": "supply-chain-superintendent",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Supply Chain Manager",
+      "slug": "supply-chain-manager",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Supply Chain General Manager",
+      "slug": "supply-chain-general-manager",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Supply Chain",
+      "slug": "head-of-supply-chain",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Procurement",
+      "slug": "head-of-procurement",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Purchasing",
+      "slug": "head-of-purchasing",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Logistics",
+      "slug": "head-of-logistics",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Warehouse",
+      "slug": "head-of-warehouse",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Materials Management",
+      "slug": "head-of-materials-management",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Procurement and Supply Chain Manager",
+      "slug": "procurement-and-supply-chain-manager",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Logistics and Supply Chain Manager",
+      "slug": "logistics-and-supply-chain-manager",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Procurement and Logistics Manager",
+      "slug": "procurement-and-logistics-manager",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Materials and Logistics Manager",
+      "slug": "materials-and-logistics-manager",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Supply Chain Operations Manager",
+      "slug": "supply-chain-operations-manager",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Supply Chain Excellence Manager",
+      "slug": "supply-chain-excellence-manager",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Supply Chain Transformation Manager",
+      "slug": "supply-chain-transformation-manager",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Chief Procurement Officer",
+      "slug": "chief-procurement-officer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Chief Supply Chain Officer",
+      "slug": "chief-supply-chain-officer",
+      "description": null,
+      "displayOrder": 18
+    }
+  ],
+  "profileItems": [
+    {
+      "itemKey": "work-scope-informasi-utama-pengadaan-berfokus-pada-proses-memperoleh-barang-atau-jasa-sedangkan-logistik-lebih-menekankan-pengelolaan-perpindahan-penyimpanan-da",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengadaan berfokus pada proses memperoleh barang atau jasa, sedangkan logistik lebih menekankan pengelolaan perpindahan, penyimpanan, dan distribusi. Rantai pasok memiliki cakupan lebih luas karena menghubungkan perencanaan kebutuhan, pengadaan, pemasok, persediaan, logistik, hingga pengguna akhir. Profesi dalam kategori Logistik, Rantai Pasok, dan Pengadaan dapat terlibat dalam kegiatan berikut:",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengidentifikasi-kebutuhan-barang-material-suku-cadang-peralatan-dan-jasa",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengidentifikasi kebutuhan barang, material, suku cadang, peralatan, dan jasa.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-rencana-kebutuhan-berdasarkan-rencana-operasi-pemeliharaan-proyek-atau-kebutuhan-departemen",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun rencana kebutuhan berdasarkan rencana operasi, pemeliharaan, proyek, atau kebutuhan departemen.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-strategi-pengadaan-sesuai-kebutuhan-bisnis-dan-kebijakan-perusahaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun strategi pengadaan sesuai kebutuhan bisnis dan kebijakan perusahaan.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pencarian-identifikasi-dan-evaluasi-calon-pemasok",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pencarian, identifikasi, dan evaluasi calon pemasok.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-proses-permintaan-penawaran-request-for-quotation-rfq-atau-proses-pengadaan-lainnya-sesuai-prosedur",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan proses permintaan penawaran (request for quotation/RFQ) atau proses pengadaan lainnya sesuai prosedur.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-membandingkan-aspek-harga-mutu-spesifikasi-waktu-pengiriman-kemampuan-pemasok-serta-persyaratan-komersial",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Membandingkan aspek harga, mutu, spesifikasi, waktu pengiriman, kemampuan pemasok, serta persyaratan komersial.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-negosiasi-harga-ketentuan-pengiriman-waktu-penyediaan-dan-persyaratan-kontrak",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan negosiasi harga, ketentuan pengiriman, waktu penyediaan, dan persyaratan kontrak.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyiapkan-dokumen-pengadaan-permintaan-pembelian-pesanan-pembelian-serta-dokumentasi-pendukung",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyiapkan dokumen pengadaan, permintaan pembelian, pesanan pembelian, serta dokumentasi pendukung.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-proses-tender-dan-evaluasi-penawaran-sesuai-kebijakan-serta-prosedur-yang-berlaku",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola proses tender dan evaluasi penawaran sesuai kebijakan serta prosedur yang berlaku.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-meninjau-mengadministrasikan-dan-memantau-pelaksanaan-kontrak",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun, meninjau, mengadministrasikan, dan memantau pelaksanaan kontrak.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memantau-kinerja-pemasok-berdasarkan-kualitas-ketepatan-waktu-biaya-layanan-dan-kepatuhan-terhadap-ketentuan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memantau kinerja pemasok berdasarkan kualitas, ketepatan waktu, biaya, layanan, dan kepatuhan terhadap ketentuan.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengidentifikasi-risiko-pemasok-dan-risiko-gangguan-rantai-pasok",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengidentifikasi risiko pemasok dan risiko gangguan rantai pasok.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-hubungan-dengan-pemasok-dan-penyedia-jasa",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola hubungan dengan pemasok dan penyedia jasa.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-merencanakan-kebutuhan-persediaan-berdasarkan-tingkat-konsumsi-waktu-pengadaan-kebutuhan-operasional-dan-tingkat-persediaan-yang-dite",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Merencanakan kebutuhan persediaan berdasarkan tingkat konsumsi, waktu pengadaan, kebutuhan operasional, dan tingkat persediaan yang ditetapkan.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengendalikan-jumlah-stok-untuk-mengurangi-risiko-kekurangan-maupun-kelebihan-persediaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengendalikan jumlah stok untuk mengurangi risiko kekurangan maupun kelebihan persediaan.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-material-kritis-dan-suku-cadang-penting-untuk-mendukung-keandalan-operasi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola material kritis dan suku cadang penting untuk mendukung keandalan operasi.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menerima-memeriksa-mencatat-menyimpan-dan-menyalurkan-material",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menerima, memeriksa, mencatat, menyimpan, dan menyalurkan material.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memastikan-material-disimpan-sesuai-persyaratan-keselamatan-kondisi-penyimpanan-dan-prosedur-perusahaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memastikan material disimpan sesuai persyaratan keselamatan, kondisi penyimpanan, dan prosedur perusahaan.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pencatatan-keluar-masuk-barang-serta-rekonsiliasi-data-persediaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pencatatan keluar-masuk barang serta rekonsiliasi data persediaan.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melaksanakan-pemeriksaan-fisik-persediaan-atau-stock-opname",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melaksanakan pemeriksaan fisik persediaan atau stock opname.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-merencanakan-transportasi-dan-pengiriman-material-dari-pemasok-ke-lokasi-operasi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Merencanakan transportasi dan pengiriman material dari pemasok ke lokasi operasi.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengoordinasikan-pengangkutan-darat-laut-udara-atau-kombinasi-moda-sesuai-kebutuhan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengoordinasikan pengangkutan darat, laut, udara, atau kombinasi moda sesuai kebutuhan.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-dokumen-pengiriman-penerimaan-ekspor-impor-serta-kepabeanan-apabila-relevan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola dokumen pengiriman, penerimaan, ekspor, impor, serta kepabeanan apabila relevan.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengoordinasikan-kegiatan-logistik-di-pelabuhan-gudang-lokasi-tambang-atau-fasilitas-pendukung",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengoordinasikan kegiatan logistik di pelabuhan, gudang, lokasi tambang, atau fasilitas pendukung.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memantau-status-pengiriman-dan-mengatasi-keterlambatan-atau-gangguan-distribusi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memantau status pengiriman dan mengatasi keterlambatan atau gangguan distribusi.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-data-biaya-pengadaan-persediaan-transportasi-dan-kinerja-rantai-pasok",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola data biaya pengadaan, persediaan, transportasi, dan kinerja rantai pasok.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-laporan-pengadaan-logistik-persediaan-serta-kinerja-pemasok",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun laporan pengadaan, logistik, persediaan, serta kinerja pemasok.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-berkoordinasi-dengan-tim-operasi-pemeliharaan-produksi-keuangan-legal-hse-gudang-proyek-dan-pemasok",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Berkoordinasi dengan tim operasi, pemeliharaan, produksi, keuangan, legal, HSE, gudang, proyek, dan pemasok.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-teknis-umum",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi teknis umum",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-konsep-dasar-rantai-pasok",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami konsep dasar rantai pasok.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-proses-pengadaan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami proses pengadaan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-proses-pembelian",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami proses pembelian.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-logistik",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar logistik.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-pengelolaan-material",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami pengelolaan material.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-pengelolaan-persediaan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami pengelolaan persediaan.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-proses-pergudangan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami proses pergudangan.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-manajemen-pemasok",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar manajemen pemasok.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-pengelolaan-kontrak",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar pengelolaan kontrak.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-alur-dokumen-pengadaan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami alur dokumen pengadaan.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-perencanaan-kebutuhan-material",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami perencanaan kebutuhan material.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-proses-penerimaan-dan-pengiriman-barang",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami proses penerimaan dan pengiriman barang.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-pengendalian-biaya",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar pengendalian biaya.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-pengelolaan-data-dan-pelaporan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami pengelolaan data dan pelaporan.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-manajemen-risiko-rantai-pasok",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar manajemen risiko rantai pasok.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-teknis-spesialis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi teknis spesialis",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "competency-pengadaan-dan-strategic-sourcing-analisis-kebutuhan-pengadaan",
+      "section": "competency",
+      "groupKey": "pengadaan-dan-strategic-sourcing",
+      "groupLabel": "Pengadaan dan Strategic Sourcing",
+      "value": "Analisis kebutuhan pengadaan.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-pengadaan-dan-strategic-sourcing-penyusunan-strategi-pengadaan",
+      "section": "competency",
+      "groupKey": "pengadaan-dan-strategic-sourcing",
+      "groupLabel": "Pengadaan dan Strategic Sourcing",
+      "value": "Penyusunan strategi pengadaan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-pengadaan-dan-strategic-sourcing-pencarian-dan-seleksi-pemasok",
+      "section": "competency",
+      "groupKey": "pengadaan-dan-strategic-sourcing",
+      "groupLabel": "Pengadaan dan Strategic Sourcing",
+      "value": "Pencarian dan seleksi pemasok.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-pengadaan-dan-strategic-sourcing-evaluasi-pemasok",
+      "section": "competency",
+      "groupKey": "pengadaan-dan-strategic-sourcing",
+      "groupLabel": "Pengadaan dan Strategic Sourcing",
+      "value": "Evaluasi pemasok.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-pengadaan-dan-strategic-sourcing-analisis-penawaran",
+      "section": "competency",
+      "groupKey": "pengadaan-dan-strategic-sourcing",
+      "groupLabel": "Pengadaan dan Strategic Sourcing",
+      "value": "Analisis penawaran.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-pengadaan-dan-strategic-sourcing-analisis-harga",
+      "section": "competency",
+      "groupKey": "pengadaan-dan-strategic-sourcing",
+      "groupLabel": "Pengadaan dan Strategic Sourcing",
+      "value": "Analisis harga.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-pengadaan-dan-strategic-sourcing-negosiasi-komersial",
+      "section": "competency",
+      "groupKey": "pengadaan-dan-strategic-sourcing",
+      "groupLabel": "Pengadaan dan Strategic Sourcing",
+      "value": "Negosiasi komersial.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-pengadaan-dan-strategic-sourcing-pengelolaan-kategori-pengadaan",
+      "section": "competency",
+      "groupKey": "pengadaan-dan-strategic-sourcing",
+      "groupLabel": "Pengadaan dan Strategic Sourcing",
+      "value": "Pengelolaan kategori pengadaan.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-pengadaan-dan-strategic-sourcing-pengadaan-barang-langsung-dan-tidak-langsung",
+      "section": "competency",
+      "groupKey": "pengadaan-dan-strategic-sourcing",
+      "groupLabel": "Pengadaan dan Strategic Sourcing",
+      "value": "Pengadaan barang langsung dan tidak langsung.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-pengadaan-dan-strategic-sourcing-pengadaan-barang-modal",
+      "section": "competency",
+      "groupKey": "pengadaan-dan-strategic-sourcing",
+      "groupLabel": "Pengadaan dan Strategic Sourcing",
+      "value": "Pengadaan barang modal.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-pengadaan-dan-strategic-sourcing-pengelolaan-hubungan-pemasok",
+      "section": "competency",
+      "groupKey": "pengadaan-dan-strategic-sourcing",
+      "groupLabel": "Pengadaan dan Strategic Sourcing",
+      "value": "Pengelolaan hubungan pemasok.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-pengadaan-dan-strategic-sourcing-pengukuran-kinerja-pemasok",
+      "section": "competency",
+      "groupKey": "pengadaan-dan-strategic-sourcing",
+      "groupLabel": "Pengadaan dan Strategic Sourcing",
+      "value": "Pengukuran kinerja pemasok.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-pengadaan-dan-strategic-sourcing-pengembangan-pemasok",
+      "section": "competency",
+      "groupKey": "pengadaan-dan-strategic-sourcing",
+      "groupLabel": "Pengadaan dan Strategic Sourcing",
+      "value": "Pengembangan pemasok.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "competency-pengadaan-dan-strategic-sourcing-manajemen-risiko-pemasok",
+      "section": "competency",
+      "groupKey": "pengadaan-dan-strategic-sourcing",
+      "groupLabel": "Pengadaan dan Strategic Sourcing",
+      "value": "Manajemen risiko pemasok.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "competency-pengadaan-dan-strategic-sourcing-pengelolaan-proses-tender",
+      "section": "competency",
+      "groupKey": "pengadaan-dan-strategic-sourcing",
+      "groupLabel": "Pengadaan dan Strategic Sourcing",
+      "value": "Pengelolaan proses tender.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "competency-kontrak-penyusunan-ruang-lingkup-pekerjaan",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Penyusunan ruang lingkup pekerjaan.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-kontrak-administrasi-kontrak",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Administrasi kontrak.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-kontrak-pemantauan-pelaksanaan-kontrak",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Pemantauan pelaksanaan kontrak.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-kontrak-evaluasi-kinerja-kontraktor",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Evaluasi kinerja kontraktor.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-kontrak-pengelolaan-perubahan-kontrak",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Pengelolaan perubahan kontrak.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-kontrak-pengelolaan-klaim",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Pengelolaan klaim.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-kontrak-pengendalian-dokumen-kontrak",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Pengendalian dokumen kontrak.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-kontrak-analisis-risiko-kontrak",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Analisis risiko kontrak.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-kontrak-pemantauan-kepatuhan-kontrak",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Pemantauan kepatuhan kontrak.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-perencanaan-rantai-pasok-perencanaan-permintaan",
+      "section": "competency",
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "value": "Perencanaan permintaan.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-perencanaan-rantai-pasok-perencanaan-pasokan",
+      "section": "competency",
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "value": "Perencanaan pasokan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-perencanaan-rantai-pasok-perencanaan-kebutuhan-material",
+      "section": "competency",
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "value": "Perencanaan kebutuhan material.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-perencanaan-rantai-pasok-perencanaan-persediaan",
+      "section": "competency",
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "value": "Perencanaan persediaan.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-perencanaan-rantai-pasok-analisis-tingkat-persediaan",
+      "section": "competency",
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "value": "Analisis tingkat persediaan.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-perencanaan-rantai-pasok-perencanaan-kebutuhan-suku-cadang",
+      "section": "competency",
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "value": "Perencanaan kebutuhan suku cadang.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-perencanaan-rantai-pasok-analisis-waktu-pengadaan",
+      "section": "competency",
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "value": "Analisis waktu pengadaan.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-perencanaan-rantai-pasok-optimasi-rantai-pasok",
+      "section": "competency",
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "value": "Optimasi rantai pasok.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-perencanaan-rantai-pasok-analisis-kapasitas-pemasok",
+      "section": "competency",
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "value": "Analisis kapasitas pemasok.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-perencanaan-rantai-pasok-analisis-risiko-gangguan-pasokan",
+      "section": "competency",
+      "groupKey": "perencanaan-rantai-pasok",
+      "groupLabel": "Perencanaan Rantai Pasok",
+      "value": "Analisis risiko gangguan pasokan.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-pergudangan-dan-persediaan-pengendalian-persediaan",
+      "section": "competency",
+      "groupKey": "pergudangan-dan-persediaan",
+      "groupLabel": "Pergudangan dan Persediaan",
+      "value": "Pengendalian persediaan.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-pergudangan-dan-persediaan-pengelolaan-material",
+      "section": "competency",
+      "groupKey": "pergudangan-dan-persediaan",
+      "groupLabel": "Pergudangan dan Persediaan",
+      "value": "Pengelolaan material.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-pergudangan-dan-persediaan-pengelolaan-suku-cadang",
+      "section": "competency",
+      "groupKey": "pergudangan-dan-persediaan",
+      "groupLabel": "Pergudangan dan Persediaan",
+      "value": "Pengelolaan suku cadang.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-pergudangan-dan-persediaan-penerimaan-barang",
+      "section": "competency",
+      "groupKey": "pergudangan-dan-persediaan",
+      "groupLabel": "Pergudangan dan Persediaan",
+      "value": "Penerimaan barang.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-pergudangan-dan-persediaan-penyimpanan-material",
+      "section": "competency",
+      "groupKey": "pergudangan-dan-persediaan",
+      "groupLabel": "Pergudangan dan Persediaan",
+      "value": "Penyimpanan material.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-pergudangan-dan-persediaan-pengeluaran-dan-distribusi-material",
+      "section": "competency",
+      "groupKey": "pergudangan-dan-persediaan",
+      "groupLabel": "Pergudangan dan Persediaan",
+      "value": "Pengeluaran dan distribusi material.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-pergudangan-dan-persediaan-pengelolaan-lokasi-penyimpanan",
+      "section": "competency",
+      "groupKey": "pergudangan-dan-persediaan",
+      "groupLabel": "Pergudangan dan Persediaan",
+      "value": "Pengelolaan lokasi penyimpanan.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-pergudangan-dan-persediaan-pengendalian-stok",
+      "section": "competency",
+      "groupKey": "pergudangan-dan-persediaan",
+      "groupLabel": "Pergudangan dan Persediaan",
+      "value": "Pengendalian stok.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-pergudangan-dan-persediaan-stock-opname",
+      "section": "competency",
+      "groupKey": "pergudangan-dan-persediaan",
+      "groupLabel": "Pergudangan dan Persediaan",
+      "value": "Stock opname.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-pergudangan-dan-persediaan-rekonsiliasi-persediaan",
+      "section": "competency",
+      "groupKey": "pergudangan-dan-persediaan",
+      "groupLabel": "Pergudangan dan Persediaan",
+      "value": "Rekonsiliasi persediaan.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-pergudangan-dan-persediaan-pengelolaan-material-kritis",
+      "section": "competency",
+      "groupKey": "pergudangan-dan-persediaan",
+      "groupLabel": "Pergudangan dan Persediaan",
+      "value": "Pengelolaan material kritis.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-pergudangan-dan-persediaan-pengelolaan-material-lambat-bergerak",
+      "section": "competency",
+      "groupKey": "pergudangan-dan-persediaan",
+      "groupLabel": "Pergudangan dan Persediaan",
+      "value": "Pengelolaan material lambat bergerak.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-pergudangan-dan-persediaan-pengelolaan-material-berlebih",
+      "section": "competency",
+      "groupKey": "pergudangan-dan-persediaan",
+      "groupLabel": "Pergudangan dan Persediaan",
+      "value": "Pengelolaan material berlebih.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "competency-logistik-dan-transportasi-perencanaan-transportasi",
+      "section": "competency",
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "value": "Perencanaan transportasi.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-logistik-dan-transportasi-koordinasi-pengiriman",
+      "section": "competency",
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "value": "Koordinasi pengiriman.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-logistik-dan-transportasi-pengelolaan-freight",
+      "section": "competency",
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "value": "Pengelolaan freight.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-logistik-dan-transportasi-pengelolaan-transportasi-darat",
+      "section": "competency",
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "value": "Pengelolaan transportasi darat.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-logistik-dan-transportasi-koordinasi-transportasi-laut",
+      "section": "competency",
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "value": "Koordinasi transportasi laut.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-logistik-dan-transportasi-pengelolaan-logistik-pelabuhan",
+      "section": "competency",
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "value": "Pengelolaan logistik pelabuhan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-logistik-dan-transportasi-pengelolaan-muatan",
+      "section": "competency",
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "value": "Pengelolaan muatan.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-logistik-dan-transportasi-pengelolaan-dokumen-pengiriman",
+      "section": "competency",
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "value": "Pengelolaan dokumen pengiriman.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-logistik-dan-transportasi-pemantauan-status-pengiriman",
+      "section": "competency",
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "value": "Pemantauan status pengiriman.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-logistik-dan-transportasi-pengelolaan-biaya-logistik",
+      "section": "competency",
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "value": "Pengelolaan biaya logistik.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-logistik-dan-transportasi-pengelolaan-risiko-transportasi",
+      "section": "competency",
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "value": "Pengelolaan risiko transportasi.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-logistik-dan-transportasi-perencanaan-logistik-proyek",
+      "section": "competency",
+      "groupKey": "logistik-dan-transportasi",
+      "groupLabel": "Logistik dan Transportasi",
+      "value": "Perencanaan logistik proyek.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-pengelolaan-dokumen-ekspor",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Pengelolaan dokumen ekspor.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-pengelolaan-dokumen-impor",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Pengelolaan dokumen impor.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-pemahaman-dasar-kepabeanan",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Pemahaman dasar kepabeanan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-koordinasi-proses-customs-clearance",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Koordinasi proses customs clearance.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-pengelolaan-dokumen-pengiriman-internasional",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Pengelolaan dokumen pengiriman internasional.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-pemahaman-dasar-perdagangan-internasional",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Pemahaman dasar perdagangan internasional.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-kepatuhan-perdagangan",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Kepatuhan perdagangan",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-kompetensi-nonteknis",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Kompetensi nonteknis",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-kemampuan-komunikasi",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Kemampuan komunikasi.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-kemampuan-negosiasi",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Kemampuan negosiasi.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-kemampuan-analitis",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Kemampuan analitis.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-kemampuan-memecahkan-masalah",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Kemampuan memecahkan masalah.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-ketelitian-dalam-pengelolaan-dokumen",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Ketelitian dalam pengelolaan dokumen.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-kemampuan-mengelola-prioritas",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Kemampuan mengelola prioritas.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-manajemen-waktu",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Manajemen waktu.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-kemampuan-bekerja-di-bawah-tekanan",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Kemampuan bekerja di bawah tekanan.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-kemampuan-koordinasi-lintas-departemen",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Kemampuan koordinasi lintas departemen.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-kemampuan-membangun-hubungan-profesional",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Kemampuan membangun hubungan profesional.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-kemampuan-mengambil-keputusan-berbasis-data",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Kemampuan mengambil keputusan berbasis data.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-kemampuan-mengelola-risiko",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Kemampuan mengelola risiko.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-kemampuan-beradaptasi-terhadap-perubahan-kebutuhan",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Kemampuan beradaptasi terhadap perubahan kebutuhan.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-kemampuan-menyusun-laporan",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Kemampuan menyusun laporan.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-integritas-dan-objektivitas",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Integritas dan objektivitas.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "competency-ekspor-dan-impor-kemampuan-menjaga-kerahasiaan-informasi-komersial",
+      "section": "competency",
+      "groupKey": "ekspor-dan-impor",
+      "groupLabel": "Ekspor dan Impor",
+      "value": "Kemampuan menjaga kerahasiaan informasi komersial.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-utama",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan utama",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "education-informasi-utama-manajemen-logistik",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Logistik",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "education-informasi-utama-logistik-dan-rantai-pasok",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Logistik dan Rantai Pasok",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "education-informasi-utama-manajemen-rantai-pasok",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Rantai Pasok",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "education-informasi-utama-manajemen",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "education-informasi-utama-manajemen-bisnis",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Bisnis",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "education-informasi-utama-administrasi-bisnis",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Administrasi Bisnis",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "education-informasi-utama-administrasi-niaga",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Administrasi Niaga",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-industri",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Industri",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-logistik",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Logistik",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-sistem",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Sistem",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-transportasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Transportasi",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-perkapalan-untuk-bidang-logistik-laut-tertentu",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Perkapalan, untuk bidang logistik laut tertentu",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-kelautan-untuk-bidang-yang-relevan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Kelautan, untuk bidang yang relevan",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-pertambangan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Pertambangan",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-mesin",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Mesin",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-elektro",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Elektro",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-sipil",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Sipil",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "education-informasi-utama-akuntansi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Akuntansi",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "education-informasi-utama-ekonomi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ekonomi",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "education-informasi-utama-ekonomi-pembangunan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ekonomi Pembangunan",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "education-informasi-utama-keuangan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keuangan",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "education-informasi-utama-hukum-terutama-untuk-bidang-kontrak-dan-kepatuhan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Hukum, terutama untuk bidang kontrak dan kepatuhan",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "education-informasi-utama-perdagangan-internasional",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Perdagangan Internasional",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "education-informasi-utama-manajemen-transportasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Transportasi",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "education-informasi-utama-manajemen-pelabuhan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Pelabuhan",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "education-informasi-utama-kepabeanan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kepabeanan",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "education-informasi-utama-bidang-lain-yang-relevan-dengan-kebutuhan-jabatan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Bidang lain yang relevan dengan kebutuhan jabatan.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-pendukung-untuk-posisi-tertentu",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan pendukung untuk posisi tertentu",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-logistik",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Logistik.",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-manajemen-logistik",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Manajemen Logistik.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-administrasi-bisnis",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Administrasi Bisnis.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-manajemen-transportasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Manajemen Transportasi.",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-manajemen-pelabuhan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Manajemen Pelabuhan.",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-kepabeanan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Kepabeanan.",
+      "displayOrder": 34
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-manajemen-rantai-pasok",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Manajemen Rantai Pasok.",
+      "displayOrder": 35
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-pergudangan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi pergudangan.",
+      "displayOrder": 36
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-pengelolaan-persediaan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi pengelolaan persediaan.",
+      "displayOrder": 37
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-pengadaan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi pengadaan.",
+      "displayOrder": 38
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-administrasi-kontrak",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi administrasi kontrak.",
+      "displayOrder": 39
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-ekspor-dan-impor",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi ekspor dan impor.",
+      "displayOrder": 40
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-kejuruan-bidang-logistik-bisnis-administrasi-atau-bidang-terkait",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan kejuruan bidang logistik, bisnis, administrasi, atau bidang terkait.",
+      "displayOrder": 41
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-lain-sesuai-kebutuhan-jabatan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan lain sesuai kebutuhan jabatan.",
+      "displayOrder": 42
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-sap-s-4hana",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: SAP S/4HANA",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-sap-ariba",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: SAP Ariba",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-oracle-fusion-cloud-procurement",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: Oracle Fusion Cloud Procurement",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-microsoft-dynamics-365",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: Microsoft Dynamics 365",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-b-manajemen-gudang-dan-persediaan",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: B. Manajemen Gudang dan Persediaan",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-sap-materials-management-sap-mm",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: SAP Materials Management (SAP MM)",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-sap-extended-warehouse-management-sap-ewm",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: SAP Extended Warehouse Management (SAP EWM)",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-oracle-warehouse-management",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: Oracle Warehouse Management",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-manhattan-active-warehouse-management",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: Manhattan Active Warehouse Management",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-c-perencanaan-rantai-pasok",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: C. Perencanaan Rantai Pasok",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-sap-integrated-business-planning-sap-ibp",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: SAP Integrated Business Planning (SAP IBP)",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-oracle-supply-chain-planning",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: Oracle Supply Chain Planning",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-kinaxis-rapidresponse",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: Kinaxis RapidResponse",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-d-logistik-dan-transportasi",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: D. Logistik dan Transportasi",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-sap-transportation-management",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: SAP Transportation Management",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-oracle-transportation-management",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: Oracle Transportation Management",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-cargowise",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: CargoWise",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-e-analisis-data-dan-pelaporan",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: E. Analisis Data dan Pelaporan",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-microsoft-excel",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: Microsoft Excel",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-microsoft-power-bi",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: Microsoft Power BI",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-tableau",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: Tableau",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-pengadaan-python",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Pengadaan: Python",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-teknis",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan teknis",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-dasar-manajemen-rantai-pasok",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan dasar manajemen rantai pasok.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-perencanaan-rantai-pasok",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan perencanaan rantai pasok.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-perencanaan-kebutuhan-material",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan perencanaan kebutuhan material.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-perencanaan-permintaan-dan-pasokan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan perencanaan permintaan dan pasokan.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengadaan-barang-dan-jasa",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengadaan barang dan jasa.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-proses-pembelian",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan proses pembelian.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-strategic-sourcing",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan strategic sourcing.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-manajemen-kategori",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan manajemen kategori.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-evaluasi-dan-seleksi-pemasok",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan evaluasi dan seleksi pemasok.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-manajemen-hubungan-pemasok",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan manajemen hubungan pemasok.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengukuran-kinerja-pemasok",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengukuran kinerja pemasok.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-negosiasi-pengadaan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan negosiasi pengadaan.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-manajemen-kontrak",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan manajemen kontrak.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-administrasi-kontrak",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan administrasi kontrak.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengelolaan-tender",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengelolaan tender.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengendalian-persediaan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengendalian persediaan.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-manajemen-material",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan manajemen material.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengelolaan-suku-cadang",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengelolaan suku cadang.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-manajemen-gudang",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan manajemen gudang.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-penerimaan-dan-penyimpanan-barang",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan penerimaan dan penyimpanan barang.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-stock-opname",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan stock opname.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengelolaan-material-kritis",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengelolaan material kritis.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-manajemen-logistik",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan manajemen logistik.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-perencanaan-transportasi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan perencanaan transportasi.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengelolaan-freight",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengelolaan freight.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-logistik-pelabuhan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan logistik pelabuhan.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-logistik-proyek",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan logistik proyek.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-ekspor-dan-impor",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan ekspor dan impor.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-dokumentasi-perdagangan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan dokumentasi perdagangan.",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-dasar-kepabeanan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan dasar kepabeanan.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-manajemen-risiko-rantai-pasok",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan manajemen risiko rantai pasok.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-penggunaan-sap-atau-erp",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan penggunaan SAP atau ERP.",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-penggunaan-sistem-pengadaan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan penggunaan sistem pengadaan.",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-penggunaan-sistem-manajemen-gudang",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan penggunaan sistem manajemen gudang.",
+      "displayOrder": 34
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-analisis-data-menggunakan-excel",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan analisis data menggunakan Excel.",
+      "displayOrder": 35
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-dashboard-menggunakan-power-bi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan dashboard menggunakan Power BI.",
+      "displayOrder": 36
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan",
+      "displayOrder": 37
+    },
+    {
+      "itemKey": "training-informasi-utama-induksi-keselamatan-pertambangan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Induksi keselamatan pertambangan.",
+      "displayOrder": 38
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-kerja-di-gudang",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan kerja di gudang.",
+      "displayOrder": 39
+    },
+    {
+      "itemKey": "training-informasi-utama-identifikasi-bahaya-dan-penilaian-risiko",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Identifikasi bahaya dan penilaian risiko.",
+      "displayOrder": 40
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-penanganan-material",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan penanganan material.",
+      "displayOrder": 41
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-pengangkatan-dan-pemindahan-beban",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan pengangkatan dan pemindahan beban.",
+      "displayOrder": 42
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-penggunaan-forklift-atau-alat-angkat-sesuai-kebutuhan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan penggunaan forklift atau alat angkat sesuai kebutuhan.",
+      "displayOrder": 43
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-lalu-lintas-tambang",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan lalu lintas tambang.",
+      "displayOrder": 44
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-transportasi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan transportasi.",
+      "displayOrder": 45
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-kegiatan-pemuatan-dan-pembongkaran",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan kegiatan pemuatan dan pembongkaran.",
+      "displayOrder": 46
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-kerja-di-area-pelabuhan-apabila-relevan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan kerja di area pelabuhan apabila relevan.",
+      "displayOrder": 47
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-pengelolaan-bahan-berbahaya",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan pengelolaan bahan berbahaya.",
+      "displayOrder": 48
+    },
+    {
+      "itemKey": "training-informasi-utama-penggunaan-alat-pelindung-diri",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Penggunaan alat pelindung diri.",
+      "displayOrder": 49
+    },
+    {
+      "itemKey": "training-informasi-utama-ergonomi-dan-penanganan-material-secara-manual",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ergonomi dan penanganan material secara manual.",
+      "displayOrder": 50
+    },
+    {
+      "itemKey": "training-informasi-utama-tanggap-darurat",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Tanggap darurat.",
+      "displayOrder": 51
+    },
+    {
+      "itemKey": "training-informasi-utama-pertolongan-pertama-sesuai-kebutuhan-tempat-kerja",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pertolongan pertama sesuai kebutuhan tempat kerja.",
+      "displayOrder": 52
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-berdasarkan-risiko-spesifik-pekerjaan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan berdasarkan risiko spesifik pekerjaan",
+      "displayOrder": 53
+    }
+  ]
+}

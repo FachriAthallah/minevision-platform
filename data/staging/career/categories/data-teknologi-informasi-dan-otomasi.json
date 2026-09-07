@@ -1,0 +1,4719 @@
+{
+  "schemaVersion": "1.0",
+  "categorySlug": "data-teknologi-informasi-dan-otomasi",
+  "category": {
+    "name": "Data, Teknologi Informasi, dan Otomasi",
+    "slug": "data-teknologi-informasi-dan-otomasi",
+    "description": "Deskripsi Kategori",
+    "displayOrder": 10,
+    "isActive": true
+  },
+  "profile": {
+    "title": "Data, Teknologi Informasi, dan Otomasi",
+    "slug": "data-teknologi-informasi-dan-otomasi",
+    "excerpt": "Deskripsi Kategori",
+    "body": "Deskripsi Kategori\n\nKategori Data, Teknologi Informasi, dan Otomasi mencakup profesi yang mengembangkan, mengelola, mengintegrasikan, mengamankan, serta memanfaatkan teknologi digital untuk mendukung kegiatan pertambangan. Bidang ini dapat terlibat dalam pengelolaan data geologi, produksi, alat berat, pemeliharaan, keselamatan, lingkungan, logistik, hingga data bisnis dan manajemen.\n\nPerkembangan digitalisasi membuat teknologi semakin terintegrasi dengan kegiatan operasional tambang. Pemanfaatan jaringan komunikasi, sensor, Internet of Things (IoT), sistem pemantauan waktu nyata, analitik data, kecerdasan buatan, sistem kendali, serta otomasi dapat membantu meningkatkan kualitas informasi, efisiensi, produktivitas, keselamatan, dan pengambilan keputusan. Kementerian ESDM juga menyoroti potensi teknologi seperti 5G dalam mendukung pemantauan real-time, otomatisasi proses, serta komunikasi antarperangkat dan sistem di sektor pertambangan.\n\nContoh Profesi\n\nData dan Analitik\n\nMining Data Analyst\n\nData Analyst\n\nSenior Data Analyst\n\nData Analytics Specialist\n\nData Analytics Engineer\n\nData Scientist\n\nSenior Data Scientist\n\nMining Data Scientist\n\nData Engineer\n\nSenior Data Engineer\n\nMining Data Engineer\n\nData Architect\n\nEnterprise Data Architect\n\nData Modeler\n\nData Management Specialist\n\nData Management Officer\n\nData Governance Specialist\n\nData Governance Officer\n\nData Governance Manager\n\nData Quality Analyst\n\nData Quality Engineer\n\nData Quality Specialist\n\nData Integration Engineer\n\nData Integration Specialist\n\nData Warehouse Engineer\n\nBusiness Intelligence Analyst\n\nBusiness Intelligence Developer\n\nBusiness Intelligence Engineer\n\nBI Reporting Analyst\n\nReporting Analyst\n\nOperational Data Analyst\n\nProduction Data Analyst\n\nMaintenance Data Analyst\n\nEquipment Data Analyst\n\nAsset Performance Analyst\n\nGeospatial Data Analyst\n\nEnvironmental Data Analyst\n\nSupply Chain Data Analyst\n\nBusiness Analyst\n\nDigital Business Analyst\n\nMining Business Analyst\n\nDecision Support Analyst\n\nPerformance Analyst\n\nOperational Excellence Analyst\n\nDigital Analytics Specialist\n\nKecerdasan Buatan dan Pembelajaran Mesin\n\nArtificial Intelligence Engineer\n\nAI Engineer\n\nMachine Learning Engineer\n\nMachine Learning Specialist\n\nMachine Learning Scientist\n\nMining AI Engineer\n\nAI Solutions Engineer\n\nAI Solutions Architect\n\nComputer Vision Engineer\n\nComputer Vision Specialist\n\nComputer Vision Scientist\n\nPredictive Analytics Engineer\n\nPredictive Maintenance Data Scientist\n\nPredictive Maintenance Engineer\n\nData Science Specialist\n\nApplied Data Scientist\n\nAI Research Engineer\n\nAI Research Scientist\n\nNatural Language Processing Engineer\n\nNLP Engineer\n\nMLOps Engineer\n\nMachine Learning Operations Engineer\n\nAI Platform Engineer\n\nAI Product Specialist\n\nAI Product Manager\n\nIntelligent Systems Engineer\n\nIndustrial AI Engineer\n\nPengembangan Perangkat Lunak dan Sistem\n\nSoftware Engineer\n\nSoftware Developer\n\nApplication Developer\n\nApplication Engineer\n\nFull-Stack Developer\n\nFront-End Developer\n\nBack-End Developer\n\nMobile Application Developer\n\nWeb Developer\n\nWeb Application Developer\n\nEnterprise Application Developer\n\nBusiness Application Developer\n\nSystems Analyst\n\nSystem Developer\n\nSystems Engineer\n\nSolution Architect\n\nSoftware Architect\n\nEnterprise Architect\n\nApplication Support Analyst\n\nApplication Support Engineer\n\nApplication Support Specialist\n\nBusiness Systems Analyst\n\nEnterprise Systems Analyst\n\nIntegration Engineer\n\nAPI Integration Engineer\n\nSoftware Quality Assurance Engineer\n\nSoftware Tester\n\nQuality Assurance Analyst\n\nAutomation Test Engineer\n\nDevOps Engineer\n\nSite Reliability Engineer\n\nPlatform Engineer\n\nCloud Engineer\n\nCloud Solutions Architect\n\nInfrastruktur Teknologi Informasi\n\nIT Support Officer\n\nIT Support Technician\n\nIT Support Engineer\n\nIT Helpdesk Officer\n\nIT Helpdesk Analyst\n\nService Desk Analyst\n\nDesktop Support Technician\n\nIT Operations Officer\n\nIT Operations Analyst\n\nIT Operations Engineer\n\nIT Infrastructure Engineer\n\nIT Infrastructure Specialist\n\nIT Infrastructure Manager\n\nNetwork Engineer\n\nNetwork Administrator\n\nNetwork Specialist\n\nNetwork Operations Engineer\n\nNetwork Operations Center Analyst\n\nNetwork Architect\n\nSystems Administrator\n\nSystem Administrator\n\nServer Administrator\n\nInfrastructure Administrator\n\nDatabase Administrator\n\nDatabase Engineer\n\nDatabase Specialist\n\nCloud Infrastructure Engineer\n\nCloud Operations Engineer\n\nIT Service Management Analyst\n\nIT Service Delivery Officer\n\nIT Service Delivery Manager\n\nIT Project Coordinator\n\nIT Project Manager\n\nIT Asset Management Officer\n\nIT Asset Management Specialist\n\nKeamanan Siber dan Keamanan Informasi\n\nCybersecurity Analyst\n\nCybersecurity Engineer\n\nCybersecurity Specialist\n\nCybersecurity Architect\n\nCybersecurity Consultant\n\nInformation Security Analyst\n\nInformation Security Engineer\n\nInformation Security Officer\n\nInformation Security Specialist\n\nInformation Security Manager\n\nSecurity Operations Center Analyst\n\nSOC Analyst\n\nSecurity Operations Engineer\n\nCyber Threat Intelligence Analyst\n\nCyber Risk Analyst\n\nCyber Risk Specialist\n\nVulnerability Management Analyst\n\nVulnerability Management Engineer\n\nSecurity Compliance Analyst\n\nIT Security Compliance Officer\n\nIdentity and Access Management Engineer\n\nIAM Specialist\n\nNetwork Security Engineer\n\nCloud Security Engineer\n\nApplication Security Engineer\n\nSecurity Incident Response Analyst\n\nDigital Forensics Analyst\n\nOT Cybersecurity Engineer\n\nIndustrial Cybersecurity Engineer\n\nOperational Technology Security Specialist\n\nTeknologi Operasional dan Sistem Industri\n\nOperational Technology Engineer\n\nOT Engineer\n\nOT Systems Engineer\n\nOT Infrastructure Engineer\n\nOT Network Engineer\n\nOT Support Engineer\n\nOT Systems Specialist\n\nOT Cybersecurity Engineer\n\nIndustrial Systems Engineer\n\nIndustrial Technology Engineer\n\nIndustrial Digitalization Engineer\n\nIndustrial IoT Engineer\n\nIIoT Engineer\n\nIoT Engineer\n\nIoT Solutions Engineer\n\nConnected Systems Engineer\n\nIndustrial Network Engineer\n\nControl Systems Engineer\n\nControl Systems Specialist\n\nProcess Control Engineer\n\nProcess Control Specialist\n\nSCADA Engineer\n\nSCADA Specialist\n\nSCADA Systems Engineer\n\nDistributed Control Systems Engineer\n\nDCS Engineer\n\nDCS Specialist\n\nPLC Engineer\n\nPLC Programmer\n\nIndustrial Automation Engineer\n\nIndustrial Automation Specialist\n\nAutomation Systems Engineer\n\nAutomation Systems Specialist\n\nIndustrial Systems Integrator\n\nOtomasi, Robotika, dan Operasi Otonom\n\nAutomation Engineer\n\nAutomation Specialist\n\nAutomation Technician\n\nAutomation Systems Engineer\n\nAutomation Project Engineer\n\nAutomation Project Manager\n\nMining Automation Engineer\n\nMining Automation Specialist\n\nMining Technology Engineer\n\nMining Technology Specialist\n\nAutonomous Systems Engineer\n\nAutonomous Operations Engineer\n\nAutonomous Haulage Systems Engineer\n\nAutonomous Haulage Systems Specialist\n\nAutonomous Drilling Engineer\n\nAutonomous Drilling Specialist\n\nRemote Operations Engineer\n\nRemote Operations Specialist\n\nRemote Operations Center Operator\n\nRemote Equipment Operator\n\nTele-Remote Systems Engineer\n\nTele-Remote Operator\n\nRobotics Engineer\n\nIndustrial Robotics Engineer\n\nRobotics Systems Engineer\n\nRobotics Technician\n\nUnmanned Systems Engineer\n\nDrone Systems Engineer\n\nDrone Operations Specialist\n\nUnmanned Aerial Vehicle Operator\n\nUAV Data Specialist\n\nDigitalisasi dan Transformasi Teknologi\n\nDigital Transformation Specialist\n\nDigital Transformation Engineer\n\nDigital Transformation Manager\n\nDigital Innovation Specialist\n\nDigital Innovation Engineer\n\nDigital Innovation Manager\n\nDigital Technology Specialist\n\nDigital Technology Engineer\n\nDigital Technology Manager\n\nDigital Solutions Engineer\n\nDigital Solutions Architect\n\nDigital Solutions Specialist\n\nDigital Product Owner\n\nDigital Product Manager\n\nDigital Project Manager\n\nDigital Program Manager\n\nDigital Operations Specialist\n\nDigital Operations Engineer\n\nDigital Mining Specialist\n\nDigital Mining Engineer\n\nMining Digitalization Engineer\n\nMining Digitalization Specialist\n\nTechnology Innovation Specialist\n\nTechnology Adoption Specialist\n\nTechnology Integration Engineer\n\nDigital Change Manager\n\nDigital Transformation Analyst\n\nKepemimpinan dan Manajemen\n\nIT Supervisor\n\nIT Superintendent\n\nIT Manager\n\nIT Operations Manager\n\nIT Infrastructure Manager\n\nIT Service Delivery Manager\n\nHead of IT\n\nHead of Information Technology\n\nChief Information Officer\n\nChief Technology Officer\n\nData Analytics Manager\n\nData Science Manager\n\nHead of Data\n\nHead of Data and Analytics\n\nChief Data Officer\n\nDigital Technology Manager\n\nDigital Transformation Manager\n\nHead of Digital\n\nChief Digital Officer\n\nAutomation Manager\n\nAutomation Superintendent\n\nAutomation and Control Manager\n\nOT Manager\n\nHead of Operational Technology\n\nTechnology and Digital Manager\n\nRuang Lingkup Pekerjaan\n\nPeran Data Analyst umumnya berfokus pada pengolahan, analisis, visualisasi, serta penyampaian wawasan dari data. Data Engineer lebih berfokus pada pembangunan dan pengelolaan infrastruktur data, sedangkan Data Scientist dapat mengembangkan model statistik atau pembelajaran mesin. Pembagian tugas dapat berbeda antarorganisasi. Profesi dalam kategori Data, Teknologi Informasi, dan Otomasi dapat terlibat dalam kegiatan berikut:\n\nMengumpulkan data dari sistem operasional, sensor, peralatan, aplikasi, basis data, dan sumber lain.\n\nMemeriksa kelengkapan, konsistensi, akurasi, serta kualitas data.\n\nMelakukan pembersihan, pengolahan, integrasi, dan transformasi data.\n\nMengembangkan basis data, data warehouse, data pipeline, serta sistem integrasi data.\n\nMenganalisis data produksi, alat berat, pemeliharaan, keselamatan, lingkungan, logistik, atau data bisnis.\n\nMengembangkan laporan, indikator kinerja, visualisasi, dan dashboard.\n\nMenyampaikan hasil analisis untuk mendukung pengambilan keputusan.\n\nMengembangkan model statistik, prediktif, atau pembelajaran mesin sesuai kebutuhan.\n\nMengembangkan solusi kecerdasan buatan untuk mendukung operasi, inspeksi, pemeliharaan, keselamatan, atau optimasi proses.\n\nMengembangkan dan memelihara aplikasi web, aplikasi seluler, aplikasi perusahaan, serta sistem informasi.\n\nMengintegrasikan aplikasi melalui API, basis data, atau layanan digital lainnya.\n\nMelakukan pengujian, pemeliharaan, perbaikan, dan peningkatan perangkat lunak.\n\nMengelola jaringan, server, perangkat pengguna, layanan cloud, serta infrastruktur TI.\n\nMemberikan dukungan teknis kepada pengguna dan menangani gangguan sistem.\n\nMengelola akses pengguna, identitas digital, serta hak akses sistem.\n\nMemantau ancaman, kerentanan, insiden, dan risiko keamanan siber.\n\nMenerapkan pengamanan pada jaringan, aplikasi, data, sistem TI, dan teknologi operasional.\n\nMengelola sistem OT yang mendukung proses industri dan operasi lapangan.\n\nMengembangkan atau memelihara sistem PLC, SCADA, DCS, sensor, serta sistem kontrol.\n\nMengintegrasikan perangkat lapangan dengan jaringan dan platform pemantauan.\n\nMengembangkan sistem pemantauan kondisi dan operasi secara real-time.\n\nMendukung penerapan otomasi peralatan dan proses.\n\nMendukung sistem operasi jarak jauh, tele-remote, atau operasi otonom sesuai kebutuhan.\n\nMengelola proyek digitalisasi dan transformasi teknologi.\n\nMelakukan evaluasi teknologi baru serta mengembangkan solusi yang sesuai dengan kebutuhan operasi.\n\nMenyusun dokumentasi sistem, prosedur, arsitektur, serta standar teknologi.\n\nBerkoordinasi dengan tim operasi, teknik, geologi, pemeliharaan, HSE, lingkungan, keuangan, dan manajemen.\n\nKompetensi\n\nKompetensi teknis umum\n\nMemahami dasar sistem informasi.\n\nMemahami pengelolaan data.\n\nMemahami basis data.\n\nMemahami jaringan komputer.\n\nMemahami sistem operasi.\n\nMemahami pengembangan perangkat lunak.\n\nMemahami integrasi sistem.\n\nMemahami keamanan informasi.\n\nMemahami komputasi awan.\n\nMemahami dokumentasi teknis.\n\nMemahami pengelolaan proyek teknologi.\n\nMemahami proses bisnis dan operasional.\n\nMemahami prinsip tata kelola data.\n\nMemahami dasar manajemen risiko teknologi.\n\nKompetensi teknis spesialis\n\nData dan Analitik:\n\nPengumpulan data.\n\nPembersihan data.\n\nValidasi data.\n\nAnalisis statistik.\n\nPemodelan data.\n\nVisualisasi data.\n\nPengembangan dashboard.\n\nPengelolaan indikator kinerja.\n\nPengembangan laporan.\n\nSQL.\n\nPengelolaan basis data.\n\nData warehousing.\n\nIntegrasi data.\n\nETL/ELT.\n\nTata kelola data.\n\nManajemen kualitas data.\n\nKecerdasan Buatan:\n\nPembelajaran mesin.\n\nPembelajaran mendalam.\n\nPemodelan prediktif.\n\nKlasifikasi dan regresi.\n\nPemrosesan data.\n\nFeature engineering.\n\nEvaluasi model.\n\nComputer vision.\n\nPemrosesan bahasa alami.\n\nMLOps.\n\nPengembangan dan pemantauan model AI.\n\nPengembangan Perangkat Lunak:\n\nPemrograman.\n\nAnalisis kebutuhan sistem.\n\nPerancangan perangkat lunak.\n\nPengembangan aplikasi.\n\nPengembangan aplikasi web.\n\nPengembangan aplikasi seluler.\n\nPengembangan API.\n\nIntegrasi sistem.\n\nPengujian perangkat lunak.\n\nPengendalian versi.\n\nDevOps.\n\nPengembangan berbasis cloud.\n\nInfrastruktur TI:\n\nAdministrasi sistem.\n\nAdministrasi jaringan.\n\nManajemen server.\n\nManajemen basis data.\n\nKomputasi awan.\n\nVirtualisasi.\n\nPemantauan infrastruktur.\n\nManajemen layanan TI.\n\nPemulihan sistem.\n\nPencadangan data.\n\nManajemen aset TI.\n\nKeamanan Siber:\n\nKeamanan jaringan.\n\nKeamanan aplikasi.\n\nKeamanan cloud.\n\nManajemen identitas dan akses.\n\nAnalisis kerentanan.\n\nPemantauan keamanan.\n\nPenanganan insiden.\n\nAnalisis risiko siber.\n\nKeamanan teknologi operasional.\n\nKepatuhan keamanan informasi.\n\nTeknologi Operasional dan Otomasi:\n\nSistem PLC.\n\nSistem SCADA.\n\nSistem DCS.\n\nSistem kontrol proses.\n\nSensor dan instrumentasi.\n\nJaringan industri.\n\nSistem IoT dan IIoT.\n\nIntegrasi sistem industri.\n\nOtomasi proses.\n\nSistem operasi jarak jauh.\n\nSistem otonom.\n\nRobotika industri.\n\nPemantauan kondisi real-time.\n\nKompetensi nonteknis\n\nKemampuan berpikir analitis.\n\nKemampuan memecahkan masalah.\n\nKemampuan berpikir sistematis.\n\nKetelitian.\n\nKemampuan komunikasi teknis.\n\nKemampuan menerjemahkan kebutuhan bisnis menjadi solusi teknologi.\n\nKemampuan bekerja dalam tim lintas disiplin.\n\nManajemen waktu.\n\nManajemen proyek.\n\nKemampuan beradaptasi terhadap perubahan teknologi.\n\nKemampuan belajar mandiri.\n\nKreativitas dan inovasi.\n\nKemampuan menyusun dokumentasi.\n\nKemampuan menyampaikan hasil analisis.\n\nKesadaran terhadap keamanan data.\n\nKemampuan mengelola risiko.\n\nPendidikan yang Relevan\n\nPendidikan utama\n\nTeknik Informatika\n\nIlmu Komputer\n\nSistem Informasi\n\nTeknologi Informasi\n\nSains Data\n\nData Science\n\nStatistika\n\nMatematika\n\nTeknik Komputer\n\nRekayasa Perangkat Lunak\n\nTeknik Elektro\n\nTeknik Elektronika\n\nTeknik Telekomunikasi\n\nTeknik Mekatronika\n\nTeknik Otomasi\n\nTeknik Instrumentasi\n\nTeknik Fisika\n\nTeknik Industri\n\nTeknik Sistem\n\nTeknik Pertambangan\n\nTeknik Geologi\n\nTeknik Geodesi dan Geomatika\n\nSistem dan Teknologi Informasi\n\nBidang lain yang relevan.\n\nPendidikan pendukung untuk posisi tertentu\n\nProgram Diploma Teknologi Informasi.\n\nProgram Diploma Teknik Informatika.\n\nProgram Diploma Sistem Informasi.\n\nProgram Diploma Manajemen Informatika.\n\nProgram Diploma Teknik Komputer.\n\nProgram Diploma Teknik Jaringan.\n\nProgram Diploma Teknik Elektro.\n\nProgram Diploma Teknik Elektronika.\n\nProgram Diploma Teknik Instrumentasi.\n\nProgram Diploma Teknik Otomasi.\n\nProgram vokasi pengembangan perangkat lunak.\n\nProgram vokasi administrasi jaringan.\n\nProgram vokasi keamanan siber.\n\nProgram vokasi analitik data.\n\nProgram vokasi otomasi industri.\n\nProgram vokasi mekatronika.\n\nPendidikan kejuruan bidang pengembangan perangkat lunak, jaringan, komputer, elektronika, atau otomasi.\n\nPendidikan lain yang sesuai dengan kebutuhan jabatan.\n\nSoftware yang Digunakan\n\n| A. Analisis Data dan Business Intelligence |\n| --- |\n| Microsoft Excel |\n| Microsoft Power BI |\n| Tableau |\n| Python dan R |\n| SQL |\n| B. Basis Data dan Platform Data |\n| Microsoft SQL Server |\n| Oracle Database |\n| PostgreSQL |\n| Snowflake |\n| Databricks |\n| C. Pengembangan Perangkat Lunak |\n| Visual Studio Code |\n| Visual Studio |\n| Android Studio |\n| Git/GitHub/GitLab |\n| D. Infrastruktur dan Komputasi Awan |\n| Microsoft Azure |\n| Amazon Web Services (AWS) |\n| Google Cloud |\n| VMware |\n| Docker |\n| E. Sistem Otomasi dan Teknologi Operasional |\n| Siemens TIA Portal |\n| Siemens WinCC |\n| AVEVA System Platform |\n| AVEVA PI System |\n| Rockwell Automation FactoryTalk |\n| Schneider Electric EcoStruxure |\n| F. Pengelolaan Proyek dan Kolaborasi |\n| Microsoft Project |\n| Jira |\n| Microsoft Teams |\n| Confluence |\n\nPelatihan Relevan\n\nPelatihan teknis\n\nData dan Analitik:\n\nPelatihan dasar analitik data.\n\nPelatihan statistik terapan.\n\nPelatihan Microsoft Excel.\n\nPelatihan SQL.\n\nPelatihan Power BI.\n\nPelatihan Tableau.\n\nPelatihan Python untuk analitik data.\n\nPelatihan R untuk analisis statistik.\n\nPelatihan visualisasi data.\n\nPelatihan pengelolaan basis data.\n\nPelatihan data engineering.\n\nPelatihan integrasi data.\n\nPelatihan tata kelola data.\n\nPelatihan kualitas data.\n\nPelatihan data warehouse\n\nKecerdasan Buatan:\n\nPelatihan dasar kecerdasan buatan.\n\nPelatihan pembelajaran mesin.\n\nPelatihan pembelajaran mendalam.\n\nPelatihan analitik prediktif.\n\nPelatihan computer vision.\n\nPelatihan MLOps.\n\nPelatihan penerapan AI pada proses industri.\n\nPengembangan Perangkat Lunak:\n\nPelatihan pemrograman.\n\nPelatihan pengembangan aplikasi web.\n\nPelatihan pengembangan aplikasi seluler.\n\nPelatihan pengembangan API.\n\nPelatihan pengujian perangkat lunak.\n\nPelatihan Git dan pengendalian versi.\n\nPelatihan DevOps.\n\nPelatihan komputasi awan.\n\nPelatihan software engineering.\n\nInfrastruktur dan Keamanan Siber:\n\nPelatihan administrasi jaringan.\n\nPelatihan administrasi sistem.\n\nPelatihan manajemen server.\n\nPelatihan komputasi awan.\n\nPelatihan keamanan jaringan.\n\nPelatihan keamanan aplikasi.\n\nPelatihan keamanan cloud.\n\nPelatihan penanganan insiden siber.\n\nPelatihan manajemen identitas dan akses.\n\nPelatihan analisis kerentanan.\n\nPelatihan keamanan teknologi operasional.\n\nOtomasi dan Teknologi Operasional:\n\nPelatihan PLC.\n\nPelatihan SCADA.\n\nPelatihan DCS.\n\nPelatihan sistem kontrol proses.\n\nPelatihan instrumentasi.\n\nPelatihan jaringan industri.\n\nPelatihan IoT dan IIoT.\n\nPelatihan otomasi industri.\n\nPelatihan sistem operasi jarak jauh.\n\nPelatihan sistem otonom.\n\nPelatihan robotika industri.\n\nPelatihan penggunaan sistem pemantauan real-time.\n\nPelatihan integrasi teknologi operasional.\n\nPelatihan keselamatan\n\nInduksi keselamatan pertambangan.\n\nIdentifikasi bahaya dan penilaian risiko.\n\nKeselamatan kerja di area tambang.\n\nKeselamatan bekerja di dekat peralatan otomatis.\n\nKeselamatan sistem kelistrikan.\n\nKeselamatan sistem kontrol dan otomasi.\n\nKeselamatan penggunaan perangkat elektronik di area operasional.\n\nKeselamatan kerja di ruang kontrol.\n\nKeselamatan kerja di area proses.\n\nKeselamatan penggunaan drone sesuai kebutuhan.\n\nKeselamatan kerja di dekat peralatan bergerak.\n\nPenggunaan alat pelindung diri.\n\nTanggap darurat.\n\nKesadaran keamanan siber.\n\nPelatihan keselamatan berdasarkan risiko spesifik pekerjaan.",
+    "coverImageUrl": null,
+    "status": "published",
+    "publishedAt": "2026-09-05T00:00:00.000Z",
+    "readingTimeMinutes": null,
+    "isFeatured": false,
+    "metadata": {},
+    "sources": [
+      {
+        "sourceSlug": "www-esdm-go-id-7",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 0
+      },
+      {
+        "sourceSlug": "www-esdm-go-id-8",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 1
+      },
+      {
+        "sourceSlug": "www-esdm-go-id-9",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 2
+      },
+      {
+        "sourceSlug": "www-esdm-go-id-10",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 3
+      },
+      {
+        "sourceSlug": "www-metso-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 4
+      },
+      {
+        "sourceSlug": "www-home-sandvik",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 5
+      },
+      {
+        "sourceSlug": "www-sap-com-5",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 6
+      },
+      {
+        "sourceSlug": "www-aveva-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 7
+      },
+      {
+        "sourceSlug": "www-siemens-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 8
+      },
+      {
+        "sourceSlug": "www-rockwellautomation-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 9
+      },
+      {
+        "sourceSlug": "www-microsoft-com-2",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 10
+      },
+      {
+        "sourceSlug": "www-python-org",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 11
+      },
+      {
+        "sourceSlug": "www-r-project-org",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 12
+      },
+      {
+        "sourceSlug": "www-postgresql-org",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 13
+      },
+      {
+        "sourceSlug": "www-microsoft-com-3",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 14
+      },
+      {
+        "sourceSlug": "aws-amazon-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 15
+      },
+      {
+        "sourceSlug": "cloud-google-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 16
+      },
+      {
+        "sourceSlug": "www-ibm-com-3",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 17
+      },
+      {
+        "sourceSlug": "www-nist-gov",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 18
+      }
+    ]
+  },
+  "professions": [
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Mining Data Analyst",
+      "slug": "mining-data-analyst",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Data Analyst",
+      "slug": "data-analyst",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Senior Data Analyst",
+      "slug": "senior-data-analyst",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Data Analytics Specialist",
+      "slug": "data-analytics-specialist",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Data Analytics Engineer",
+      "slug": "data-analytics-engineer",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Data Scientist",
+      "slug": "data-scientist",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Senior Data Scientist",
+      "slug": "senior-data-scientist",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Mining Data Scientist",
+      "slug": "mining-data-scientist",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Data Engineer",
+      "slug": "data-engineer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Senior Data Engineer",
+      "slug": "senior-data-engineer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Mining Data Engineer",
+      "slug": "mining-data-engineer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Data Architect",
+      "slug": "data-architect",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Enterprise Data Architect",
+      "slug": "enterprise-data-architect",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Data Modeler",
+      "slug": "data-modeler",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Data Management Specialist",
+      "slug": "data-management-specialist",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Data Management Officer",
+      "slug": "data-management-officer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Data Governance Specialist",
+      "slug": "data-governance-specialist",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Data Governance Officer",
+      "slug": "data-governance-officer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Data Governance Manager",
+      "slug": "data-governance-manager",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Data Quality Analyst",
+      "slug": "data-quality-analyst",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Data Quality Engineer",
+      "slug": "data-quality-engineer",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Data Quality Specialist",
+      "slug": "data-quality-specialist",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Data Integration Engineer",
+      "slug": "data-integration-engineer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Data Integration Specialist",
+      "slug": "data-integration-specialist",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Data Warehouse Engineer",
+      "slug": "data-warehouse-engineer",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Business Intelligence Analyst",
+      "slug": "business-intelligence-analyst",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Business Intelligence Developer",
+      "slug": "business-intelligence-developer",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Business Intelligence Engineer",
+      "slug": "business-intelligence-engineer",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "BI Reporting Analyst",
+      "slug": "bi-reporting-analyst",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Reporting Analyst",
+      "slug": "reporting-analyst",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Operational Data Analyst",
+      "slug": "operational-data-analyst",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Production Data Analyst",
+      "slug": "production-data-analyst",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Maintenance Data Analyst",
+      "slug": "maintenance-data-analyst",
+      "description": null,
+      "displayOrder": 32
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Equipment Data Analyst",
+      "slug": "equipment-data-analyst",
+      "description": null,
+      "displayOrder": 33
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Asset Performance Analyst",
+      "slug": "asset-performance-analyst",
+      "description": null,
+      "displayOrder": 34
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Geospatial Data Analyst",
+      "slug": "geospatial-data-analyst",
+      "description": null,
+      "displayOrder": 35
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Environmental Data Analyst",
+      "slug": "environmental-data-analyst",
+      "description": null,
+      "displayOrder": 36
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Supply Chain Data Analyst",
+      "slug": "supply-chain-data-analyst",
+      "description": null,
+      "displayOrder": 37
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Business Analyst",
+      "slug": "business-analyst",
+      "description": null,
+      "displayOrder": 38
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Digital Business Analyst",
+      "slug": "digital-business-analyst",
+      "description": null,
+      "displayOrder": 39
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Mining Business Analyst",
+      "slug": "mining-business-analyst",
+      "description": null,
+      "displayOrder": 40
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Decision Support Analyst",
+      "slug": "decision-support-analyst",
+      "description": null,
+      "displayOrder": 41
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Performance Analyst",
+      "slug": "performance-analyst",
+      "description": null,
+      "displayOrder": 42
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Operational Excellence Analyst",
+      "slug": "operational-excellence-analyst",
+      "description": null,
+      "displayOrder": 43
+    },
+    {
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "name": "Digital Analytics Specialist",
+      "slug": "digital-analytics-specialist",
+      "description": null,
+      "displayOrder": 44
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "Artificial Intelligence Engineer",
+      "slug": "artificial-intelligence-engineer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "AI Engineer",
+      "slug": "ai-engineer",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "Machine Learning Engineer",
+      "slug": "machine-learning-engineer",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "Machine Learning Specialist",
+      "slug": "machine-learning-specialist",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "Machine Learning Scientist",
+      "slug": "machine-learning-scientist",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "Mining AI Engineer",
+      "slug": "mining-ai-engineer",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "AI Solutions Engineer",
+      "slug": "ai-solutions-engineer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "AI Solutions Architect",
+      "slug": "ai-solutions-architect",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "Computer Vision Engineer",
+      "slug": "computer-vision-engineer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "Computer Vision Specialist",
+      "slug": "computer-vision-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "Computer Vision Scientist",
+      "slug": "computer-vision-scientist",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "Predictive Analytics Engineer",
+      "slug": "predictive-analytics-engineer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "Predictive Maintenance Data Scientist",
+      "slug": "predictive-maintenance-data-scientist",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "Predictive Maintenance Engineer",
+      "slug": "predictive-maintenance-engineer",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "Data Science Specialist",
+      "slug": "data-science-specialist",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "Applied Data Scientist",
+      "slug": "applied-data-scientist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "AI Research Engineer",
+      "slug": "ai-research-engineer",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "AI Research Scientist",
+      "slug": "ai-research-scientist",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "Natural Language Processing Engineer",
+      "slug": "natural-language-processing-engineer",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "NLP Engineer",
+      "slug": "nlp-engineer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "MLOps Engineer",
+      "slug": "mlops-engineer",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "Machine Learning Operations Engineer",
+      "slug": "machine-learning-operations-engineer",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "AI Platform Engineer",
+      "slug": "ai-platform-engineer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "AI Product Specialist",
+      "slug": "ai-product-specialist",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "AI Product Manager",
+      "slug": "ai-product-manager",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "Intelligent Systems Engineer",
+      "slug": "intelligent-systems-engineer",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "kecerdasan-buatan-dan-pembelajaran-mesin",
+      "groupLabel": "Kecerdasan Buatan dan Pembelajaran Mesin",
+      "name": "Industrial AI Engineer",
+      "slug": "industrial-ai-engineer",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Software Engineer",
+      "slug": "software-engineer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Software Developer",
+      "slug": "software-developer",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Application Developer",
+      "slug": "application-developer",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Application Engineer",
+      "slug": "application-engineer",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Full-Stack Developer",
+      "slug": "full-stack-developer",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Front-End Developer",
+      "slug": "front-end-developer",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Back-End Developer",
+      "slug": "back-end-developer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Mobile Application Developer",
+      "slug": "mobile-application-developer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Web Developer",
+      "slug": "web-developer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Web Application Developer",
+      "slug": "web-application-developer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Enterprise Application Developer",
+      "slug": "enterprise-application-developer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Business Application Developer",
+      "slug": "business-application-developer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Systems Analyst",
+      "slug": "systems-analyst",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "System Developer",
+      "slug": "system-developer",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Systems Engineer",
+      "slug": "systems-engineer",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Solution Architect",
+      "slug": "solution-architect",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Software Architect",
+      "slug": "software-architect",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Enterprise Architect",
+      "slug": "enterprise-architect",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Application Support Analyst",
+      "slug": "application-support-analyst",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Application Support Engineer",
+      "slug": "application-support-engineer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Application Support Specialist",
+      "slug": "application-support-specialist",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Business Systems Analyst",
+      "slug": "business-systems-analyst",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Enterprise Systems Analyst",
+      "slug": "enterprise-systems-analyst",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Integration Engineer",
+      "slug": "integration-engineer",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "API Integration Engineer",
+      "slug": "api-integration-engineer",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Software Quality Assurance Engineer",
+      "slug": "software-quality-assurance-engineer",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Software Tester",
+      "slug": "software-tester",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Quality Assurance Analyst",
+      "slug": "quality-assurance-analyst",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Automation Test Engineer",
+      "slug": "automation-test-engineer",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "DevOps Engineer",
+      "slug": "devops-engineer",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Site Reliability Engineer",
+      "slug": "site-reliability-engineer",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Platform Engineer",
+      "slug": "platform-engineer",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Cloud Engineer",
+      "slug": "cloud-engineer",
+      "description": null,
+      "displayOrder": 32
+    },
+    {
+      "groupKey": "pengembangan-perangkat-lunak-dan-sistem",
+      "groupLabel": "Pengembangan Perangkat Lunak dan Sistem",
+      "name": "Cloud Solutions Architect",
+      "slug": "cloud-solutions-architect",
+      "description": null,
+      "displayOrder": 33
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "IT Support Officer",
+      "slug": "it-support-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "IT Support Technician",
+      "slug": "it-support-technician",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "IT Support Engineer",
+      "slug": "it-support-engineer",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "IT Helpdesk Officer",
+      "slug": "it-helpdesk-officer",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "IT Helpdesk Analyst",
+      "slug": "it-helpdesk-analyst",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "Service Desk Analyst",
+      "slug": "service-desk-analyst",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "Desktop Support Technician",
+      "slug": "desktop-support-technician",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "IT Operations Officer",
+      "slug": "it-operations-officer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "IT Operations Analyst",
+      "slug": "it-operations-analyst",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "IT Operations Engineer",
+      "slug": "it-operations-engineer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "IT Infrastructure Engineer",
+      "slug": "it-infrastructure-engineer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "IT Infrastructure Specialist",
+      "slug": "it-infrastructure-specialist",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "IT Infrastructure Manager",
+      "slug": "it-infrastructure-manager",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "Network Engineer",
+      "slug": "network-engineer",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "Network Administrator",
+      "slug": "network-administrator",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "Network Specialist",
+      "slug": "network-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "Network Operations Engineer",
+      "slug": "network-operations-engineer",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "Network Operations Center Analyst",
+      "slug": "network-operations-center-analyst",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "Network Architect",
+      "slug": "network-architect",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "Systems Administrator",
+      "slug": "systems-administrator",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "System Administrator",
+      "slug": "system-administrator",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "Server Administrator",
+      "slug": "server-administrator",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "Infrastructure Administrator",
+      "slug": "infrastructure-administrator",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "Database Administrator",
+      "slug": "database-administrator",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "Database Engineer",
+      "slug": "database-engineer",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "Database Specialist",
+      "slug": "database-specialist",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "Cloud Infrastructure Engineer",
+      "slug": "cloud-infrastructure-engineer",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "Cloud Operations Engineer",
+      "slug": "cloud-operations-engineer",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "IT Service Management Analyst",
+      "slug": "it-service-management-analyst",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "IT Service Delivery Officer",
+      "slug": "it-service-delivery-officer",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "IT Service Delivery Manager",
+      "slug": "it-service-delivery-manager",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "IT Project Coordinator",
+      "slug": "it-project-coordinator",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "IT Project Manager",
+      "slug": "it-project-manager",
+      "description": null,
+      "displayOrder": 32
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "IT Asset Management Officer",
+      "slug": "it-asset-management-officer",
+      "description": null,
+      "displayOrder": 33
+    },
+    {
+      "groupKey": "infrastruktur-teknologi-informasi",
+      "groupLabel": "Infrastruktur Teknologi Informasi",
+      "name": "IT Asset Management Specialist",
+      "slug": "it-asset-management-specialist",
+      "description": null,
+      "displayOrder": 34
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Cybersecurity Analyst",
+      "slug": "cybersecurity-analyst",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Cybersecurity Engineer",
+      "slug": "cybersecurity-engineer",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Cybersecurity Specialist",
+      "slug": "cybersecurity-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Cybersecurity Architect",
+      "slug": "cybersecurity-architect",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Cybersecurity Consultant",
+      "slug": "cybersecurity-consultant",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Information Security Analyst",
+      "slug": "information-security-analyst",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Information Security Engineer",
+      "slug": "information-security-engineer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Information Security Officer",
+      "slug": "information-security-officer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Information Security Specialist",
+      "slug": "information-security-specialist",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Information Security Manager",
+      "slug": "information-security-manager",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Security Operations Center Analyst",
+      "slug": "security-operations-center-analyst",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "SOC Analyst",
+      "slug": "soc-analyst",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Security Operations Engineer",
+      "slug": "security-operations-engineer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Cyber Threat Intelligence Analyst",
+      "slug": "cyber-threat-intelligence-analyst",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Cyber Risk Analyst",
+      "slug": "cyber-risk-analyst",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Cyber Risk Specialist",
+      "slug": "cyber-risk-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Vulnerability Management Analyst",
+      "slug": "vulnerability-management-analyst",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Vulnerability Management Engineer",
+      "slug": "vulnerability-management-engineer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Security Compliance Analyst",
+      "slug": "security-compliance-analyst",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "IT Security Compliance Officer",
+      "slug": "it-security-compliance-officer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Identity and Access Management Engineer",
+      "slug": "identity-and-access-management-engineer",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "IAM Specialist",
+      "slug": "iam-specialist",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Network Security Engineer",
+      "slug": "network-security-engineer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Cloud Security Engineer",
+      "slug": "cloud-security-engineer",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Application Security Engineer",
+      "slug": "application-security-engineer",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Security Incident Response Analyst",
+      "slug": "security-incident-response-analyst",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Digital Forensics Analyst",
+      "slug": "digital-forensics-analyst",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "OT Cybersecurity Engineer",
+      "slug": "ot-cybersecurity-engineer",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Industrial Cybersecurity Engineer",
+      "slug": "industrial-cybersecurity-engineer",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "keamanan-siber-dan-keamanan-informasi",
+      "groupLabel": "Keamanan Siber dan Keamanan Informasi",
+      "name": "Operational Technology Security Specialist",
+      "slug": "operational-technology-security-specialist",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "Operational Technology Engineer",
+      "slug": "operational-technology-engineer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "OT Engineer",
+      "slug": "ot-engineer",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "OT Systems Engineer",
+      "slug": "ot-systems-engineer",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "OT Infrastructure Engineer",
+      "slug": "ot-infrastructure-engineer",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "OT Network Engineer",
+      "slug": "ot-network-engineer",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "OT Support Engineer",
+      "slug": "ot-support-engineer",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "OT Systems Specialist",
+      "slug": "ot-systems-specialist",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "OT Cybersecurity Engineer",
+      "slug": "ot-cybersecurity-engineer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "Industrial Systems Engineer",
+      "slug": "industrial-systems-engineer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "Industrial Technology Engineer",
+      "slug": "industrial-technology-engineer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "Industrial Digitalization Engineer",
+      "slug": "industrial-digitalization-engineer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "Industrial IoT Engineer",
+      "slug": "industrial-iot-engineer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "IIoT Engineer",
+      "slug": "iiot-engineer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "IoT Engineer",
+      "slug": "iot-engineer",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "IoT Solutions Engineer",
+      "slug": "iot-solutions-engineer",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "Connected Systems Engineer",
+      "slug": "connected-systems-engineer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "Industrial Network Engineer",
+      "slug": "industrial-network-engineer",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "Control Systems Engineer",
+      "slug": "control-systems-engineer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "Control Systems Specialist",
+      "slug": "control-systems-specialist",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "Process Control Engineer",
+      "slug": "process-control-engineer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "Process Control Specialist",
+      "slug": "process-control-specialist",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "SCADA Engineer",
+      "slug": "scada-engineer",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "SCADA Specialist",
+      "slug": "scada-specialist",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "SCADA Systems Engineer",
+      "slug": "scada-systems-engineer",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "Distributed Control Systems Engineer",
+      "slug": "distributed-control-systems-engineer",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "DCS Engineer",
+      "slug": "dcs-engineer",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "DCS Specialist",
+      "slug": "dcs-specialist",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "PLC Engineer",
+      "slug": "plc-engineer",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "PLC Programmer",
+      "slug": "plc-programmer",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "Industrial Automation Engineer",
+      "slug": "industrial-automation-engineer",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "Industrial Automation Specialist",
+      "slug": "industrial-automation-specialist",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "Automation Systems Engineer",
+      "slug": "automation-systems-engineer",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "Automation Systems Specialist",
+      "slug": "automation-systems-specialist",
+      "description": null,
+      "displayOrder": 32
+    },
+    {
+      "groupKey": "teknologi-operasional-dan-sistem-industri",
+      "groupLabel": "Teknologi Operasional dan Sistem Industri",
+      "name": "Industrial Systems Integrator",
+      "slug": "industrial-systems-integrator",
+      "description": null,
+      "displayOrder": 33
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Automation Engineer",
+      "slug": "automation-engineer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Automation Specialist",
+      "slug": "automation-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Automation Technician",
+      "slug": "automation-technician",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Automation Systems Engineer",
+      "slug": "automation-systems-engineer",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Automation Project Engineer",
+      "slug": "automation-project-engineer",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Automation Project Manager",
+      "slug": "automation-project-manager",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Mining Automation Engineer",
+      "slug": "mining-automation-engineer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Mining Automation Specialist",
+      "slug": "mining-automation-specialist",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Mining Technology Engineer",
+      "slug": "mining-technology-engineer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Mining Technology Specialist",
+      "slug": "mining-technology-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Autonomous Systems Engineer",
+      "slug": "autonomous-systems-engineer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Autonomous Operations Engineer",
+      "slug": "autonomous-operations-engineer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Autonomous Haulage Systems Engineer",
+      "slug": "autonomous-haulage-systems-engineer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Autonomous Haulage Systems Specialist",
+      "slug": "autonomous-haulage-systems-specialist",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Autonomous Drilling Engineer",
+      "slug": "autonomous-drilling-engineer",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Autonomous Drilling Specialist",
+      "slug": "autonomous-drilling-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Remote Operations Engineer",
+      "slug": "remote-operations-engineer",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Remote Operations Specialist",
+      "slug": "remote-operations-specialist",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Remote Operations Center Operator",
+      "slug": "remote-operations-center-operator",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Remote Equipment Operator",
+      "slug": "remote-equipment-operator",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Tele-Remote Systems Engineer",
+      "slug": "tele-remote-systems-engineer",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Tele-Remote Operator",
+      "slug": "tele-remote-operator",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Robotics Engineer",
+      "slug": "robotics-engineer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Industrial Robotics Engineer",
+      "slug": "industrial-robotics-engineer",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Robotics Systems Engineer",
+      "slug": "robotics-systems-engineer",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Robotics Technician",
+      "slug": "robotics-technician",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Unmanned Systems Engineer",
+      "slug": "unmanned-systems-engineer",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Drone Systems Engineer",
+      "slug": "drone-systems-engineer",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Drone Operations Specialist",
+      "slug": "drone-operations-specialist",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "Unmanned Aerial Vehicle Operator",
+      "slug": "unmanned-aerial-vehicle-operator",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "otomasi-robotika-dan-operasi-otonom",
+      "groupLabel": "Otomasi, Robotika, dan Operasi Otonom",
+      "name": "UAV Data Specialist",
+      "slug": "uav-data-specialist",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Transformation Specialist",
+      "slug": "digital-transformation-specialist",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Transformation Engineer",
+      "slug": "digital-transformation-engineer",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Transformation Manager",
+      "slug": "digital-transformation-manager",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Innovation Specialist",
+      "slug": "digital-innovation-specialist",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Innovation Engineer",
+      "slug": "digital-innovation-engineer",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Innovation Manager",
+      "slug": "digital-innovation-manager",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Technology Specialist",
+      "slug": "digital-technology-specialist",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Technology Engineer",
+      "slug": "digital-technology-engineer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Technology Manager",
+      "slug": "digital-technology-manager",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Solutions Engineer",
+      "slug": "digital-solutions-engineer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Solutions Architect",
+      "slug": "digital-solutions-architect",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Solutions Specialist",
+      "slug": "digital-solutions-specialist",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Product Owner",
+      "slug": "digital-product-owner",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Product Manager",
+      "slug": "digital-product-manager",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Project Manager",
+      "slug": "digital-project-manager",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Program Manager",
+      "slug": "digital-program-manager",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Operations Specialist",
+      "slug": "digital-operations-specialist",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Operations Engineer",
+      "slug": "digital-operations-engineer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Mining Specialist",
+      "slug": "digital-mining-specialist",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Mining Engineer",
+      "slug": "digital-mining-engineer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Mining Digitalization Engineer",
+      "slug": "mining-digitalization-engineer",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Mining Digitalization Specialist",
+      "slug": "mining-digitalization-specialist",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Technology Innovation Specialist",
+      "slug": "technology-innovation-specialist",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Technology Adoption Specialist",
+      "slug": "technology-adoption-specialist",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Technology Integration Engineer",
+      "slug": "technology-integration-engineer",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Change Manager",
+      "slug": "digital-change-manager",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "digitalisasi-dan-transformasi-teknologi",
+      "groupLabel": "Digitalisasi dan Transformasi Teknologi",
+      "name": "Digital Transformation Analyst",
+      "slug": "digital-transformation-analyst",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "IT Supervisor",
+      "slug": "it-supervisor",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "IT Superintendent",
+      "slug": "it-superintendent",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "IT Manager",
+      "slug": "it-manager",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "IT Operations Manager",
+      "slug": "it-operations-manager",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "IT Infrastructure Manager",
+      "slug": "it-infrastructure-manager",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "IT Service Delivery Manager",
+      "slug": "it-service-delivery-manager",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of IT",
+      "slug": "head-of-it",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Information Technology",
+      "slug": "head-of-information-technology",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Chief Information Officer",
+      "slug": "chief-information-officer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Chief Technology Officer",
+      "slug": "chief-technology-officer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Data Analytics Manager",
+      "slug": "data-analytics-manager",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Data Science Manager",
+      "slug": "data-science-manager",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Data",
+      "slug": "head-of-data",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Data and Analytics",
+      "slug": "head-of-data-and-analytics",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Chief Data Officer",
+      "slug": "chief-data-officer",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Digital Technology Manager",
+      "slug": "digital-technology-manager",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Digital Transformation Manager",
+      "slug": "digital-transformation-manager",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Digital",
+      "slug": "head-of-digital",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Chief Digital Officer",
+      "slug": "chief-digital-officer",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Automation Manager",
+      "slug": "automation-manager",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Automation Superintendent",
+      "slug": "automation-superintendent",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Automation and Control Manager",
+      "slug": "automation-and-control-manager",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "OT Manager",
+      "slug": "ot-manager",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Operational Technology",
+      "slug": "head-of-operational-technology",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Technology and Digital Manager",
+      "slug": "technology-and-digital-manager",
+      "description": null,
+      "displayOrder": 24
+    }
+  ],
+  "profileItems": [
+    {
+      "itemKey": "work-scope-informasi-utama-peran-data-analyst-umumnya-berfokus-pada-pengolahan-analisis-visualisasi-serta-penyampaian-wawasan-dari-data-data-engineer-lebih-berf",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Peran Data Analyst umumnya berfokus pada pengolahan, analisis, visualisasi, serta penyampaian wawasan dari data. Data Engineer lebih berfokus pada pembangunan dan pengelolaan infrastruktur data, sedangkan Data Scientist dapat mengembangkan model statistik atau pembelajaran mesin. Pembagian tugas dapat berbeda antarorganisasi. Profesi dalam kategori Data, Teknologi Informasi, dan Otomasi dapat terlibat dalam kegiatan berikut:",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengumpulkan-data-dari-sistem-operasional-sensor-peralatan-aplikasi-basis-data-dan-sumber-lain",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengumpulkan data dari sistem operasional, sensor, peralatan, aplikasi, basis data, dan sumber lain.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memeriksa-kelengkapan-konsistensi-akurasi-serta-kualitas-data",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memeriksa kelengkapan, konsistensi, akurasi, serta kualitas data.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pembersihan-pengolahan-integrasi-dan-transformasi-data",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pembersihan, pengolahan, integrasi, dan transformasi data.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengembangkan-basis-data-data-warehouse-data-pipeline-serta-sistem-integrasi-data",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengembangkan basis data, data warehouse, data pipeline, serta sistem integrasi data.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menganalisis-data-produksi-alat-berat-pemeliharaan-keselamatan-lingkungan-logistik-atau-data-bisnis",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menganalisis data produksi, alat berat, pemeliharaan, keselamatan, lingkungan, logistik, atau data bisnis.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengembangkan-laporan-indikator-kinerja-visualisasi-dan-dashboard",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengembangkan laporan, indikator kinerja, visualisasi, dan dashboard.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyampaikan-hasil-analisis-untuk-mendukung-pengambilan-keputusan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyampaikan hasil analisis untuk mendukung pengambilan keputusan.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengembangkan-model-statistik-prediktif-atau-pembelajaran-mesin-sesuai-kebutuhan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengembangkan model statistik, prediktif, atau pembelajaran mesin sesuai kebutuhan.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengembangkan-solusi-kecerdasan-buatan-untuk-mendukung-operasi-inspeksi-pemeliharaan-keselamatan-atau-optimasi-proses",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengembangkan solusi kecerdasan buatan untuk mendukung operasi, inspeksi, pemeliharaan, keselamatan, atau optimasi proses.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengembangkan-dan-memelihara-aplikasi-web-aplikasi-seluler-aplikasi-perusahaan-serta-sistem-informasi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengembangkan dan memelihara aplikasi web, aplikasi seluler, aplikasi perusahaan, serta sistem informasi.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengintegrasikan-aplikasi-melalui-api-basis-data-atau-layanan-digital-lainnya",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengintegrasikan aplikasi melalui API, basis data, atau layanan digital lainnya.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pengujian-pemeliharaan-perbaikan-dan-peningkatan-perangkat-lunak",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pengujian, pemeliharaan, perbaikan, dan peningkatan perangkat lunak.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-jaringan-server-perangkat-pengguna-layanan-cloud-serta-infrastruktur-ti",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola jaringan, server, perangkat pengguna, layanan cloud, serta infrastruktur TI.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memberikan-dukungan-teknis-kepada-pengguna-dan-menangani-gangguan-sistem",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memberikan dukungan teknis kepada pengguna dan menangani gangguan sistem.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-akses-pengguna-identitas-digital-serta-hak-akses-sistem",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola akses pengguna, identitas digital, serta hak akses sistem.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memantau-ancaman-kerentanan-insiden-dan-risiko-keamanan-siber",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memantau ancaman, kerentanan, insiden, dan risiko keamanan siber.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menerapkan-pengamanan-pada-jaringan-aplikasi-data-sistem-ti-dan-teknologi-operasional",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menerapkan pengamanan pada jaringan, aplikasi, data, sistem TI, dan teknologi operasional.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-sistem-ot-yang-mendukung-proses-industri-dan-operasi-lapangan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola sistem OT yang mendukung proses industri dan operasi lapangan.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengembangkan-atau-memelihara-sistem-plc-scada-dcs-sensor-serta-sistem-kontrol",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengembangkan atau memelihara sistem PLC, SCADA, DCS, sensor, serta sistem kontrol.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengintegrasikan-perangkat-lapangan-dengan-jaringan-dan-platform-pemantauan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengintegrasikan perangkat lapangan dengan jaringan dan platform pemantauan.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengembangkan-sistem-pemantauan-kondisi-dan-operasi-secara-real-time",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengembangkan sistem pemantauan kondisi dan operasi secara real-time.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-penerapan-otomasi-peralatan-dan-proses",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung penerapan otomasi peralatan dan proses.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-sistem-operasi-jarak-jauh-tele-remote-atau-operasi-otonom-sesuai-kebutuhan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung sistem operasi jarak jauh, tele-remote, atau operasi otonom sesuai kebutuhan.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-proyek-digitalisasi-dan-transformasi-teknologi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola proyek digitalisasi dan transformasi teknologi.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-evaluasi-teknologi-baru-serta-mengembangkan-solusi-yang-sesuai-dengan-kebutuhan-operasi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan evaluasi teknologi baru serta mengembangkan solusi yang sesuai dengan kebutuhan operasi.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-dokumentasi-sistem-prosedur-arsitektur-serta-standar-teknologi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun dokumentasi sistem, prosedur, arsitektur, serta standar teknologi.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-berkoordinasi-dengan-tim-operasi-teknik-geologi-pemeliharaan-hse-lingkungan-keuangan-dan-manajemen",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Berkoordinasi dengan tim operasi, teknik, geologi, pemeliharaan, HSE, lingkungan, keuangan, dan manajemen.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-teknis-umum",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi teknis umum",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-sistem-informasi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar sistem informasi.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-pengelolaan-data",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami pengelolaan data.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-basis-data",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami basis data.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-jaringan-komputer",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami jaringan komputer.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-sistem-operasi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami sistem operasi.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-pengembangan-perangkat-lunak",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami pengembangan perangkat lunak.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-integrasi-sistem",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami integrasi sistem.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-keamanan-informasi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami keamanan informasi.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-komputasi-awan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami komputasi awan.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dokumentasi-teknis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dokumentasi teknis.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-pengelolaan-proyek-teknologi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami pengelolaan proyek teknologi.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-proses-bisnis-dan-operasional",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami proses bisnis dan operasional.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-prinsip-tata-kelola-data",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami prinsip tata kelola data.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-manajemen-risiko-teknologi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar manajemen risiko teknologi.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-teknis-spesialis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi teknis spesialis",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "competency-data-dan-analitik-pengumpulan-data",
+      "section": "competency",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pengumpulan data.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-data-dan-analitik-pembersihan-data",
+      "section": "competency",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pembersihan data.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-data-dan-analitik-validasi-data",
+      "section": "competency",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Validasi data.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-data-dan-analitik-analisis-statistik",
+      "section": "competency",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Analisis statistik.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-data-dan-analitik-pemodelan-data",
+      "section": "competency",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pemodelan data.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-data-dan-analitik-visualisasi-data",
+      "section": "competency",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Visualisasi data.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-data-dan-analitik-pengembangan-dashboard",
+      "section": "competency",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pengembangan dashboard.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-data-dan-analitik-pengelolaan-indikator-kinerja",
+      "section": "competency",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pengelolaan indikator kinerja.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-data-dan-analitik-pengembangan-laporan",
+      "section": "competency",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pengembangan laporan.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-data-dan-analitik-sql",
+      "section": "competency",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "SQL.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-data-dan-analitik-pengelolaan-basis-data",
+      "section": "competency",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pengelolaan basis data.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-data-dan-analitik-data-warehousing",
+      "section": "competency",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Data warehousing.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-data-dan-analitik-integrasi-data",
+      "section": "competency",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Integrasi data.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "competency-data-dan-analitik-etl-elt",
+      "section": "competency",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "ETL/ELT.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "competency-data-dan-analitik-tata-kelola-data",
+      "section": "competency",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Tata kelola data.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "competency-data-dan-analitik-manajemen-kualitas-data",
+      "section": "competency",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Manajemen kualitas data.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "competency-kecerdasan-buatan-pembelajaran-mesin",
+      "section": "competency",
+      "groupKey": "kecerdasan-buatan",
+      "groupLabel": "Kecerdasan Buatan",
+      "value": "Pembelajaran mesin.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-kecerdasan-buatan-pembelajaran-mendalam",
+      "section": "competency",
+      "groupKey": "kecerdasan-buatan",
+      "groupLabel": "Kecerdasan Buatan",
+      "value": "Pembelajaran mendalam.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-kecerdasan-buatan-pemodelan-prediktif",
+      "section": "competency",
+      "groupKey": "kecerdasan-buatan",
+      "groupLabel": "Kecerdasan Buatan",
+      "value": "Pemodelan prediktif.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-kecerdasan-buatan-klasifikasi-dan-regresi",
+      "section": "competency",
+      "groupKey": "kecerdasan-buatan",
+      "groupLabel": "Kecerdasan Buatan",
+      "value": "Klasifikasi dan regresi.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-kecerdasan-buatan-pemrosesan-data",
+      "section": "competency",
+      "groupKey": "kecerdasan-buatan",
+      "groupLabel": "Kecerdasan Buatan",
+      "value": "Pemrosesan data.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-kecerdasan-buatan-feature-engineering",
+      "section": "competency",
+      "groupKey": "kecerdasan-buatan",
+      "groupLabel": "Kecerdasan Buatan",
+      "value": "Feature engineering.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-kecerdasan-buatan-evaluasi-model",
+      "section": "competency",
+      "groupKey": "kecerdasan-buatan",
+      "groupLabel": "Kecerdasan Buatan",
+      "value": "Evaluasi model.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-kecerdasan-buatan-computer-vision",
+      "section": "competency",
+      "groupKey": "kecerdasan-buatan",
+      "groupLabel": "Kecerdasan Buatan",
+      "value": "Computer vision.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-kecerdasan-buatan-pemrosesan-bahasa-alami",
+      "section": "competency",
+      "groupKey": "kecerdasan-buatan",
+      "groupLabel": "Kecerdasan Buatan",
+      "value": "Pemrosesan bahasa alami.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-kecerdasan-buatan-mlops",
+      "section": "competency",
+      "groupKey": "kecerdasan-buatan",
+      "groupLabel": "Kecerdasan Buatan",
+      "value": "MLOps.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-kecerdasan-buatan-pengembangan-dan-pemantauan-model-ai",
+      "section": "competency",
+      "groupKey": "kecerdasan-buatan",
+      "groupLabel": "Kecerdasan Buatan",
+      "value": "Pengembangan dan pemantauan model AI.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-pengembangan-perangkat-lunak-pemrograman",
+      "section": "competency",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "Pemrograman.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-pengembangan-perangkat-lunak-analisis-kebutuhan-sistem",
+      "section": "competency",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "Analisis kebutuhan sistem.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-pengembangan-perangkat-lunak-perancangan-perangkat-lunak",
+      "section": "competency",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "Perancangan perangkat lunak.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-pengembangan-perangkat-lunak-pengembangan-aplikasi",
+      "section": "competency",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "Pengembangan aplikasi.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-pengembangan-perangkat-lunak-pengembangan-aplikasi-web",
+      "section": "competency",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "Pengembangan aplikasi web.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-pengembangan-perangkat-lunak-pengembangan-aplikasi-seluler",
+      "section": "competency",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "Pengembangan aplikasi seluler.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-pengembangan-perangkat-lunak-pengembangan-api",
+      "section": "competency",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "Pengembangan API.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-pengembangan-perangkat-lunak-integrasi-sistem",
+      "section": "competency",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "Integrasi sistem.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-pengembangan-perangkat-lunak-pengujian-perangkat-lunak",
+      "section": "competency",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "Pengujian perangkat lunak.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-pengembangan-perangkat-lunak-pengendalian-versi",
+      "section": "competency",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "Pengendalian versi.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-pengembangan-perangkat-lunak-devops",
+      "section": "competency",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "DevOps.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-pengembangan-perangkat-lunak-pengembangan-berbasis-cloud",
+      "section": "competency",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "Pengembangan berbasis cloud.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-infrastruktur-ti-administrasi-sistem",
+      "section": "competency",
+      "groupKey": "infrastruktur-ti",
+      "groupLabel": "Infrastruktur TI",
+      "value": "Administrasi sistem.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-infrastruktur-ti-administrasi-jaringan",
+      "section": "competency",
+      "groupKey": "infrastruktur-ti",
+      "groupLabel": "Infrastruktur TI",
+      "value": "Administrasi jaringan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-infrastruktur-ti-manajemen-server",
+      "section": "competency",
+      "groupKey": "infrastruktur-ti",
+      "groupLabel": "Infrastruktur TI",
+      "value": "Manajemen server.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-infrastruktur-ti-manajemen-basis-data",
+      "section": "competency",
+      "groupKey": "infrastruktur-ti",
+      "groupLabel": "Infrastruktur TI",
+      "value": "Manajemen basis data.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-infrastruktur-ti-komputasi-awan",
+      "section": "competency",
+      "groupKey": "infrastruktur-ti",
+      "groupLabel": "Infrastruktur TI",
+      "value": "Komputasi awan.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-infrastruktur-ti-virtualisasi",
+      "section": "competency",
+      "groupKey": "infrastruktur-ti",
+      "groupLabel": "Infrastruktur TI",
+      "value": "Virtualisasi.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-infrastruktur-ti-pemantauan-infrastruktur",
+      "section": "competency",
+      "groupKey": "infrastruktur-ti",
+      "groupLabel": "Infrastruktur TI",
+      "value": "Pemantauan infrastruktur.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-infrastruktur-ti-manajemen-layanan-ti",
+      "section": "competency",
+      "groupKey": "infrastruktur-ti",
+      "groupLabel": "Infrastruktur TI",
+      "value": "Manajemen layanan TI.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-infrastruktur-ti-pemulihan-sistem",
+      "section": "competency",
+      "groupKey": "infrastruktur-ti",
+      "groupLabel": "Infrastruktur TI",
+      "value": "Pemulihan sistem.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-infrastruktur-ti-pencadangan-data",
+      "section": "competency",
+      "groupKey": "infrastruktur-ti",
+      "groupLabel": "Infrastruktur TI",
+      "value": "Pencadangan data.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-infrastruktur-ti-manajemen-aset-ti",
+      "section": "competency",
+      "groupKey": "infrastruktur-ti",
+      "groupLabel": "Infrastruktur TI",
+      "value": "Manajemen aset TI.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-keamanan-siber-keamanan-jaringan",
+      "section": "competency",
+      "groupKey": "keamanan-siber",
+      "groupLabel": "Keamanan Siber",
+      "value": "Keamanan jaringan.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-keamanan-siber-keamanan-aplikasi",
+      "section": "competency",
+      "groupKey": "keamanan-siber",
+      "groupLabel": "Keamanan Siber",
+      "value": "Keamanan aplikasi.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-keamanan-siber-keamanan-cloud",
+      "section": "competency",
+      "groupKey": "keamanan-siber",
+      "groupLabel": "Keamanan Siber",
+      "value": "Keamanan cloud.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-keamanan-siber-manajemen-identitas-dan-akses",
+      "section": "competency",
+      "groupKey": "keamanan-siber",
+      "groupLabel": "Keamanan Siber",
+      "value": "Manajemen identitas dan akses.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-keamanan-siber-analisis-kerentanan",
+      "section": "competency",
+      "groupKey": "keamanan-siber",
+      "groupLabel": "Keamanan Siber",
+      "value": "Analisis kerentanan.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-keamanan-siber-pemantauan-keamanan",
+      "section": "competency",
+      "groupKey": "keamanan-siber",
+      "groupLabel": "Keamanan Siber",
+      "value": "Pemantauan keamanan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-keamanan-siber-penanganan-insiden",
+      "section": "competency",
+      "groupKey": "keamanan-siber",
+      "groupLabel": "Keamanan Siber",
+      "value": "Penanganan insiden.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-keamanan-siber-analisis-risiko-siber",
+      "section": "competency",
+      "groupKey": "keamanan-siber",
+      "groupLabel": "Keamanan Siber",
+      "value": "Analisis risiko siber.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-keamanan-siber-keamanan-teknologi-operasional",
+      "section": "competency",
+      "groupKey": "keamanan-siber",
+      "groupLabel": "Keamanan Siber",
+      "value": "Keamanan teknologi operasional.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-keamanan-siber-kepatuhan-keamanan-informasi",
+      "section": "competency",
+      "groupKey": "keamanan-siber",
+      "groupLabel": "Keamanan Siber",
+      "value": "Kepatuhan keamanan informasi.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-sistem-plc",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Sistem PLC.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-sistem-scada",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Sistem SCADA.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-sistem-dcs",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Sistem DCS.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-sistem-kontrol-proses",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Sistem kontrol proses.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-sensor-dan-instrumentasi",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Sensor dan instrumentasi.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-jaringan-industri",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Jaringan industri.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-sistem-iot-dan-iiot",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Sistem IoT dan IIoT.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-integrasi-sistem-industri",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Integrasi sistem industri.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-otomasi-proses",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Otomasi proses.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-sistem-operasi-jarak-jauh",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Sistem operasi jarak jauh.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-sistem-otonom",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Sistem otonom.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-robotika-industri",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Robotika industri.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-pemantauan-kondisi-real-time",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Pemantauan kondisi real-time.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-kompetensi-nonteknis",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Kompetensi nonteknis",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-kemampuan-berpikir-analitis",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Kemampuan berpikir analitis.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-kemampuan-memecahkan-masalah",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Kemampuan memecahkan masalah.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-kemampuan-berpikir-sistematis",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Kemampuan berpikir sistematis.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-ketelitian",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Ketelitian.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-kemampuan-komunikasi-teknis",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Kemampuan komunikasi teknis.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-kemampuan-menerjemahkan-kebutuhan-bisnis-menjadi-solusi-teknologi",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Kemampuan menerjemahkan kebutuhan bisnis menjadi solusi teknologi.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-kemampuan-bekerja-dalam-tim-lintas-disiplin",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Kemampuan bekerja dalam tim lintas disiplin.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-manajemen-waktu",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Manajemen waktu.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-manajemen-proyek",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Manajemen proyek.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-kemampuan-beradaptasi-terhadap-perubahan-teknologi",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Kemampuan beradaptasi terhadap perubahan teknologi.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-kemampuan-belajar-mandiri",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Kemampuan belajar mandiri.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-kreativitas-dan-inovasi",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Kreativitas dan inovasi.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-kemampuan-menyusun-dokumentasi",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Kemampuan menyusun dokumentasi.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-kemampuan-menyampaikan-hasil-analisis",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Kemampuan menyampaikan hasil analisis.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-kesadaran-terhadap-keamanan-data",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Kesadaran terhadap keamanan data.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "competency-teknologi-operasional-dan-otomasi-kemampuan-mengelola-risiko",
+      "section": "competency",
+      "groupKey": "teknologi-operasional-dan-otomasi",
+      "groupLabel": "Teknologi Operasional dan Otomasi",
+      "value": "Kemampuan mengelola risiko.",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-utama",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan utama",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-informatika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Informatika",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "education-informasi-utama-ilmu-komputer",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ilmu Komputer",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "education-informasi-utama-sistem-informasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Informasi",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "education-informasi-utama-teknologi-informasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknologi Informasi",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "education-informasi-utama-sains-data",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sains Data",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "education-informasi-utama-data-science",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Data Science",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "education-informasi-utama-statistika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Statistika",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "education-informasi-utama-matematika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Matematika",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-komputer",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Komputer",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "education-informasi-utama-rekayasa-perangkat-lunak",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Rekayasa Perangkat Lunak",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-elektro",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Elektro",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-elektronika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Elektronika",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-telekomunikasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Telekomunikasi",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-mekatronika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Mekatronika",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-otomasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Otomasi",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-instrumentasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Instrumentasi",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-fisika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Fisika",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-industri",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Industri",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-sistem",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Sistem",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-pertambangan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Pertambangan",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-geologi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Geologi",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-geodesi-dan-geomatika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Geodesi dan Geomatika",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "education-informasi-utama-sistem-dan-teknologi-informasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem dan Teknologi Informasi",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "education-informasi-utama-bidang-lain-yang-relevan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Bidang lain yang relevan.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-pendukung-untuk-posisi-tertentu",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan pendukung untuk posisi tertentu",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-teknologi-informasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Teknologi Informasi.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-teknik-informatika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Teknik Informatika.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-sistem-informasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Sistem Informasi.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-manajemen-informatika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Manajemen Informatika.",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-teknik-komputer",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Teknik Komputer.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-teknik-jaringan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Teknik Jaringan.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-teknik-elektro",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Teknik Elektro.",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-teknik-elektronika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Teknik Elektronika.",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-teknik-instrumentasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Teknik Instrumentasi.",
+      "displayOrder": 34
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-teknik-otomasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Teknik Otomasi.",
+      "displayOrder": 35
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-pengembangan-perangkat-lunak",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi pengembangan perangkat lunak.",
+      "displayOrder": 36
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-administrasi-jaringan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi administrasi jaringan.",
+      "displayOrder": 37
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-keamanan-siber",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi keamanan siber.",
+      "displayOrder": 38
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-analitik-data",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi analitik data.",
+      "displayOrder": 39
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-otomasi-industri",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi otomasi industri.",
+      "displayOrder": 40
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-mekatronika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi mekatronika.",
+      "displayOrder": 41
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-kejuruan-bidang-pengembangan-perangkat-lunak-jaringan-komputer-elektronika-atau-otomasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan kejuruan bidang pengembangan perangkat lunak, jaringan, komputer, elektronika, atau otomasi.",
+      "displayOrder": 42
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-lain-yang-sesuai-dengan-kebutuhan-jabatan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan lain yang sesuai dengan kebutuhan jabatan.",
+      "displayOrder": 43
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-microsoft-excel",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Microsoft Excel",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-microsoft-power-bi",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Microsoft Power BI",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-tableau",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Tableau",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-python-dan-r",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Python dan R",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-sql",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: SQL",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-b-basis-data-dan-platform-data",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: B. Basis Data dan Platform Data",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-microsoft-sql-server",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Microsoft SQL Server",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-oracle-database",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Oracle Database",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-postgresql",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: PostgreSQL",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-snowflake",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Snowflake",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-databricks",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Databricks",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-c-pengembangan-perangkat-lunak",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: C. Pengembangan Perangkat Lunak",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-visual-studio-code",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Visual Studio Code",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-visual-studio",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Visual Studio",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-android-studio",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Android Studio",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-git-github-gitlab",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Git/GitHub/GitLab",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-d-infrastruktur-dan-komputasi-awan",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: D. Infrastruktur dan Komputasi Awan",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-microsoft-azure",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Microsoft Azure",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-amazon-web-services-aws",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Amazon Web Services (AWS)",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-google-cloud",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Google Cloud",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-vmware",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: VMware",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-docker",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Docker",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-e-sistem-otomasi-dan-teknologi-operasional",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: E. Sistem Otomasi dan Teknologi Operasional",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-siemens-tia-portal",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Siemens TIA Portal",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-siemens-wincc",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Siemens WinCC",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-aveva-system-platform",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: AVEVA System Platform",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-aveva-pi-system",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: AVEVA PI System",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-rockwell-automation-factorytalk",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Rockwell Automation FactoryTalk",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-schneider-electric-ecostruxure",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Schneider Electric EcoStruxure",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-f-pengelolaan-proyek-dan-kolaborasi",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: F. Pengelolaan Proyek dan Kolaborasi",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-microsoft-project",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Microsoft Project",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-jira",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Jira",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-microsoft-teams",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Microsoft Teams",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "software-informasi-utama-analisis-data-dan-business-intelligence-confluence",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis Data dan Business Intelligence: Confluence",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-teknis",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan teknis",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-data-dan-analitik-pelatihan-dasar-analitik-data",
+      "section": "training",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pelatihan dasar analitik data.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-data-dan-analitik-pelatihan-statistik-terapan",
+      "section": "training",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pelatihan statistik terapan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-data-dan-analitik-pelatihan-microsoft-excel",
+      "section": "training",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pelatihan Microsoft Excel.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-data-dan-analitik-pelatihan-sql",
+      "section": "training",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pelatihan SQL.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-data-dan-analitik-pelatihan-power-bi",
+      "section": "training",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pelatihan Power BI.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-data-dan-analitik-pelatihan-tableau",
+      "section": "training",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pelatihan Tableau.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-data-dan-analitik-pelatihan-python-untuk-analitik-data",
+      "section": "training",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pelatihan Python untuk analitik data.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-data-dan-analitik-pelatihan-r-untuk-analisis-statistik",
+      "section": "training",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pelatihan R untuk analisis statistik.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-data-dan-analitik-pelatihan-visualisasi-data",
+      "section": "training",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pelatihan visualisasi data.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-data-dan-analitik-pelatihan-pengelolaan-basis-data",
+      "section": "training",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pelatihan pengelolaan basis data.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "training-data-dan-analitik-pelatihan-data-engineering",
+      "section": "training",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pelatihan data engineering.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "training-data-dan-analitik-pelatihan-integrasi-data",
+      "section": "training",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pelatihan integrasi data.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "training-data-dan-analitik-pelatihan-tata-kelola-data",
+      "section": "training",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pelatihan tata kelola data.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "training-data-dan-analitik-pelatihan-kualitas-data",
+      "section": "training",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pelatihan kualitas data.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "training-data-dan-analitik-pelatihan-data-warehouse",
+      "section": "training",
+      "groupKey": "data-dan-analitik",
+      "groupLabel": "Data dan Analitik",
+      "value": "Pelatihan data warehouse",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "training-kecerdasan-buatan-pelatihan-dasar-kecerdasan-buatan",
+      "section": "training",
+      "groupKey": "kecerdasan-buatan",
+      "groupLabel": "Kecerdasan Buatan",
+      "value": "Pelatihan dasar kecerdasan buatan.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-kecerdasan-buatan-pelatihan-pembelajaran-mesin",
+      "section": "training",
+      "groupKey": "kecerdasan-buatan",
+      "groupLabel": "Kecerdasan Buatan",
+      "value": "Pelatihan pembelajaran mesin.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-kecerdasan-buatan-pelatihan-pembelajaran-mendalam",
+      "section": "training",
+      "groupKey": "kecerdasan-buatan",
+      "groupLabel": "Kecerdasan Buatan",
+      "value": "Pelatihan pembelajaran mendalam.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-kecerdasan-buatan-pelatihan-analitik-prediktif",
+      "section": "training",
+      "groupKey": "kecerdasan-buatan",
+      "groupLabel": "Kecerdasan Buatan",
+      "value": "Pelatihan analitik prediktif.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-kecerdasan-buatan-pelatihan-computer-vision",
+      "section": "training",
+      "groupKey": "kecerdasan-buatan",
+      "groupLabel": "Kecerdasan Buatan",
+      "value": "Pelatihan computer vision.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-kecerdasan-buatan-pelatihan-mlops",
+      "section": "training",
+      "groupKey": "kecerdasan-buatan",
+      "groupLabel": "Kecerdasan Buatan",
+      "value": "Pelatihan MLOps.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-kecerdasan-buatan-pelatihan-penerapan-ai-pada-proses-industri",
+      "section": "training",
+      "groupKey": "kecerdasan-buatan",
+      "groupLabel": "Kecerdasan Buatan",
+      "value": "Pelatihan penerapan AI pada proses industri.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-pengembangan-perangkat-lunak-pelatihan-pemrograman",
+      "section": "training",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "Pelatihan pemrograman.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-pengembangan-perangkat-lunak-pelatihan-pengembangan-aplikasi-web",
+      "section": "training",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "Pelatihan pengembangan aplikasi web.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-pengembangan-perangkat-lunak-pelatihan-pengembangan-aplikasi-seluler",
+      "section": "training",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "Pelatihan pengembangan aplikasi seluler.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-pengembangan-perangkat-lunak-pelatihan-pengembangan-api",
+      "section": "training",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "Pelatihan pengembangan API.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-pengembangan-perangkat-lunak-pelatihan-pengujian-perangkat-lunak",
+      "section": "training",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "Pelatihan pengujian perangkat lunak.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-pengembangan-perangkat-lunak-pelatihan-git-dan-pengendalian-versi",
+      "section": "training",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "Pelatihan Git dan pengendalian versi.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-pengembangan-perangkat-lunak-pelatihan-devops",
+      "section": "training",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "Pelatihan DevOps.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-pengembangan-perangkat-lunak-pelatihan-komputasi-awan",
+      "section": "training",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "Pelatihan komputasi awan.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-pengembangan-perangkat-lunak-pelatihan-software-engineering",
+      "section": "training",
+      "groupKey": "pengembangan-perangkat-lunak",
+      "groupLabel": "Pengembangan Perangkat Lunak",
+      "value": "Pelatihan software engineering.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-infrastruktur-dan-keamanan-siber-pelatihan-administrasi-jaringan",
+      "section": "training",
+      "groupKey": "infrastruktur-dan-keamanan-siber",
+      "groupLabel": "Infrastruktur dan Keamanan Siber",
+      "value": "Pelatihan administrasi jaringan.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-infrastruktur-dan-keamanan-siber-pelatihan-administrasi-sistem",
+      "section": "training",
+      "groupKey": "infrastruktur-dan-keamanan-siber",
+      "groupLabel": "Infrastruktur dan Keamanan Siber",
+      "value": "Pelatihan administrasi sistem.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-infrastruktur-dan-keamanan-siber-pelatihan-manajemen-server",
+      "section": "training",
+      "groupKey": "infrastruktur-dan-keamanan-siber",
+      "groupLabel": "Infrastruktur dan Keamanan Siber",
+      "value": "Pelatihan manajemen server.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-infrastruktur-dan-keamanan-siber-pelatihan-komputasi-awan",
+      "section": "training",
+      "groupKey": "infrastruktur-dan-keamanan-siber",
+      "groupLabel": "Infrastruktur dan Keamanan Siber",
+      "value": "Pelatihan komputasi awan.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-infrastruktur-dan-keamanan-siber-pelatihan-keamanan-jaringan",
+      "section": "training",
+      "groupKey": "infrastruktur-dan-keamanan-siber",
+      "groupLabel": "Infrastruktur dan Keamanan Siber",
+      "value": "Pelatihan keamanan jaringan.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-infrastruktur-dan-keamanan-siber-pelatihan-keamanan-aplikasi",
+      "section": "training",
+      "groupKey": "infrastruktur-dan-keamanan-siber",
+      "groupLabel": "Infrastruktur dan Keamanan Siber",
+      "value": "Pelatihan keamanan aplikasi.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-infrastruktur-dan-keamanan-siber-pelatihan-keamanan-cloud",
+      "section": "training",
+      "groupKey": "infrastruktur-dan-keamanan-siber",
+      "groupLabel": "Infrastruktur dan Keamanan Siber",
+      "value": "Pelatihan keamanan cloud.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-infrastruktur-dan-keamanan-siber-pelatihan-penanganan-insiden-siber",
+      "section": "training",
+      "groupKey": "infrastruktur-dan-keamanan-siber",
+      "groupLabel": "Infrastruktur dan Keamanan Siber",
+      "value": "Pelatihan penanganan insiden siber.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-infrastruktur-dan-keamanan-siber-pelatihan-manajemen-identitas-dan-akses",
+      "section": "training",
+      "groupKey": "infrastruktur-dan-keamanan-siber",
+      "groupLabel": "Infrastruktur dan Keamanan Siber",
+      "value": "Pelatihan manajemen identitas dan akses.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-infrastruktur-dan-keamanan-siber-pelatihan-analisis-kerentanan",
+      "section": "training",
+      "groupKey": "infrastruktur-dan-keamanan-siber",
+      "groupLabel": "Infrastruktur dan Keamanan Siber",
+      "value": "Pelatihan analisis kerentanan.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "training-infrastruktur-dan-keamanan-siber-pelatihan-keamanan-teknologi-operasional",
+      "section": "training",
+      "groupKey": "infrastruktur-dan-keamanan-siber",
+      "groupLabel": "Infrastruktur dan Keamanan Siber",
+      "value": "Pelatihan keamanan teknologi operasional.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-pelatihan-plc",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Pelatihan PLC.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-pelatihan-scada",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Pelatihan SCADA.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-pelatihan-dcs",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Pelatihan DCS.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-pelatihan-sistem-kontrol-proses",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Pelatihan sistem kontrol proses.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-pelatihan-instrumentasi",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Pelatihan instrumentasi.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-pelatihan-jaringan-industri",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Pelatihan jaringan industri.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-pelatihan-iot-dan-iiot",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Pelatihan IoT dan IIoT.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-pelatihan-otomasi-industri",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Pelatihan otomasi industri.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-pelatihan-sistem-operasi-jarak-jauh",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Pelatihan sistem operasi jarak jauh.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-pelatihan-sistem-otonom",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Pelatihan sistem otonom.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-pelatihan-robotika-industri",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Pelatihan robotika industri.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-pelatihan-penggunaan-sistem-pemantauan-real-time",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Pelatihan penggunaan sistem pemantauan real-time.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-pelatihan-integrasi-teknologi-operasional",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Pelatihan integrasi teknologi operasional.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-pelatihan-keselamatan",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Pelatihan keselamatan",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-induksi-keselamatan-pertambangan",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Induksi keselamatan pertambangan.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-identifikasi-bahaya-dan-penilaian-risiko",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Identifikasi bahaya dan penilaian risiko.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-keselamatan-kerja-di-area-tambang",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Keselamatan kerja di area tambang.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-keselamatan-bekerja-di-dekat-peralatan-otomatis",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Keselamatan bekerja di dekat peralatan otomatis.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-keselamatan-sistem-kelistrikan",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Keselamatan sistem kelistrikan.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-keselamatan-sistem-kontrol-dan-otomasi",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Keselamatan sistem kontrol dan otomasi.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-keselamatan-penggunaan-perangkat-elektronik-di-area-operasional",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Keselamatan penggunaan perangkat elektronik di area operasional.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-keselamatan-kerja-di-ruang-kontrol",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Keselamatan kerja di ruang kontrol.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-keselamatan-kerja-di-area-proses",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Keselamatan kerja di area proses.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-keselamatan-penggunaan-drone-sesuai-kebutuhan",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Keselamatan penggunaan drone sesuai kebutuhan.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-keselamatan-kerja-di-dekat-peralatan-bergerak",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Keselamatan kerja di dekat peralatan bergerak.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-penggunaan-alat-pelindung-diri",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Penggunaan alat pelindung diri.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-tanggap-darurat",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Tanggap darurat.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-kesadaran-keamanan-siber",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Kesadaran keamanan siber.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "training-otomasi-dan-teknologi-operasional-pelatihan-keselamatan-berdasarkan-risiko-spesifik-pekerjaan",
+      "section": "training",
+      "groupKey": "otomasi-dan-teknologi-operasional",
+      "groupLabel": "Otomasi dan Teknologi Operasional",
+      "value": "Pelatihan keselamatan berdasarkan risiko spesifik pekerjaan.",
+      "displayOrder": 28
+    }
+  ]
+}

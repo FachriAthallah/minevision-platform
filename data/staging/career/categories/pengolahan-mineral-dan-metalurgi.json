@@ -1,0 +1,2363 @@
+{
+  "schemaVersion": "1.0",
+  "categorySlug": "pengolahan-mineral-dan-metalurgi",
+  "category": {
+    "name": "Pengolahan Mineral dan Metalurgi",
+    "slug": "pengolahan-mineral-dan-metalurgi",
+    "description": "Deskripsi Kategori",
+    "displayOrder": 5,
+    "isActive": true
+  },
+  "profile": {
+    "title": "Pengolahan Mineral dan Metalurgi",
+    "slug": "pengolahan-mineral-dan-metalurgi",
+    "excerpt": "Deskripsi Kategori",
+    "body": "Deskripsi Kategori\n\nKategori Pengolahan Mineral dan Metalurgi mencakup profesi yang berperan dalam mengubah material hasil penambangan menjadi produk antara, konsentrat, produk mineral, atau produk logam melalui serangkaian proses fisik, fisikokimia, kimia, dan/atau termal. Kegiatan dalam bidang ini dapat meliputi crushing, grinding, klasifikasi, pemisahan mineral, flotasi, pemisahan gravitasi, pemisahan magnetik, pengentalan, filtrasi, pelindian (leaching), pemurnian, hingga proses metalurgi lanjutan.\n\nProfesi dalam kategori ini bekerja untuk memahami karakteristik material, menjaga kestabilan proses, meningkatkan perolehan (recovery), mengendalikan kualitas produk, mengoptimalkan penggunaan energi dan bahan proses, serta mengurangi kehilangan material bernilai. Bidang ini juga berperan dalam pengujian laboratorium, pengembangan proses, pemodelan, pengendalian proses pabrik, dan evaluasi kinerja fasilitas pengolahan. Peran Process Engineer atau Plant Metallurgist di lokasi operasi dapat melibatkan kerja langsung bersama tim operasi dan pemeliharaan untuk meningkatkan kinerja, ketersediaan, serta keandalan pabrik.\n\nContoh Profesi\n\nMetalurgi dan Rekayasa Proses\n\nMetallurgical Engineer\n\nMetallurgist\n\nProcess Engineer\n\nMineral Processing Engineer\n\nProcess Metallurgist\n\nPlant Metallurgist\n\nProduction Metallurgist\n\nOperations Metallurgist\n\nSenior Metallurgist\n\nChief Metallurgist\n\nMetallurgical Superintendent\n\nMetallurgical Supervisor\n\nMetallurgical Coordinator\n\nProcess Engineering Superintendent\n\nProcess Engineering Supervisor\n\nProcess Improvement Engineer\n\nProcess Optimization Engineer\n\nProcess Development Engineer\n\nProcess Control Engineer\n\nProcess Design Engineer\n\nProcess Safety Engineer\n\nProcess Performance Engineer\n\nPlant Performance Engineer\n\nTechnical Services Metallurgist\n\nPengolahan Mineral\n\nMineral Processing Specialist\n\nMineral Processing Technologist\n\nMineral Processing Technician\n\nMineral Processing Operator\n\nBeneficiation Engineer\n\nBeneficiation Specialist\n\nComminution Engineer\n\nComminution Specialist\n\nGrinding Engineer\n\nFlotation Engineer\n\nFlotation Specialist\n\nGravity Separation Specialist\n\nMagnetic Separation Specialist\n\nDense Media Specialist\n\nCoal Preparation Engineer\n\nCoal Preparation Plant Engineer\n\nCoal Processing Engineer\n\nCoal Washing Plant Supervisor\n\nCoal Preparation Plant Operator\n\nOre Processing Engineer\n\nConcentrator Engineer\n\nConcentrator Metallurgist\n\nHidrometalurgi\n\nHydrometallurgical Engineer\n\nHydrometallurgist\n\nHydrometallurgy Specialist\n\nLeaching Engineer\n\nLeach Plant Metallurgist\n\nHeap Leach Engineer\n\nHeap Leach Metallurgist\n\nSolvent Extraction Engineer\n\nSolvent Extraction–Electrowinning Engineer\n\nSX-EW Process Engineer\n\nElectrowinning Engineer\n\nPrecipitation Process Engineer\n\nSolution Management Engineer\n\nHydrometallurgical Process Technician\n\nPirometalurgi dan Peleburan\n\nPyrometallurgical Engineer\n\nPyrometallurgist\n\nSmelter Process Engineer\n\nSmelter Metallurgist\n\nSmelter Operations Engineer\n\nSmelter Production Engineer\n\nFurnace Engineer\n\nFurnace Operations Engineer\n\nFurnace Metallurgist\n\nSmelting Engineer\n\nRefining Engineer\n\nRefinery Process Engineer\n\nRefinery Metallurgist\n\nHigh-Temperature Process Engineer\n\nPyrometallurgical Process Technician\n\nLaboratorium dan Pengujian Metalurgi\n\nMetallurgical Laboratory Engineer\n\nMetallurgical Laboratory Supervisor\n\nMetallurgical Technician\n\nMetallurgical Laboratory Technician\n\nMineral Processing Laboratory Technician\n\nAssay Laboratory Technician\n\nAssay Technician\n\nLaboratory Analyst\n\nLaboratory Chemist\n\nAnalytical Chemist\n\nSample Preparation Technician\n\nSample Preparation Supervisor\n\nMineralogy Technician\n\nMineralogist\n\nProcess Testwork Technician\n\nMetallurgical Testwork Specialist\n\nOperasi Pabrik Pengolahan\n\nProcess Plant Manager\n\nProcess Plant Superintendent\n\nProcess Plant Supervisor\n\nProcess Plant Coordinator\n\nProcess Plant Engineer\n\nPlant Operations Engineer\n\nPlant Production Supervisor\n\nControl Room Supervisor\n\nControl Room Operator\n\nProcess Control Operator\n\nPlant Operator\n\nCrusher Operator\n\nGrinding Mill Operator\n\nFlotation Operator\n\nThickener Operator\n\nFilter Operator\n\nLeach Plant Operator\n\nConcentrator Operator\n\nSmelter Operator\n\nRefinery Operator\n\nDewatering Plant Operator\n\nTailings Plant Operator\n\nPengendalian Kualitas dan Kinerja Proses\n\nMetallurgical Quality Engineer\n\nProcess Quality Engineer\n\nQuality Control Metallurgist\n\nProcess Quality Analyst\n\nMetallurgical Data Analyst\n\nProcess Data Analyst\n\nProcess Performance Analyst\n\nRecovery Improvement Specialist\n\nPlant Optimization Specialist\n\nProduction Reconciliation Analyst\n\nMetallurgical Accounting Specialist\n\nProcess Improvement Specialist\n\nRuang Lingkup Pekerjaan\n\nTidak semua fasilitas menggunakan seluruh proses tersebut. Rangkaian pengolahan bergantung pada jenis komoditas, karakteristik material, teknologi, kapasitas pabrik, serta spesifikasi produk yang ditargetkan. Profesi dalam kategori Pengolahan Mineral dan Metalurgi dapat terlibat dalam kegiatan berikut:\n\nMempelajari karakteristik material, mineralogi, ukuran partikel, komposisi, kadar, serta sifat fisik dan kimia bahan umpan.\n\nMengembangkan, mengevaluasi, atau mengoptimalkan rangkaian proses (process flowsheet) sesuai karakteristik material dan target produk.\n\nMemantau kinerja proses pengolahan, termasuk kapasitas, laju umpan, ukuran produk, kadar, recovery, konsumsi energi, dan penggunaan bahan proses.\n\nMengendalikan proses crushing, grinding, klasifikasi, pemisahan, konsentrasi, pengentalan, filtrasi, dan proses pengolahan lainnya.\n\nMelakukan evaluasi proses pemisahan mineral, seperti flotasi, pemisahan gravitasi, pemisahan magnetik, atau metode lain sesuai jenis material.\n\nMelakukan pengujian metalurgi dan pengujian laboratorium untuk mengevaluasi respons material terhadap suatu proses.\n\nMelakukan sampling, preparasi sampel, analisis, dan pengendalian kualitas data laboratorium.\n\nMelakukan neraca massa dan neraca energi untuk mengevaluasi kinerja serta efisiensi proses.\n\nMengidentifikasi penyebab penurunan kinerja, gangguan proses, kehilangan material, atau ketidaksesuaian kualitas produk.\n\nMengembangkan dan menerapkan tindakan perbaikan untuk meningkatkan recovery, kapasitas, kualitas, stabilitas, atau efisiensi proses.\n\nMengawasi kegiatan operasi pabrik dan berkoordinasi dengan operator, pemeliharaan, laboratorium, lingkungan, serta tim teknis lainnya.\n\nMendukung proses hidrometalurgi, seperti pelindian, pemisahan larutan, ekstraksi pelarut, pengendapan, atau elektrowinning sesuai teknologi yang digunakan.\n\nMendukung proses pirometalurgi, seperti pengeringan, pemanggangan, peleburan, pemurnian, atau pengolahan temperatur tinggi sesuai fasilitas.\n\nMelakukan rekonsiliasi data antara material masuk, produk, residu, hasil laboratorium, dan data produksi.\n\nMenyusun laporan teknis, hasil pengujian, evaluasi proses, rekomendasi perbaikan, dan dokumentasi operasional.\n\nKompetensi\n\nKompetensi teknis umum\n\nMemahami dasar pengolahan mineral dan metalurgi.\n\nMemahami karakteristik mineral, bijih, konsentrat, atau material proses.\n\nMemahami prinsip pemisahan berdasarkan sifat fisik dan fisikokimia.\n\nMemahami dasar comminution, termasuk crushing dan grinding.\n\nMemahami prinsip sampling dan preparasi sampel.\n\nMemahami dasar analisis laboratorium dan pengendalian kualitas data.\n\nMemahami aliran material dalam suatu fasilitas pengolahan.\n\nMemahami dasar neraca massa dan neraca energi.\n\nMemahami indikator proses, seperti throughput, kadar, recovery, dan efisiensi.\n\nMemahami prosedur operasi standar dan pengendalian proses.\n\nMemahami dasar pengelolaan air proses, bahan kimia, residu, dan limbah.\n\nMemahami keselamatan kerja pada fasilitas pengolahan dan metalurgi.\n\nKompetensi teknis spesialis\n\nAnalisis mineralogi dan karakterisasi material.\n\nPengujian comminution.\n\nOptimasi crushing dan grinding.\n\nDesain serta evaluasi sirkuit pengolahan mineral.\n\nAnalisis ukuran partikel dan klasifikasi.\n\nOptimasi flotasi.\n\nPengendalian reagen proses.\n\nPemisahan gravitasi.\n\nPemisahan magnetik.\n\nPengolahan media berat (dense media processing).\n\nPengolahan batubara dan coal washing.\n\nPengentalan dan pengelolaan slurry.\n\nFiltrasi serta dewatering.\n\nPelindian (leaching).\n\nHeap leaching.\n\nEkstraksi pelarut (solvent extraction).\n\nElektrowinning.\n\nPengendapan dan pemurnian.\n\nProses peleburan dan pemurnian logam.\n\nAnalisis termodinamika metalurgi.\n\nPengendalian proses berbasis instrumen dan sistem otomasi.\n\nPemodelan serta simulasi proses.\n\nRekonsiliasi produksi dan metallurgical accounting.\n\nOptimasi recovery dan kualitas produk.\n\nKomepetensi nonteknis\n\nKemampuan analitis.\n\nPemecahan masalah berbasis data.\n\nKetelitian dalam pengukuran dan pengolahan data.\n\nKemampuan melakukan observasi proses.\n\nBerpikir sistematis.\n\nKemampuan mengidentifikasi akar masalah.\n\nKemampuan mengambil keputusan berdasarkan data teknis.\n\nKomunikasi teknis secara lisan dan tertulis.\n\nKerja sama dengan tim operasi, pemeliharaan, laboratorium, dan lingkungan.\n\nKemampuan menyusun rekomendasi yang dapat diterapkan.\n\nManajemen waktu dan prioritas.\n\nKemampuan beradaptasi terhadap perubahan kondisi proses.\n\nKepedulian terhadap keselamatan dan pengendalian risiko.\n\nKemampuan melakukan perbaikan berkelanjutan.\n\nPendidikan yang Relevan\n\nPendidikan utama\n\neknik Metalurgi\n\nTeknik Metalurgi dan Material\n\nTeknik Pengolahan Mineral\n\nTeknik Kimia\n\nTeknik Pertambangan, khususnya peminatan pengolahan bahan galian\n\nTeknik Material\n\nKimia\n\nTeknik Mesin, untuk posisi tertentu\n\nTeknik Elektro atau Teknik Instrumentasi, untuk bidang pengendalian proses tertentu\n\nPendidikan pendukung untuk posisi tertentu\n\nPendidikan vokasi pengolahan mineral.\n\nPendidikan vokasi metalurgi.\n\nPendidikan vokasi teknik kimia.\n\nPendidikan vokasi teknologi laboratorium.\n\nPendidikan vokasi analisis kimia.\n\nPendidikan vokasi teknik mesin.\n\nPendidikan vokasi instrumentasi dan otomasi.\n\nGeologi atau Geosains, terutama untuk bidang mineralogi atau karakterisasi material.\n\nProgram pendidikan lain yang sesuai dengan teknologi dan kebutuhan fasilitas.\n\nSoftware yang Digunakan\n\n| A. Pemodelan dan Simulasi Proses |\n| --- |\n| HSC Chemistry |\n| METSIM |\n| Aspen Plus |\n| USIM PAC |\n| B. Simulasi Pengolahan Mineral |\n| JKSimMet |\n| JKSimFloat |\n| Molycop Tools |\n| C. Pengendalian Proses dan Otomasi |\n| SCADA |\n| Distributed Control System (DCS) |\n| Programmable Logic Controller (PLC) |\n| AVEVA PI System |\n| D. Analisis dan Visualisasi Data |\n| Microsoft Excel |\n| Microsoft Power BI |\n| Python atau R |\n| E. Gambar dan Dokumentasi Teknis |\n| AutoCAD |\n| AutoCAD Plant 3D |\n| Microsoft Visio |\n\nPelatihan Relevan\n\nPelatihan teknis\n\nPelatihan dasar pengolahan mineral.\n\nPelatihan karakterisasi mineral dan material.\n\nPelatihan mineralogi terapan.\n\nPelatihan sampling dan preparasi sampel.\n\nPelatihan analisis laboratorium.\n\nPelatihan pengendalian kualitas laboratorium.\n\nPelatihan crushing dan screening.\n\nPelatihan grinding dan klasifikasi.\n\nPelatihan flotasi.\n\nPelatihan pemisahan gravitasi.\n\nPelatihan pemisahan magnetik.\n\nPelatihan dense media processing.\n\nPelatihan pengolahan batubara.\n\nPelatihan pengentalan dan filtrasi.\n\nPelatihan dewatering.\n\nPelatihan hidrometalurgi.\n\nPelatihan pelindian (leaching).\n\nPelatihan heap leaching.\n\nPelatihan ekstraksi pelarut dan elektrowinning.\n\nPelatihan pirometalurgi.\n\nPelatihan operasi smelter.\n\nPelatihan pemodelan dan simulasi proses.\n\nPelatihan neraca massa dan energi.\n\nPelatihan pengendalian proses.\n\nPelatihan penggunaan sistem SCADA, DCS, atau PLC sesuai kebutuhan pekerjaan.\n\nPelatihan optimasi proses dan peningkatan recovery.\n\nPelatihan rekonsiliasi produksi dan metallurgical accounting.\n\nPelatihan penggunaan software pengolahan mineral dan metalurgi.\n\nPelatihan keselamatan\n\nKeselamatan dan kesehatan kerja pada fasilitas pengolahan.\n\nInduksi keselamatan pabrik.\n\nIdentifikasi bahaya dan penilaian risiko.\n\nKeselamatan pengoperasian mesin dan peralatan proses.\n\nKeselamatan pada crusher, conveyor, mill, dan peralatan berputar.\n\nKeselamatan penggunaan bahan kimia.\n\nKeselamatan proses (process safety).\n\nKeselamatan pada pekerjaan bertekanan dan bertemperatur tinggi.\n\nKeselamatan peleburan dan operasi tungku.\n\nPengendalian paparan debu, gas, panas, dan kebisingan.\n\nPenggunaan alat pelindung diri sesuai risiko.\n\nKeselamatan ruang terbatas apabila relevan.\n\nKeselamatan kerja di ketinggian apabila relevan.\n\nPenanganan tumpahan bahan kimia.\n\nTanggap darurat.\n\nPertolongan pertama sesuai kebutuhan tempat kerja.\n\nPelatihan keselamatan berdasarkan risiko spesifik fasilitas.",
+    "coverImageUrl": null,
+    "status": "published",
+    "publishedAt": "2026-09-05T00:00:00.000Z",
+    "readingTimeMinutes": null,
+    "isFeatured": false,
+    "metadata": {},
+    "sources": [
+      {
+        "sourceSlug": "direktorat-jenderal-mineral-dan-batubara-kementerian-esdm",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 0
+      },
+      {
+        "sourceSlug": "direktorat-teknik-dan-lingkungan-mineral-dan-batubara-kementerian-esdm",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 1
+      },
+      {
+        "sourceSlug": "badan-geologi-kementerian-esdm",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 2
+      },
+      {
+        "sourceSlug": "jdih-kementerian-esdm",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 3
+      },
+      {
+        "sourceSlug": "kementerian-perindustrian-republik-indonesia",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 4
+      },
+      {
+        "sourceSlug": "kementerian-ketenagakerjaan-republik-indonesia",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 5
+      },
+      {
+        "sourceSlug": "metso",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 6
+      },
+      {
+        "sourceSlug": "metsim-international",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 7
+      },
+      {
+        "sourceSlug": "metsim-international-2",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 8
+      },
+      {
+        "sourceSlug": "jktech",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 9
+      },
+      {
+        "sourceSlug": "aspentech",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 10
+      },
+      {
+        "sourceSlug": "aveva",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 11
+      },
+      {
+        "sourceSlug": "rio-tinto",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 12
+      }
+    ]
+  },
+  "professions": [
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Metallurgical Engineer",
+      "slug": "metallurgical-engineer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Metallurgist",
+      "slug": "metallurgist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Process Engineer",
+      "slug": "process-engineer",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Mineral Processing Engineer",
+      "slug": "mineral-processing-engineer",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Process Metallurgist",
+      "slug": "process-metallurgist",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Plant Metallurgist",
+      "slug": "plant-metallurgist",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Production Metallurgist",
+      "slug": "production-metallurgist",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Operations Metallurgist",
+      "slug": "operations-metallurgist",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Senior Metallurgist",
+      "slug": "senior-metallurgist",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Chief Metallurgist",
+      "slug": "chief-metallurgist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Metallurgical Superintendent",
+      "slug": "metallurgical-superintendent",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Metallurgical Supervisor",
+      "slug": "metallurgical-supervisor",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Metallurgical Coordinator",
+      "slug": "metallurgical-coordinator",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Process Engineering Superintendent",
+      "slug": "process-engineering-superintendent",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Process Engineering Supervisor",
+      "slug": "process-engineering-supervisor",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Process Improvement Engineer",
+      "slug": "process-improvement-engineer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Process Optimization Engineer",
+      "slug": "process-optimization-engineer",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Process Development Engineer",
+      "slug": "process-development-engineer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Process Control Engineer",
+      "slug": "process-control-engineer",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Process Design Engineer",
+      "slug": "process-design-engineer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Process Safety Engineer",
+      "slug": "process-safety-engineer",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Process Performance Engineer",
+      "slug": "process-performance-engineer",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Plant Performance Engineer",
+      "slug": "plant-performance-engineer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "metalurgi-dan-rekayasa-proses",
+      "groupLabel": "Metalurgi dan Rekayasa Proses",
+      "name": "Technical Services Metallurgist",
+      "slug": "technical-services-metallurgist",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Mineral Processing Specialist",
+      "slug": "mineral-processing-specialist",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Mineral Processing Technologist",
+      "slug": "mineral-processing-technologist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Mineral Processing Technician",
+      "slug": "mineral-processing-technician",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Mineral Processing Operator",
+      "slug": "mineral-processing-operator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Beneficiation Engineer",
+      "slug": "beneficiation-engineer",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Beneficiation Specialist",
+      "slug": "beneficiation-specialist",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Comminution Engineer",
+      "slug": "comminution-engineer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Comminution Specialist",
+      "slug": "comminution-specialist",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Grinding Engineer",
+      "slug": "grinding-engineer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Flotation Engineer",
+      "slug": "flotation-engineer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Flotation Specialist",
+      "slug": "flotation-specialist",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Gravity Separation Specialist",
+      "slug": "gravity-separation-specialist",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Magnetic Separation Specialist",
+      "slug": "magnetic-separation-specialist",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Dense Media Specialist",
+      "slug": "dense-media-specialist",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Coal Preparation Engineer",
+      "slug": "coal-preparation-engineer",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Coal Preparation Plant Engineer",
+      "slug": "coal-preparation-plant-engineer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Coal Processing Engineer",
+      "slug": "coal-processing-engineer",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Coal Washing Plant Supervisor",
+      "slug": "coal-washing-plant-supervisor",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Coal Preparation Plant Operator",
+      "slug": "coal-preparation-plant-operator",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Ore Processing Engineer",
+      "slug": "ore-processing-engineer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Concentrator Engineer",
+      "slug": "concentrator-engineer",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "pengolahan-mineral",
+      "groupLabel": "Pengolahan Mineral",
+      "name": "Concentrator Metallurgist",
+      "slug": "concentrator-metallurgist",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "hidrometalurgi",
+      "groupLabel": "Hidrometalurgi",
+      "name": "Hydrometallurgical Engineer",
+      "slug": "hydrometallurgical-engineer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "hidrometalurgi",
+      "groupLabel": "Hidrometalurgi",
+      "name": "Hydrometallurgist",
+      "slug": "hydrometallurgist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "hidrometalurgi",
+      "groupLabel": "Hidrometalurgi",
+      "name": "Hydrometallurgy Specialist",
+      "slug": "hydrometallurgy-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "hidrometalurgi",
+      "groupLabel": "Hidrometalurgi",
+      "name": "Leaching Engineer",
+      "slug": "leaching-engineer",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "hidrometalurgi",
+      "groupLabel": "Hidrometalurgi",
+      "name": "Leach Plant Metallurgist",
+      "slug": "leach-plant-metallurgist",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "hidrometalurgi",
+      "groupLabel": "Hidrometalurgi",
+      "name": "Heap Leach Engineer",
+      "slug": "heap-leach-engineer",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "hidrometalurgi",
+      "groupLabel": "Hidrometalurgi",
+      "name": "Heap Leach Metallurgist",
+      "slug": "heap-leach-metallurgist",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "hidrometalurgi",
+      "groupLabel": "Hidrometalurgi",
+      "name": "Solvent Extraction Engineer",
+      "slug": "solvent-extraction-engineer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "hidrometalurgi",
+      "groupLabel": "Hidrometalurgi",
+      "name": "Solvent Extraction–Electrowinning Engineer",
+      "slug": "solvent-extraction-electrowinning-engineer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "hidrometalurgi",
+      "groupLabel": "Hidrometalurgi",
+      "name": "SX-EW Process Engineer",
+      "slug": "sx-ew-process-engineer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "hidrometalurgi",
+      "groupLabel": "Hidrometalurgi",
+      "name": "Electrowinning Engineer",
+      "slug": "electrowinning-engineer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "hidrometalurgi",
+      "groupLabel": "Hidrometalurgi",
+      "name": "Precipitation Process Engineer",
+      "slug": "precipitation-process-engineer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "hidrometalurgi",
+      "groupLabel": "Hidrometalurgi",
+      "name": "Solution Management Engineer",
+      "slug": "solution-management-engineer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "hidrometalurgi",
+      "groupLabel": "Hidrometalurgi",
+      "name": "Hydrometallurgical Process Technician",
+      "slug": "hydrometallurgical-process-technician",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "pirometalurgi-dan-peleburan",
+      "groupLabel": "Pirometalurgi dan Peleburan",
+      "name": "Pyrometallurgical Engineer",
+      "slug": "pyrometallurgical-engineer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "pirometalurgi-dan-peleburan",
+      "groupLabel": "Pirometalurgi dan Peleburan",
+      "name": "Pyrometallurgist",
+      "slug": "pyrometallurgist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "pirometalurgi-dan-peleburan",
+      "groupLabel": "Pirometalurgi dan Peleburan",
+      "name": "Smelter Process Engineer",
+      "slug": "smelter-process-engineer",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "pirometalurgi-dan-peleburan",
+      "groupLabel": "Pirometalurgi dan Peleburan",
+      "name": "Smelter Metallurgist",
+      "slug": "smelter-metallurgist",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "pirometalurgi-dan-peleburan",
+      "groupLabel": "Pirometalurgi dan Peleburan",
+      "name": "Smelter Operations Engineer",
+      "slug": "smelter-operations-engineer",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "pirometalurgi-dan-peleburan",
+      "groupLabel": "Pirometalurgi dan Peleburan",
+      "name": "Smelter Production Engineer",
+      "slug": "smelter-production-engineer",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "pirometalurgi-dan-peleburan",
+      "groupLabel": "Pirometalurgi dan Peleburan",
+      "name": "Furnace Engineer",
+      "slug": "furnace-engineer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "pirometalurgi-dan-peleburan",
+      "groupLabel": "Pirometalurgi dan Peleburan",
+      "name": "Furnace Operations Engineer",
+      "slug": "furnace-operations-engineer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "pirometalurgi-dan-peleburan",
+      "groupLabel": "Pirometalurgi dan Peleburan",
+      "name": "Furnace Metallurgist",
+      "slug": "furnace-metallurgist",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "pirometalurgi-dan-peleburan",
+      "groupLabel": "Pirometalurgi dan Peleburan",
+      "name": "Smelting Engineer",
+      "slug": "smelting-engineer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "pirometalurgi-dan-peleburan",
+      "groupLabel": "Pirometalurgi dan Peleburan",
+      "name": "Refining Engineer",
+      "slug": "refining-engineer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "pirometalurgi-dan-peleburan",
+      "groupLabel": "Pirometalurgi dan Peleburan",
+      "name": "Refinery Process Engineer",
+      "slug": "refinery-process-engineer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "pirometalurgi-dan-peleburan",
+      "groupLabel": "Pirometalurgi dan Peleburan",
+      "name": "Refinery Metallurgist",
+      "slug": "refinery-metallurgist",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "pirometalurgi-dan-peleburan",
+      "groupLabel": "Pirometalurgi dan Peleburan",
+      "name": "High-Temperature Process Engineer",
+      "slug": "high-temperature-process-engineer",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "pirometalurgi-dan-peleburan",
+      "groupLabel": "Pirometalurgi dan Peleburan",
+      "name": "Pyrometallurgical Process Technician",
+      "slug": "pyrometallurgical-process-technician",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "laboratorium-dan-pengujian-metalurgi",
+      "groupLabel": "Laboratorium dan Pengujian Metalurgi",
+      "name": "Metallurgical Laboratory Engineer",
+      "slug": "metallurgical-laboratory-engineer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "laboratorium-dan-pengujian-metalurgi",
+      "groupLabel": "Laboratorium dan Pengujian Metalurgi",
+      "name": "Metallurgical Laboratory Supervisor",
+      "slug": "metallurgical-laboratory-supervisor",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "laboratorium-dan-pengujian-metalurgi",
+      "groupLabel": "Laboratorium dan Pengujian Metalurgi",
+      "name": "Metallurgical Technician",
+      "slug": "metallurgical-technician",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "laboratorium-dan-pengujian-metalurgi",
+      "groupLabel": "Laboratorium dan Pengujian Metalurgi",
+      "name": "Metallurgical Laboratory Technician",
+      "slug": "metallurgical-laboratory-technician",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "laboratorium-dan-pengujian-metalurgi",
+      "groupLabel": "Laboratorium dan Pengujian Metalurgi",
+      "name": "Mineral Processing Laboratory Technician",
+      "slug": "mineral-processing-laboratory-technician",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "laboratorium-dan-pengujian-metalurgi",
+      "groupLabel": "Laboratorium dan Pengujian Metalurgi",
+      "name": "Assay Laboratory Technician",
+      "slug": "assay-laboratory-technician",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "laboratorium-dan-pengujian-metalurgi",
+      "groupLabel": "Laboratorium dan Pengujian Metalurgi",
+      "name": "Assay Technician",
+      "slug": "assay-technician",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "laboratorium-dan-pengujian-metalurgi",
+      "groupLabel": "Laboratorium dan Pengujian Metalurgi",
+      "name": "Laboratory Analyst",
+      "slug": "laboratory-analyst",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "laboratorium-dan-pengujian-metalurgi",
+      "groupLabel": "Laboratorium dan Pengujian Metalurgi",
+      "name": "Laboratory Chemist",
+      "slug": "laboratory-chemist",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "laboratorium-dan-pengujian-metalurgi",
+      "groupLabel": "Laboratorium dan Pengujian Metalurgi",
+      "name": "Analytical Chemist",
+      "slug": "analytical-chemist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "laboratorium-dan-pengujian-metalurgi",
+      "groupLabel": "Laboratorium dan Pengujian Metalurgi",
+      "name": "Sample Preparation Technician",
+      "slug": "sample-preparation-technician",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "laboratorium-dan-pengujian-metalurgi",
+      "groupLabel": "Laboratorium dan Pengujian Metalurgi",
+      "name": "Sample Preparation Supervisor",
+      "slug": "sample-preparation-supervisor",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "laboratorium-dan-pengujian-metalurgi",
+      "groupLabel": "Laboratorium dan Pengujian Metalurgi",
+      "name": "Mineralogy Technician",
+      "slug": "mineralogy-technician",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "laboratorium-dan-pengujian-metalurgi",
+      "groupLabel": "Laboratorium dan Pengujian Metalurgi",
+      "name": "Mineralogist",
+      "slug": "mineralogist",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "laboratorium-dan-pengujian-metalurgi",
+      "groupLabel": "Laboratorium dan Pengujian Metalurgi",
+      "name": "Process Testwork Technician",
+      "slug": "process-testwork-technician",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "laboratorium-dan-pengujian-metalurgi",
+      "groupLabel": "Laboratorium dan Pengujian Metalurgi",
+      "name": "Metallurgical Testwork Specialist",
+      "slug": "metallurgical-testwork-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Process Plant Manager",
+      "slug": "process-plant-manager",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Process Plant Superintendent",
+      "slug": "process-plant-superintendent",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Process Plant Supervisor",
+      "slug": "process-plant-supervisor",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Process Plant Coordinator",
+      "slug": "process-plant-coordinator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Process Plant Engineer",
+      "slug": "process-plant-engineer",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Plant Operations Engineer",
+      "slug": "plant-operations-engineer",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Plant Production Supervisor",
+      "slug": "plant-production-supervisor",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Control Room Supervisor",
+      "slug": "control-room-supervisor",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Control Room Operator",
+      "slug": "control-room-operator",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Process Control Operator",
+      "slug": "process-control-operator",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Plant Operator",
+      "slug": "plant-operator",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Crusher Operator",
+      "slug": "crusher-operator",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Grinding Mill Operator",
+      "slug": "grinding-mill-operator",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Flotation Operator",
+      "slug": "flotation-operator",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Thickener Operator",
+      "slug": "thickener-operator",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Filter Operator",
+      "slug": "filter-operator",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Leach Plant Operator",
+      "slug": "leach-plant-operator",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Concentrator Operator",
+      "slug": "concentrator-operator",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Smelter Operator",
+      "slug": "smelter-operator",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Refinery Operator",
+      "slug": "refinery-operator",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Dewatering Plant Operator",
+      "slug": "dewatering-plant-operator",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "operasi-pabrik-pengolahan",
+      "groupLabel": "Operasi Pabrik Pengolahan",
+      "name": "Tailings Plant Operator",
+      "slug": "tailings-plant-operator",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "pengendalian-kualitas-dan-kinerja-proses",
+      "groupLabel": "Pengendalian Kualitas dan Kinerja Proses",
+      "name": "Metallurgical Quality Engineer",
+      "slug": "metallurgical-quality-engineer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "pengendalian-kualitas-dan-kinerja-proses",
+      "groupLabel": "Pengendalian Kualitas dan Kinerja Proses",
+      "name": "Process Quality Engineer",
+      "slug": "process-quality-engineer",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "pengendalian-kualitas-dan-kinerja-proses",
+      "groupLabel": "Pengendalian Kualitas dan Kinerja Proses",
+      "name": "Quality Control Metallurgist",
+      "slug": "quality-control-metallurgist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "pengendalian-kualitas-dan-kinerja-proses",
+      "groupLabel": "Pengendalian Kualitas dan Kinerja Proses",
+      "name": "Process Quality Analyst",
+      "slug": "process-quality-analyst",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "pengendalian-kualitas-dan-kinerja-proses",
+      "groupLabel": "Pengendalian Kualitas dan Kinerja Proses",
+      "name": "Metallurgical Data Analyst",
+      "slug": "metallurgical-data-analyst",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "pengendalian-kualitas-dan-kinerja-proses",
+      "groupLabel": "Pengendalian Kualitas dan Kinerja Proses",
+      "name": "Process Data Analyst",
+      "slug": "process-data-analyst",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "pengendalian-kualitas-dan-kinerja-proses",
+      "groupLabel": "Pengendalian Kualitas dan Kinerja Proses",
+      "name": "Process Performance Analyst",
+      "slug": "process-performance-analyst",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "pengendalian-kualitas-dan-kinerja-proses",
+      "groupLabel": "Pengendalian Kualitas dan Kinerja Proses",
+      "name": "Recovery Improvement Specialist",
+      "slug": "recovery-improvement-specialist",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "pengendalian-kualitas-dan-kinerja-proses",
+      "groupLabel": "Pengendalian Kualitas dan Kinerja Proses",
+      "name": "Plant Optimization Specialist",
+      "slug": "plant-optimization-specialist",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "pengendalian-kualitas-dan-kinerja-proses",
+      "groupLabel": "Pengendalian Kualitas dan Kinerja Proses",
+      "name": "Production Reconciliation Analyst",
+      "slug": "production-reconciliation-analyst",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "pengendalian-kualitas-dan-kinerja-proses",
+      "groupLabel": "Pengendalian Kualitas dan Kinerja Proses",
+      "name": "Metallurgical Accounting Specialist",
+      "slug": "metallurgical-accounting-specialist",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "pengendalian-kualitas-dan-kinerja-proses",
+      "groupLabel": "Pengendalian Kualitas dan Kinerja Proses",
+      "name": "Process Improvement Specialist",
+      "slug": "process-improvement-specialist",
+      "description": null,
+      "displayOrder": 11
+    }
+  ],
+  "profileItems": [
+    {
+      "itemKey": "work-scope-informasi-utama-tidak-semua-fasilitas-menggunakan-seluruh-proses-tersebut-rangkaian-pengolahan-bergantung-pada-jenis-komoditas-karakteristik-material",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Tidak semua fasilitas menggunakan seluruh proses tersebut. Rangkaian pengolahan bergantung pada jenis komoditas, karakteristik material, teknologi, kapasitas pabrik, serta spesifikasi produk yang ditargetkan. Profesi dalam kategori Pengolahan Mineral dan Metalurgi dapat terlibat dalam kegiatan berikut:",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mempelajari-karakteristik-material-mineralogi-ukuran-partikel-komposisi-kadar-serta-sifat-fisik-dan-kimia-bahan-umpan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mempelajari karakteristik material, mineralogi, ukuran partikel, komposisi, kadar, serta sifat fisik dan kimia bahan umpan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengembangkan-mengevaluasi-atau-mengoptimalkan-rangkaian-proses-process-flowsheet-sesuai-karakteristik-material-dan-target-produk",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengembangkan, mengevaluasi, atau mengoptimalkan rangkaian proses (process flowsheet) sesuai karakteristik material dan target produk.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memantau-kinerja-proses-pengolahan-termasuk-kapasitas-laju-umpan-ukuran-produk-kadar-recovery-konsumsi-energi-dan-penggunaan-bahan-pr",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memantau kinerja proses pengolahan, termasuk kapasitas, laju umpan, ukuran produk, kadar, recovery, konsumsi energi, dan penggunaan bahan proses.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengendalikan-proses-crushing-grinding-klasifikasi-pemisahan-konsentrasi-pengentalan-filtrasi-dan-proses-pengolahan-lainnya",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengendalikan proses crushing, grinding, klasifikasi, pemisahan, konsentrasi, pengentalan, filtrasi, dan proses pengolahan lainnya.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-evaluasi-proses-pemisahan-mineral-seperti-flotasi-pemisahan-gravitasi-pemisahan-magnetik-atau-metode-lain-sesuai-jenis-mate",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan evaluasi proses pemisahan mineral, seperti flotasi, pemisahan gravitasi, pemisahan magnetik, atau metode lain sesuai jenis material.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pengujian-metalurgi-dan-pengujian-laboratorium-untuk-mengevaluasi-respons-material-terhadap-suatu-proses",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pengujian metalurgi dan pengujian laboratorium untuk mengevaluasi respons material terhadap suatu proses.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-sampling-preparasi-sampel-analisis-dan-pengendalian-kualitas-data-laboratorium",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan sampling, preparasi sampel, analisis, dan pengendalian kualitas data laboratorium.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-neraca-massa-dan-neraca-energi-untuk-mengevaluasi-kinerja-serta-efisiensi-proses",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan neraca massa dan neraca energi untuk mengevaluasi kinerja serta efisiensi proses.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengidentifikasi-penyebab-penurunan-kinerja-gangguan-proses-kehilangan-material-atau-ketidaksesuaian-kualitas-produk",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengidentifikasi penyebab penurunan kinerja, gangguan proses, kehilangan material, atau ketidaksesuaian kualitas produk.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengembangkan-dan-menerapkan-tindakan-perbaikan-untuk-meningkatkan-recovery-kapasitas-kualitas-stabilitas-atau-efisiensi-proses",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengembangkan dan menerapkan tindakan perbaikan untuk meningkatkan recovery, kapasitas, kualitas, stabilitas, atau efisiensi proses.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengawasi-kegiatan-operasi-pabrik-dan-berkoordinasi-dengan-operator-pemeliharaan-laboratorium-lingkungan-serta-tim-teknis-lainnya",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengawasi kegiatan operasi pabrik dan berkoordinasi dengan operator, pemeliharaan, laboratorium, lingkungan, serta tim teknis lainnya.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-proses-hidrometalurgi-seperti-pelindian-pemisahan-larutan-ekstraksi-pelarut-pengendapan-atau-elektrowinning-sesuai-teknolog",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung proses hidrometalurgi, seperti pelindian, pemisahan larutan, ekstraksi pelarut, pengendapan, atau elektrowinning sesuai teknologi yang digunakan.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-proses-pirometalurgi-seperti-pengeringan-pemanggangan-peleburan-pemurnian-atau-pengolahan-temperatur-tinggi-sesuai-fasilita",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung proses pirometalurgi, seperti pengeringan, pemanggangan, peleburan, pemurnian, atau pengolahan temperatur tinggi sesuai fasilitas.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-rekonsiliasi-data-antara-material-masuk-produk-residu-hasil-laboratorium-dan-data-produksi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan rekonsiliasi data antara material masuk, produk, residu, hasil laboratorium, dan data produksi.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-laporan-teknis-hasil-pengujian-evaluasi-proses-rekomendasi-perbaikan-dan-dokumentasi-operasional",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun laporan teknis, hasil pengujian, evaluasi proses, rekomendasi perbaikan, dan dokumentasi operasional.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-teknis-umum",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi teknis umum",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-pengolahan-mineral-dan-metalurgi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar pengolahan mineral dan metalurgi.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-karakteristik-mineral-bijih-konsentrat-atau-material-proses",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami karakteristik mineral, bijih, konsentrat, atau material proses.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-prinsip-pemisahan-berdasarkan-sifat-fisik-dan-fisikokimia",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami prinsip pemisahan berdasarkan sifat fisik dan fisikokimia.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-comminution-termasuk-crushing-dan-grinding",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar comminution, termasuk crushing dan grinding.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-prinsip-sampling-dan-preparasi-sampel",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami prinsip sampling dan preparasi sampel.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-analisis-laboratorium-dan-pengendalian-kualitas-data",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar analisis laboratorium dan pengendalian kualitas data.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-aliran-material-dalam-suatu-fasilitas-pengolahan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami aliran material dalam suatu fasilitas pengolahan.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-neraca-massa-dan-neraca-energi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar neraca massa dan neraca energi.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-indikator-proses-seperti-throughput-kadar-recovery-dan-efisiensi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami indikator proses, seperti throughput, kadar, recovery, dan efisiensi.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-prosedur-operasi-standar-dan-pengendalian-proses",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami prosedur operasi standar dan pengendalian proses.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-pengelolaan-air-proses-bahan-kimia-residu-dan-limbah",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar pengelolaan air proses, bahan kimia, residu, dan limbah.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-keselamatan-kerja-pada-fasilitas-pengolahan-dan-metalurgi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami keselamatan kerja pada fasilitas pengolahan dan metalurgi.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-teknis-spesialis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi teknis spesialis",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "competency-informasi-utama-analisis-mineralogi-dan-karakterisasi-material",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis mineralogi dan karakterisasi material.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengujian-comminution",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengujian comminution.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "competency-informasi-utama-optimasi-crushing-dan-grinding",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Optimasi crushing dan grinding.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "competency-informasi-utama-desain-serta-evaluasi-sirkuit-pengolahan-mineral",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Desain serta evaluasi sirkuit pengolahan mineral.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "competency-informasi-utama-analisis-ukuran-partikel-dan-klasifikasi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis ukuran partikel dan klasifikasi.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "competency-informasi-utama-optimasi-flotasi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Optimasi flotasi.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengendalian-reagen-proses",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengendalian reagen proses.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemisahan-gravitasi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemisahan gravitasi.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemisahan-magnetik",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemisahan magnetik.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengolahan-media-berat-dense-media-processing",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan media berat (dense media processing).",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengolahan-batubara-dan-coal-washing",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengolahan batubara dan coal washing.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengentalan-dan-pengelolaan-slurry",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengentalan dan pengelolaan slurry.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "competency-informasi-utama-filtrasi-serta-dewatering",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Filtrasi serta dewatering.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "competency-informasi-utama-pelindian-leaching",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelindian (leaching).",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "competency-informasi-utama-heap-leaching",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Heap leaching.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "competency-informasi-utama-ekstraksi-pelarut-solvent-extraction",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ekstraksi pelarut (solvent extraction).",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "competency-informasi-utama-elektrowinning",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Elektrowinning.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengendapan-dan-pemurnian",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengendapan dan pemurnian.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "competency-informasi-utama-proses-peleburan-dan-pemurnian-logam",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Proses peleburan dan pemurnian logam.",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "competency-informasi-utama-analisis-termodinamika-metalurgi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis termodinamika metalurgi.",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengendalian-proses-berbasis-instrumen-dan-sistem-otomasi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengendalian proses berbasis instrumen dan sistem otomasi.",
+      "displayOrder": 34
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemodelan-serta-simulasi-proses",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan serta simulasi proses.",
+      "displayOrder": 35
+    },
+    {
+      "itemKey": "competency-informasi-utama-rekonsiliasi-produksi-dan-metallurgical-accounting",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Rekonsiliasi produksi dan metallurgical accounting.",
+      "displayOrder": 36
+    },
+    {
+      "itemKey": "competency-informasi-utama-optimasi-recovery-dan-kualitas-produk",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Optimasi recovery dan kualitas produk.",
+      "displayOrder": 37
+    },
+    {
+      "itemKey": "competency-informasi-utama-komepetensi-nonteknis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Komepetensi nonteknis",
+      "displayOrder": 38
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-analitis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan analitis.",
+      "displayOrder": 39
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemecahan-masalah-berbasis-data",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemecahan masalah berbasis data.",
+      "displayOrder": 40
+    },
+    {
+      "itemKey": "competency-informasi-utama-ketelitian-dalam-pengukuran-dan-pengolahan-data",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ketelitian dalam pengukuran dan pengolahan data.",
+      "displayOrder": 41
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-melakukan-observasi-proses",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan melakukan observasi proses.",
+      "displayOrder": 42
+    },
+    {
+      "itemKey": "competency-informasi-utama-berpikir-sistematis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Berpikir sistematis.",
+      "displayOrder": 43
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-mengidentifikasi-akar-masalah",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan mengidentifikasi akar masalah.",
+      "displayOrder": 44
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-mengambil-keputusan-berdasarkan-data-teknis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan mengambil keputusan berdasarkan data teknis.",
+      "displayOrder": 45
+    },
+    {
+      "itemKey": "competency-informasi-utama-komunikasi-teknis-secara-lisan-dan-tertulis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Komunikasi teknis secara lisan dan tertulis.",
+      "displayOrder": 46
+    },
+    {
+      "itemKey": "competency-informasi-utama-kerja-sama-dengan-tim-operasi-pemeliharaan-laboratorium-dan-lingkungan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kerja sama dengan tim operasi, pemeliharaan, laboratorium, dan lingkungan.",
+      "displayOrder": 47
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-menyusun-rekomendasi-yang-dapat-diterapkan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan menyusun rekomendasi yang dapat diterapkan.",
+      "displayOrder": 48
+    },
+    {
+      "itemKey": "competency-informasi-utama-manajemen-waktu-dan-prioritas",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen waktu dan prioritas.",
+      "displayOrder": 49
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-beradaptasi-terhadap-perubahan-kondisi-proses",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan beradaptasi terhadap perubahan kondisi proses.",
+      "displayOrder": 50
+    },
+    {
+      "itemKey": "competency-informasi-utama-kepedulian-terhadap-keselamatan-dan-pengendalian-risiko",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kepedulian terhadap keselamatan dan pengendalian risiko.",
+      "displayOrder": 51
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-melakukan-perbaikan-berkelanjutan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan melakukan perbaikan berkelanjutan.",
+      "displayOrder": 52
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-utama",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan utama",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "education-informasi-utama-eknik-metalurgi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "eknik Metalurgi",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-metalurgi-dan-material",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Metalurgi dan Material",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-pengolahan-mineral",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Pengolahan Mineral",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-kimia",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Kimia",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-pertambangan-khususnya-peminatan-pengolahan-bahan-galian",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Pertambangan, khususnya peminatan pengolahan bahan galian",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-material",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Material",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "education-informasi-utama-kimia",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kimia",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-mesin-untuk-posisi-tertentu",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Mesin, untuk posisi tertentu",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-elektro-atau-teknik-instrumentasi-untuk-bidang-pengendalian-proses-tertentu",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Elektro atau Teknik Instrumentasi, untuk bidang pengendalian proses tertentu",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-pendukung-untuk-posisi-tertentu",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan pendukung untuk posisi tertentu",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-vokasi-pengolahan-mineral",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan vokasi pengolahan mineral.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-vokasi-metalurgi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan vokasi metalurgi.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-vokasi-teknik-kimia",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan vokasi teknik kimia.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-vokasi-teknologi-laboratorium",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan vokasi teknologi laboratorium.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-vokasi-analisis-kimia",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan vokasi analisis kimia.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-vokasi-teknik-mesin",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan vokasi teknik mesin.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-vokasi-instrumentasi-dan-otomasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan vokasi instrumentasi dan otomasi.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "education-informasi-utama-geologi-atau-geosains-terutama-untuk-bidang-mineralogi-atau-karakterisasi-material",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Geologi atau Geosains, terutama untuk bidang mineralogi atau karakterisasi material.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "education-informasi-utama-program-pendidikan-lain-yang-sesuai-dengan-teknologi-dan-kebutuhan-fasilitas",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program pendidikan lain yang sesuai dengan teknologi dan kebutuhan fasilitas.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-hsc-chemistry",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: HSC Chemistry",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-metsim",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: METSIM",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-aspen-plus",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: Aspen Plus",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-usim-pac",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: USIM PAC",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-b-simulasi-pengolahan-mineral",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: B. Simulasi Pengolahan Mineral",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-jksimmet",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: JKSimMet",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-jksimfloat",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: JKSimFloat",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-molycop-tools",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: Molycop Tools",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-c-pengendalian-proses-dan-otomasi",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: C. Pengendalian Proses dan Otomasi",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-scada",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: SCADA",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-distributed-control-system-dcs",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: Distributed Control System (DCS)",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-programmable-logic-controller-plc",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: Programmable Logic Controller (PLC)",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-aveva-pi-system",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: AVEVA PI System",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-d-analisis-dan-visualisasi-data",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: D. Analisis dan Visualisasi Data",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-microsoft-excel",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: Microsoft Excel",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-microsoft-power-bi",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: Microsoft Power BI",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-python-atau-r",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: Python atau R",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-e-gambar-dan-dokumentasi-teknis",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: E. Gambar dan Dokumentasi Teknis",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-autocad",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: AutoCAD",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-autocad-plant-3d",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: AutoCAD Plant 3D",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "software-informasi-utama-pemodelan-dan-simulasi-proses-microsoft-visio",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemodelan dan Simulasi Proses: Microsoft Visio",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-teknis",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan teknis",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-dasar-pengolahan-mineral",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan dasar pengolahan mineral.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-karakterisasi-mineral-dan-material",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan karakterisasi mineral dan material.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-mineralogi-terapan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan mineralogi terapan.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-sampling-dan-preparasi-sampel",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan sampling dan preparasi sampel.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-analisis-laboratorium",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan analisis laboratorium.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengendalian-kualitas-laboratorium",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengendalian kualitas laboratorium.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-crushing-dan-screening",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan crushing dan screening.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-grinding-dan-klasifikasi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan grinding dan klasifikasi.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-flotasi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan flotasi.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemisahan-gravitasi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemisahan gravitasi.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemisahan-magnetik",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemisahan magnetik.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-dense-media-processing",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan dense media processing.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengolahan-batubara",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengolahan batubara.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengentalan-dan-filtrasi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengentalan dan filtrasi.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-dewatering",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan dewatering.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-hidrometalurgi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan hidrometalurgi.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pelindian-leaching",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pelindian (leaching).",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-heap-leaching",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan heap leaching.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-ekstraksi-pelarut-dan-elektrowinning",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan ekstraksi pelarut dan elektrowinning.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pirometalurgi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pirometalurgi.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-operasi-smelter",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan operasi smelter.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemodelan-dan-simulasi-proses",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemodelan dan simulasi proses.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-neraca-massa-dan-energi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan neraca massa dan energi.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengendalian-proses",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengendalian proses.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-penggunaan-sistem-scada-dcs-atau-plc-sesuai-kebutuhan-pekerjaan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan penggunaan sistem SCADA, DCS, atau PLC sesuai kebutuhan pekerjaan.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-optimasi-proses-dan-peningkatan-recovery",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan optimasi proses dan peningkatan recovery.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-rekonsiliasi-produksi-dan-metallurgical-accounting",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan rekonsiliasi produksi dan metallurgical accounting.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-penggunaan-software-pengolahan-mineral-dan-metalurgi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan penggunaan software pengolahan mineral dan metalurgi.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-dan-kesehatan-kerja-pada-fasilitas-pengolahan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan dan kesehatan kerja pada fasilitas pengolahan.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "training-informasi-utama-induksi-keselamatan-pabrik",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Induksi keselamatan pabrik.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "training-informasi-utama-identifikasi-bahaya-dan-penilaian-risiko",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Identifikasi bahaya dan penilaian risiko.",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-pengoperasian-mesin-dan-peralatan-proses",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan pengoperasian mesin dan peralatan proses.",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-pada-crusher-conveyor-mill-dan-peralatan-berputar",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan pada crusher, conveyor, mill, dan peralatan berputar.",
+      "displayOrder": 34
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-penggunaan-bahan-kimia",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan penggunaan bahan kimia.",
+      "displayOrder": 35
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-proses-process-safety",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan proses (process safety).",
+      "displayOrder": 36
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-pada-pekerjaan-bertekanan-dan-bertemperatur-tinggi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan pada pekerjaan bertekanan dan bertemperatur tinggi.",
+      "displayOrder": 37
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-peleburan-dan-operasi-tungku",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan peleburan dan operasi tungku.",
+      "displayOrder": 38
+    },
+    {
+      "itemKey": "training-informasi-utama-pengendalian-paparan-debu-gas-panas-dan-kebisingan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengendalian paparan debu, gas, panas, dan kebisingan.",
+      "displayOrder": 39
+    },
+    {
+      "itemKey": "training-informasi-utama-penggunaan-alat-pelindung-diri-sesuai-risiko",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Penggunaan alat pelindung diri sesuai risiko.",
+      "displayOrder": 40
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-ruang-terbatas-apabila-relevan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan ruang terbatas apabila relevan.",
+      "displayOrder": 41
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-kerja-di-ketinggian-apabila-relevan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan kerja di ketinggian apabila relevan.",
+      "displayOrder": 42
+    },
+    {
+      "itemKey": "training-informasi-utama-penanganan-tumpahan-bahan-kimia",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Penanganan tumpahan bahan kimia.",
+      "displayOrder": 43
+    },
+    {
+      "itemKey": "training-informasi-utama-tanggap-darurat",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Tanggap darurat.",
+      "displayOrder": 44
+    },
+    {
+      "itemKey": "training-informasi-utama-pertolongan-pertama-sesuai-kebutuhan-tempat-kerja",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pertolongan pertama sesuai kebutuhan tempat kerja.",
+      "displayOrder": 45
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-berdasarkan-risiko-spesifik-fasilitas",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan berdasarkan risiko spesifik fasilitas.",
+      "displayOrder": 46
+    }
+  ]
+}

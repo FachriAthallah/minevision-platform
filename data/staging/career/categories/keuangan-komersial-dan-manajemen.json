@@ -1,0 +1,4979 @@
+{
+  "schemaVersion": "1.0",
+  "categorySlug": "keuangan-komersial-dan-manajemen",
+  "category": {
+    "name": "Keuangan, Komersial, dan Manajemen",
+    "slug": "keuangan-komersial-dan-manajemen",
+    "description": "Deskripsi Kategori",
+    "displayOrder": 11,
+    "isActive": true
+  },
+  "profile": {
+    "title": "Keuangan, Komersial, dan Manajemen",
+    "slug": "keuangan-komersial-dan-manajemen",
+    "excerpt": "Deskripsi Kategori",
+    "body": "Deskripsi Kategori\n\nKategori Keuangan, Komersial, dan Manajemen mencakup profesi yang mendukung keberlanjutan dan pengelolaan bisnis pertambangan melalui perencanaan keuangan, pengendalian biaya, pencatatan transaksi, pengelolaan pendapatan, analisis investasi, pemasaran komoditas, pengelolaan hubungan bisnis, serta pengambilan keputusan manajerial.\n\nDalam industri pertambangan, fungsi ini memiliki keterkaitan dengan kegiatan operasional karena keputusan bisnis perlu mempertimbangkan rencana produksi, biaya penambangan, harga komoditas, penjualan, investasi, risiko, kewajiban perusahaan, serta kondisi pasar. Aspek finansial juga menjadi bagian dari perencanaan kegiatan pertambangan melalui dokumen RKAB bersama aspek teknis, lingkungan, keselamatan, dan rencana produksi.\n\nContoh Profesi\n\nKeuangan dan Perencanaan Keuangan\n\nFinance Officer\n\nFinance Analyst\n\nFinance Specialist\n\nFinance Coordinator\n\nFinance Supervisor\n\nFinance Superintendent\n\nFinance Manager\n\nSenior Finance Manager\n\nFinance Business Partner\n\nFinance Business Partner Manager\n\nCorporate Finance Analyst\n\nCorporate Finance Specialist\n\nCorporate Finance Manager\n\nFinancial Analyst\n\nSenior Financial Analyst\n\nFinancial Planning Analyst\n\nFinancial Planning Specialist\n\nFinancial Planning and Analysis Analyst\n\nFP&A Analyst\n\nFP&A Manager\n\nFinancial Controller\n\nFinance Controller\n\nFinancial Control Officer\n\nFinancial Control Analyst\n\nFinance Control Manager\n\nTreasury Officer\n\nTreasury Analyst\n\nTreasury Specialist\n\nTreasury Supervisor\n\nTreasury Manager\n\nCash Management Officer\n\nCash Management Analyst\n\nCash Flow Analyst\n\nWorking Capital Analyst\n\nCapital Management Analyst\n\nProject Finance Analyst\n\nProject Finance Specialist\n\nProject Finance Manager\n\nCorporate Finance Manager\n\nInvestment Analyst\n\nInvestment Specialist\n\nInvestment Manager\n\nFinancial Modeling Analyst\n\nFinancial Risk Analyst\n\nFinancial Risk Manager\n\nAkuntansi dan Pelaporan Keuangan\n\nAccountant\n\nJunior Accountant\n\nSenior Accountant\n\nGeneral Ledger Accountant\n\nFinancial Accountant\n\nManagement Accountant\n\nCost Accountant\n\nProject Accountant\n\nMining Accountant\n\nFixed Asset Accountant\n\nInventory Accountant\n\nRevenue Accountant\n\nTax Accountant\n\nAccounts Payable Officer\n\nAccounts Payable Analyst\n\nAccounts Payable Specialist\n\nAccounts Receivable Officer\n\nAccounts Receivable Analyst\n\nAccounts Receivable Specialist\n\nBilling Officer\n\nBilling Analyst\n\nBilling Specialist\n\nFinancial Reporting Analyst\n\nFinancial Reporting Specialist\n\nFinancial Reporting Manager\n\nAccounting Officer\n\nAccounting Analyst\n\nAccounting Specialist\n\nAccounting Supervisor\n\nAccounting Superintendent\n\nAccounting Manager\n\nChief Accountant\n\nHead of Accounting\n\nFinance and Accounting Manager\n\nPenganggaran dan Pengendalian Biaya\n\nBudget Officer\n\nBudget Analyst\n\nBudget Specialist\n\nBudget Coordinator\n\nBudget Supervisor\n\nBudget Manager\n\nBudget Planning Analyst\n\nBudget Planning Specialist\n\nBudget Control Analyst\n\nBudget Control Officer\n\nBudget Controller\n\nCost Analyst\n\nCost Control Analyst\n\nCost Control Officer\n\nCost Control Specialist\n\nCost Controller\n\nCost Control Supervisor\n\nCost Control Superintendent\n\nCost Control Manager\n\nOperational Cost Analyst\n\nOperational Cost Controller\n\nProduction Cost Analyst\n\nMining Cost Analyst\n\nProject Cost Analyst\n\nProject Cost Controller\n\nProject Controls Analyst\n\nProject Controls Engineer\n\nProject Controls Specialist\n\nProject Controls Manager\n\nCost Estimator\n\nSenior Cost Estimator\n\nCommercial Estimator\n\nCapital Cost Analyst\n\nCapital Expenditure Analyst\n\nCAPEX Controller\n\nOPEX Analyst\n\nOPEX Controller\n\nPerpajakan dan Kepatuhan Keuangan\n\nTax Officer\n\nTax Analyst\n\nTax Specialist\n\nTax Accountant\n\nTax Supervisor\n\nTax Manager\n\nCorporate Tax Manager\n\nTax Compliance Officer\n\nTax Compliance Specialist\n\nTax Reporting Officer\n\nTax Reporting Analyst\n\nTax Planning Analyst\n\nTax Planning Specialist\n\nTax Consultant\n\nTransfer Pricing Analyst\n\nTransfer Pricing Specialist\n\nTransfer Pricing Manager\n\nIndirect Tax Specialist\n\nDirect Tax Specialist\n\nTax Audit Specialist\n\nTax Dispute Specialist\n\nRoyalty Analyst\n\nRoyalty Officer\n\nRoyalty Reporting Specialist\n\nGovernment Revenue Analyst\n\nFiscal Compliance Specialist\n\nAudit, Pengendalian Internal, dan Manajemen Risiko\n\nInternal Auditor\n\nSenior Internal Auditor\n\nInternal Audit Analyst\n\nInternal Audit Specialist\n\nInternal Audit Supervisor\n\nInternal Audit Manager\n\nOperational Auditor\n\nFinancial Auditor\n\nCompliance Auditor\n\nSite Auditor\n\nIT Auditor\n\nAudit Coordinator\n\nInternal Control Officer\n\nInternal Control Analyst\n\nInternal Control Specialist\n\nInternal Control Manager\n\nInternal Control and Risk Manager\n\nRisk Analyst\n\nRisk Management Officer\n\nRisk Management Specialist\n\nRisk Management Manager\n\nEnterprise Risk Analyst\n\nEnterprise Risk Specialist\n\nEnterprise Risk Manager\n\nOperational Risk Analyst\n\nFinancial Risk Analyst\n\nBusiness Risk Analyst\n\nRisk and Assurance Officer\n\nRisk and Assurance Manager\n\nGovernance, Risk, and Compliance Analyst\n\nGRC Specialist\n\nKomersial dan Pengembangan Bisnis\n\nCommercial Officer\n\nCommercial Analyst\n\nCommercial Specialist\n\nCommercial Coordinator\n\nCommercial Supervisor\n\nCommercial Superintendent\n\nCommercial Manager\n\nSenior Commercial Manager\n\nCommercial Strategy Analyst\n\nCommercial Strategy Manager\n\nCommercial Planning Analyst\n\nCommercial Planning Specialist\n\nCommercial Development Officer\n\nCommercial Development Manager\n\nBusiness Development Officer\n\nBusiness Development Analyst\n\nBusiness Development Specialist\n\nBusiness Development Manager\n\nCorporate Development Analyst\n\nCorporate Development Specialist\n\nCorporate Development Manager\n\nBusiness Strategy Analyst\n\nBusiness Strategy Specialist\n\nBusiness Strategy Manager\n\nStrategic Planning Analyst\n\nStrategic Planning Specialist\n\nStrategic Planning Manager\n\nMarket Intelligence Analyst\n\nMarket Intelligence Specialist\n\nMarket Research Analyst\n\nBusiness Performance Analyst\n\nBusiness Performance Manager\n\nBusiness Improvement Analyst\n\nBusiness Improvement Manager\n\nPemasaran, Penjualan, dan Perdagangan Komoditas\n\nMarketing Officer\n\nMarketing Analyst\n\nMarketing Specialist\n\nMarketing Coordinator\n\nMarketing Manager\n\nCommodity Marketing Analyst\n\nCommodity Marketing Specialist\n\nCommodity Marketing Manager\n\nSales Officer\n\nSales Executive\n\nSales Analyst\n\nSales Specialist\n\nSales Manager\n\nKey Account Officer\n\nKey Account Manager\n\nCustomer Relationship Officer\n\nCustomer Relationship Manager\n\nCustomer Account Manager\n\nCommodity Sales Manager\n\nCoal Sales Officer\n\nCoal Marketing Analyst\n\nCoal Marketing Manager\n\nMineral Sales Officer\n\nMineral Marketing Specialist\n\nMetals Marketing Manager\n\nCommodity Trader\n\nCommodity Trading Analyst\n\nCommodity Trading Specialist\n\nCommodity Trading Manager\n\nTrading Analyst\n\nTrading Manager\n\nMarket Analyst\n\nCommodity Market Analyst\n\nPricing Analyst\n\nPricing Specialist\n\nPricing Manager\n\nSales Planning Analyst\n\nSales Operations Analyst\n\nSales Operations Manager\n\nInvestasi, Ekonomi, dan Evaluasi Bisnis\n\nInvestment Analyst\n\nInvestment Associate\n\nInvestment Manager\n\nInvestment Strategy Analyst\n\nCorporate Investment Analyst\n\nCapital Investment Analyst\n\nProject Evaluation Analyst\n\nProject Economics Analyst\n\nMining Economics Analyst\n\nMineral Economics Analyst\n\nEconomic Analyst\n\nBusiness Economics Analyst\n\nCorporate Strategy Analyst\n\nMergers and Acquisitions Analyst\n\nM&A Associate\n\nM&A Manager\n\nValuation Analyst\n\nBusiness Valuation Specialist\n\nFinancial Modeling Analyst\n\nInvestment Appraisal Analyst\n\nFeasibility Study Analyst\n\nEconomic Evaluation Specialist\n\nPortfolio Analyst\n\nPortfolio Manager\n\nCapital Allocation Analyst\n\nManajemen Operasi dan Kinerja Bisnis\n\nManagement Trainee\n\nGraduate Development Program Participant\n\nManagement Development Officer\n\nManagement Analyst\n\nManagement Consultant\n\nBusiness Process Analyst\n\nBusiness Process Specialist\n\nBusiness Process Improvement Analyst\n\nOperational Excellence Analyst\n\nOperational Excellence Specialist\n\nOperational Excellence Manager\n\nContinuous Improvement Analyst\n\nContinuous Improvement Specialist\n\nContinuous Improvement Manager\n\nPerformance Management Analyst\n\nPerformance Management Specialist\n\nPerformance Management Manager\n\nBusiness Performance Analyst\n\nBusiness Performance Manager\n\nOperations Analyst\n\nOperations Planning Analyst\n\nOperations Planning Manager\n\nCorporate Planning Analyst\n\nCorporate Planning Specialist\n\nCorporate Planning Manager\n\nManagement Information System Analyst\n\nManagement Reporting Analyst\n\nBusiness Transformation Analyst\n\nBusiness Transformation Manager\n\nKepemimpinan dan Manajemen\n\nFinance Superintendent\n\nFinance Manager\n\nHead of Finance\n\nChief Financial Officer\n\nAccounting Manager\n\nHead of Accounting\n\nCommercial Superintendent\n\nCommercial Manager\n\nHead of Commercial\n\nBusiness Development Manager\n\nHead of Business Development\n\nCorporate Planning Manager\n\nHead of Corporate Planning\n\nStrategy Manager\n\nHead of Strategy\n\nGeneral Manager\n\nSite General Manager\n\nOperations General Manager\n\nBusiness Unit Manager\n\nBusiness Unit Director\n\nCommercial Director\n\nFinance Director\n\nChief Operating Officer\n\nChief Executive Officer\n\nRuang Lingkup Pekerjaan\n\nPosisi keuangan di industri pertambangan dapat menangani pelaporan keuangan, arus kas, anggaran, analisis biaya, perpajakan, audit, serta evaluasi profitabilitas proyek. Kebutuhan kompetensi dapat berbeda antara posisi kantor pusat dan posisi yang mendukung operasi di lokasi tambang. Profesi dalam kategori Keuangan, Komersial, dan Manajemen dapat terlibat dalam kegiatan berikut:\n\nMenyusun rencana keuangan perusahaan atau unit operasi.\n\nMenyusun anggaran operasional dan anggaran investasi.\n\nMemantau realisasi anggaran.\n\nMelakukan analisis perbedaan antara anggaran dan realisasi.\n\nMengendalikan biaya operasional dan biaya proyek.\n\nMenganalisis biaya produksi, biaya penambangan, biaya pengolahan, serta biaya pendukung.\n\nMenyusun proyeksi pendapatan, biaya, arus kas, dan kinerja keuangan.\n\nMemantau kondisi kas dan kebutuhan pendanaan.\n\nMenyusun laporan keuangan dan laporan manajemen.\n\nMencatat transaksi sesuai standar akuntansi dan kebijakan perusahaan.\n\nMengelola piutang, utang, pembayaran, serta proses penagihan.\n\nMengelola aset tetap, persediaan, dan data keuangan lainnya.\n\nMendukung proses penutupan periode keuangan.\n\nMengelola kewajiban perpajakan dan pelaporan pajak.\n\nMendukung proses audit internal maupun eksternal.\n\nMengevaluasi efektivitas pengendalian internal.\n\nMengidentifikasi dan menilai risiko keuangan serta risiko bisnis.\n\nMenyusun analisis investasi dan kelayakan ekonomi.\n\nMengembangkan model keuangan untuk proyek atau rencana bisnis.\n\nMenganalisis nilai proyek, biaya modal, pendapatan, serta potensi pengembalian investasi.\n\nMelakukan analisis harga dan kondisi pasar komoditas.\n\nMenyusun strategi pemasaran dan penjualan komoditas.\n\nMengelola hubungan dengan pelanggan, pembeli, mitra bisnis, dan pemangku kepentingan.\n\nMendukung proses negosiasi komersial.\n\nMengelola kontrak penjualan dan ketentuan komersial.\n\nMemantau volume penjualan, pendapatan, harga, dan kinerja pasar.\n\nMengidentifikasi peluang pengembangan bisnis.\n\nMenilai peluang investasi, kerja sama, akuisisi, atau pengembangan proyek.\n\nMenyusun rencana strategis perusahaan.\n\nMemantau indikator kinerja organisasi.\n\nMenganalisis efisiensi proses bisnis.\n\nMengembangkan program peningkatan kinerja dan perbaikan berkelanjutan.\n\nMenyusun laporan serta rekomendasi untuk manajemen.\n\nBerkoordinasi dengan tim operasi, produksi, teknik, pengadaan, logistik, legal, pajak, HSE, dan manajemen.\n\nKompetensi\n\nKompetensi teknis umum\n\nMemahami dasar keuangan perusahaan.\n\nMemahami akuntansi.\n\nMemahami penganggaran.\n\nMemahami pengendalian biaya.\n\nMemahami analisis laporan keuangan.\n\nMemahami pengelolaan arus kas.\n\nMemahami perencanaan bisnis.\n\nMemahami analisis investasi.\n\nMemahami dasar ekonomi.\n\nMemahami proses bisnis.\n\nMemahami pengelolaan risiko.\n\nMemahami pengendalian internal.\n\nMemahami pelaporan manajemen.\n\nMemahami analisis data bisnis.\n\nMemahami tata kelola perusahaan.\n\nKompetensi teknis spesialis\n\nKeuangan dan Perencanaan Keuangan:\n\nAnalisis keuangan.\n\nPerencanaan keuangan.\n\nPenyusunan proyeksi.\n\nAnalisis arus kas.\n\nAnalisis kebutuhan pendanaan.\n\nAnalisis kinerja keuangan.\n\nAnalisis rasio keuangan.\n\nFinancial modeling.\n\nAnalisis sensitivitas.\n\nAnalisis skenario.\n\nPengelolaan modal kerja.\n\nManajemen likuiditas.\n\nAkuntansi dan Pelaporan:\n\nPencatatan transaksi.\n\nPenyusunan laporan keuangan.\n\nAkuntansi keuangan.\n\nAkuntansi manajemen.\n\nAkuntansi biaya.\n\nAkuntansi aset tetap.\n\nAkuntansi persediaan.\n\nPengelolaan buku besar.\n\nRekonsiliasi akun.\n\nPenutupan periode.\n\nAnalisis laporan keuangan.\n\nPengelolaan dokumentasi keuangan.\n\nAnggaran dan Pengendalian Biaya:\n\nPenyusunan anggaran.\n\nPerencanaan biaya.\n\nPengendalian biaya.\n\nAnalisis biaya.\n\nAnalisis varians.\n\nPengendalian biaya proyek.\n\nAnalisis biaya operasional.\n\nAnalisis biaya produksi.\n\nPengelolaan CAPEX.\n\nPengelolaan OPEX.\n\nEstimasi biaya.\n\nPengukuran kinerja biaya.\n\nPerpajakan:\n\nAdministrasi perpajakan.\n\nPerencanaan pajak.\n\nPelaporan pajak.\n\nKepatuhan pajak.\n\nAnalisis pajak.\n\nDokumentasi perpajakan.\n\nAnalisis transaksi.\n\nPemahaman ketentuan perpajakan yang relevan.\n\nAudit dan Risiko:\n\nPerencanaan audit.\n\nPengujian pengendalian.\n\nEvaluasi pengendalian internal.\n\nAnalisis risiko.\n\nManajemen risiko perusahaan.\n\nPemantauan kepatuhan.\n\nPenyusunan temuan audit.\n\nPenyusunan rekomendasi perbaikan.\n\nPemantauan tindak lanjut.\n\nKomersial dan Pengembangan Bisnis:\n\nAnalisis pasar.\n\nAnalisis harga komoditas.\n\nAnalisis pelanggan.\n\nAnalisis peluang bisnis.\n\nPenyusunan strategi komersial.\n\nNegosiasi bisnis.\n\nPengelolaan hubungan pelanggan.\n\nPengelolaan kontrak komersial.\n\nPengembangan bisnis.\n\nAnalisis kompetitor.\n\nAnalisis kelayakan bisnis.\n\nInvestasi dan Ekonomi:\n\nEvaluasi investasi.\n\nAnalisis kelayakan ekonomi.\n\nPenilaian proyek.\n\nAnalisis biaya dan manfaat.\n\nAnalisis arus kas proyek.\n\nAnalisis nilai kini.\n\nAnalisis tingkat pengembalian.\n\nAnalisis sensitivitas.\n\nAnalisis risiko investasi.\n\nPenilaian perusahaan.\n\nAnalisis portofolio.\n\nManajemen dan Strategi:\n\nPerencanaan strategis.\n\nAnalisis kinerja.\n\nManajemen proses bisnis.\n\nPeningkatan berkelanjutan.\n\nManajemen proyek.\n\nManajemen perubahan.\n\nPengembangan indikator kinerja.\n\nAnalisis efisiensi.\n\nPengelolaan program bisnis.\n\nPengambilan keputusan berbasis data.\n\nKompetensi nonteknis\n\nKemampuan analitis.\n\nKetelitian dan akurasi.\n\nKemampuan berpikir kritis.\n\nKemampuan memecahkan masalah.\n\nKemampuan komunikasi.\n\nKemampuan presentasi.\n\nKemampuan negosiasi.\n\nKemampuan menyusun laporan.\n\nKemampuan mengambil keputusan.\n\nManajemen waktu.\n\nKemampuan mengelola prioritas.\n\nKemampuan bekerja lintas fungsi.\n\nKepemimpinan.\n\nKemampuan mengelola tim.\n\nIntegritas.\n\nObjektivitas.\n\nMenjaga kerahasiaan informasi.\n\nKemampuan beradaptasi terhadap perubahan kondisi bisnis.\n\nPendidikan yang Relevan\n\nPendidikan utama\n\nAkuntansi\n\nKeuangan\n\nManajemen\n\nManajemen Keuangan\n\nManajemen Bisnis\n\nAdministrasi Bisnis\n\nEkonomi\n\nEkonomi Pembangunan\n\nEkonomi Bisnis\n\nPerbankan dan Keuangan\n\nPerpajakan\n\nBisnis Internasional\n\nManajemen Pemasaran\n\nManajemen Operasi\n\nManajemen Strategis\n\nTeknik Industri\n\nTeknik Pertambangan\n\nTeknik Geologi\n\nTeknik Mesin\n\nTeknik Elektro\n\nTeknik Kimia\n\nStatistika\n\nMatematika\n\nSains Data\n\nSistem Informasi\n\nIlmu Ekonomi\n\nHukum, terutama untuk bidang komersial, pajak, atau tata kelola\n\nPendidikan Pendukung untuk Posisi Tertentu\n\nProgram Diploma Akuntansi.\n\nProgram Diploma Keuangan dan Perbankan.\n\nProgram Diploma Perpajakan.\n\nProgram Diploma Administrasi Bisnis.\n\nProgram Diploma Manajemen.\n\nProgram Diploma Manajemen Pemasaran.\n\nProgram Diploma Bisnis Internasional.\n\nProgram Diploma Manajemen Proyek.\n\nProgram vokasi administrasi keuangan.\n\nProgram vokasi akuntansi.\n\nProgram vokasi pengelolaan bisnis.\n\nProgram vokasi pemasaran.\n\nProgram vokasi perpajakan.\n\nProgram vokasi manajemen operasional.\n\nPendidikan lain yang sesuai dengan kebutuhan jabatan.\n\nSoftware yang Digunakan\n\n| A. Enterprise Resource Planning dan Keuangan |\n| --- |\n| SAP S/4HANA |\n| Oracle Fusion Cloud ERP |\n| Microsoft Dynamics 365 Finance |\n| B. Akuntansi dan Pelaporan |\n| Microsoft Excel |\n| Microsoft Power BI |\n| Tableau |\n| Oracle Hyperion |\n| C. Perencanaan, Penganggaran, dan Analisis |\n| IBM Planning Analytics |\n| Anaplan |\n| SAP Analytics Cloud |\n| D. Analisis Data dan Pemodelan |\n| Python dan R |\n| SQL |\n| E. Manajemen Proyek dan Kinerja |\n| Microsoft Project |\n| Primavera P6 |\n| Jira |\n\nPelatihan Relevan\n\nPelatihan teknis\n\nKeuangan dan Akuntansi:\n\nPelatihan dasar keuangan perusahaan.\n\nPelatihan analisis laporan keuangan.\n\nPelatihan perencanaan keuangan.\n\nPelatihan pengelolaan arus kas.\n\nPelatihan financial modeling.\n\nPelatihan akuntansi keuangan.\n\nPelatihan akuntansi manajemen.\n\nPelatihan akuntansi biaya.\n\nPelatihan pengelolaan aset.\n\nPelatihan penyusunan laporan keuangan.\n\nPelatihan penggunaan sistem ERP keuangan.\n\nPelatihan Microsoft Excel tingkat lanjut.\n\nPelatihan Power BI untuk keuangan.\n\nAnggaran dan Pengendalian Biaya:\n\nPelatihan penyusunan anggaran.\n\nPelatihan pengendalian biaya.\n\nPelatihan analisis biaya.\n\nPelatihan analisis varians.\n\nPelatihan pengendalian biaya proyek.\n\nPelatihan estimasi biaya.\n\nPelatihan pengelolaan CAPEX dan OPEX.\n\nPelatihan project controls.\n\nPerpajakan dan Audit:\n\nPelatihan administrasi perpajakan.\n\nPelatihan perencanaan pajak.\n\nPelatihan kepatuhan pajak.\n\nPelatihan audit internal.\n\nPelatihan pengendalian internal.\n\nPelatihan manajemen risiko.\n\nPelatihan tata kelola perusahaan.\n\nPelatihan kepatuhan bisnis.\n\nKomersial dan Pengembangan Bisnis:\n\nPelatihan analisis pasar.\n\nPelatihan pemasaran komoditas.\n\nPelatihan penjualan dan pengelolaan pelanggan.\n\nPelatihan negosiasi komersial.\n\nPelatihan manajemen kontrak komersial.\n\nPelatihan pengembangan bisnis.\n\nPelatihan analisis strategi.\n\nPelatihan intelijen pasar.\n\nPelatihan analisis harga komoditas.\n\nInvestasi dan Manajemen:\n\nPelatihan analisis investasi.\n\nPelatihan evaluasi proyek.\n\nPelatihan studi kelayakan.\n\nPelatihan ekonomi proyek.\n\nPelatihan penilaian bisnis.\n\nPelatihan manajemen proyek.\n\nPelatihan perencanaan strategis.\n\nPelatihan manajemen kinerja.\n\nPelatihan peningkatan berkelanjutan.\n\nPelatihan kepemimpinan.\n\nPelatihan manajemen perubahan.\n\nPelatihan keselamatan\n\nInduksi keselamatan pertambangan.\n\nPengenalan bahaya dan risiko di area tambang.\n\nKeselamatan saat kunjungan lapangan.\n\nKeselamatan perjalanan menuju lokasi operasi.\n\nKeselamatan lalu lintas tambang.\n\nKeselamatan di area produksi dan fasilitas pengolahan.\n\nPenggunaan alat pelindung diri.\n\nTanggap darurat.\n\nPelatihan komunikasi darurat.\n\nPelatihan keselamatan berdasarkan risiko pekerjaan.",
+    "coverImageUrl": null,
+    "status": "published",
+    "publishedAt": "2026-09-05T00:00:00.000Z",
+    "readingTimeMinutes": null,
+    "isFeatured": false,
+    "metadata": {},
+    "sources": [
+      {
+        "sourceSlug": "www-esdm-go-id-11",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 0
+      },
+      {
+        "sourceSlug": "www-esdm-go-id-12",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 1
+      },
+      {
+        "sourceSlug": "www-esdm-go-id-5",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 2
+      },
+      {
+        "sourceSlug": "www-minerba-esdm-go-id-2",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 3
+      },
+      {
+        "sourceSlug": "jdih-esdm-go-id-7",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 4
+      },
+      {
+        "sourceSlug": "www-ojk-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 5
+      },
+      {
+        "sourceSlug": "www-bi-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 6
+      },
+      {
+        "sourceSlug": "www-idx-co-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 7
+      },
+      {
+        "sourceSlug": "www-iaiglobal-or-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 8
+      },
+      {
+        "sourceSlug": "www-iapi-or-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 9
+      },
+      {
+        "sourceSlug": "www-pajak-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 10
+      },
+      {
+        "sourceSlug": "www-sap-com-2",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 11
+      },
+      {
+        "sourceSlug": "www-oracle-com-5",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 12
+      },
+      {
+        "sourceSlug": "www-microsoft-com-4",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 13
+      },
+      {
+        "sourceSlug": "www-ibm-com-4",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 14
+      },
+      {
+        "sourceSlug": "www-anaplan-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 15
+      },
+      {
+        "sourceSlug": "www-microsoft-com-2",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 16
+      },
+      {
+        "sourceSlug": "www-tableau-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 17
+      },
+      {
+        "sourceSlug": "www-primaverap6-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 18
+      },
+      {
+        "sourceSlug": "www-ptba-co-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 19
+      },
+      {
+        "sourceSlug": "www-antam-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 20
+      }
+    ]
+  },
+  "professions": [
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Finance Officer",
+      "slug": "finance-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Finance Analyst",
+      "slug": "finance-analyst",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Finance Specialist",
+      "slug": "finance-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Finance Coordinator",
+      "slug": "finance-coordinator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Finance Supervisor",
+      "slug": "finance-supervisor",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Finance Superintendent",
+      "slug": "finance-superintendent",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Finance Manager",
+      "slug": "finance-manager",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Senior Finance Manager",
+      "slug": "senior-finance-manager",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Finance Business Partner",
+      "slug": "finance-business-partner",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Finance Business Partner Manager",
+      "slug": "finance-business-partner-manager",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Corporate Finance Analyst",
+      "slug": "corporate-finance-analyst",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Corporate Finance Specialist",
+      "slug": "corporate-finance-specialist",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Corporate Finance Manager",
+      "slug": "corporate-finance-manager",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Financial Analyst",
+      "slug": "financial-analyst",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Senior Financial Analyst",
+      "slug": "senior-financial-analyst",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Financial Planning Analyst",
+      "slug": "financial-planning-analyst",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Financial Planning Specialist",
+      "slug": "financial-planning-specialist",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Financial Planning and Analysis Analyst",
+      "slug": "financial-planning-and-analysis-analyst",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "FP&A Analyst",
+      "slug": "fp-a-analyst",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "FP&A Manager",
+      "slug": "fp-a-manager",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Financial Controller",
+      "slug": "financial-controller",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Finance Controller",
+      "slug": "finance-controller",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Financial Control Officer",
+      "slug": "financial-control-officer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Financial Control Analyst",
+      "slug": "financial-control-analyst",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Finance Control Manager",
+      "slug": "finance-control-manager",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Treasury Officer",
+      "slug": "treasury-officer",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Treasury Analyst",
+      "slug": "treasury-analyst",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Treasury Specialist",
+      "slug": "treasury-specialist",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Treasury Supervisor",
+      "slug": "treasury-supervisor",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Treasury Manager",
+      "slug": "treasury-manager",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Cash Management Officer",
+      "slug": "cash-management-officer",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Cash Management Analyst",
+      "slug": "cash-management-analyst",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Cash Flow Analyst",
+      "slug": "cash-flow-analyst",
+      "description": null,
+      "displayOrder": 32
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Working Capital Analyst",
+      "slug": "working-capital-analyst",
+      "description": null,
+      "displayOrder": 33
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Capital Management Analyst",
+      "slug": "capital-management-analyst",
+      "description": null,
+      "displayOrder": 34
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Project Finance Analyst",
+      "slug": "project-finance-analyst",
+      "description": null,
+      "displayOrder": 35
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Project Finance Specialist",
+      "slug": "project-finance-specialist",
+      "description": null,
+      "displayOrder": 36
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Project Finance Manager",
+      "slug": "project-finance-manager",
+      "description": null,
+      "displayOrder": 37
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Investment Analyst",
+      "slug": "investment-analyst",
+      "description": null,
+      "displayOrder": 38
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Investment Specialist",
+      "slug": "investment-specialist",
+      "description": null,
+      "displayOrder": 39
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Investment Manager",
+      "slug": "investment-manager",
+      "description": null,
+      "displayOrder": 40
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Financial Modeling Analyst",
+      "slug": "financial-modeling-analyst",
+      "description": null,
+      "displayOrder": 41
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Financial Risk Analyst",
+      "slug": "financial-risk-analyst",
+      "description": null,
+      "displayOrder": 42
+    },
+    {
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "name": "Financial Risk Manager",
+      "slug": "financial-risk-manager",
+      "description": null,
+      "displayOrder": 43
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Accountant",
+      "slug": "accountant",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Junior Accountant",
+      "slug": "junior-accountant",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Senior Accountant",
+      "slug": "senior-accountant",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "General Ledger Accountant",
+      "slug": "general-ledger-accountant",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Financial Accountant",
+      "slug": "financial-accountant",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Management Accountant",
+      "slug": "management-accountant",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Cost Accountant",
+      "slug": "cost-accountant",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Project Accountant",
+      "slug": "project-accountant",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Mining Accountant",
+      "slug": "mining-accountant",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Fixed Asset Accountant",
+      "slug": "fixed-asset-accountant",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Inventory Accountant",
+      "slug": "inventory-accountant",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Revenue Accountant",
+      "slug": "revenue-accountant",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Tax Accountant",
+      "slug": "tax-accountant",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Accounts Payable Officer",
+      "slug": "accounts-payable-officer",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Accounts Payable Analyst",
+      "slug": "accounts-payable-analyst",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Accounts Payable Specialist",
+      "slug": "accounts-payable-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Accounts Receivable Officer",
+      "slug": "accounts-receivable-officer",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Accounts Receivable Analyst",
+      "slug": "accounts-receivable-analyst",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Accounts Receivable Specialist",
+      "slug": "accounts-receivable-specialist",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Billing Officer",
+      "slug": "billing-officer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Billing Analyst",
+      "slug": "billing-analyst",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Billing Specialist",
+      "slug": "billing-specialist",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Financial Reporting Analyst",
+      "slug": "financial-reporting-analyst",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Financial Reporting Specialist",
+      "slug": "financial-reporting-specialist",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Financial Reporting Manager",
+      "slug": "financial-reporting-manager",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Accounting Officer",
+      "slug": "accounting-officer",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Accounting Analyst",
+      "slug": "accounting-analyst",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Accounting Specialist",
+      "slug": "accounting-specialist",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Accounting Supervisor",
+      "slug": "accounting-supervisor",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Accounting Superintendent",
+      "slug": "accounting-superintendent",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Accounting Manager",
+      "slug": "accounting-manager",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Chief Accountant",
+      "slug": "chief-accountant",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Head of Accounting",
+      "slug": "head-of-accounting",
+      "description": null,
+      "displayOrder": 32
+    },
+    {
+      "groupKey": "akuntansi-dan-pelaporan-keuangan",
+      "groupLabel": "Akuntansi dan Pelaporan Keuangan",
+      "name": "Finance and Accounting Manager",
+      "slug": "finance-and-accounting-manager",
+      "description": null,
+      "displayOrder": 33
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Budget Officer",
+      "slug": "budget-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Budget Analyst",
+      "slug": "budget-analyst",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Budget Specialist",
+      "slug": "budget-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Budget Coordinator",
+      "slug": "budget-coordinator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Budget Supervisor",
+      "slug": "budget-supervisor",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Budget Manager",
+      "slug": "budget-manager",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Budget Planning Analyst",
+      "slug": "budget-planning-analyst",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Budget Planning Specialist",
+      "slug": "budget-planning-specialist",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Budget Control Analyst",
+      "slug": "budget-control-analyst",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Budget Control Officer",
+      "slug": "budget-control-officer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Budget Controller",
+      "slug": "budget-controller",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Cost Analyst",
+      "slug": "cost-analyst",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Cost Control Analyst",
+      "slug": "cost-control-analyst",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Cost Control Officer",
+      "slug": "cost-control-officer",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Cost Control Specialist",
+      "slug": "cost-control-specialist",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Cost Controller",
+      "slug": "cost-controller",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Cost Control Supervisor",
+      "slug": "cost-control-supervisor",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Cost Control Superintendent",
+      "slug": "cost-control-superintendent",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Cost Control Manager",
+      "slug": "cost-control-manager",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Operational Cost Analyst",
+      "slug": "operational-cost-analyst",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Operational Cost Controller",
+      "slug": "operational-cost-controller",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Production Cost Analyst",
+      "slug": "production-cost-analyst",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Mining Cost Analyst",
+      "slug": "mining-cost-analyst",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Project Cost Analyst",
+      "slug": "project-cost-analyst",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Project Cost Controller",
+      "slug": "project-cost-controller",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Project Controls Analyst",
+      "slug": "project-controls-analyst",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Project Controls Engineer",
+      "slug": "project-controls-engineer",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Project Controls Specialist",
+      "slug": "project-controls-specialist",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Project Controls Manager",
+      "slug": "project-controls-manager",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Cost Estimator",
+      "slug": "cost-estimator",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Senior Cost Estimator",
+      "slug": "senior-cost-estimator",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Commercial Estimator",
+      "slug": "commercial-estimator",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Capital Cost Analyst",
+      "slug": "capital-cost-analyst",
+      "description": null,
+      "displayOrder": 32
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "Capital Expenditure Analyst",
+      "slug": "capital-expenditure-analyst",
+      "description": null,
+      "displayOrder": 33
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "CAPEX Controller",
+      "slug": "capex-controller",
+      "description": null,
+      "displayOrder": 34
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "OPEX Analyst",
+      "slug": "opex-analyst",
+      "description": null,
+      "displayOrder": 35
+    },
+    {
+      "groupKey": "penganggaran-dan-pengendalian-biaya",
+      "groupLabel": "Penganggaran dan Pengendalian Biaya",
+      "name": "OPEX Controller",
+      "slug": "opex-controller",
+      "description": null,
+      "displayOrder": 36
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Tax Officer",
+      "slug": "tax-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Tax Analyst",
+      "slug": "tax-analyst",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Tax Specialist",
+      "slug": "tax-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Tax Accountant",
+      "slug": "tax-accountant",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Tax Supervisor",
+      "slug": "tax-supervisor",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Tax Manager",
+      "slug": "tax-manager",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Corporate Tax Manager",
+      "slug": "corporate-tax-manager",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Tax Compliance Officer",
+      "slug": "tax-compliance-officer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Tax Compliance Specialist",
+      "slug": "tax-compliance-specialist",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Tax Reporting Officer",
+      "slug": "tax-reporting-officer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Tax Reporting Analyst",
+      "slug": "tax-reporting-analyst",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Tax Planning Analyst",
+      "slug": "tax-planning-analyst",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Tax Planning Specialist",
+      "slug": "tax-planning-specialist",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Tax Consultant",
+      "slug": "tax-consultant",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Transfer Pricing Analyst",
+      "slug": "transfer-pricing-analyst",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Transfer Pricing Specialist",
+      "slug": "transfer-pricing-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Transfer Pricing Manager",
+      "slug": "transfer-pricing-manager",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Indirect Tax Specialist",
+      "slug": "indirect-tax-specialist",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Direct Tax Specialist",
+      "slug": "direct-tax-specialist",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Tax Audit Specialist",
+      "slug": "tax-audit-specialist",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Tax Dispute Specialist",
+      "slug": "tax-dispute-specialist",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Royalty Analyst",
+      "slug": "royalty-analyst",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Royalty Officer",
+      "slug": "royalty-officer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Royalty Reporting Specialist",
+      "slug": "royalty-reporting-specialist",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Government Revenue Analyst",
+      "slug": "government-revenue-analyst",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "perpajakan-dan-kepatuhan-keuangan",
+      "groupLabel": "Perpajakan dan Kepatuhan Keuangan",
+      "name": "Fiscal Compliance Specialist",
+      "slug": "fiscal-compliance-specialist",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Internal Auditor",
+      "slug": "internal-auditor",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Senior Internal Auditor",
+      "slug": "senior-internal-auditor",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Internal Audit Analyst",
+      "slug": "internal-audit-analyst",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Internal Audit Specialist",
+      "slug": "internal-audit-specialist",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Internal Audit Supervisor",
+      "slug": "internal-audit-supervisor",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Internal Audit Manager",
+      "slug": "internal-audit-manager",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Operational Auditor",
+      "slug": "operational-auditor",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Financial Auditor",
+      "slug": "financial-auditor",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Compliance Auditor",
+      "slug": "compliance-auditor",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Site Auditor",
+      "slug": "site-auditor",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "IT Auditor",
+      "slug": "it-auditor",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Audit Coordinator",
+      "slug": "audit-coordinator",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Internal Control Officer",
+      "slug": "internal-control-officer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Internal Control Analyst",
+      "slug": "internal-control-analyst",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Internal Control Specialist",
+      "slug": "internal-control-specialist",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Internal Control Manager",
+      "slug": "internal-control-manager",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Internal Control and Risk Manager",
+      "slug": "internal-control-and-risk-manager",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Risk Analyst",
+      "slug": "risk-analyst",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Risk Management Officer",
+      "slug": "risk-management-officer",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Risk Management Specialist",
+      "slug": "risk-management-specialist",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Risk Management Manager",
+      "slug": "risk-management-manager",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Enterprise Risk Analyst",
+      "slug": "enterprise-risk-analyst",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Enterprise Risk Specialist",
+      "slug": "enterprise-risk-specialist",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Enterprise Risk Manager",
+      "slug": "enterprise-risk-manager",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Operational Risk Analyst",
+      "slug": "operational-risk-analyst",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Financial Risk Analyst",
+      "slug": "financial-risk-analyst",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Business Risk Analyst",
+      "slug": "business-risk-analyst",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Risk and Assurance Officer",
+      "slug": "risk-and-assurance-officer",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Risk and Assurance Manager",
+      "slug": "risk-and-assurance-manager",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "Governance, Risk, and Compliance Analyst",
+      "slug": "governance-risk-and-compliance-analyst",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "audit-pengendalian-internal-dan-manajemen-risiko",
+      "groupLabel": "Audit, Pengendalian Internal, dan Manajemen Risiko",
+      "name": "GRC Specialist",
+      "slug": "grc-specialist",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Commercial Officer",
+      "slug": "commercial-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Commercial Analyst",
+      "slug": "commercial-analyst",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Commercial Specialist",
+      "slug": "commercial-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Commercial Coordinator",
+      "slug": "commercial-coordinator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Commercial Supervisor",
+      "slug": "commercial-supervisor",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Commercial Superintendent",
+      "slug": "commercial-superintendent",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Commercial Manager",
+      "slug": "commercial-manager",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Senior Commercial Manager",
+      "slug": "senior-commercial-manager",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Commercial Strategy Analyst",
+      "slug": "commercial-strategy-analyst",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Commercial Strategy Manager",
+      "slug": "commercial-strategy-manager",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Commercial Planning Analyst",
+      "slug": "commercial-planning-analyst",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Commercial Planning Specialist",
+      "slug": "commercial-planning-specialist",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Commercial Development Officer",
+      "slug": "commercial-development-officer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Commercial Development Manager",
+      "slug": "commercial-development-manager",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Business Development Officer",
+      "slug": "business-development-officer",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Business Development Analyst",
+      "slug": "business-development-analyst",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Business Development Specialist",
+      "slug": "business-development-specialist",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Business Development Manager",
+      "slug": "business-development-manager",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Corporate Development Analyst",
+      "slug": "corporate-development-analyst",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Corporate Development Specialist",
+      "slug": "corporate-development-specialist",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Corporate Development Manager",
+      "slug": "corporate-development-manager",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Business Strategy Analyst",
+      "slug": "business-strategy-analyst",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Business Strategy Specialist",
+      "slug": "business-strategy-specialist",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Business Strategy Manager",
+      "slug": "business-strategy-manager",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Strategic Planning Analyst",
+      "slug": "strategic-planning-analyst",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Strategic Planning Specialist",
+      "slug": "strategic-planning-specialist",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Strategic Planning Manager",
+      "slug": "strategic-planning-manager",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Market Intelligence Analyst",
+      "slug": "market-intelligence-analyst",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Market Intelligence Specialist",
+      "slug": "market-intelligence-specialist",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Market Research Analyst",
+      "slug": "market-research-analyst",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Business Performance Analyst",
+      "slug": "business-performance-analyst",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Business Performance Manager",
+      "slug": "business-performance-manager",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Business Improvement Analyst",
+      "slug": "business-improvement-analyst",
+      "description": null,
+      "displayOrder": 32
+    },
+    {
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "name": "Business Improvement Manager",
+      "slug": "business-improvement-manager",
+      "description": null,
+      "displayOrder": 33
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Marketing Officer",
+      "slug": "marketing-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Marketing Analyst",
+      "slug": "marketing-analyst",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Marketing Specialist",
+      "slug": "marketing-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Marketing Coordinator",
+      "slug": "marketing-coordinator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Marketing Manager",
+      "slug": "marketing-manager",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Commodity Marketing Analyst",
+      "slug": "commodity-marketing-analyst",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Commodity Marketing Specialist",
+      "slug": "commodity-marketing-specialist",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Commodity Marketing Manager",
+      "slug": "commodity-marketing-manager",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Sales Officer",
+      "slug": "sales-officer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Sales Executive",
+      "slug": "sales-executive",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Sales Analyst",
+      "slug": "sales-analyst",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Sales Specialist",
+      "slug": "sales-specialist",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Sales Manager",
+      "slug": "sales-manager",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Key Account Officer",
+      "slug": "key-account-officer",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Key Account Manager",
+      "slug": "key-account-manager",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Customer Relationship Officer",
+      "slug": "customer-relationship-officer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Customer Relationship Manager",
+      "slug": "customer-relationship-manager",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Customer Account Manager",
+      "slug": "customer-account-manager",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Commodity Sales Manager",
+      "slug": "commodity-sales-manager",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Coal Sales Officer",
+      "slug": "coal-sales-officer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Coal Marketing Analyst",
+      "slug": "coal-marketing-analyst",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Coal Marketing Manager",
+      "slug": "coal-marketing-manager",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Mineral Sales Officer",
+      "slug": "mineral-sales-officer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Mineral Marketing Specialist",
+      "slug": "mineral-marketing-specialist",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Metals Marketing Manager",
+      "slug": "metals-marketing-manager",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Commodity Trader",
+      "slug": "commodity-trader",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Commodity Trading Analyst",
+      "slug": "commodity-trading-analyst",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Commodity Trading Specialist",
+      "slug": "commodity-trading-specialist",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Commodity Trading Manager",
+      "slug": "commodity-trading-manager",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Trading Analyst",
+      "slug": "trading-analyst",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Trading Manager",
+      "slug": "trading-manager",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Market Analyst",
+      "slug": "market-analyst",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Commodity Market Analyst",
+      "slug": "commodity-market-analyst",
+      "description": null,
+      "displayOrder": 32
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Pricing Analyst",
+      "slug": "pricing-analyst",
+      "description": null,
+      "displayOrder": 33
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Pricing Specialist",
+      "slug": "pricing-specialist",
+      "description": null,
+      "displayOrder": 34
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Pricing Manager",
+      "slug": "pricing-manager",
+      "description": null,
+      "displayOrder": 35
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Sales Planning Analyst",
+      "slug": "sales-planning-analyst",
+      "description": null,
+      "displayOrder": 36
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Sales Operations Analyst",
+      "slug": "sales-operations-analyst",
+      "description": null,
+      "displayOrder": 37
+    },
+    {
+      "groupKey": "pemasaran-penjualan-dan-perdagangan-komoditas",
+      "groupLabel": "Pemasaran, Penjualan, dan Perdagangan Komoditas",
+      "name": "Sales Operations Manager",
+      "slug": "sales-operations-manager",
+      "description": null,
+      "displayOrder": 38
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Investment Analyst",
+      "slug": "investment-analyst",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Investment Associate",
+      "slug": "investment-associate",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Investment Manager",
+      "slug": "investment-manager",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Investment Strategy Analyst",
+      "slug": "investment-strategy-analyst",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Corporate Investment Analyst",
+      "slug": "corporate-investment-analyst",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Capital Investment Analyst",
+      "slug": "capital-investment-analyst",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Project Evaluation Analyst",
+      "slug": "project-evaluation-analyst",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Project Economics Analyst",
+      "slug": "project-economics-analyst",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Mining Economics Analyst",
+      "slug": "mining-economics-analyst",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Mineral Economics Analyst",
+      "slug": "mineral-economics-analyst",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Economic Analyst",
+      "slug": "economic-analyst",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Business Economics Analyst",
+      "slug": "business-economics-analyst",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Corporate Strategy Analyst",
+      "slug": "corporate-strategy-analyst",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Mergers and Acquisitions Analyst",
+      "slug": "mergers-and-acquisitions-analyst",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "M&A Associate",
+      "slug": "m-a-associate",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "M&A Manager",
+      "slug": "m-a-manager",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Valuation Analyst",
+      "slug": "valuation-analyst",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Business Valuation Specialist",
+      "slug": "business-valuation-specialist",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Financial Modeling Analyst",
+      "slug": "financial-modeling-analyst",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Investment Appraisal Analyst",
+      "slug": "investment-appraisal-analyst",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Feasibility Study Analyst",
+      "slug": "feasibility-study-analyst",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Economic Evaluation Specialist",
+      "slug": "economic-evaluation-specialist",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Portfolio Analyst",
+      "slug": "portfolio-analyst",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Portfolio Manager",
+      "slug": "portfolio-manager",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "investasi-ekonomi-dan-evaluasi-bisnis",
+      "groupLabel": "Investasi, Ekonomi, dan Evaluasi Bisnis",
+      "name": "Capital Allocation Analyst",
+      "slug": "capital-allocation-analyst",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Management Trainee",
+      "slug": "management-trainee",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Graduate Development Program Participant",
+      "slug": "graduate-development-program-participant",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Management Development Officer",
+      "slug": "management-development-officer",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Management Analyst",
+      "slug": "management-analyst",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Management Consultant",
+      "slug": "management-consultant",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Business Process Analyst",
+      "slug": "business-process-analyst",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Business Process Specialist",
+      "slug": "business-process-specialist",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Business Process Improvement Analyst",
+      "slug": "business-process-improvement-analyst",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Operational Excellence Analyst",
+      "slug": "operational-excellence-analyst",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Operational Excellence Specialist",
+      "slug": "operational-excellence-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Operational Excellence Manager",
+      "slug": "operational-excellence-manager",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Continuous Improvement Analyst",
+      "slug": "continuous-improvement-analyst",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Continuous Improvement Specialist",
+      "slug": "continuous-improvement-specialist",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Continuous Improvement Manager",
+      "slug": "continuous-improvement-manager",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Performance Management Analyst",
+      "slug": "performance-management-analyst",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Performance Management Specialist",
+      "slug": "performance-management-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Performance Management Manager",
+      "slug": "performance-management-manager",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Business Performance Analyst",
+      "slug": "business-performance-analyst",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Business Performance Manager",
+      "slug": "business-performance-manager",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Operations Analyst",
+      "slug": "operations-analyst",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Operations Planning Analyst",
+      "slug": "operations-planning-analyst",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Operations Planning Manager",
+      "slug": "operations-planning-manager",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Corporate Planning Analyst",
+      "slug": "corporate-planning-analyst",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Corporate Planning Specialist",
+      "slug": "corporate-planning-specialist",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Corporate Planning Manager",
+      "slug": "corporate-planning-manager",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Management Information System Analyst",
+      "slug": "management-information-system-analyst",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Management Reporting Analyst",
+      "slug": "management-reporting-analyst",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Business Transformation Analyst",
+      "slug": "business-transformation-analyst",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "manajemen-operasi-dan-kinerja-bisnis",
+      "groupLabel": "Manajemen Operasi dan Kinerja Bisnis",
+      "name": "Business Transformation Manager",
+      "slug": "business-transformation-manager",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Finance Superintendent",
+      "slug": "finance-superintendent",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Finance Manager",
+      "slug": "finance-manager",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Finance",
+      "slug": "head-of-finance",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Chief Financial Officer",
+      "slug": "chief-financial-officer",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Accounting Manager",
+      "slug": "accounting-manager",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Accounting",
+      "slug": "head-of-accounting",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Commercial Superintendent",
+      "slug": "commercial-superintendent",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Commercial Manager",
+      "slug": "commercial-manager",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Commercial",
+      "slug": "head-of-commercial",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Business Development Manager",
+      "slug": "business-development-manager",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Business Development",
+      "slug": "head-of-business-development",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Corporate Planning Manager",
+      "slug": "corporate-planning-manager",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Corporate Planning",
+      "slug": "head-of-corporate-planning",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Strategy Manager",
+      "slug": "strategy-manager",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Strategy",
+      "slug": "head-of-strategy",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "General Manager",
+      "slug": "general-manager",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Site General Manager",
+      "slug": "site-general-manager",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Operations General Manager",
+      "slug": "operations-general-manager",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Business Unit Manager",
+      "slug": "business-unit-manager",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Business Unit Director",
+      "slug": "business-unit-director",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Commercial Director",
+      "slug": "commercial-director",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Finance Director",
+      "slug": "finance-director",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Chief Operating Officer",
+      "slug": "chief-operating-officer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Chief Executive Officer",
+      "slug": "chief-executive-officer",
+      "description": null,
+      "displayOrder": 23
+    }
+  ],
+  "profileItems": [
+    {
+      "itemKey": "work-scope-informasi-utama-posisi-keuangan-di-industri-pertambangan-dapat-menangani-pelaporan-keuangan-arus-kas-anggaran-analisis-biaya-perpajakan-audit-serta-e",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Posisi keuangan di industri pertambangan dapat menangani pelaporan keuangan, arus kas, anggaran, analisis biaya, perpajakan, audit, serta evaluasi profitabilitas proyek. Kebutuhan kompetensi dapat berbeda antara posisi kantor pusat dan posisi yang mendukung operasi di lokasi tambang. Profesi dalam kategori Keuangan, Komersial, dan Manajemen dapat terlibat dalam kegiatan berikut:",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-rencana-keuangan-perusahaan-atau-unit-operasi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun rencana keuangan perusahaan atau unit operasi.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-anggaran-operasional-dan-anggaran-investasi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun anggaran operasional dan anggaran investasi.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memantau-realisasi-anggaran",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memantau realisasi anggaran.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-analisis-perbedaan-antara-anggaran-dan-realisasi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan analisis perbedaan antara anggaran dan realisasi.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengendalikan-biaya-operasional-dan-biaya-proyek",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengendalikan biaya operasional dan biaya proyek.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menganalisis-biaya-produksi-biaya-penambangan-biaya-pengolahan-serta-biaya-pendukung",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menganalisis biaya produksi, biaya penambangan, biaya pengolahan, serta biaya pendukung.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-proyeksi-pendapatan-biaya-arus-kas-dan-kinerja-keuangan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun proyeksi pendapatan, biaya, arus kas, dan kinerja keuangan.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memantau-kondisi-kas-dan-kebutuhan-pendanaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memantau kondisi kas dan kebutuhan pendanaan.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-laporan-keuangan-dan-laporan-manajemen",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun laporan keuangan dan laporan manajemen.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mencatat-transaksi-sesuai-standar-akuntansi-dan-kebijakan-perusahaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mencatat transaksi sesuai standar akuntansi dan kebijakan perusahaan.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-piutang-utang-pembayaran-serta-proses-penagihan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola piutang, utang, pembayaran, serta proses penagihan.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-aset-tetap-persediaan-dan-data-keuangan-lainnya",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola aset tetap, persediaan, dan data keuangan lainnya.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-proses-penutupan-periode-keuangan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung proses penutupan periode keuangan.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-kewajiban-perpajakan-dan-pelaporan-pajak",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola kewajiban perpajakan dan pelaporan pajak.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-proses-audit-internal-maupun-eksternal",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung proses audit internal maupun eksternal.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengevaluasi-efektivitas-pengendalian-internal",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengevaluasi efektivitas pengendalian internal.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengidentifikasi-dan-menilai-risiko-keuangan-serta-risiko-bisnis",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengidentifikasi dan menilai risiko keuangan serta risiko bisnis.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-analisis-investasi-dan-kelayakan-ekonomi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun analisis investasi dan kelayakan ekonomi.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengembangkan-model-keuangan-untuk-proyek-atau-rencana-bisnis",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengembangkan model keuangan untuk proyek atau rencana bisnis.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menganalisis-nilai-proyek-biaya-modal-pendapatan-serta-potensi-pengembalian-investasi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menganalisis nilai proyek, biaya modal, pendapatan, serta potensi pengembalian investasi.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-analisis-harga-dan-kondisi-pasar-komoditas",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan analisis harga dan kondisi pasar komoditas.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-strategi-pemasaran-dan-penjualan-komoditas",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun strategi pemasaran dan penjualan komoditas.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-hubungan-dengan-pelanggan-pembeli-mitra-bisnis-dan-pemangku-kepentingan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola hubungan dengan pelanggan, pembeli, mitra bisnis, dan pemangku kepentingan.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-proses-negosiasi-komersial",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung proses negosiasi komersial.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-kontrak-penjualan-dan-ketentuan-komersial",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola kontrak penjualan dan ketentuan komersial.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memantau-volume-penjualan-pendapatan-harga-dan-kinerja-pasar",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memantau volume penjualan, pendapatan, harga, dan kinerja pasar.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengidentifikasi-peluang-pengembangan-bisnis",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengidentifikasi peluang pengembangan bisnis.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menilai-peluang-investasi-kerja-sama-akuisisi-atau-pengembangan-proyek",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menilai peluang investasi, kerja sama, akuisisi, atau pengembangan proyek.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-rencana-strategis-perusahaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun rencana strategis perusahaan.",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memantau-indikator-kinerja-organisasi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memantau indikator kinerja organisasi.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menganalisis-efisiensi-proses-bisnis",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menganalisis efisiensi proses bisnis.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengembangkan-program-peningkatan-kinerja-dan-perbaikan-berkelanjutan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengembangkan program peningkatan kinerja dan perbaikan berkelanjutan.",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-laporan-serta-rekomendasi-untuk-manajemen",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun laporan serta rekomendasi untuk manajemen.",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-berkoordinasi-dengan-tim-operasi-produksi-teknik-pengadaan-logistik-legal-pajak-hse-dan-manajemen",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Berkoordinasi dengan tim operasi, produksi, teknik, pengadaan, logistik, legal, pajak, HSE, dan manajemen.",
+      "displayOrder": 34
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-teknis-umum",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi teknis umum",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-keuangan-perusahaan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar keuangan perusahaan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-akuntansi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami akuntansi.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-penganggaran",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami penganggaran.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-pengendalian-biaya",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami pengendalian biaya.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-analisis-laporan-keuangan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami analisis laporan keuangan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-pengelolaan-arus-kas",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami pengelolaan arus kas.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-perencanaan-bisnis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami perencanaan bisnis.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-analisis-investasi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami analisis investasi.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-ekonomi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar ekonomi.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-proses-bisnis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami proses bisnis.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-pengelolaan-risiko",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami pengelolaan risiko.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-pengendalian-internal",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami pengendalian internal.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-pelaporan-manajemen",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami pelaporan manajemen.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-analisis-data-bisnis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami analisis data bisnis.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-tata-kelola-perusahaan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami tata kelola perusahaan.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-teknis-spesialis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi teknis spesialis",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "competency-keuangan-dan-perencanaan-keuangan-analisis-keuangan",
+      "section": "competency",
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "value": "Analisis keuangan.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-keuangan-dan-perencanaan-keuangan-perencanaan-keuangan",
+      "section": "competency",
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "value": "Perencanaan keuangan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-keuangan-dan-perencanaan-keuangan-penyusunan-proyeksi",
+      "section": "competency",
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "value": "Penyusunan proyeksi.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-keuangan-dan-perencanaan-keuangan-analisis-arus-kas",
+      "section": "competency",
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "value": "Analisis arus kas.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-keuangan-dan-perencanaan-keuangan-analisis-kebutuhan-pendanaan",
+      "section": "competency",
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "value": "Analisis kebutuhan pendanaan.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-keuangan-dan-perencanaan-keuangan-analisis-kinerja-keuangan",
+      "section": "competency",
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "value": "Analisis kinerja keuangan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-keuangan-dan-perencanaan-keuangan-analisis-rasio-keuangan",
+      "section": "competency",
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "value": "Analisis rasio keuangan.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-keuangan-dan-perencanaan-keuangan-financial-modeling",
+      "section": "competency",
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "value": "Financial modeling.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-keuangan-dan-perencanaan-keuangan-analisis-sensitivitas",
+      "section": "competency",
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "value": "Analisis sensitivitas.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-keuangan-dan-perencanaan-keuangan-analisis-skenario",
+      "section": "competency",
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "value": "Analisis skenario.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-keuangan-dan-perencanaan-keuangan-pengelolaan-modal-kerja",
+      "section": "competency",
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "value": "Pengelolaan modal kerja.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-keuangan-dan-perencanaan-keuangan-manajemen-likuiditas",
+      "section": "competency",
+      "groupKey": "keuangan-dan-perencanaan-keuangan",
+      "groupLabel": "Keuangan dan Perencanaan Keuangan",
+      "value": "Manajemen likuiditas.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-akuntansi-dan-pelaporan-pencatatan-transaksi",
+      "section": "competency",
+      "groupKey": "akuntansi-dan-pelaporan",
+      "groupLabel": "Akuntansi dan Pelaporan",
+      "value": "Pencatatan transaksi.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-akuntansi-dan-pelaporan-penyusunan-laporan-keuangan",
+      "section": "competency",
+      "groupKey": "akuntansi-dan-pelaporan",
+      "groupLabel": "Akuntansi dan Pelaporan",
+      "value": "Penyusunan laporan keuangan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-akuntansi-dan-pelaporan-akuntansi-keuangan",
+      "section": "competency",
+      "groupKey": "akuntansi-dan-pelaporan",
+      "groupLabel": "Akuntansi dan Pelaporan",
+      "value": "Akuntansi keuangan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-akuntansi-dan-pelaporan-akuntansi-manajemen",
+      "section": "competency",
+      "groupKey": "akuntansi-dan-pelaporan",
+      "groupLabel": "Akuntansi dan Pelaporan",
+      "value": "Akuntansi manajemen.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-akuntansi-dan-pelaporan-akuntansi-biaya",
+      "section": "competency",
+      "groupKey": "akuntansi-dan-pelaporan",
+      "groupLabel": "Akuntansi dan Pelaporan",
+      "value": "Akuntansi biaya.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-akuntansi-dan-pelaporan-akuntansi-aset-tetap",
+      "section": "competency",
+      "groupKey": "akuntansi-dan-pelaporan",
+      "groupLabel": "Akuntansi dan Pelaporan",
+      "value": "Akuntansi aset tetap.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-akuntansi-dan-pelaporan-akuntansi-persediaan",
+      "section": "competency",
+      "groupKey": "akuntansi-dan-pelaporan",
+      "groupLabel": "Akuntansi dan Pelaporan",
+      "value": "Akuntansi persediaan.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-akuntansi-dan-pelaporan-pengelolaan-buku-besar",
+      "section": "competency",
+      "groupKey": "akuntansi-dan-pelaporan",
+      "groupLabel": "Akuntansi dan Pelaporan",
+      "value": "Pengelolaan buku besar.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-akuntansi-dan-pelaporan-rekonsiliasi-akun",
+      "section": "competency",
+      "groupKey": "akuntansi-dan-pelaporan",
+      "groupLabel": "Akuntansi dan Pelaporan",
+      "value": "Rekonsiliasi akun.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-akuntansi-dan-pelaporan-penutupan-periode",
+      "section": "competency",
+      "groupKey": "akuntansi-dan-pelaporan",
+      "groupLabel": "Akuntansi dan Pelaporan",
+      "value": "Penutupan periode.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-akuntansi-dan-pelaporan-analisis-laporan-keuangan",
+      "section": "competency",
+      "groupKey": "akuntansi-dan-pelaporan",
+      "groupLabel": "Akuntansi dan Pelaporan",
+      "value": "Analisis laporan keuangan.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-akuntansi-dan-pelaporan-pengelolaan-dokumentasi-keuangan",
+      "section": "competency",
+      "groupKey": "akuntansi-dan-pelaporan",
+      "groupLabel": "Akuntansi dan Pelaporan",
+      "value": "Pengelolaan dokumentasi keuangan.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-anggaran-dan-pengendalian-biaya-penyusunan-anggaran",
+      "section": "competency",
+      "groupKey": "anggaran-dan-pengendalian-biaya",
+      "groupLabel": "Anggaran dan Pengendalian Biaya",
+      "value": "Penyusunan anggaran.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-anggaran-dan-pengendalian-biaya-perencanaan-biaya",
+      "section": "competency",
+      "groupKey": "anggaran-dan-pengendalian-biaya",
+      "groupLabel": "Anggaran dan Pengendalian Biaya",
+      "value": "Perencanaan biaya.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-anggaran-dan-pengendalian-biaya-pengendalian-biaya",
+      "section": "competency",
+      "groupKey": "anggaran-dan-pengendalian-biaya",
+      "groupLabel": "Anggaran dan Pengendalian Biaya",
+      "value": "Pengendalian biaya.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-anggaran-dan-pengendalian-biaya-analisis-biaya",
+      "section": "competency",
+      "groupKey": "anggaran-dan-pengendalian-biaya",
+      "groupLabel": "Anggaran dan Pengendalian Biaya",
+      "value": "Analisis biaya.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-anggaran-dan-pengendalian-biaya-analisis-varians",
+      "section": "competency",
+      "groupKey": "anggaran-dan-pengendalian-biaya",
+      "groupLabel": "Anggaran dan Pengendalian Biaya",
+      "value": "Analisis varians.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-anggaran-dan-pengendalian-biaya-pengendalian-biaya-proyek",
+      "section": "competency",
+      "groupKey": "anggaran-dan-pengendalian-biaya",
+      "groupLabel": "Anggaran dan Pengendalian Biaya",
+      "value": "Pengendalian biaya proyek.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-anggaran-dan-pengendalian-biaya-analisis-biaya-operasional",
+      "section": "competency",
+      "groupKey": "anggaran-dan-pengendalian-biaya",
+      "groupLabel": "Anggaran dan Pengendalian Biaya",
+      "value": "Analisis biaya operasional.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-anggaran-dan-pengendalian-biaya-analisis-biaya-produksi",
+      "section": "competency",
+      "groupKey": "anggaran-dan-pengendalian-biaya",
+      "groupLabel": "Anggaran dan Pengendalian Biaya",
+      "value": "Analisis biaya produksi.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-anggaran-dan-pengendalian-biaya-pengelolaan-capex",
+      "section": "competency",
+      "groupKey": "anggaran-dan-pengendalian-biaya",
+      "groupLabel": "Anggaran dan Pengendalian Biaya",
+      "value": "Pengelolaan CAPEX.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-anggaran-dan-pengendalian-biaya-pengelolaan-opex",
+      "section": "competency",
+      "groupKey": "anggaran-dan-pengendalian-biaya",
+      "groupLabel": "Anggaran dan Pengendalian Biaya",
+      "value": "Pengelolaan OPEX.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-anggaran-dan-pengendalian-biaya-estimasi-biaya",
+      "section": "competency",
+      "groupKey": "anggaran-dan-pengendalian-biaya",
+      "groupLabel": "Anggaran dan Pengendalian Biaya",
+      "value": "Estimasi biaya.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-anggaran-dan-pengendalian-biaya-pengukuran-kinerja-biaya",
+      "section": "competency",
+      "groupKey": "anggaran-dan-pengendalian-biaya",
+      "groupLabel": "Anggaran dan Pengendalian Biaya",
+      "value": "Pengukuran kinerja biaya.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-perpajakan-administrasi-perpajakan",
+      "section": "competency",
+      "groupKey": "perpajakan",
+      "groupLabel": "Perpajakan",
+      "value": "Administrasi perpajakan.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-perpajakan-perencanaan-pajak",
+      "section": "competency",
+      "groupKey": "perpajakan",
+      "groupLabel": "Perpajakan",
+      "value": "Perencanaan pajak.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-perpajakan-pelaporan-pajak",
+      "section": "competency",
+      "groupKey": "perpajakan",
+      "groupLabel": "Perpajakan",
+      "value": "Pelaporan pajak.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-perpajakan-kepatuhan-pajak",
+      "section": "competency",
+      "groupKey": "perpajakan",
+      "groupLabel": "Perpajakan",
+      "value": "Kepatuhan pajak.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-perpajakan-analisis-pajak",
+      "section": "competency",
+      "groupKey": "perpajakan",
+      "groupLabel": "Perpajakan",
+      "value": "Analisis pajak.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-perpajakan-dokumentasi-perpajakan",
+      "section": "competency",
+      "groupKey": "perpajakan",
+      "groupLabel": "Perpajakan",
+      "value": "Dokumentasi perpajakan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-perpajakan-analisis-transaksi",
+      "section": "competency",
+      "groupKey": "perpajakan",
+      "groupLabel": "Perpajakan",
+      "value": "Analisis transaksi.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-perpajakan-pemahaman-ketentuan-perpajakan-yang-relevan",
+      "section": "competency",
+      "groupKey": "perpajakan",
+      "groupLabel": "Perpajakan",
+      "value": "Pemahaman ketentuan perpajakan yang relevan.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-audit-dan-risiko-perencanaan-audit",
+      "section": "competency",
+      "groupKey": "audit-dan-risiko",
+      "groupLabel": "Audit dan Risiko",
+      "value": "Perencanaan audit.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-audit-dan-risiko-pengujian-pengendalian",
+      "section": "competency",
+      "groupKey": "audit-dan-risiko",
+      "groupLabel": "Audit dan Risiko",
+      "value": "Pengujian pengendalian.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-audit-dan-risiko-evaluasi-pengendalian-internal",
+      "section": "competency",
+      "groupKey": "audit-dan-risiko",
+      "groupLabel": "Audit dan Risiko",
+      "value": "Evaluasi pengendalian internal.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-audit-dan-risiko-analisis-risiko",
+      "section": "competency",
+      "groupKey": "audit-dan-risiko",
+      "groupLabel": "Audit dan Risiko",
+      "value": "Analisis risiko.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-audit-dan-risiko-manajemen-risiko-perusahaan",
+      "section": "competency",
+      "groupKey": "audit-dan-risiko",
+      "groupLabel": "Audit dan Risiko",
+      "value": "Manajemen risiko perusahaan.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-audit-dan-risiko-pemantauan-kepatuhan",
+      "section": "competency",
+      "groupKey": "audit-dan-risiko",
+      "groupLabel": "Audit dan Risiko",
+      "value": "Pemantauan kepatuhan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-audit-dan-risiko-penyusunan-temuan-audit",
+      "section": "competency",
+      "groupKey": "audit-dan-risiko",
+      "groupLabel": "Audit dan Risiko",
+      "value": "Penyusunan temuan audit.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-audit-dan-risiko-penyusunan-rekomendasi-perbaikan",
+      "section": "competency",
+      "groupKey": "audit-dan-risiko",
+      "groupLabel": "Audit dan Risiko",
+      "value": "Penyusunan rekomendasi perbaikan.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-audit-dan-risiko-pemantauan-tindak-lanjut",
+      "section": "competency",
+      "groupKey": "audit-dan-risiko",
+      "groupLabel": "Audit dan Risiko",
+      "value": "Pemantauan tindak lanjut.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-komersial-dan-pengembangan-bisnis-analisis-pasar",
+      "section": "competency",
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "value": "Analisis pasar.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-komersial-dan-pengembangan-bisnis-analisis-harga-komoditas",
+      "section": "competency",
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "value": "Analisis harga komoditas.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-komersial-dan-pengembangan-bisnis-analisis-pelanggan",
+      "section": "competency",
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "value": "Analisis pelanggan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-komersial-dan-pengembangan-bisnis-analisis-peluang-bisnis",
+      "section": "competency",
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "value": "Analisis peluang bisnis.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-komersial-dan-pengembangan-bisnis-penyusunan-strategi-komersial",
+      "section": "competency",
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "value": "Penyusunan strategi komersial.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-komersial-dan-pengembangan-bisnis-negosiasi-bisnis",
+      "section": "competency",
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "value": "Negosiasi bisnis.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-komersial-dan-pengembangan-bisnis-pengelolaan-hubungan-pelanggan",
+      "section": "competency",
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "value": "Pengelolaan hubungan pelanggan.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-komersial-dan-pengembangan-bisnis-pengelolaan-kontrak-komersial",
+      "section": "competency",
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "value": "Pengelolaan kontrak komersial.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-komersial-dan-pengembangan-bisnis-pengembangan-bisnis",
+      "section": "competency",
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "value": "Pengembangan bisnis.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-komersial-dan-pengembangan-bisnis-analisis-kompetitor",
+      "section": "competency",
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "value": "Analisis kompetitor.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-komersial-dan-pengembangan-bisnis-analisis-kelayakan-bisnis",
+      "section": "competency",
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "value": "Analisis kelayakan bisnis.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-investasi-dan-ekonomi-evaluasi-investasi",
+      "section": "competency",
+      "groupKey": "investasi-dan-ekonomi",
+      "groupLabel": "Investasi dan Ekonomi",
+      "value": "Evaluasi investasi.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-investasi-dan-ekonomi-analisis-kelayakan-ekonomi",
+      "section": "competency",
+      "groupKey": "investasi-dan-ekonomi",
+      "groupLabel": "Investasi dan Ekonomi",
+      "value": "Analisis kelayakan ekonomi.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-investasi-dan-ekonomi-penilaian-proyek",
+      "section": "competency",
+      "groupKey": "investasi-dan-ekonomi",
+      "groupLabel": "Investasi dan Ekonomi",
+      "value": "Penilaian proyek.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-investasi-dan-ekonomi-analisis-biaya-dan-manfaat",
+      "section": "competency",
+      "groupKey": "investasi-dan-ekonomi",
+      "groupLabel": "Investasi dan Ekonomi",
+      "value": "Analisis biaya dan manfaat.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-investasi-dan-ekonomi-analisis-arus-kas-proyek",
+      "section": "competency",
+      "groupKey": "investasi-dan-ekonomi",
+      "groupLabel": "Investasi dan Ekonomi",
+      "value": "Analisis arus kas proyek.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-investasi-dan-ekonomi-analisis-nilai-kini",
+      "section": "competency",
+      "groupKey": "investasi-dan-ekonomi",
+      "groupLabel": "Investasi dan Ekonomi",
+      "value": "Analisis nilai kini.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-investasi-dan-ekonomi-analisis-tingkat-pengembalian",
+      "section": "competency",
+      "groupKey": "investasi-dan-ekonomi",
+      "groupLabel": "Investasi dan Ekonomi",
+      "value": "Analisis tingkat pengembalian.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-investasi-dan-ekonomi-analisis-sensitivitas",
+      "section": "competency",
+      "groupKey": "investasi-dan-ekonomi",
+      "groupLabel": "Investasi dan Ekonomi",
+      "value": "Analisis sensitivitas.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-investasi-dan-ekonomi-analisis-risiko-investasi",
+      "section": "competency",
+      "groupKey": "investasi-dan-ekonomi",
+      "groupLabel": "Investasi dan Ekonomi",
+      "value": "Analisis risiko investasi.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-investasi-dan-ekonomi-penilaian-perusahaan",
+      "section": "competency",
+      "groupKey": "investasi-dan-ekonomi",
+      "groupLabel": "Investasi dan Ekonomi",
+      "value": "Penilaian perusahaan.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-investasi-dan-ekonomi-analisis-portofolio",
+      "section": "competency",
+      "groupKey": "investasi-dan-ekonomi",
+      "groupLabel": "Investasi dan Ekonomi",
+      "value": "Analisis portofolio.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-perencanaan-strategis",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Perencanaan strategis.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-analisis-kinerja",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Analisis kinerja.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-manajemen-proses-bisnis",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Manajemen proses bisnis.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-peningkatan-berkelanjutan",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Peningkatan berkelanjutan.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-manajemen-proyek",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Manajemen proyek.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-manajemen-perubahan",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Manajemen perubahan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-pengembangan-indikator-kinerja",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Pengembangan indikator kinerja.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-analisis-efisiensi",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Analisis efisiensi.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-pengelolaan-program-bisnis",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Pengelolaan program bisnis.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-pengambilan-keputusan-berbasis-data",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Pengambilan keputusan berbasis data.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-kompetensi-nonteknis",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Kompetensi nonteknis",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-kemampuan-analitis",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Kemampuan analitis.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-ketelitian-dan-akurasi",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Ketelitian dan akurasi.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-kemampuan-berpikir-kritis",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Kemampuan berpikir kritis.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-kemampuan-memecahkan-masalah",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Kemampuan memecahkan masalah.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-kemampuan-komunikasi",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Kemampuan komunikasi.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-kemampuan-presentasi",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Kemampuan presentasi.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-kemampuan-negosiasi",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Kemampuan negosiasi.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-kemampuan-menyusun-laporan",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Kemampuan menyusun laporan.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-kemampuan-mengambil-keputusan",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Kemampuan mengambil keputusan.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-manajemen-waktu",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Manajemen waktu.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-kemampuan-mengelola-prioritas",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Kemampuan mengelola prioritas.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-kemampuan-bekerja-lintas-fungsi",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Kemampuan bekerja lintas fungsi.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-kepemimpinan",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Kepemimpinan.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-kemampuan-mengelola-tim",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Kemampuan mengelola tim.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-integritas",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Integritas.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-objektivitas",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Objektivitas.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-menjaga-kerahasiaan-informasi",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Menjaga kerahasiaan informasi.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "competency-manajemen-dan-strategi-kemampuan-beradaptasi-terhadap-perubahan-kondisi-bisnis",
+      "section": "competency",
+      "groupKey": "manajemen-dan-strategi",
+      "groupLabel": "Manajemen dan Strategi",
+      "value": "Kemampuan beradaptasi terhadap perubahan kondisi bisnis.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-utama",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan utama",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "education-informasi-utama-akuntansi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Akuntansi",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "education-informasi-utama-keuangan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keuangan",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "education-informasi-utama-manajemen",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "education-informasi-utama-manajemen-keuangan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Keuangan",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "education-informasi-utama-manajemen-bisnis",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Bisnis",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "education-informasi-utama-administrasi-bisnis",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Administrasi Bisnis",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "education-informasi-utama-ekonomi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ekonomi",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "education-informasi-utama-ekonomi-pembangunan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ekonomi Pembangunan",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "education-informasi-utama-ekonomi-bisnis",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ekonomi Bisnis",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "education-informasi-utama-perbankan-dan-keuangan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Perbankan dan Keuangan",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "education-informasi-utama-perpajakan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Perpajakan",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "education-informasi-utama-bisnis-internasional",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Bisnis Internasional",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "education-informasi-utama-manajemen-pemasaran",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Pemasaran",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "education-informasi-utama-manajemen-operasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Operasi",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "education-informasi-utama-manajemen-strategis",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Strategis",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-industri",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Industri",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-pertambangan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Pertambangan",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-geologi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Geologi",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-mesin",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Mesin",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-elektro",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Elektro",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-kimia",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Kimia",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "education-informasi-utama-statistika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Statistika",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "education-informasi-utama-matematika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Matematika",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "education-informasi-utama-sains-data",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sains Data",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "education-informasi-utama-sistem-informasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Informasi",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "education-informasi-utama-ilmu-ekonomi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ilmu Ekonomi",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "education-informasi-utama-hukum-terutama-untuk-bidang-komersial-pajak-atau-tata-kelola",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Hukum, terutama untuk bidang komersial, pajak, atau tata kelola",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-pendukung-untuk-posisi-tertentu",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan Pendukung untuk Posisi Tertentu",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-akuntansi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Akuntansi.",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-keuangan-dan-perbankan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Keuangan dan Perbankan.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-perpajakan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Perpajakan.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-administrasi-bisnis",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Administrasi Bisnis.",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-manajemen",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Manajemen.",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-manajemen-pemasaran",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Manajemen Pemasaran.",
+      "displayOrder": 34
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-bisnis-internasional",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Bisnis Internasional.",
+      "displayOrder": 35
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-manajemen-proyek",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Manajemen Proyek.",
+      "displayOrder": 36
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-administrasi-keuangan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi administrasi keuangan.",
+      "displayOrder": 37
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-akuntansi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi akuntansi.",
+      "displayOrder": 38
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-pengelolaan-bisnis",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi pengelolaan bisnis.",
+      "displayOrder": 39
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-pemasaran",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi pemasaran.",
+      "displayOrder": 40
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-perpajakan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi perpajakan.",
+      "displayOrder": 41
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-manajemen-operasional",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi manajemen operasional.",
+      "displayOrder": 42
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-lain-yang-sesuai-dengan-kebutuhan-jabatan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan lain yang sesuai dengan kebutuhan jabatan.",
+      "displayOrder": 43
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-keuangan-sap-s-4hana",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Keuangan: SAP S/4HANA",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-keuangan-oracle-fusion-cloud-erp",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Keuangan: Oracle Fusion Cloud ERP",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-keuangan-microsoft-dynamics-365-finance",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Keuangan: Microsoft Dynamics 365 Finance",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-keuangan-b-akuntansi-dan-pelaporan",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Keuangan: B. Akuntansi dan Pelaporan",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-keuangan-microsoft-excel",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Keuangan: Microsoft Excel",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-keuangan-microsoft-power-bi",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Keuangan: Microsoft Power BI",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-keuangan-tableau",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Keuangan: Tableau",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-keuangan-oracle-hyperion",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Keuangan: Oracle Hyperion",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-keuangan-c-perencanaan-penganggaran-dan-analisis",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Keuangan: C. Perencanaan, Penganggaran, dan Analisis",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-keuangan-ibm-planning-analytics",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Keuangan: IBM Planning Analytics",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-keuangan-anaplan",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Keuangan: Anaplan",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-keuangan-sap-analytics-cloud",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Keuangan: SAP Analytics Cloud",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-keuangan-d-analisis-data-dan-pemodelan",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Keuangan: D. Analisis Data dan Pemodelan",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-keuangan-python-dan-r",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Keuangan: Python dan R",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-keuangan-sql",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Keuangan: SQL",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-keuangan-e-manajemen-proyek-dan-kinerja",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Keuangan: E. Manajemen Proyek dan Kinerja",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-keuangan-microsoft-project",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Keuangan: Microsoft Project",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-keuangan-primavera-p6",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Keuangan: Primavera P6",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "software-informasi-utama-enterprise-resource-planning-dan-keuangan-jira",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Enterprise Resource Planning dan Keuangan: Jira",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-teknis",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan teknis",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-keuangan-dan-akuntansi-pelatihan-dasar-keuangan-perusahaan",
+      "section": "training",
+      "groupKey": "keuangan-dan-akuntansi",
+      "groupLabel": "Keuangan dan Akuntansi",
+      "value": "Pelatihan dasar keuangan perusahaan.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-keuangan-dan-akuntansi-pelatihan-analisis-laporan-keuangan",
+      "section": "training",
+      "groupKey": "keuangan-dan-akuntansi",
+      "groupLabel": "Keuangan dan Akuntansi",
+      "value": "Pelatihan analisis laporan keuangan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-keuangan-dan-akuntansi-pelatihan-perencanaan-keuangan",
+      "section": "training",
+      "groupKey": "keuangan-dan-akuntansi",
+      "groupLabel": "Keuangan dan Akuntansi",
+      "value": "Pelatihan perencanaan keuangan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-keuangan-dan-akuntansi-pelatihan-pengelolaan-arus-kas",
+      "section": "training",
+      "groupKey": "keuangan-dan-akuntansi",
+      "groupLabel": "Keuangan dan Akuntansi",
+      "value": "Pelatihan pengelolaan arus kas.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-keuangan-dan-akuntansi-pelatihan-financial-modeling",
+      "section": "training",
+      "groupKey": "keuangan-dan-akuntansi",
+      "groupLabel": "Keuangan dan Akuntansi",
+      "value": "Pelatihan financial modeling.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-keuangan-dan-akuntansi-pelatihan-akuntansi-keuangan",
+      "section": "training",
+      "groupKey": "keuangan-dan-akuntansi",
+      "groupLabel": "Keuangan dan Akuntansi",
+      "value": "Pelatihan akuntansi keuangan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-keuangan-dan-akuntansi-pelatihan-akuntansi-manajemen",
+      "section": "training",
+      "groupKey": "keuangan-dan-akuntansi",
+      "groupLabel": "Keuangan dan Akuntansi",
+      "value": "Pelatihan akuntansi manajemen.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-keuangan-dan-akuntansi-pelatihan-akuntansi-biaya",
+      "section": "training",
+      "groupKey": "keuangan-dan-akuntansi",
+      "groupLabel": "Keuangan dan Akuntansi",
+      "value": "Pelatihan akuntansi biaya.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-keuangan-dan-akuntansi-pelatihan-pengelolaan-aset",
+      "section": "training",
+      "groupKey": "keuangan-dan-akuntansi",
+      "groupLabel": "Keuangan dan Akuntansi",
+      "value": "Pelatihan pengelolaan aset.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-keuangan-dan-akuntansi-pelatihan-penyusunan-laporan-keuangan",
+      "section": "training",
+      "groupKey": "keuangan-dan-akuntansi",
+      "groupLabel": "Keuangan dan Akuntansi",
+      "value": "Pelatihan penyusunan laporan keuangan.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "training-keuangan-dan-akuntansi-pelatihan-penggunaan-sistem-erp-keuangan",
+      "section": "training",
+      "groupKey": "keuangan-dan-akuntansi",
+      "groupLabel": "Keuangan dan Akuntansi",
+      "value": "Pelatihan penggunaan sistem ERP keuangan.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "training-keuangan-dan-akuntansi-pelatihan-microsoft-excel-tingkat-lanjut",
+      "section": "training",
+      "groupKey": "keuangan-dan-akuntansi",
+      "groupLabel": "Keuangan dan Akuntansi",
+      "value": "Pelatihan Microsoft Excel tingkat lanjut.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "training-keuangan-dan-akuntansi-pelatihan-power-bi-untuk-keuangan",
+      "section": "training",
+      "groupKey": "keuangan-dan-akuntansi",
+      "groupLabel": "Keuangan dan Akuntansi",
+      "value": "Pelatihan Power BI untuk keuangan.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "training-anggaran-dan-pengendalian-biaya-pelatihan-penyusunan-anggaran",
+      "section": "training",
+      "groupKey": "anggaran-dan-pengendalian-biaya",
+      "groupLabel": "Anggaran dan Pengendalian Biaya",
+      "value": "Pelatihan penyusunan anggaran.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-anggaran-dan-pengendalian-biaya-pelatihan-pengendalian-biaya",
+      "section": "training",
+      "groupKey": "anggaran-dan-pengendalian-biaya",
+      "groupLabel": "Anggaran dan Pengendalian Biaya",
+      "value": "Pelatihan pengendalian biaya.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-anggaran-dan-pengendalian-biaya-pelatihan-analisis-biaya",
+      "section": "training",
+      "groupKey": "anggaran-dan-pengendalian-biaya",
+      "groupLabel": "Anggaran dan Pengendalian Biaya",
+      "value": "Pelatihan analisis biaya.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-anggaran-dan-pengendalian-biaya-pelatihan-analisis-varians",
+      "section": "training",
+      "groupKey": "anggaran-dan-pengendalian-biaya",
+      "groupLabel": "Anggaran dan Pengendalian Biaya",
+      "value": "Pelatihan analisis varians.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-anggaran-dan-pengendalian-biaya-pelatihan-pengendalian-biaya-proyek",
+      "section": "training",
+      "groupKey": "anggaran-dan-pengendalian-biaya",
+      "groupLabel": "Anggaran dan Pengendalian Biaya",
+      "value": "Pelatihan pengendalian biaya proyek.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-anggaran-dan-pengendalian-biaya-pelatihan-estimasi-biaya",
+      "section": "training",
+      "groupKey": "anggaran-dan-pengendalian-biaya",
+      "groupLabel": "Anggaran dan Pengendalian Biaya",
+      "value": "Pelatihan estimasi biaya.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-anggaran-dan-pengendalian-biaya-pelatihan-pengelolaan-capex-dan-opex",
+      "section": "training",
+      "groupKey": "anggaran-dan-pengendalian-biaya",
+      "groupLabel": "Anggaran dan Pengendalian Biaya",
+      "value": "Pelatihan pengelolaan CAPEX dan OPEX.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-anggaran-dan-pengendalian-biaya-pelatihan-project-controls",
+      "section": "training",
+      "groupKey": "anggaran-dan-pengendalian-biaya",
+      "groupLabel": "Anggaran dan Pengendalian Biaya",
+      "value": "Pelatihan project controls.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-perpajakan-dan-audit-pelatihan-administrasi-perpajakan",
+      "section": "training",
+      "groupKey": "perpajakan-dan-audit",
+      "groupLabel": "Perpajakan dan Audit",
+      "value": "Pelatihan administrasi perpajakan.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-perpajakan-dan-audit-pelatihan-perencanaan-pajak",
+      "section": "training",
+      "groupKey": "perpajakan-dan-audit",
+      "groupLabel": "Perpajakan dan Audit",
+      "value": "Pelatihan perencanaan pajak.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-perpajakan-dan-audit-pelatihan-kepatuhan-pajak",
+      "section": "training",
+      "groupKey": "perpajakan-dan-audit",
+      "groupLabel": "Perpajakan dan Audit",
+      "value": "Pelatihan kepatuhan pajak.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-perpajakan-dan-audit-pelatihan-audit-internal",
+      "section": "training",
+      "groupKey": "perpajakan-dan-audit",
+      "groupLabel": "Perpajakan dan Audit",
+      "value": "Pelatihan audit internal.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-perpajakan-dan-audit-pelatihan-pengendalian-internal",
+      "section": "training",
+      "groupKey": "perpajakan-dan-audit",
+      "groupLabel": "Perpajakan dan Audit",
+      "value": "Pelatihan pengendalian internal.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-perpajakan-dan-audit-pelatihan-manajemen-risiko",
+      "section": "training",
+      "groupKey": "perpajakan-dan-audit",
+      "groupLabel": "Perpajakan dan Audit",
+      "value": "Pelatihan manajemen risiko.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-perpajakan-dan-audit-pelatihan-tata-kelola-perusahaan",
+      "section": "training",
+      "groupKey": "perpajakan-dan-audit",
+      "groupLabel": "Perpajakan dan Audit",
+      "value": "Pelatihan tata kelola perusahaan.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-perpajakan-dan-audit-pelatihan-kepatuhan-bisnis",
+      "section": "training",
+      "groupKey": "perpajakan-dan-audit",
+      "groupLabel": "Perpajakan dan Audit",
+      "value": "Pelatihan kepatuhan bisnis.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-komersial-dan-pengembangan-bisnis-pelatihan-analisis-pasar",
+      "section": "training",
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "value": "Pelatihan analisis pasar.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-komersial-dan-pengembangan-bisnis-pelatihan-pemasaran-komoditas",
+      "section": "training",
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "value": "Pelatihan pemasaran komoditas.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-komersial-dan-pengembangan-bisnis-pelatihan-penjualan-dan-pengelolaan-pelanggan",
+      "section": "training",
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "value": "Pelatihan penjualan dan pengelolaan pelanggan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-komersial-dan-pengembangan-bisnis-pelatihan-negosiasi-komersial",
+      "section": "training",
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "value": "Pelatihan negosiasi komersial.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-komersial-dan-pengembangan-bisnis-pelatihan-manajemen-kontrak-komersial",
+      "section": "training",
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "value": "Pelatihan manajemen kontrak komersial.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-komersial-dan-pengembangan-bisnis-pelatihan-pengembangan-bisnis",
+      "section": "training",
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "value": "Pelatihan pengembangan bisnis.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-komersial-dan-pengembangan-bisnis-pelatihan-analisis-strategi",
+      "section": "training",
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "value": "Pelatihan analisis strategi.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-komersial-dan-pengembangan-bisnis-pelatihan-intelijen-pasar",
+      "section": "training",
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "value": "Pelatihan intelijen pasar.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-komersial-dan-pengembangan-bisnis-pelatihan-analisis-harga-komoditas",
+      "section": "training",
+      "groupKey": "komersial-dan-pengembangan-bisnis",
+      "groupLabel": "Komersial dan Pengembangan Bisnis",
+      "value": "Pelatihan analisis harga komoditas.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-pelatihan-analisis-investasi",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Pelatihan analisis investasi.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-pelatihan-evaluasi-proyek",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Pelatihan evaluasi proyek.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-pelatihan-studi-kelayakan",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Pelatihan studi kelayakan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-pelatihan-ekonomi-proyek",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Pelatihan ekonomi proyek.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-pelatihan-penilaian-bisnis",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Pelatihan penilaian bisnis.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-pelatihan-manajemen-proyek",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Pelatihan manajemen proyek.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-pelatihan-perencanaan-strategis",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Pelatihan perencanaan strategis.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-pelatihan-manajemen-kinerja",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Pelatihan manajemen kinerja.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-pelatihan-peningkatan-berkelanjutan",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Pelatihan peningkatan berkelanjutan.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-pelatihan-kepemimpinan",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Pelatihan kepemimpinan.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-pelatihan-manajemen-perubahan",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Pelatihan manajemen perubahan.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-pelatihan-keselamatan",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Pelatihan keselamatan",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-induksi-keselamatan-pertambangan",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Induksi keselamatan pertambangan.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-pengenalan-bahaya-dan-risiko-di-area-tambang",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Pengenalan bahaya dan risiko di area tambang.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-keselamatan-saat-kunjungan-lapangan",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Keselamatan saat kunjungan lapangan.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-keselamatan-perjalanan-menuju-lokasi-operasi",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Keselamatan perjalanan menuju lokasi operasi.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-keselamatan-lalu-lintas-tambang",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Keselamatan lalu lintas tambang.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-keselamatan-di-area-produksi-dan-fasilitas-pengolahan",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Keselamatan di area produksi dan fasilitas pengolahan.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-penggunaan-alat-pelindung-diri",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Penggunaan alat pelindung diri.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-tanggap-darurat",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Tanggap darurat.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-pelatihan-komunikasi-darurat",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Pelatihan komunikasi darurat.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "training-investasi-dan-manajemen-pelatihan-keselamatan-berdasarkan-risiko-pekerjaan",
+      "section": "training",
+      "groupKey": "investasi-dan-manajemen",
+      "groupLabel": "Investasi dan Manajemen",
+      "value": "Pelatihan keselamatan berdasarkan risiko pekerjaan.",
+      "displayOrder": 21
+    }
+  ]
+}

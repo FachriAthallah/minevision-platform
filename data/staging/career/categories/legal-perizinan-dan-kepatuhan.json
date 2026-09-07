@@ -1,0 +1,3965 @@
+{
+  "schemaVersion": "1.0",
+  "categorySlug": "legal-perizinan-dan-kepatuhan",
+  "category": {
+    "name": "Legal, Perizinan, dan Kepatuhan",
+    "slug": "legal-perizinan-dan-kepatuhan",
+    "description": "Deskripsi Kategori",
+    "displayOrder": 12,
+    "isActive": true
+  },
+  "profile": {
+    "title": "Legal, Perizinan, dan Kepatuhan",
+    "slug": "legal-perizinan-dan-kepatuhan",
+    "excerpt": "Deskripsi Kategori",
+    "body": "Deskripsi Kategori\n\nKategori Legal, Perizinan, dan Kepatuhan mencakup profesi yang membantu perusahaan menjalankan kegiatan usaha sesuai dengan peraturan perundang-undangan, persyaratan perizinan, ketentuan kontrak, kebijakan internal, serta kewajiban yang berlaku. Dalam industri pertambangan, fungsi ini memiliki peran penting karena kegiatan usaha mencakup berbagai tahapan, mulai dari eksplorasi, studi kelayakan, konstruksi, penambangan, pengolahan dan/atau pemurnian, pengangkutan, penjualan, hingga kegiatan pascatambang.\n\nBidang ini dapat menangani penelaahan regulasi, pengelolaan dokumen hukum, administrasi dan pemantauan perizinan, penyusunan atau peninjauan kontrak, pengelolaan kepatuhan, serta koordinasi dengan instansi pemerintah dan pemangku kepentingan terkait. Dalam praktiknya, pekerjaan legal dan kepatuhan tidak hanya berfokus pada dokumen, tetapi juga membantu mengidentifikasi risiko hukum serta memastikan kewajiban perusahaan dipantau dan ditindaklanjuti secara tepat. RKAB, misalnya, merupakan dokumen wajib bagi pemegang IUP dan IUPK yang memuat rencana kegiatan dari aspek pengusahaan, teknis, finansial, hingga lingkungan.\n\nContoh Profesi\n\nHukum Perusahaan dan Legal\n\nLegal Officer\n\nLegal Analyst\n\nLegal Specialist\n\nLegal Counsel\n\nSenior Legal Counsel\n\nCorporate Legal Counsel\n\nIn-House Counsel\n\nLegal Advisor\n\nLegal Consultant\n\nLegal Administrator\n\nLegal Documentation Officer\n\nLegal Documentation Specialist\n\nLegal Research Officer\n\nLegal Research Analyst\n\nLegal Affairs Officer\n\nLegal Affairs Specialist\n\nLegal Affairs Supervisor\n\nLegal Affairs Superintendent\n\nLegal Affairs Manager\n\nCorporate Legal Officer\n\nCorporate Legal Specialist\n\nCorporate Legal Manager\n\nLegal Manager\n\nSenior Legal Manager\n\nHead of Legal\n\nHead of Legal Affairs\n\nGeneral Counsel\n\nChief Legal Officer\n\nHukum Pertambangan dan Regulasi\n\nMining Legal Counsel\n\nMining Legal Officer\n\nMining Legal Specialist\n\nMining Law Specialist\n\nMining Regulatory Counsel\n\nMining Regulatory Specialist\n\nMining Regulatory Affairs Officer\n\nMining Regulatory Affairs Manager\n\nMineral and Coal Legal Specialist\n\nMinerba Legal Officer\n\nNatural Resources Legal Counsel\n\nNatural Resources Legal Specialist\n\nEnergy and Natural Resources Lawyer\n\nEnergy Law Specialist\n\nNatural Resources Regulatory Analyst\n\nMining Regulation Analyst\n\nMining Policy Analyst\n\nMining Governance Specialist\n\nMining Compliance Legal Counsel\n\nMining Licensing Legal Specialist\n\nMining Permit Legal Officer\n\nPerizinan dan Perizinan Berusaha\n\nLicensing Officer\n\nLicensing Analyst\n\nLicensing Specialist\n\nLicensing Coordinator\n\nLicensing Supervisor\n\nLicensing Superintendent\n\nLicensing Manager\n\nPermit Officer\n\nPermit Analyst\n\nPermit Specialist\n\nPermit Coordinator\n\nPermit Administrator\n\nPermit Manager\n\nMining Licensing Officer\n\nMining Licensing Specialist\n\nMining Permit Officer\n\nMining Permit Specialist\n\nMining Permit Coordinator\n\nMining Permit Manager\n\nRegulatory Licensing Officer\n\nRegulatory Licensing Specialist\n\nBusiness Licensing Officer\n\nBusiness Licensing Specialist\n\nBusiness Permit Analyst\n\nPermit Compliance Officer\n\nPermit Compliance Specialist\n\nPermit Monitoring Officer\n\nPermit Administration Officer\n\nLicense Management Specialist\n\nLicensing and Regulatory Affairs Manager\n\nKepatuhan dan Tata Kelola\n\nCompliance Officer\n\nCompliance Analyst\n\nCompliance Specialist\n\nCompliance Coordinator\n\nCompliance Supervisor\n\nCompliance Superintendent\n\nCompliance Manager\n\nSenior Compliance Manager\n\nCorporate Compliance Officer\n\nCorporate Compliance Specialist\n\nCorporate Compliance Manager\n\nRegulatory Compliance Officer\n\nRegulatory Compliance Analyst\n\nRegulatory Compliance Specialist\n\nRegulatory Compliance Manager\n\nMining Compliance Officer\n\nMining Compliance Specialist\n\nMining Compliance Manager\n\nLegal Compliance Officer\n\nLegal Compliance Specialist\n\nCompliance Monitoring Officer\n\nCompliance Assurance Officer\n\nCompliance Assurance Specialist\n\nGovernance Officer\n\nGovernance Analyst\n\nGovernance Specialist\n\nCorporate Governance Officer\n\nCorporate Governance Specialist\n\nCorporate Governance Manager\n\nGovernance, Risk, and Compliance Analyst\n\nGRC Specialist\n\nGRC Manager\n\nEthics and Compliance Officer\n\nBusiness Ethics Officer\n\nCode of Conduct Officer\n\nRegulasi dan Hubungan Pemerintah\n\nRegulatory Affairs Officer\n\nRegulatory Affairs Analyst\n\nRegulatory Affairs Specialist\n\nRegulatory Affairs Manager\n\nRegulatory Officer\n\nRegulatory Analyst\n\nRegulatory Specialist\n\nRegulatory Manager\n\nRegulatory Policy Analyst\n\nRegulatory Policy Specialist\n\nGovernment Relations Officer\n\nGovernment Relations Analyst\n\nGovernment Relations Specialist\n\nGovernment Relations Manager\n\nGovernment Affairs Officer\n\nGovernment Affairs Specialist\n\nGovernment Affairs Manager\n\nPublic Affairs Officer\n\nPublic Affairs Specialist\n\nPublic Affairs Manager\n\nStakeholder Relations Officer\n\nStakeholder Relations Specialist\n\nExternal Relations Officer\n\nExternal Relations Specialist\n\nExternal Relations Manager\n\nRegulatory Engagement Officer\n\nGovernment Liaison Officer\n\nGovernment Liaison Specialist\n\nKontrak dan Administrasi Legal\n\nContract Officer\n\nContract Analyst\n\nContract Specialist\n\nContract Administrator\n\nContract Coordinator\n\nContract Supervisor\n\nContract Superintendent\n\nContract Manager\n\nLegal Contract Officer\n\nLegal Contract Specialist\n\nContract Legal Counsel\n\nCommercial Contract Officer\n\nCommercial Contract Specialist\n\nContract Compliance Officer\n\nContract Compliance Specialist\n\nContract Governance Officer\n\nContract Governance Specialist\n\nContract Documentation Officer\n\nContract Documentation Specialist\n\nContract Review Specialist\n\nContract Management Specialist\n\nContract Performance Analyst\n\nContract Risk Analyst\n\nContract Claims Specialist\n\nClaims Analyst\n\nClaims Specialist\n\nClaims Manager\n\nContract and Legal Manager\n\nKebijakan, Tata Kelola, dan Risiko Hukum\n\nPolicy Analyst\n\nPolicy Officer\n\nPolicy Specialist\n\nCorporate Policy Analyst\n\nCorporate Policy Specialist\n\nRegulatory Policy Analyst\n\nGovernance Policy Officer\n\nGovernance Policy Specialist\n\nLegal Risk Analyst\n\nLegal Risk Specialist\n\nLegal Risk Manager\n\nRegulatory Risk Analyst\n\nRegulatory Risk Specialist\n\nCompliance Risk Analyst\n\nCompliance Risk Specialist\n\nGovernance Risk Analyst\n\nEnterprise Governance Specialist\n\nCorporate Governance Analyst\n\nBusiness Integrity Specialist\n\nEthics and Integrity Officer\n\nAnti-Bribery Compliance Officer\n\nAnti-Corruption Compliance Specialist\n\nWhistleblowing System Officer\n\nInternal Investigation Officer\n\nCorporate Investigation Specialist\n\nDokumentasi dan Administrasi Kepatuhan\n\nLegal Document Controller\n\nLegal Document Officer\n\nLegal Records Officer\n\nLegal Records Administrator\n\nLegal Archive Officer\n\nCompliance Documentation Officer\n\nCompliance Documentation Specialist\n\nRegulatory Documentation Officer\n\nPermit Documentation Officer\n\nPermit Records Administrator\n\nCorporate Secretary Officer\n\nCorporate Secretary Specialist\n\nCorporate Secretary Manager\n\nCompany Secretariat Officer\n\nBoard Secretariat Officer\n\nBoard Governance Officer\n\nCorporate Administration Officer\n\nCorporate Records Officer\n\nDocument Control Officer\n\nDocument Control Specialist\n\nDocument Controller\n\nRegulatory Reporting Officer\n\nCompliance Reporting Analyst\n\nLegal Reporting Specialist\n\nKepemimpinan dan Manajemen\n\nLegal Supervisor\n\nLegal Superintendent\n\nLegal Manager\n\nHead of Legal\n\nGeneral Counsel\n\nChief Legal Officer\n\nLicensing Superintendent\n\nLicensing Manager\n\nHead of Licensing\n\nCompliance Superintendent\n\nCompliance Manager\n\nHead of Compliance\n\nChief Compliance Officer\n\nRegulatory Affairs Manager\n\nHead of Regulatory Affairs\n\nGovernment Relations Manager\n\nHead of Government Relations\n\nCorporate Governance Manager\n\nHead of Corporate Governance\n\nContract Manager\n\nHead of Contract Management\n\nLegal and Compliance Manager\n\nLegal, Compliance, and Governance Manager\n\nCorporate Affairs Director\n\nRuang Lingkup Pekerjaan\n\nRuang lingkup pekerjaan harus mengikuti struktur organisasi, jenis komoditas, tahapan kegiatan, serta peraturan yang berlaku. Perizinan pertambangan dapat berkaitan dengan berbagai aspek, sehingga pengelolaannya sering memerlukan koordinasi lintas fungsi. Pengawasan pemerintah juga dapat mencakup legalitas, lingkungan, serta kepatuhan terhadap ketentuan terkait. Profesi dalam kategori Legal, Perizinan, dan Kepatuhan dapat terlibat dalam kegiatan berikut:\n\nMenelaah peraturan perundang-undangan yang relevan dengan kegiatan perusahaan.\n\nMemantau perubahan regulasi dan menilai potensi dampaknya terhadap kegiatan usaha.\n\nMemberikan analisis atau masukan hukum kepada manajemen dan unit kerja.\n\nMenyusun, meninjau, serta mengelola dokumen hukum perusahaan.\n\nMenyiapkan atau meninjau perjanjian, kontrak, surat resmi, dan dokumen legal lainnya.\n\nMengidentifikasi risiko hukum dalam kegiatan operasional dan bisnis.\n\nMendukung penyelesaian sengketa, klaim, atau permasalahan hukum.\n\nMengelola dokumentasi dan arsip hukum perusahaan.\n\nMengidentifikasi persyaratan perizinan yang relevan dengan kegiatan usaha.\n\nMenyiapkan, mengadministrasikan, dan memantau dokumen perizinan.\n\nMemantau masa berlaku, perubahan, pembaruan, atau kewajiban terkait izin.\n\nBerkoordinasi dengan instansi pemerintah atau pihak berwenang sesuai kebutuhan.\n\nMendukung proses pengajuan, perubahan, perpanjangan, atau pemenuhan persyaratan perizinan.\n\nMemantau pemenuhan kewajiban yang berkaitan dengan izin dan persetujuan.\n\nMengelola data serta dokumen perizinan secara terstruktur.\n\nMenyusun compliance register atau daftar kewajiban kepatuhan.\n\nMemantau kepatuhan terhadap regulasi, kebijakan internal, prosedur, kontrak, dan persyaratan perusahaan.\n\nMelakukan pemeriksaan atau penilaian kepatuhan.\n\nMengidentifikasi potensi ketidaksesuaian dan menyusun rekomendasi perbaikan.\n\nMemantau pelaksanaan tindakan korektif dan tindak lanjut.\n\nMendukung penyusunan kebijakan, prosedur, dan standar internal.\n\nMengembangkan program kesadaran kepatuhan dan etika bisnis.\n\nMendukung penerapan tata kelola perusahaan.\n\nMengelola pelaporan kepatuhan kepada manajemen atau pihak terkait.\n\nMendukung kegiatan audit, pemeriksaan, atau evaluasi oleh pihak internal maupun eksternal.\n\nMengelola hubungan dengan regulator, lembaga pemerintah, dan pemangku kepentingan terkait.\n\nMemantau perkembangan kebijakan publik dan regulasi yang dapat memengaruhi perusahaan.\n\nMendukung penyusunan strategi hubungan pemerintah dan regulasi.\n\nMengelola dokumen serta proses administrasi kontrak.\n\nMemantau kewajiban, perubahan, risiko, dan kinerja kontrak.\n\nBerkoordinasi dengan tim operasi, teknik, lingkungan, HSE, keuangan, pengadaan, SDM, dan manajemen.\n\nKompetensi\n\nKompetensi teknis umum\n\nMemahami dasar hukum dan regulasi.\n\nMemahami proses bisnis perusahaan.\n\nMemahami tata kelola perusahaan.\n\nMemahami manajemen kepatuhan.\n\nMemahami administrasi perizinan.\n\nMemahami pengelolaan dokumen.\n\nMemahami dasar manajemen risiko.\n\nMemahami pengelolaan kontrak.\n\nMemahami kebijakan dan prosedur perusahaan.\n\nMemahami pelaporan kepatuhan.\n\nMemahami etika bisnis.\n\nMemahami dasar hubungan pemerintah.\n\nMemahami proses audit dan pemeriksaan.\n\nKompetensi teknis spesialis\n\nHukum dan Legal:\n\nPenelitian hukum.\n\nAnalisis hukum.\n\nInterpretasi peraturan.\n\nPenyusunan dokumen hukum.\n\nPeninjauan kontrak.\n\nPenyusunan perjanjian.\n\nAnalisis risiko hukum.\n\nPengelolaan sengketa.\n\nPengelolaan klaim.\n\nPengelolaan dokumentasi legal.\n\nPenyusunan opini atau rekomendasi hukum.\n\nPerizinan:\n\nIdentifikasi persyaratan perizinan.\n\nAdministrasi izin.\n\nPengelolaan dokumen perizinan.\n\nPemantauan status izin.\n\nPemantauan masa berlaku izin.\n\nPengelolaan permit register.\n\nKoordinasi proses perizinan.\n\nPenyusunan dokumen pendukung.\n\nPemantauan kewajiban perizinan.\n\nPengelolaan data perizinan.\n\nPemahaman proses perizinan berusaha.\n\nKepatuhan:\n\nPenyusunan compliance register.\n\nIdentifikasi kewajiban kepatuhan.\n\nPenilaian kepatuhan.\n\nPemeriksaan kepatuhan.\n\nPemantauan ketidaksesuaian.\n\nAnalisis akar masalah.\n\nPenyusunan tindakan korektif.\n\nPemantauan tindak lanjut.\n\nPenyusunan laporan kepatuhan.\n\nPengelolaan program kepatuhan.\n\nPengembangan kebijakan internal.\n\nPemantauan kepatuhan kontrak.\n\nTata Kelola dan Etika:\n\nTata kelola perusahaan.\n\nPenyusunan kebijakan.\n\nPengelolaan konflik kepentingan.\n\nPengelolaan kode etik.\n\nPengelolaan pelaporan pelanggaran.\n\nPengelolaan risiko tata kelola.\n\nPemantauan integritas bisnis.\n\nPemahaman prinsip antikorupsi.\n\nPengelolaan transparansi dan akuntabilitas.\n\nRegulasi dan Hubungan Pemerintah:\n\nAnalisis kebijakan.\n\nPemantauan regulasi.\n\nAnalisis dampak regulasi.\n\nKomunikasi dengan regulator.\n\nKoordinasi dengan instansi pemerintah.\n\nPengelolaan hubungan pemangku kepentingan.\n\nPenyusunan bahan konsultasi regulasi.\n\nPengelolaan isu kebijakan publik.\n\nKontrak:\n\nPenyusunan kontrak.\n\nPeninjauan kontrak.\n\nAdministrasi kontrak.\n\nPengelolaan perubahan kontrak.\n\nPemantauan kewajiban kontrak.\n\nAnalisis risiko kontrak.\n\nPengelolaan klaim.\n\nPengelolaan dokumentasi kontrak.\n\nPemantauan kinerja kontrak.\n\nKompetensi nonteknis\n\nKemampuan berpikir kritis.\n\nKemampuan analitis.\n\nKetelitian.\n\nKemampuan membaca dan memahami dokumen kompleks.\n\nKemampuan komunikasi tertulis.\n\nKemampuan komunikasi lisan.\n\nKemampuan menyusun argumentasi.\n\nKemampuan negosiasi.\n\nKemampuan menjaga kerahasiaan.\n\nIntegritas.\n\nObjektivitas.\n\nKemampuan mengambil keputusan.\n\nKemampuan memecahkan masalah.\n\nManajemen waktu.\n\nKemampuan bekerja lintas fungsi.\n\nKemampuan mengelola konflik.\n\nKemampuan beradaptasi terhadap perubahan regulasi.\n\nPendidikan yang Relevan\n\nPendidikan utama\n\nIlmu Hukum\n\nHukum Bisnis\n\nHukum Perdata\n\nHukum Administrasi Negara\n\nHukum Tata Negara\n\nHukum Internasional\n\nHukum Lingkungan\n\nHukum Energi dan Sumber Daya Alam\n\nHukum Pertambangan\n\nManajemen\n\nManajemen Bisnis\n\nAdministrasi Bisnis\n\nAdministrasi Negara\n\nAdministrasi Publik\n\nKebijakan Publik\n\nIlmu Pemerintahan\n\nHubungan Internasional\n\nAkuntansi\n\nKeuangan\n\nManajemen Risiko\n\nTeknik Pertambangan\n\nTeknik Geologi\n\nTeknik Lingkungan\n\nTeknik Industri\n\nBidang lain yang relevan.\n\nPendidikan pendukung untuk posisi tertentu\n\nProgram Diploma Administrasi Bisnis.\n\nProgram Diploma Administrasi Perkantoran.\n\nProgram Diploma Administrasi Pemerintahan.\n\nProgram Diploma Manajemen.\n\nProgram Diploma Perpajakan.\n\nProgram Diploma Manajemen Risiko.\n\nProgram vokasi administrasi hukum.\n\nProgram vokasi pengelolaan dokumen.\n\nProgram vokasi administrasi perizinan.\n\nProgram vokasi kepatuhan dan tata kelola.\n\nProgram vokasi administrasi kontrak.\n\nProgram pendidikan lain sesuai kebutuhan jabatan.\n\nSoftware yang Digunakan\n\n| A. Pengelolaan Dokumen dan Kolaborasi |\n| --- |\n| Microsoft Excel |\n| Microsoft Word |\n| Microsoft SharePoint |\n| Microsoft Teams |\n| B. Manajemen Kontrak dan Dokumen Legal |\n| SAP Ariba Contracts |\n| Oracle Procurement Contracts |\n| DocuSign |\n| OpenText |\n| C. Kepatuhan, Tata Kelola, dan Risiko |\n| SAP GRC |\n| IBM OpenPages |\n| MetricStream |\n| Microsoft Power BI |\n| D. Sistem Perizinan dan Regulasi |\n| OSS Berbasis Risiko |\n| Sistem Minerba Kementerian ESDM |\n| Sistem Internal Perusahaan |\n\nPelatihan Relevan\n\nPelatihan teknis\n\nHukum dan Legal:\n\nPelatihan dasar hukum perusahaan.\n\nPelatihan hukum kontrak.\n\nPelatihan penyusunan dan peninjauan kontrak.\n\nPelatihan penelitian hukum.\n\nPelatihan analisis regulasi.\n\nPelatihan pengelolaan risiko hukum.\n\nPelatihan administrasi dokumen hukum.\n\nPelatihan penyelesaian sengketa.\n\nPelatihan pengelolaan klaim.\n\nPerizinan dan Regulasi:\n\nPelatihan dasar perizinan berusaha.\n\nPelatihan administrasi perizinan.\n\nPelatihan pengelolaan dokumen perizinan.\n\nPelatihan pemantauan masa berlaku izin.\n\nPelatihan pengelolaan permit register.\n\nPelatihan regulasi pertambangan.\n\nPelatihan tata kelola pertambangan.\n\nPelatihan penyusunan dokumen pendukung perizinan.\n\nPelatihan penggunaan sistem perizinan yang relevan.\n\nPelatihan pemantauan perubahan regulasi.\n\nKepatuhan dan Tata Kelola:\n\nPelatihan manajemen kepatuhan.\n\nPelatihan penyusunan compliance register.\n\nPelatihan pemeriksaan kepatuhan.\n\nPelatihan pengelolaan ketidaksesuaian.\n\nPelatihan tindakan korektif.\n\nPelatihan tata kelola perusahaan.\n\nPelatihan pengendalian internal.\n\nPelatihan manajemen risiko.\n\nPelatihan etika bisnis.\n\nPelatihan pengelolaan konflik kepentingan.\n\nPelatihan pencegahan penyuapan dan korupsi.\n\nPelatihan sistem pelaporan pelanggaran.\n\nPelatihan perlindungan data dan informasi.\n\nKontrak dan Dokumentasi:\n\nPelatihan manajemen kontrak.\n\nPelatihan administrasi kontrak.\n\nPelatihan pengelolaan perubahan kontrak.\n\nPelatihan pengelolaan klaim.\n\nPelatihan pengendalian dokumen.\n\nPelatihan manajemen arsip.\n\nPelatihan penggunaan sistem manajemen dokumen.\n\nPelatihan penggunaan perangkat lunak GRC.\n\nPelatihan keselamatan\n\nInduksi keselamatan pertambangan.\n\nPengenalan bahaya dan risiko di area tambang.\n\nKeselamatan saat melakukan kunjungan lapangan.\n\nKeselamatan perjalanan menuju lokasi operasi.\n\nKeselamatan lalu lintas tambang.\n\nKeselamatan di area produksi dan pengolahan.\n\nPenggunaan alat pelindung diri.\n\nTanggap darurat.\n\nKomunikasi darurat.\n\nPelatihan keselamatan berdasarkan risiko pekerjaan.",
+    "coverImageUrl": null,
+    "status": "published",
+    "publishedAt": "2026-09-05T00:00:00.000Z",
+    "readingTimeMinutes": null,
+    "isFeatured": false,
+    "metadata": {},
+    "sources": [
+      {
+        "sourceSlug": "jdih-esdm-go-id-7",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 0
+      },
+      {
+        "sourceSlug": "www-esdm-go-id-6",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 1
+      },
+      {
+        "sourceSlug": "www-minerba-esdm-go-id-2",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 2
+      },
+      {
+        "sourceSlug": "minerba-esdm-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 3
+      },
+      {
+        "sourceSlug": "oss-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 4
+      },
+      {
+        "sourceSlug": "jdih-setneg-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 5
+      },
+      {
+        "sourceSlug": "peraturan-bpk-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 6
+      },
+      {
+        "sourceSlug": "jdih-kemenkeu-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 7
+      },
+      {
+        "sourceSlug": "www-kemenkum-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 8
+      },
+      {
+        "sourceSlug": "www-ahu-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 9
+      },
+      {
+        "sourceSlug": "www-kpk-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 10
+      },
+      {
+        "sourceSlug": "www-ojk-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 11
+      },
+      {
+        "sourceSlug": "www-komdigi-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 12
+      },
+      {
+        "sourceSlug": "www-sap-com-6",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 13
+      },
+      {
+        "sourceSlug": "www-ibm-com-5",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 14
+      },
+      {
+        "sourceSlug": "www-metricstream-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 15
+      },
+      {
+        "sourceSlug": "www-docusign-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 16
+      },
+      {
+        "sourceSlug": "www-opentext-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 17
+      },
+      {
+        "sourceSlug": "www-sap-com-7",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 18
+      },
+      {
+        "sourceSlug": "www-oracle-com-6",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 19
+      }
+    ]
+  },
+  "professions": [
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Legal Officer",
+      "slug": "legal-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Legal Analyst",
+      "slug": "legal-analyst",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Legal Specialist",
+      "slug": "legal-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Legal Counsel",
+      "slug": "legal-counsel",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Senior Legal Counsel",
+      "slug": "senior-legal-counsel",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Corporate Legal Counsel",
+      "slug": "corporate-legal-counsel",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "In-House Counsel",
+      "slug": "in-house-counsel",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Legal Advisor",
+      "slug": "legal-advisor",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Legal Consultant",
+      "slug": "legal-consultant",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Legal Administrator",
+      "slug": "legal-administrator",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Legal Documentation Officer",
+      "slug": "legal-documentation-officer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Legal Documentation Specialist",
+      "slug": "legal-documentation-specialist",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Legal Research Officer",
+      "slug": "legal-research-officer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Legal Research Analyst",
+      "slug": "legal-research-analyst",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Legal Affairs Officer",
+      "slug": "legal-affairs-officer",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Legal Affairs Specialist",
+      "slug": "legal-affairs-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Legal Affairs Supervisor",
+      "slug": "legal-affairs-supervisor",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Legal Affairs Superintendent",
+      "slug": "legal-affairs-superintendent",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Legal Affairs Manager",
+      "slug": "legal-affairs-manager",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Corporate Legal Officer",
+      "slug": "corporate-legal-officer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Corporate Legal Specialist",
+      "slug": "corporate-legal-specialist",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Corporate Legal Manager",
+      "slug": "corporate-legal-manager",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Legal Manager",
+      "slug": "legal-manager",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Senior Legal Manager",
+      "slug": "senior-legal-manager",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Head of Legal",
+      "slug": "head-of-legal",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Head of Legal Affairs",
+      "slug": "head-of-legal-affairs",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "General Counsel",
+      "slug": "general-counsel",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "hukum-perusahaan-dan-legal",
+      "groupLabel": "Hukum Perusahaan dan Legal",
+      "name": "Chief Legal Officer",
+      "slug": "chief-legal-officer",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Mining Legal Counsel",
+      "slug": "mining-legal-counsel",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Mining Legal Officer",
+      "slug": "mining-legal-officer",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Mining Legal Specialist",
+      "slug": "mining-legal-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Mining Law Specialist",
+      "slug": "mining-law-specialist",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Mining Regulatory Counsel",
+      "slug": "mining-regulatory-counsel",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Mining Regulatory Specialist",
+      "slug": "mining-regulatory-specialist",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Mining Regulatory Affairs Officer",
+      "slug": "mining-regulatory-affairs-officer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Mining Regulatory Affairs Manager",
+      "slug": "mining-regulatory-affairs-manager",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Mineral and Coal Legal Specialist",
+      "slug": "mineral-and-coal-legal-specialist",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Minerba Legal Officer",
+      "slug": "minerba-legal-officer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Natural Resources Legal Counsel",
+      "slug": "natural-resources-legal-counsel",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Natural Resources Legal Specialist",
+      "slug": "natural-resources-legal-specialist",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Energy and Natural Resources Lawyer",
+      "slug": "energy-and-natural-resources-lawyer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Energy Law Specialist",
+      "slug": "energy-law-specialist",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Natural Resources Regulatory Analyst",
+      "slug": "natural-resources-regulatory-analyst",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Mining Regulation Analyst",
+      "slug": "mining-regulation-analyst",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Mining Policy Analyst",
+      "slug": "mining-policy-analyst",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Mining Governance Specialist",
+      "slug": "mining-governance-specialist",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Mining Compliance Legal Counsel",
+      "slug": "mining-compliance-legal-counsel",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Mining Licensing Legal Specialist",
+      "slug": "mining-licensing-legal-specialist",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "hukum-pertambangan-dan-regulasi",
+      "groupLabel": "Hukum Pertambangan dan Regulasi",
+      "name": "Mining Permit Legal Officer",
+      "slug": "mining-permit-legal-officer",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Licensing Officer",
+      "slug": "licensing-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Licensing Analyst",
+      "slug": "licensing-analyst",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Licensing Specialist",
+      "slug": "licensing-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Licensing Coordinator",
+      "slug": "licensing-coordinator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Licensing Supervisor",
+      "slug": "licensing-supervisor",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Licensing Superintendent",
+      "slug": "licensing-superintendent",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Licensing Manager",
+      "slug": "licensing-manager",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Permit Officer",
+      "slug": "permit-officer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Permit Analyst",
+      "slug": "permit-analyst",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Permit Specialist",
+      "slug": "permit-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Permit Coordinator",
+      "slug": "permit-coordinator",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Permit Administrator",
+      "slug": "permit-administrator",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Permit Manager",
+      "slug": "permit-manager",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Mining Licensing Officer",
+      "slug": "mining-licensing-officer",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Mining Licensing Specialist",
+      "slug": "mining-licensing-specialist",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Mining Permit Officer",
+      "slug": "mining-permit-officer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Mining Permit Specialist",
+      "slug": "mining-permit-specialist",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Mining Permit Coordinator",
+      "slug": "mining-permit-coordinator",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Mining Permit Manager",
+      "slug": "mining-permit-manager",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Regulatory Licensing Officer",
+      "slug": "regulatory-licensing-officer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Regulatory Licensing Specialist",
+      "slug": "regulatory-licensing-specialist",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Business Licensing Officer",
+      "slug": "business-licensing-officer",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Business Licensing Specialist",
+      "slug": "business-licensing-specialist",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Business Permit Analyst",
+      "slug": "business-permit-analyst",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Permit Compliance Officer",
+      "slug": "permit-compliance-officer",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Permit Compliance Specialist",
+      "slug": "permit-compliance-specialist",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Permit Monitoring Officer",
+      "slug": "permit-monitoring-officer",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Permit Administration Officer",
+      "slug": "permit-administration-officer",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "License Management Specialist",
+      "slug": "license-management-specialist",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "perizinan-dan-perizinan-berusaha",
+      "groupLabel": "Perizinan dan Perizinan Berusaha",
+      "name": "Licensing and Regulatory Affairs Manager",
+      "slug": "licensing-and-regulatory-affairs-manager",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Compliance Officer",
+      "slug": "compliance-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Compliance Analyst",
+      "slug": "compliance-analyst",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Compliance Specialist",
+      "slug": "compliance-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Compliance Coordinator",
+      "slug": "compliance-coordinator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Compliance Supervisor",
+      "slug": "compliance-supervisor",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Compliance Superintendent",
+      "slug": "compliance-superintendent",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Compliance Manager",
+      "slug": "compliance-manager",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Senior Compliance Manager",
+      "slug": "senior-compliance-manager",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Corporate Compliance Officer",
+      "slug": "corporate-compliance-officer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Corporate Compliance Specialist",
+      "slug": "corporate-compliance-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Corporate Compliance Manager",
+      "slug": "corporate-compliance-manager",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Regulatory Compliance Officer",
+      "slug": "regulatory-compliance-officer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Regulatory Compliance Analyst",
+      "slug": "regulatory-compliance-analyst",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Regulatory Compliance Specialist",
+      "slug": "regulatory-compliance-specialist",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Regulatory Compliance Manager",
+      "slug": "regulatory-compliance-manager",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Mining Compliance Officer",
+      "slug": "mining-compliance-officer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Mining Compliance Specialist",
+      "slug": "mining-compliance-specialist",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Mining Compliance Manager",
+      "slug": "mining-compliance-manager",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Legal Compliance Officer",
+      "slug": "legal-compliance-officer",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Legal Compliance Specialist",
+      "slug": "legal-compliance-specialist",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Compliance Monitoring Officer",
+      "slug": "compliance-monitoring-officer",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Compliance Assurance Officer",
+      "slug": "compliance-assurance-officer",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Compliance Assurance Specialist",
+      "slug": "compliance-assurance-specialist",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Governance Officer",
+      "slug": "governance-officer",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Governance Analyst",
+      "slug": "governance-analyst",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Governance Specialist",
+      "slug": "governance-specialist",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Corporate Governance Officer",
+      "slug": "corporate-governance-officer",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Corporate Governance Specialist",
+      "slug": "corporate-governance-specialist",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Corporate Governance Manager",
+      "slug": "corporate-governance-manager",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Governance, Risk, and Compliance Analyst",
+      "slug": "governance-risk-and-compliance-analyst",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "GRC Specialist",
+      "slug": "grc-specialist",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "GRC Manager",
+      "slug": "grc-manager",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Ethics and Compliance Officer",
+      "slug": "ethics-and-compliance-officer",
+      "description": null,
+      "displayOrder": 32
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Business Ethics Officer",
+      "slug": "business-ethics-officer",
+      "description": null,
+      "displayOrder": 33
+    },
+    {
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "name": "Code of Conduct Officer",
+      "slug": "code-of-conduct-officer",
+      "description": null,
+      "displayOrder": 34
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Regulatory Affairs Officer",
+      "slug": "regulatory-affairs-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Regulatory Affairs Analyst",
+      "slug": "regulatory-affairs-analyst",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Regulatory Affairs Specialist",
+      "slug": "regulatory-affairs-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Regulatory Affairs Manager",
+      "slug": "regulatory-affairs-manager",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Regulatory Officer",
+      "slug": "regulatory-officer",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Regulatory Analyst",
+      "slug": "regulatory-analyst",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Regulatory Specialist",
+      "slug": "regulatory-specialist",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Regulatory Manager",
+      "slug": "regulatory-manager",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Regulatory Policy Analyst",
+      "slug": "regulatory-policy-analyst",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Regulatory Policy Specialist",
+      "slug": "regulatory-policy-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Government Relations Officer",
+      "slug": "government-relations-officer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Government Relations Analyst",
+      "slug": "government-relations-analyst",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Government Relations Specialist",
+      "slug": "government-relations-specialist",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Government Relations Manager",
+      "slug": "government-relations-manager",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Government Affairs Officer",
+      "slug": "government-affairs-officer",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Government Affairs Specialist",
+      "slug": "government-affairs-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Government Affairs Manager",
+      "slug": "government-affairs-manager",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Public Affairs Officer",
+      "slug": "public-affairs-officer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Public Affairs Specialist",
+      "slug": "public-affairs-specialist",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Public Affairs Manager",
+      "slug": "public-affairs-manager",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Stakeholder Relations Officer",
+      "slug": "stakeholder-relations-officer",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Stakeholder Relations Specialist",
+      "slug": "stakeholder-relations-specialist",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "External Relations Officer",
+      "slug": "external-relations-officer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "External Relations Specialist",
+      "slug": "external-relations-specialist",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "External Relations Manager",
+      "slug": "external-relations-manager",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Regulatory Engagement Officer",
+      "slug": "regulatory-engagement-officer",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Government Liaison Officer",
+      "slug": "government-liaison-officer",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "name": "Government Liaison Specialist",
+      "slug": "government-liaison-specialist",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract Officer",
+      "slug": "contract-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract Analyst",
+      "slug": "contract-analyst",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract Specialist",
+      "slug": "contract-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract Administrator",
+      "slug": "contract-administrator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract Coordinator",
+      "slug": "contract-coordinator",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract Supervisor",
+      "slug": "contract-supervisor",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract Superintendent",
+      "slug": "contract-superintendent",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract Manager",
+      "slug": "contract-manager",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Legal Contract Officer",
+      "slug": "legal-contract-officer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Legal Contract Specialist",
+      "slug": "legal-contract-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract Legal Counsel",
+      "slug": "contract-legal-counsel",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Commercial Contract Officer",
+      "slug": "commercial-contract-officer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Commercial Contract Specialist",
+      "slug": "commercial-contract-specialist",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract Compliance Officer",
+      "slug": "contract-compliance-officer",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract Compliance Specialist",
+      "slug": "contract-compliance-specialist",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract Governance Officer",
+      "slug": "contract-governance-officer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract Governance Specialist",
+      "slug": "contract-governance-specialist",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract Documentation Officer",
+      "slug": "contract-documentation-officer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract Documentation Specialist",
+      "slug": "contract-documentation-specialist",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract Review Specialist",
+      "slug": "contract-review-specialist",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract Management Specialist",
+      "slug": "contract-management-specialist",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract Performance Analyst",
+      "slug": "contract-performance-analyst",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract Risk Analyst",
+      "slug": "contract-risk-analyst",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract Claims Specialist",
+      "slug": "contract-claims-specialist",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Claims Analyst",
+      "slug": "claims-analyst",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Claims Specialist",
+      "slug": "claims-specialist",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Claims Manager",
+      "slug": "claims-manager",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "kontrak-dan-administrasi-legal",
+      "groupLabel": "Kontrak dan Administrasi Legal",
+      "name": "Contract and Legal Manager",
+      "slug": "contract-and-legal-manager",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Policy Analyst",
+      "slug": "policy-analyst",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Policy Officer",
+      "slug": "policy-officer",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Policy Specialist",
+      "slug": "policy-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Corporate Policy Analyst",
+      "slug": "corporate-policy-analyst",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Corporate Policy Specialist",
+      "slug": "corporate-policy-specialist",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Regulatory Policy Analyst",
+      "slug": "regulatory-policy-analyst",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Governance Policy Officer",
+      "slug": "governance-policy-officer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Governance Policy Specialist",
+      "slug": "governance-policy-specialist",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Legal Risk Analyst",
+      "slug": "legal-risk-analyst",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Legal Risk Specialist",
+      "slug": "legal-risk-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Legal Risk Manager",
+      "slug": "legal-risk-manager",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Regulatory Risk Analyst",
+      "slug": "regulatory-risk-analyst",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Regulatory Risk Specialist",
+      "slug": "regulatory-risk-specialist",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Compliance Risk Analyst",
+      "slug": "compliance-risk-analyst",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Compliance Risk Specialist",
+      "slug": "compliance-risk-specialist",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Governance Risk Analyst",
+      "slug": "governance-risk-analyst",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Enterprise Governance Specialist",
+      "slug": "enterprise-governance-specialist",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Corporate Governance Analyst",
+      "slug": "corporate-governance-analyst",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Business Integrity Specialist",
+      "slug": "business-integrity-specialist",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Ethics and Integrity Officer",
+      "slug": "ethics-and-integrity-officer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Anti-Bribery Compliance Officer",
+      "slug": "anti-bribery-compliance-officer",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Anti-Corruption Compliance Specialist",
+      "slug": "anti-corruption-compliance-specialist",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Whistleblowing System Officer",
+      "slug": "whistleblowing-system-officer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Internal Investigation Officer",
+      "slug": "internal-investigation-officer",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "kebijakan-tata-kelola-dan-risiko-hukum",
+      "groupLabel": "Kebijakan, Tata Kelola, dan Risiko Hukum",
+      "name": "Corporate Investigation Specialist",
+      "slug": "corporate-investigation-specialist",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Legal Document Controller",
+      "slug": "legal-document-controller",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Legal Document Officer",
+      "slug": "legal-document-officer",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Legal Records Officer",
+      "slug": "legal-records-officer",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Legal Records Administrator",
+      "slug": "legal-records-administrator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Legal Archive Officer",
+      "slug": "legal-archive-officer",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Compliance Documentation Officer",
+      "slug": "compliance-documentation-officer",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Compliance Documentation Specialist",
+      "slug": "compliance-documentation-specialist",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Regulatory Documentation Officer",
+      "slug": "regulatory-documentation-officer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Permit Documentation Officer",
+      "slug": "permit-documentation-officer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Permit Records Administrator",
+      "slug": "permit-records-administrator",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Corporate Secretary Officer",
+      "slug": "corporate-secretary-officer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Corporate Secretary Specialist",
+      "slug": "corporate-secretary-specialist",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Corporate Secretary Manager",
+      "slug": "corporate-secretary-manager",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Company Secretariat Officer",
+      "slug": "company-secretariat-officer",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Board Secretariat Officer",
+      "slug": "board-secretariat-officer",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Board Governance Officer",
+      "slug": "board-governance-officer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Corporate Administration Officer",
+      "slug": "corporate-administration-officer",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Corporate Records Officer",
+      "slug": "corporate-records-officer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Document Control Officer",
+      "slug": "document-control-officer",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Document Control Specialist",
+      "slug": "document-control-specialist",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Document Controller",
+      "slug": "document-controller",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Regulatory Reporting Officer",
+      "slug": "regulatory-reporting-officer",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Compliance Reporting Analyst",
+      "slug": "compliance-reporting-analyst",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "dokumentasi-dan-administrasi-kepatuhan",
+      "groupLabel": "Dokumentasi dan Administrasi Kepatuhan",
+      "name": "Legal Reporting Specialist",
+      "slug": "legal-reporting-specialist",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Legal Supervisor",
+      "slug": "legal-supervisor",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Legal Superintendent",
+      "slug": "legal-superintendent",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Legal Manager",
+      "slug": "legal-manager",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Legal",
+      "slug": "head-of-legal",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "General Counsel",
+      "slug": "general-counsel",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Chief Legal Officer",
+      "slug": "chief-legal-officer",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Licensing Superintendent",
+      "slug": "licensing-superintendent",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Licensing Manager",
+      "slug": "licensing-manager",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Licensing",
+      "slug": "head-of-licensing",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Compliance Superintendent",
+      "slug": "compliance-superintendent",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Compliance Manager",
+      "slug": "compliance-manager",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Compliance",
+      "slug": "head-of-compliance",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Chief Compliance Officer",
+      "slug": "chief-compliance-officer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Regulatory Affairs Manager",
+      "slug": "regulatory-affairs-manager",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Regulatory Affairs",
+      "slug": "head-of-regulatory-affairs",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Government Relations Manager",
+      "slug": "government-relations-manager",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Government Relations",
+      "slug": "head-of-government-relations",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Corporate Governance Manager",
+      "slug": "corporate-governance-manager",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Corporate Governance",
+      "slug": "head-of-corporate-governance",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Contract Manager",
+      "slug": "contract-manager",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Head of Contract Management",
+      "slug": "head-of-contract-management",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Legal and Compliance Manager",
+      "slug": "legal-and-compliance-manager",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Legal, Compliance, and Governance Manager",
+      "slug": "legal-compliance-and-governance-manager",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen",
+      "groupLabel": "Kepemimpinan dan Manajemen",
+      "name": "Corporate Affairs Director",
+      "slug": "corporate-affairs-director",
+      "description": null,
+      "displayOrder": 23
+    }
+  ],
+  "profileItems": [
+    {
+      "itemKey": "work-scope-informasi-utama-ruang-lingkup-pekerjaan-harus-mengikuti-struktur-organisasi-jenis-komoditas-tahapan-kegiatan-serta-peraturan-yang-berlaku-perizinan-p",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ruang lingkup pekerjaan harus mengikuti struktur organisasi, jenis komoditas, tahapan kegiatan, serta peraturan yang berlaku. Perizinan pertambangan dapat berkaitan dengan berbagai aspek, sehingga pengelolaannya sering memerlukan koordinasi lintas fungsi. Pengawasan pemerintah juga dapat mencakup legalitas, lingkungan, serta kepatuhan terhadap ketentuan terkait. Profesi dalam kategori Legal, Perizinan, dan Kepatuhan dapat terlibat dalam kegiatan berikut:",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menelaah-peraturan-perundang-undangan-yang-relevan-dengan-kegiatan-perusahaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menelaah peraturan perundang-undangan yang relevan dengan kegiatan perusahaan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memantau-perubahan-regulasi-dan-menilai-potensi-dampaknya-terhadap-kegiatan-usaha",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memantau perubahan regulasi dan menilai potensi dampaknya terhadap kegiatan usaha.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memberikan-analisis-atau-masukan-hukum-kepada-manajemen-dan-unit-kerja",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memberikan analisis atau masukan hukum kepada manajemen dan unit kerja.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-meninjau-serta-mengelola-dokumen-hukum-perusahaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun, meninjau, serta mengelola dokumen hukum perusahaan.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyiapkan-atau-meninjau-perjanjian-kontrak-surat-resmi-dan-dokumen-legal-lainnya",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyiapkan atau meninjau perjanjian, kontrak, surat resmi, dan dokumen legal lainnya.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengidentifikasi-risiko-hukum-dalam-kegiatan-operasional-dan-bisnis",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengidentifikasi risiko hukum dalam kegiatan operasional dan bisnis.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-penyelesaian-sengketa-klaim-atau-permasalahan-hukum",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung penyelesaian sengketa, klaim, atau permasalahan hukum.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-dokumentasi-dan-arsip-hukum-perusahaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola dokumentasi dan arsip hukum perusahaan.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengidentifikasi-persyaratan-perizinan-yang-relevan-dengan-kegiatan-usaha",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengidentifikasi persyaratan perizinan yang relevan dengan kegiatan usaha.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyiapkan-mengadministrasikan-dan-memantau-dokumen-perizinan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyiapkan, mengadministrasikan, dan memantau dokumen perizinan.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memantau-masa-berlaku-perubahan-pembaruan-atau-kewajiban-terkait-izin",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memantau masa berlaku, perubahan, pembaruan, atau kewajiban terkait izin.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-berkoordinasi-dengan-instansi-pemerintah-atau-pihak-berwenang-sesuai-kebutuhan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Berkoordinasi dengan instansi pemerintah atau pihak berwenang sesuai kebutuhan.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-proses-pengajuan-perubahan-perpanjangan-atau-pemenuhan-persyaratan-perizinan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung proses pengajuan, perubahan, perpanjangan, atau pemenuhan persyaratan perizinan.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memantau-pemenuhan-kewajiban-yang-berkaitan-dengan-izin-dan-persetujuan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memantau pemenuhan kewajiban yang berkaitan dengan izin dan persetujuan.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-data-serta-dokumen-perizinan-secara-terstruktur",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola data serta dokumen perizinan secara terstruktur.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-compliance-register-atau-daftar-kewajiban-kepatuhan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun compliance register atau daftar kewajiban kepatuhan.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memantau-kepatuhan-terhadap-regulasi-kebijakan-internal-prosedur-kontrak-dan-persyaratan-perusahaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memantau kepatuhan terhadap regulasi, kebijakan internal, prosedur, kontrak, dan persyaratan perusahaan.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pemeriksaan-atau-penilaian-kepatuhan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pemeriksaan atau penilaian kepatuhan.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengidentifikasi-potensi-ketidaksesuaian-dan-menyusun-rekomendasi-perbaikan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengidentifikasi potensi ketidaksesuaian dan menyusun rekomendasi perbaikan.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memantau-pelaksanaan-tindakan-korektif-dan-tindak-lanjut",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memantau pelaksanaan tindakan korektif dan tindak lanjut.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-penyusunan-kebijakan-prosedur-dan-standar-internal",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung penyusunan kebijakan, prosedur, dan standar internal.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengembangkan-program-kesadaran-kepatuhan-dan-etika-bisnis",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengembangkan program kesadaran kepatuhan dan etika bisnis.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-penerapan-tata-kelola-perusahaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung penerapan tata kelola perusahaan.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-pelaporan-kepatuhan-kepada-manajemen-atau-pihak-terkait",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola pelaporan kepatuhan kepada manajemen atau pihak terkait.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-kegiatan-audit-pemeriksaan-atau-evaluasi-oleh-pihak-internal-maupun-eksternal",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung kegiatan audit, pemeriksaan, atau evaluasi oleh pihak internal maupun eksternal.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-hubungan-dengan-regulator-lembaga-pemerintah-dan-pemangku-kepentingan-terkait",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola hubungan dengan regulator, lembaga pemerintah, dan pemangku kepentingan terkait.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memantau-perkembangan-kebijakan-publik-dan-regulasi-yang-dapat-memengaruhi-perusahaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memantau perkembangan kebijakan publik dan regulasi yang dapat memengaruhi perusahaan.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-penyusunan-strategi-hubungan-pemerintah-dan-regulasi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung penyusunan strategi hubungan pemerintah dan regulasi.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-dokumen-serta-proses-administrasi-kontrak",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola dokumen serta proses administrasi kontrak.",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memantau-kewajiban-perubahan-risiko-dan-kinerja-kontrak",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memantau kewajiban, perubahan, risiko, dan kinerja kontrak.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-berkoordinasi-dengan-tim-operasi-teknik-lingkungan-hse-keuangan-pengadaan-sdm-dan-manajemen",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Berkoordinasi dengan tim operasi, teknik, lingkungan, HSE, keuangan, pengadaan, SDM, dan manajemen.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-teknis-umum",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi teknis umum",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-hukum-dan-regulasi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar hukum dan regulasi.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-proses-bisnis-perusahaan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami proses bisnis perusahaan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-tata-kelola-perusahaan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami tata kelola perusahaan.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-manajemen-kepatuhan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami manajemen kepatuhan.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-administrasi-perizinan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami administrasi perizinan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-pengelolaan-dokumen",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami pengelolaan dokumen.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-manajemen-risiko",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar manajemen risiko.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-pengelolaan-kontrak",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami pengelolaan kontrak.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-kebijakan-dan-prosedur-perusahaan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami kebijakan dan prosedur perusahaan.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-pelaporan-kepatuhan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami pelaporan kepatuhan.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-etika-bisnis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami etika bisnis.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-hubungan-pemerintah",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar hubungan pemerintah.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-proses-audit-dan-pemeriksaan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami proses audit dan pemeriksaan.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-teknis-spesialis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi teknis spesialis",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "competency-hukum-dan-legal-penelitian-hukum",
+      "section": "competency",
+      "groupKey": "hukum-dan-legal",
+      "groupLabel": "Hukum dan Legal",
+      "value": "Penelitian hukum.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-hukum-dan-legal-analisis-hukum",
+      "section": "competency",
+      "groupKey": "hukum-dan-legal",
+      "groupLabel": "Hukum dan Legal",
+      "value": "Analisis hukum.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-hukum-dan-legal-interpretasi-peraturan",
+      "section": "competency",
+      "groupKey": "hukum-dan-legal",
+      "groupLabel": "Hukum dan Legal",
+      "value": "Interpretasi peraturan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-hukum-dan-legal-penyusunan-dokumen-hukum",
+      "section": "competency",
+      "groupKey": "hukum-dan-legal",
+      "groupLabel": "Hukum dan Legal",
+      "value": "Penyusunan dokumen hukum.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-hukum-dan-legal-peninjauan-kontrak",
+      "section": "competency",
+      "groupKey": "hukum-dan-legal",
+      "groupLabel": "Hukum dan Legal",
+      "value": "Peninjauan kontrak.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-hukum-dan-legal-penyusunan-perjanjian",
+      "section": "competency",
+      "groupKey": "hukum-dan-legal",
+      "groupLabel": "Hukum dan Legal",
+      "value": "Penyusunan perjanjian.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-hukum-dan-legal-analisis-risiko-hukum",
+      "section": "competency",
+      "groupKey": "hukum-dan-legal",
+      "groupLabel": "Hukum dan Legal",
+      "value": "Analisis risiko hukum.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-hukum-dan-legal-pengelolaan-sengketa",
+      "section": "competency",
+      "groupKey": "hukum-dan-legal",
+      "groupLabel": "Hukum dan Legal",
+      "value": "Pengelolaan sengketa.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-hukum-dan-legal-pengelolaan-klaim",
+      "section": "competency",
+      "groupKey": "hukum-dan-legal",
+      "groupLabel": "Hukum dan Legal",
+      "value": "Pengelolaan klaim.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-hukum-dan-legal-pengelolaan-dokumentasi-legal",
+      "section": "competency",
+      "groupKey": "hukum-dan-legal",
+      "groupLabel": "Hukum dan Legal",
+      "value": "Pengelolaan dokumentasi legal.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-hukum-dan-legal-penyusunan-opini-atau-rekomendasi-hukum",
+      "section": "competency",
+      "groupKey": "hukum-dan-legal",
+      "groupLabel": "Hukum dan Legal",
+      "value": "Penyusunan opini atau rekomendasi hukum.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-perizinan-identifikasi-persyaratan-perizinan",
+      "section": "competency",
+      "groupKey": "perizinan",
+      "groupLabel": "Perizinan",
+      "value": "Identifikasi persyaratan perizinan.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-perizinan-administrasi-izin",
+      "section": "competency",
+      "groupKey": "perizinan",
+      "groupLabel": "Perizinan",
+      "value": "Administrasi izin.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-perizinan-pengelolaan-dokumen-perizinan",
+      "section": "competency",
+      "groupKey": "perizinan",
+      "groupLabel": "Perizinan",
+      "value": "Pengelolaan dokumen perizinan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-perizinan-pemantauan-status-izin",
+      "section": "competency",
+      "groupKey": "perizinan",
+      "groupLabel": "Perizinan",
+      "value": "Pemantauan status izin.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-perizinan-pemantauan-masa-berlaku-izin",
+      "section": "competency",
+      "groupKey": "perizinan",
+      "groupLabel": "Perizinan",
+      "value": "Pemantauan masa berlaku izin.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-perizinan-pengelolaan-permit-register",
+      "section": "competency",
+      "groupKey": "perizinan",
+      "groupLabel": "Perizinan",
+      "value": "Pengelolaan permit register.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-perizinan-koordinasi-proses-perizinan",
+      "section": "competency",
+      "groupKey": "perizinan",
+      "groupLabel": "Perizinan",
+      "value": "Koordinasi proses perizinan.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-perizinan-penyusunan-dokumen-pendukung",
+      "section": "competency",
+      "groupKey": "perizinan",
+      "groupLabel": "Perizinan",
+      "value": "Penyusunan dokumen pendukung.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-perizinan-pemantauan-kewajiban-perizinan",
+      "section": "competency",
+      "groupKey": "perizinan",
+      "groupLabel": "Perizinan",
+      "value": "Pemantauan kewajiban perizinan.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-perizinan-pengelolaan-data-perizinan",
+      "section": "competency",
+      "groupKey": "perizinan",
+      "groupLabel": "Perizinan",
+      "value": "Pengelolaan data perizinan.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-perizinan-pemahaman-proses-perizinan-berusaha",
+      "section": "competency",
+      "groupKey": "perizinan",
+      "groupLabel": "Perizinan",
+      "value": "Pemahaman proses perizinan berusaha.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-kepatuhan-penyusunan-compliance-register",
+      "section": "competency",
+      "groupKey": "kepatuhan",
+      "groupLabel": "Kepatuhan",
+      "value": "Penyusunan compliance register.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-kepatuhan-identifikasi-kewajiban-kepatuhan",
+      "section": "competency",
+      "groupKey": "kepatuhan",
+      "groupLabel": "Kepatuhan",
+      "value": "Identifikasi kewajiban kepatuhan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-kepatuhan-penilaian-kepatuhan",
+      "section": "competency",
+      "groupKey": "kepatuhan",
+      "groupLabel": "Kepatuhan",
+      "value": "Penilaian kepatuhan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-kepatuhan-pemeriksaan-kepatuhan",
+      "section": "competency",
+      "groupKey": "kepatuhan",
+      "groupLabel": "Kepatuhan",
+      "value": "Pemeriksaan kepatuhan.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-kepatuhan-pemantauan-ketidaksesuaian",
+      "section": "competency",
+      "groupKey": "kepatuhan",
+      "groupLabel": "Kepatuhan",
+      "value": "Pemantauan ketidaksesuaian.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-kepatuhan-analisis-akar-masalah",
+      "section": "competency",
+      "groupKey": "kepatuhan",
+      "groupLabel": "Kepatuhan",
+      "value": "Analisis akar masalah.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-kepatuhan-penyusunan-tindakan-korektif",
+      "section": "competency",
+      "groupKey": "kepatuhan",
+      "groupLabel": "Kepatuhan",
+      "value": "Penyusunan tindakan korektif.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-kepatuhan-pemantauan-tindak-lanjut",
+      "section": "competency",
+      "groupKey": "kepatuhan",
+      "groupLabel": "Kepatuhan",
+      "value": "Pemantauan tindak lanjut.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-kepatuhan-penyusunan-laporan-kepatuhan",
+      "section": "competency",
+      "groupKey": "kepatuhan",
+      "groupLabel": "Kepatuhan",
+      "value": "Penyusunan laporan kepatuhan.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-kepatuhan-pengelolaan-program-kepatuhan",
+      "section": "competency",
+      "groupKey": "kepatuhan",
+      "groupLabel": "Kepatuhan",
+      "value": "Pengelolaan program kepatuhan.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-kepatuhan-pengembangan-kebijakan-internal",
+      "section": "competency",
+      "groupKey": "kepatuhan",
+      "groupLabel": "Kepatuhan",
+      "value": "Pengembangan kebijakan internal.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-kepatuhan-pemantauan-kepatuhan-kontrak",
+      "section": "competency",
+      "groupKey": "kepatuhan",
+      "groupLabel": "Kepatuhan",
+      "value": "Pemantauan kepatuhan kontrak.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-tata-kelola-dan-etika-tata-kelola-perusahaan",
+      "section": "competency",
+      "groupKey": "tata-kelola-dan-etika",
+      "groupLabel": "Tata Kelola dan Etika",
+      "value": "Tata kelola perusahaan.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-tata-kelola-dan-etika-penyusunan-kebijakan",
+      "section": "competency",
+      "groupKey": "tata-kelola-dan-etika",
+      "groupLabel": "Tata Kelola dan Etika",
+      "value": "Penyusunan kebijakan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-tata-kelola-dan-etika-pengelolaan-konflik-kepentingan",
+      "section": "competency",
+      "groupKey": "tata-kelola-dan-etika",
+      "groupLabel": "Tata Kelola dan Etika",
+      "value": "Pengelolaan konflik kepentingan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-tata-kelola-dan-etika-pengelolaan-kode-etik",
+      "section": "competency",
+      "groupKey": "tata-kelola-dan-etika",
+      "groupLabel": "Tata Kelola dan Etika",
+      "value": "Pengelolaan kode etik.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-tata-kelola-dan-etika-pengelolaan-pelaporan-pelanggaran",
+      "section": "competency",
+      "groupKey": "tata-kelola-dan-etika",
+      "groupLabel": "Tata Kelola dan Etika",
+      "value": "Pengelolaan pelaporan pelanggaran.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-tata-kelola-dan-etika-pengelolaan-risiko-tata-kelola",
+      "section": "competency",
+      "groupKey": "tata-kelola-dan-etika",
+      "groupLabel": "Tata Kelola dan Etika",
+      "value": "Pengelolaan risiko tata kelola.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-tata-kelola-dan-etika-pemantauan-integritas-bisnis",
+      "section": "competency",
+      "groupKey": "tata-kelola-dan-etika",
+      "groupLabel": "Tata Kelola dan Etika",
+      "value": "Pemantauan integritas bisnis.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-tata-kelola-dan-etika-pemahaman-prinsip-antikorupsi",
+      "section": "competency",
+      "groupKey": "tata-kelola-dan-etika",
+      "groupLabel": "Tata Kelola dan Etika",
+      "value": "Pemahaman prinsip antikorupsi.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-tata-kelola-dan-etika-pengelolaan-transparansi-dan-akuntabilitas",
+      "section": "competency",
+      "groupKey": "tata-kelola-dan-etika",
+      "groupLabel": "Tata Kelola dan Etika",
+      "value": "Pengelolaan transparansi dan akuntabilitas.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-regulasi-dan-hubungan-pemerintah-analisis-kebijakan",
+      "section": "competency",
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "value": "Analisis kebijakan.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-regulasi-dan-hubungan-pemerintah-pemantauan-regulasi",
+      "section": "competency",
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "value": "Pemantauan regulasi.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-regulasi-dan-hubungan-pemerintah-analisis-dampak-regulasi",
+      "section": "competency",
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "value": "Analisis dampak regulasi.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-regulasi-dan-hubungan-pemerintah-komunikasi-dengan-regulator",
+      "section": "competency",
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "value": "Komunikasi dengan regulator.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-regulasi-dan-hubungan-pemerintah-koordinasi-dengan-instansi-pemerintah",
+      "section": "competency",
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "value": "Koordinasi dengan instansi pemerintah.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-regulasi-dan-hubungan-pemerintah-pengelolaan-hubungan-pemangku-kepentingan",
+      "section": "competency",
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "value": "Pengelolaan hubungan pemangku kepentingan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-regulasi-dan-hubungan-pemerintah-penyusunan-bahan-konsultasi-regulasi",
+      "section": "competency",
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "value": "Penyusunan bahan konsultasi regulasi.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-regulasi-dan-hubungan-pemerintah-pengelolaan-isu-kebijakan-publik",
+      "section": "competency",
+      "groupKey": "regulasi-dan-hubungan-pemerintah",
+      "groupLabel": "Regulasi dan Hubungan Pemerintah",
+      "value": "Pengelolaan isu kebijakan publik.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-kontrak-penyusunan-kontrak",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Penyusunan kontrak.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-kontrak-peninjauan-kontrak",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Peninjauan kontrak.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-kontrak-administrasi-kontrak",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Administrasi kontrak.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-kontrak-pengelolaan-perubahan-kontrak",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Pengelolaan perubahan kontrak.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-kontrak-pemantauan-kewajiban-kontrak",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Pemantauan kewajiban kontrak.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-kontrak-analisis-risiko-kontrak",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Analisis risiko kontrak.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-kontrak-pengelolaan-klaim",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Pengelolaan klaim.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-kontrak-pengelolaan-dokumentasi-kontrak",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Pengelolaan dokumentasi kontrak.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-kontrak-pemantauan-kinerja-kontrak",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Pemantauan kinerja kontrak.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-kontrak-kompetensi-nonteknis",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Kompetensi nonteknis",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-kontrak-kemampuan-berpikir-kritis",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Kemampuan berpikir kritis.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-kontrak-kemampuan-analitis",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Kemampuan analitis.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-kontrak-ketelitian",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Ketelitian.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "competency-kontrak-kemampuan-membaca-dan-memahami-dokumen-kompleks",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Kemampuan membaca dan memahami dokumen kompleks.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "competency-kontrak-kemampuan-komunikasi-tertulis",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Kemampuan komunikasi tertulis.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "competency-kontrak-kemampuan-komunikasi-lisan",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Kemampuan komunikasi lisan.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "competency-kontrak-kemampuan-menyusun-argumentasi",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Kemampuan menyusun argumentasi.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "competency-kontrak-kemampuan-negosiasi",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Kemampuan negosiasi.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "competency-kontrak-kemampuan-menjaga-kerahasiaan",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Kemampuan menjaga kerahasiaan.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "competency-kontrak-integritas",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Integritas.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "competency-kontrak-objektivitas",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Objektivitas.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "competency-kontrak-kemampuan-mengambil-keputusan",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Kemampuan mengambil keputusan.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "competency-kontrak-kemampuan-memecahkan-masalah",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Kemampuan memecahkan masalah.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "competency-kontrak-manajemen-waktu",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Manajemen waktu.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "competency-kontrak-kemampuan-bekerja-lintas-fungsi",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Kemampuan bekerja lintas fungsi.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "competency-kontrak-kemampuan-mengelola-konflik",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Kemampuan mengelola konflik.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "competency-kontrak-kemampuan-beradaptasi-terhadap-perubahan-regulasi",
+      "section": "competency",
+      "groupKey": "kontrak",
+      "groupLabel": "Kontrak",
+      "value": "Kemampuan beradaptasi terhadap perubahan regulasi.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-utama",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan utama",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "education-informasi-utama-ilmu-hukum",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ilmu Hukum",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "education-informasi-utama-hukum-bisnis",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Hukum Bisnis",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "education-informasi-utama-hukum-perdata",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Hukum Perdata",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "education-informasi-utama-hukum-administrasi-negara",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Hukum Administrasi Negara",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "education-informasi-utama-hukum-tata-negara",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Hukum Tata Negara",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "education-informasi-utama-hukum-internasional",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Hukum Internasional",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "education-informasi-utama-hukum-lingkungan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Hukum Lingkungan",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "education-informasi-utama-hukum-energi-dan-sumber-daya-alam",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Hukum Energi dan Sumber Daya Alam",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "education-informasi-utama-hukum-pertambangan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Hukum Pertambangan",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "education-informasi-utama-manajemen",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "education-informasi-utama-manajemen-bisnis",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Bisnis",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "education-informasi-utama-administrasi-bisnis",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Administrasi Bisnis",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "education-informasi-utama-administrasi-negara",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Administrasi Negara",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "education-informasi-utama-administrasi-publik",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Administrasi Publik",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "education-informasi-utama-kebijakan-publik",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kebijakan Publik",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "education-informasi-utama-ilmu-pemerintahan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ilmu Pemerintahan",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "education-informasi-utama-hubungan-internasional",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Hubungan Internasional",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "education-informasi-utama-akuntansi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Akuntansi",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "education-informasi-utama-keuangan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keuangan",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "education-informasi-utama-manajemen-risiko",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Risiko",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-pertambangan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Pertambangan",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-geologi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Geologi",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-lingkungan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Lingkungan",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-industri",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Industri",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "education-informasi-utama-bidang-lain-yang-relevan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Bidang lain yang relevan.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-pendukung-untuk-posisi-tertentu",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan pendukung untuk posisi tertentu",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-administrasi-bisnis",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Administrasi Bisnis.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-administrasi-perkantoran",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Administrasi Perkantoran.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-administrasi-pemerintahan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Administrasi Pemerintahan.",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-manajemen",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Manajemen.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-perpajakan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Perpajakan.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-manajemen-risiko",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Manajemen Risiko.",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-administrasi-hukum",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi administrasi hukum.",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-pengelolaan-dokumen",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi pengelolaan dokumen.",
+      "displayOrder": 34
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-administrasi-perizinan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi administrasi perizinan.",
+      "displayOrder": 35
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-kepatuhan-dan-tata-kelola",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi kepatuhan dan tata kelola.",
+      "displayOrder": 36
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-administrasi-kontrak",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi administrasi kontrak.",
+      "displayOrder": 37
+    },
+    {
+      "itemKey": "education-informasi-utama-program-pendidikan-lain-sesuai-kebutuhan-jabatan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program pendidikan lain sesuai kebutuhan jabatan.",
+      "displayOrder": 38
+    },
+    {
+      "itemKey": "software-informasi-utama-pengelolaan-dokumen-dan-kolaborasi-microsoft-excel",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan Dokumen dan Kolaborasi: Microsoft Excel",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "software-informasi-utama-pengelolaan-dokumen-dan-kolaborasi-microsoft-word",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan Dokumen dan Kolaborasi: Microsoft Word",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "software-informasi-utama-pengelolaan-dokumen-dan-kolaborasi-microsoft-sharepoint",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan Dokumen dan Kolaborasi: Microsoft SharePoint",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "software-informasi-utama-pengelolaan-dokumen-dan-kolaborasi-microsoft-teams",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan Dokumen dan Kolaborasi: Microsoft Teams",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "software-informasi-utama-pengelolaan-dokumen-dan-kolaborasi-b-manajemen-kontrak-dan-dokumen-legal",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan Dokumen dan Kolaborasi: B. Manajemen Kontrak dan Dokumen Legal",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "software-informasi-utama-pengelolaan-dokumen-dan-kolaborasi-sap-ariba-contracts",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan Dokumen dan Kolaborasi: SAP Ariba Contracts",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "software-informasi-utama-pengelolaan-dokumen-dan-kolaborasi-oracle-procurement-contracts",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan Dokumen dan Kolaborasi: Oracle Procurement Contracts",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "software-informasi-utama-pengelolaan-dokumen-dan-kolaborasi-docusign",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan Dokumen dan Kolaborasi: DocuSign",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "software-informasi-utama-pengelolaan-dokumen-dan-kolaborasi-opentext",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan Dokumen dan Kolaborasi: OpenText",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "software-informasi-utama-pengelolaan-dokumen-dan-kolaborasi-c-kepatuhan-tata-kelola-dan-risiko",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan Dokumen dan Kolaborasi: C. Kepatuhan, Tata Kelola, dan Risiko",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "software-informasi-utama-pengelolaan-dokumen-dan-kolaborasi-sap-grc",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan Dokumen dan Kolaborasi: SAP GRC",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "software-informasi-utama-pengelolaan-dokumen-dan-kolaborasi-ibm-openpages",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan Dokumen dan Kolaborasi: IBM OpenPages",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "software-informasi-utama-pengelolaan-dokumen-dan-kolaborasi-metricstream",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan Dokumen dan Kolaborasi: MetricStream",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "software-informasi-utama-pengelolaan-dokumen-dan-kolaborasi-microsoft-power-bi",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan Dokumen dan Kolaborasi: Microsoft Power BI",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "software-informasi-utama-pengelolaan-dokumen-dan-kolaborasi-d-sistem-perizinan-dan-regulasi",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan Dokumen dan Kolaborasi: D. Sistem Perizinan dan Regulasi",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "software-informasi-utama-pengelolaan-dokumen-dan-kolaborasi-oss-berbasis-risiko",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan Dokumen dan Kolaborasi: OSS Berbasis Risiko",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "software-informasi-utama-pengelolaan-dokumen-dan-kolaborasi-sistem-minerba-kementerian-esdm",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan Dokumen dan Kolaborasi: Sistem Minerba Kementerian ESDM",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "software-informasi-utama-pengelolaan-dokumen-dan-kolaborasi-sistem-internal-perusahaan",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan Dokumen dan Kolaborasi: Sistem Internal Perusahaan",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-teknis",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan teknis",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-hukum-dan-legal-pelatihan-dasar-hukum-perusahaan",
+      "section": "training",
+      "groupKey": "hukum-dan-legal",
+      "groupLabel": "Hukum dan Legal",
+      "value": "Pelatihan dasar hukum perusahaan.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-hukum-dan-legal-pelatihan-hukum-kontrak",
+      "section": "training",
+      "groupKey": "hukum-dan-legal",
+      "groupLabel": "Hukum dan Legal",
+      "value": "Pelatihan hukum kontrak.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-hukum-dan-legal-pelatihan-penyusunan-dan-peninjauan-kontrak",
+      "section": "training",
+      "groupKey": "hukum-dan-legal",
+      "groupLabel": "Hukum dan Legal",
+      "value": "Pelatihan penyusunan dan peninjauan kontrak.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-hukum-dan-legal-pelatihan-penelitian-hukum",
+      "section": "training",
+      "groupKey": "hukum-dan-legal",
+      "groupLabel": "Hukum dan Legal",
+      "value": "Pelatihan penelitian hukum.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-hukum-dan-legal-pelatihan-analisis-regulasi",
+      "section": "training",
+      "groupKey": "hukum-dan-legal",
+      "groupLabel": "Hukum dan Legal",
+      "value": "Pelatihan analisis regulasi.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-hukum-dan-legal-pelatihan-pengelolaan-risiko-hukum",
+      "section": "training",
+      "groupKey": "hukum-dan-legal",
+      "groupLabel": "Hukum dan Legal",
+      "value": "Pelatihan pengelolaan risiko hukum.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-hukum-dan-legal-pelatihan-administrasi-dokumen-hukum",
+      "section": "training",
+      "groupKey": "hukum-dan-legal",
+      "groupLabel": "Hukum dan Legal",
+      "value": "Pelatihan administrasi dokumen hukum.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-hukum-dan-legal-pelatihan-penyelesaian-sengketa",
+      "section": "training",
+      "groupKey": "hukum-dan-legal",
+      "groupLabel": "Hukum dan Legal",
+      "value": "Pelatihan penyelesaian sengketa.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-hukum-dan-legal-pelatihan-pengelolaan-klaim",
+      "section": "training",
+      "groupKey": "hukum-dan-legal",
+      "groupLabel": "Hukum dan Legal",
+      "value": "Pelatihan pengelolaan klaim.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-perizinan-dan-regulasi-pelatihan-dasar-perizinan-berusaha",
+      "section": "training",
+      "groupKey": "perizinan-dan-regulasi",
+      "groupLabel": "Perizinan dan Regulasi",
+      "value": "Pelatihan dasar perizinan berusaha.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-perizinan-dan-regulasi-pelatihan-administrasi-perizinan",
+      "section": "training",
+      "groupKey": "perizinan-dan-regulasi",
+      "groupLabel": "Perizinan dan Regulasi",
+      "value": "Pelatihan administrasi perizinan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-perizinan-dan-regulasi-pelatihan-pengelolaan-dokumen-perizinan",
+      "section": "training",
+      "groupKey": "perizinan-dan-regulasi",
+      "groupLabel": "Perizinan dan Regulasi",
+      "value": "Pelatihan pengelolaan dokumen perizinan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-perizinan-dan-regulasi-pelatihan-pemantauan-masa-berlaku-izin",
+      "section": "training",
+      "groupKey": "perizinan-dan-regulasi",
+      "groupLabel": "Perizinan dan Regulasi",
+      "value": "Pelatihan pemantauan masa berlaku izin.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-perizinan-dan-regulasi-pelatihan-pengelolaan-permit-register",
+      "section": "training",
+      "groupKey": "perizinan-dan-regulasi",
+      "groupLabel": "Perizinan dan Regulasi",
+      "value": "Pelatihan pengelolaan permit register.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-perizinan-dan-regulasi-pelatihan-regulasi-pertambangan",
+      "section": "training",
+      "groupKey": "perizinan-dan-regulasi",
+      "groupLabel": "Perizinan dan Regulasi",
+      "value": "Pelatihan regulasi pertambangan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-perizinan-dan-regulasi-pelatihan-tata-kelola-pertambangan",
+      "section": "training",
+      "groupKey": "perizinan-dan-regulasi",
+      "groupLabel": "Perizinan dan Regulasi",
+      "value": "Pelatihan tata kelola pertambangan.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-perizinan-dan-regulasi-pelatihan-penyusunan-dokumen-pendukung-perizinan",
+      "section": "training",
+      "groupKey": "perizinan-dan-regulasi",
+      "groupLabel": "Perizinan dan Regulasi",
+      "value": "Pelatihan penyusunan dokumen pendukung perizinan.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-perizinan-dan-regulasi-pelatihan-penggunaan-sistem-perizinan-yang-relevan",
+      "section": "training",
+      "groupKey": "perizinan-dan-regulasi",
+      "groupLabel": "Perizinan dan Regulasi",
+      "value": "Pelatihan penggunaan sistem perizinan yang relevan.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-perizinan-dan-regulasi-pelatihan-pemantauan-perubahan-regulasi",
+      "section": "training",
+      "groupKey": "perizinan-dan-regulasi",
+      "groupLabel": "Perizinan dan Regulasi",
+      "value": "Pelatihan pemantauan perubahan regulasi.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "training-kepatuhan-dan-tata-kelola-pelatihan-manajemen-kepatuhan",
+      "section": "training",
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "value": "Pelatihan manajemen kepatuhan.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-kepatuhan-dan-tata-kelola-pelatihan-penyusunan-compliance-register",
+      "section": "training",
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "value": "Pelatihan penyusunan compliance register.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-kepatuhan-dan-tata-kelola-pelatihan-pemeriksaan-kepatuhan",
+      "section": "training",
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "value": "Pelatihan pemeriksaan kepatuhan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-kepatuhan-dan-tata-kelola-pelatihan-pengelolaan-ketidaksesuaian",
+      "section": "training",
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "value": "Pelatihan pengelolaan ketidaksesuaian.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-kepatuhan-dan-tata-kelola-pelatihan-tindakan-korektif",
+      "section": "training",
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "value": "Pelatihan tindakan korektif.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-kepatuhan-dan-tata-kelola-pelatihan-tata-kelola-perusahaan",
+      "section": "training",
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "value": "Pelatihan tata kelola perusahaan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-kepatuhan-dan-tata-kelola-pelatihan-pengendalian-internal",
+      "section": "training",
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "value": "Pelatihan pengendalian internal.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-kepatuhan-dan-tata-kelola-pelatihan-manajemen-risiko",
+      "section": "training",
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "value": "Pelatihan manajemen risiko.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-kepatuhan-dan-tata-kelola-pelatihan-etika-bisnis",
+      "section": "training",
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "value": "Pelatihan etika bisnis.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-kepatuhan-dan-tata-kelola-pelatihan-pengelolaan-konflik-kepentingan",
+      "section": "training",
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "value": "Pelatihan pengelolaan konflik kepentingan.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "training-kepatuhan-dan-tata-kelola-pelatihan-pencegahan-penyuapan-dan-korupsi",
+      "section": "training",
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "value": "Pelatihan pencegahan penyuapan dan korupsi.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "training-kepatuhan-dan-tata-kelola-pelatihan-sistem-pelaporan-pelanggaran",
+      "section": "training",
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "value": "Pelatihan sistem pelaporan pelanggaran.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "training-kepatuhan-dan-tata-kelola-pelatihan-perlindungan-data-dan-informasi",
+      "section": "training",
+      "groupKey": "kepatuhan-dan-tata-kelola",
+      "groupLabel": "Kepatuhan dan Tata Kelola",
+      "value": "Pelatihan perlindungan data dan informasi.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "training-kontrak-dan-dokumentasi-pelatihan-manajemen-kontrak",
+      "section": "training",
+      "groupKey": "kontrak-dan-dokumentasi",
+      "groupLabel": "Kontrak dan Dokumentasi",
+      "value": "Pelatihan manajemen kontrak.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-kontrak-dan-dokumentasi-pelatihan-administrasi-kontrak",
+      "section": "training",
+      "groupKey": "kontrak-dan-dokumentasi",
+      "groupLabel": "Kontrak dan Dokumentasi",
+      "value": "Pelatihan administrasi kontrak.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-kontrak-dan-dokumentasi-pelatihan-pengelolaan-perubahan-kontrak",
+      "section": "training",
+      "groupKey": "kontrak-dan-dokumentasi",
+      "groupLabel": "Kontrak dan Dokumentasi",
+      "value": "Pelatihan pengelolaan perubahan kontrak.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-kontrak-dan-dokumentasi-pelatihan-pengelolaan-klaim",
+      "section": "training",
+      "groupKey": "kontrak-dan-dokumentasi",
+      "groupLabel": "Kontrak dan Dokumentasi",
+      "value": "Pelatihan pengelolaan klaim.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-kontrak-dan-dokumentasi-pelatihan-pengendalian-dokumen",
+      "section": "training",
+      "groupKey": "kontrak-dan-dokumentasi",
+      "groupLabel": "Kontrak dan Dokumentasi",
+      "value": "Pelatihan pengendalian dokumen.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-kontrak-dan-dokumentasi-pelatihan-manajemen-arsip",
+      "section": "training",
+      "groupKey": "kontrak-dan-dokumentasi",
+      "groupLabel": "Kontrak dan Dokumentasi",
+      "value": "Pelatihan manajemen arsip.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-kontrak-dan-dokumentasi-pelatihan-penggunaan-sistem-manajemen-dokumen",
+      "section": "training",
+      "groupKey": "kontrak-dan-dokumentasi",
+      "groupLabel": "Kontrak dan Dokumentasi",
+      "value": "Pelatihan penggunaan sistem manajemen dokumen.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-kontrak-dan-dokumentasi-pelatihan-penggunaan-perangkat-lunak-grc",
+      "section": "training",
+      "groupKey": "kontrak-dan-dokumentasi",
+      "groupLabel": "Kontrak dan Dokumentasi",
+      "value": "Pelatihan penggunaan perangkat lunak GRC.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-kontrak-dan-dokumentasi-pelatihan-keselamatan",
+      "section": "training",
+      "groupKey": "kontrak-dan-dokumentasi",
+      "groupLabel": "Kontrak dan Dokumentasi",
+      "value": "Pelatihan keselamatan",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-kontrak-dan-dokumentasi-induksi-keselamatan-pertambangan",
+      "section": "training",
+      "groupKey": "kontrak-dan-dokumentasi",
+      "groupLabel": "Kontrak dan Dokumentasi",
+      "value": "Induksi keselamatan pertambangan.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "training-kontrak-dan-dokumentasi-pengenalan-bahaya-dan-risiko-di-area-tambang",
+      "section": "training",
+      "groupKey": "kontrak-dan-dokumentasi",
+      "groupLabel": "Kontrak dan Dokumentasi",
+      "value": "Pengenalan bahaya dan risiko di area tambang.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "training-kontrak-dan-dokumentasi-keselamatan-saat-melakukan-kunjungan-lapangan",
+      "section": "training",
+      "groupKey": "kontrak-dan-dokumentasi",
+      "groupLabel": "Kontrak dan Dokumentasi",
+      "value": "Keselamatan saat melakukan kunjungan lapangan.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "training-kontrak-dan-dokumentasi-keselamatan-perjalanan-menuju-lokasi-operasi",
+      "section": "training",
+      "groupKey": "kontrak-dan-dokumentasi",
+      "groupLabel": "Kontrak dan Dokumentasi",
+      "value": "Keselamatan perjalanan menuju lokasi operasi.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "training-kontrak-dan-dokumentasi-keselamatan-lalu-lintas-tambang",
+      "section": "training",
+      "groupKey": "kontrak-dan-dokumentasi",
+      "groupLabel": "Kontrak dan Dokumentasi",
+      "value": "Keselamatan lalu lintas tambang.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "training-kontrak-dan-dokumentasi-keselamatan-di-area-produksi-dan-pengolahan",
+      "section": "training",
+      "groupKey": "kontrak-dan-dokumentasi",
+      "groupLabel": "Kontrak dan Dokumentasi",
+      "value": "Keselamatan di area produksi dan pengolahan.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "training-kontrak-dan-dokumentasi-penggunaan-alat-pelindung-diri",
+      "section": "training",
+      "groupKey": "kontrak-dan-dokumentasi",
+      "groupLabel": "Kontrak dan Dokumentasi",
+      "value": "Penggunaan alat pelindung diri.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "training-kontrak-dan-dokumentasi-tanggap-darurat",
+      "section": "training",
+      "groupKey": "kontrak-dan-dokumentasi",
+      "groupLabel": "Kontrak dan Dokumentasi",
+      "value": "Tanggap darurat.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "training-kontrak-dan-dokumentasi-komunikasi-darurat",
+      "section": "training",
+      "groupKey": "kontrak-dan-dokumentasi",
+      "groupLabel": "Kontrak dan Dokumentasi",
+      "value": "Komunikasi darurat.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "training-kontrak-dan-dokumentasi-pelatihan-keselamatan-berdasarkan-risiko-pekerjaan",
+      "section": "training",
+      "groupKey": "kontrak-dan-dokumentasi",
+      "groupLabel": "Kontrak dan Dokumentasi",
+      "value": "Pelatihan keselamatan berdasarkan risiko pekerjaan.",
+      "displayOrder": 18
+    }
+  ]
+}

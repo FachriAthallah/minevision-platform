@@ -1,0 +1,1722 @@
+{
+  "schemaVersion": "1.0",
+  "datasetName": "MineVision Career",
+  "description": "Data karier yang diekstrak dari 4. Data Karier.docx.",
+  "effectiveDate": "2026-07-31",
+  "categoryFiles": [
+    {
+      "categorySlug": "eksplorasi-dan-geologi",
+      "filePath": "categories/eksplorasi-dan-geologi.json"
+    },
+    {
+      "categorySlug": "perencanaan-dan-rekayasa-tambang",
+      "filePath": "categories/perencanaan-dan-rekayasa-tambang.json"
+    },
+    {
+      "categorySlug": "operasi-dan-produksi-tambang",
+      "filePath": "categories/operasi-dan-produksi-tambang.json"
+    },
+    {
+      "categorySlug": "survei-gis-dan-geospasial",
+      "filePath": "categories/survei-gis-dan-geospasial.json"
+    },
+    {
+      "categorySlug": "pengolahan-mineral-dan-metalurgi",
+      "filePath": "categories/pengolahan-mineral-dan-metalurgi.json"
+    },
+    {
+      "categorySlug": "keselamatan-kesehatan-dan-tanggap-darurat",
+      "filePath": "categories/keselamatan-kesehatan-dan-tanggap-darurat.json"
+    },
+    {
+      "categorySlug": "lingkungan-dan-keberlanjutan",
+      "filePath": "categories/lingkungan-dan-keberlanjutan.json"
+    },
+    {
+      "categorySlug": "pemeliharaan-dan-keandalan-peralatan",
+      "filePath": "categories/pemeliharaan-dan-keandalan-peralatan.json"
+    },
+    {
+      "categorySlug": "logistik-rantai-pasok-dan-pengadaan",
+      "filePath": "categories/logistik-rantai-pasok-dan-pengadaan.json"
+    },
+    {
+      "categorySlug": "data-teknologi-informasi-dan-otomasi",
+      "filePath": "categories/data-teknologi-informasi-dan-otomasi.json"
+    },
+    {
+      "categorySlug": "keuangan-komersial-dan-manajemen",
+      "filePath": "categories/keuangan-komersial-dan-manajemen.json"
+    },
+    {
+      "categorySlug": "legal-perizinan-dan-kepatuhan",
+      "filePath": "categories/legal-perizinan-dan-kepatuhan.json"
+    },
+    {
+      "categorySlug": "sumber-daya-manusia-dan-administrasi",
+      "filePath": "categories/sumber-daya-manusia-dan-administrasi.json"
+    }
+  ],
+  "sourceCatalog": [
+    {
+      "slug": "badan-geologi-petunjuk-teknis-eksplorasi-mineral",
+      "name": "Badan Geologi – Petunjuk Teknis Eksplorasi Mineral",
+      "type": "other",
+      "organization": "Badan Geologi – Petunjuk Teknis Eksplorasi Mineral",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "kementerian-esdm-peran-geo-resource-dalam-eksplorasi-dan-evaluasi-sumber-daya",
+      "name": "Kementerian ESDM – Peran Geo-Resource dalam Eksplorasi dan Evaluasi Sumber Daya",
+      "type": "government",
+      "organization": "Kementerian ESDM – Peran Geo-Resource dalam Eksplorasi dan Evaluasi Sumber Daya",
+      "url": null,
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "kementerian-esdm-peran-geofisika-dalam-eksplorasi-tambang",
+      "name": "Kementerian ESDM – Peran Geofisika dalam Eksplorasi Tambang",
+      "type": "government",
+      "organization": "Kementerian ESDM – Peran Geofisika dalam Eksplorasi Tambang",
+      "url": null,
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "badan-geologi-geomap-indonesia",
+      "name": "Badan Geologi – GeoMap Indonesia",
+      "type": "other",
+      "organization": "Badan Geologi – GeoMap Indonesia",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "kemnaker-informasi-skkni",
+      "name": "Kemnaker – Informasi SKKNI",
+      "type": "other",
+      "organization": "Kemnaker – Informasi SKKNI",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "kemnaker-rekapitulasi-dokumen-skkni-bidang-pertambangan",
+      "name": "Kemnaker – Rekapitulasi Dokumen SKKNI Bidang Pertambangan",
+      "type": "other",
+      "organization": "Kemnaker – Rekapitulasi Dokumen SKKNI Bidang Pertambangan",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "seequent-leapfrog-geo",
+      "name": "Seequent – Leapfrog Geo",
+      "type": "other",
+      "organization": "Seequent – Leapfrog Geo",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "micromine-micromine-origin",
+      "name": "Micromine – Micromine Origin",
+      "type": "other",
+      "organization": "Micromine – Micromine Origin",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "datamine-geology-and-resource-modelling",
+      "name": "Datamine – Geology and Resource Modelling",
+      "type": "other",
+      "organization": "Datamine – Geology and Resource Modelling",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "esri-mineral-exploration-and-gis",
+      "name": "Esri – Mineral Exploration and GIS",
+      "type": "other",
+      "organization": "Esri – Mineral Exploration and GIS",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "jdih-esdm-go-id",
+      "name": "jdih.esdm.go.id",
+      "type": "government",
+      "organization": "jdih.esdm.go.id",
+      "url": "https://jdih.esdm.go.id/common/dokumen-external/Keputusan%20Menteri%20ESDM%20Nomor%201827%20K%2030%20MEM%202018.pdf",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "jdih-esdm-go-id-2",
+      "name": "jdih.esdm.go.id",
+      "type": "government",
+      "organization": "jdih.esdm.go.id",
+      "url": "https://jdih.esdm.go.id/common/dokumen-external/permen-esdm-06-2007.pdf",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "jdih-esdm-go-id-3",
+      "name": "jdih.esdm.go.id",
+      "type": "government",
+      "organization": "jdih.esdm.go.id",
+      "url": "https://jdih.esdm.go.id/common/dokumen-external/Kepmen%20ESDM%20No%20174K_MB01_MEM_B_2024.pdf",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "dataminesoftware-com",
+      "name": "dataminesoftware.com",
+      "type": "other",
+      "organization": "dataminesoftware.com",
+      "url": "https://dataminesoftware.com/solutions/planning/",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "docs-dataminesoftware-com",
+      "name": "docs.dataminesoftware.com",
+      "type": "other",
+      "organization": "docs.dataminesoftware.com",
+      "url": "https://docs.dataminesoftware.com/StudioOP/Latest/STUDIO_OP/Introduction.ht",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "hexagon-com",
+      "name": "hexagon.com",
+      "type": "other",
+      "organization": "hexagon.com",
+      "url": "https://hexagon.com/products/product-groups/evaluation-planning-design",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "hexagon-com-2",
+      "name": "hexagon.com",
+      "type": "other",
+      "organization": "hexagon.com",
+      "url": "https://hexagon.com/products/hexagon-mineplan-op-engineering-long-term",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "hexagon-com-3",
+      "name": "hexagon.com",
+      "type": "other",
+      "organization": "hexagon.com",
+      "url": "https://hexagon.com/products/hexagon-mineplan-op-engineering-strategic",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-seequent-com",
+      "name": "www.seequent.com",
+      "type": "other",
+      "organization": "www.seequent.com",
+      "url": "https://www.seequent.com/products-solutions/mining/",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "bpsdm-esdm-go-id",
+      "name": "bpsdm.esdm.go.id",
+      "type": "government",
+      "organization": "bpsdm.esdm.go.id",
+      "url": "https://bpsdm.esdm.go.id/posts/2023/12/12/lakukan-pemetaan-di-tambang-terbuka-ppsdm-geominerba-siapkan-juru-ukur-kompeten/3199",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "direktorat-jenderal-mineral-dan-batubara-kementerian-esdm",
+      "name": "Direktorat Jenderal Mineral dan Batubara, Kementerian ESDM.",
+      "type": "government",
+      "organization": "Direktorat Jenderal Mineral dan Batubara, Kementerian ESDM.",
+      "url": null,
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "direktorat-teknik-dan-lingkungan-mineral-dan-batubara-kementerian-esdm",
+      "name": "Direktorat Teknik dan Lingkungan Mineral dan Batubara, Kementerian ESDM.",
+      "type": "government",
+      "organization": "Direktorat Teknik dan Lingkungan Mineral dan Batubara, Kementerian ESDM.",
+      "url": null,
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "jdih-kementerian-esdm",
+      "name": "JDIH Kementerian ESDM.",
+      "type": "government",
+      "organization": "JDIH Kementerian ESDM.",
+      "url": null,
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "kementerian-ketenagakerjaan-republik-indonesia",
+      "name": "Kementerian Ketenagakerjaan Republik Indonesia.",
+      "type": "government",
+      "organization": "Kementerian Ketenagakerjaan Republik Indonesia.",
+      "url": null,
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "komatsu",
+      "name": "Komatsu. DISPATCH Fleet Management System.",
+      "type": "other",
+      "organization": "Komatsu",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "caterpillar",
+      "name": "Caterpillar. MineStar Fleet.",
+      "type": "other",
+      "organization": "Caterpillar",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "datamine",
+      "name": "Datamine. Minetrack Mining Fleet Management System.",
+      "type": "other",
+      "organization": "Datamine",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "micromine",
+      "name": "Micromine. Pitram Mine Control and Fleet Management.",
+      "type": "other",
+      "organization": "Micromine",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "sandvik-mining-and-rock-solutions",
+      "name": "Sandvik Mining and Rock Solutions. AutoMine dan OptiMine.",
+      "type": "other",
+      "organization": "Sandvik Mining and Rock Solutions",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "hexagon-mining",
+      "name": "Hexagon Mining. Mine Operations and Fleet Management Solutions.",
+      "type": "other",
+      "organization": "Hexagon Mining",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "bpsdm-esdm-go-id-2",
+      "name": "bpsdm.esdm.go.id",
+      "type": "government",
+      "organization": "bpsdm.esdm.go.id",
+      "url": "https://bpsdm.esdm.go.id/posts/2019/04/24/pentingnya-sertifikasi-juru-ukur-tambang/62",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "bpsdm-esdm-go-id-3",
+      "name": "bpsdm.esdm.go.id",
+      "type": "government",
+      "organization": "bpsdm.esdm.go.id",
+      "url": "https://bpsdm.esdm.go.id/posts/2024/08/09/ppsdm-geominerba-siapkan-juru-ukur-kompeten-melalui-diklat-dan-sertifikasi-pemetaan-di-tambang-terbuka/3477",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "bpsdm-esdm-go-id-4",
+      "name": "bpsdm.esdm.go.id",
+      "type": "government",
+      "organization": "bpsdm.esdm.go.id",
+      "url": "https://bpsdm.esdm.go.id/posts/2021/06/10/apa-sih-diklat-juru-ukur-tambang-itu/699",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "bpsdm-esdm-go-id-5",
+      "name": "bpsdm.esdm.go.id",
+      "type": "government",
+      "organization": "bpsdm.esdm.go.id",
+      "url": "https://bpsdm.esdm.go.id/posts/2026/02/20/bdtbt-selenggarakan-pelatihan-operator-survei-tambang-bawah-tanah-untuk-peningkatan-kompetensi-masyarakat-jambi/4266",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "jdih-kementerian-esdm-2",
+      "name": "JDIH Kementerian ESDM. Keputusan Menteri ESDM Nomor 1825 K/30/MEM/2018.",
+      "type": "government",
+      "organization": "JDIH Kementerian ESDM",
+      "url": null,
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "esri",
+      "name": "Esri. GIS in Mining.",
+      "type": "other",
+      "organization": "Esri",
+      "url": "https://www.esri.com/en-us/industries/mining/overview",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "esri-2",
+      "name": "Esri. Mining and Mineral Exploration.",
+      "type": "other",
+      "organization": "Esri",
+      "url": "https://www.esri.com/en-us/industries/mining/segments/exploration",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "trimble-geospatial",
+      "name": "Trimble Geospatial. Mining Solutions.",
+      "type": "other",
+      "organization": "Trimble Geospatial",
+      "url": "https://geospatial.trimble.com/en/industries/mining",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "trimble-geospatial-2",
+      "name": "Trimble Geospatial. Trimble Business Center Mining.",
+      "type": "other",
+      "organization": "Trimble Geospatial",
+      "url": "https://geospatial.trimble.com/en/products/software/tbc-mining",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "trimble-geospatial-3",
+      "name": "Trimble Geospatial. Mining Solutions and Survey Workflows.",
+      "type": "other",
+      "organization": "Trimble Geospatial",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "geospatial-trimble-com",
+      "name": "geospatial.trimble.com",
+      "type": "other",
+      "organization": "geospatial.trimble.com",
+      "url": "https://geospatial.trimble.com/blog/geospatial/en-US/article/latest-news-trimble-mining-solutions",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "badan-geologi-kementerian-esdm",
+      "name": "Badan Geologi, Kementerian ESDM.",
+      "type": "government",
+      "organization": "Badan Geologi, Kementerian ESDM.",
+      "url": null,
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "kementerian-perindustrian-republik-indonesia",
+      "name": "Kementerian Perindustrian Republik Indonesia.",
+      "type": "government",
+      "organization": "Kementerian Perindustrian Republik Indonesia.",
+      "url": null,
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "metso",
+      "name": "Metso. HSC Chemistry.",
+      "type": "other",
+      "organization": "Metso",
+      "url": "https://www.metso.com/portfolio/hsc-chemistry/",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "metsim-international",
+      "name": "METSIM International. METSIM Process Simulation Software.",
+      "type": "other",
+      "organization": "METSIM International",
+      "url": "https://metsim.com/software/",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "metsim-international-2",
+      "name": "METSIM International. METSIM Base and Mass Balance Module.",
+      "type": "other",
+      "organization": "METSIM International",
+      "url": "https://metsim.com/software/base-mass-balance-module/",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "jktech",
+      "name": "JKTech. JKSimMet and Mineral Processing Technologies.",
+      "type": "other",
+      "organization": "JKTech",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "aspentech",
+      "name": "AspenTech. Aspen Plus Process Simulation.",
+      "type": "other",
+      "organization": "AspenTech",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "aveva",
+      "name": "AVEVA. PI System.",
+      "type": "other",
+      "organization": "AVEVA",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "rio-tinto",
+      "name": "Rio Tinto. Process Engineer / Plant Metallurgist Career Information.",
+      "type": "other",
+      "organization": "Rio Tinto",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "jdih-esdm-go-id-4",
+      "name": "jdih.esdm.go.id",
+      "type": "government",
+      "organization": "jdih.esdm.go.id",
+      "url": "https://jdih.esdm.go.id/dokumen/download?id=Peraturan+Menteri+ESDM+Nomor+26+Tahun+2018.pdf",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "jdih-esdm-go-id-5",
+      "name": "jdih.esdm.go.id",
+      "type": "government",
+      "organization": "jdih.esdm.go.id",
+      "url": "https://jdih.esdm.go.id/dokumen/download?id=Keputusan+Menteri+ESDM+Nomor+1827+K+30+MEM+2018.pdf",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "bpsdm-esdm-go-id-6",
+      "name": "bpsdm.esdm.go.id",
+      "type": "government",
+      "organization": "bpsdm.esdm.go.id",
+      "url": "https://bpsdm.esdm.go.id/posts/2023/03/08/tambang-yang-aman-membutuhkan-penerapan-smkp-minerba/2407",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "bpsdm-esdm-go-id-7",
+      "name": "bpsdm.esdm.go.id",
+      "type": "government",
+      "organization": "bpsdm.esdm.go.id",
+      "url": "https://bpsdm.esdm.go.id/posts/2025/07/02/pembukaan-pelatihan-smkp-angkatan-xiii-dorong-profesionalisme-di-industri-tambang/3891",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "bpsdm-esdm-go-id-8",
+      "name": "bpsdm.esdm.go.id",
+      "type": "government",
+      "organization": "bpsdm.esdm.go.id",
+      "url": "https://bpsdm.esdm.go.id/posts/2024/08/30/kepala-inspektur-tambang-membuka-diklat-audit-smkp-pt-timah/3514",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "jdih-kemnaker-go-id",
+      "name": "jdih.kemnaker.go.id",
+      "type": "other",
+      "organization": "jdih.kemnaker.go.id",
+      "url": "https://jdih.kemnaker.go.id/asset/data_puu/SKKNI_2023-005.pdf",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "temank3-kemnaker-go-id",
+      "name": "temank3.kemnaker.go.id",
+      "type": "other",
+      "organization": "temank3.kemnaker.go.id",
+      "url": "https://temank3.kemnaker.go.id/",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-esdm-go-id",
+      "name": "www.esdm.go.id",
+      "type": "government",
+      "organization": "www.esdm.go.id",
+      "url": "https://www.esdm.go.id/en/media-center/news-archives/keselamatan-pertambangan-jadi-dasar-pembangunan-berkelanjutan",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "jdih-esdm-go-id-6",
+      "name": "jdih.esdm.go.id",
+      "type": "government",
+      "organization": "jdih.esdm.go.id",
+      "url": "https://jdih.esdm.go.id/dokumen/view?id=1805",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "esdm-go-id",
+      "name": "esdm.go.id",
+      "type": "government",
+      "organization": "esdm.go.id",
+      "url": "https://esdm.go.id/en/media-center/news-archives/pengelolaan-pertambangan-harus-perhatikan-aspek-lingkungan-1",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-minerba-esdm-go-id",
+      "name": "www.minerba.esdm.go.id",
+      "type": "government",
+      "organization": "www.minerba.esdm.go.id",
+      "url": "https://www.minerba.esdm.go.id/berita/minerba/detil/20250717-kolaborasi-pemerintah-dan-badan-usaha-untuk-kegiatan-pertambangan-yang-berkelanjutan-bagi-sosial-dan-ekonomi-masyarakat-melalui-reklamasi-dan-kegiatan-pascatambang",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-esdm-go-id-2",
+      "name": "www.esdm.go.id",
+      "type": "government",
+      "organization": "www.esdm.go.id",
+      "url": "https://www.esdm.go.id/id/media-center/arsip-berita/tingkatkan-kesejahteraan-masyarakat-sekitar-tambang-program-pascatambang-wajib-digarap-secara-bersinambungan-",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "bpsdm-esdm-go-id-9",
+      "name": "bpsdm.esdm.go.id",
+      "type": "government",
+      "organization": "bpsdm.esdm.go.id",
+      "url": "https://bpsdm.esdm.go.id/posts/2022/05/13/pelatihan-manajemen-lingkungan-tambang-diikuti-puluhan-asn-kesdm/1636",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-esdm-go-id-3",
+      "name": "www.esdm.go.id",
+      "type": "government",
+      "organization": "www.esdm.go.id",
+      "url": "https://www.esdm.go.id/en/media-center/arsip-berita/reklamasi-dan-upaya-produktif-pada-lahan-bekas-tambang",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-esdm-go-id-4",
+      "name": "www.esdm.go.id",
+      "type": "government",
+      "organization": "www.esdm.go.id",
+      "url": "https://www.esdm.go.id/id/media-center/arsip-berita/tingkatkan-daya-saing-wamen-esdm-dorong-implementasi-prinsip-esg-di-sektor-pertambangan",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-esdm-go-id-5",
+      "name": "www.esdm.go.id",
+      "type": "government",
+      "organization": "www.esdm.go.id",
+      "url": "https://www.esdm.go.id/id/media-center/arsip-berita/esdm-kami-minta-badan-usaha-perkuat-implementasi-prinsip-esg",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "jurnal-tekmira-esdm-go-id",
+      "name": "jurnal.tekmira.esdm.go.id",
+      "type": "academic",
+      "organization": "jurnal.tekmira.esdm.go.id",
+      "url": "https://jurnal.tekmira.esdm.go.id/index.php/minerba/article/view/1232",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "jdih-esdm-go-id-7",
+      "name": "jdih.esdm.go.id",
+      "type": "government",
+      "organization": "jdih.esdm.go.id",
+      "url": "https://jdih.esdm.go.id",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "bpsdm-esdm-go-id-10",
+      "name": "bpsdm.esdm.go.id",
+      "type": "government",
+      "organization": "bpsdm.esdm.go.id",
+      "url": "https://bpsdm.esdm.go.id",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-ibm-com",
+      "name": "www.ibm.com",
+      "type": "other",
+      "organization": "www.ibm.com",
+      "url": "https://www.ibm.com/products/maximo",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-sap-com",
+      "name": "www.sap.com",
+      "type": "other",
+      "organization": "www.sap.com",
+      "url": "https://www.sap.com/products/scm/asset-management.html",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-oracle-com",
+      "name": "www.oracle.com",
+      "type": "other",
+      "organization": "www.oracle.com",
+      "url": "https://www.oracle.com/scm/maintenance/",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "fiix-by-rockwell-automation",
+      "name": "Fiix by Rockwell Automation. Mining Maintenance Software.",
+      "type": "other",
+      "organization": "Fiix by Rockwell Automation",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "fiix-mining-maintenance-software",
+      "name": "Fiix Mining Maintenance Software",
+      "type": "other",
+      "organization": "Fiix Mining Maintenance Software",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "dingo",
+      "name": "DINGO. Predictive Asset Reliability and Equipment Maintenance.",
+      "type": "other",
+      "organization": "DINGO",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "dingo-asset-health-management",
+      "name": "DINGO Asset Health Management",
+      "type": "other",
+      "organization": "DINGO Asset Health Management",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "ssr-mining",
+      "name": "SSR Mining. Reliability Engineer – Mining.",
+      "type": "other",
+      "organization": "SSR Mining",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "ssr-mining-reliability-engineer-role",
+      "name": "SSR Mining Reliability Engineer Role",
+      "type": "other",
+      "organization": "SSR Mining Reliability Engineer Role",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "turner-mining-group",
+      "name": "Turner Mining Group. Maintenance Planner – Mining.",
+      "type": "other",
+      "organization": "Turner Mining Group",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "maintenance-planner-job-description",
+      "name": "Maintenance Planner Job Description",
+      "type": "other",
+      "organization": "Maintenance Planner Job Description",
+      "url": null,
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-esdm-go-id-6",
+      "name": "www.esdm.go.id",
+      "type": "government",
+      "organization": "www.esdm.go.id",
+      "url": "https://www.esdm.go.id",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-minerba-esdm-go-id-2",
+      "name": "www.minerba.esdm.go.id",
+      "type": "government",
+      "organization": "www.minerba.esdm.go.id",
+      "url": "https://www.minerba.esdm.go.id",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-lkpp-go-id",
+      "name": "www.lkpp.go.id",
+      "type": "other",
+      "organization": "www.lkpp.go.id",
+      "url": "https://www.lkpp.go.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "jdih-lkpp-go-id",
+      "name": "jdih.lkpp.go.id",
+      "type": "other",
+      "organization": "jdih.lkpp.go.id",
+      "url": "https://jdih.lkpp.go.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-bpsdm-esdm-go-id",
+      "name": "www.bpsdm.esdm.go.id",
+      "type": "government",
+      "organization": "www.bpsdm.esdm.go.id",
+      "url": "https://www.bpsdm.esdm.go.id",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-sap-com-2",
+      "name": "www.sap.com",
+      "type": "other",
+      "organization": "www.sap.com",
+      "url": "https://www.sap.com/products/erp/s4hana.html",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-sap-com-3",
+      "name": "www.sap.com",
+      "type": "other",
+      "organization": "www.sap.com",
+      "url": "https://www.sap.com/products/spend-management/ariba.html",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-sap-com-4",
+      "name": "www.sap.com",
+      "type": "other",
+      "organization": "www.sap.com",
+      "url": "https://www.sap.com/products/scm/integrated-business-planning.html",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-oracle-com-2",
+      "name": "www.oracle.com",
+      "type": "other",
+      "organization": "www.oracle.com",
+      "url": "https://www.oracle.com/procurement/",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-oracle-com-3",
+      "name": "www.oracle.com",
+      "type": "other",
+      "organization": "www.oracle.com",
+      "url": "https://www.oracle.com/scm/transportation-management/",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-oracle-com-4",
+      "name": "www.oracle.com",
+      "type": "other",
+      "organization": "www.oracle.com",
+      "url": "https://www.oracle.com/scm/warehouse-management/",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-microsoft-com",
+      "name": "www.microsoft.com",
+      "type": "other",
+      "organization": "www.microsoft.com",
+      "url": "https://www.microsoft.com/en-us/dynamics-365",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-kinaxis-com",
+      "name": "www.kinaxis.com",
+      "type": "other",
+      "organization": "www.kinaxis.com",
+      "url": "https://www.kinaxis.com",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-cargowise-com",
+      "name": "www.cargowise.com",
+      "type": "other",
+      "organization": "www.cargowise.com",
+      "url": "https://www.cargowise.com",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-cips-org",
+      "name": "www.cips.org",
+      "type": "other",
+      "organization": "www.cips.org",
+      "url": "https://www.cips.org",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-ascm-org",
+      "name": "www.ascm.org",
+      "type": "other",
+      "organization": "www.ascm.org",
+      "url": "https://www.ascm.org",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-ibm-com-2",
+      "name": "www.ibm.com",
+      "type": "other",
+      "organization": "www.ibm.com",
+      "url": "https://www.ibm.com/topics/supply-chain-management",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-icdx-co-id",
+      "name": "www.icdx.co.id",
+      "type": "other",
+      "organization": "www.icdx.co.id",
+      "url": "https://www.icdx.co.id/news-detail/publication/apa-itu-logistik-pengertian-tujuan-dan-manfaat",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-spil-co-id",
+      "name": "www.spil.co.id",
+      "type": "other",
+      "organization": "www.spil.co.id",
+      "url": "https://www.spil.co.id/blogs/apa-itu-logistik-pengertian-tujuan-dan-manfaat/",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-esdm-go-id-7",
+      "name": "www.esdm.go.id",
+      "type": "government",
+      "organization": "www.esdm.go.id",
+      "url": "https://www.esdm.go.id/id/media-center/arsip-berita/teknologi-kecerdasan-buatan-tingkatkan-keselamatan-dan-produktivitas-tambang-batubara",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-esdm-go-id-8",
+      "name": "www.esdm.go.id",
+      "type": "government",
+      "organization": "www.esdm.go.id",
+      "url": "https://www.esdm.go.id/en/media-center/news-archives/jawab-tantangan-kebutuhan-pertambangan-ditjen-minerba-optimalisasi-pemanfaatan-teknologi-5g-",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-esdm-go-id-9",
+      "name": "www.esdm.go.id",
+      "type": "government",
+      "organization": "www.esdm.go.id",
+      "url": "https://www.esdm.go.id/id/media-center/arsip-berita/esdm-tegaskan-urusan-tambang-harus-online-system-wamen-yang-dibawah-kewenangan-pusat-sudah-100",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-esdm-go-id-10",
+      "name": "www.esdm.go.id",
+      "type": "government",
+      "organization": "www.esdm.go.id",
+      "url": "https://www.esdm.go.id/id/media-center/arsip-berita/menteri-arifin-hilirisasi-perlu-disertai-adopsi-teknologi-baru",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-metso-com",
+      "name": "www.metso.com",
+      "type": "other",
+      "organization": "www.metso.com",
+      "url": "https://www.metso.com/corporate/careers/digital-and-tech-professionals/",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-home-sandvik",
+      "name": "www.home.sandvik",
+      "type": "other",
+      "organization": "www.home.sandvik",
+      "url": "https://www.home.sandvik/en/careers/job-search/engineering/R0094105/",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-sap-com-5",
+      "name": "www.sap.com",
+      "type": "other",
+      "organization": "www.sap.com",
+      "url": "https://www.sap.com/products/scm/digital-manufacturing.html",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-aveva-com",
+      "name": "www.aveva.com",
+      "type": "other",
+      "organization": "www.aveva.com",
+      "url": "https://www.aveva.com/en/products/pi-system/",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-siemens-com",
+      "name": "www.siemens.com",
+      "type": "other",
+      "organization": "www.siemens.com",
+      "url": "https://www.siemens.com/global/en/products/automation/industry-software/automation-software/tia-portal.html",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-rockwellautomation-com",
+      "name": "www.rockwellautomation.com",
+      "type": "other",
+      "organization": "www.rockwellautomation.com",
+      "url": "https://www.rockwellautomation.com/en-us/products/software/factorytalk.html",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-microsoft-com-2",
+      "name": "www.microsoft.com",
+      "type": "other",
+      "organization": "www.microsoft.com",
+      "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-python-org",
+      "name": "www.python.org",
+      "type": "other",
+      "organization": "www.python.org",
+      "url": "https://www.python.org",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-r-project-org",
+      "name": "www.r-project.org",
+      "type": "other",
+      "organization": "www.r-project.org",
+      "url": "https://www.r-project.org",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-postgresql-org",
+      "name": "www.postgresql.org",
+      "type": "other",
+      "organization": "www.postgresql.org",
+      "url": "https://www.postgresql.org",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-microsoft-com-3",
+      "name": "www.microsoft.com",
+      "type": "other",
+      "organization": "www.microsoft.com",
+      "url": "https://www.microsoft.com/en-us/azure",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "aws-amazon-com",
+      "name": "aws.amazon.com",
+      "type": "other",
+      "organization": "aws.amazon.com",
+      "url": "https://aws.amazon.com",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "cloud-google-com",
+      "name": "cloud.google.com",
+      "type": "other",
+      "organization": "cloud.google.com",
+      "url": "https://cloud.google.com",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-ibm-com-3",
+      "name": "www.ibm.com",
+      "type": "other",
+      "organization": "www.ibm.com",
+      "url": "https://www.ibm.com/topics/cybersecurity",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-nist-gov",
+      "name": "www.nist.gov",
+      "type": "other",
+      "organization": "www.nist.gov",
+      "url": "https://www.nist.gov/cyberframework",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-esdm-go-id-11",
+      "name": "www.esdm.go.id",
+      "type": "government",
+      "organization": "www.esdm.go.id",
+      "url": "https://www.esdm.go.id/id/media-center/arsip-berita/dari-perizinan-hingga-rkab-esdm-perkuat-tata-kelola-kegiatan-pertambangan",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-esdm-go-id-12",
+      "name": "www.esdm.go.id",
+      "type": "government",
+      "organization": "www.esdm.go.id",
+      "url": "https://www.esdm.go.id/en/media-center/news-archives/selesaikan-kendala-penyusunan-rkab-ditjen-minerba-kembali-gelar-coaching-clinic",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-ojk-go-id",
+      "name": "www.ojk.go.id",
+      "type": "other",
+      "organization": "www.ojk.go.id",
+      "url": "https://www.ojk.go.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-bi-go-id",
+      "name": "www.bi.go.id",
+      "type": "other",
+      "organization": "www.bi.go.id",
+      "url": "https://www.bi.go.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-idx-co-id",
+      "name": "www.idx.co.id",
+      "type": "other",
+      "organization": "www.idx.co.id",
+      "url": "https://www.idx.co.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-iaiglobal-or-id",
+      "name": "www.iaiglobal.or.id",
+      "type": "other",
+      "organization": "www.iaiglobal.or.id",
+      "url": "https://www.iaiglobal.or.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-iapi-or-id",
+      "name": "www.iapi.or.id",
+      "type": "other",
+      "organization": "www.iapi.or.id",
+      "url": "https://www.iapi.or.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-pajak-go-id",
+      "name": "www.pajak.go.id",
+      "type": "other",
+      "organization": "www.pajak.go.id",
+      "url": "https://www.pajak.go.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-oracle-com-5",
+      "name": "www.oracle.com",
+      "type": "other",
+      "organization": "www.oracle.com",
+      "url": "https://www.oracle.com/erp/",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-microsoft-com-4",
+      "name": "www.microsoft.com",
+      "type": "other",
+      "organization": "www.microsoft.com",
+      "url": "https://www.microsoft.com/en-us/dynamics-365/products/finance",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-ibm-com-4",
+      "name": "www.ibm.com",
+      "type": "other",
+      "organization": "www.ibm.com",
+      "url": "https://www.ibm.com/products/planning-analytics",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-anaplan-com",
+      "name": "www.anaplan.com",
+      "type": "other",
+      "organization": "www.anaplan.com",
+      "url": "https://www.anaplan.com",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-tableau-com",
+      "name": "www.tableau.com",
+      "type": "other",
+      "organization": "www.tableau.com",
+      "url": "https://www.tableau.com",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-primaverap6-com",
+      "name": "www.primaverap6.com",
+      "type": "other",
+      "organization": "www.primaverap6.com",
+      "url": "https://www.primaverap6.com",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-ptba-co-id",
+      "name": "www.ptba.co.id",
+      "type": "other",
+      "organization": "www.ptba.co.id",
+      "url": "https://www.ptba.co.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-antam-com",
+      "name": "www.antam.com",
+      "type": "other",
+      "organization": "www.antam.com",
+      "url": "https://www.antam.com",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "minerba-esdm-go-id",
+      "name": "minerba.esdm.go.id",
+      "type": "government",
+      "organization": "minerba.esdm.go.id",
+      "url": "https://minerba.esdm.go.id/rpim/",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "oss-go-id",
+      "name": "oss.go.id",
+      "type": "other",
+      "organization": "oss.go.id",
+      "url": "https://oss.go.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "jdih-setneg-go-id",
+      "name": "jdih.setneg.go.id",
+      "type": "other",
+      "organization": "jdih.setneg.go.id",
+      "url": "https://jdih.setneg.go.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "peraturan-bpk-go-id",
+      "name": "peraturan.bpk.go.id",
+      "type": "regulation",
+      "organization": "peraturan.bpk.go.id",
+      "url": "https://peraturan.bpk.go.id",
+      "description": null,
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "jdih-kemenkeu-go-id",
+      "name": "jdih.kemenkeu.go.id",
+      "type": "other",
+      "organization": "jdih.kemenkeu.go.id",
+      "url": "https://jdih.kemenkeu.go.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-kemenkum-go-id",
+      "name": "www.kemenkum.go.id",
+      "type": "other",
+      "organization": "www.kemenkum.go.id",
+      "url": "https://www.kemenkum.go.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-ahu-go-id",
+      "name": "www.ahu.go.id",
+      "type": "other",
+      "organization": "www.ahu.go.id",
+      "url": "https://www.ahu.go.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-kpk-go-id",
+      "name": "www.kpk.go.id",
+      "type": "other",
+      "organization": "www.kpk.go.id",
+      "url": "https://www.kpk.go.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-komdigi-go-id",
+      "name": "www.komdigi.go.id",
+      "type": "other",
+      "organization": "www.komdigi.go.id",
+      "url": "https://www.komdigi.go.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-sap-com-6",
+      "name": "www.sap.com",
+      "type": "other",
+      "organization": "www.sap.com",
+      "url": "https://www.sap.com/products/governance-risk-compliance.html",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-ibm-com-5",
+      "name": "www.ibm.com",
+      "type": "other",
+      "organization": "www.ibm.com",
+      "url": "https://www.ibm.com/products/openpages",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-metricstream-com",
+      "name": "www.metricstream.com",
+      "type": "other",
+      "organization": "www.metricstream.com",
+      "url": "https://www.metricstream.com",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-docusign-com",
+      "name": "www.docusign.com",
+      "type": "other",
+      "organization": "www.docusign.com",
+      "url": "https://www.docusign.com",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-opentext-com",
+      "name": "www.opentext.com",
+      "type": "other",
+      "organization": "www.opentext.com",
+      "url": "https://www.opentext.com",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-sap-com-7",
+      "name": "www.sap.com",
+      "type": "other",
+      "organization": "www.sap.com",
+      "url": "https://www.sap.com/products/spend-management/contracts.html",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-oracle-com-6",
+      "name": "www.oracle.com",
+      "type": "other",
+      "organization": "www.oracle.com",
+      "url": "https://www.oracle.com/procurement/contracts/",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-kemnaker-go-id",
+      "name": "www.kemnaker.go.id",
+      "type": "other",
+      "organization": "www.kemnaker.go.id",
+      "url": "https://www.kemnaker.go.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-ptba-co-id-2",
+      "name": "www.ptba.co.id",
+      "type": "other",
+      "organization": "www.ptba.co.id",
+      "url": "https://www.ptba.co.id/id/career/growing-together",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-antam-com-2",
+      "name": "www.antam.com",
+      "type": "other",
+      "organization": "www.antam.com",
+      "url": "https://www.antam.com/id/career",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-mind-id",
+      "name": "www.mind.id",
+      "type": "other",
+      "organization": "www.mind.id",
+      "url": "https://www.mind.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-bps-go-id",
+      "name": "www.bps.go.id",
+      "type": "other",
+      "organization": "www.bps.go.id",
+      "url": "https://www.bps.go.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-sisnaker-kemnaker-go-id",
+      "name": "www.sisnaker.kemnaker.go.id",
+      "type": "other",
+      "organization": "www.sisnaker.kemnaker.go.id",
+      "url": "https://www.sisnaker.kemnaker.go.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-bpjsketenagakerjaan-go-id",
+      "name": "www.bpjsketenagakerjaan.go.id",
+      "type": "other",
+      "organization": "www.bpjsketenagakerjaan.go.id",
+      "url": "https://www.bpjsketenagakerjaan.go.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-bpjskesehatan-go-id",
+      "name": "www.bpjskesehatan.go.id",
+      "type": "other",
+      "organization": "www.bpjskesehatan.go.id",
+      "url": "https://www.bpjskesehatan.go.id",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-sap-com-8",
+      "name": "www.sap.com",
+      "type": "other",
+      "organization": "www.sap.com",
+      "url": "https://www.sap.com/products/hcm.html",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-workday-com",
+      "name": "www.workday.com",
+      "type": "other",
+      "organization": "www.workday.com",
+      "url": "https://www.workday.com",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-oracle-com-7",
+      "name": "www.oracle.com",
+      "type": "other",
+      "organization": "www.oracle.com",
+      "url": "https://www.oracle.com/human-capital-management/",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-microsoft-com-5",
+      "name": "www.microsoft.com",
+      "type": "other",
+      "organization": "www.microsoft.com",
+      "url": "https://www.microsoft.com/en-us/dynamics-365/products/human-resources",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-microsoft-com-6",
+      "name": "www.microsoft.com",
+      "type": "other",
+      "organization": "www.microsoft.com",
+      "url": "https://www.microsoft.com/microsoft-365",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "www-microsoft-com-7",
+      "name": "www.microsoft.com",
+      "type": "other",
+      "organization": "www.microsoft.com",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "moodle-org",
+      "name": "moodle.org",
+      "type": "other",
+      "organization": "moodle.org",
+      "url": "https://moodle.org",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    },
+    {
+      "slug": "business-linkedin-com",
+      "name": "business.linkedin.com",
+      "type": "other",
+      "organization": "business.linkedin.com",
+      "url": "https://business.linkedin.com/talent-solutions",
+      "description": null,
+      "isOfficial": false,
+      "verificationStatus": "verified"
+    }
+  ]
+}
