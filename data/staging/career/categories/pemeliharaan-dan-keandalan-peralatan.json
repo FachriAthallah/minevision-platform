@@ -1,0 +1,3867 @@
+{
+  "schemaVersion": "1.0",
+  "categorySlug": "pemeliharaan-dan-keandalan-peralatan",
+  "category": {
+    "name": "Pemeliharaan dan Keandalan Peralatan",
+    "slug": "pemeliharaan-dan-keandalan-peralatan",
+    "description": "Deskripsi Kategori",
+    "displayOrder": 8,
+    "isActive": true
+  },
+  "profile": {
+    "title": "Pemeliharaan dan Keandalan Peralatan",
+    "slug": "pemeliharaan-dan-keandalan-peralatan",
+    "excerpt": "Deskripsi Kategori",
+    "body": "Deskripsi Kategori\n\nKategori Pemeliharaan dan Keandalan Peralatan mencakup profesi yang bertanggung jawab menjaga kondisi, kinerja, keselamatan, dan ketersediaan peralatan yang digunakan dalam kegiatan pertambangan. Bidang ini mencakup pemeliharaan alat berat tambang, kendaraan operasional, sistem mekanis, sistem kelistrikan, instrumen, fasilitas pengolahan, conveyor, pompa, crusher, serta infrastruktur pendukung lainnya.\n\nPekerjaan dalam kategori ini tidak hanya berfokus pada memperbaiki peralatan setelah mengalami kerusakan. Kegiatan pemeliharaan juga mencakup perencanaan pekerjaan, pemeriksaan kondisi, pemeliharaan preventif, pemeliharaan prediktif, analisis penyebab kegagalan, pengelolaan suku cadang, serta peningkatan keandalan aset. Tujuannya adalah mengurangi gangguan tidak terencana, mendukung keselamatan, memperpanjang umur pakai peralatan, dan menjaga kelancaran operasi. Sistem manajemen pemeliharaan terkomputerisasi (Computerized Maintenance Management System/CMMS) dapat digunakan untuk mengelola aset, jadwal pemeliharaan, perintah kerja, riwayat perbaikan, dan kebutuhan suku cadang.\n\nContoh Profesi\n\nPemeliharaan Alat Berat dan Peralatan Bergerak\n\nHeavy Equipment Mechanic\n\nHeavy Equipment Technician\n\nHeavy Equipment Maintenance Technician\n\nHeavy Equipment Maintenance Supervisor\n\nHeavy Equipment Maintenance Superintendent\n\nMobile Equipment Mechanic\n\nMobile Equipment Technician\n\nMobile Equipment Maintenance Supervisor\n\nMobile Maintenance Engineer\n\nMobile Maintenance Planner\n\nMobile Maintenance Specialist\n\nMobile Equipment Reliability Engineer\n\nMining Equipment Mechanic\n\nMining Equipment Technician\n\nMining Equipment Maintenance Engineer\n\nMining Equipment Maintenance Supervisor\n\nMining Equipment Maintenance Superintendent\n\nMine Fleet Maintenance Engineer\n\nFleet Maintenance Engineer\n\nFleet Maintenance Planner\n\nFleet Maintenance Supervisor\n\nFleet Maintenance Superintendent\n\nFleet Maintenance Manager\n\nHaul Truck Mechanic\n\nHaul Truck Technician\n\nLoader Mechanic\n\nExcavator Mechanic\n\nDozer Mechanic\n\nMotor Grader Mechanic\n\nDrill Rig Mechanic\n\nWheel Loader Technician\n\nDump Truck Technician\n\nLight Vehicle Mechanic\n\nLight Vehicle Technician\n\nService Technician\n\nField Service Technician\n\nEquipment Service Technician\n\nPemeliharaan Mekanis\n\nMechanical Technician\n\nMechanical Maintenance Technician\n\nMechanical Maintenance Engineer\n\nMechanical Maintenance Planner\n\nMechanical Maintenance Supervisor\n\nMechanical Maintenance Superintendent\n\nMechanical Maintenance Manager\n\nMechanical Engineer\n\nPlant Mechanical Engineer\n\nFixed Plant Mechanical Engineer\n\nMechanical Reliability Engineer\n\nMechanical Inspector\n\nMechanical Maintenance Inspector\n\nMillwright\n\nFitter\n\nMechanical Fitter\n\nMaintenance Fitter\n\nRotating Equipment Technician\n\nRotating Equipment Engineer\n\nRotating Equipment Specialist\n\nPump Technician\n\nPump Maintenance Technician\n\nHydraulic Technician\n\nHydraulic Maintenance Technician\n\nPneumatic Technician\n\nLubrication Technician\n\nLubrication Specialist\n\nLubrication Engineer\n\nWelding Technician\n\nMaintenance Welder\n\nFabrication Technician\n\nBoilermaker\n\nPipe Fitter\n\nPemeliharaan Kelistrikan\n\nElectrical Technician\n\nElectrical Maintenance Technician\n\nElectrical Maintenance Engineer\n\nElectrical Maintenance Planner\n\nElectrical Maintenance Supervisor\n\nElectrical Maintenance Superintendent\n\nElectrical Maintenance Manager\n\nElectrical Engineer\n\nPlant Electrical Engineer\n\nElectrical Reliability Engineer\n\nHigh Voltage Technician\n\nHigh Voltage Engineer\n\nLow Voltage Technician\n\nPower Systems Technician\n\nPower Systems Engineer\n\nElectrical Inspector\n\nMotor Control Technician\n\nElectric Motor Technician\n\nGenerator Technician\n\nPower Generation Technician\n\nSubstation Technician\n\nElectrical Protection Technician\n\nElectrical Protection Engineer\n\nCable Technician\n\nElectrical Tradesperson\n\nInstrumentasi, Kontrol, dan Otomasi Peralatan\n\nInstrumentation Technician\n\nInstrumentation Engineer\n\nInstrumentation Maintenance Technician\n\nInstrumentation Maintenance Engineer\n\nInstrumentation Supervisor\n\nControl Technician\n\nControl Systems Technician\n\nControl Systems Engineer\n\nProcess Control Engineer\n\nAutomation Technician\n\nAutomation Maintenance Technician\n\nAutomation Engineer\n\nPLC Technician\n\nPLC Engineer\n\nSCADA Technician\n\nSCADA Engineer\n\nField Instrument Technician\n\nCalibration Technician\n\nCalibration Engineer\n\nAnalyzer Technician\n\nProcess Instrument Technician\n\nElectrical and Instrumentation Technician\n\nElectrical and Instrumentation Engineer\n\nPemeliharaan Pabrik Pengolahan dan Fasilitas Tetap\n\nFixed Plant Maintenance Technician\n\nFixed Plant Maintenance Engineer\n\nFixed Plant Maintenance Supervisor\n\nFixed Plant Maintenance Superintendent\n\nPlant Maintenance Technician\n\nPlant Maintenance Engineer\n\nPlant Maintenance Planner\n\nPlant Maintenance Supervisor\n\nPlant Maintenance Superintendent\n\nPlant Maintenance Manager\n\nProcess Plant Maintenance Engineer\n\nProcessing Plant Maintenance Technician\n\nCrusher Maintenance Technician\n\nCrusher Maintenance Engineer\n\nConveyor Maintenance Technician\n\nConveyor Maintenance Engineer\n\nMill Maintenance Technician\n\nMill Maintenance Engineer\n\nScreen Maintenance Technician\n\nScreen Maintenance Engineer\n\nChute Maintenance Technician\n\nMaterials Handling Maintenance Technician\n\nMaterials Handling Engineer\n\nWorkshop Technician\n\nWorkshop Supervisor\n\nWorkshop Superintendent\n\nWorkshop Manager\n\nPerencanaan dan Penjadwalan Pemeliharaan\n\nMaintenance Planner\n\nMaintenance Planning Engineer\n\nMaintenance Planning Specialist\n\nMaintenance Planning Coordinator\n\nMaintenance Scheduler\n\nMaintenance Scheduling Engineer\n\nMaintenance Scheduling Coordinator\n\nMaintenance Planning and Scheduling Engineer\n\nShutdown Planner\n\nShutdown Planning Engineer\n\nShutdown Coordinator\n\nShutdown Scheduler\n\nShutdown Superintendent\n\nMaintenance Project Planner\n\nMaintenance Project Coordinator\n\nMaintenance Work Coordinator\n\nMaintenance Execution Coordinator\n\nWork Management Specialist\n\nWork Order Planner\n\nMaintenance Planning Analyst\n\nKeandalan dan Manajemen Aset\n\nReliability Engineer\n\nReliability Specialist\n\nReliability Analyst\n\nReliability Coordinator\n\nReliability Supervisor\n\nReliability Superintendent\n\nReliability Manager\n\nAsset Reliability Engineer\n\nEquipment Reliability Engineer\n\nMobile Equipment Reliability Engineer\n\nFixed Plant Reliability Engineer\n\nMechanical Reliability Engineer\n\nElectrical Reliability Engineer\n\nAsset Management Engineer\n\nAsset Management Specialist\n\nAsset Management Analyst\n\nAsset Performance Engineer\n\nAsset Performance Analyst\n\nCondition Monitoring Engineer\n\nCondition Monitoring Specialist\n\nCondition Monitoring Technician\n\nPredictive Maintenance Engineer\n\nPredictive Maintenance Specialist\n\nPredictive Maintenance Technician\n\nMaintenance Strategy Engineer\n\nMaintenance Improvement Engineer\n\nMaintenance Excellence Specialist\n\nReliability-Centered Maintenance Specialist\n\nRCM Engineer\n\nFailure Analysis Engineer\n\nFailure Analysis Specialist\n\nRoot Cause Analysis Specialist\n\nEquipment Health Analyst\n\nInspeksi dan Pemantauan Kondisi\n\nMaintenance Inspector\n\nMechanical Inspector\n\nElectrical Inspector\n\nEquipment Inspector\n\nMobile Equipment Inspector\n\nPlant Equipment Inspector\n\nCondition Monitoring Technician\n\nVibration Analyst\n\nVibration Monitoring Technician\n\nThermography Technician\n\nInfrared Inspection Technician\n\nOil Analysis Technician\n\nLubricant Analysis Specialist\n\nUltrasonic Testing Technician\n\nNon-Destructive Testing Technician\n\nNDT Inspector\n\nCorrosion Inspector\n\nWear Monitoring Specialist\n\nStructural Integrity Inspector\n\nAsset Integrity Engineer\n\nAsset Integrity Specialist\n\nEquipment Health Technician\n\nKepemimpinan dan Manajemen Pemeliharaan\n\nMaintenance Supervisor\n\nMaintenance Superintendent\n\nMaintenance Manager\n\nMaintenance Department Manager\n\nMaintenance and Reliability Manager\n\nMaintenance and Asset Manager\n\nEngineering and Maintenance Manager\n\nMobile Maintenance Manager\n\nFixed Plant Maintenance Manager\n\nWorkshop Manager\n\nMaintenance Operations Manager\n\nHead of Maintenance\n\nHead of Reliability\n\nMaintenance General Superintendent\n\nMaintenance General Manager\n\nRuang Lingkup Pekerjaan\n\nMaintenance Planner berfokus pada perencanaan, penjadwalan, dan kesiapan pekerjaan, sedangkan teknisi atau mekanik lebih banyak melaksanakan pekerjaan teknis di lapangan atau bengkel. Fungsi Reliability Engineer biasanya berfokus pada analisis data, strategi pemeliharaan, dan peningkatan keandalan aset. Peran tersebut dapat saling berhubungan, tetapi memiliki fokus yang berbeda. Profesi dalam kategori Pemeliharaan dan Keandalan Peralatan dapat terlibat dalam kegiatan berikut:\n\nMelakukan pemeriksaan kondisi peralatan sebelum, selama, atau setelah digunakan.\n\nMelaksanakan pemeliharaan rutin berdasarkan jadwal, jam operasi, kondisi peralatan, atau kebutuhan teknis.\n\nMelakukan pemeliharaan preventif untuk mengurangi kemungkinan terjadinya kerusakan.\n\nMelaksanakan pemeliharaan korektif untuk memperbaiki kerusakan atau ketidaksesuaian yang telah ditemukan.\n\nMelakukan pemeliharaan prediktif atau berbasis kondisi menggunakan data inspeksi dan pemantauan kondisi.\n\nMendiagnosis gangguan mekanis, kelistrikan, hidraulik, pneumatik, instrumentasi, atau sistem kontrol.\n\nMelakukan pembongkaran, perbaikan, penggantian, pemasangan, penyetelan, dan pengujian komponen.\n\nMemeriksa kondisi mesin, transmisi, sistem pengereman, sistem hidraulik, sistem kelistrikan, sistem pendingin, serta komponen penting lainnya.\n\nMelakukan pemeliharaan peralatan bergerak seperti haul truck, excavator, loader, dozer, drill rig, dan kendaraan pendukung.\n\nMelakukan pemeliharaan fasilitas tetap seperti crusher, conveyor, mill, pompa, screen, chute, sistem kelistrikan, dan fasilitas pengolahan.\n\nMenyusun rencana kerja pemeliharaan, termasuk kebutuhan tenaga kerja, waktu, peralatan, material, dan suku cadang.\n\nMenyusun jadwal pemeliharaan harian, mingguan, bulanan, atau berdasarkan jam operasi.\n\nMenyiapkan work order, instruksi kerja, daftar pekerjaan, dan dokumentasi pemeliharaan.\n\nMengelola riwayat perbaikan, data kerusakan, serta informasi kondisi aset melalui CMMS atau sistem perusahaan.\n\nMengidentifikasi kebutuhan suku cadang dan berkoordinasi dengan bagian gudang, pengadaan, atau pemasok.\n\nMerencanakan serta mengoordinasikan kegiatan shutdown atau penghentian terjadwal untuk pemeliharaan besar.\n\nMelakukan analisis kegagalan untuk mengidentifikasi penyebab dan mencegah terulangnya gangguan.\n\nMenganalisis indikator seperti ketersediaan peralatan, waktu henti, frekuensi kerusakan, waktu perbaikan, dan kinerja pemeliharaan.\n\nMelakukan pemantauan kondisi menggunakan metode seperti analisis getaran, termografi, analisis oli, pemeriksaan ultrasonik, atau metode lain yang sesuai.\n\nMengembangkan strategi pemeliharaan dan meningkatkan keandalan aset berdasarkan data serta kondisi operasi.\n\nMemastikan pekerjaan pemeliharaan dilakukan sesuai prosedur, standar teknis, dan persyaratan keselamatan.\n\nMelakukan pengujian fungsi serta verifikasi kondisi peralatan sebelum dikembalikan ke operasi.\n\nBerkoordinasi dengan tim operasi, perencanaan, produksi, gudang, pengadaan, teknik, dan keselamatan.\n\nKompetensi\n\nKompetensi teknis umum\n\nMemahami prinsip dasar pemeliharaan.\n\nMemahami fungsi dan sistem kerja peralatan.\n\nMemahami dasar mekanika.\n\nMemahami dasar kelistrikan.\n\nMemahami sistem hidraulik dan pneumatik.\n\nMemahami penggunaan alat kerja dan alat ukur.\n\nMampu membaca gambar teknik dan diagram.\n\nMemahami prosedur inspeksi.\n\nMemahami dasar pemecahan masalah teknis.\n\nMemahami dokumentasi pemeliharaan.\n\nMemahami penggunaan work order.\n\nMemahami dasar pengelolaan aset.\n\nMemahami prinsip keselamatan kerja pemeliharaan.\n\nMemahami dasar pengelolaan suku cadang.\n\nKompetensi teknis spesialis\n\nPemeliharaan Mekanis\n\nPemeliharaan mesin diesel.\n\nPemeliharaan sistem transmisi.\n\nPemeliharaan sistem powertrain.\n\nPemeliharaan sistem hidraulik.\n\nPemeliharaan sistem pneumatik.\n\nPemeliharaan pompa.\n\nPemeliharaan bearing.\n\nPemeliharaan gearbox.\n\nPemeliharaan peralatan berputar.\n\nPelumasan.\n\nPenyelarasan poros (shaft alignment).\n\nPenyeimbangan peralatan (balancing).\n\nPengelasan dan fabrikasi.\n\nPerbaikan komponen mekanis.\n\nPemeliharaan Kelistrikan\n\nPemeliharaan motor listrik.\n\nPemeliharaan generator.\n\nPemeliharaan sistem distribusi tenaga.\n\nPemeliharaan panel listrik.\n\nPemeliharaan sistem tegangan rendah dan tinggi.\n\nPengujian kelistrikan.\n\nPemeliharaan sistem proteksi.\n\nPemeliharaan sistem power supply.\n\nAnalisis gangguan kelistrikan.\n\nInstrumentasi dan Kontrol\n\nKalibrasi instrumen.\n\nPemeliharaan sensor dan transmitter.\n\nPemeliharaan sistem PLC.\n\nPemeliharaan sistem SCADA.\n\nPemeliharaan sistem kontrol proses.\n\nPengujian loop instrumentasi.\n\nDiagnostik sistem otomasi.\n\nPemeliharaan control valve.\n\nPerencanaan dan Penjadwalan\n\nPenyusunan rencana kerja pemeliharaan.\n\nPenyusunan job plan.\n\nPenjadwalan pemeliharaan.\n\nPengelolaan work order.\n\nPerencanaan kebutuhan tenaga kerja.\n\nPerencanaan material dan suku cadang.\n\nPerencanaan shutdown.\n\nPengendalian pekerjaan pemeliharaan.\n\nPenggunaan CMMS.\n\nKeandalan dan Manajemen Aset\n\nAnalisis kegagalan.\n\nAnalisis akar penyebab.\n\nReliability-Centered Maintenance (RCM).\n\nFailure Mode and Effects Analysis (FMEA).\n\nPemeliharaan berbasis kondisi.\n\nPemeliharaan prediktif.\n\nPemantauan kondisi.\n\nAnalisis getaran.\n\nTermografi.\n\nAnalisis oli.\n\nPengujian tanpa merusak (Non-Destructive Testing/NDT).\n\nAnalisis keandalan.\n\nAnalisis ketersediaan aset.\n\nAnalisis waktu henti.\n\nPengembangan strategi pemeliharaan.\n\nManajemen siklus hidup aset.\n\nKompetensi nonteknis\n\nKemampuan memecahkan masalah.\n\nKemampuan berpikir analitis.\n\nKetelitian dan perhatian terhadap detail.\n\nKemampuan melakukan diagnosis teknis.\n\nKemampuan mengambil keputusan.\n\nKemampuan bekerja dalam tim.\n\nKomunikasi teknis.\n\nManajemen waktu.\n\nKemampuan mengatur prioritas.\n\nKemampuan bekerja di bawah tekanan.\n\nKemampuan menyusun laporan.\n\nKemampuan beradaptasi terhadap perubahan kondisi.\n\nDisiplin dalam mengikuti prosedur.\n\nTanggung jawab terhadap kualitas pekerjaan.\n\nKepemimpinan untuk posisi pengawasan.\n\nKesadaran terhadap risiko keselamatan.\n\nPendidikan yang Relevan\n\nPendidikan utama\n\nTeknik Mesin\n\nTeknik Elektro\n\nTeknik Mekatronika\n\nTeknik Instrumentasi\n\nTeknik Otomasi\n\nTeknik Industri\n\nTeknik Pertambangan\n\nTeknik Metalurgi\n\nTeknik Kimia\n\nTeknik Fisika\n\nTeknik Energi\n\nTeknik Perawatan dan Perbaikan Mesin\n\nTeknik Alat Berat\n\nTeknik Otomotif\n\nTeknik Pembangkit Tenaga Listrik\n\nTeknik Konversi Energi\n\nTeknik Manufaktur\n\nTeknik Material\n\nBidang teknik lain yang relevan.\n\nPendidikan pendukung untuk posisi tertentu\n\nProgram Diploma Teknik Mesin.\n\nProgram Diploma Teknik Elektro.\n\nProgram Diploma Teknik Mekatronika.\n\nProgram Diploma Teknik Instrumentasi.\n\nProgram Diploma Teknik Otomotif.\n\nProgram Diploma Teknik Alat Berat.\n\nProgram Diploma Teknik Perawatan dan Perbaikan.\n\nProgram vokasi pemeliharaan alat berat.\n\nProgram vokasi mekanik alat berat.\n\nProgram vokasi kelistrikan industri.\n\nProgram vokasi instrumentasi dan kontrol.\n\nProgram vokasi pengelasan dan fabrikasi.\n\nProgram vokasi pemeliharaan pabrik.\n\nPendidikan kejuruan bidang teknik mesin, otomotif, alat berat, listrik, atau bidang terkait.\n\nPendidikan lain yang sesuai dengan kebutuhan jabatan.\n\nSoftware yang Digunakan\n\n| A. CMMS dan Enterprise Asset Management |\n| --- |\n| SAP Plant Maintenance (SAP PM) |\n| IBM Maximo |\n| Oracle Enterprise Asset Management (Oracle EAM) |\n| Pronto Xi |\n| Fiix CMMS |\n| B. Perencanaan dan Penjadwalan |\n| Microsoft Project |\n| Primavera P6 |\n| Microsoft Excel |\n| C. Analisis Keandalan dan Kondisi |\n| ReliaSoft |\n| DINGO |\n| Software Analisis Getaran |\n| Software Analisis Oli |\n| D. Desain dan Dokumentasi Teknik |\n| AutoCAD |\n| Autodesk Inventor |\n| SolidWorks |\n| EPLAN |\n| E. Analisis Data dan Pelaporan |\n| Microsoft Power BI |\n| Python dan R |\n\nPelatihan Relevan\n\nPelatihan teknis\n\nPelatihan dasar pemeliharaan alat berat.\n\nPelatihan pemeliharaan mesin diesel.\n\nPelatihan sistem powertrain.\n\nPelatihan sistem hidraulik.\n\nPelatihan sistem pneumatik.\n\nPelatihan pemeliharaan sistem pendingin.\n\nPelatihan pemeliharaan sistem bahan bakar.\n\nPelatihan pemeliharaan peralatan mekanis.\n\nPelatihan pemeliharaan peralatan berputar.\n\nPelatihan pemeliharaan pompa dan gearbox.\n\nPelatihan pelumasan.\n\nPelatihan shaft alignment.\n\nPelatihan balancing.\n\nPelatihan pemeliharaan sistem kelistrikan.\n\nPelatihan motor dan generator listrik.\n\nPelatihan sistem distribusi tenaga.\n\nPelatihan pemeliharaan sistem tegangan tinggi dan rendah.\n\nPelatihan instrumentasi.\n\nPelatihan kalibrasi instrumen.\n\nPelatihan PLC dan SCADA.\n\nPelatihan sistem kontrol dan otomasi.\n\nPelatihan pemeliharaan crusher dan conveyor.\n\nPelatihan pemeliharaan fasilitas pengolahan.\n\nPelatihan perencanaan dan penjadwalan pemeliharaan.\n\nPelatihan penggunaan CMMS.\n\nPelatihan manajemen aset.\n\nPelatihan Reliability-Centered Maintenance (RCM).\n\nPelatihan Failure Mode and Effects Analysis (FMEA).\n\nPelatihan analisis akar penyebab.\n\nPelatihan pemeliharaan berbasis kondisi.\n\nPelatihan pemeliharaan prediktif.\n\nPelatihan analisis getaran.\n\nPelatihan termografi.\n\nPelatihan analisis oli.\n\nPelatihan Non-Destructive Testing (NDT).\n\nPelatihan perencanaan dan pelaksanaan shutdown.\n\nPelatihan pengelolaan suku cadang.\n\nPelatihan keselamatan\n\nInduksi keselamatan pertambangan.\n\nKeselamatan kerja pemeliharaan.\n\nIdentifikasi bahaya dan penilaian risiko.\n\nPengendalian energi berbahaya (Lockout/Tagout atau LOTO).\n\nKeselamatan kerja kelistrikan.\n\nKeselamatan sistem tegangan tinggi.\n\nKeselamatan bekerja di dekat alat berat.\n\nKeselamatan penggunaan alat kerja.\n\nKeselamatan pengangkatan dan pemindahan beban.\n\nKeselamatan penggunaan alat angkat.\n\nKeselamatan pengelasan dan pekerjaan panas.\n\nKeselamatan bekerja di ketinggian apabila relevan.\n\nKeselamatan ruang terbatas apabila relevan.\n\nKeselamatan penggunaan bahan kimia dan pelumas.\n\nPenggunaan alat pelindung diri.\n\nKeselamatan kerja di bengkel.\n\nKeselamatan lalu lintas tambang.\n\nTanggap darurat.\n\nPertolongan pertama sesuai kebutuhan tempat kerja.\n\nPelatihan keselamatan berdasarkan risiko spesifik pekerjaan.",
+    "coverImageUrl": null,
+    "status": "published",
+    "publishedAt": "2026-09-05T00:00:00.000Z",
+    "readingTimeMinutes": null,
+    "isFeatured": false,
+    "metadata": {},
+    "sources": [
+      {
+        "sourceSlug": "jdih-esdm-go-id-7",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 0
+      },
+      {
+        "sourceSlug": "bpsdm-esdm-go-id-10",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 1
+      },
+      {
+        "sourceSlug": "www-ibm-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 2
+      },
+      {
+        "sourceSlug": "www-sap-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 3
+      },
+      {
+        "sourceSlug": "www-oracle-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 4
+      },
+      {
+        "sourceSlug": "fiix-by-rockwell-automation",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 5
+      },
+      {
+        "sourceSlug": "fiix-mining-maintenance-software",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 6
+      },
+      {
+        "sourceSlug": "dingo",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 7
+      },
+      {
+        "sourceSlug": "dingo-asset-health-management",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 8
+      },
+      {
+        "sourceSlug": "ssr-mining",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 9
+      },
+      {
+        "sourceSlug": "ssr-mining-reliability-engineer-role",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 10
+      },
+      {
+        "sourceSlug": "turner-mining-group",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 11
+      },
+      {
+        "sourceSlug": "maintenance-planner-job-description",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 12
+      }
+    ]
+  },
+  "professions": [
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Heavy Equipment Mechanic",
+      "slug": "heavy-equipment-mechanic",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Heavy Equipment Technician",
+      "slug": "heavy-equipment-technician",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Heavy Equipment Maintenance Technician",
+      "slug": "heavy-equipment-maintenance-technician",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Heavy Equipment Maintenance Supervisor",
+      "slug": "heavy-equipment-maintenance-supervisor",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Heavy Equipment Maintenance Superintendent",
+      "slug": "heavy-equipment-maintenance-superintendent",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Mobile Equipment Mechanic",
+      "slug": "mobile-equipment-mechanic",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Mobile Equipment Technician",
+      "slug": "mobile-equipment-technician",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Mobile Equipment Maintenance Supervisor",
+      "slug": "mobile-equipment-maintenance-supervisor",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Mobile Maintenance Engineer",
+      "slug": "mobile-maintenance-engineer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Mobile Maintenance Planner",
+      "slug": "mobile-maintenance-planner",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Mobile Maintenance Specialist",
+      "slug": "mobile-maintenance-specialist",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Mobile Equipment Reliability Engineer",
+      "slug": "mobile-equipment-reliability-engineer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Mining Equipment Mechanic",
+      "slug": "mining-equipment-mechanic",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Mining Equipment Technician",
+      "slug": "mining-equipment-technician",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Mining Equipment Maintenance Engineer",
+      "slug": "mining-equipment-maintenance-engineer",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Mining Equipment Maintenance Supervisor",
+      "slug": "mining-equipment-maintenance-supervisor",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Mining Equipment Maintenance Superintendent",
+      "slug": "mining-equipment-maintenance-superintendent",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Mine Fleet Maintenance Engineer",
+      "slug": "mine-fleet-maintenance-engineer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Fleet Maintenance Engineer",
+      "slug": "fleet-maintenance-engineer",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Fleet Maintenance Planner",
+      "slug": "fleet-maintenance-planner",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Fleet Maintenance Supervisor",
+      "slug": "fleet-maintenance-supervisor",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Fleet Maintenance Superintendent",
+      "slug": "fleet-maintenance-superintendent",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Fleet Maintenance Manager",
+      "slug": "fleet-maintenance-manager",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Haul Truck Mechanic",
+      "slug": "haul-truck-mechanic",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Haul Truck Technician",
+      "slug": "haul-truck-technician",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Loader Mechanic",
+      "slug": "loader-mechanic",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Excavator Mechanic",
+      "slug": "excavator-mechanic",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Dozer Mechanic",
+      "slug": "dozer-mechanic",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Motor Grader Mechanic",
+      "slug": "motor-grader-mechanic",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Drill Rig Mechanic",
+      "slug": "drill-rig-mechanic",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Wheel Loader Technician",
+      "slug": "wheel-loader-technician",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Dump Truck Technician",
+      "slug": "dump-truck-technician",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Light Vehicle Mechanic",
+      "slug": "light-vehicle-mechanic",
+      "description": null,
+      "displayOrder": 32
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Light Vehicle Technician",
+      "slug": "light-vehicle-technician",
+      "description": null,
+      "displayOrder": 33
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Service Technician",
+      "slug": "service-technician",
+      "description": null,
+      "displayOrder": 34
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Field Service Technician",
+      "slug": "field-service-technician",
+      "description": null,
+      "displayOrder": 35
+    },
+    {
+      "groupKey": "pemeliharaan-alat-berat-dan-peralatan-bergerak",
+      "groupLabel": "Pemeliharaan Alat Berat dan Peralatan Bergerak",
+      "name": "Equipment Service Technician",
+      "slug": "equipment-service-technician",
+      "description": null,
+      "displayOrder": 36
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Mechanical Technician",
+      "slug": "mechanical-technician",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Mechanical Maintenance Technician",
+      "slug": "mechanical-maintenance-technician",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Mechanical Maintenance Engineer",
+      "slug": "mechanical-maintenance-engineer",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Mechanical Maintenance Planner",
+      "slug": "mechanical-maintenance-planner",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Mechanical Maintenance Supervisor",
+      "slug": "mechanical-maintenance-supervisor",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Mechanical Maintenance Superintendent",
+      "slug": "mechanical-maintenance-superintendent",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Mechanical Maintenance Manager",
+      "slug": "mechanical-maintenance-manager",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Mechanical Engineer",
+      "slug": "mechanical-engineer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Plant Mechanical Engineer",
+      "slug": "plant-mechanical-engineer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Fixed Plant Mechanical Engineer",
+      "slug": "fixed-plant-mechanical-engineer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Mechanical Reliability Engineer",
+      "slug": "mechanical-reliability-engineer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Mechanical Inspector",
+      "slug": "mechanical-inspector",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Mechanical Maintenance Inspector",
+      "slug": "mechanical-maintenance-inspector",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Millwright",
+      "slug": "millwright",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Fitter",
+      "slug": "fitter",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Mechanical Fitter",
+      "slug": "mechanical-fitter",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Maintenance Fitter",
+      "slug": "maintenance-fitter",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Rotating Equipment Technician",
+      "slug": "rotating-equipment-technician",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Rotating Equipment Engineer",
+      "slug": "rotating-equipment-engineer",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Rotating Equipment Specialist",
+      "slug": "rotating-equipment-specialist",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Pump Technician",
+      "slug": "pump-technician",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Pump Maintenance Technician",
+      "slug": "pump-maintenance-technician",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Hydraulic Technician",
+      "slug": "hydraulic-technician",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Hydraulic Maintenance Technician",
+      "slug": "hydraulic-maintenance-technician",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Pneumatic Technician",
+      "slug": "pneumatic-technician",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Lubrication Technician",
+      "slug": "lubrication-technician",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Lubrication Specialist",
+      "slug": "lubrication-specialist",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Lubrication Engineer",
+      "slug": "lubrication-engineer",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Welding Technician",
+      "slug": "welding-technician",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Maintenance Welder",
+      "slug": "maintenance-welder",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Fabrication Technician",
+      "slug": "fabrication-technician",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Boilermaker",
+      "slug": "boilermaker",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "pemeliharaan-mekanis",
+      "groupLabel": "Pemeliharaan Mekanis",
+      "name": "Pipe Fitter",
+      "slug": "pipe-fitter",
+      "description": null,
+      "displayOrder": 32
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Electrical Technician",
+      "slug": "electrical-technician",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Electrical Maintenance Technician",
+      "slug": "electrical-maintenance-technician",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Electrical Maintenance Engineer",
+      "slug": "electrical-maintenance-engineer",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Electrical Maintenance Planner",
+      "slug": "electrical-maintenance-planner",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Electrical Maintenance Supervisor",
+      "slug": "electrical-maintenance-supervisor",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Electrical Maintenance Superintendent",
+      "slug": "electrical-maintenance-superintendent",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Electrical Maintenance Manager",
+      "slug": "electrical-maintenance-manager",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Electrical Engineer",
+      "slug": "electrical-engineer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Plant Electrical Engineer",
+      "slug": "plant-electrical-engineer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Electrical Reliability Engineer",
+      "slug": "electrical-reliability-engineer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "High Voltage Technician",
+      "slug": "high-voltage-technician",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "High Voltage Engineer",
+      "slug": "high-voltage-engineer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Low Voltage Technician",
+      "slug": "low-voltage-technician",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Power Systems Technician",
+      "slug": "power-systems-technician",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Power Systems Engineer",
+      "slug": "power-systems-engineer",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Electrical Inspector",
+      "slug": "electrical-inspector",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Motor Control Technician",
+      "slug": "motor-control-technician",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Electric Motor Technician",
+      "slug": "electric-motor-technician",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Generator Technician",
+      "slug": "generator-technician",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Power Generation Technician",
+      "slug": "power-generation-technician",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Substation Technician",
+      "slug": "substation-technician",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Electrical Protection Technician",
+      "slug": "electrical-protection-technician",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Electrical Protection Engineer",
+      "slug": "electrical-protection-engineer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Cable Technician",
+      "slug": "cable-technician",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "pemeliharaan-kelistrikan",
+      "groupLabel": "Pemeliharaan Kelistrikan",
+      "name": "Electrical Tradesperson",
+      "slug": "electrical-tradesperson",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "Instrumentation Technician",
+      "slug": "instrumentation-technician",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "Instrumentation Engineer",
+      "slug": "instrumentation-engineer",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "Instrumentation Maintenance Technician",
+      "slug": "instrumentation-maintenance-technician",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "Instrumentation Maintenance Engineer",
+      "slug": "instrumentation-maintenance-engineer",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "Instrumentation Supervisor",
+      "slug": "instrumentation-supervisor",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "Control Technician",
+      "slug": "control-technician",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "Control Systems Technician",
+      "slug": "control-systems-technician",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "Control Systems Engineer",
+      "slug": "control-systems-engineer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "Process Control Engineer",
+      "slug": "process-control-engineer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "Automation Technician",
+      "slug": "automation-technician",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "Automation Maintenance Technician",
+      "slug": "automation-maintenance-technician",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "Automation Engineer",
+      "slug": "automation-engineer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "PLC Technician",
+      "slug": "plc-technician",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "PLC Engineer",
+      "slug": "plc-engineer",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "SCADA Technician",
+      "slug": "scada-technician",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "SCADA Engineer",
+      "slug": "scada-engineer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "Field Instrument Technician",
+      "slug": "field-instrument-technician",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "Calibration Technician",
+      "slug": "calibration-technician",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "Calibration Engineer",
+      "slug": "calibration-engineer",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "Analyzer Technician",
+      "slug": "analyzer-technician",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "Process Instrument Technician",
+      "slug": "process-instrument-technician",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "Electrical and Instrumentation Technician",
+      "slug": "electrical-and-instrumentation-technician",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "instrumentasi-kontrol-dan-otomasi-peralatan",
+      "groupLabel": "Instrumentasi, Kontrol, dan Otomasi Peralatan",
+      "name": "Electrical and Instrumentation Engineer",
+      "slug": "electrical-and-instrumentation-engineer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Fixed Plant Maintenance Technician",
+      "slug": "fixed-plant-maintenance-technician",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Fixed Plant Maintenance Engineer",
+      "slug": "fixed-plant-maintenance-engineer",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Fixed Plant Maintenance Supervisor",
+      "slug": "fixed-plant-maintenance-supervisor",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Fixed Plant Maintenance Superintendent",
+      "slug": "fixed-plant-maintenance-superintendent",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Plant Maintenance Technician",
+      "slug": "plant-maintenance-technician",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Plant Maintenance Engineer",
+      "slug": "plant-maintenance-engineer",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Plant Maintenance Planner",
+      "slug": "plant-maintenance-planner",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Plant Maintenance Supervisor",
+      "slug": "plant-maintenance-supervisor",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Plant Maintenance Superintendent",
+      "slug": "plant-maintenance-superintendent",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Plant Maintenance Manager",
+      "slug": "plant-maintenance-manager",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Process Plant Maintenance Engineer",
+      "slug": "process-plant-maintenance-engineer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Processing Plant Maintenance Technician",
+      "slug": "processing-plant-maintenance-technician",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Crusher Maintenance Technician",
+      "slug": "crusher-maintenance-technician",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Crusher Maintenance Engineer",
+      "slug": "crusher-maintenance-engineer",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Conveyor Maintenance Technician",
+      "slug": "conveyor-maintenance-technician",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Conveyor Maintenance Engineer",
+      "slug": "conveyor-maintenance-engineer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Mill Maintenance Technician",
+      "slug": "mill-maintenance-technician",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Mill Maintenance Engineer",
+      "slug": "mill-maintenance-engineer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Screen Maintenance Technician",
+      "slug": "screen-maintenance-technician",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Screen Maintenance Engineer",
+      "slug": "screen-maintenance-engineer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Chute Maintenance Technician",
+      "slug": "chute-maintenance-technician",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Materials Handling Maintenance Technician",
+      "slug": "materials-handling-maintenance-technician",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Materials Handling Engineer",
+      "slug": "materials-handling-engineer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Workshop Technician",
+      "slug": "workshop-technician",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Workshop Supervisor",
+      "slug": "workshop-supervisor",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Workshop Superintendent",
+      "slug": "workshop-superintendent",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "pemeliharaan-pabrik-pengolahan-dan-fasilitas-tetap",
+      "groupLabel": "Pemeliharaan Pabrik Pengolahan dan Fasilitas Tetap",
+      "name": "Workshop Manager",
+      "slug": "workshop-manager",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "perencanaan-dan-penjadwalan-pemeliharaan",
+      "groupLabel": "Perencanaan dan Penjadwalan Pemeliharaan",
+      "name": "Maintenance Planner",
+      "slug": "maintenance-planner",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "perencanaan-dan-penjadwalan-pemeliharaan",
+      "groupLabel": "Perencanaan dan Penjadwalan Pemeliharaan",
+      "name": "Maintenance Planning Engineer",
+      "slug": "maintenance-planning-engineer",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "perencanaan-dan-penjadwalan-pemeliharaan",
+      "groupLabel": "Perencanaan dan Penjadwalan Pemeliharaan",
+      "name": "Maintenance Planning Specialist",
+      "slug": "maintenance-planning-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "perencanaan-dan-penjadwalan-pemeliharaan",
+      "groupLabel": "Perencanaan dan Penjadwalan Pemeliharaan",
+      "name": "Maintenance Planning Coordinator",
+      "slug": "maintenance-planning-coordinator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "perencanaan-dan-penjadwalan-pemeliharaan",
+      "groupLabel": "Perencanaan dan Penjadwalan Pemeliharaan",
+      "name": "Maintenance Scheduler",
+      "slug": "maintenance-scheduler",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "perencanaan-dan-penjadwalan-pemeliharaan",
+      "groupLabel": "Perencanaan dan Penjadwalan Pemeliharaan",
+      "name": "Maintenance Scheduling Engineer",
+      "slug": "maintenance-scheduling-engineer",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "perencanaan-dan-penjadwalan-pemeliharaan",
+      "groupLabel": "Perencanaan dan Penjadwalan Pemeliharaan",
+      "name": "Maintenance Scheduling Coordinator",
+      "slug": "maintenance-scheduling-coordinator",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "perencanaan-dan-penjadwalan-pemeliharaan",
+      "groupLabel": "Perencanaan dan Penjadwalan Pemeliharaan",
+      "name": "Maintenance Planning and Scheduling Engineer",
+      "slug": "maintenance-planning-and-scheduling-engineer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "perencanaan-dan-penjadwalan-pemeliharaan",
+      "groupLabel": "Perencanaan dan Penjadwalan Pemeliharaan",
+      "name": "Shutdown Planner",
+      "slug": "shutdown-planner",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "perencanaan-dan-penjadwalan-pemeliharaan",
+      "groupLabel": "Perencanaan dan Penjadwalan Pemeliharaan",
+      "name": "Shutdown Planning Engineer",
+      "slug": "shutdown-planning-engineer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "perencanaan-dan-penjadwalan-pemeliharaan",
+      "groupLabel": "Perencanaan dan Penjadwalan Pemeliharaan",
+      "name": "Shutdown Coordinator",
+      "slug": "shutdown-coordinator",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "perencanaan-dan-penjadwalan-pemeliharaan",
+      "groupLabel": "Perencanaan dan Penjadwalan Pemeliharaan",
+      "name": "Shutdown Scheduler",
+      "slug": "shutdown-scheduler",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "perencanaan-dan-penjadwalan-pemeliharaan",
+      "groupLabel": "Perencanaan dan Penjadwalan Pemeliharaan",
+      "name": "Shutdown Superintendent",
+      "slug": "shutdown-superintendent",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "perencanaan-dan-penjadwalan-pemeliharaan",
+      "groupLabel": "Perencanaan dan Penjadwalan Pemeliharaan",
+      "name": "Maintenance Project Planner",
+      "slug": "maintenance-project-planner",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "perencanaan-dan-penjadwalan-pemeliharaan",
+      "groupLabel": "Perencanaan dan Penjadwalan Pemeliharaan",
+      "name": "Maintenance Project Coordinator",
+      "slug": "maintenance-project-coordinator",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "perencanaan-dan-penjadwalan-pemeliharaan",
+      "groupLabel": "Perencanaan dan Penjadwalan Pemeliharaan",
+      "name": "Maintenance Work Coordinator",
+      "slug": "maintenance-work-coordinator",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "perencanaan-dan-penjadwalan-pemeliharaan",
+      "groupLabel": "Perencanaan dan Penjadwalan Pemeliharaan",
+      "name": "Maintenance Execution Coordinator",
+      "slug": "maintenance-execution-coordinator",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "perencanaan-dan-penjadwalan-pemeliharaan",
+      "groupLabel": "Perencanaan dan Penjadwalan Pemeliharaan",
+      "name": "Work Management Specialist",
+      "slug": "work-management-specialist",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "perencanaan-dan-penjadwalan-pemeliharaan",
+      "groupLabel": "Perencanaan dan Penjadwalan Pemeliharaan",
+      "name": "Work Order Planner",
+      "slug": "work-order-planner",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "perencanaan-dan-penjadwalan-pemeliharaan",
+      "groupLabel": "Perencanaan dan Penjadwalan Pemeliharaan",
+      "name": "Maintenance Planning Analyst",
+      "slug": "maintenance-planning-analyst",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Reliability Engineer",
+      "slug": "reliability-engineer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Reliability Specialist",
+      "slug": "reliability-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Reliability Analyst",
+      "slug": "reliability-analyst",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Reliability Coordinator",
+      "slug": "reliability-coordinator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Reliability Supervisor",
+      "slug": "reliability-supervisor",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Reliability Superintendent",
+      "slug": "reliability-superintendent",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Reliability Manager",
+      "slug": "reliability-manager",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Asset Reliability Engineer",
+      "slug": "asset-reliability-engineer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Equipment Reliability Engineer",
+      "slug": "equipment-reliability-engineer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Mobile Equipment Reliability Engineer",
+      "slug": "mobile-equipment-reliability-engineer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Fixed Plant Reliability Engineer",
+      "slug": "fixed-plant-reliability-engineer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Mechanical Reliability Engineer",
+      "slug": "mechanical-reliability-engineer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Electrical Reliability Engineer",
+      "slug": "electrical-reliability-engineer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Asset Management Engineer",
+      "slug": "asset-management-engineer",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Asset Management Specialist",
+      "slug": "asset-management-specialist",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Asset Management Analyst",
+      "slug": "asset-management-analyst",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Asset Performance Engineer",
+      "slug": "asset-performance-engineer",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Asset Performance Analyst",
+      "slug": "asset-performance-analyst",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Condition Monitoring Engineer",
+      "slug": "condition-monitoring-engineer",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Condition Monitoring Specialist",
+      "slug": "condition-monitoring-specialist",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Condition Monitoring Technician",
+      "slug": "condition-monitoring-technician",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Predictive Maintenance Engineer",
+      "slug": "predictive-maintenance-engineer",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Predictive Maintenance Specialist",
+      "slug": "predictive-maintenance-specialist",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Predictive Maintenance Technician",
+      "slug": "predictive-maintenance-technician",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Maintenance Strategy Engineer",
+      "slug": "maintenance-strategy-engineer",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Maintenance Improvement Engineer",
+      "slug": "maintenance-improvement-engineer",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Maintenance Excellence Specialist",
+      "slug": "maintenance-excellence-specialist",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Reliability-Centered Maintenance Specialist",
+      "slug": "reliability-centered-maintenance-specialist",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "RCM Engineer",
+      "slug": "rcm-engineer",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Failure Analysis Engineer",
+      "slug": "failure-analysis-engineer",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Failure Analysis Specialist",
+      "slug": "failure-analysis-specialist",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Root Cause Analysis Specialist",
+      "slug": "root-cause-analysis-specialist",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "keandalan-dan-manajemen-aset",
+      "groupLabel": "Keandalan dan Manajemen Aset",
+      "name": "Equipment Health Analyst",
+      "slug": "equipment-health-analyst",
+      "description": null,
+      "displayOrder": 32
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Maintenance Inspector",
+      "slug": "maintenance-inspector",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Mechanical Inspector",
+      "slug": "mechanical-inspector",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Electrical Inspector",
+      "slug": "electrical-inspector",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Equipment Inspector",
+      "slug": "equipment-inspector",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Mobile Equipment Inspector",
+      "slug": "mobile-equipment-inspector",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Plant Equipment Inspector",
+      "slug": "plant-equipment-inspector",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Condition Monitoring Technician",
+      "slug": "condition-monitoring-technician",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Vibration Analyst",
+      "slug": "vibration-analyst",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Vibration Monitoring Technician",
+      "slug": "vibration-monitoring-technician",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Thermography Technician",
+      "slug": "thermography-technician",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Infrared Inspection Technician",
+      "slug": "infrared-inspection-technician",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Oil Analysis Technician",
+      "slug": "oil-analysis-technician",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Lubricant Analysis Specialist",
+      "slug": "lubricant-analysis-specialist",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Ultrasonic Testing Technician",
+      "slug": "ultrasonic-testing-technician",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Non-Destructive Testing Technician",
+      "slug": "non-destructive-testing-technician",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "NDT Inspector",
+      "slug": "ndt-inspector",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Corrosion Inspector",
+      "slug": "corrosion-inspector",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Wear Monitoring Specialist",
+      "slug": "wear-monitoring-specialist",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Structural Integrity Inspector",
+      "slug": "structural-integrity-inspector",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Asset Integrity Engineer",
+      "slug": "asset-integrity-engineer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Asset Integrity Specialist",
+      "slug": "asset-integrity-specialist",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "inspeksi-dan-pemantauan-kondisi",
+      "groupLabel": "Inspeksi dan Pemantauan Kondisi",
+      "name": "Equipment Health Technician",
+      "slug": "equipment-health-technician",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-pemeliharaan",
+      "groupLabel": "Kepemimpinan dan Manajemen Pemeliharaan",
+      "name": "Maintenance Supervisor",
+      "slug": "maintenance-supervisor",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-pemeliharaan",
+      "groupLabel": "Kepemimpinan dan Manajemen Pemeliharaan",
+      "name": "Maintenance Superintendent",
+      "slug": "maintenance-superintendent",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-pemeliharaan",
+      "groupLabel": "Kepemimpinan dan Manajemen Pemeliharaan",
+      "name": "Maintenance Manager",
+      "slug": "maintenance-manager",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-pemeliharaan",
+      "groupLabel": "Kepemimpinan dan Manajemen Pemeliharaan",
+      "name": "Maintenance Department Manager",
+      "slug": "maintenance-department-manager",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-pemeliharaan",
+      "groupLabel": "Kepemimpinan dan Manajemen Pemeliharaan",
+      "name": "Maintenance and Reliability Manager",
+      "slug": "maintenance-and-reliability-manager",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-pemeliharaan",
+      "groupLabel": "Kepemimpinan dan Manajemen Pemeliharaan",
+      "name": "Maintenance and Asset Manager",
+      "slug": "maintenance-and-asset-manager",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-pemeliharaan",
+      "groupLabel": "Kepemimpinan dan Manajemen Pemeliharaan",
+      "name": "Engineering and Maintenance Manager",
+      "slug": "engineering-and-maintenance-manager",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-pemeliharaan",
+      "groupLabel": "Kepemimpinan dan Manajemen Pemeliharaan",
+      "name": "Mobile Maintenance Manager",
+      "slug": "mobile-maintenance-manager",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-pemeliharaan",
+      "groupLabel": "Kepemimpinan dan Manajemen Pemeliharaan",
+      "name": "Fixed Plant Maintenance Manager",
+      "slug": "fixed-plant-maintenance-manager",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-pemeliharaan",
+      "groupLabel": "Kepemimpinan dan Manajemen Pemeliharaan",
+      "name": "Workshop Manager",
+      "slug": "workshop-manager",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-pemeliharaan",
+      "groupLabel": "Kepemimpinan dan Manajemen Pemeliharaan",
+      "name": "Maintenance Operations Manager",
+      "slug": "maintenance-operations-manager",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-pemeliharaan",
+      "groupLabel": "Kepemimpinan dan Manajemen Pemeliharaan",
+      "name": "Head of Maintenance",
+      "slug": "head-of-maintenance",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-pemeliharaan",
+      "groupLabel": "Kepemimpinan dan Manajemen Pemeliharaan",
+      "name": "Head of Reliability",
+      "slug": "head-of-reliability",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-pemeliharaan",
+      "groupLabel": "Kepemimpinan dan Manajemen Pemeliharaan",
+      "name": "Maintenance General Superintendent",
+      "slug": "maintenance-general-superintendent",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-pemeliharaan",
+      "groupLabel": "Kepemimpinan dan Manajemen Pemeliharaan",
+      "name": "Maintenance General Manager",
+      "slug": "maintenance-general-manager",
+      "description": null,
+      "displayOrder": 14
+    }
+  ],
+  "profileItems": [
+    {
+      "itemKey": "work-scope-informasi-utama-maintenance-planner-berfokus-pada-perencanaan-penjadwalan-dan-kesiapan-pekerjaan-sedangkan-teknisi-atau-mekanik-lebih-banyak-melaksan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Maintenance Planner berfokus pada perencanaan, penjadwalan, dan kesiapan pekerjaan, sedangkan teknisi atau mekanik lebih banyak melaksanakan pekerjaan teknis di lapangan atau bengkel. Fungsi Reliability Engineer biasanya berfokus pada analisis data, strategi pemeliharaan, dan peningkatan keandalan aset. Peran tersebut dapat saling berhubungan, tetapi memiliki fokus yang berbeda. Profesi dalam kategori Pemeliharaan dan Keandalan Peralatan dapat terlibat dalam kegiatan berikut:",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pemeriksaan-kondisi-peralatan-sebelum-selama-atau-setelah-digunakan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pemeriksaan kondisi peralatan sebelum, selama, atau setelah digunakan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melaksanakan-pemeliharaan-rutin-berdasarkan-jadwal-jam-operasi-kondisi-peralatan-atau-kebutuhan-teknis",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melaksanakan pemeliharaan rutin berdasarkan jadwal, jam operasi, kondisi peralatan, atau kebutuhan teknis.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pemeliharaan-preventif-untuk-mengurangi-kemungkinan-terjadinya-kerusakan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pemeliharaan preventif untuk mengurangi kemungkinan terjadinya kerusakan.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melaksanakan-pemeliharaan-korektif-untuk-memperbaiki-kerusakan-atau-ketidaksesuaian-yang-telah-ditemukan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melaksanakan pemeliharaan korektif untuk memperbaiki kerusakan atau ketidaksesuaian yang telah ditemukan.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pemeliharaan-prediktif-atau-berbasis-kondisi-menggunakan-data-inspeksi-dan-pemantauan-kondisi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pemeliharaan prediktif atau berbasis kondisi menggunakan data inspeksi dan pemantauan kondisi.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendiagnosis-gangguan-mekanis-kelistrikan-hidraulik-pneumatik-instrumentasi-atau-sistem-kontrol",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendiagnosis gangguan mekanis, kelistrikan, hidraulik, pneumatik, instrumentasi, atau sistem kontrol.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pembongkaran-perbaikan-penggantian-pemasangan-penyetelan-dan-pengujian-komponen",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pembongkaran, perbaikan, penggantian, pemasangan, penyetelan, dan pengujian komponen.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memeriksa-kondisi-mesin-transmisi-sistem-pengereman-sistem-hidraulik-sistem-kelistrikan-sistem-pendingin-serta-komponen-penting-lainn",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memeriksa kondisi mesin, transmisi, sistem pengereman, sistem hidraulik, sistem kelistrikan, sistem pendingin, serta komponen penting lainnya.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pemeliharaan-peralatan-bergerak-seperti-haul-truck-excavator-loader-dozer-drill-rig-dan-kendaraan-pendukung",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pemeliharaan peralatan bergerak seperti haul truck, excavator, loader, dozer, drill rig, dan kendaraan pendukung.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pemeliharaan-fasilitas-tetap-seperti-crusher-conveyor-mill-pompa-screen-chute-sistem-kelistrikan-dan-fasilitas-pengolahan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pemeliharaan fasilitas tetap seperti crusher, conveyor, mill, pompa, screen, chute, sistem kelistrikan, dan fasilitas pengolahan.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-rencana-kerja-pemeliharaan-termasuk-kebutuhan-tenaga-kerja-waktu-peralatan-material-dan-suku-cadang",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun rencana kerja pemeliharaan, termasuk kebutuhan tenaga kerja, waktu, peralatan, material, dan suku cadang.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-jadwal-pemeliharaan-harian-mingguan-bulanan-atau-berdasarkan-jam-operasi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun jadwal pemeliharaan harian, mingguan, bulanan, atau berdasarkan jam operasi.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyiapkan-work-order-instruksi-kerja-daftar-pekerjaan-dan-dokumentasi-pemeliharaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyiapkan work order, instruksi kerja, daftar pekerjaan, dan dokumentasi pemeliharaan.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-riwayat-perbaikan-data-kerusakan-serta-informasi-kondisi-aset-melalui-cmms-atau-sistem-perusahaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola riwayat perbaikan, data kerusakan, serta informasi kondisi aset melalui CMMS atau sistem perusahaan.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengidentifikasi-kebutuhan-suku-cadang-dan-berkoordinasi-dengan-bagian-gudang-pengadaan-atau-pemasok",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengidentifikasi kebutuhan suku cadang dan berkoordinasi dengan bagian gudang, pengadaan, atau pemasok.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-merencanakan-serta-mengoordinasikan-kegiatan-shutdown-atau-penghentian-terjadwal-untuk-pemeliharaan-besar",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Merencanakan serta mengoordinasikan kegiatan shutdown atau penghentian terjadwal untuk pemeliharaan besar.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-analisis-kegagalan-untuk-mengidentifikasi-penyebab-dan-mencegah-terulangnya-gangguan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan analisis kegagalan untuk mengidentifikasi penyebab dan mencegah terulangnya gangguan.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menganalisis-indikator-seperti-ketersediaan-peralatan-waktu-henti-frekuensi-kerusakan-waktu-perbaikan-dan-kinerja-pemeliharaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menganalisis indikator seperti ketersediaan peralatan, waktu henti, frekuensi kerusakan, waktu perbaikan, dan kinerja pemeliharaan.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pemantauan-kondisi-menggunakan-metode-seperti-analisis-getaran-termografi-analisis-oli-pemeriksaan-ultrasonik-atau-metode-l",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pemantauan kondisi menggunakan metode seperti analisis getaran, termografi, analisis oli, pemeriksaan ultrasonik, atau metode lain yang sesuai.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengembangkan-strategi-pemeliharaan-dan-meningkatkan-keandalan-aset-berdasarkan-data-serta-kondisi-operasi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengembangkan strategi pemeliharaan dan meningkatkan keandalan aset berdasarkan data serta kondisi operasi.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memastikan-pekerjaan-pemeliharaan-dilakukan-sesuai-prosedur-standar-teknis-dan-persyaratan-keselamatan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memastikan pekerjaan pemeliharaan dilakukan sesuai prosedur, standar teknis, dan persyaratan keselamatan.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-pengujian-fungsi-serta-verifikasi-kondisi-peralatan-sebelum-dikembalikan-ke-operasi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan pengujian fungsi serta verifikasi kondisi peralatan sebelum dikembalikan ke operasi.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-berkoordinasi-dengan-tim-operasi-perencanaan-produksi-gudang-pengadaan-teknik-dan-keselamatan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Berkoordinasi dengan tim operasi, perencanaan, produksi, gudang, pengadaan, teknik, dan keselamatan.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-teknis-umum",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi teknis umum",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-prinsip-dasar-pemeliharaan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami prinsip dasar pemeliharaan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-fungsi-dan-sistem-kerja-peralatan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami fungsi dan sistem kerja peralatan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-mekanika",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar mekanika.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-kelistrikan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar kelistrikan.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-sistem-hidraulik-dan-pneumatik",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami sistem hidraulik dan pneumatik.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-penggunaan-alat-kerja-dan-alat-ukur",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami penggunaan alat kerja dan alat ukur.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-informasi-utama-mampu-membaca-gambar-teknik-dan-diagram",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mampu membaca gambar teknik dan diagram.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-prosedur-inspeksi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami prosedur inspeksi.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-pemecahan-masalah-teknis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar pemecahan masalah teknis.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dokumentasi-pemeliharaan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dokumentasi pemeliharaan.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-penggunaan-work-order",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami penggunaan work order.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-pengelolaan-aset",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar pengelolaan aset.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-prinsip-keselamatan-kerja-pemeliharaan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami prinsip keselamatan kerja pemeliharaan.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-pengelolaan-suku-cadang",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar pengelolaan suku cadang.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-teknis-spesialis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi teknis spesialis",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-mekanis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan Mekanis",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-mesin-diesel",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan mesin diesel.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-sistem-transmisi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan sistem transmisi.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-sistem-powertrain",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan sistem powertrain.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-sistem-hidraulik",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan sistem hidraulik.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-sistem-pneumatik",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan sistem pneumatik.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-pompa",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan pompa.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-bearing",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan bearing.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-gearbox",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan gearbox.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-peralatan-berputar",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan peralatan berputar.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "competency-informasi-utama-pelumasan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelumasan.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "competency-informasi-utama-penyelarasan-poros-shaft-alignment",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Penyelarasan poros (shaft alignment).",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "competency-informasi-utama-penyeimbangan-peralatan-balancing",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Penyeimbangan peralatan (balancing).",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengelasan-dan-fabrikasi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelasan dan fabrikasi.",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "competency-informasi-utama-perbaikan-komponen-mekanis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Perbaikan komponen mekanis.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-kelistrikan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan Kelistrikan",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-motor-listrik",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan motor listrik.",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-generator",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan generator.",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-sistem-distribusi-tenaga",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan sistem distribusi tenaga.",
+      "displayOrder": 34
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-panel-listrik",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan panel listrik.",
+      "displayOrder": 35
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-sistem-tegangan-rendah-dan-tinggi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan sistem tegangan rendah dan tinggi.",
+      "displayOrder": 36
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengujian-kelistrikan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengujian kelistrikan.",
+      "displayOrder": 37
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-sistem-proteksi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan sistem proteksi.",
+      "displayOrder": 38
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-sistem-power-supply",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan sistem power supply.",
+      "displayOrder": 39
+    },
+    {
+      "itemKey": "competency-informasi-utama-analisis-gangguan-kelistrikan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis gangguan kelistrikan.",
+      "displayOrder": 40
+    },
+    {
+      "itemKey": "competency-informasi-utama-instrumentasi-dan-kontrol",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Instrumentasi dan Kontrol",
+      "displayOrder": 41
+    },
+    {
+      "itemKey": "competency-informasi-utama-kalibrasi-instrumen",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kalibrasi instrumen.",
+      "displayOrder": 42
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-sensor-dan-transmitter",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan sensor dan transmitter.",
+      "displayOrder": 43
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-sistem-plc",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan sistem PLC.",
+      "displayOrder": 44
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-sistem-scada",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan sistem SCADA.",
+      "displayOrder": 45
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-sistem-kontrol-proses",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan sistem kontrol proses.",
+      "displayOrder": 46
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengujian-loop-instrumentasi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengujian loop instrumentasi.",
+      "displayOrder": 47
+    },
+    {
+      "itemKey": "competency-informasi-utama-diagnostik-sistem-otomasi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Diagnostik sistem otomasi.",
+      "displayOrder": 48
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-control-valve",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan control valve.",
+      "displayOrder": 49
+    },
+    {
+      "itemKey": "competency-informasi-utama-perencanaan-dan-penjadwalan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Perencanaan dan Penjadwalan",
+      "displayOrder": 50
+    },
+    {
+      "itemKey": "competency-informasi-utama-penyusunan-rencana-kerja-pemeliharaan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Penyusunan rencana kerja pemeliharaan.",
+      "displayOrder": 51
+    },
+    {
+      "itemKey": "competency-informasi-utama-penyusunan-job-plan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Penyusunan job plan.",
+      "displayOrder": 52
+    },
+    {
+      "itemKey": "competency-informasi-utama-penjadwalan-pemeliharaan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Penjadwalan pemeliharaan.",
+      "displayOrder": 53
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengelolaan-work-order",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan work order.",
+      "displayOrder": 54
+    },
+    {
+      "itemKey": "competency-informasi-utama-perencanaan-kebutuhan-tenaga-kerja",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Perencanaan kebutuhan tenaga kerja.",
+      "displayOrder": 55
+    },
+    {
+      "itemKey": "competency-informasi-utama-perencanaan-material-dan-suku-cadang",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Perencanaan material dan suku cadang.",
+      "displayOrder": 56
+    },
+    {
+      "itemKey": "competency-informasi-utama-perencanaan-shutdown",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Perencanaan shutdown.",
+      "displayOrder": 57
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengendalian-pekerjaan-pemeliharaan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengendalian pekerjaan pemeliharaan.",
+      "displayOrder": 58
+    },
+    {
+      "itemKey": "competency-informasi-utama-penggunaan-cmms",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Penggunaan CMMS.",
+      "displayOrder": 59
+    },
+    {
+      "itemKey": "competency-informasi-utama-keandalan-dan-manajemen-aset",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keandalan dan Manajemen Aset",
+      "displayOrder": 60
+    },
+    {
+      "itemKey": "competency-informasi-utama-analisis-kegagalan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis kegagalan.",
+      "displayOrder": 61
+    },
+    {
+      "itemKey": "competency-informasi-utama-analisis-akar-penyebab",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis akar penyebab.",
+      "displayOrder": 62
+    },
+    {
+      "itemKey": "competency-informasi-utama-reliability-centered-maintenance-rcm",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Reliability-Centered Maintenance (RCM).",
+      "displayOrder": 63
+    },
+    {
+      "itemKey": "competency-informasi-utama-failure-mode-and-effects-analysis-fmea",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Failure Mode and Effects Analysis (FMEA).",
+      "displayOrder": 64
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-berbasis-kondisi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan berbasis kondisi.",
+      "displayOrder": 65
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemeliharaan-prediktif",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemeliharaan prediktif.",
+      "displayOrder": 66
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemantauan-kondisi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemantauan kondisi.",
+      "displayOrder": 67
+    },
+    {
+      "itemKey": "competency-informasi-utama-analisis-getaran",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis getaran.",
+      "displayOrder": 68
+    },
+    {
+      "itemKey": "competency-informasi-utama-termografi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Termografi.",
+      "displayOrder": 69
+    },
+    {
+      "itemKey": "competency-informasi-utama-analisis-oli",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis oli.",
+      "displayOrder": 70
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengujian-tanpa-merusak-non-destructive-testing-ndt",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengujian tanpa merusak (Non-Destructive Testing/NDT).",
+      "displayOrder": 71
+    },
+    {
+      "itemKey": "competency-informasi-utama-analisis-keandalan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis keandalan.",
+      "displayOrder": 72
+    },
+    {
+      "itemKey": "competency-informasi-utama-analisis-ketersediaan-aset",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis ketersediaan aset.",
+      "displayOrder": 73
+    },
+    {
+      "itemKey": "competency-informasi-utama-analisis-waktu-henti",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis waktu henti.",
+      "displayOrder": 74
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengembangan-strategi-pemeliharaan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengembangan strategi pemeliharaan.",
+      "displayOrder": 75
+    },
+    {
+      "itemKey": "competency-informasi-utama-manajemen-siklus-hidup-aset",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen siklus hidup aset.",
+      "displayOrder": 76
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-nonteknis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi nonteknis",
+      "displayOrder": 77
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-memecahkan-masalah",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan memecahkan masalah.",
+      "displayOrder": 78
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-berpikir-analitis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan berpikir analitis.",
+      "displayOrder": 79
+    },
+    {
+      "itemKey": "competency-informasi-utama-ketelitian-dan-perhatian-terhadap-detail",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ketelitian dan perhatian terhadap detail.",
+      "displayOrder": 80
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-melakukan-diagnosis-teknis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan melakukan diagnosis teknis.",
+      "displayOrder": 81
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-mengambil-keputusan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan mengambil keputusan.",
+      "displayOrder": 82
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-bekerja-dalam-tim",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan bekerja dalam tim.",
+      "displayOrder": 83
+    },
+    {
+      "itemKey": "competency-informasi-utama-komunikasi-teknis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Komunikasi teknis.",
+      "displayOrder": 84
+    },
+    {
+      "itemKey": "competency-informasi-utama-manajemen-waktu",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen waktu.",
+      "displayOrder": 85
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-mengatur-prioritas",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan mengatur prioritas.",
+      "displayOrder": 86
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-bekerja-di-bawah-tekanan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan bekerja di bawah tekanan.",
+      "displayOrder": 87
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-menyusun-laporan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan menyusun laporan.",
+      "displayOrder": 88
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-beradaptasi-terhadap-perubahan-kondisi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan beradaptasi terhadap perubahan kondisi.",
+      "displayOrder": 89
+    },
+    {
+      "itemKey": "competency-informasi-utama-disiplin-dalam-mengikuti-prosedur",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Disiplin dalam mengikuti prosedur.",
+      "displayOrder": 90
+    },
+    {
+      "itemKey": "competency-informasi-utama-tanggung-jawab-terhadap-kualitas-pekerjaan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Tanggung jawab terhadap kualitas pekerjaan.",
+      "displayOrder": 91
+    },
+    {
+      "itemKey": "competency-informasi-utama-kepemimpinan-untuk-posisi-pengawasan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kepemimpinan untuk posisi pengawasan.",
+      "displayOrder": 92
+    },
+    {
+      "itemKey": "competency-informasi-utama-kesadaran-terhadap-risiko-keselamatan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kesadaran terhadap risiko keselamatan.",
+      "displayOrder": 93
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-utama",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan utama",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-mesin",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Mesin",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-elektro",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Elektro",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-mekatronika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Mekatronika",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-instrumentasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Instrumentasi",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-otomasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Otomasi",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-industri",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Industri",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-pertambangan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Pertambangan",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-metalurgi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Metalurgi",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-kimia",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Kimia",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-fisika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Fisika",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-energi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Energi",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-perawatan-dan-perbaikan-mesin",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Perawatan dan Perbaikan Mesin",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-alat-berat",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Alat Berat",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-otomotif",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Otomotif",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-pembangkit-tenaga-listrik",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Pembangkit Tenaga Listrik",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-konversi-energi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Konversi Energi",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-manufaktur",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Manufaktur",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-material",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Material",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "education-informasi-utama-bidang-teknik-lain-yang-relevan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Bidang teknik lain yang relevan.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-pendukung-untuk-posisi-tertentu",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan pendukung untuk posisi tertentu",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-teknik-mesin",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Teknik Mesin.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-teknik-elektro",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Teknik Elektro.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-teknik-mekatronika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Teknik Mekatronika.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-teknik-instrumentasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Teknik Instrumentasi.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-teknik-otomotif",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Teknik Otomotif.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-teknik-alat-berat",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Teknik Alat Berat.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-teknik-perawatan-dan-perbaikan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Teknik Perawatan dan Perbaikan.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-pemeliharaan-alat-berat",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi pemeliharaan alat berat.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-mekanik-alat-berat",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi mekanik alat berat.",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-kelistrikan-industri",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi kelistrikan industri.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-instrumentasi-dan-kontrol",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi instrumentasi dan kontrol.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-pengelasan-dan-fabrikasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi pengelasan dan fabrikasi.",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-pemeliharaan-pabrik",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi pemeliharaan pabrik.",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-kejuruan-bidang-teknik-mesin-otomotif-alat-berat-listrik-atau-bidang-terkait",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan kejuruan bidang teknik mesin, otomotif, alat berat, listrik, atau bidang terkait.",
+      "displayOrder": 34
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-lain-yang-sesuai-dengan-kebutuhan-jabatan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan lain yang sesuai dengan kebutuhan jabatan.",
+      "displayOrder": 35
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-sap-plant-maintenance-sap-pm",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: SAP Plant Maintenance (SAP PM)",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-ibm-maximo",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: IBM Maximo",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-oracle-enterprise-asset-management-oracle-eam",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: Oracle Enterprise Asset Management (Oracle EAM)",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-pronto-xi",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: Pronto Xi",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-fiix-cmms",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: Fiix CMMS",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-b-perencanaan-dan-penjadwalan",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: B. Perencanaan dan Penjadwalan",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-microsoft-project",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: Microsoft Project",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-primavera-p6",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: Primavera P6",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-microsoft-excel",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: Microsoft Excel",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-c-analisis-keandalan-dan-kondisi",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: C. Analisis Keandalan dan Kondisi",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-reliasoft",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: ReliaSoft",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-dingo",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: DINGO",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-software-analisis-getaran",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: Software Analisis Getaran",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-software-analisis-oli",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: Software Analisis Oli",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-d-desain-dan-dokumentasi-teknik",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: D. Desain dan Dokumentasi Teknik",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-autocad",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: AutoCAD",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-autodesk-inventor",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: Autodesk Inventor",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-solidworks",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: SolidWorks",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-eplan",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: EPLAN",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-e-analisis-data-dan-pelaporan",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: E. Analisis Data dan Pelaporan",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-microsoft-power-bi",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: Microsoft Power BI",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "software-informasi-utama-cmms-dan-enterprise-asset-management-python-dan-r",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "CMMS dan Enterprise Asset Management: Python dan R",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-teknis",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan teknis",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-dasar-pemeliharaan-alat-berat",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan dasar pemeliharaan alat berat.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemeliharaan-mesin-diesel",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemeliharaan mesin diesel.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-sistem-powertrain",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan sistem powertrain.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-sistem-hidraulik",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan sistem hidraulik.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-sistem-pneumatik",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan sistem pneumatik.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemeliharaan-sistem-pendingin",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemeliharaan sistem pendingin.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemeliharaan-sistem-bahan-bakar",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemeliharaan sistem bahan bakar.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemeliharaan-peralatan-mekanis",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemeliharaan peralatan mekanis.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemeliharaan-peralatan-berputar",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemeliharaan peralatan berputar.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemeliharaan-pompa-dan-gearbox",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemeliharaan pompa dan gearbox.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pelumasan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pelumasan.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-shaft-alignment",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan shaft alignment.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-balancing",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan balancing.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemeliharaan-sistem-kelistrikan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemeliharaan sistem kelistrikan.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-motor-dan-generator-listrik",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan motor dan generator listrik.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-sistem-distribusi-tenaga",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan sistem distribusi tenaga.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemeliharaan-sistem-tegangan-tinggi-dan-rendah",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemeliharaan sistem tegangan tinggi dan rendah.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-instrumentasi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan instrumentasi.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-kalibrasi-instrumen",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan kalibrasi instrumen.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-plc-dan-scada",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan PLC dan SCADA.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-sistem-kontrol-dan-otomasi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan sistem kontrol dan otomasi.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemeliharaan-crusher-dan-conveyor",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemeliharaan crusher dan conveyor.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemeliharaan-fasilitas-pengolahan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemeliharaan fasilitas pengolahan.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-perencanaan-dan-penjadwalan-pemeliharaan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan perencanaan dan penjadwalan pemeliharaan.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-penggunaan-cmms",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan penggunaan CMMS.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-manajemen-aset",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan manajemen aset.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-reliability-centered-maintenance-rcm",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan Reliability-Centered Maintenance (RCM).",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-failure-mode-and-effects-analysis-fmea",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan Failure Mode and Effects Analysis (FMEA).",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-analisis-akar-penyebab",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan analisis akar penyebab.",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemeliharaan-berbasis-kondisi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemeliharaan berbasis kondisi.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemeliharaan-prediktif",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemeliharaan prediktif.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-analisis-getaran",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan analisis getaran.",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-termografi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan termografi.",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-analisis-oli",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan analisis oli.",
+      "displayOrder": 34
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-non-destructive-testing-ndt",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan Non-Destructive Testing (NDT).",
+      "displayOrder": 35
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-perencanaan-dan-pelaksanaan-shutdown",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan perencanaan dan pelaksanaan shutdown.",
+      "displayOrder": 36
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengelolaan-suku-cadang",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengelolaan suku cadang.",
+      "displayOrder": 37
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan",
+      "displayOrder": 38
+    },
+    {
+      "itemKey": "training-informasi-utama-induksi-keselamatan-pertambangan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Induksi keselamatan pertambangan.",
+      "displayOrder": 39
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-kerja-pemeliharaan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan kerja pemeliharaan.",
+      "displayOrder": 40
+    },
+    {
+      "itemKey": "training-informasi-utama-identifikasi-bahaya-dan-penilaian-risiko",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Identifikasi bahaya dan penilaian risiko.",
+      "displayOrder": 41
+    },
+    {
+      "itemKey": "training-informasi-utama-pengendalian-energi-berbahaya-lockout-tagout-atau-loto",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengendalian energi berbahaya (Lockout/Tagout atau LOTO).",
+      "displayOrder": 42
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-kerja-kelistrikan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan kerja kelistrikan.",
+      "displayOrder": 43
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-sistem-tegangan-tinggi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan sistem tegangan tinggi.",
+      "displayOrder": 44
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-bekerja-di-dekat-alat-berat",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan bekerja di dekat alat berat.",
+      "displayOrder": 45
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-penggunaan-alat-kerja",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan penggunaan alat kerja.",
+      "displayOrder": 46
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-pengangkatan-dan-pemindahan-beban",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan pengangkatan dan pemindahan beban.",
+      "displayOrder": 47
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-penggunaan-alat-angkat",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan penggunaan alat angkat.",
+      "displayOrder": 48
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-pengelasan-dan-pekerjaan-panas",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan pengelasan dan pekerjaan panas.",
+      "displayOrder": 49
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-bekerja-di-ketinggian-apabila-relevan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan bekerja di ketinggian apabila relevan.",
+      "displayOrder": 50
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-ruang-terbatas-apabila-relevan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan ruang terbatas apabila relevan.",
+      "displayOrder": 51
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-penggunaan-bahan-kimia-dan-pelumas",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan penggunaan bahan kimia dan pelumas.",
+      "displayOrder": 52
+    },
+    {
+      "itemKey": "training-informasi-utama-penggunaan-alat-pelindung-diri",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Penggunaan alat pelindung diri.",
+      "displayOrder": 53
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-kerja-di-bengkel",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan kerja di bengkel.",
+      "displayOrder": 54
+    },
+    {
+      "itemKey": "training-informasi-utama-keselamatan-lalu-lintas-tambang",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan lalu lintas tambang.",
+      "displayOrder": 55
+    },
+    {
+      "itemKey": "training-informasi-utama-tanggap-darurat",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Tanggap darurat.",
+      "displayOrder": 56
+    },
+    {
+      "itemKey": "training-informasi-utama-pertolongan-pertama-sesuai-kebutuhan-tempat-kerja",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pertolongan pertama sesuai kebutuhan tempat kerja.",
+      "displayOrder": 57
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-berdasarkan-risiko-spesifik-pekerjaan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan berdasarkan risiko spesifik pekerjaan.",
+      "displayOrder": 58
+    }
+  ]
+}

@@ -136,6 +136,17 @@ export const contents = pgTable(
         AND ${table.status} = 'published'
       `,
     }),
+
+    pgPolicy("contents_career_public_read", {
+      as: "permissive",
+      for: "select",
+      to: [anonRole, authenticatedRole],
+      using: sql`
+    ${table.module} = 'career'
+    AND ${table.type} = 'profession'
+    AND ${table.status} = 'published'
+  `,
+    }),
   ],
 ).enableRLS();
 

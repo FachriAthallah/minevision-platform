@@ -25,3 +25,5 @@ export * from "./industry-reports";
 export * from "./industry-company-production";
 export * from "./industry-company-financials";
 export * from "./industry-operation-sites";
+export * from "./career-professions";
+export * from "./career-profile-items";

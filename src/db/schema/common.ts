@@ -182,6 +182,11 @@ export const industryCoordinatePrecisionEnum = pgEnum(
   ["exact", "approximate", "regency_centroid", "province_centroid", "withheld"],
 );
 
+export const careerProfileItemSectionEnum = pgEnum(
+  "career_profile_item_section",
+  ["work_scope", "competency", "education", "software", "training"],
+);
+
 export function createTimestampColumns() {
   return {
     createdAt: timestamp("created_at", {

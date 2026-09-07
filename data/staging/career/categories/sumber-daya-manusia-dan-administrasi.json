@@ -1,0 +1,4939 @@
+{
+  "schemaVersion": "1.0",
+  "categorySlug": "sumber-daya-manusia-dan-administrasi",
+  "category": {
+    "name": "Sumber Daya Manusia dan Administrasi",
+    "slug": "sumber-daya-manusia-dan-administrasi",
+    "description": "Deskripsi Kategori",
+    "displayOrder": 13,
+    "isActive": true
+  },
+  "profile": {
+    "title": "Sumber Daya Manusia dan Administrasi",
+    "slug": "sumber-daya-manusia-dan-administrasi",
+    "excerpt": "Deskripsi Kategori",
+    "body": "Deskripsi Kategori\n\nKategori Sumber Daya Manusia dan Administrasi mencakup profesi yang mengelola siklus tenaga kerja dan mendukung kelancaran administrasi organisasi. Ruang lingkupnya dapat meliputi perencanaan kebutuhan tenaga kerja, rekrutmen, orientasi, pengembangan kompetensi, pengelolaan kinerja, kompensasi dan manfaat, hubungan industrial, pengelolaan data karyawan, hingga pengelolaan layanan administrasi di kantor pusat maupun lokasi operasi.\n\nDalam industri pertambangan, fungsi SDM memiliki keterkaitan dengan kebutuhan tenaga kerja yang beragam, mulai dari tenaga teknis, operator, pengawas, tenaga profesional, hingga manajemen. Pengembangan kompetensi juga menjadi bagian penting karena pekerjaan di sektor pertambangan dapat memerlukan pengetahuan teknis, pemahaman prosedur kerja, serta pelatihan keselamatan sesuai risiko dan tanggung jawab pekerjaan. Kementerian ESDM menempatkan pelatihan dan pengembangan kompetensi sebagai salah satu upaya untuk memastikan kesiapan SDM terhadap kebutuhan sektor energi dan sumber daya mineral.\n\nContoh Profesi\n\nRekrutmen dan Akuisisi Talenta\n\nRecruitment Officer\n\nRecruitment Analyst\n\nRecruitment Specialist\n\nRecruitment Coordinator\n\nRecruitment Supervisor\n\nRecruitment Manager\n\nTalent Acquisition Officer\n\nTalent Acquisition Specialist\n\nTalent Acquisition Analyst\n\nTalent Acquisition Coordinator\n\nTalent Acquisition Supervisor\n\nTalent Acquisition Manager\n\nTalent Acquisition Lead\n\nSenior Talent Acquisition Specialist\n\nRecruitment and Selection Officer\n\nRecruitment and Selection Specialist\n\nRecruitment Administrator\n\nRecruitment Operations Officer\n\nRecruitment Operations Specialist\n\nRecruitment Marketing Specialist\n\nEmployer Branding Officer\n\nEmployer Branding Specialist\n\nEmployer Branding Manager\n\nCampus Recruitment Officer\n\nGraduate Recruitment Specialist\n\nEarly Career Recruitment Officer\n\nGraduate Development Program Officer\n\nManagement Trainee Program Officer\n\nTalent Sourcing Specialist\n\nTalent Sourcing Analyst\n\nCandidate Experience Specialist\n\nWorkforce Acquisition Manager\n\nPengembangan SDM dan Pembelajaran\n\nLearning and Development Officer\n\nLearning and Development Specialist\n\nLearning and Development Analyst\n\nLearning and Development Coordinator\n\nLearning and Development Supervisor\n\nLearning and Development Manager\n\nTraining Officer\n\nTraining Specialist\n\nTraining Coordinator\n\nTraining Administrator\n\nTraining Supervisor\n\nTraining Manager\n\nTechnical Training Officer\n\nTechnical Training Specialist\n\nTechnical Training Coordinator\n\nMining Training Officer\n\nMining Training Specialist\n\nOperator Training Officer\n\nCompetency Development Officer\n\nCompetency Development Specialist\n\nCompetency Development Manager\n\nLearning Management System Administrator\n\nLearning Management System Specialist\n\nInstructional Designer\n\nTraining Content Developer\n\nTraining Facilitator\n\nCorporate Trainer\n\nTechnical Trainer\n\nLeadership Development Specialist\n\nLeadership Development Manager\n\nCareer Development Officer\n\nCareer Development Specialist\n\nTalent Development Specialist\n\nTalent Development Manager\n\nSuccession Planning Specialist\n\nSuccession Planning Manager\n\nKnowledge Management Officer\n\nKnowledge Management Specialist\n\nManajemen Talenta dan Kinerja\n\nTalent Management Officer\n\nTalent Management Specialist\n\nTalent Management Analyst\n\nTalent Management Manager\n\nTalent Development Officer\n\nTalent Development Specialist\n\nTalent Review Specialist\n\nTalent Assessment Specialist\n\nTalent Assessment Analyst\n\nTalent Analytics Specialist\n\nTalent Analytics Analyst\n\nPerformance Management Officer\n\nPerformance Management Specialist\n\nPerformance Management Analyst\n\nPerformance Management Manager\n\nPerformance Planning Specialist\n\nPerformance Evaluation Officer\n\nPerformance Evaluation Specialist\n\nEmployee Development Specialist\n\nCareer Management Specialist\n\nCareer Planning Officer\n\nCareer Planning Specialist\n\nSuccession Planning Officer\n\nSuccession Planning Specialist\n\nOrganizational Development Officer\n\nOrganizational Development Specialist\n\nOrganizational Development Manager\n\nOrganization Design Specialist\n\nOrganization Design Manager\n\nWorkforce Planning Analyst\n\nWorkforce Planning Specialist\n\nWorkforce Planning Manager\n\nHuman Resources Generalist dan Business Partner\n\nHuman Resources Officer\n\nHuman Resources Analyst\n\nHuman Resources Specialist\n\nHuman Resources Generalist\n\nSenior Human Resources Officer\n\nHuman Resources Coordinator\n\nHuman Resources Supervisor\n\nHuman Resources Superintendent\n\nHuman Resources Manager\n\nSenior Human Resources Manager\n\nHuman Resources Business Partner\n\nSenior Human Resources Business Partner\n\nHR Business Partner Manager\n\nPeople Business Partner\n\nPeople and Culture Officer\n\nPeople and Culture Specialist\n\nPeople and Culture Manager\n\nHuman Capital Officer\n\nHuman Capital Specialist\n\nHuman Capital Analyst\n\nHuman Capital Manager\n\nHuman Capital Business Partner\n\nHuman Capital Development Manager\n\nEmployee Relations Officer\n\nEmployee Relations Specialist\n\nEmployee Experience Specialist\n\nEmployee Experience Manager\n\nPeople Operations Officer\n\nPeople Operations Specialist\n\nPeople Operations Manager\n\nKompensasi, Manfaat, dan Penggajian\n\nCompensation and Benefits Officer\n\nCompensation and Benefits Specialist\n\nCompensation and Benefits Analyst\n\nCompensation and Benefits Manager\n\nCompensation Analyst\n\nCompensation Specialist\n\nBenefits Officer\n\nBenefits Specialist\n\nRewards Specialist\n\nTotal Rewards Specialist\n\nTotal Rewards Manager\n\nRemuneration Officer\n\nRemuneration Specialist\n\nRemuneration Analyst\n\nRemuneration Manager\n\nPayroll Officer\n\nPayroll Specialist\n\nPayroll Analyst\n\nPayroll Administrator\n\nPayroll Supervisor\n\nPayroll Manager\n\nPayroll and Benefits Officer\n\nPayroll and Compensation Specialist\n\nSalary Administration Officer\n\nJob Evaluation Analyst\n\nJob Evaluation Specialist\n\nJob Grading Specialist\n\nCompensation Benchmarking Analyst\n\nWorkforce Cost Analyst\n\nHubungan Industrial dan Ketenagakerjaan\n\nIndustrial Relations Officer\n\nIndustrial Relations Specialist\n\nIndustrial Relations Analyst\n\nIndustrial Relations Supervisor\n\nIndustrial Relations Manager\n\nEmployee Relations Officer\n\nEmployee Relations Specialist\n\nLabor Relations Officer\n\nLabor Relations Specialist\n\nLabor Relations Manager\n\nEmployment Relations Specialist\n\nEmployment Law Specialist\n\nLabor Compliance Officer\n\nLabor Compliance Specialist\n\nWorkforce Relations Officer\n\nWorkforce Relations Specialist\n\nCollective Agreement Specialist\n\nUnion Relations Officer\n\nUnion Relations Specialist\n\nIndustrial Relations Advisor\n\nEmployment Relations Manager\n\nWorkplace Relations Manager\n\nEmployee Grievance Officer\n\nEmployee Grievance Specialist\n\nDispute Resolution Specialist\n\nWorkforce Discipline Officer\n\nWorkforce Compliance Officer\n\nHR Information System dan Analitik\n\nHR Information System Officer\n\nHR Information System Specialist\n\nHR Information System Analyst\n\nHRIS Administrator\n\nHRIS Analyst\n\nHRIS Specialist\n\nHRIS Manager\n\nHuman Capital Information System Specialist\n\nPeople Analytics Analyst\n\nPeople Analytics Specialist\n\nHuman Resources Data Analyst\n\nHuman Capital Data Analyst\n\nWorkforce Data Analyst\n\nWorkforce Analytics Specialist\n\nHR Reporting Analyst\n\nHR Reporting Specialist\n\nHR Data Management Officer\n\nEmployee Data Administrator\n\nHR Database Administrator\n\nWorkforce Information Specialist\n\nHR Digital Transformation Specialist\n\nHR Technology Specialist\n\nHR Systems Manager\n\nAdministrasi Umum dan Administrasi Operasional\n\nAdministrative Officer\n\nAdministrative Assistant\n\nAdministrative Staff\n\nAdministrative Coordinator\n\nAdministrative Supervisor\n\nAdministrative Superintendent\n\nAdministration Manager\n\nGeneral Administration Officer\n\nGeneral Administration Specialist\n\nGeneral Administration Supervisor\n\nGeneral Administration Manager\n\nSite Administrator\n\nSite Administration Officer\n\nSite Administration Coordinator\n\nSite Administration Supervisor\n\nProject Administrator\n\nProject Administration Officer\n\nProject Administration Coordinator\n\nOperations Administrator\n\nOperations Administration Officer\n\nOperations Administration Coordinator\n\nOffice Administrator\n\nOffice Coordinator\n\nOffice Manager\n\nExecutive Assistant\n\nPersonal Assistant\n\nManagement Assistant\n\nDepartment Administrator\n\nSecretary\n\nCorporate Secretary Assistant\n\nExecutive Secretary\n\nSite Secretary\n\nAdministrasi Dokumen dan Data\n\nDocument Controller\n\nDocument Control Officer\n\nDocument Control Specialist\n\nDocument Control Administrator\n\nDocument Management Officer\n\nDocument Management Specialist\n\nRecords Officer\n\nRecords Administrator\n\nRecords Management Specialist\n\nArchive Officer\n\nArchive Administrator\n\nInformation Management Officer\n\nInformation Management Specialist\n\nData Entry Officer\n\nData Entry Specialist\n\nData Administrator\n\nMaster Data Administrator\n\nMaster Data Officer\n\nAdministrative Data Analyst\n\nDocument Registration Officer\n\nDocument Distribution Officer\n\nTechnical Document Controller\n\nProject Document Controller\n\nEngineering Document Controller\n\nSite Document Controller\n\nLayanan Umum dan Dukungan Lokasi\n\nGeneral Services Officer\n\nGeneral Services Specialist\n\nGeneral Services Coordinator\n\nGeneral Services Supervisor\n\nGeneral Services Superintendent\n\nGeneral Services Manager\n\nSite Services Officer\n\nSite Services Coordinator\n\nSite Services Manager\n\nCamp Administrator\n\nCamp Administration Officer\n\nCamp Services Coordinator\n\nCamp Services Supervisor\n\nCamp Manager\n\nAccommodation Officer\n\nAccommodation Coordinator\n\nAccommodation Supervisor\n\nFacility Officer\n\nFacility Coordinator\n\nFacility Supervisor\n\nFacility Manager\n\nFacilities Management Specialist\n\nOffice Services Officer\n\nTravel Administrator\n\nTravel Coordinator\n\nTravel and Accommodation Officer\n\nSite Support Officer\n\nSite Support Coordinator\n\nGeneral Affairs Officer\n\nGeneral Affairs Specialist\n\nGeneral Affairs Supervisor\n\nGeneral Affairs Manager\n\nKepemimpinan dan Manajemen SDM\n\nHR Supervisor\n\nHR Superintendent\n\nHR Manager\n\nSenior HR Manager\n\nHead of Human Resources\n\nHead of Human Capital\n\nHR Business Partner Manager\n\nHuman Capital Development Manager\n\nLearning and Development Manager\n\nTalent Management Manager\n\nIndustrial Relations Manager\n\nCompensation and Benefits Manager\n\nPayroll Manager\n\nPeople and Culture Manager\n\nGeneral Affairs Manager\n\nAdministration Manager\n\nSite Administration Manager\n\nHR and General Affairs Manager\n\nHR and Administration Manager\n\nHR and Corporate Services Manager\n\nHuman Capital Director\n\nHuman Resources Director\n\nChief Human Resources Officer\n\nRuang Lingkup Pekerjaan\n\nFungsi SDM tidak hanya menangani proses administrasi karyawan. Dalam organisasi yang lebih besar, SDM dapat terlibat dalam perencanaan tenaga kerja, pengembangan kompetensi, manajemen talenta, pengembangan organisasi, serta pengelolaan karier. Perusahaan pertambangan juga dapat memiliki program pengembangan talenta dan pembelajaran yang terstruktur. Profesi dalam kategori Sumber Daya Manusia dan Administrasi dapat terlibat dalam kegiatan berikut:\n\nMenyusun perencanaan kebutuhan tenaga kerja.\n\nMenganalisis kebutuhan jabatan dan kompetensi.\n\nMenyusun atau memperbarui deskripsi pekerjaan.\n\nMendukung proses rekrutmen dan seleksi.\n\nMengelola publikasi lowongan dan pencarian kandidat.\n\nMelakukan administrasi data pelamar.\n\nMendukung proses wawancara, asesmen, dan seleksi.\n\nMenyiapkan proses penerimaan dan orientasi karyawan.\n\nMengelola data serta dokumen kepegawaian.\n\nMengelola perubahan data karyawan.\n\nMendukung proses administrasi kontrak kerja.\n\nMengelola sistem informasi SDM.\n\nMenyusun laporan dan analisis data tenaga kerja.\n\nMenyusun program pelatihan dan pengembangan kompetensi.\n\nMengidentifikasi kebutuhan pelatihan.\n\nMengelola jadwal, peserta, materi, serta evaluasi pelatihan.\n\nMendukung pengembangan keterampilan teknis, kepemimpinan, dan kompetensi kerja.\n\nMengelola program pengembangan karier.\n\nMendukung perencanaan suksesi.\n\nMengelola proses evaluasi dan pengukuran kinerja.\n\nMengelola indikator kinerja dan data performa karyawan.\n\nMendukung pengembangan organisasi.\n\nMelakukan analisis struktur organisasi dan kebutuhan tenaga kerja.\n\nMengelola kompensasi, manfaat, dan penggajian.\n\nMemproses data kehadiran, cuti, lembur, serta komponen penggajian sesuai kebijakan.\n\nMendukung evaluasi jabatan dan struktur remunerasi.\n\nMengelola hubungan industrial.\n\nMendukung komunikasi antara perusahaan dan pekerja.\n\nMenangani administrasi keluhan, perselisihan, atau permasalahan ketenagakerjaan sesuai prosedur.\n\nMemantau pemenuhan ketentuan ketenagakerjaan yang relevan.\n\nMengelola administrasi umum dan layanan kantor.\n\nMengelola dokumen, arsip, serta distribusi informasi.\n\nMendukung administrasi proyek dan kegiatan operasional.\n\nMengelola kebutuhan administrasi di lokasi tambang.\n\nMendukung pengelolaan fasilitas, akomodasi, perjalanan dinas, dan layanan umum.\n\nBerkoordinasi dengan departemen operasi, teknik, HSE, keuangan, pengadaan, legal, serta manajemen.\n\nKompetensi\n\nKompetensi teknis umum\n\nMemahami dasar manajemen sumber daya manusia.\n\nMemahami proses administrasi kepegawaian.\n\nMemahami perencanaan tenaga kerja.\n\nMemahami proses rekrutmen dan seleksi.\n\nMemahami pengelolaan data karyawan.\n\nMemahami pengembangan kompetensi.\n\nMemahami manajemen kinerja.\n\nMemahami kompensasi dan manfaat.\n\nMemahami hubungan industrial.\n\nMemahami administrasi umum.\n\nMemahami pengelolaan dokumen dan arsip.\n\nMemahami penggunaan sistem informasi SDM.\n\nMemahami penyusunan laporan.\n\nMemahami dasar analisis data.\n\nMemahami kebijakan dan prosedur perusahaan.\n\nKompetensi teknis spesialis\n\nRekrutmen dan Akuisisi Talenta:\n\nPerencanaan rekrutmen.\n\nAnalisis kebutuhan tenaga kerja.\n\nPenyusunan deskripsi pekerjaan.\n\nPencarian kandidat.\n\nPenyaringan administrasi.\n\nKoordinasi proses seleksi.\n\nAdministrasi wawancara.\n\nPengelolaan pengalaman kandidat.\n\nEmployer branding.\n\nPengelolaan program rekrutmen lulusan baru.\n\nAnalisis efektivitas rekrutmen.\n\nPelatihan dan Pengembangan:\n\nAnalisis kebutuhan pelatihan.\n\nPenyusunan program pelatihan.\n\nPengembangan materi pembelajaran.\n\nPengelolaan jadwal pelatihan.\n\nFasilitasi pembelajaran.\n\nEvaluasi pelatihan.\n\nPengelolaan kompetensi.\n\nPengelolaan Learning Management System.\n\nPengembangan kepemimpinan.\n\nPengembangan karier.\n\nPengelolaan pengetahuan.\n\nPengembangan program teknis.\n\nManajemen Talenta dan Kinerja:\n\nIdentifikasi talenta.\n\nPenilaian kompetensi.\n\nAnalisis potensi.\n\nPengelolaan kinerja.\n\nPenyusunan indikator kinerja.\n\nEvaluasi kinerja.\n\nPerencanaan karier.\n\nPerencanaan suksesi.\n\nPengembangan organisasi.\n\nAnalisis struktur organisasi.\n\nPerencanaan tenaga kerja.\n\nAnalisis produktivitas tenaga kerja.\n\nKompensasi dan Penggajian:\n\nAdministrasi penggajian.\n\nPengelolaan data kehadiran.\n\nPengelolaan data lembur.\n\nPengelolaan manfaat karyawan.\n\nAnalisis kompensasi.\n\nEvaluasi jabatan.\n\nPenyusunan struktur remunerasi.\n\nAnalisis biaya tenaga kerja.\n\nPengelolaan data penggajian.\n\nPenyusunan laporan kompensasi.\n\nHubungan Industrial:\n\nAdministrasi hubungan industrial.\n\nPemahaman dasar ketenagakerjaan.\n\nPengelolaan hubungan pekerja dan perusahaan.\n\nPengelolaan keluhan.\n\nPengelolaan perselisihan.\n\nKomunikasi ketenagakerjaan.\n\nPengelolaan perundingan.\n\nPemantauan kepatuhan ketenagakerjaan.\n\nPengelolaan dokumentasi hubungan industrial.\n\nHRIS dan Analitik:\n\nPengelolaan basis data SDM.\n\nPengoperasian HRIS.\n\nAnalisis data tenaga kerja.\n\nPenyusunan laporan SDM.\n\nVisualisasi data.\n\nAnalisis tingkat kebutuhan tenaga kerja.\n\nAnalisis perputaran tenaga kerja.\n\nAnalisis data pelatihan.\n\nAnalisis data kinerja.\n\nPengelolaan keamanan dan akses data.\n\nAdministrasi dan Dokumentasi:\n\nAdministrasi perkantoran.\n\nPengelolaan surat-menyurat.\n\nPengelolaan dokumen.\n\nPengendalian dokumen.\n\nPengelolaan arsip.\n\nPengelolaan data.\n\nPenyusunan laporan administrasi.\n\nAdministrasi proyek.\n\nAdministrasi operasional.\n\nPengelolaan jadwal.\n\nPengelolaan rapat.\n\nPengelolaan perjalanan dan akomodasi.\n\nKompetensi nonteknis\n\nKemampuan komunikasi.\n\nKemampuan mendengarkan.\n\nKemampuan interpersonal.\n\nKemampuan bekerja sama.\n\nKemampuan membangun hubungan kerja.\n\nKetelitian.\n\nKemampuan mengelola waktu.\n\nKemampuan mengatur prioritas.\n\nKemampuan memecahkan masalah.\n\nKemampuan berpikir analitis.\n\nKemampuan menjaga kerahasiaan.\n\nIntegritas.\n\nObjektivitas.\n\nEmpati profesional.\n\nKemampuan menangani konflik.\n\nKemampuan beradaptasi.\n\nKemampuan memberikan layanan.\n\nKemampuan presentasi.\n\nKemampuan memfasilitasi pelatihan.\n\nKepemimpinan.\n\nPendidikan yang Relevan\n\nPendidikan utama\n\nManajemen Sumber Daya Manusia\n\nManajemen\n\nManajemen Bisnis\n\nAdministrasi Bisnis\n\nAdministrasi Perkantoran\n\nAdministrasi Publik\n\nAdministrasi Negara\n\nPsikologi\n\nPsikologi Industri dan Organisasi\n\nIlmu Komunikasi\n\nHubungan Industrial\n\nHukum\n\nIlmu Pemerintahan\n\nPendidikan\n\nTeknologi Pendidikan\n\nAkuntansi\n\nKeuangan\n\nSistem Informasi\n\nTeknologi Informasi\n\nStatistika\n\nSains Data\n\nTeknik Industri\n\nTeknik Pertambangan\n\nBidang lain yang relevan.\n\nPendidikan pendukung untuk posisi tertentu\n\nProgram Diploma Manajemen.\n\nProgram Diploma Administrasi Bisnis.\n\nProgram Diploma Administrasi Perkantoran.\n\nProgram Diploma Kesekretariatan.\n\nProgram Diploma Manajemen Sumber Daya Manusia.\n\nProgram Diploma Akuntansi.\n\nProgram Diploma Perpajakan.\n\nProgram Diploma Sistem Informasi.\n\nProgram Diploma Manajemen Informatika.\n\nProgram vokasi administrasi.\n\nProgram vokasi pengelolaan dokumen.\n\nProgram vokasi manajemen perkantoran.\n\nProgram vokasi pengelolaan data.\n\nProgram vokasi layanan bisnis.\n\nSoftware yang Digunakan\n\n| A. Human Resources Information System |\n| --- |\n| SAP SuccessFactors |\n| Workday Human Capital Management |\n| Oracle Fusion Cloud HCM |\n| Microsoft Dynamics 365 Human Resources |\n| B. Rekrutmen dan Pengelolaan Kandidat |\n| Applicant Tracking System (ATS) |\n| LinkedIn Talent Solutions |\n| Sistem Rekrutmen Internal |\n| C. Pembelajaran dan Pengembangan |\n| Learning Management System (LMS) |\n| Moodle |\n| Microsoft Teams |\n| D. Administrasi dan Pengelolaan Dokumen |\n| Microsoft Word |\n| Microsoft Excel |\n| Microsoft PowerPoint |\n| Microsoft SharePoint |\n| Google Workspace |\n| E. Analitik dan Pelaporan |\n| Microsoft Power BI |\n| Tableau |\n| SQL |\n| Python |\n\nPelatihan Relevan\n\nPelatihan teknis\n\nRekrutmen dan Seleksi:\n\nPelatihan dasar rekrutmen.\n\nPelatihan wawancara berbasis kompetensi.\n\nPelatihan teknik seleksi.\n\nPelatihan penyusunan deskripsi pekerjaan.\n\nPelatihan talent sourcing.\n\nPelatihan administrasi rekrutmen.\n\nPelatihan penggunaan Applicant Tracking System.\n\nPelatihan employer branding.\n\nPelatihan pengalaman kandidat.\n\nPengembangan SDM:\n\nPelatihan analisis kebutuhan pelatihan.\n\nPelatihan penyusunan program pelatihan.\n\nPelatihan pengembangan materi pembelajaran.\n\nPelatihan fasilitasi.\n\nPelatihan evaluasi pelatihan.\n\nPelatihan pengelolaan kompetensi.\n\nPelatihan penggunaan LMS.\n\nPelatihan pengembangan karier.\n\nPelatihan pengembangan kepemimpinan.\n\nPelatihan manajemen pengetahuan.\n\nPelatihan perencanaan suksesi.\n\nManajemen SDM dan Kinerja:\n\nPelatihan manajemen sumber daya manusia.\n\nPelatihan perencanaan tenaga kerja.\n\nPelatihan manajemen talenta.\n\nPelatihan manajemen kinerja.\n\nPelatihan penyusunan indikator kinerja.\n\nPelatihan pengembangan organisasi.\n\nPelatihan manajemen perubahan.\n\nPelatihan HR Business Partner.\n\nPelatihan analisis produktivitas tenaga kerja.\n\nKompensasi dan Hubungan Industrial:\n\nPelatihan administrasi penggajian.\n\nPelatihan kompensasi dan manfaat.\n\nPelatihan evaluasi jabatan.\n\nPelatihan penyusunan struktur remunerasi.\n\nPelatihan hubungan industrial.\n\nPelatihan komunikasi ketenagakerjaan.\n\nPelatihan penyelesaian konflik.\n\nPelatihan penanganan keluhan.\n\nPelatihan dasar hukum ketenagakerjaan.\n\nPelatihan administrasi hubungan industrial.\n\nHRIS, Data, dan Administrasi:\n\nPelatihan penggunaan HRIS.\n\nPelatihan pengelolaan data SDM.\n\nPelatihan Microsoft Excel tingkat lanjut.\n\nPelatihan Power BI.\n\nPelatihan analisis data tenaga kerja.\n\nPelatihan perlindungan data.\n\nPelatihan pengelolaan dokumen.\n\nPelatihan pengendalian dokumen.\n\nPelatihan manajemen arsip.\n\nPelatihan administrasi perkantoran.\n\nPelatihan manajemen layanan umum.\n\nPelatihan keselamatan\n\nInduksi keselamatan pertambangan.\n\nPengenalan bahaya dan risiko di area tambang.\n\nKeselamatan saat berada di lokasi operasi.\n\nKeselamatan lalu lintas tambang.\n\nPenggunaan alat pelindung diri.\n\nProsedur tanggap darurat.\n\nKomunikasi darurat.\n\nKeselamatan perjalanan menuju lokasi kerja.\n\nKeselamatan di area produksi dan pengolahan.\n\nPelatihan keselamatan sesuai risiko pekerjaan.",
+    "coverImageUrl": null,
+    "status": "published",
+    "publishedAt": "2026-09-05T00:00:00.000Z",
+    "readingTimeMinutes": null,
+    "isFeatured": false,
+    "metadata": {},
+    "sources": [
+      {
+        "sourceSlug": "www-kemnaker-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 0
+      },
+      {
+        "sourceSlug": "www-esdm-go-id-6",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 1
+      },
+      {
+        "sourceSlug": "bpsdm-esdm-go-id-10",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 2
+      },
+      {
+        "sourceSlug": "www-minerba-esdm-go-id-2",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 3
+      },
+      {
+        "sourceSlug": "www-ptba-co-id-2",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 4
+      },
+      {
+        "sourceSlug": "www-antam-com-2",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 5
+      },
+      {
+        "sourceSlug": "www-mind-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 6
+      },
+      {
+        "sourceSlug": "www-bps-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 7
+      },
+      {
+        "sourceSlug": "www-bpsdm-esdm-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 8
+      },
+      {
+        "sourceSlug": "www-sisnaker-kemnaker-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 9
+      },
+      {
+        "sourceSlug": "www-bpjsketenagakerjaan-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 10
+      },
+      {
+        "sourceSlug": "www-bpjskesehatan-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 11
+      },
+      {
+        "sourceSlug": "www-sap-com-8",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 12
+      },
+      {
+        "sourceSlug": "www-workday-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 13
+      },
+      {
+        "sourceSlug": "www-oracle-com-7",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 14
+      },
+      {
+        "sourceSlug": "www-microsoft-com-5",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 15
+      },
+      {
+        "sourceSlug": "www-microsoft-com-6",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 16
+      },
+      {
+        "sourceSlug": "www-microsoft-com-7",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 17
+      },
+      {
+        "sourceSlug": "www-microsoft-com-2",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 18
+      },
+      {
+        "sourceSlug": "moodle-org",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 19
+      },
+      {
+        "sourceSlug": "business-linkedin-com",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 20
+      }
+    ]
+  },
+  "professions": [
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Recruitment Officer",
+      "slug": "recruitment-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Recruitment Analyst",
+      "slug": "recruitment-analyst",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Recruitment Specialist",
+      "slug": "recruitment-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Recruitment Coordinator",
+      "slug": "recruitment-coordinator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Recruitment Supervisor",
+      "slug": "recruitment-supervisor",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Recruitment Manager",
+      "slug": "recruitment-manager",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Talent Acquisition Officer",
+      "slug": "talent-acquisition-officer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Talent Acquisition Specialist",
+      "slug": "talent-acquisition-specialist",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Talent Acquisition Analyst",
+      "slug": "talent-acquisition-analyst",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Talent Acquisition Coordinator",
+      "slug": "talent-acquisition-coordinator",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Talent Acquisition Supervisor",
+      "slug": "talent-acquisition-supervisor",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Talent Acquisition Manager",
+      "slug": "talent-acquisition-manager",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Talent Acquisition Lead",
+      "slug": "talent-acquisition-lead",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Senior Talent Acquisition Specialist",
+      "slug": "senior-talent-acquisition-specialist",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Recruitment and Selection Officer",
+      "slug": "recruitment-and-selection-officer",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Recruitment and Selection Specialist",
+      "slug": "recruitment-and-selection-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Recruitment Administrator",
+      "slug": "recruitment-administrator",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Recruitment Operations Officer",
+      "slug": "recruitment-operations-officer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Recruitment Operations Specialist",
+      "slug": "recruitment-operations-specialist",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Recruitment Marketing Specialist",
+      "slug": "recruitment-marketing-specialist",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Employer Branding Officer",
+      "slug": "employer-branding-officer",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Employer Branding Specialist",
+      "slug": "employer-branding-specialist",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Employer Branding Manager",
+      "slug": "employer-branding-manager",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Campus Recruitment Officer",
+      "slug": "campus-recruitment-officer",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Graduate Recruitment Specialist",
+      "slug": "graduate-recruitment-specialist",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Early Career Recruitment Officer",
+      "slug": "early-career-recruitment-officer",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Graduate Development Program Officer",
+      "slug": "graduate-development-program-officer",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Management Trainee Program Officer",
+      "slug": "management-trainee-program-officer",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Talent Sourcing Specialist",
+      "slug": "talent-sourcing-specialist",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Talent Sourcing Analyst",
+      "slug": "talent-sourcing-analyst",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Candidate Experience Specialist",
+      "slug": "candidate-experience-specialist",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "name": "Workforce Acquisition Manager",
+      "slug": "workforce-acquisition-manager",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Learning and Development Officer",
+      "slug": "learning-and-development-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Learning and Development Specialist",
+      "slug": "learning-and-development-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Learning and Development Analyst",
+      "slug": "learning-and-development-analyst",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Learning and Development Coordinator",
+      "slug": "learning-and-development-coordinator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Learning and Development Supervisor",
+      "slug": "learning-and-development-supervisor",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Learning and Development Manager",
+      "slug": "learning-and-development-manager",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Training Officer",
+      "slug": "training-officer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Training Specialist",
+      "slug": "training-specialist",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Training Coordinator",
+      "slug": "training-coordinator",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Training Administrator",
+      "slug": "training-administrator",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Training Supervisor",
+      "slug": "training-supervisor",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Training Manager",
+      "slug": "training-manager",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Technical Training Officer",
+      "slug": "technical-training-officer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Technical Training Specialist",
+      "slug": "technical-training-specialist",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Technical Training Coordinator",
+      "slug": "technical-training-coordinator",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Mining Training Officer",
+      "slug": "mining-training-officer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Mining Training Specialist",
+      "slug": "mining-training-specialist",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Operator Training Officer",
+      "slug": "operator-training-officer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Competency Development Officer",
+      "slug": "competency-development-officer",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Competency Development Specialist",
+      "slug": "competency-development-specialist",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Competency Development Manager",
+      "slug": "competency-development-manager",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Learning Management System Administrator",
+      "slug": "learning-management-system-administrator",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Learning Management System Specialist",
+      "slug": "learning-management-system-specialist",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Instructional Designer",
+      "slug": "instructional-designer",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Training Content Developer",
+      "slug": "training-content-developer",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Training Facilitator",
+      "slug": "training-facilitator",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Corporate Trainer",
+      "slug": "corporate-trainer",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Technical Trainer",
+      "slug": "technical-trainer",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Leadership Development Specialist",
+      "slug": "leadership-development-specialist",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Leadership Development Manager",
+      "slug": "leadership-development-manager",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Career Development Officer",
+      "slug": "career-development-officer",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Career Development Specialist",
+      "slug": "career-development-specialist",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Talent Development Specialist",
+      "slug": "talent-development-specialist",
+      "description": null,
+      "displayOrder": 32
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Talent Development Manager",
+      "slug": "talent-development-manager",
+      "description": null,
+      "displayOrder": 33
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Succession Planning Specialist",
+      "slug": "succession-planning-specialist",
+      "description": null,
+      "displayOrder": 34
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Succession Planning Manager",
+      "slug": "succession-planning-manager",
+      "description": null,
+      "displayOrder": 35
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Knowledge Management Officer",
+      "slug": "knowledge-management-officer",
+      "description": null,
+      "displayOrder": 36
+    },
+    {
+      "groupKey": "pengembangan-sdm-dan-pembelajaran",
+      "groupLabel": "Pengembangan SDM dan Pembelajaran",
+      "name": "Knowledge Management Specialist",
+      "slug": "knowledge-management-specialist",
+      "description": null,
+      "displayOrder": 37
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Talent Management Officer",
+      "slug": "talent-management-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Talent Management Specialist",
+      "slug": "talent-management-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Talent Management Analyst",
+      "slug": "talent-management-analyst",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Talent Management Manager",
+      "slug": "talent-management-manager",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Talent Development Officer",
+      "slug": "talent-development-officer",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Talent Development Specialist",
+      "slug": "talent-development-specialist",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Talent Review Specialist",
+      "slug": "talent-review-specialist",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Talent Assessment Specialist",
+      "slug": "talent-assessment-specialist",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Talent Assessment Analyst",
+      "slug": "talent-assessment-analyst",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Talent Analytics Specialist",
+      "slug": "talent-analytics-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Talent Analytics Analyst",
+      "slug": "talent-analytics-analyst",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Performance Management Officer",
+      "slug": "performance-management-officer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Performance Management Specialist",
+      "slug": "performance-management-specialist",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Performance Management Analyst",
+      "slug": "performance-management-analyst",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Performance Management Manager",
+      "slug": "performance-management-manager",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Performance Planning Specialist",
+      "slug": "performance-planning-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Performance Evaluation Officer",
+      "slug": "performance-evaluation-officer",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Performance Evaluation Specialist",
+      "slug": "performance-evaluation-specialist",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Employee Development Specialist",
+      "slug": "employee-development-specialist",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Career Management Specialist",
+      "slug": "career-management-specialist",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Career Planning Officer",
+      "slug": "career-planning-officer",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Career Planning Specialist",
+      "slug": "career-planning-specialist",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Succession Planning Officer",
+      "slug": "succession-planning-officer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Succession Planning Specialist",
+      "slug": "succession-planning-specialist",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Organizational Development Officer",
+      "slug": "organizational-development-officer",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Organizational Development Specialist",
+      "slug": "organizational-development-specialist",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Organizational Development Manager",
+      "slug": "organizational-development-manager",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Organization Design Specialist",
+      "slug": "organization-design-specialist",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Organization Design Manager",
+      "slug": "organization-design-manager",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Workforce Planning Analyst",
+      "slug": "workforce-planning-analyst",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Workforce Planning Specialist",
+      "slug": "workforce-planning-specialist",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "name": "Workforce Planning Manager",
+      "slug": "workforce-planning-manager",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Human Resources Officer",
+      "slug": "human-resources-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Human Resources Analyst",
+      "slug": "human-resources-analyst",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Human Resources Specialist",
+      "slug": "human-resources-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Human Resources Generalist",
+      "slug": "human-resources-generalist",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Senior Human Resources Officer",
+      "slug": "senior-human-resources-officer",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Human Resources Coordinator",
+      "slug": "human-resources-coordinator",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Human Resources Supervisor",
+      "slug": "human-resources-supervisor",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Human Resources Superintendent",
+      "slug": "human-resources-superintendent",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Human Resources Manager",
+      "slug": "human-resources-manager",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Senior Human Resources Manager",
+      "slug": "senior-human-resources-manager",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Human Resources Business Partner",
+      "slug": "human-resources-business-partner",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Senior Human Resources Business Partner",
+      "slug": "senior-human-resources-business-partner",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "HR Business Partner Manager",
+      "slug": "hr-business-partner-manager",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "People Business Partner",
+      "slug": "people-business-partner",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "People and Culture Officer",
+      "slug": "people-and-culture-officer",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "People and Culture Specialist",
+      "slug": "people-and-culture-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "People and Culture Manager",
+      "slug": "people-and-culture-manager",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Human Capital Officer",
+      "slug": "human-capital-officer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Human Capital Specialist",
+      "slug": "human-capital-specialist",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Human Capital Analyst",
+      "slug": "human-capital-analyst",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Human Capital Manager",
+      "slug": "human-capital-manager",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Human Capital Business Partner",
+      "slug": "human-capital-business-partner",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Human Capital Development Manager",
+      "slug": "human-capital-development-manager",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Employee Relations Officer",
+      "slug": "employee-relations-officer",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Employee Relations Specialist",
+      "slug": "employee-relations-specialist",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Employee Experience Specialist",
+      "slug": "employee-experience-specialist",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "Employee Experience Manager",
+      "slug": "employee-experience-manager",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "People Operations Officer",
+      "slug": "people-operations-officer",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "People Operations Specialist",
+      "slug": "people-operations-specialist",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "human-resources-generalist-dan-business-partner",
+      "groupLabel": "Human Resources Generalist dan Business Partner",
+      "name": "People Operations Manager",
+      "slug": "people-operations-manager",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Compensation and Benefits Officer",
+      "slug": "compensation-and-benefits-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Compensation and Benefits Specialist",
+      "slug": "compensation-and-benefits-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Compensation and Benefits Analyst",
+      "slug": "compensation-and-benefits-analyst",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Compensation and Benefits Manager",
+      "slug": "compensation-and-benefits-manager",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Compensation Analyst",
+      "slug": "compensation-analyst",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Compensation Specialist",
+      "slug": "compensation-specialist",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Benefits Officer",
+      "slug": "benefits-officer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Benefits Specialist",
+      "slug": "benefits-specialist",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Rewards Specialist",
+      "slug": "rewards-specialist",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Total Rewards Specialist",
+      "slug": "total-rewards-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Total Rewards Manager",
+      "slug": "total-rewards-manager",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Remuneration Officer",
+      "slug": "remuneration-officer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Remuneration Specialist",
+      "slug": "remuneration-specialist",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Remuneration Analyst",
+      "slug": "remuneration-analyst",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Remuneration Manager",
+      "slug": "remuneration-manager",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Payroll Officer",
+      "slug": "payroll-officer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Payroll Specialist",
+      "slug": "payroll-specialist",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Payroll Analyst",
+      "slug": "payroll-analyst",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Payroll Administrator",
+      "slug": "payroll-administrator",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Payroll Supervisor",
+      "slug": "payroll-supervisor",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Payroll Manager",
+      "slug": "payroll-manager",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Payroll and Benefits Officer",
+      "slug": "payroll-and-benefits-officer",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Payroll and Compensation Specialist",
+      "slug": "payroll-and-compensation-specialist",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Salary Administration Officer",
+      "slug": "salary-administration-officer",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Job Evaluation Analyst",
+      "slug": "job-evaluation-analyst",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Job Evaluation Specialist",
+      "slug": "job-evaluation-specialist",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Job Grading Specialist",
+      "slug": "job-grading-specialist",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Compensation Benchmarking Analyst",
+      "slug": "compensation-benchmarking-analyst",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "kompensasi-manfaat-dan-penggajian",
+      "groupLabel": "Kompensasi, Manfaat, dan Penggajian",
+      "name": "Workforce Cost Analyst",
+      "slug": "workforce-cost-analyst",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Industrial Relations Officer",
+      "slug": "industrial-relations-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Industrial Relations Specialist",
+      "slug": "industrial-relations-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Industrial Relations Analyst",
+      "slug": "industrial-relations-analyst",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Industrial Relations Supervisor",
+      "slug": "industrial-relations-supervisor",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Industrial Relations Manager",
+      "slug": "industrial-relations-manager",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Employee Relations Officer",
+      "slug": "employee-relations-officer",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Employee Relations Specialist",
+      "slug": "employee-relations-specialist",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Labor Relations Officer",
+      "slug": "labor-relations-officer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Labor Relations Specialist",
+      "slug": "labor-relations-specialist",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Labor Relations Manager",
+      "slug": "labor-relations-manager",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Employment Relations Specialist",
+      "slug": "employment-relations-specialist",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Employment Law Specialist",
+      "slug": "employment-law-specialist",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Labor Compliance Officer",
+      "slug": "labor-compliance-officer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Labor Compliance Specialist",
+      "slug": "labor-compliance-specialist",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Workforce Relations Officer",
+      "slug": "workforce-relations-officer",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Workforce Relations Specialist",
+      "slug": "workforce-relations-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Collective Agreement Specialist",
+      "slug": "collective-agreement-specialist",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Union Relations Officer",
+      "slug": "union-relations-officer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Union Relations Specialist",
+      "slug": "union-relations-specialist",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Industrial Relations Advisor",
+      "slug": "industrial-relations-advisor",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Employment Relations Manager",
+      "slug": "employment-relations-manager",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Workplace Relations Manager",
+      "slug": "workplace-relations-manager",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Employee Grievance Officer",
+      "slug": "employee-grievance-officer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Employee Grievance Specialist",
+      "slug": "employee-grievance-specialist",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Dispute Resolution Specialist",
+      "slug": "dispute-resolution-specialist",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Workforce Discipline Officer",
+      "slug": "workforce-discipline-officer",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "hubungan-industrial-dan-ketenagakerjaan",
+      "groupLabel": "Hubungan Industrial dan Ketenagakerjaan",
+      "name": "Workforce Compliance Officer",
+      "slug": "workforce-compliance-officer",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "HR Information System Officer",
+      "slug": "hr-information-system-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "HR Information System Specialist",
+      "slug": "hr-information-system-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "HR Information System Analyst",
+      "slug": "hr-information-system-analyst",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "HRIS Administrator",
+      "slug": "hris-administrator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "HRIS Analyst",
+      "slug": "hris-analyst",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "HRIS Specialist",
+      "slug": "hris-specialist",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "HRIS Manager",
+      "slug": "hris-manager",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "Human Capital Information System Specialist",
+      "slug": "human-capital-information-system-specialist",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "People Analytics Analyst",
+      "slug": "people-analytics-analyst",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "People Analytics Specialist",
+      "slug": "people-analytics-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "Human Resources Data Analyst",
+      "slug": "human-resources-data-analyst",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "Human Capital Data Analyst",
+      "slug": "human-capital-data-analyst",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "Workforce Data Analyst",
+      "slug": "workforce-data-analyst",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "Workforce Analytics Specialist",
+      "slug": "workforce-analytics-specialist",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "HR Reporting Analyst",
+      "slug": "hr-reporting-analyst",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "HR Reporting Specialist",
+      "slug": "hr-reporting-specialist",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "HR Data Management Officer",
+      "slug": "hr-data-management-officer",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "Employee Data Administrator",
+      "slug": "employee-data-administrator",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "HR Database Administrator",
+      "slug": "hr-database-administrator",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "Workforce Information Specialist",
+      "slug": "workforce-information-specialist",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "HR Digital Transformation Specialist",
+      "slug": "hr-digital-transformation-specialist",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "HR Technology Specialist",
+      "slug": "hr-technology-specialist",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "hr-information-system-dan-analitik",
+      "groupLabel": "HR Information System dan Analitik",
+      "name": "HR Systems Manager",
+      "slug": "hr-systems-manager",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Administrative Officer",
+      "slug": "administrative-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Administrative Assistant",
+      "slug": "administrative-assistant",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Administrative Staff",
+      "slug": "administrative-staff",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Administrative Coordinator",
+      "slug": "administrative-coordinator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Administrative Supervisor",
+      "slug": "administrative-supervisor",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Administrative Superintendent",
+      "slug": "administrative-superintendent",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Administration Manager",
+      "slug": "administration-manager",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "General Administration Officer",
+      "slug": "general-administration-officer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "General Administration Specialist",
+      "slug": "general-administration-specialist",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "General Administration Supervisor",
+      "slug": "general-administration-supervisor",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "General Administration Manager",
+      "slug": "general-administration-manager",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Site Administrator",
+      "slug": "site-administrator",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Site Administration Officer",
+      "slug": "site-administration-officer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Site Administration Coordinator",
+      "slug": "site-administration-coordinator",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Site Administration Supervisor",
+      "slug": "site-administration-supervisor",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Project Administrator",
+      "slug": "project-administrator",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Project Administration Officer",
+      "slug": "project-administration-officer",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Project Administration Coordinator",
+      "slug": "project-administration-coordinator",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Operations Administrator",
+      "slug": "operations-administrator",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Operations Administration Officer",
+      "slug": "operations-administration-officer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Operations Administration Coordinator",
+      "slug": "operations-administration-coordinator",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Office Administrator",
+      "slug": "office-administrator",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Office Coordinator",
+      "slug": "office-coordinator",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Office Manager",
+      "slug": "office-manager",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Executive Assistant",
+      "slug": "executive-assistant",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Personal Assistant",
+      "slug": "personal-assistant",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Management Assistant",
+      "slug": "management-assistant",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Department Administrator",
+      "slug": "department-administrator",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Secretary",
+      "slug": "secretary",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Corporate Secretary Assistant",
+      "slug": "corporate-secretary-assistant",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Executive Secretary",
+      "slug": "executive-secretary",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "administrasi-umum-dan-administrasi-operasional",
+      "groupLabel": "Administrasi Umum dan Administrasi Operasional",
+      "name": "Site Secretary",
+      "slug": "site-secretary",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Document Controller",
+      "slug": "document-controller",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Document Control Officer",
+      "slug": "document-control-officer",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Document Control Specialist",
+      "slug": "document-control-specialist",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Document Control Administrator",
+      "slug": "document-control-administrator",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Document Management Officer",
+      "slug": "document-management-officer",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Document Management Specialist",
+      "slug": "document-management-specialist",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Records Officer",
+      "slug": "records-officer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Records Administrator",
+      "slug": "records-administrator",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Records Management Specialist",
+      "slug": "records-management-specialist",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Archive Officer",
+      "slug": "archive-officer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Archive Administrator",
+      "slug": "archive-administrator",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Information Management Officer",
+      "slug": "information-management-officer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Information Management Specialist",
+      "slug": "information-management-specialist",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Data Entry Officer",
+      "slug": "data-entry-officer",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Data Entry Specialist",
+      "slug": "data-entry-specialist",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Data Administrator",
+      "slug": "data-administrator",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Master Data Administrator",
+      "slug": "master-data-administrator",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Master Data Officer",
+      "slug": "master-data-officer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Administrative Data Analyst",
+      "slug": "administrative-data-analyst",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Document Registration Officer",
+      "slug": "document-registration-officer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Document Distribution Officer",
+      "slug": "document-distribution-officer",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Technical Document Controller",
+      "slug": "technical-document-controller",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Project Document Controller",
+      "slug": "project-document-controller",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Engineering Document Controller",
+      "slug": "engineering-document-controller",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "administrasi-dokumen-dan-data",
+      "groupLabel": "Administrasi Dokumen dan Data",
+      "name": "Site Document Controller",
+      "slug": "site-document-controller",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "General Services Officer",
+      "slug": "general-services-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "General Services Specialist",
+      "slug": "general-services-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "General Services Coordinator",
+      "slug": "general-services-coordinator",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "General Services Supervisor",
+      "slug": "general-services-supervisor",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "General Services Superintendent",
+      "slug": "general-services-superintendent",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "General Services Manager",
+      "slug": "general-services-manager",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Site Services Officer",
+      "slug": "site-services-officer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Site Services Coordinator",
+      "slug": "site-services-coordinator",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Site Services Manager",
+      "slug": "site-services-manager",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Camp Administrator",
+      "slug": "camp-administrator",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Camp Administration Officer",
+      "slug": "camp-administration-officer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Camp Services Coordinator",
+      "slug": "camp-services-coordinator",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Camp Services Supervisor",
+      "slug": "camp-services-supervisor",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Camp Manager",
+      "slug": "camp-manager",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Accommodation Officer",
+      "slug": "accommodation-officer",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Accommodation Coordinator",
+      "slug": "accommodation-coordinator",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Accommodation Supervisor",
+      "slug": "accommodation-supervisor",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Facility Officer",
+      "slug": "facility-officer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Facility Coordinator",
+      "slug": "facility-coordinator",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Facility Supervisor",
+      "slug": "facility-supervisor",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Facility Manager",
+      "slug": "facility-manager",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Facilities Management Specialist",
+      "slug": "facilities-management-specialist",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Office Services Officer",
+      "slug": "office-services-officer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Travel Administrator",
+      "slug": "travel-administrator",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Travel Coordinator",
+      "slug": "travel-coordinator",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Travel and Accommodation Officer",
+      "slug": "travel-and-accommodation-officer",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Site Support Officer",
+      "slug": "site-support-officer",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "Site Support Coordinator",
+      "slug": "site-support-coordinator",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "General Affairs Officer",
+      "slug": "general-affairs-officer",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "General Affairs Specialist",
+      "slug": "general-affairs-specialist",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "General Affairs Supervisor",
+      "slug": "general-affairs-supervisor",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "layanan-umum-dan-dukungan-lokasi",
+      "groupLabel": "Layanan Umum dan Dukungan Lokasi",
+      "name": "General Affairs Manager",
+      "slug": "general-affairs-manager",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "HR Supervisor",
+      "slug": "hr-supervisor",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "HR Superintendent",
+      "slug": "hr-superintendent",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "HR Manager",
+      "slug": "hr-manager",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "Senior HR Manager",
+      "slug": "senior-hr-manager",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "Head of Human Resources",
+      "slug": "head-of-human-resources",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "Head of Human Capital",
+      "slug": "head-of-human-capital",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "HR Business Partner Manager",
+      "slug": "hr-business-partner-manager",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "Human Capital Development Manager",
+      "slug": "human-capital-development-manager",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "Learning and Development Manager",
+      "slug": "learning-and-development-manager",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "Talent Management Manager",
+      "slug": "talent-management-manager",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "Industrial Relations Manager",
+      "slug": "industrial-relations-manager",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "Compensation and Benefits Manager",
+      "slug": "compensation-and-benefits-manager",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "Payroll Manager",
+      "slug": "payroll-manager",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "People and Culture Manager",
+      "slug": "people-and-culture-manager",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "General Affairs Manager",
+      "slug": "general-affairs-manager",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "Administration Manager",
+      "slug": "administration-manager",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "Site Administration Manager",
+      "slug": "site-administration-manager",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "HR and General Affairs Manager",
+      "slug": "hr-and-general-affairs-manager",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "HR and Administration Manager",
+      "slug": "hr-and-administration-manager",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "HR and Corporate Services Manager",
+      "slug": "hr-and-corporate-services-manager",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "Human Capital Director",
+      "slug": "human-capital-director",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "Human Resources Director",
+      "slug": "human-resources-director",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "kepemimpinan-dan-manajemen-sdm",
+      "groupLabel": "Kepemimpinan dan Manajemen SDM",
+      "name": "Chief Human Resources Officer",
+      "slug": "chief-human-resources-officer",
+      "description": null,
+      "displayOrder": 22
+    }
+  ],
+  "profileItems": [
+    {
+      "itemKey": "work-scope-informasi-utama-fungsi-sdm-tidak-hanya-menangani-proses-administrasi-karyawan-dalam-organisasi-yang-lebih-besar-sdm-dapat-terlibat-dalam-perencanaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Fungsi SDM tidak hanya menangani proses administrasi karyawan. Dalam organisasi yang lebih besar, SDM dapat terlibat dalam perencanaan tenaga kerja, pengembangan kompetensi, manajemen talenta, pengembangan organisasi, serta pengelolaan karier. Perusahaan pertambangan juga dapat memiliki program pengembangan talenta dan pembelajaran yang terstruktur. Profesi dalam kategori Sumber Daya Manusia dan Administrasi dapat terlibat dalam kegiatan berikut:",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-perencanaan-kebutuhan-tenaga-kerja",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun perencanaan kebutuhan tenaga kerja.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menganalisis-kebutuhan-jabatan-dan-kompetensi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menganalisis kebutuhan jabatan dan kompetensi.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-atau-memperbarui-deskripsi-pekerjaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun atau memperbarui deskripsi pekerjaan.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-proses-rekrutmen-dan-seleksi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung proses rekrutmen dan seleksi.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-publikasi-lowongan-dan-pencarian-kandidat",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola publikasi lowongan dan pencarian kandidat.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-administrasi-data-pelamar",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan administrasi data pelamar.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-proses-wawancara-asesmen-dan-seleksi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung proses wawancara, asesmen, dan seleksi.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyiapkan-proses-penerimaan-dan-orientasi-karyawan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyiapkan proses penerimaan dan orientasi karyawan.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-data-serta-dokumen-kepegawaian",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola data serta dokumen kepegawaian.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-perubahan-data-karyawan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola perubahan data karyawan.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-proses-administrasi-kontrak-kerja",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung proses administrasi kontrak kerja.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-sistem-informasi-sdm",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola sistem informasi SDM.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-laporan-dan-analisis-data-tenaga-kerja",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun laporan dan analisis data tenaga kerja.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-program-pelatihan-dan-pengembangan-kompetensi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun program pelatihan dan pengembangan kompetensi.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengidentifikasi-kebutuhan-pelatihan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengidentifikasi kebutuhan pelatihan.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-jadwal-peserta-materi-serta-evaluasi-pelatihan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola jadwal, peserta, materi, serta evaluasi pelatihan.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-pengembangan-keterampilan-teknis-kepemimpinan-dan-kompetensi-kerja",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung pengembangan keterampilan teknis, kepemimpinan, dan kompetensi kerja.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-program-pengembangan-karier",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola program pengembangan karier.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-perencanaan-suksesi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung perencanaan suksesi.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-proses-evaluasi-dan-pengukuran-kinerja",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola proses evaluasi dan pengukuran kinerja.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-indikator-kinerja-dan-data-performa-karyawan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola indikator kinerja dan data performa karyawan.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-pengembangan-organisasi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung pengembangan organisasi.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-analisis-struktur-organisasi-dan-kebutuhan-tenaga-kerja",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan analisis struktur organisasi dan kebutuhan tenaga kerja.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-kompensasi-manfaat-dan-penggajian",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola kompensasi, manfaat, dan penggajian.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memproses-data-kehadiran-cuti-lembur-serta-komponen-penggajian-sesuai-kebijakan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memproses data kehadiran, cuti, lembur, serta komponen penggajian sesuai kebijakan.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-evaluasi-jabatan-dan-struktur-remunerasi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung evaluasi jabatan dan struktur remunerasi.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-hubungan-industrial",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola hubungan industrial.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-komunikasi-antara-perusahaan-dan-pekerja",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung komunikasi antara perusahaan dan pekerja.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menangani-administrasi-keluhan-perselisihan-atau-permasalahan-ketenagakerjaan-sesuai-prosedur",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menangani administrasi keluhan, perselisihan, atau permasalahan ketenagakerjaan sesuai prosedur.",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memantau-pemenuhan-ketentuan-ketenagakerjaan-yang-relevan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memantau pemenuhan ketentuan ketenagakerjaan yang relevan.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-administrasi-umum-dan-layanan-kantor",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola administrasi umum dan layanan kantor.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-dokumen-arsip-serta-distribusi-informasi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola dokumen, arsip, serta distribusi informasi.",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-administrasi-proyek-dan-kegiatan-operasional",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung administrasi proyek dan kegiatan operasional.",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengelola-kebutuhan-administrasi-di-lokasi-tambang",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengelola kebutuhan administrasi di lokasi tambang.",
+      "displayOrder": 34
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-pengelolaan-fasilitas-akomodasi-perjalanan-dinas-dan-layanan-umum",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung pengelolaan fasilitas, akomodasi, perjalanan dinas, dan layanan umum.",
+      "displayOrder": 35
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-berkoordinasi-dengan-departemen-operasi-teknik-hse-keuangan-pengadaan-legal-serta-manajemen",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Berkoordinasi dengan departemen operasi, teknik, HSE, keuangan, pengadaan, legal, serta manajemen.",
+      "displayOrder": 36
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-teknis-umum",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi teknis umum",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-manajemen-sumber-daya-manusia",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar manajemen sumber daya manusia.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-proses-administrasi-kepegawaian",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami proses administrasi kepegawaian.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-perencanaan-tenaga-kerja",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami perencanaan tenaga kerja.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-proses-rekrutmen-dan-seleksi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami proses rekrutmen dan seleksi.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-pengelolaan-data-karyawan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami pengelolaan data karyawan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-pengembangan-kompetensi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami pengembangan kompetensi.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-manajemen-kinerja",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami manajemen kinerja.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-kompensasi-dan-manfaat",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami kompensasi dan manfaat.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-hubungan-industrial",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami hubungan industrial.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-administrasi-umum",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami administrasi umum.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-pengelolaan-dokumen-dan-arsip",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami pengelolaan dokumen dan arsip.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-penggunaan-sistem-informasi-sdm",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami penggunaan sistem informasi SDM.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-penyusunan-laporan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami penyusunan laporan.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-analisis-data",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar analisis data.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-kebijakan-dan-prosedur-perusahaan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami kebijakan dan prosedur perusahaan.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-teknis-spesialis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi teknis spesialis",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "competency-rekrutmen-dan-akuisisi-talenta-perencanaan-rekrutmen",
+      "section": "competency",
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "value": "Perencanaan rekrutmen.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-rekrutmen-dan-akuisisi-talenta-analisis-kebutuhan-tenaga-kerja",
+      "section": "competency",
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "value": "Analisis kebutuhan tenaga kerja.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-rekrutmen-dan-akuisisi-talenta-penyusunan-deskripsi-pekerjaan",
+      "section": "competency",
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "value": "Penyusunan deskripsi pekerjaan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-rekrutmen-dan-akuisisi-talenta-pencarian-kandidat",
+      "section": "competency",
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "value": "Pencarian kandidat.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-rekrutmen-dan-akuisisi-talenta-penyaringan-administrasi",
+      "section": "competency",
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "value": "Penyaringan administrasi.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-rekrutmen-dan-akuisisi-talenta-koordinasi-proses-seleksi",
+      "section": "competency",
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "value": "Koordinasi proses seleksi.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-rekrutmen-dan-akuisisi-talenta-administrasi-wawancara",
+      "section": "competency",
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "value": "Administrasi wawancara.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-rekrutmen-dan-akuisisi-talenta-pengelolaan-pengalaman-kandidat",
+      "section": "competency",
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "value": "Pengelolaan pengalaman kandidat.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-rekrutmen-dan-akuisisi-talenta-employer-branding",
+      "section": "competency",
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "value": "Employer branding.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-rekrutmen-dan-akuisisi-talenta-pengelolaan-program-rekrutmen-lulusan-baru",
+      "section": "competency",
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "value": "Pengelolaan program rekrutmen lulusan baru.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-rekrutmen-dan-akuisisi-talenta-analisis-efektivitas-rekrutmen",
+      "section": "competency",
+      "groupKey": "rekrutmen-dan-akuisisi-talenta",
+      "groupLabel": "Rekrutmen dan Akuisisi Talenta",
+      "value": "Analisis efektivitas rekrutmen.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-pelatihan-dan-pengembangan-analisis-kebutuhan-pelatihan",
+      "section": "competency",
+      "groupKey": "pelatihan-dan-pengembangan",
+      "groupLabel": "Pelatihan dan Pengembangan",
+      "value": "Analisis kebutuhan pelatihan.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-pelatihan-dan-pengembangan-penyusunan-program-pelatihan",
+      "section": "competency",
+      "groupKey": "pelatihan-dan-pengembangan",
+      "groupLabel": "Pelatihan dan Pengembangan",
+      "value": "Penyusunan program pelatihan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-pelatihan-dan-pengembangan-pengembangan-materi-pembelajaran",
+      "section": "competency",
+      "groupKey": "pelatihan-dan-pengembangan",
+      "groupLabel": "Pelatihan dan Pengembangan",
+      "value": "Pengembangan materi pembelajaran.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-pelatihan-dan-pengembangan-pengelolaan-jadwal-pelatihan",
+      "section": "competency",
+      "groupKey": "pelatihan-dan-pengembangan",
+      "groupLabel": "Pelatihan dan Pengembangan",
+      "value": "Pengelolaan jadwal pelatihan.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-pelatihan-dan-pengembangan-fasilitasi-pembelajaran",
+      "section": "competency",
+      "groupKey": "pelatihan-dan-pengembangan",
+      "groupLabel": "Pelatihan dan Pengembangan",
+      "value": "Fasilitasi pembelajaran.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-pelatihan-dan-pengembangan-evaluasi-pelatihan",
+      "section": "competency",
+      "groupKey": "pelatihan-dan-pengembangan",
+      "groupLabel": "Pelatihan dan Pengembangan",
+      "value": "Evaluasi pelatihan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-pelatihan-dan-pengembangan-pengelolaan-kompetensi",
+      "section": "competency",
+      "groupKey": "pelatihan-dan-pengembangan",
+      "groupLabel": "Pelatihan dan Pengembangan",
+      "value": "Pengelolaan kompetensi.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-pelatihan-dan-pengembangan-pengelolaan-learning-management-system",
+      "section": "competency",
+      "groupKey": "pelatihan-dan-pengembangan",
+      "groupLabel": "Pelatihan dan Pengembangan",
+      "value": "Pengelolaan Learning Management System.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-pelatihan-dan-pengembangan-pengembangan-kepemimpinan",
+      "section": "competency",
+      "groupKey": "pelatihan-dan-pengembangan",
+      "groupLabel": "Pelatihan dan Pengembangan",
+      "value": "Pengembangan kepemimpinan.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-pelatihan-dan-pengembangan-pengembangan-karier",
+      "section": "competency",
+      "groupKey": "pelatihan-dan-pengembangan",
+      "groupLabel": "Pelatihan dan Pengembangan",
+      "value": "Pengembangan karier.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-pelatihan-dan-pengembangan-pengelolaan-pengetahuan",
+      "section": "competency",
+      "groupKey": "pelatihan-dan-pengembangan",
+      "groupLabel": "Pelatihan dan Pengembangan",
+      "value": "Pengelolaan pengetahuan.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-pelatihan-dan-pengembangan-pengembangan-program-teknis",
+      "section": "competency",
+      "groupKey": "pelatihan-dan-pengembangan",
+      "groupLabel": "Pelatihan dan Pengembangan",
+      "value": "Pengembangan program teknis.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-manajemen-talenta-dan-kinerja-identifikasi-talenta",
+      "section": "competency",
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "value": "Identifikasi talenta.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-manajemen-talenta-dan-kinerja-penilaian-kompetensi",
+      "section": "competency",
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "value": "Penilaian kompetensi.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-manajemen-talenta-dan-kinerja-analisis-potensi",
+      "section": "competency",
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "value": "Analisis potensi.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-manajemen-talenta-dan-kinerja-pengelolaan-kinerja",
+      "section": "competency",
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "value": "Pengelolaan kinerja.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-manajemen-talenta-dan-kinerja-penyusunan-indikator-kinerja",
+      "section": "competency",
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "value": "Penyusunan indikator kinerja.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-manajemen-talenta-dan-kinerja-evaluasi-kinerja",
+      "section": "competency",
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "value": "Evaluasi kinerja.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-manajemen-talenta-dan-kinerja-perencanaan-karier",
+      "section": "competency",
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "value": "Perencanaan karier.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-manajemen-talenta-dan-kinerja-perencanaan-suksesi",
+      "section": "competency",
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "value": "Perencanaan suksesi.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-manajemen-talenta-dan-kinerja-pengembangan-organisasi",
+      "section": "competency",
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "value": "Pengembangan organisasi.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-manajemen-talenta-dan-kinerja-analisis-struktur-organisasi",
+      "section": "competency",
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "value": "Analisis struktur organisasi.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-manajemen-talenta-dan-kinerja-perencanaan-tenaga-kerja",
+      "section": "competency",
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "value": "Perencanaan tenaga kerja.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-manajemen-talenta-dan-kinerja-analisis-produktivitas-tenaga-kerja",
+      "section": "competency",
+      "groupKey": "manajemen-talenta-dan-kinerja",
+      "groupLabel": "Manajemen Talenta dan Kinerja",
+      "value": "Analisis produktivitas tenaga kerja.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-kompensasi-dan-penggajian-administrasi-penggajian",
+      "section": "competency",
+      "groupKey": "kompensasi-dan-penggajian",
+      "groupLabel": "Kompensasi dan Penggajian",
+      "value": "Administrasi penggajian.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-kompensasi-dan-penggajian-pengelolaan-data-kehadiran",
+      "section": "competency",
+      "groupKey": "kompensasi-dan-penggajian",
+      "groupLabel": "Kompensasi dan Penggajian",
+      "value": "Pengelolaan data kehadiran.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-kompensasi-dan-penggajian-pengelolaan-data-lembur",
+      "section": "competency",
+      "groupKey": "kompensasi-dan-penggajian",
+      "groupLabel": "Kompensasi dan Penggajian",
+      "value": "Pengelolaan data lembur.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-kompensasi-dan-penggajian-pengelolaan-manfaat-karyawan",
+      "section": "competency",
+      "groupKey": "kompensasi-dan-penggajian",
+      "groupLabel": "Kompensasi dan Penggajian",
+      "value": "Pengelolaan manfaat karyawan.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-kompensasi-dan-penggajian-analisis-kompensasi",
+      "section": "competency",
+      "groupKey": "kompensasi-dan-penggajian",
+      "groupLabel": "Kompensasi dan Penggajian",
+      "value": "Analisis kompensasi.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-kompensasi-dan-penggajian-evaluasi-jabatan",
+      "section": "competency",
+      "groupKey": "kompensasi-dan-penggajian",
+      "groupLabel": "Kompensasi dan Penggajian",
+      "value": "Evaluasi jabatan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-kompensasi-dan-penggajian-penyusunan-struktur-remunerasi",
+      "section": "competency",
+      "groupKey": "kompensasi-dan-penggajian",
+      "groupLabel": "Kompensasi dan Penggajian",
+      "value": "Penyusunan struktur remunerasi.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-kompensasi-dan-penggajian-analisis-biaya-tenaga-kerja",
+      "section": "competency",
+      "groupKey": "kompensasi-dan-penggajian",
+      "groupLabel": "Kompensasi dan Penggajian",
+      "value": "Analisis biaya tenaga kerja.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-kompensasi-dan-penggajian-pengelolaan-data-penggajian",
+      "section": "competency",
+      "groupKey": "kompensasi-dan-penggajian",
+      "groupLabel": "Kompensasi dan Penggajian",
+      "value": "Pengelolaan data penggajian.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-kompensasi-dan-penggajian-penyusunan-laporan-kompensasi",
+      "section": "competency",
+      "groupKey": "kompensasi-dan-penggajian",
+      "groupLabel": "Kompensasi dan Penggajian",
+      "value": "Penyusunan laporan kompensasi.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-hubungan-industrial-administrasi-hubungan-industrial",
+      "section": "competency",
+      "groupKey": "hubungan-industrial",
+      "groupLabel": "Hubungan Industrial",
+      "value": "Administrasi hubungan industrial.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-hubungan-industrial-pemahaman-dasar-ketenagakerjaan",
+      "section": "competency",
+      "groupKey": "hubungan-industrial",
+      "groupLabel": "Hubungan Industrial",
+      "value": "Pemahaman dasar ketenagakerjaan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-hubungan-industrial-pengelolaan-hubungan-pekerja-dan-perusahaan",
+      "section": "competency",
+      "groupKey": "hubungan-industrial",
+      "groupLabel": "Hubungan Industrial",
+      "value": "Pengelolaan hubungan pekerja dan perusahaan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-hubungan-industrial-pengelolaan-keluhan",
+      "section": "competency",
+      "groupKey": "hubungan-industrial",
+      "groupLabel": "Hubungan Industrial",
+      "value": "Pengelolaan keluhan.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-hubungan-industrial-pengelolaan-perselisihan",
+      "section": "competency",
+      "groupKey": "hubungan-industrial",
+      "groupLabel": "Hubungan Industrial",
+      "value": "Pengelolaan perselisihan.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-hubungan-industrial-komunikasi-ketenagakerjaan",
+      "section": "competency",
+      "groupKey": "hubungan-industrial",
+      "groupLabel": "Hubungan Industrial",
+      "value": "Komunikasi ketenagakerjaan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-hubungan-industrial-pengelolaan-perundingan",
+      "section": "competency",
+      "groupKey": "hubungan-industrial",
+      "groupLabel": "Hubungan Industrial",
+      "value": "Pengelolaan perundingan.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-hubungan-industrial-pemantauan-kepatuhan-ketenagakerjaan",
+      "section": "competency",
+      "groupKey": "hubungan-industrial",
+      "groupLabel": "Hubungan Industrial",
+      "value": "Pemantauan kepatuhan ketenagakerjaan.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-hubungan-industrial-pengelolaan-dokumentasi-hubungan-industrial",
+      "section": "competency",
+      "groupKey": "hubungan-industrial",
+      "groupLabel": "Hubungan Industrial",
+      "value": "Pengelolaan dokumentasi hubungan industrial.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-hris-dan-analitik-pengelolaan-basis-data-sdm",
+      "section": "competency",
+      "groupKey": "hris-dan-analitik",
+      "groupLabel": "HRIS dan Analitik",
+      "value": "Pengelolaan basis data SDM.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-hris-dan-analitik-pengoperasian-hris",
+      "section": "competency",
+      "groupKey": "hris-dan-analitik",
+      "groupLabel": "HRIS dan Analitik",
+      "value": "Pengoperasian HRIS.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-hris-dan-analitik-analisis-data-tenaga-kerja",
+      "section": "competency",
+      "groupKey": "hris-dan-analitik",
+      "groupLabel": "HRIS dan Analitik",
+      "value": "Analisis data tenaga kerja.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-hris-dan-analitik-penyusunan-laporan-sdm",
+      "section": "competency",
+      "groupKey": "hris-dan-analitik",
+      "groupLabel": "HRIS dan Analitik",
+      "value": "Penyusunan laporan SDM.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-hris-dan-analitik-visualisasi-data",
+      "section": "competency",
+      "groupKey": "hris-dan-analitik",
+      "groupLabel": "HRIS dan Analitik",
+      "value": "Visualisasi data.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-hris-dan-analitik-analisis-tingkat-kebutuhan-tenaga-kerja",
+      "section": "competency",
+      "groupKey": "hris-dan-analitik",
+      "groupLabel": "HRIS dan Analitik",
+      "value": "Analisis tingkat kebutuhan tenaga kerja.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-hris-dan-analitik-analisis-perputaran-tenaga-kerja",
+      "section": "competency",
+      "groupKey": "hris-dan-analitik",
+      "groupLabel": "HRIS dan Analitik",
+      "value": "Analisis perputaran tenaga kerja.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-hris-dan-analitik-analisis-data-pelatihan",
+      "section": "competency",
+      "groupKey": "hris-dan-analitik",
+      "groupLabel": "HRIS dan Analitik",
+      "value": "Analisis data pelatihan.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-hris-dan-analitik-analisis-data-kinerja",
+      "section": "competency",
+      "groupKey": "hris-dan-analitik",
+      "groupLabel": "HRIS dan Analitik",
+      "value": "Analisis data kinerja.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-hris-dan-analitik-pengelolaan-keamanan-dan-akses-data",
+      "section": "competency",
+      "groupKey": "hris-dan-analitik",
+      "groupLabel": "HRIS dan Analitik",
+      "value": "Pengelolaan keamanan dan akses data.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-administrasi-perkantoran",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Administrasi perkantoran.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-pengelolaan-surat-menyurat",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Pengelolaan surat-menyurat.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-pengelolaan-dokumen",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Pengelolaan dokumen.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-pengendalian-dokumen",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Pengendalian dokumen.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-pengelolaan-arsip",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Pengelolaan arsip.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-pengelolaan-data",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Pengelolaan data.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-penyusunan-laporan-administrasi",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Penyusunan laporan administrasi.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-administrasi-proyek",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Administrasi proyek.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-administrasi-operasional",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Administrasi operasional.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-pengelolaan-jadwal",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Pengelolaan jadwal.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-pengelolaan-rapat",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Pengelolaan rapat.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-pengelolaan-perjalanan-dan-akomodasi",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Pengelolaan perjalanan dan akomodasi.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-kompetensi-nonteknis",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Kompetensi nonteknis",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-kemampuan-komunikasi",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Kemampuan komunikasi.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-kemampuan-mendengarkan",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Kemampuan mendengarkan.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-kemampuan-interpersonal",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Kemampuan interpersonal.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-kemampuan-bekerja-sama",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Kemampuan bekerja sama.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-kemampuan-membangun-hubungan-kerja",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Kemampuan membangun hubungan kerja.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-ketelitian",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Ketelitian.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-kemampuan-mengelola-waktu",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Kemampuan mengelola waktu.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-kemampuan-mengatur-prioritas",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Kemampuan mengatur prioritas.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-kemampuan-memecahkan-masalah",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Kemampuan memecahkan masalah.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-kemampuan-berpikir-analitis",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Kemampuan berpikir analitis.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-kemampuan-menjaga-kerahasiaan",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Kemampuan menjaga kerahasiaan.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-integritas",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Integritas.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-objektivitas",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Objektivitas.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-empati-profesional",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Empati profesional.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-kemampuan-menangani-konflik",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Kemampuan menangani konflik.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-kemampuan-beradaptasi",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Kemampuan beradaptasi.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-kemampuan-memberikan-layanan",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Kemampuan memberikan layanan.",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-kemampuan-presentasi",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Kemampuan presentasi.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-kemampuan-memfasilitasi-pelatihan",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Kemampuan memfasilitasi pelatihan.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "competency-administrasi-dan-dokumentasi-kepemimpinan",
+      "section": "competency",
+      "groupKey": "administrasi-dan-dokumentasi",
+      "groupLabel": "Administrasi dan Dokumentasi",
+      "value": "Kepemimpinan.",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-utama",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan utama",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "education-informasi-utama-manajemen-sumber-daya-manusia",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Sumber Daya Manusia",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "education-informasi-utama-manajemen",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "education-informasi-utama-manajemen-bisnis",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Bisnis",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "education-informasi-utama-administrasi-bisnis",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Administrasi Bisnis",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "education-informasi-utama-administrasi-perkantoran",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Administrasi Perkantoran",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "education-informasi-utama-administrasi-publik",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Administrasi Publik",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "education-informasi-utama-administrasi-negara",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Administrasi Negara",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "education-informasi-utama-psikologi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Psikologi",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "education-informasi-utama-psikologi-industri-dan-organisasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Psikologi Industri dan Organisasi",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "education-informasi-utama-ilmu-komunikasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ilmu Komunikasi",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "education-informasi-utama-hubungan-industrial",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Hubungan Industrial",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "education-informasi-utama-hukum",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Hukum",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "education-informasi-utama-ilmu-pemerintahan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ilmu Pemerintahan",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "education-informasi-utama-teknologi-pendidikan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknologi Pendidikan",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "education-informasi-utama-akuntansi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Akuntansi",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "education-informasi-utama-keuangan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keuangan",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "education-informasi-utama-sistem-informasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem Informasi",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "education-informasi-utama-teknologi-informasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknologi Informasi",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "education-informasi-utama-statistika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Statistika",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "education-informasi-utama-sains-data",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sains Data",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-industri",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Industri",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-pertambangan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Pertambangan",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "education-informasi-utama-bidang-lain-yang-relevan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Bidang lain yang relevan.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-pendukung-untuk-posisi-tertentu",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan pendukung untuk posisi tertentu",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-manajemen",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Manajemen.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-administrasi-bisnis",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Administrasi Bisnis.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-administrasi-perkantoran",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Administrasi Perkantoran.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-kesekretariatan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Kesekretariatan.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-manajemen-sumber-daya-manusia",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Manajemen Sumber Daya Manusia.",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-akuntansi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Akuntansi.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-perpajakan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Perpajakan.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-sistem-informasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Sistem Informasi.",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-manajemen-informatika",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Manajemen Informatika.",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-administrasi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi administrasi.",
+      "displayOrder": 34
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-pengelolaan-dokumen",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi pengelolaan dokumen.",
+      "displayOrder": 35
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-manajemen-perkantoran",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi manajemen perkantoran.",
+      "displayOrder": 36
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-pengelolaan-data",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi pengelolaan data.",
+      "displayOrder": 37
+    },
+    {
+      "itemKey": "education-informasi-utama-program-vokasi-layanan-bisnis",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program vokasi layanan bisnis.",
+      "displayOrder": 38
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-sap-successfactors",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: SAP SuccessFactors",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-workday-human-capital-management",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: Workday Human Capital Management",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-oracle-fusion-cloud-hcm",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: Oracle Fusion Cloud HCM",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-microsoft-dynamics-365-human-resources",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: Microsoft Dynamics 365 Human Resources",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-b-rekrutmen-dan-pengelolaan-kandidat",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: B. Rekrutmen dan Pengelolaan Kandidat",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-applicant-tracking-system-ats",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: Applicant Tracking System (ATS)",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-linkedin-talent-solutions",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: LinkedIn Talent Solutions",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-sistem-rekrutmen-internal",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: Sistem Rekrutmen Internal",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-c-pembelajaran-dan-pengembangan",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: C. Pembelajaran dan Pengembangan",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-learning-management-system-lms",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: Learning Management System (LMS)",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-moodle",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: Moodle",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-microsoft-teams",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: Microsoft Teams",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-d-administrasi-dan-pengelolaan-dokumen",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: D. Administrasi dan Pengelolaan Dokumen",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-microsoft-word",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: Microsoft Word",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-microsoft-excel",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: Microsoft Excel",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-microsoft-powerpoint",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: Microsoft PowerPoint",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-microsoft-sharepoint",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: Microsoft SharePoint",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-google-workspace",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: Google Workspace",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-e-analitik-dan-pelaporan",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: E. Analitik dan Pelaporan",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-microsoft-power-bi",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: Microsoft Power BI",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-tableau",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: Tableau",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-sql",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: SQL",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "software-informasi-utama-human-resources-information-system-python",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Human Resources Information System: Python",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-teknis",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan teknis",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-rekrutmen-dan-seleksi-pelatihan-dasar-rekrutmen",
+      "section": "training",
+      "groupKey": "rekrutmen-dan-seleksi",
+      "groupLabel": "Rekrutmen dan Seleksi",
+      "value": "Pelatihan dasar rekrutmen.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-rekrutmen-dan-seleksi-pelatihan-wawancara-berbasis-kompetensi",
+      "section": "training",
+      "groupKey": "rekrutmen-dan-seleksi",
+      "groupLabel": "Rekrutmen dan Seleksi",
+      "value": "Pelatihan wawancara berbasis kompetensi.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-rekrutmen-dan-seleksi-pelatihan-teknik-seleksi",
+      "section": "training",
+      "groupKey": "rekrutmen-dan-seleksi",
+      "groupLabel": "Rekrutmen dan Seleksi",
+      "value": "Pelatihan teknik seleksi.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-rekrutmen-dan-seleksi-pelatihan-penyusunan-deskripsi-pekerjaan",
+      "section": "training",
+      "groupKey": "rekrutmen-dan-seleksi",
+      "groupLabel": "Rekrutmen dan Seleksi",
+      "value": "Pelatihan penyusunan deskripsi pekerjaan.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-rekrutmen-dan-seleksi-pelatihan-talent-sourcing",
+      "section": "training",
+      "groupKey": "rekrutmen-dan-seleksi",
+      "groupLabel": "Rekrutmen dan Seleksi",
+      "value": "Pelatihan talent sourcing.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-rekrutmen-dan-seleksi-pelatihan-administrasi-rekrutmen",
+      "section": "training",
+      "groupKey": "rekrutmen-dan-seleksi",
+      "groupLabel": "Rekrutmen dan Seleksi",
+      "value": "Pelatihan administrasi rekrutmen.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-rekrutmen-dan-seleksi-pelatihan-penggunaan-applicant-tracking-system",
+      "section": "training",
+      "groupKey": "rekrutmen-dan-seleksi",
+      "groupLabel": "Rekrutmen dan Seleksi",
+      "value": "Pelatihan penggunaan Applicant Tracking System.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-rekrutmen-dan-seleksi-pelatihan-employer-branding",
+      "section": "training",
+      "groupKey": "rekrutmen-dan-seleksi",
+      "groupLabel": "Rekrutmen dan Seleksi",
+      "value": "Pelatihan employer branding.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-rekrutmen-dan-seleksi-pelatihan-pengalaman-kandidat",
+      "section": "training",
+      "groupKey": "rekrutmen-dan-seleksi",
+      "groupLabel": "Rekrutmen dan Seleksi",
+      "value": "Pelatihan pengalaman kandidat.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-pengembangan-sdm-pelatihan-analisis-kebutuhan-pelatihan",
+      "section": "training",
+      "groupKey": "pengembangan-sdm",
+      "groupLabel": "Pengembangan SDM",
+      "value": "Pelatihan analisis kebutuhan pelatihan.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-pengembangan-sdm-pelatihan-penyusunan-program-pelatihan",
+      "section": "training",
+      "groupKey": "pengembangan-sdm",
+      "groupLabel": "Pengembangan SDM",
+      "value": "Pelatihan penyusunan program pelatihan.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-pengembangan-sdm-pelatihan-pengembangan-materi-pembelajaran",
+      "section": "training",
+      "groupKey": "pengembangan-sdm",
+      "groupLabel": "Pengembangan SDM",
+      "value": "Pelatihan pengembangan materi pembelajaran.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-pengembangan-sdm-pelatihan-fasilitasi",
+      "section": "training",
+      "groupKey": "pengembangan-sdm",
+      "groupLabel": "Pengembangan SDM",
+      "value": "Pelatihan fasilitasi.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-pengembangan-sdm-pelatihan-evaluasi-pelatihan",
+      "section": "training",
+      "groupKey": "pengembangan-sdm",
+      "groupLabel": "Pengembangan SDM",
+      "value": "Pelatihan evaluasi pelatihan.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-pengembangan-sdm-pelatihan-pengelolaan-kompetensi",
+      "section": "training",
+      "groupKey": "pengembangan-sdm",
+      "groupLabel": "Pengembangan SDM",
+      "value": "Pelatihan pengelolaan kompetensi.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-pengembangan-sdm-pelatihan-penggunaan-lms",
+      "section": "training",
+      "groupKey": "pengembangan-sdm",
+      "groupLabel": "Pengembangan SDM",
+      "value": "Pelatihan penggunaan LMS.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-pengembangan-sdm-pelatihan-pengembangan-karier",
+      "section": "training",
+      "groupKey": "pengembangan-sdm",
+      "groupLabel": "Pengembangan SDM",
+      "value": "Pelatihan pengembangan karier.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-pengembangan-sdm-pelatihan-pengembangan-kepemimpinan",
+      "section": "training",
+      "groupKey": "pengembangan-sdm",
+      "groupLabel": "Pengembangan SDM",
+      "value": "Pelatihan pengembangan kepemimpinan.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-pengembangan-sdm-pelatihan-manajemen-pengetahuan",
+      "section": "training",
+      "groupKey": "pengembangan-sdm",
+      "groupLabel": "Pengembangan SDM",
+      "value": "Pelatihan manajemen pengetahuan.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "training-pengembangan-sdm-pelatihan-perencanaan-suksesi",
+      "section": "training",
+      "groupKey": "pengembangan-sdm",
+      "groupLabel": "Pengembangan SDM",
+      "value": "Pelatihan perencanaan suksesi.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "training-manajemen-sdm-dan-kinerja-pelatihan-manajemen-sumber-daya-manusia",
+      "section": "training",
+      "groupKey": "manajemen-sdm-dan-kinerja",
+      "groupLabel": "Manajemen SDM dan Kinerja",
+      "value": "Pelatihan manajemen sumber daya manusia.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-manajemen-sdm-dan-kinerja-pelatihan-perencanaan-tenaga-kerja",
+      "section": "training",
+      "groupKey": "manajemen-sdm-dan-kinerja",
+      "groupLabel": "Manajemen SDM dan Kinerja",
+      "value": "Pelatihan perencanaan tenaga kerja.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-manajemen-sdm-dan-kinerja-pelatihan-manajemen-talenta",
+      "section": "training",
+      "groupKey": "manajemen-sdm-dan-kinerja",
+      "groupLabel": "Manajemen SDM dan Kinerja",
+      "value": "Pelatihan manajemen talenta.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-manajemen-sdm-dan-kinerja-pelatihan-manajemen-kinerja",
+      "section": "training",
+      "groupKey": "manajemen-sdm-dan-kinerja",
+      "groupLabel": "Manajemen SDM dan Kinerja",
+      "value": "Pelatihan manajemen kinerja.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-manajemen-sdm-dan-kinerja-pelatihan-penyusunan-indikator-kinerja",
+      "section": "training",
+      "groupKey": "manajemen-sdm-dan-kinerja",
+      "groupLabel": "Manajemen SDM dan Kinerja",
+      "value": "Pelatihan penyusunan indikator kinerja.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-manajemen-sdm-dan-kinerja-pelatihan-pengembangan-organisasi",
+      "section": "training",
+      "groupKey": "manajemen-sdm-dan-kinerja",
+      "groupLabel": "Manajemen SDM dan Kinerja",
+      "value": "Pelatihan pengembangan organisasi.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-manajemen-sdm-dan-kinerja-pelatihan-manajemen-perubahan",
+      "section": "training",
+      "groupKey": "manajemen-sdm-dan-kinerja",
+      "groupLabel": "Manajemen SDM dan Kinerja",
+      "value": "Pelatihan manajemen perubahan.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-manajemen-sdm-dan-kinerja-pelatihan-hr-business-partner",
+      "section": "training",
+      "groupKey": "manajemen-sdm-dan-kinerja",
+      "groupLabel": "Manajemen SDM dan Kinerja",
+      "value": "Pelatihan HR Business Partner.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-manajemen-sdm-dan-kinerja-pelatihan-analisis-produktivitas-tenaga-kerja",
+      "section": "training",
+      "groupKey": "manajemen-sdm-dan-kinerja",
+      "groupLabel": "Manajemen SDM dan Kinerja",
+      "value": "Pelatihan analisis produktivitas tenaga kerja.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-kompensasi-dan-hubungan-industrial-pelatihan-administrasi-penggajian",
+      "section": "training",
+      "groupKey": "kompensasi-dan-hubungan-industrial",
+      "groupLabel": "Kompensasi dan Hubungan Industrial",
+      "value": "Pelatihan administrasi penggajian.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-kompensasi-dan-hubungan-industrial-pelatihan-kompensasi-dan-manfaat",
+      "section": "training",
+      "groupKey": "kompensasi-dan-hubungan-industrial",
+      "groupLabel": "Kompensasi dan Hubungan Industrial",
+      "value": "Pelatihan kompensasi dan manfaat.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-kompensasi-dan-hubungan-industrial-pelatihan-evaluasi-jabatan",
+      "section": "training",
+      "groupKey": "kompensasi-dan-hubungan-industrial",
+      "groupLabel": "Kompensasi dan Hubungan Industrial",
+      "value": "Pelatihan evaluasi jabatan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-kompensasi-dan-hubungan-industrial-pelatihan-penyusunan-struktur-remunerasi",
+      "section": "training",
+      "groupKey": "kompensasi-dan-hubungan-industrial",
+      "groupLabel": "Kompensasi dan Hubungan Industrial",
+      "value": "Pelatihan penyusunan struktur remunerasi.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-kompensasi-dan-hubungan-industrial-pelatihan-hubungan-industrial",
+      "section": "training",
+      "groupKey": "kompensasi-dan-hubungan-industrial",
+      "groupLabel": "Kompensasi dan Hubungan Industrial",
+      "value": "Pelatihan hubungan industrial.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-kompensasi-dan-hubungan-industrial-pelatihan-komunikasi-ketenagakerjaan",
+      "section": "training",
+      "groupKey": "kompensasi-dan-hubungan-industrial",
+      "groupLabel": "Kompensasi dan Hubungan Industrial",
+      "value": "Pelatihan komunikasi ketenagakerjaan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-kompensasi-dan-hubungan-industrial-pelatihan-penyelesaian-konflik",
+      "section": "training",
+      "groupKey": "kompensasi-dan-hubungan-industrial",
+      "groupLabel": "Kompensasi dan Hubungan Industrial",
+      "value": "Pelatihan penyelesaian konflik.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-kompensasi-dan-hubungan-industrial-pelatihan-penanganan-keluhan",
+      "section": "training",
+      "groupKey": "kompensasi-dan-hubungan-industrial",
+      "groupLabel": "Kompensasi dan Hubungan Industrial",
+      "value": "Pelatihan penanganan keluhan.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-kompensasi-dan-hubungan-industrial-pelatihan-dasar-hukum-ketenagakerjaan",
+      "section": "training",
+      "groupKey": "kompensasi-dan-hubungan-industrial",
+      "groupLabel": "Kompensasi dan Hubungan Industrial",
+      "value": "Pelatihan dasar hukum ketenagakerjaan.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-kompensasi-dan-hubungan-industrial-pelatihan-administrasi-hubungan-industrial",
+      "section": "training",
+      "groupKey": "kompensasi-dan-hubungan-industrial",
+      "groupLabel": "Kompensasi dan Hubungan Industrial",
+      "value": "Pelatihan administrasi hubungan industrial.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-pelatihan-penggunaan-hris",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Pelatihan penggunaan HRIS.",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-pelatihan-pengelolaan-data-sdm",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Pelatihan pengelolaan data SDM.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-pelatihan-microsoft-excel-tingkat-lanjut",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Pelatihan Microsoft Excel tingkat lanjut.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-pelatihan-power-bi",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Pelatihan Power BI.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-pelatihan-analisis-data-tenaga-kerja",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Pelatihan analisis data tenaga kerja.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-pelatihan-perlindungan-data",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Pelatihan perlindungan data.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-pelatihan-pengelolaan-dokumen",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Pelatihan pengelolaan dokumen.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-pelatihan-pengendalian-dokumen",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Pelatihan pengendalian dokumen.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-pelatihan-manajemen-arsip",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Pelatihan manajemen arsip.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-pelatihan-administrasi-perkantoran",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Pelatihan administrasi perkantoran.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-pelatihan-manajemen-layanan-umum",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Pelatihan manajemen layanan umum.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-pelatihan-keselamatan",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Pelatihan keselamatan",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-induksi-keselamatan-pertambangan",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Induksi keselamatan pertambangan.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-pengenalan-bahaya-dan-risiko-di-area-tambang",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Pengenalan bahaya dan risiko di area tambang.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-keselamatan-saat-berada-di-lokasi-operasi",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Keselamatan saat berada di lokasi operasi.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-keselamatan-lalu-lintas-tambang",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Keselamatan lalu lintas tambang.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-penggunaan-alat-pelindung-diri",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Penggunaan alat pelindung diri.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-prosedur-tanggap-darurat",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Prosedur tanggap darurat.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-komunikasi-darurat",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Komunikasi darurat.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-keselamatan-perjalanan-menuju-lokasi-kerja",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Keselamatan perjalanan menuju lokasi kerja.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-keselamatan-di-area-produksi-dan-pengolahan",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Keselamatan di area produksi dan pengolahan.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "training-hris-data-dan-administrasi-pelatihan-keselamatan-sesuai-risiko-pekerjaan",
+      "section": "training",
+      "groupKey": "hris-data-dan-administrasi",
+      "groupLabel": "HRIS, Data, dan Administrasi",
+      "value": "Pelatihan keselamatan sesuai risiko pekerjaan.",
+      "displayOrder": 21
+    }
+  ]
+}

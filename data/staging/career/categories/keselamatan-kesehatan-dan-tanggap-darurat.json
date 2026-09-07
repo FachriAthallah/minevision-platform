@@ -1,0 +1,2949 @@
+{
+  "schemaVersion": "1.0",
+  "categorySlug": "keselamatan-kesehatan-dan-tanggap-darurat",
+  "category": {
+    "name": "Keselamatan, Kesehatan, dan Tanggap Darurat",
+    "slug": "keselamatan-kesehatan-dan-tanggap-darurat",
+    "description": "Deskripsi Kategori",
+    "displayOrder": 6,
+    "isActive": true
+  },
+  "profile": {
+    "title": "Keselamatan, Kesehatan, dan Tanggap Darurat",
+    "slug": "keselamatan-kesehatan-dan-tanggap-darurat",
+    "excerpt": "Deskripsi Kategori",
+    "body": "Deskripsi Kategori\n\nKategori Keselamatan, Kesehatan, dan Tanggap Darurat mencakup profesi yang berperan dalam mengidentifikasi bahaya, menilai dan mengendalikan risiko, memastikan penerapan prosedur kerja yang aman, memantau kondisi keselamatan dan kesehatan pekerja, serta meningkatkan kesiapsiagaan terhadap keadaan darurat di lingkungan pertambangan.\n\nDalam konteks pertambangan Indonesia, keselamatan pertambangan mencakup pengelolaan keselamatan dan kesehatan pertambangan serta keselamatan operasional pertambangan. Penerapannya berkaitan dengan kaidah teknik pertambangan yang baik, pengelolaan risiko, pengawasan kegiatan, penerapan Sistem Manajemen Keselamatan Pertambangan (SMKP), serta pengelolaan keadaan darurat.\n\nContoh Profesi\n\nKeselamatan dan Kesehatan Pertambangan\n\nHSE Officer\n\nHSE Engineer\n\nHSE Supervisor\n\nHSE Superintendent\n\nHSE Coordinator\n\nHSE Manager\n\nSafety Officer\n\nSafety Engineer\n\nSafety Supervisor\n\nSafety Superintendent\n\nSafety Coordinator\n\nSafety Manager\n\nMining Safety Officer\n\nMining Safety Engineer\n\nMining Safety Specialist\n\nOccupational Health and Safety Officer\n\nOccupational Health and Safety Engineer\n\nOccupational Health and Safety Specialist\n\nOccupational Health and Safety Supervisor\n\nOccupational Health and Safety Manager\n\nK3 Officer\n\nK3 Engineer\n\nK3 Supervisor\n\nK3 Coordinator\n\nK3 Manager\n\nSafety Inspector\n\nSafety Auditor\n\nSafety Compliance Officer\n\nSafety Assurance Officer\n\nSafety Performance Analyst\n\nSafety Systems Specialist\n\nSafety Management System Officer\n\nSMKP Officer\n\nSMKP Specialist\n\nSMKP Coordinator\n\nSMKP Auditor\n\nSafety Training Officer\n\nSafety Trainer\n\nSafety Induction Officer\n\nManajemen Risiko dan Pengendalian Bahaya\n\nRisk Management Officer\n\nRisk Management Specialist\n\nOperational Risk Officer\n\nOperational Risk Engineer\n\nOperational Risk Analyst\n\nRisk Assessment Specialist\n\nRisk Control Officer\n\nRisk Control Engineer\n\nHazard Identification Specialist\n\nHazard Control Specialist\n\nJob Safety Analysis Specialist\n\nCritical Risk Specialist\n\nCritical Control Specialist\n\nCritical Control Verification Officer\n\nSafety Risk Analyst\n\nSafety Assurance Engineer\n\nSafety Improvement Specialist\n\nIncident Prevention Specialist\n\nBehavior-Based Safety Officer\n\nSafety Observation Officer\n\nKeselamatan Operasional Pertambangan\n\nOperational Safety Officer\n\nOperational Safety Engineer\n\nOperational Safety Supervisor\n\nOperational Safety Superintendent\n\nMine Safety Superintendent\n\nMine Safety Supervisor\n\nMine Safety Coordinator\n\nMine Safety Inspector\n\nMining Operational Safety Specialist\n\nEquipment Safety Officer\n\nMobile Equipment Safety Specialist\n\nHeavy Equipment Safety Officer\n\nTraffic Safety Officer\n\nMine Traffic Safety Officer\n\nRoad Safety Officer\n\nHaul Road Safety Officer\n\nVehicle Safety Specialist\n\nPlant Safety Officer\n\nProcess Safety Engineer\n\nProcess Safety Specialist\n\nMachine Safety Specialist\n\nContractor Safety Officer\n\nContractor HSE Coordinator\n\nContractor Safety Supervisor\n\nKesehatan Kerja dan Higiene Industri\n\nOccupational Health Officer\n\nOccupational Health Specialist\n\nOccupational Health Coordinator\n\nOccupational Health Supervisor\n\nOccupational Health Manager\n\nIndustrial Hygienist\n\nIndustrial Hygiene Officer\n\nIndustrial Hygiene Specialist\n\nOccupational Hygiene Technician\n\nOccupational Health Nurse\n\nCompany Nurse\n\nOccupational Health Physician\n\nCompany Doctor\n\nSite Doctor\n\nSite Medic\n\nParamedic\n\nOccupational Health Technician\n\nHealth and Wellness Officer\n\nEmployee Health Officer\n\nHealth Surveillance Officer\n\nFitness for Work Coordinator\n\nFatigue Management Officer\n\nFatigue Risk Specialist\n\nExposure Monitoring Technician\n\nOccupational Exposure Specialist\n\nTanggap Darurat dan Penyelamatan\n\nEmergency Response Officer\n\nEmergency Response Specialist\n\nEmergency Response Coordinator\n\nEmergency Response Supervisor\n\nEmergency Response Superintendent\n\nEmergency Response Manager\n\nEmergency Preparedness Officer\n\nEmergency Preparedness Specialist\n\nEmergency Management Officer\n\nEmergency Management Specialist\n\nEmergency Services Officer\n\nMine Rescue Officer\n\nMine Rescue Technician\n\nMine Rescue Specialist\n\nMine Rescue Supervisor\n\nMine Rescue Coordinator\n\nRescue Team Leader\n\nRescue Team Member\n\nEmergency Rescue Technician\n\nFire and Rescue Officer\n\nFire and Rescue Technician\n\nFire Safety Officer\n\nFire Prevention Officer\n\nFire Protection Engineer\n\nFire Systems Technician\n\nFirefighter\n\nEmergency Medical Technician\n\nEmergency Medical Responder\n\nEmergency Response Medic\n\nFirst Aid Coordinator\n\nEmergency Control Room Operator\n\nEmergency Communications Officer\n\nInvestigasi dan Analisis Insiden\n\nIncident Investigation Officer\n\nIncident Investigation Specialist\n\nIncident Investigator\n\nAccident Investigation Officer\n\nSafety Investigation Analyst\n\nIncident Analysis Specialist\n\nRoot Cause Analysis Specialist\n\nSafety Data Analyst\n\nHSE Data Analyst\n\nSafety Performance Analyst\n\nSafety Reporting Officer\n\nSafety Information Officer\n\nSafety Assurance Analyst\n\nCorrective Action Coordinator\n\nLessons Learned Coordinator\n\nKepemimpinan dan Pengawasan Keselamatan\n\nSafety Superintendent\n\nHSE Superintendent\n\nSafety Manager\n\nHSE Manager\n\nOccupational Health and Safety Manager\n\nEmergency Response Manager\n\nMine Rescue Manager\n\nSafety and Risk Manager\n\nHSE and Risk Manager\n\nHead of HSE\n\nHead of Safety\n\nHead of Emergency Response\n\nSafety Department Manager\n\nHSE Department Manager\n\nRuang Lingkup Pekerjaan\n\nPelaksanaan tugas harus mengikuti kewenangan, kompetensi, prosedur perusahaan, dan ketentuan yang berlaku. Tindakan penyelamatan atau penanganan darurat tidak boleh dilakukan di luar kemampuan, pelatihan, atau batas kewenangan personel. Profesi dalam kategori Keselamatan, Kesehatan, dan Tanggap Darurat dapat terlibat dalam kegiatan berikut:\n\nMengidentifikasi bahaya yang terdapat pada kegiatan pertambangan, fasilitas pengolahan, bengkel, jalan tambang, area kerja, dan kegiatan pendukung.\n\nMelakukan penilaian risiko serta membantu menentukan pengendalian yang sesuai berdasarkan tingkat risiko dan kondisi pekerjaan.\n\nMemantau penerapan prosedur kerja aman, standar keselamatan, instruksi kerja, dan persyaratan keselamatan perusahaan.\n\nMelakukan inspeksi keselamatan secara rutin pada area kerja, peralatan, fasilitas, kendaraan, dan aktivitas operasional.\n\nMelaksanakan pengawasan keselamatan terhadap kegiatan berisiko tinggi sesuai kebutuhan dan ketentuan yang berlaku.\n\nMendukung penerapan Sistem Manajemen Keselamatan Pertambangan (SMKP), termasuk perencanaan, pelaksanaan, pemantauan, evaluasi, audit, dan perbaikan berkelanjutan. Penerapan SMKP merupakan bagian penting dalam pengendalian risiko keselamatan pertambangan.\n\nMelakukan kegiatan safety induction, sosialisasi, kampanye keselamatan, toolbox meeting, dan komunikasi keselamatan.\n\nMengembangkan atau memperbarui dokumen keselamatan, seperti prosedur, instruksi kerja, formulir inspeksi, serta dokumen pengendalian risiko.\n\nMemantau penggunaan alat pelindung diri sesuai jenis pekerjaan dan risiko yang dihadapi.\n\nMengumpulkan, mencatat, dan menganalisis data keselamatan, termasuk temuan inspeksi, kondisi tidak aman, tindakan tidak aman, insiden, serta indikator kinerja keselamatan.\n\nMelakukan investigasi insiden dan membantu mengidentifikasi penyebab langsung, faktor pendukung, serta akar penyebab.\n\nMenyusun rekomendasi tindakan perbaikan dan memantau penyelesaian tindakan tersebut.\n\nMelaksanakan pemantauan faktor kesehatan kerja, seperti debu, kebisingan, getaran, panas, pencahayaan, kualitas udara, atau paparan lain sesuai risiko pekerjaan.\n\nMendukung program kesehatan kerja, pemeriksaan kesehatan, pemantauan kesehatan pekerja, serta program kebugaran kerja sesuai kewenangan dan ketentuan yang berlaku.\n\nMenyusun rencana tanggap darurat dan mengidentifikasi skenario keadaan darurat yang mungkin terjadi.\n\nMenyiapkan serta memelihara peralatan tanggap darurat, komunikasi darurat, fasilitas pertolongan pertama, dan sumber daya pendukung.\n\nMelaksanakan latihan atau simulasi keadaan darurat untuk menguji kesiapan personel, prosedur, komunikasi, dan koordinasi.\n\nMelakukan respons terhadap keadaan darurat sesuai peran, pelatihan, prosedur, serta struktur komando yang berlaku.\n\nBerkoordinasi dengan tim operasi, medis, pemadam, penyelamatan, keamanan, manajemen, serta pihak eksternal apabila diperlukan.\n\nMenyusun laporan keselamatan, kesehatan kerja, hasil inspeksi, hasil audit, evaluasi risiko, dan evaluasi kesiapsiagaan darurat.\n\nKompetensi\n\nKompetensi teknis umum\n\nMemahami dasar keselamatan dan kesehatan kerja.\n\nMemahami prinsip keselamatan pertambangan.\n\nMemahami identifikasi bahaya.\n\nMemahami penilaian dan pengendalian risiko.\n\nMemahami prosedur kerja aman.\n\nMemahami penggunaan alat pelindung diri.\n\nMemahami dasar inspeksi keselamatan.\n\nMemahami pelaporan dan dokumentasi keselamatan.\n\nMemahami dasar investigasi insiden.\n\nMemahami dasar kesiapsiagaan dan tanggap darurat.\n\nMemahami prinsip komunikasi keselamatan.\n\nMemahami dasar audit dan evaluasi sistem keselamatan.\n\nMemahami peran serta tanggung jawab keselamatan di tempat kerja.\n\nMemahami dasar keselamatan operasional pertambangan.\n\nKompetensi teknis spesialis\n\nPenerapan Sistem Manajemen Keselamatan Pertambangan (SMKP).\n\nAudit internal SMKP.\n\nIdentifikasi bahaya dan penilaian risiko.\n\nJob Safety Analysis atau analisis keselamatan pekerjaan.\n\nPengembangan pengendalian risiko.\n\nPengelolaan risiko kritis.\n\nVerifikasi pengendalian kritis.\n\nInspeksi keselamatan.\n\nAudit keselamatan.\n\nInvestigasi insiden.\n\nAnalisis akar penyebab.\n\nAnalisis tren dan kinerja keselamatan.\n\nPengelolaan keselamatan kontraktor.\n\nKeselamatan alat berat dan peralatan bergerak.\n\nKeselamatan lalu lintas tambang.\n\nKeselamatan jalan angkut.\n\nKeselamatan mesin dan peralatan.\n\nKeselamatan proses.\n\nKeselamatan bahan kimia.\n\nKeselamatan kebakaran.\n\nSistem proteksi kebakaran.\n\nHigiene industri.\n\nPemantauan paparan lingkungan kerja.\n\nPengendalian debu, kebisingan, getaran, panas, dan faktor risiko lainnya.\n\nPengelolaan kesehatan kerja.\n\nManajemen kelelahan.\n\nFitness for work.\n\nPerencanaan tanggap darurat.\n\nManajemen keadaan darurat.\n\nSistem komando insiden.\n\nPenyelamatan tambang.\n\nPemadaman kebakaran.\n\nPertolongan pertama.\n\nEvakuasi dan penyelamatan.\n\nKomunikasi darurat.\n\nEvaluasi dan simulasi keadaan darurat.\n\nKompetensi nonteknis\n\nKemampuan mengidentifikasi risiko.\n\nKetelitian dan perhatian terhadap detail.\n\nKemampuan observasi lapangan.\n\nKemampuan analitis.\n\nKemampuan memecahkan masalah.\n\nKemampuan mengambil keputusan berdasarkan risiko.\n\nKomunikasi yang jelas dan efektif.\n\nKemampuan memberikan edukasi serta pengarahan.\n\nKemampuan membangun budaya keselamatan.\n\nKemampuan bekerja sama dengan berbagai departemen.\n\nKepemimpinan.\n\nKetegasan dalam penerapan standar keselamatan.\n\nKemampuan mengelola situasi darurat.\n\nKemampuan bekerja di bawah tekanan.\n\nKemampuan menyusun laporan teknis.\n\nIntegritas dan konsistensi.\n\nKepedulian terhadap keselamatan pekerja.\n\nKemampuan melakukan evaluasi dan perbaikan berkelanjutan\n\nPendidikan yang Relevan\n\nPendidikan utama\n\nKeselamatan dan Kesehatan Kerja\n\nKesehatan Masyarakat, khususnya peminatan K3\n\nTeknik Pertambangan\n\nTeknik Lingkungan\n\nTeknik Industri\n\nTeknik Kimia\n\nTeknik Mesin\n\nTeknik Elektro\n\nTeknik Sipil\n\nTeknik Geologi\n\nTeknik Metalurgi\n\nKesehatan Lingkungan\n\nKeperawatan\n\nKedokteran\n\nTeknologi Kesehatan dan Keselamatan\n\nBidang teknik atau kesehatan lain yang relevan dengan kebutuhan pekerjaan.\n\nPendidikan pendukung untuk posisi tertentu\n\nProgram Diploma Keselamatan dan Kesehatan Kerja.\n\nProgram Diploma Kesehatan Lingkungan.\n\nProgram Diploma Keperawatan.\n\nProgram Diploma Teknik Pertambangan.\n\nPendidikan vokasi keselamatan industri.\n\nPendidikan vokasi pemadam kebakaran.\n\nPendidikan vokasi tanggap darurat dan penyelamatan.\n\nPendidikan paramedis atau layanan medis darurat.\n\nPendidikan teknik yang relevan untuk keselamatan proses atau keselamatan peralatan.\n\nPendidikan lain sesuai kebutuhan operasional dan persyaratan jabatan.\n\nSoftware yang Digunakan\n\n| A. Manajemen Keselamatan dan HSE |\n| --- |\n| Intelex |\n| Enablon |\n| Sphera |\n| VelocityEHS |\n| B. Inspeksi, Audit, dan Pelaporan |\n| Microsoft Excel |\n| Microsoft Power BI |\n| Microsoft Forms atau Sistem Formulir Digital |\n| C. Manajemen Risiko dan Analisis |\n| BowTieXP |\n| Risk Assessment Software |\n| Incident Investigation Tools |\n| D. Tanggap Darurat dan Sistem Operasional |\n| Emergency Notification System |\n| Emergency Management Software |\n| Computer-Aided Dispatch (CAD) |\n| GIS dan Sistem Pemetaan |\n\nPelatihan Relevan\n\nPelatihan Teknis\n\nPelatihan dasar keselamatan dan kesehatan kerja.\n\nPelatihan keselamatan pertambangan.\n\nPelatihan implementasi SMKP.\n\nPelatihan audit internal SMKP.\n\nPelatihan inspeksi keselamatan.\n\nPelatihan identifikasi bahaya.\n\nPelatihan penilaian dan pengendalian risiko.\n\nPelatihan analisis keselamatan pekerjaan.\n\nPelatihan pengelolaan risiko kritis.\n\nPelatihan verifikasi pengendalian kritis.\n\nPelatihan investigasi insiden.\n\nPelatihan analisis akar penyebab.\n\nPelatihan pengelolaan keselamatan kontraktor.\n\nPelatihan keselamatan alat berat.\n\nPelatihan keselamatan lalu lintas tambang.\n\nPelatihan keselamatan jalan angkut.\n\nPelatihan keselamatan mesin.\n\nPelatihan keselamatan proses.\n\nPelatihan keselamatan bahan kimia.\n\nPelatihan keselamatan kebakaran.\n\nPelatihan sistem proteksi kebakaran.\n\nPelatihan higiene industri.\n\nPelatihan pemantauan faktor lingkungan kerja.\n\nPelatihan pengendalian paparan debu, kebisingan, panas, dan getaran.\n\nPelatihan manajemen kelelahan.\n\nPelatihan pengelolaan kesehatan kerja.\n\nPelatihan pertolongan pertama.\n\nPelatihan tanggap darurat.\n\nPelatihan pemadaman kebakaran.\n\nPelatihan evakuasi.\n\nPelatihan penyelamatan.\n\nPelatihan manajemen keadaan darurat.\n\nPelatihan sistem komando insiden.\n\nPelatihan komunikasi darurat.\n\nPelatihan simulasi dan evaluasi keadaan darurat.\n\nPelatihan keselamatan kerja\n\nInduksi keselamatan pertambangan.\n\nPelatihan penggunaan alat pelindung diri.\n\nPelatihan pelaporan bahaya dan kondisi tidak aman.\n\nPelatihan prosedur kerja aman.\n\nPelatihan keselamatan kerja di area tambang aktif.\n\nPelatihan keselamatan bekerja di sekitar alat berat.\n\nPelatihan keselamatan lalu lintas tambang.\n\nPelatihan keselamatan kerja di ketinggian apabila relevan.\n\nPelatihan keselamatan ruang terbatas apabila relevan.\n\nPelatihan keselamatan pekerjaan panas apabila relevan.\n\nPelatihan keselamatan kelistrikan apabila relevan.\n\nPelatihan keselamatan pengangkatan dan pemindahan beban apabila relevan.\n\nPelatihan penanganan bahan berbahaya sesuai risiko pekerjaan.\n\nPelatihan tanggap darurat dan evakuasi.\n\nPelatihan pertolongan pertama sesuai kebutuhan tempat kerja.\n\nPelatihan keselamatan berdasarkan risiko spesifik lokasi.",
+    "coverImageUrl": null,
+    "status": "published",
+    "publishedAt": "2026-09-05T00:00:00.000Z",
+    "readingTimeMinutes": null,
+    "isFeatured": false,
+    "metadata": {},
+    "sources": [
+      {
+        "sourceSlug": "jdih-esdm-go-id-4",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 0
+      },
+      {
+        "sourceSlug": "jdih-esdm-go-id-5",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 1
+      },
+      {
+        "sourceSlug": "bpsdm-esdm-go-id-6",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 2
+      },
+      {
+        "sourceSlug": "bpsdm-esdm-go-id-7",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 3
+      },
+      {
+        "sourceSlug": "bpsdm-esdm-go-id-8",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 4
+      },
+      {
+        "sourceSlug": "jdih-kemnaker-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 5
+      },
+      {
+        "sourceSlug": "temank3-kemnaker-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 6
+      },
+      {
+        "sourceSlug": "www-esdm-go-id",
+        "citationLabel": null,
+        "pageReference": null,
+        "displayOrder": 7
+      }
+    ]
+  },
+  "professions": [
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "HSE Officer",
+      "slug": "hse-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "HSE Engineer",
+      "slug": "hse-engineer",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "HSE Supervisor",
+      "slug": "hse-supervisor",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "HSE Superintendent",
+      "slug": "hse-superintendent",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "HSE Coordinator",
+      "slug": "hse-coordinator",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "HSE Manager",
+      "slug": "hse-manager",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Safety Officer",
+      "slug": "safety-officer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Safety Engineer",
+      "slug": "safety-engineer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Safety Supervisor",
+      "slug": "safety-supervisor",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Safety Superintendent",
+      "slug": "safety-superintendent",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Safety Coordinator",
+      "slug": "safety-coordinator",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Safety Manager",
+      "slug": "safety-manager",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Mining Safety Officer",
+      "slug": "mining-safety-officer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Mining Safety Engineer",
+      "slug": "mining-safety-engineer",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Mining Safety Specialist",
+      "slug": "mining-safety-specialist",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Occupational Health and Safety Officer",
+      "slug": "occupational-health-and-safety-officer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Occupational Health and Safety Engineer",
+      "slug": "occupational-health-and-safety-engineer",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Occupational Health and Safety Specialist",
+      "slug": "occupational-health-and-safety-specialist",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Occupational Health and Safety Supervisor",
+      "slug": "occupational-health-and-safety-supervisor",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Occupational Health and Safety Manager",
+      "slug": "occupational-health-and-safety-manager",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "K3 Officer",
+      "slug": "k3-officer",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "K3 Engineer",
+      "slug": "k3-engineer",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "K3 Supervisor",
+      "slug": "k3-supervisor",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "K3 Coordinator",
+      "slug": "k3-coordinator",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "K3 Manager",
+      "slug": "k3-manager",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Safety Inspector",
+      "slug": "safety-inspector",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Safety Auditor",
+      "slug": "safety-auditor",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Safety Compliance Officer",
+      "slug": "safety-compliance-officer",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Safety Assurance Officer",
+      "slug": "safety-assurance-officer",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Safety Performance Analyst",
+      "slug": "safety-performance-analyst",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Safety Systems Specialist",
+      "slug": "safety-systems-specialist",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Safety Management System Officer",
+      "slug": "safety-management-system-officer",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "SMKP Officer",
+      "slug": "smkp-officer",
+      "description": null,
+      "displayOrder": 32
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "SMKP Specialist",
+      "slug": "smkp-specialist",
+      "description": null,
+      "displayOrder": 33
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "SMKP Coordinator",
+      "slug": "smkp-coordinator",
+      "description": null,
+      "displayOrder": 34
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "SMKP Auditor",
+      "slug": "smkp-auditor",
+      "description": null,
+      "displayOrder": 35
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Safety Training Officer",
+      "slug": "safety-training-officer",
+      "description": null,
+      "displayOrder": 36
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Safety Trainer",
+      "slug": "safety-trainer",
+      "description": null,
+      "displayOrder": 37
+    },
+    {
+      "groupKey": "keselamatan-dan-kesehatan-pertambangan",
+      "groupLabel": "Keselamatan dan Kesehatan Pertambangan",
+      "name": "Safety Induction Officer",
+      "slug": "safety-induction-officer",
+      "description": null,
+      "displayOrder": 38
+    },
+    {
+      "groupKey": "manajemen-risiko-dan-pengendalian-bahaya",
+      "groupLabel": "Manajemen Risiko dan Pengendalian Bahaya",
+      "name": "Risk Management Officer",
+      "slug": "risk-management-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "manajemen-risiko-dan-pengendalian-bahaya",
+      "groupLabel": "Manajemen Risiko dan Pengendalian Bahaya",
+      "name": "Risk Management Specialist",
+      "slug": "risk-management-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "manajemen-risiko-dan-pengendalian-bahaya",
+      "groupLabel": "Manajemen Risiko dan Pengendalian Bahaya",
+      "name": "Operational Risk Officer",
+      "slug": "operational-risk-officer",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "manajemen-risiko-dan-pengendalian-bahaya",
+      "groupLabel": "Manajemen Risiko dan Pengendalian Bahaya",
+      "name": "Operational Risk Engineer",
+      "slug": "operational-risk-engineer",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "manajemen-risiko-dan-pengendalian-bahaya",
+      "groupLabel": "Manajemen Risiko dan Pengendalian Bahaya",
+      "name": "Operational Risk Analyst",
+      "slug": "operational-risk-analyst",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "manajemen-risiko-dan-pengendalian-bahaya",
+      "groupLabel": "Manajemen Risiko dan Pengendalian Bahaya",
+      "name": "Risk Assessment Specialist",
+      "slug": "risk-assessment-specialist",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "manajemen-risiko-dan-pengendalian-bahaya",
+      "groupLabel": "Manajemen Risiko dan Pengendalian Bahaya",
+      "name": "Risk Control Officer",
+      "slug": "risk-control-officer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "manajemen-risiko-dan-pengendalian-bahaya",
+      "groupLabel": "Manajemen Risiko dan Pengendalian Bahaya",
+      "name": "Risk Control Engineer",
+      "slug": "risk-control-engineer",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "manajemen-risiko-dan-pengendalian-bahaya",
+      "groupLabel": "Manajemen Risiko dan Pengendalian Bahaya",
+      "name": "Hazard Identification Specialist",
+      "slug": "hazard-identification-specialist",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "manajemen-risiko-dan-pengendalian-bahaya",
+      "groupLabel": "Manajemen Risiko dan Pengendalian Bahaya",
+      "name": "Hazard Control Specialist",
+      "slug": "hazard-control-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "manajemen-risiko-dan-pengendalian-bahaya",
+      "groupLabel": "Manajemen Risiko dan Pengendalian Bahaya",
+      "name": "Job Safety Analysis Specialist",
+      "slug": "job-safety-analysis-specialist",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "manajemen-risiko-dan-pengendalian-bahaya",
+      "groupLabel": "Manajemen Risiko dan Pengendalian Bahaya",
+      "name": "Critical Risk Specialist",
+      "slug": "critical-risk-specialist",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "manajemen-risiko-dan-pengendalian-bahaya",
+      "groupLabel": "Manajemen Risiko dan Pengendalian Bahaya",
+      "name": "Critical Control Specialist",
+      "slug": "critical-control-specialist",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "manajemen-risiko-dan-pengendalian-bahaya",
+      "groupLabel": "Manajemen Risiko dan Pengendalian Bahaya",
+      "name": "Critical Control Verification Officer",
+      "slug": "critical-control-verification-officer",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "manajemen-risiko-dan-pengendalian-bahaya",
+      "groupLabel": "Manajemen Risiko dan Pengendalian Bahaya",
+      "name": "Safety Risk Analyst",
+      "slug": "safety-risk-analyst",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "manajemen-risiko-dan-pengendalian-bahaya",
+      "groupLabel": "Manajemen Risiko dan Pengendalian Bahaya",
+      "name": "Safety Assurance Engineer",
+      "slug": "safety-assurance-engineer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "manajemen-risiko-dan-pengendalian-bahaya",
+      "groupLabel": "Manajemen Risiko dan Pengendalian Bahaya",
+      "name": "Safety Improvement Specialist",
+      "slug": "safety-improvement-specialist",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "manajemen-risiko-dan-pengendalian-bahaya",
+      "groupLabel": "Manajemen Risiko dan Pengendalian Bahaya",
+      "name": "Incident Prevention Specialist",
+      "slug": "incident-prevention-specialist",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "manajemen-risiko-dan-pengendalian-bahaya",
+      "groupLabel": "Manajemen Risiko dan Pengendalian Bahaya",
+      "name": "Behavior-Based Safety Officer",
+      "slug": "behavior-based-safety-officer",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "manajemen-risiko-dan-pengendalian-bahaya",
+      "groupLabel": "Manajemen Risiko dan Pengendalian Bahaya",
+      "name": "Safety Observation Officer",
+      "slug": "safety-observation-officer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Operational Safety Officer",
+      "slug": "operational-safety-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Operational Safety Engineer",
+      "slug": "operational-safety-engineer",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Operational Safety Supervisor",
+      "slug": "operational-safety-supervisor",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Operational Safety Superintendent",
+      "slug": "operational-safety-superintendent",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Mine Safety Superintendent",
+      "slug": "mine-safety-superintendent",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Mine Safety Supervisor",
+      "slug": "mine-safety-supervisor",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Mine Safety Coordinator",
+      "slug": "mine-safety-coordinator",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Mine Safety Inspector",
+      "slug": "mine-safety-inspector",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Mining Operational Safety Specialist",
+      "slug": "mining-operational-safety-specialist",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Equipment Safety Officer",
+      "slug": "equipment-safety-officer",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Mobile Equipment Safety Specialist",
+      "slug": "mobile-equipment-safety-specialist",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Heavy Equipment Safety Officer",
+      "slug": "heavy-equipment-safety-officer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Traffic Safety Officer",
+      "slug": "traffic-safety-officer",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Mine Traffic Safety Officer",
+      "slug": "mine-traffic-safety-officer",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Road Safety Officer",
+      "slug": "road-safety-officer",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Haul Road Safety Officer",
+      "slug": "haul-road-safety-officer",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Vehicle Safety Specialist",
+      "slug": "vehicle-safety-specialist",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Plant Safety Officer",
+      "slug": "plant-safety-officer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Process Safety Engineer",
+      "slug": "process-safety-engineer",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Process Safety Specialist",
+      "slug": "process-safety-specialist",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Machine Safety Specialist",
+      "slug": "machine-safety-specialist",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Contractor Safety Officer",
+      "slug": "contractor-safety-officer",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Contractor HSE Coordinator",
+      "slug": "contractor-hse-coordinator",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "keselamatan-operasional-pertambangan",
+      "groupLabel": "Keselamatan Operasional Pertambangan",
+      "name": "Contractor Safety Supervisor",
+      "slug": "contractor-safety-supervisor",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Occupational Health Officer",
+      "slug": "occupational-health-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Occupational Health Specialist",
+      "slug": "occupational-health-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Occupational Health Coordinator",
+      "slug": "occupational-health-coordinator",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Occupational Health Supervisor",
+      "slug": "occupational-health-supervisor",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Occupational Health Manager",
+      "slug": "occupational-health-manager",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Industrial Hygienist",
+      "slug": "industrial-hygienist",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Industrial Hygiene Officer",
+      "slug": "industrial-hygiene-officer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Industrial Hygiene Specialist",
+      "slug": "industrial-hygiene-specialist",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Occupational Hygiene Technician",
+      "slug": "occupational-hygiene-technician",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Occupational Health Nurse",
+      "slug": "occupational-health-nurse",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Company Nurse",
+      "slug": "company-nurse",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Occupational Health Physician",
+      "slug": "occupational-health-physician",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Company Doctor",
+      "slug": "company-doctor",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Site Doctor",
+      "slug": "site-doctor",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Site Medic",
+      "slug": "site-medic",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Paramedic",
+      "slug": "paramedic",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Occupational Health Technician",
+      "slug": "occupational-health-technician",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Health and Wellness Officer",
+      "slug": "health-and-wellness-officer",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Employee Health Officer",
+      "slug": "employee-health-officer",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Health Surveillance Officer",
+      "slug": "health-surveillance-officer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Fitness for Work Coordinator",
+      "slug": "fitness-for-work-coordinator",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Fatigue Management Officer",
+      "slug": "fatigue-management-officer",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Fatigue Risk Specialist",
+      "slug": "fatigue-risk-specialist",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Exposure Monitoring Technician",
+      "slug": "exposure-monitoring-technician",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "kesehatan-kerja-dan-higiene-industri",
+      "groupLabel": "Kesehatan Kerja dan Higiene Industri",
+      "name": "Occupational Exposure Specialist",
+      "slug": "occupational-exposure-specialist",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Emergency Response Officer",
+      "slug": "emergency-response-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Emergency Response Specialist",
+      "slug": "emergency-response-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Emergency Response Coordinator",
+      "slug": "emergency-response-coordinator",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Emergency Response Supervisor",
+      "slug": "emergency-response-supervisor",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Emergency Response Superintendent",
+      "slug": "emergency-response-superintendent",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Emergency Response Manager",
+      "slug": "emergency-response-manager",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Emergency Preparedness Officer",
+      "slug": "emergency-preparedness-officer",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Emergency Preparedness Specialist",
+      "slug": "emergency-preparedness-specialist",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Emergency Management Officer",
+      "slug": "emergency-management-officer",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Emergency Management Specialist",
+      "slug": "emergency-management-specialist",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Emergency Services Officer",
+      "slug": "emergency-services-officer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Mine Rescue Officer",
+      "slug": "mine-rescue-officer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Mine Rescue Technician",
+      "slug": "mine-rescue-technician",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Mine Rescue Specialist",
+      "slug": "mine-rescue-specialist",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Mine Rescue Supervisor",
+      "slug": "mine-rescue-supervisor",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Mine Rescue Coordinator",
+      "slug": "mine-rescue-coordinator",
+      "description": null,
+      "displayOrder": 15
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Rescue Team Leader",
+      "slug": "rescue-team-leader",
+      "description": null,
+      "displayOrder": 16
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Rescue Team Member",
+      "slug": "rescue-team-member",
+      "description": null,
+      "displayOrder": 17
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Emergency Rescue Technician",
+      "slug": "emergency-rescue-technician",
+      "description": null,
+      "displayOrder": 18
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Fire and Rescue Officer",
+      "slug": "fire-and-rescue-officer",
+      "description": null,
+      "displayOrder": 19
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Fire and Rescue Technician",
+      "slug": "fire-and-rescue-technician",
+      "description": null,
+      "displayOrder": 20
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Fire Safety Officer",
+      "slug": "fire-safety-officer",
+      "description": null,
+      "displayOrder": 21
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Fire Prevention Officer",
+      "slug": "fire-prevention-officer",
+      "description": null,
+      "displayOrder": 22
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Fire Protection Engineer",
+      "slug": "fire-protection-engineer",
+      "description": null,
+      "displayOrder": 23
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Fire Systems Technician",
+      "slug": "fire-systems-technician",
+      "description": null,
+      "displayOrder": 24
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Firefighter",
+      "slug": "firefighter",
+      "description": null,
+      "displayOrder": 25
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Emergency Medical Technician",
+      "slug": "emergency-medical-technician",
+      "description": null,
+      "displayOrder": 26
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Emergency Medical Responder",
+      "slug": "emergency-medical-responder",
+      "description": null,
+      "displayOrder": 27
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Emergency Response Medic",
+      "slug": "emergency-response-medic",
+      "description": null,
+      "displayOrder": 28
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "First Aid Coordinator",
+      "slug": "first-aid-coordinator",
+      "description": null,
+      "displayOrder": 29
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Emergency Control Room Operator",
+      "slug": "emergency-control-room-operator",
+      "description": null,
+      "displayOrder": 30
+    },
+    {
+      "groupKey": "tanggap-darurat-dan-penyelamatan",
+      "groupLabel": "Tanggap Darurat dan Penyelamatan",
+      "name": "Emergency Communications Officer",
+      "slug": "emergency-communications-officer",
+      "description": null,
+      "displayOrder": 31
+    },
+    {
+      "groupKey": "investigasi-dan-analisis-insiden",
+      "groupLabel": "Investigasi dan Analisis Insiden",
+      "name": "Incident Investigation Officer",
+      "slug": "incident-investigation-officer",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "investigasi-dan-analisis-insiden",
+      "groupLabel": "Investigasi dan Analisis Insiden",
+      "name": "Incident Investigation Specialist",
+      "slug": "incident-investigation-specialist",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "investigasi-dan-analisis-insiden",
+      "groupLabel": "Investigasi dan Analisis Insiden",
+      "name": "Incident Investigator",
+      "slug": "incident-investigator",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "investigasi-dan-analisis-insiden",
+      "groupLabel": "Investigasi dan Analisis Insiden",
+      "name": "Accident Investigation Officer",
+      "slug": "accident-investigation-officer",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "investigasi-dan-analisis-insiden",
+      "groupLabel": "Investigasi dan Analisis Insiden",
+      "name": "Safety Investigation Analyst",
+      "slug": "safety-investigation-analyst",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "investigasi-dan-analisis-insiden",
+      "groupLabel": "Investigasi dan Analisis Insiden",
+      "name": "Incident Analysis Specialist",
+      "slug": "incident-analysis-specialist",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "investigasi-dan-analisis-insiden",
+      "groupLabel": "Investigasi dan Analisis Insiden",
+      "name": "Root Cause Analysis Specialist",
+      "slug": "root-cause-analysis-specialist",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "investigasi-dan-analisis-insiden",
+      "groupLabel": "Investigasi dan Analisis Insiden",
+      "name": "Safety Data Analyst",
+      "slug": "safety-data-analyst",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "investigasi-dan-analisis-insiden",
+      "groupLabel": "Investigasi dan Analisis Insiden",
+      "name": "HSE Data Analyst",
+      "slug": "hse-data-analyst",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "investigasi-dan-analisis-insiden",
+      "groupLabel": "Investigasi dan Analisis Insiden",
+      "name": "Safety Performance Analyst",
+      "slug": "safety-performance-analyst",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "investigasi-dan-analisis-insiden",
+      "groupLabel": "Investigasi dan Analisis Insiden",
+      "name": "Safety Reporting Officer",
+      "slug": "safety-reporting-officer",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "investigasi-dan-analisis-insiden",
+      "groupLabel": "Investigasi dan Analisis Insiden",
+      "name": "Safety Information Officer",
+      "slug": "safety-information-officer",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "investigasi-dan-analisis-insiden",
+      "groupLabel": "Investigasi dan Analisis Insiden",
+      "name": "Safety Assurance Analyst",
+      "slug": "safety-assurance-analyst",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "investigasi-dan-analisis-insiden",
+      "groupLabel": "Investigasi dan Analisis Insiden",
+      "name": "Corrective Action Coordinator",
+      "slug": "corrective-action-coordinator",
+      "description": null,
+      "displayOrder": 13
+    },
+    {
+      "groupKey": "investigasi-dan-analisis-insiden",
+      "groupLabel": "Investigasi dan Analisis Insiden",
+      "name": "Lessons Learned Coordinator",
+      "slug": "lessons-learned-coordinator",
+      "description": null,
+      "displayOrder": 14
+    },
+    {
+      "groupKey": "kepemimpinan-dan-pengawasan-keselamatan",
+      "groupLabel": "Kepemimpinan dan Pengawasan Keselamatan",
+      "name": "Safety Superintendent",
+      "slug": "safety-superintendent",
+      "description": null,
+      "displayOrder": 0
+    },
+    {
+      "groupKey": "kepemimpinan-dan-pengawasan-keselamatan",
+      "groupLabel": "Kepemimpinan dan Pengawasan Keselamatan",
+      "name": "HSE Superintendent",
+      "slug": "hse-superintendent",
+      "description": null,
+      "displayOrder": 1
+    },
+    {
+      "groupKey": "kepemimpinan-dan-pengawasan-keselamatan",
+      "groupLabel": "Kepemimpinan dan Pengawasan Keselamatan",
+      "name": "Safety Manager",
+      "slug": "safety-manager",
+      "description": null,
+      "displayOrder": 2
+    },
+    {
+      "groupKey": "kepemimpinan-dan-pengawasan-keselamatan",
+      "groupLabel": "Kepemimpinan dan Pengawasan Keselamatan",
+      "name": "HSE Manager",
+      "slug": "hse-manager",
+      "description": null,
+      "displayOrder": 3
+    },
+    {
+      "groupKey": "kepemimpinan-dan-pengawasan-keselamatan",
+      "groupLabel": "Kepemimpinan dan Pengawasan Keselamatan",
+      "name": "Occupational Health and Safety Manager",
+      "slug": "occupational-health-and-safety-manager",
+      "description": null,
+      "displayOrder": 4
+    },
+    {
+      "groupKey": "kepemimpinan-dan-pengawasan-keselamatan",
+      "groupLabel": "Kepemimpinan dan Pengawasan Keselamatan",
+      "name": "Emergency Response Manager",
+      "slug": "emergency-response-manager",
+      "description": null,
+      "displayOrder": 5
+    },
+    {
+      "groupKey": "kepemimpinan-dan-pengawasan-keselamatan",
+      "groupLabel": "Kepemimpinan dan Pengawasan Keselamatan",
+      "name": "Mine Rescue Manager",
+      "slug": "mine-rescue-manager",
+      "description": null,
+      "displayOrder": 6
+    },
+    {
+      "groupKey": "kepemimpinan-dan-pengawasan-keselamatan",
+      "groupLabel": "Kepemimpinan dan Pengawasan Keselamatan",
+      "name": "Safety and Risk Manager",
+      "slug": "safety-and-risk-manager",
+      "description": null,
+      "displayOrder": 7
+    },
+    {
+      "groupKey": "kepemimpinan-dan-pengawasan-keselamatan",
+      "groupLabel": "Kepemimpinan dan Pengawasan Keselamatan",
+      "name": "HSE and Risk Manager",
+      "slug": "hse-and-risk-manager",
+      "description": null,
+      "displayOrder": 8
+    },
+    {
+      "groupKey": "kepemimpinan-dan-pengawasan-keselamatan",
+      "groupLabel": "Kepemimpinan dan Pengawasan Keselamatan",
+      "name": "Head of HSE",
+      "slug": "head-of-hse",
+      "description": null,
+      "displayOrder": 9
+    },
+    {
+      "groupKey": "kepemimpinan-dan-pengawasan-keselamatan",
+      "groupLabel": "Kepemimpinan dan Pengawasan Keselamatan",
+      "name": "Head of Safety",
+      "slug": "head-of-safety",
+      "description": null,
+      "displayOrder": 10
+    },
+    {
+      "groupKey": "kepemimpinan-dan-pengawasan-keselamatan",
+      "groupLabel": "Kepemimpinan dan Pengawasan Keselamatan",
+      "name": "Head of Emergency Response",
+      "slug": "head-of-emergency-response",
+      "description": null,
+      "displayOrder": 11
+    },
+    {
+      "groupKey": "kepemimpinan-dan-pengawasan-keselamatan",
+      "groupLabel": "Kepemimpinan dan Pengawasan Keselamatan",
+      "name": "Safety Department Manager",
+      "slug": "safety-department-manager",
+      "description": null,
+      "displayOrder": 12
+    },
+    {
+      "groupKey": "kepemimpinan-dan-pengawasan-keselamatan",
+      "groupLabel": "Kepemimpinan dan Pengawasan Keselamatan",
+      "name": "HSE Department Manager",
+      "slug": "hse-department-manager",
+      "description": null,
+      "displayOrder": 13
+    }
+  ],
+  "profileItems": [
+    {
+      "itemKey": "work-scope-informasi-utama-pelaksanaan-tugas-harus-mengikuti-kewenangan-kompetensi-prosedur-perusahaan-dan-ketentuan-yang-berlaku-tindakan-penyelamatan-atau-pen",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelaksanaan tugas harus mengikuti kewenangan, kompetensi, prosedur perusahaan, dan ketentuan yang berlaku. Tindakan penyelamatan atau penanganan darurat tidak boleh dilakukan di luar kemampuan, pelatihan, atau batas kewenangan personel. Profesi dalam kategori Keselamatan, Kesehatan, dan Tanggap Darurat dapat terlibat dalam kegiatan berikut:",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengidentifikasi-bahaya-yang-terdapat-pada-kegiatan-pertambangan-fasilitas-pengolahan-bengkel-jalan-tambang-area-kerja-dan-kegiatan-p",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengidentifikasi bahaya yang terdapat pada kegiatan pertambangan, fasilitas pengolahan, bengkel, jalan tambang, area kerja, dan kegiatan pendukung.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-penilaian-risiko-serta-membantu-menentukan-pengendalian-yang-sesuai-berdasarkan-tingkat-risiko-dan-kondisi-pekerjaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan penilaian risiko serta membantu menentukan pengendalian yang sesuai berdasarkan tingkat risiko dan kondisi pekerjaan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memantau-penerapan-prosedur-kerja-aman-standar-keselamatan-instruksi-kerja-dan-persyaratan-keselamatan-perusahaan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memantau penerapan prosedur kerja aman, standar keselamatan, instruksi kerja, dan persyaratan keselamatan perusahaan.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-inspeksi-keselamatan-secara-rutin-pada-area-kerja-peralatan-fasilitas-kendaraan-dan-aktivitas-operasional",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan inspeksi keselamatan secara rutin pada area kerja, peralatan, fasilitas, kendaraan, dan aktivitas operasional.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melaksanakan-pengawasan-keselamatan-terhadap-kegiatan-berisiko-tinggi-sesuai-kebutuhan-dan-ketentuan-yang-berlaku",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melaksanakan pengawasan keselamatan terhadap kegiatan berisiko tinggi sesuai kebutuhan dan ketentuan yang berlaku.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-penerapan-sistem-manajemen-keselamatan-pertambangan-smkp-termasuk-perencanaan-pelaksanaan-pemantauan-evaluasi-audit-dan-per",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung penerapan Sistem Manajemen Keselamatan Pertambangan (SMKP), termasuk perencanaan, pelaksanaan, pemantauan, evaluasi, audit, dan perbaikan berkelanjutan. Penerapan SMKP merupakan bagian penting dalam pengendalian risiko keselamatan pertambangan.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-kegiatan-safety-induction-sosialisasi-kampanye-keselamatan-toolbox-meeting-dan-komunikasi-keselamatan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan kegiatan safety induction, sosialisasi, kampanye keselamatan, toolbox meeting, dan komunikasi keselamatan.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengembangkan-atau-memperbarui-dokumen-keselamatan-seperti-prosedur-instruksi-kerja-formulir-inspeksi-serta-dokumen-pengendalian-risi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengembangkan atau memperbarui dokumen keselamatan, seperti prosedur, instruksi kerja, formulir inspeksi, serta dokumen pengendalian risiko.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-memantau-penggunaan-alat-pelindung-diri-sesuai-jenis-pekerjaan-dan-risiko-yang-dihadapi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memantau penggunaan alat pelindung diri sesuai jenis pekerjaan dan risiko yang dihadapi.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mengumpulkan-mencatat-dan-menganalisis-data-keselamatan-termasuk-temuan-inspeksi-kondisi-tidak-aman-tindakan-tidak-aman-insiden-serta",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mengumpulkan, mencatat, dan menganalisis data keselamatan, termasuk temuan inspeksi, kondisi tidak aman, tindakan tidak aman, insiden, serta indikator kinerja keselamatan.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-investigasi-insiden-dan-membantu-mengidentifikasi-penyebab-langsung-faktor-pendukung-serta-akar-penyebab",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan investigasi insiden dan membantu mengidentifikasi penyebab langsung, faktor pendukung, serta akar penyebab.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-rekomendasi-tindakan-perbaikan-dan-memantau-penyelesaian-tindakan-tersebut",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun rekomendasi tindakan perbaikan dan memantau penyelesaian tindakan tersebut.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melaksanakan-pemantauan-faktor-kesehatan-kerja-seperti-debu-kebisingan-getaran-panas-pencahayaan-kualitas-udara-atau-paparan-lain-ses",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melaksanakan pemantauan faktor kesehatan kerja, seperti debu, kebisingan, getaran, panas, pencahayaan, kualitas udara, atau paparan lain sesuai risiko pekerjaan.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-mendukung-program-kesehatan-kerja-pemeriksaan-kesehatan-pemantauan-kesehatan-pekerja-serta-program-kebugaran-kerja-sesuai-kewenangan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Mendukung program kesehatan kerja, pemeriksaan kesehatan, pemantauan kesehatan pekerja, serta program kebugaran kerja sesuai kewenangan dan ketentuan yang berlaku.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-rencana-tanggap-darurat-dan-mengidentifikasi-skenario-keadaan-darurat-yang-mungkin-terjadi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun rencana tanggap darurat dan mengidentifikasi skenario keadaan darurat yang mungkin terjadi.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyiapkan-serta-memelihara-peralatan-tanggap-darurat-komunikasi-darurat-fasilitas-pertolongan-pertama-dan-sumber-daya-pendukung",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyiapkan serta memelihara peralatan tanggap darurat, komunikasi darurat, fasilitas pertolongan pertama, dan sumber daya pendukung.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melaksanakan-latihan-atau-simulasi-keadaan-darurat-untuk-menguji-kesiapan-personel-prosedur-komunikasi-dan-koordinasi",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melaksanakan latihan atau simulasi keadaan darurat untuk menguji kesiapan personel, prosedur, komunikasi, dan koordinasi.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-melakukan-respons-terhadap-keadaan-darurat-sesuai-peran-pelatihan-prosedur-serta-struktur-komando-yang-berlaku",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Melakukan respons terhadap keadaan darurat sesuai peran, pelatihan, prosedur, serta struktur komando yang berlaku.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-berkoordinasi-dengan-tim-operasi-medis-pemadam-penyelamatan-keamanan-manajemen-serta-pihak-eksternal-apabila-diperlukan",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Berkoordinasi dengan tim operasi, medis, pemadam, penyelamatan, keamanan, manajemen, serta pihak eksternal apabila diperlukan.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "work-scope-informasi-utama-menyusun-laporan-keselamatan-kesehatan-kerja-hasil-inspeksi-hasil-audit-evaluasi-risiko-dan-evaluasi-kesiapsiagaan-darurat",
+      "section": "work_scope",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Menyusun laporan keselamatan, kesehatan kerja, hasil inspeksi, hasil audit, evaluasi risiko, dan evaluasi kesiapsiagaan darurat.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-teknis-umum",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi teknis umum",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-keselamatan-dan-kesehatan-kerja",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar keselamatan dan kesehatan kerja.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-prinsip-keselamatan-pertambangan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami prinsip keselamatan pertambangan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-identifikasi-bahaya",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami identifikasi bahaya.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-penilaian-dan-pengendalian-risiko",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami penilaian dan pengendalian risiko.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-prosedur-kerja-aman",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami prosedur kerja aman.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-penggunaan-alat-pelindung-diri",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami penggunaan alat pelindung diri.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-inspeksi-keselamatan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar inspeksi keselamatan.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-pelaporan-dan-dokumentasi-keselamatan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami pelaporan dan dokumentasi keselamatan.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-investigasi-insiden",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar investigasi insiden.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-kesiapsiagaan-dan-tanggap-darurat",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar kesiapsiagaan dan tanggap darurat.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-prinsip-komunikasi-keselamatan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami prinsip komunikasi keselamatan.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-audit-dan-evaluasi-sistem-keselamatan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar audit dan evaluasi sistem keselamatan.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-peran-serta-tanggung-jawab-keselamatan-di-tempat-kerja",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami peran serta tanggung jawab keselamatan di tempat kerja.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "competency-informasi-utama-memahami-dasar-keselamatan-operasional-pertambangan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Memahami dasar keselamatan operasional pertambangan.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-teknis-spesialis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi teknis spesialis",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "competency-informasi-utama-penerapan-sistem-manajemen-keselamatan-pertambangan-smkp",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Penerapan Sistem Manajemen Keselamatan Pertambangan (SMKP).",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "competency-informasi-utama-audit-internal-smkp",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Audit internal SMKP.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "competency-informasi-utama-identifikasi-bahaya-dan-penilaian-risiko",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Identifikasi bahaya dan penilaian risiko.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "competency-informasi-utama-job-safety-analysis-atau-analisis-keselamatan-pekerjaan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Job Safety Analysis atau analisis keselamatan pekerjaan.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengembangan-pengendalian-risiko",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengembangan pengendalian risiko.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengelolaan-risiko-kritis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan risiko kritis.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "competency-informasi-utama-verifikasi-pengendalian-kritis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Verifikasi pengendalian kritis.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "competency-informasi-utama-inspeksi-keselamatan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Inspeksi keselamatan.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "competency-informasi-utama-audit-keselamatan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Audit keselamatan.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "competency-informasi-utama-investigasi-insiden",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Investigasi insiden.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "competency-informasi-utama-analisis-akar-penyebab",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis akar penyebab.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "competency-informasi-utama-analisis-tren-dan-kinerja-keselamatan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Analisis tren dan kinerja keselamatan.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengelolaan-keselamatan-kontraktor",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan keselamatan kontraktor.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "competency-informasi-utama-keselamatan-alat-berat-dan-peralatan-bergerak",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan alat berat dan peralatan bergerak.",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "competency-informasi-utama-keselamatan-lalu-lintas-tambang",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan lalu lintas tambang.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "competency-informasi-utama-keselamatan-jalan-angkut",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan jalan angkut.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "competency-informasi-utama-keselamatan-mesin-dan-peralatan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan mesin dan peralatan.",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "competency-informasi-utama-keselamatan-proses",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan proses.",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "competency-informasi-utama-keselamatan-bahan-kimia",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan bahan kimia.",
+      "displayOrder": 34
+    },
+    {
+      "itemKey": "competency-informasi-utama-keselamatan-kebakaran",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan kebakaran.",
+      "displayOrder": 35
+    },
+    {
+      "itemKey": "competency-informasi-utama-sistem-proteksi-kebakaran",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem proteksi kebakaran.",
+      "displayOrder": 36
+    },
+    {
+      "itemKey": "competency-informasi-utama-higiene-industri",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Higiene industri.",
+      "displayOrder": 37
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemantauan-paparan-lingkungan-kerja",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemantauan paparan lingkungan kerja.",
+      "displayOrder": 38
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengendalian-debu-kebisingan-getaran-panas-dan-faktor-risiko-lainnya",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengendalian debu, kebisingan, getaran, panas, dan faktor risiko lainnya.",
+      "displayOrder": 39
+    },
+    {
+      "itemKey": "competency-informasi-utama-pengelolaan-kesehatan-kerja",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pengelolaan kesehatan kerja.",
+      "displayOrder": 40
+    },
+    {
+      "itemKey": "competency-informasi-utama-manajemen-kelelahan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen kelelahan.",
+      "displayOrder": 41
+    },
+    {
+      "itemKey": "competency-informasi-utama-fitness-for-work",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Fitness for work.",
+      "displayOrder": 42
+    },
+    {
+      "itemKey": "competency-informasi-utama-perencanaan-tanggap-darurat",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Perencanaan tanggap darurat.",
+      "displayOrder": 43
+    },
+    {
+      "itemKey": "competency-informasi-utama-manajemen-keadaan-darurat",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen keadaan darurat.",
+      "displayOrder": 44
+    },
+    {
+      "itemKey": "competency-informasi-utama-sistem-komando-insiden",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Sistem komando insiden.",
+      "displayOrder": 45
+    },
+    {
+      "itemKey": "competency-informasi-utama-penyelamatan-tambang",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Penyelamatan tambang.",
+      "displayOrder": 46
+    },
+    {
+      "itemKey": "competency-informasi-utama-pemadaman-kebakaran",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pemadaman kebakaran.",
+      "displayOrder": 47
+    },
+    {
+      "itemKey": "competency-informasi-utama-pertolongan-pertama",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pertolongan pertama.",
+      "displayOrder": 48
+    },
+    {
+      "itemKey": "competency-informasi-utama-evakuasi-dan-penyelamatan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Evakuasi dan penyelamatan.",
+      "displayOrder": 49
+    },
+    {
+      "itemKey": "competency-informasi-utama-komunikasi-darurat",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Komunikasi darurat.",
+      "displayOrder": 50
+    },
+    {
+      "itemKey": "competency-informasi-utama-evaluasi-dan-simulasi-keadaan-darurat",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Evaluasi dan simulasi keadaan darurat.",
+      "displayOrder": 51
+    },
+    {
+      "itemKey": "competency-informasi-utama-kompetensi-nonteknis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kompetensi nonteknis",
+      "displayOrder": 52
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-mengidentifikasi-risiko",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan mengidentifikasi risiko.",
+      "displayOrder": 53
+    },
+    {
+      "itemKey": "competency-informasi-utama-ketelitian-dan-perhatian-terhadap-detail",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ketelitian dan perhatian terhadap detail.",
+      "displayOrder": 54
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-observasi-lapangan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan observasi lapangan.",
+      "displayOrder": 55
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-analitis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan analitis.",
+      "displayOrder": 56
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-memecahkan-masalah",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan memecahkan masalah.",
+      "displayOrder": 57
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-mengambil-keputusan-berdasarkan-risiko",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan mengambil keputusan berdasarkan risiko.",
+      "displayOrder": 58
+    },
+    {
+      "itemKey": "competency-informasi-utama-komunikasi-yang-jelas-dan-efektif",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Komunikasi yang jelas dan efektif.",
+      "displayOrder": 59
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-memberikan-edukasi-serta-pengarahan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan memberikan edukasi serta pengarahan.",
+      "displayOrder": 60
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-membangun-budaya-keselamatan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan membangun budaya keselamatan.",
+      "displayOrder": 61
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-bekerja-sama-dengan-berbagai-departemen",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan bekerja sama dengan berbagai departemen.",
+      "displayOrder": 62
+    },
+    {
+      "itemKey": "competency-informasi-utama-kepemimpinan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kepemimpinan.",
+      "displayOrder": 63
+    },
+    {
+      "itemKey": "competency-informasi-utama-ketegasan-dalam-penerapan-standar-keselamatan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Ketegasan dalam penerapan standar keselamatan.",
+      "displayOrder": 64
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-mengelola-situasi-darurat",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan mengelola situasi darurat.",
+      "displayOrder": 65
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-bekerja-di-bawah-tekanan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan bekerja di bawah tekanan.",
+      "displayOrder": 66
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-menyusun-laporan-teknis",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan menyusun laporan teknis.",
+      "displayOrder": 67
+    },
+    {
+      "itemKey": "competency-informasi-utama-integritas-dan-konsistensi",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Integritas dan konsistensi.",
+      "displayOrder": 68
+    },
+    {
+      "itemKey": "competency-informasi-utama-kepedulian-terhadap-keselamatan-pekerja",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kepedulian terhadap keselamatan pekerja.",
+      "displayOrder": 69
+    },
+    {
+      "itemKey": "competency-informasi-utama-kemampuan-melakukan-evaluasi-dan-perbaikan-berkelanjutan",
+      "section": "competency",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kemampuan melakukan evaluasi dan perbaikan berkelanjutan",
+      "displayOrder": 70
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-utama",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan utama",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "education-informasi-utama-keselamatan-dan-kesehatan-kerja",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keselamatan dan Kesehatan Kerja",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "education-informasi-utama-kesehatan-masyarakat-khususnya-peminatan-k3",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kesehatan Masyarakat, khususnya peminatan K3",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-pertambangan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Pertambangan",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-lingkungan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Lingkungan",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-industri",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Industri",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-kimia",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Kimia",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-mesin",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Mesin",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-elektro",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Elektro",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-sipil",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Sipil",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-geologi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Geologi",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "education-informasi-utama-teknik-metalurgi",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknik Metalurgi",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "education-informasi-utama-kesehatan-lingkungan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kesehatan Lingkungan",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "education-informasi-utama-keperawatan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Keperawatan",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "education-informasi-utama-kedokteran",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Kedokteran",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "education-informasi-utama-teknologi-kesehatan-dan-keselamatan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Teknologi Kesehatan dan Keselamatan",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "education-informasi-utama-bidang-teknik-atau-kesehatan-lain-yang-relevan-dengan-kebutuhan-pekerjaan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Bidang teknik atau kesehatan lain yang relevan dengan kebutuhan pekerjaan.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-pendukung-untuk-posisi-tertentu",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan pendukung untuk posisi tertentu",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-keselamatan-dan-kesehatan-kerja",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Keselamatan dan Kesehatan Kerja.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-kesehatan-lingkungan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Kesehatan Lingkungan.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-keperawatan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Keperawatan.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "education-informasi-utama-program-diploma-teknik-pertambangan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Program Diploma Teknik Pertambangan.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-vokasi-keselamatan-industri",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan vokasi keselamatan industri.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-vokasi-pemadam-kebakaran",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan vokasi pemadam kebakaran.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-vokasi-tanggap-darurat-dan-penyelamatan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan vokasi tanggap darurat dan penyelamatan.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-paramedis-atau-layanan-medis-darurat",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan paramedis atau layanan medis darurat.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-teknik-yang-relevan-untuk-keselamatan-proses-atau-keselamatan-peralatan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan teknik yang relevan untuk keselamatan proses atau keselamatan peralatan.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "education-informasi-utama-pendidikan-lain-sesuai-kebutuhan-operasional-dan-persyaratan-jabatan",
+      "section": "education",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pendidikan lain sesuai kebutuhan operasional dan persyaratan jabatan.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "software-informasi-utama-manajemen-keselamatan-dan-hse-intelex",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Keselamatan dan HSE: Intelex",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "software-informasi-utama-manajemen-keselamatan-dan-hse-enablon",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Keselamatan dan HSE: Enablon",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "software-informasi-utama-manajemen-keselamatan-dan-hse-sphera",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Keselamatan dan HSE: Sphera",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "software-informasi-utama-manajemen-keselamatan-dan-hse-velocityehs",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Keselamatan dan HSE: VelocityEHS",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "software-informasi-utama-manajemen-keselamatan-dan-hse-b-inspeksi-audit-dan-pelaporan",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Keselamatan dan HSE: B. Inspeksi, Audit, dan Pelaporan",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "software-informasi-utama-manajemen-keselamatan-dan-hse-microsoft-excel",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Keselamatan dan HSE: Microsoft Excel",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "software-informasi-utama-manajemen-keselamatan-dan-hse-microsoft-power-bi",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Keselamatan dan HSE: Microsoft Power BI",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "software-informasi-utama-manajemen-keselamatan-dan-hse-microsoft-forms-atau-sistem-formulir-digital",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Keselamatan dan HSE: Microsoft Forms atau Sistem Formulir Digital",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "software-informasi-utama-manajemen-keselamatan-dan-hse-c-manajemen-risiko-dan-analisis",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Keselamatan dan HSE: C. Manajemen Risiko dan Analisis",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "software-informasi-utama-manajemen-keselamatan-dan-hse-bowtiexp",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Keselamatan dan HSE: BowTieXP",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "software-informasi-utama-manajemen-keselamatan-dan-hse-risk-assessment-software",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Keselamatan dan HSE: Risk Assessment Software",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "software-informasi-utama-manajemen-keselamatan-dan-hse-incident-investigation-tools",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Keselamatan dan HSE: Incident Investigation Tools",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "software-informasi-utama-manajemen-keselamatan-dan-hse-d-tanggap-darurat-dan-sistem-operasional",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Keselamatan dan HSE: D. Tanggap Darurat dan Sistem Operasional",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "software-informasi-utama-manajemen-keselamatan-dan-hse-emergency-notification-system",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Keselamatan dan HSE: Emergency Notification System",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "software-informasi-utama-manajemen-keselamatan-dan-hse-emergency-management-software",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Keselamatan dan HSE: Emergency Management Software",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "software-informasi-utama-manajemen-keselamatan-dan-hse-computer-aided-dispatch-cad",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Keselamatan dan HSE: Computer-Aided Dispatch (CAD)",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "software-informasi-utama-manajemen-keselamatan-dan-hse-gis-dan-sistem-pemetaan",
+      "section": "software",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Manajemen Keselamatan dan HSE: GIS dan Sistem Pemetaan",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-teknis",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan Teknis",
+      "displayOrder": 0
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-dasar-keselamatan-dan-kesehatan-kerja",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan dasar keselamatan dan kesehatan kerja.",
+      "displayOrder": 1
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-pertambangan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan pertambangan.",
+      "displayOrder": 2
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-implementasi-smkp",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan implementasi SMKP.",
+      "displayOrder": 3
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-audit-internal-smkp",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan audit internal SMKP.",
+      "displayOrder": 4
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-inspeksi-keselamatan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan inspeksi keselamatan.",
+      "displayOrder": 5
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-identifikasi-bahaya",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan identifikasi bahaya.",
+      "displayOrder": 6
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-penilaian-dan-pengendalian-risiko",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan penilaian dan pengendalian risiko.",
+      "displayOrder": 7
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-analisis-keselamatan-pekerjaan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan analisis keselamatan pekerjaan.",
+      "displayOrder": 8
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengelolaan-risiko-kritis",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengelolaan risiko kritis.",
+      "displayOrder": 9
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-verifikasi-pengendalian-kritis",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan verifikasi pengendalian kritis.",
+      "displayOrder": 10
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-investigasi-insiden",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan investigasi insiden.",
+      "displayOrder": 11
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-analisis-akar-penyebab",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan analisis akar penyebab.",
+      "displayOrder": 12
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengelolaan-keselamatan-kontraktor",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengelolaan keselamatan kontraktor.",
+      "displayOrder": 13
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-alat-berat",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan alat berat.",
+      "displayOrder": 14
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-lalu-lintas-tambang",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan lalu lintas tambang.",
+      "displayOrder": 15
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-jalan-angkut",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan jalan angkut.",
+      "displayOrder": 16
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-mesin",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan mesin.",
+      "displayOrder": 17
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-proses",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan proses.",
+      "displayOrder": 18
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-bahan-kimia",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan bahan kimia.",
+      "displayOrder": 19
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-kebakaran",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan kebakaran.",
+      "displayOrder": 20
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-sistem-proteksi-kebakaran",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan sistem proteksi kebakaran.",
+      "displayOrder": 21
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-higiene-industri",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan higiene industri.",
+      "displayOrder": 22
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemantauan-faktor-lingkungan-kerja",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemantauan faktor lingkungan kerja.",
+      "displayOrder": 23
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengendalian-paparan-debu-kebisingan-panas-dan-getaran",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengendalian paparan debu, kebisingan, panas, dan getaran.",
+      "displayOrder": 24
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-manajemen-kelelahan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan manajemen kelelahan.",
+      "displayOrder": 25
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pengelolaan-kesehatan-kerja",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pengelolaan kesehatan kerja.",
+      "displayOrder": 26
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pertolongan-pertama",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pertolongan pertama.",
+      "displayOrder": 27
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-tanggap-darurat",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan tanggap darurat.",
+      "displayOrder": 28
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pemadaman-kebakaran",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pemadaman kebakaran.",
+      "displayOrder": 29
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-evakuasi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan evakuasi.",
+      "displayOrder": 30
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-penyelamatan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan penyelamatan.",
+      "displayOrder": 31
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-manajemen-keadaan-darurat",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan manajemen keadaan darurat.",
+      "displayOrder": 32
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-sistem-komando-insiden",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan sistem komando insiden.",
+      "displayOrder": 33
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-komunikasi-darurat",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan komunikasi darurat.",
+      "displayOrder": 34
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-simulasi-dan-evaluasi-keadaan-darurat",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan simulasi dan evaluasi keadaan darurat.",
+      "displayOrder": 35
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-kerja",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan kerja",
+      "displayOrder": 36
+    },
+    {
+      "itemKey": "training-informasi-utama-induksi-keselamatan-pertambangan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Induksi keselamatan pertambangan.",
+      "displayOrder": 37
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-penggunaan-alat-pelindung-diri",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan penggunaan alat pelindung diri.",
+      "displayOrder": 38
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pelaporan-bahaya-dan-kondisi-tidak-aman",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pelaporan bahaya dan kondisi tidak aman.",
+      "displayOrder": 39
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-prosedur-kerja-aman",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan prosedur kerja aman.",
+      "displayOrder": 40
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-kerja-di-area-tambang-aktif",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan kerja di area tambang aktif.",
+      "displayOrder": 41
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-bekerja-di-sekitar-alat-berat",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan bekerja di sekitar alat berat.",
+      "displayOrder": 42
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-lalu-lintas-tambang-2",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan lalu lintas tambang.",
+      "displayOrder": 43
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-kerja-di-ketinggian-apabila-relevan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan kerja di ketinggian apabila relevan.",
+      "displayOrder": 44
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-ruang-terbatas-apabila-relevan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan ruang terbatas apabila relevan.",
+      "displayOrder": 45
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-pekerjaan-panas-apabila-relevan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan pekerjaan panas apabila relevan.",
+      "displayOrder": 46
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-kelistrikan-apabila-relevan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan kelistrikan apabila relevan.",
+      "displayOrder": 47
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-pengangkatan-dan-pemindahan-beban-apabila-relevan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan pengangkatan dan pemindahan beban apabila relevan.",
+      "displayOrder": 48
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-penanganan-bahan-berbahaya-sesuai-risiko-pekerjaan",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan penanganan bahan berbahaya sesuai risiko pekerjaan.",
+      "displayOrder": 49
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-tanggap-darurat-dan-evakuasi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan tanggap darurat dan evakuasi.",
+      "displayOrder": 50
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-pertolongan-pertama-sesuai-kebutuhan-tempat-kerja",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan pertolongan pertama sesuai kebutuhan tempat kerja.",
+      "displayOrder": 51
+    },
+    {
+      "itemKey": "training-informasi-utama-pelatihan-keselamatan-berdasarkan-risiko-spesifik-lokasi",
+      "section": "training",
+      "groupKey": "informasi-utama",
+      "groupLabel": "Informasi Utama",
+      "value": "Pelatihan keselamatan berdasarkan risiko spesifik lokasi.",
+      "displayOrder": 52
+    }
+  ]
+}

@@ -125,6 +125,41 @@ npm run db:verify
 
 Perintah tambahan mengikuti scripts yang tersedia di `package.json`.
 
+Pipeline Career memakai manifest berisi tepat 13 kategori dan kontrak staging
+yang tersedia. Jalankan dari root repository dengan konfigurasi development
+`DATABASE_MIGRATION_URL` di `.env.local`:
+
+```powershell
+npm run data:validate:career -- data/staging/career/manifest.json
+npm run data:preflight:career -- data/staging/career/manifest.json
+npm run data:dry-run:career -- data/staging/career/manifest.json
+```
+
+Preflight dan dry-run membandingkan field serta natural key keenam tabel,
+memeriksa struktur Drizzle terhadap katalog PostgreSQL, dan melaporkan rencana
+insert/update/unchanged serta total per kategori. Keduanya memakai transaksi
+`READ ONLY` yang selalu diakhiri `ROLLBACK`. Output menyertakan audit jenis
+statement, transaction ID yang belum dialokasikan, dan fingerprint snapshot
+sebelum/sesudah. Rencana dengan `passed: false` hanya diagnostik; import diblokir.
+Konflik identitas source harus diselesaikan pada dataset melalui peninjauan
+sumber, bukan dengan menimpa source bersama secara paksa.
+
+Actual import membutuhkan flag eksplisit (hanya jalankan setelah preflight dan
+dry-run lulus serta perubahan database diizinkan):
+
+```powershell
+npm run data:import:career -- data/staging/career/manifest.json --commit
+npm run data:verify:career -- data/staging/career/manifest.json
+```
+
+Importer memakai satu transaksi serializable, upsert natural key, batch maksimal
+300 record (juga dibatasi jumlah parameter), dan pemeriksaan ulang sebelum
+commit. Record identik tidak dikirim ke writer; tidak ada delete/prune.
+Kegagalan satu batch membatalkan seluruh transaksi. Verifier read-only memeriksa
+field, missing/duplicate/unexpected key, source, dan lima section hanya untuk
+13 content Career target. Data Career lain tidak diubah. Source dibaca berdasarkan
+catalog manifest dan relasi target, sehingga tidak bergantung pada total global.
+
 ## Project Structure
 
 ```text
