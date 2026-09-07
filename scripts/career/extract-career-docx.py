@@ -123,6 +123,25 @@ LIST_PREFIX_RE = re.compile(
 )
 RAW_URL_RE = re.compile(r"https://[^\s<>()\[\]{}]+", re.IGNORECASE)
 
+# Override only the exact final slug produced by the existing normalization.
+# Preserve original identity deduplication and slug allocation: document-specific
+# sources such as jdih-kementerian-esdm-2 must remain separate and unchanged.
+CANONICAL_SOURCE_OVERRIDES = {
+    "jdih-kementerian-esdm": {
+        "name": "JDIH Kementerian ESDM",
+        "organization": "Kementerian Energi dan Sumber Daya Mineral Republik Indonesia",
+        "url": "https://jdih.esdm.go.id/",
+        "type": "government",
+        "description": (
+            "Portal dokumentasi hukum resmi Kementerian ESDM untuk Keputusan Menteri "
+            "mengenai Harga Mineral Logam Acuan, Harga Batubara Acuan, regulasi minerba, "
+            "dan dokumen hukum sektor energi."
+        ),
+        "isOfficial": True,
+        "verificationStatus": "verified",
+    },
+}
+
 
 @dataclass(frozen=True)
 class Block:
@@ -751,6 +770,7 @@ def parse_references(
                     "isOfficial": source_type
                     in {"government", "statistics_agency", "company_report", "regulation"},
                     "verificationStatus": "verified",
+                    **CANONICAL_SOURCE_OVERRIDES.get(source_slug, {}),
                 }
             )
             source_slug_by_identity[identity] = source_slug

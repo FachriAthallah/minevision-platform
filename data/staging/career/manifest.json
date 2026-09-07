@@ -280,11 +280,11 @@
     },
     {
       "slug": "jdih-kementerian-esdm",
-      "name": "JDIH Kementerian ESDM.",
+      "name": "JDIH Kementerian ESDM",
       "type": "government",
-      "organization": "JDIH Kementerian ESDM.",
-      "url": null,
-      "description": null,
+      "organization": "Kementerian Energi dan Sumber Daya Mineral Republik Indonesia",
+      "url": "https://jdih.esdm.go.id/",
+      "description": "Portal dokumentasi hukum resmi Kementerian ESDM untuk Keputusan Menteri mengenai Harga Mineral Logam Acuan, Harga Batubara Acuan, regulasi minerba, dan dokumen hukum sektor energi.",
       "isOfficial": true,
       "verificationStatus": "verified"
     },
