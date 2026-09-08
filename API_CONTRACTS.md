@@ -811,6 +811,27 @@ npm run build
 
 ## 25. API Rules
 
+### Career public endpoints (implemented)
+
+- `GET /api/v1/careers`: optional `q` (trimmed, maximum 100 characters).
+  Unknown parameters and repeated query keys return `400 INVALID_QUERY`.
+  Returns `{ success: true, data: CareerCategorySummary[], meta: { ...CareerAggregateCounts, filters } }`.
+  Counts describe the matched categories; the list does not return individual professions.
+- `GET /api/v1/careers/[slug]`: trimmed and normalized to lowercase kebab-case,
+  maximum 180 characters.
+  Returns `{ success: true, data: CareerDetail }`, with category, profile, counts,
+  professionGroups, sections, sources, and previous/next category navigation.
+  Invalid slugs return `400 INVALID_CAREER_SLUG`; missing/ineligible profiles return
+  `404 CAREER_NOT_FOUND`. Unexpected failures return a safe `500` response.
+- Both endpoints are read-only and use `Cache-Control: no-store`.
+- Eligibility: active Career categories connected to published `career/profession`
+  content with a matching slug. References must be active and verified.
+- Shared DTOs: `src/features/career/types/career.ts`. Internal IDs, arbitrary
+  ingestion metadata, database diagnostics, and private credentials are excluded.
+- If an imported excerpt/description is only the heading `Deskripsi Kategori`,
+  its original opening paragraph is projected from the published body as a fallback;
+  no database records are modified.
+
 - Jangan menerima input tanpa validation.
 - Jangan mengirim database row mentah.
 - Jangan menggunakan raw SQL dari user input.
