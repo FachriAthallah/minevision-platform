@@ -141,6 +141,13 @@
       "when": 1788617649437,
       "tag": "0019_career-data-foundation",
       "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1789018197301,
+      "tag": "0020_intelligence-canonical-series",
+      "breakpoints": true
     }
   ]
 }

@@ -1,8 +1,10 @@
 import { sql } from "drizzle-orm";
 import {
   check,
+  foreignKey,
   index,
   numeric,
+  pgPolicy,
   pgTable,
   smallint,
   text,
@@ -10,8 +12,10 @@ import {
   uuid,
   varchar,
 } from "drizzle-orm/pg-core";
+import { anonRole, authenticatedRole } from "drizzle-orm/supabase";
 
 import { commodities } from "./commodities";
+import { commodityProductionSeries } from "./commodity-production-series";
 import {
   createTimestampColumns,
   dataRecordTypeEnum,
@@ -25,6 +29,7 @@ export const commodityProduction = pgTable(
   "commodity_production",
   {
     id: uuid("id").defaultRandom().primaryKey(),
+    seriesId: uuid("series_id").notNull(),
 
     commodityId: uuid("commodity_id")
       .notNull()
@@ -72,10 +77,11 @@ export const commodityProduction = pgTable(
   },
   (table) => [
     uniqueIndex("commodity_production_unique_record_idx").on(
-      table.commodityId,
+      table.seriesId,
       table.year,
       table.recordType,
     ),
+    foreignKey({ name: "production_series_identity_fk", columns: [table.seriesId, table.commodityId, table.unitCode], foreignColumns: [commodityProductionSeries.id, commodityProductionSeries.commodityId, commodityProductionSeries.unitCode] }).onDelete("restrict").onUpdate("cascade"),
 
     index("commodity_production_commodity_id_idx").on(table.commodityId),
 
@@ -98,8 +104,21 @@ export const commodityProduction = pgTable(
       "commodity_production_value_check",
       sql`${table.productionValue} >= 0`,
     ),
+    pgPolicy("production_canonical_read", {
+      as: "restrictive",
+      for: "select",
+      to: [anonRole, authenticatedRole],
+      using: sql`EXISTS (
+        SELECT 1 FROM commodity_production_series s
+        WHERE s.id = ${table.seriesId}
+          AND s.is_canonical = true
+          AND s.is_public_default = true
+          AND s.publication_status = 'published'
+          AND s.verification_status = 'verified'
+      )`,
+    }),
   ],
-);
+).enableRLS();
 
 export type CommodityProduction = typeof commodityProduction.$inferSelect;
 

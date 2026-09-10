@@ -6,6 +6,7 @@ import { db } from "@/db";
 import {
   commodities,
   commodityProduction,
+  commodityProductionSeries,
   commodityProductionSources,
   measurementUnits,
   sources,
@@ -13,6 +14,7 @@ import {
 
 import { isPubliclyVisible } from "../policies/publication-visibility";
 import type { ProductionQuery } from "../schemas/production-query";
+import { publicProductionSeriesConditions } from "./public-production-series";
 
 export async function getPublicProduction(query: ProductionQuery) {
   const productionRows = await db
@@ -35,6 +37,7 @@ export async function getPublicProduction(query: ProductionQuery) {
       unitSymbol: measurementUnits.symbol,
     })
     .from(commodityProduction)
+    .innerJoin(commodityProductionSeries, eq(commodityProduction.seriesId, commodityProductionSeries.id))
     .innerJoin(commodities, eq(commodityProduction.commodityId, commodities.id))
     .innerJoin(
       measurementUnits,
@@ -42,6 +45,7 @@ export async function getPublicProduction(query: ProductionQuery) {
     )
     .where(
       and(
+        publicProductionSeriesConditions(),
         eq(commodities.slug, query.commodity),
         eq(commodities.isActive, true),
         eq(commodities.isIntelligenceTracked, true),

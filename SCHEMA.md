@@ -1879,3 +1879,45 @@ Schema dianggap valid jika:
 - Migration dapat dijalankan dari database kosong.
 - Drizzle schema sesuai migration.
 - Type-check, test, lint, dan build berhasil.
+
+## Intelligence canonical foundation — migration lokal 0020
+
+Status: source schema dan migration sudah disiapkan; **belum diterapkan ke development**.
+
+- `commodity_production_series` memisahkan identitas produk, cakupan, unit,
+  sumber utama, metodologi, dan pilihan seri publik. Unit menggunakan FK
+  `measurement_units.code`, bukan UUID unit yang tidak tersedia pada master.
+- Natural key produksi menjadi `(series_id, year, record_type)`. Composite FK
+  `(series_id, commodity_id, unit_code)` mencegah komoditas atau unit silang.
+- Backfill membentuk seri legacy per commodity/unit secara deterministic,
+  `unclassified`, non-canonical, bukan public default. Nilai, status, timestamp,
+  dan sumber record produksi lama harus identik; assertion SQL menggagalkan
+  seluruh transaksi bila berubah.
+- `commodity_price_series` memisahkan observasi harga legacy dan kanonik tanpa
+  menduplikasi unit, currency, kualitas, atau spesifikasi milik
+  `commodity_price_standards`. Legacy menggunakan `unclassified`, bukan public
+  default; seri kanonik tahunan menggunakan `annual_average`.
+- Natural key harga menjadi `(price_series_id, effective_date, record_type)`.
+  Composite FK series menjaga commodity, price standard, dan period konsisten;
+  composite FK price standard tetap menjaga commodity, unit, dan currency.
+- Partial unique index membatasi satu public-default price series untuk
+  `(commodity_id, price_standard_id, period)`. Observasi legacy mempertahankan
+  nilai dan status aslinya, termasuk record published; policy restrictive
+  mencegahnya menjadi hasil public-default.
+- Partial unique index membatasi satu public default per commodity/scope.
+- `commodity_region_coverage` menyimpan hubungan wilayah administratif, bukan
+  marker. Ranking tanpa bukti tetap null; relasi tanpa sumber langsung pending
+  dan tidak publik. Tidak ada polygon atau koordinat hasil perkiraan.
+- `commodity_production_locations.site_slug` nullable mempertahankan record
+  regional lama; site baru memakai `(commodity_id, region_id, site_slug)`.
+  Index tahunan/undated lama tetap berlaku hanya untuk record tanpa site slug.
+- Drift `commodity_domestic_prices.commodity_id` dicerminkan pada Drizzle.
+  Database development yang sudah memiliki kolom/FK tidak mendapat ADD ulang.
+  Replay database kosong dari migration 0005 memasuki cabang terjaga yang
+  menambahkan kolom lalu mengisi commodity dari price standard yang direferensikan.
+  Composite FK baru menjaga standard/commodity/unit/currency konsisten.
+- Tabel baru mengaktifkan RLS; anon/authenticated hanya menerima SELECT dengan
+  policy publik aktif/verified/published. Tidak ada SECURITY DEFINER.
+- Migration harus dijalankan lewat migrator transaksional Drizzle. Uji eksekusi
+  SQL pada PostgreSQL disposable masih diperlukan sebelum persetujuan penerapan;
+  test adapter importer tidak menggantikan uji migrasi PostgreSQL.

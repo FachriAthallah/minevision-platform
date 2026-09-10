@@ -1,6 +1,8 @@
 import { sql } from "drizzle-orm";
 import {
   check,
+  boolean,
+  foreignKey,
   index,
   numeric,
   pgPolicy,
@@ -23,6 +25,7 @@ import {
 import { measurementUnits } from "./measurement-units";
 import { regions } from "./regions";
 import { sources } from "./sources";
+import { industryCompanies } from "./industry-companies";
 
 export const commodityProductionLocations = pgTable(
   "commodity_production_locations",
@@ -86,15 +89,36 @@ export const commodityProductionLocations = pgTable(
     ...createTimestampColumns(),
 
     locationDetail: text("location_detail"),
+    siteSlug: varchar("site_slug", { length: 180 }),
+    siteName: text("site_name"),
+    siteType: varchar("site_type", { length: 30 }),
+    companyId: uuid("company_id"),
+    companyName: text("company_name"),
+    latitude: numeric("latitude", { precision: 10, scale: 7 }),
+    longitude: numeric("longitude", { precision: 10, scale: 7 }),
+    locationAccuracy: varchar("location_accuracy", { length: 30 }),
+    geometrySourceUrl: text("geometry_source_url"),
+    operationStatus: varchar("operation_status", { length: 30 }),
+    isPrimary: boolean("is_primary").default(false).notNull(),
+    primaryReason: text("primary_reason"),
   },
   (table) => [
     uniqueIndex("commodity_production_locations_annual_unique_idx")
       .on(table.commodityId, table.regionId, table.year, table.recordType)
-      .where(sql`${table.year} IS NOT NULL`),
+      .where(sql`${table.year} IS NOT NULL AND ${table.siteSlug} IS NULL`),
 
     uniqueIndex("commodity_production_locations_undated_unique_idx")
       .on(table.commodityId, table.regionId, table.recordType)
-      .where(sql`${table.year} IS NULL`),
+      .where(sql`${table.year} IS NULL AND ${table.siteSlug} IS NULL`),
+    uniqueIndex("production_locations_site_unique_idx").on(table.commodityId, table.regionId, table.siteSlug).where(sql`${table.siteSlug} IS NOT NULL`),
+    foreignKey({ name: "production_locations_company_fk", columns: [table.companyId], foreignColumns: [industryCompanies.id] }).onDelete("set null").onUpdate("cascade"),
+    index("production_locations_company_idx").on(table.companyId),
+    check("production_locations_site_check", sql`${table.siteSlug} IS NULL OR (${table.siteSlug} ~ '^[a-z0-9]+(-[a-z0-9]+)*$' AND NULLIF(btrim(${table.siteName}), '') IS NOT NULL AND ${table.siteType} IS NOT NULL AND ${table.siteType} IN ('mine','processing_plant','smelter','refinery','project','deposit') AND ${table.locationAccuracy} IS NOT NULL AND ${table.operationStatus} IS NOT NULL AND ${table.year} IS NULL AND ${table.productionValue} IS NULL AND ${table.unitCode} IS NULL AND ${table.producerRank} IS NULL AND ${table.sharePercentage} IS NULL)`),
+    check("production_locations_coordinates_check", sql`(${table.latitude} IS NULL AND ${table.longitude} IS NULL) OR (${table.latitude} IS NOT NULL AND ${table.longitude} IS NOT NULL AND ${table.latitude} BETWEEN -90 AND 90 AND ${table.longitude} BETWEEN -180 AND 180 AND ${table.locationAccuracy} IS NOT NULL AND ${table.locationAccuracy} <> 'unknown' AND ${table.geometrySourceUrl} IS NOT NULL)`),
+    check("production_locations_accuracy_check", sql`${table.locationAccuracy} IS NULL OR ${table.locationAccuracy} IN ('exact','approximate','regency_centroid','unknown')`),
+    check("production_locations_operation_check", sql`(${table.operationStatus} IS NULL OR ${table.operationStatus} IN ('operating','development','historical','inactive','unknown')) AND (${table.siteType} NOT IN ('project','deposit') OR ${table.operationStatus} <> 'operating')`),
+    check("production_locations_primary_check", sql`NOT ${table.isPrimary} OR (${table.siteSlug} IS NOT NULL AND NULLIF(btrim(${table.primaryReason}), '') IS NOT NULL AND ${table.verificationStatus} = 'verified')`),
+    check("production_locations_geometry_url_check", sql`${table.geometrySourceUrl} IS NULL OR ${table.geometrySourceUrl} ~ '^https://'`),
 
     index("commodity_production_locations_commodity_idx").on(table.commodityId),
 

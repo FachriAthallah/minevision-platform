@@ -6,6 +6,7 @@ import { db } from "@/db";
 import {
   commodities,
   commodityDomesticPrices,
+  commodityPriceSeries,
   commodityPriceStandards,
   measurementUnits,
   sources,
@@ -13,6 +14,10 @@ import {
 
 import { isPubliclyVisible } from "../policies/publication-visibility";
 import type { DomesticPriceQuery } from "../schemas/domestic-price-query";
+import {
+  isPublicPriceSeries,
+  publicPriceSeriesConditions,
+} from "./public-price-series";
 
 export async function getPublicDomesticPrices(query: DomesticPriceQuery) {
   const priceRows = await db
@@ -42,6 +47,11 @@ export async function getPublicDomesticPrices(query: DomesticPriceQuery) {
 
       publicationStatus: commodityDomesticPrices.publicationStatus,
 
+      priceSeriesCanonical: commodityPriceSeries.isCanonical,
+      priceSeriesPublicDefault: commodityPriceSeries.isPublicDefault,
+      priceSeriesPublicationStatus: commodityPriceSeries.publicationStatus,
+      priceSeriesVerificationStatus: commodityPriceSeries.verificationStatus,
+
       unitCode: measurementUnits.code,
       unitName: measurementUnits.name,
       unitSymbol: measurementUnits.symbol,
@@ -52,6 +62,10 @@ export async function getPublicDomesticPrices(query: DomesticPriceQuery) {
       sourceUrl: sources.url,
     })
     .from(commodityDomesticPrices)
+    .innerJoin(
+      commodityPriceSeries,
+      eq(commodityDomesticPrices.priceSeriesId, commodityPriceSeries.id),
+    )
     .innerJoin(
       commodityPriceStandards,
       eq(commodityDomesticPrices.priceStandardId, commodityPriceStandards.id),
@@ -67,6 +81,7 @@ export async function getPublicDomesticPrices(query: DomesticPriceQuery) {
     .innerJoin(sources, eq(commodityDomesticPrices.sourceId, sources.id))
     .where(
       and(
+        publicPriceSeriesConditions(),
         query.commodity !== undefined
           ? eq(commodities.slug, query.commodity)
           : undefined,
@@ -106,7 +121,16 @@ export async function getPublicDomesticPrices(query: DomesticPriceQuery) {
       desc(commodityDomesticPrices.createdAt),
     );
 
-  const publiclyVisibleRows = priceRows.filter(isPubliclyVisible);
+  const publiclyVisibleRows = priceRows.filter(
+    (record) =>
+      isPubliclyVisible(record) &&
+      isPublicPriceSeries({
+        isCanonical: record.priceSeriesCanonical,
+        isPublicDefault: record.priceSeriesPublicDefault,
+        publicationStatus: record.priceSeriesPublicationStatus,
+        verificationStatus: record.priceSeriesVerificationStatus,
+      }),
+  );
 
   return publiclyVisibleRows.map((record) => ({
     commodity: {

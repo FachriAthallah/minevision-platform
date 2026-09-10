@@ -1,0 +1,197 @@
+{
+  "schemaVersion": "2.0",
+  "commoditySlug": "timah",
+  "documentSlug": "tin",
+  "name": "Timah",
+  "productionSeries": {
+    "seriesCode": "timah-national-concentrate-bps",
+    "name": "Produksi konsentrat timah nasional",
+    "productForm": "concentrate",
+    "productionScope": "national",
+    "unitCode": "metric_ton",
+    "specification": "ton konsentrat",
+    "methodologyNotes": "Seri utama adalah konsentrat timah BPS. Produksi logam Sn PB50–PB300 P3 sebesar 39.814,29 ton pada 2024 dan bahan mentah 2025 sebesar 98.670 ton adalah seri lain; keduanya tidak dicampur dengan konsentrat.",
+    "isCanonical": true,
+    "isPublicDefault": true,
+    "records": [
+      {
+        "year": 2019,
+        "value": "86947",
+        "recordType": "actual",
+        "verificationStatus": "verified",
+        "sources": [
+          {
+            "sourceSlug": "intelligence-final-2026-p5",
+            "citationLabel": "BPS Statistik Pertambangan Nonmigas 2019–2023",
+            "sourceUrl": "https://www.bps.go.id/id/publication/2024/12/20/15a585268e537abcfe19f192/statistik-pertambangan-non-minyak-dan-gas-bumi-2019-2023.html",
+            "pageReference": null
+          }
+        ],
+        "notes": "Terverifikasi"
+      },
+      {
+        "year": 2020,
+        "value": "65127",
+        "recordType": "actual",
+        "verificationStatus": "verified",
+        "sources": [
+          {
+            "sourceSlug": "intelligence-final-2026-p5",
+            "citationLabel": "BPS Statistik Pertambangan Nonmigas 2019–2023",
+            "sourceUrl": "https://www.bps.go.id/id/publication/2024/12/20/15a585268e537abcfe19f192/statistik-pertambangan-non-minyak-dan-gas-bumi-2019-2023.html",
+            "pageReference": null
+          }
+        ],
+        "notes": "Terverifikasi"
+      },
+      {
+        "year": 2021,
+        "value": "52467",
+        "recordType": "actual",
+        "verificationStatus": "verified",
+        "sources": [
+          {
+            "sourceSlug": "intelligence-final-2026-p5",
+            "citationLabel": "BPS Statistik Pertambangan Nonmigas 2019–2023",
+            "sourceUrl": "https://www.bps.go.id/id/publication/2024/12/20/15a585268e537abcfe19f192/statistik-pertambangan-non-minyak-dan-gas-bumi-2019-2023.html",
+            "pageReference": null
+          }
+        ],
+        "notes": "Terverifikasi"
+      },
+      {
+        "year": 2022,
+        "value": "57735",
+        "recordType": "actual",
+        "verificationStatus": "verified",
+        "sources": [
+          {
+            "sourceSlug": "intelligence-final-2026-p5",
+            "citationLabel": "BPS Statistik Pertambangan Nonmigas 2019–2023",
+            "sourceUrl": "https://www.bps.go.id/id/publication/2024/12/20/15a585268e537abcfe19f192/statistik-pertambangan-non-minyak-dan-gas-bumi-2019-2023.html",
+            "pageReference": null
+          }
+        ],
+        "notes": "Terverifikasi"
+      },
+      {
+        "year": 2023,
+        "value": "67625",
+        "recordType": "actual",
+        "verificationStatus": "verified",
+        "sources": [
+          {
+            "sourceSlug": "intelligence-final-2026-p5",
+            "citationLabel": "BPS Statistik Pertambangan Nonmigas 2019–2023",
+            "sourceUrl": "https://www.bps.go.id/id/publication/2024/12/20/15a585268e537abcfe19f192/statistik-pertambangan-non-minyak-dan-gas-bumi-2019-2023.html",
+            "pageReference": null
+          }
+        ],
+        "notes": "Terverifikasi"
+      },
+      {
+        "year": 2024,
+        "value": "49877",
+        "recordType": "actual",
+        "verificationStatus": "verified",
+        "sources": [
+          {
+            "sourceSlug": "intelligence-final-2026-p4",
+            "citationLabel": "BPS Produksi Barang Tambang Mineral 2024",
+            "sourceUrl": "https://www.bps.go.id/id/statistics-table/2/NTA4IzI%3D/produksi-barang-tambang-mineral.html",
+            "pageReference": null
+          },
+          {
+            "sourceSlug": "intelligence-final-2026-p6",
+            "citationLabel": "BPS Statistik Pertambangan Nonmigas 2020–2024",
+            "sourceUrl": "https://www.bps.go.id/id/publication/2025/12/31/a0e94cbaeb68d53f9cee32df/statistik-pertambangan-non-minyak-dan-gas-bumi-2020-2024.html",
+            "pageReference": null
+          }
+        ],
+        "notes": "Terverifikasi"
+      }
+    ],
+    "missingYears": [
+      2025
+    ]
+  },
+  "priceSeries": {
+    "seriesCode": null,
+    "standardCode": null,
+    "name": "Belum ditetapkan untuk seri konsentrat timah; acuan ingot ICDX adalah produk berbeda",
+    "period": "annual",
+    "aggregationMethod": null,
+    "isCanonical": null,
+    "isPublicDefault": null,
+    "currencyCode": null,
+    "unitCode": null,
+    "methodologyNotes": "Nama komoditas dan satuan harus cocok dengan baris HMA. Harga emas ritel per gram dan harga konsentrat tidak boleh disambung dengan harga acuan logam. [H2–H4]",
+    "records": [],
+    "missingYears": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "regionCoverage": [
+    {
+      "regionSlug": "kepulauan-bangka-belitung",
+      "regionName": "Kepulauan Bangka Belitung",
+      "coverageType": "known_occurrence",
+      "areaDescription": "Bangka dan Belitung",
+      "relatedCompanyName": "PT Timah Tbk",
+      "industryCompanySlug": null,
+      "productionValue": null,
+      "productionYear": null,
+      "unitCode": null,
+      "rank": null,
+      "rankingStatus": "unverified",
+      "rankingEvidence": null,
+      "sources": [
+        {
+          "sourceSlug": "intelligence-final-2026-l7",
+          "citationLabel": "PT Timah penambangan timah",
+          "sourceUrl": "https://timah.com/blog/bisnis-kami/penambangan-timah.html",
+          "pageReference": null
+        },
+        {
+          "sourceSlug": "intelligence-final-2026-l8",
+          "citationLabel": "PT Timah profil perusahaan",
+          "sourceUrl": "https://timah.com/blog/tentang-kami/tentang-pt-timah-tbk.html",
+          "pageReference": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "notes": "Belum diperingkat. Bukan klaim perusahaan atau tambang terbesar."
+    },
+    {
+      "regionSlug": "kepulauan-riau",
+      "regionName": "Kepulauan Riau",
+      "coverageType": "known_occurrence",
+      "areaDescription": "Kundur",
+      "relatedCompanyName": "PT Timah Tbk",
+      "industryCompanySlug": null,
+      "productionValue": null,
+      "productionYear": null,
+      "unitCode": null,
+      "rank": null,
+      "rankingStatus": "unverified",
+      "rankingEvidence": null,
+      "sources": [
+        {
+          "sourceSlug": "intelligence-final-2026-l8",
+          "citationLabel": "PT Timah profil perusahaan",
+          "sourceUrl": "https://timah.com/blog/tentang-kami/tentang-pt-timah-tbk.html",
+          "pageReference": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "notes": "Belum diperingkat. Bukan klaim perusahaan atau tambang terbesar."
+    }
+  ],
+  "locations": []
+}

@@ -25,10 +25,13 @@ const requiredTables = [
   "measurement_units",
   "commodities",
   "commodity_production",
+  "commodity_production_series",
   "commodity_production_sources",
   "commodity_price_standards",
+  "commodity_price_series",
   "commodity_domestic_prices",
   "regions",
+  "commodity_region_coverage",
   "commodity_production_locations",
   "commodity_contents",
   "commodity_resource_statistics",
@@ -202,6 +205,18 @@ const requiredPolicies = [
     policyName: "commodity_production_locations_public_read",
   },
   {
+    tableName: "commodity_production_series",
+    policyName: "production_series_public_read",
+  },
+  {
+    tableName: "commodity_price_series",
+    policyName: "price_series_public_read",
+  },
+  {
+    tableName: "commodity_region_coverage",
+    policyName: "region_coverage_public_read",
+  },
+  {
     tableName: "contents",
     policyName: "contents_career_public_read",
   },
@@ -251,6 +266,14 @@ const expectedSmelterTypeRecords = 6;
 const expectedRefineryTypeRecords = 2;
 const expectedIntegratedProcessingTypeRecords = 1;
 
+const intelligenceCanonicalTables = [
+  "commodity_production_series",
+  "commodity_price_series",
+  "commodity_region_coverage",
+] as const;
+
+const intelligencePublicRoles = ["anon", "authenticated"] as const;
+
 type DatabaseTable = {
   table_name: string;
   rls_enabled: boolean;
@@ -263,6 +286,28 @@ type DatabaseView = {
 type DatabasePolicy = {
   table_name: string;
   policy_name: string;
+};
+
+type DatabaseColumn = {
+  table_name: string;
+  column_name: string;
+  data_type: string;
+  udt_name: string;
+  is_nullable: "YES" | "NO";
+  character_maximum_length: number | null;
+};
+
+type DatabaseForeignKey = {
+  table_name: string;
+  constraint_name: string;
+  referenced_table_name: string;
+  is_validated: boolean;
+  definition: string;
+};
+
+type DatabaseSelectGrant = {
+  grantee: string;
+  table_name: string;
 };
 
 type CountResult = {
@@ -346,6 +391,21 @@ type SmelterSummary = {
   facilities_without_outputs: number;
   facilities_without_sources: number;
   facilities_with_invalid_primary_outputs: number;
+};
+
+type IntelligenceCanonicalSummary = {
+  production_without_series: number;
+  prices_without_series: number;
+  legacy_production_series: number;
+  invalid_legacy_production_series: number;
+  legacy_price_series: number;
+  invalid_legacy_price_series: number;
+  legacy_production_observations: number;
+  legacy_price_observations: number;
+  duplicate_production_defaults: number;
+  duplicate_price_defaults: number;
+  legacy_gold_2025_records: number;
+  valid_legacy_gold_2025_records: number;
 };
 
 async function verifyTables() {
@@ -482,6 +542,400 @@ async function verifyPolicies() {
       `[OK] Policy ditemukan: ${requiredPolicy.policyName} ` +
         `pada ${requiredPolicy.tableName}`,
     );
+  }
+
+  return valid;
+}
+
+async function verifyIntelligenceCanonicalFoundation(
+  tableMap: Map<string, boolean>,
+) {
+  console.log("\nMemeriksa Intelligence canonical foundation:");
+
+  if (
+    intelligenceCanonicalTables.some((tableName) => !tableMap.has(tableName))
+  ) {
+    console.error(
+      "[FAIL] Pemeriksaan Intelligence canonical tidak dapat dilakukan " +
+        "karena tabel baru belum lengkap.",
+    );
+
+    return false;
+  }
+
+  let valid = true;
+
+  const columns = await sqlClient<DatabaseColumn[]>`
+    SELECT
+      table_name,
+      column_name,
+      data_type,
+      udt_name,
+      is_nullable,
+      character_maximum_length
+    FROM information_schema.columns
+    WHERE
+      table_schema = 'public'
+      AND (
+        (table_name = 'commodity_production' AND column_name = 'series_id')
+        OR (
+          table_name = 'commodity_domestic_prices'
+          AND column_name = 'price_series_id'
+        )
+        OR (
+          table_name = 'commodity_production_locations'
+          AND column_name = 'site_slug'
+        )
+      )
+    ORDER BY table_name, column_name;
+  `;
+
+  const columnMap = new Map(
+    columns.map((column) => [
+      `${column.table_name}.${column.column_name}`,
+      column,
+    ]),
+  );
+
+  const requiredColumns = [
+    {
+      key: "commodity_production.series_id",
+      isValid: (column: DatabaseColumn) =>
+        column.udt_name === "uuid" && column.is_nullable === "NO",
+      expected: "UUID NOT NULL",
+    },
+    {
+      key: "commodity_domestic_prices.price_series_id",
+      isValid: (column: DatabaseColumn) =>
+        column.udt_name === "uuid" && column.is_nullable === "NO",
+      expected: "UUID NOT NULL",
+    },
+    {
+      key: "commodity_production_locations.site_slug",
+      isValid: (column: DatabaseColumn) =>
+        column.data_type === "character varying" &&
+        column.character_maximum_length === 180 &&
+        column.is_nullable === "YES",
+      expected: "VARCHAR(180) NULL",
+    },
+  ] as const;
+
+  for (const requiredColumn of requiredColumns) {
+    const column = columnMap.get(requiredColumn.key);
+
+    if (!column || !requiredColumn.isValid(column)) {
+      console.error(
+        `[FAIL] Kolom ${requiredColumn.key} tidak sesuai; ` +
+          `diharapkan ${requiredColumn.expected}`,
+      );
+      valid = false;
+      continue;
+    }
+
+    console.log(
+      `[OK] Kolom ${requiredColumn.key}: ${requiredColumn.expected}`,
+    );
+  }
+
+  const foreignKeys = await sqlClient<DatabaseForeignKey[]>`
+    SELECT
+      source_table.relname AS table_name,
+      database_constraint.conname AS constraint_name,
+      referenced_table.relname AS referenced_table_name,
+      database_constraint.convalidated AS is_validated,
+      pg_get_constraintdef(database_constraint.oid) AS definition
+    FROM pg_constraint AS database_constraint
+    INNER JOIN pg_class AS source_table
+      ON source_table.oid = database_constraint.conrelid
+    INNER JOIN pg_namespace AS source_namespace
+      ON source_namespace.oid = source_table.relnamespace
+    INNER JOIN pg_class AS referenced_table
+      ON referenced_table.oid = database_constraint.confrelid
+    WHERE
+      source_namespace.nspname = 'public'
+      AND database_constraint.contype = 'f'
+      AND database_constraint.conname IN (
+        'production_series_identity_fk',
+        'domestic_price_series_identity_fk'
+      )
+    ORDER BY database_constraint.conname;
+  `;
+
+  const requiredForeignKeys = [
+    {
+      tableName: "commodity_production",
+      constraintName: "production_series_identity_fk",
+      referencedTableName: "commodity_production_series",
+      columnSignature: "foreign key (series_id, commodity_id, unit_code)",
+      referenceSignature:
+        "references commodity_production_series(id, commodity_id, unit_code)",
+    },
+    {
+      tableName: "commodity_domestic_prices",
+      constraintName: "domestic_price_series_identity_fk",
+      referencedTableName: "commodity_price_series",
+      columnSignature:
+        "foreign key (price_series_id, commodity_id, price_standard_id, period)",
+      referenceSignature:
+        "references commodity_price_series(id, commodity_id, price_standard_id, period)",
+    },
+  ] as const;
+
+  for (const requiredForeignKey of requiredForeignKeys) {
+    const foreignKey = foreignKeys.find(
+      (candidate) =>
+        candidate.constraint_name === requiredForeignKey.constraintName,
+    );
+    const normalizedDefinition = foreignKey?.definition.toLowerCase() ?? "";
+
+    if (
+      !foreignKey ||
+      foreignKey.table_name !== requiredForeignKey.tableName ||
+      foreignKey.referenced_table_name !==
+        requiredForeignKey.referencedTableName ||
+      !foreignKey.is_validated ||
+      !normalizedDefinition.includes(requiredForeignKey.columnSignature) ||
+      !normalizedDefinition.includes(requiredForeignKey.referenceSignature)
+    ) {
+      console.error(
+        `[FAIL] Foreign key tidak ditemukan atau tidak valid: ` +
+          requiredForeignKey.constraintName,
+      );
+      valid = false;
+      continue;
+    }
+
+    console.log(
+      `[OK] Foreign key tersedia dan valid: ` +
+        requiredForeignKey.constraintName,
+    );
+  }
+
+  const selectGrants = await sqlClient<DatabaseSelectGrant[]>`
+    SELECT grantee, table_name
+    FROM information_schema.role_table_grants
+    WHERE
+      table_schema = 'public'
+      AND privilege_type = 'SELECT'
+      AND grantee IN ('anon', 'authenticated')
+      AND table_name IN (
+        'commodity_production_series',
+        'commodity_price_series',
+        'commodity_region_coverage'
+      )
+    ORDER BY table_name, grantee;
+  `;
+
+  const selectGrantSet = new Set(
+    selectGrants.map((grant) => `${grant.table_name}:${grant.grantee}`),
+  );
+
+  for (const tableName of intelligenceCanonicalTables) {
+    for (const roleName of intelligencePublicRoles) {
+      const grantKey = `${tableName}:${roleName}`;
+
+      if (!selectGrantSet.has(grantKey)) {
+        console.error(
+          `[FAIL] Hak SELECT ${roleName} tidak ditemukan pada ${tableName}`,
+        );
+        valid = false;
+        continue;
+      }
+
+      console.log(`[OK] ${roleName} memiliki SELECT pada ${tableName}`);
+    }
+  }
+
+  const summaries = await sqlClient<IntelligenceCanonicalSummary[]>`
+    SELECT
+      (
+        SELECT COUNT(*)::integer
+        FROM public.commodity_production
+        WHERE series_id IS NULL
+      ) AS production_without_series,
+      (
+        SELECT COUNT(*)::integer
+        FROM public.commodity_domestic_prices
+        WHERE price_series_id IS NULL
+      ) AS prices_without_series,
+      (
+        SELECT COUNT(*)::integer
+        FROM public.commodity_production_series
+        WHERE is_canonical = false
+      ) AS legacy_production_series,
+      (
+        SELECT COUNT(*)::integer
+        FROM public.commodity_production_series
+        WHERE
+          is_canonical = false
+          AND (is_public_default = true OR product_form <> 'unclassified')
+      ) AS invalid_legacy_production_series,
+      (
+        SELECT COUNT(*)::integer
+        FROM public.commodity_price_series
+        WHERE is_canonical = false
+      ) AS legacy_price_series,
+      (
+        SELECT COUNT(*)::integer
+        FROM public.commodity_price_series
+        WHERE
+          is_canonical = false
+          AND (
+            is_public_default = true
+            OR aggregation_method <> 'unclassified'
+          )
+      ) AS invalid_legacy_price_series,
+      (
+        SELECT COUNT(*)::integer
+        FROM public.commodity_production AS production
+        INNER JOIN public.commodity_production_series AS production_series
+          ON production_series.id = production.series_id
+        WHERE
+          production_series.is_canonical = false
+          AND production_series.is_public_default = false
+      ) AS legacy_production_observations,
+      (
+        SELECT COUNT(*)::integer
+        FROM public.commodity_domestic_prices AS price
+        INNER JOIN public.commodity_price_series AS price_series
+          ON price_series.id = price.price_series_id
+        WHERE
+          price_series.is_canonical = false
+          AND price_series.is_public_default = false
+      ) AS legacy_price_observations,
+      (
+        SELECT COUNT(*)::integer
+        FROM (
+          SELECT commodity_id, production_scope
+          FROM public.commodity_production_series
+          WHERE is_public_default = true
+          GROUP BY commodity_id, production_scope
+          HAVING COUNT(*) > 1
+        ) AS duplicate_default
+      ) AS duplicate_production_defaults,
+      (
+        SELECT COUNT(*)::integer
+        FROM (
+          SELECT commodity_id, price_standard_id, period
+          FROM public.commodity_price_series
+          WHERE is_public_default = true
+          GROUP BY commodity_id, price_standard_id, period
+          HAVING COUNT(*) > 1
+        ) AS duplicate_default
+      ) AS duplicate_price_defaults,
+      (
+        SELECT COUNT(*)::integer
+        FROM public.commodity_domestic_prices AS price
+        INNER JOIN public.commodity_price_series AS price_series
+          ON price_series.id = price.price_series_id
+        INNER JOIN public.commodity_price_standards AS price_standard
+          ON price_standard.id = price.price_standard_id
+        WHERE
+          price_standard.code = 'HMA_EMAS'
+          AND price.period = 'annual'
+          AND EXTRACT(YEAR FROM price.effective_date) = 2025
+          AND price_series.is_canonical = false
+      ) AS legacy_gold_2025_records,
+      (
+        SELECT COUNT(*)::integer
+        FROM public.commodity_domestic_prices AS price
+        INNER JOIN public.commodity_price_series AS price_series
+          ON price_series.id = price.price_series_id
+        INNER JOIN public.commodity_price_standards AS price_standard
+          ON price_standard.id = price.price_standard_id
+        WHERE
+          price_standard.code = 'HMA_EMAS'
+          AND price.period = 'annual'
+          AND EXTRACT(YEAR FROM price.effective_date) = 2025
+          AND price.price_value = 4165
+          AND price.verification_status = 'verified'
+          AND price.publication_status = 'published'
+          AND price_series.is_canonical = false
+          AND price_series.is_public_default = false
+      ) AS valid_legacy_gold_2025_records;
+  `;
+
+  const summary = summaries[0];
+
+  if (!summary) {
+    console.error("[FAIL] Ringkasan Intelligence canonical tidak tersedia.");
+    return false;
+  }
+
+  const exactChecks = [
+    {
+      label: "Production tanpa series_id",
+      actual: summary.production_without_series,
+      expected: 0,
+    },
+    {
+      label: "Harga tanpa price_series_id",
+      actual: summary.prices_without_series,
+      expected: 0,
+    },
+    {
+      label: "Legacy production series",
+      actual: summary.legacy_production_series,
+      expected: 7,
+    },
+    {
+      label: "Legacy production series dengan klasifikasi tidak aman",
+      actual: summary.invalid_legacy_production_series,
+      expected: 0,
+    },
+    {
+      label: "Legacy price series",
+      actual: summary.legacy_price_series,
+      expected: 7,
+    },
+    {
+      label: "Legacy price series dengan klasifikasi tidak aman",
+      actual: summary.invalid_legacy_price_series,
+      expected: 0,
+    },
+    {
+      label: "Production observation pada legacy series",
+      actual: summary.legacy_production_observations,
+      expected: 33,
+    },
+    {
+      label: "Price observation pada legacy series",
+      actual: summary.legacy_price_observations,
+      expected: 45,
+    },
+    {
+      label: "Duplikasi public-default production series",
+      actual: summary.duplicate_production_defaults,
+      expected: 0,
+    },
+    {
+      label: "Duplikasi public-default price series",
+      actual: summary.duplicate_price_defaults,
+      expected: 0,
+    },
+    {
+      label: "HMA Emas 2025 pada legacy series",
+      actual: summary.legacy_gold_2025_records,
+      expected: 1,
+    },
+    {
+      label: "HMA Emas 2025 legacy bernilai 4165 dan tetap publik",
+      actual: summary.valid_legacy_gold_2025_records,
+      expected: 1,
+    },
+  ] as const;
+
+  for (const checkResult of exactChecks) {
+    if (checkResult.actual !== checkResult.expected) {
+      console.error(
+        `[FAIL] ${checkResult.label}: ${checkResult.actual}, ` +
+          `diharapkan ${checkResult.expected}`,
+      );
+      valid = false;
+      continue;
+    }
+
+    console.log(`[OK] ${checkResult.label}: ${checkResult.actual}`);
   }
 
   return valid;
@@ -1722,6 +2176,9 @@ async function main() {
 
     const policiesValid = await verifyPolicies();
 
+    const intelligenceCanonicalValid =
+      await verifyIntelligenceCanonicalFoundation(tableVerification.tableMap);
+
     const masterRecordsValid = await verifyMasterRecords(
       tableVerification.tableMap,
     );
@@ -1753,6 +2210,7 @@ async function main() {
       rlsValid &&
       viewVerification.valid &&
       policiesValid &&
+      intelligenceCanonicalValid &&
       masterRecordsValid &&
       gdpDataValid &&
       investmentDataValid &&
