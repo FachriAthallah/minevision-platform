@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "2.0",
+  "commoditySlug": "bauksit",
+  "documentSlug": "bauxite",
+  "name": "Bauksit",
+  "productionSeries": {
+    "seriesCode": "bauksit-national-ore-bps",
+    "name": "Produksi bijih bauksit nasional",
+    "productForm": "ore",
+    "productionScope": "national",
+    "unitCode": "metric_ton",
+    "specification": "ton bijih",
+    "methodologyNotes": "2024 menggunakan angka tepat tabel P3, bukan pembulatan 8,36 juta ton. Alumina, aluminium dan penjualan bauksit bukan pengganti produksi bijih.",
+    "isCanonical": true,
+    "isPublicDefault": true,
+    "records": [
+      {
+        "year": 2019,
+        "value": "16592187",
+        "recordType": "actual",
+        "verificationStatus": "verified",
+        "sources": [
+          {
+            "sourceSlug": "intelligence-final-2026-p5",
+            "citationLabel": "BPS Statistik Pertambangan Nonmigas 2019–2023",
+            "sourceUrl": "https://www.bps.go.id/id/publication/2024/12/20/15a585268e537abcfe19f192/statistik-pertambangan-non-minyak-dan-gas-bumi-2019-2023.html",
+            "pageReference": null
+          }
+        ],
+        "notes": "Terverifikasi"
+      },
+      {
+        "year": 2020,
+        "value": "25859895",
+        "recordType": "actual",
+        "verificationStatus": "verified",
+        "sources": [
+          {
+            "sourceSlug": "intelligence-final-2026-p5",
+            "citationLabel": "BPS Statistik Pertambangan Nonmigas 2019–2023",
+            "sourceUrl": "https://www.bps.go.id/id/publication/2024/12/20/15a585268e537abcfe19f192/statistik-pertambangan-non-minyak-dan-gas-bumi-2019-2023.html",
+            "pageReference": null
+          }
+        ],
+        "notes": "Terverifikasi"
+      },
+      {
+        "year": 2021,
+        "value": "25781187",
+        "recordType": "actual",
+        "verificationStatus": "verified",
+        "sources": [
+          {
+            "sourceSlug": "intelligence-final-2026-p5",
+            "citationLabel": "BPS Statistik Pertambangan Nonmigas 2019–2023",
+            "sourceUrl": "https://www.bps.go.id/id/publication/2024/12/20/15a585268e537abcfe19f192/statistik-pertambangan-non-minyak-dan-gas-bumi-2019-2023.html",
+            "pageReference": null
+          }
+        ],
+        "notes": "Terverifikasi"
+      },
+      {
+        "year": 2022,
+        "value": "28808674",
+        "recordType": "actual",
+        "verificationStatus": "verified",
+        "sources": [
+          {
+            "sourceSlug": "intelligence-final-2026-p5",
+            "citationLabel": "BPS Statistik Pertambangan Nonmigas 2019–2023",
+            "sourceUrl": "https://www.bps.go.id/id/publication/2024/12/20/15a585268e537abcfe19f192/statistik-pertambangan-non-minyak-dan-gas-bumi-2019-2023.html",
+            "pageReference": null
+          }
+        ],
+        "notes": "Terverifikasi"
+      },
+      {
+        "year": 2023,
+        "value": "9889569",
+        "recordType": "actual",
+        "verificationStatus": "verified",
+        "sources": [
+          {
+            "sourceSlug": "intelligence-final-2026-p5",
+            "citationLabel": "BPS Statistik Pertambangan Nonmigas 2019–2023",
+            "sourceUrl": "https://www.bps.go.id/id/publication/2024/12/20/15a585268e537abcfe19f192/statistik-pertambangan-non-minyak-dan-gas-bumi-2019-2023.html",
+            "pageReference": null
+          }
+        ],
+        "notes": "Terverifikasi"
+      },
+      {
+        "year": 2024,
+        "value": "8362444",
+        "recordType": "actual",
+        "verificationStatus": "verified",
+        "sources": [
+          {
+            "sourceSlug": "intelligence-final-2026-p4",
+            "citationLabel": "BPS Produksi Barang Tambang Mineral 2024",
+            "sourceUrl": "https://www.bps.go.id/id/statistics-table/2/NTA4IzI%3D/produksi-barang-tambang-mineral.html",
+            "pageReference": null
+          },
+          {
+            "sourceSlug": "intelligence-final-2026-p6",
+            "citationLabel": "BPS Statistik Pertambangan Nonmigas 2020–2024",
+            "sourceUrl": "https://www.bps.go.id/id/publication/2025/12/31/a0e94cbaeb68d53f9cee32df/statistik-pertambangan-non-minyak-dan-gas-bumi-2020-2024.html",
+            "pageReference": null
+          }
+        ],
+        "notes": "Terverifikasi"
+      }
+    ],
+    "missingYears": [
+      2025
+    ]
+  },
+  "priceSeries": {
+    "seriesCode": null,
+    "standardCode": null,
+    "name": "Belum ditetapkan untuk bijih bauksit; HMA aluminium adalah produk berbeda",
+    "period": "annual",
+    "aggregationMethod": null,
+    "isCanonical": null,
+    "isPublicDefault": null,
+    "currencyCode": null,
+    "unitCode": null,
+    "methodologyNotes": "Harga HMA tidak identik dengan harga bijih aktual. Kadar, kadar air, faktor koreksi dan jenis produk memengaruhi HPM. Untuk bijih besi/bauksit, baris acuan dan spesifikasi pada keputusan harus ditetapkan sebelum mengisi angka. [H2]",
+    "records": [],
+    "missingYears": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "regionCoverage": [
+    {
+      "regionSlug": "kalimantan-barat",
+      "regionName": "Kalimantan Barat",
+      "coverageType": "known_occurrence",
+      "areaDescription": "Ketapang, Sanggau, Mempawah, Landak, Kubu Raya, Bengkayang",
+      "relatedCompanyName": null,
+      "industryCompanySlug": null,
+      "productionValue": null,
+      "productionYear": null,
+      "unitCode": null,
+      "rank": null,
+      "rankingStatus": "unverified",
+      "rankingEvidence": null,
+      "sources": [],
+      "verificationStatus": "pending",
+      "notes": "Belum diperingkat. Sumber langsung hubungan wilayah masih diperlukan."
+    },
+    {
+      "regionSlug": "kepulauan-riau",
+      "regionName": "Kepulauan Riau",
+      "coverageType": "known_occurrence",
+      "areaDescription": "Bintan, Tanjungpinang, Lingga",
+      "relatedCompanyName": null,
+      "industryCompanySlug": null,
+      "productionValue": null,
+      "productionYear": null,
+      "unitCode": null,
+      "rank": null,
+      "rankingStatus": "unverified",
+      "rankingEvidence": null,
+      "sources": [],
+      "verificationStatus": "pending",
+      "notes": "Belum diperingkat. Sumber langsung hubungan wilayah masih diperlukan."
+    }
+  ],
+  "locations": []
+}

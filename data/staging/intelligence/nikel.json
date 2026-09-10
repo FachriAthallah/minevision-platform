@@ -1,22 +1,22 @@
 {
   "schemaVersion": "2.0",
-  "commoditySlug": "batubara",
-  "documentSlug": "coal",
-  "name": "Batubara",
+  "commoditySlug": "nikel",
+  "documentSlug": "nickel",
+  "name": "Nikel",
   "productionSeries": {
-    "seriesCode": "batubara-national-coal-bps-esdm",
-    "name": "Produksi batubara nasional",
-    "productForm": "coal",
+    "seriesCode": "nikel-national-ore-bps",
+    "name": "Produksi bijih nikel nasional (seri BPS)",
+    "productForm": "ore",
     "productionScope": "national",
     "unitCode": "metric_ton",
-    "specification": "ton",
-    "methodologyNotes": "Seri utama 2019–2024 mengikuti BPS dalam ton, bukan pembulatan juta ton. Angka 2025 mengikuti realisasi ESDM per 31 Desember dan disimpan sebagai observasi terbaru dengan sumber berbeda.",
+    "specification": "ton bijih",
+    "methodologyNotes": "Seri grafik memakai BPS. Neraca Badan Geologi mencatat 173.635.642 ton bijih untuk 2024; angka itu disimpan sebagai pembanding beda cakupan, bukan menggantikan BPS 198.499.322 ton. Angka 313,67 juta ton tahun 2025 berlabel bahan mentah pada P2 sehingga tidak dimasukkan ke seri bijih BPS.",
     "isCanonical": true,
     "isPublicDefault": true,
     "records": [
       {
         "year": 2019,
-        "value": "616154054",
+        "value": "60948143",
         "recordType": "actual",
         "verificationStatus": "verified",
         "sources": [
@@ -31,7 +31,7 @@
       },
       {
         "year": 2020,
-        "value": "565640928",
+        "value": "48040003",
         "recordType": "actual",
         "verificationStatus": "verified",
         "sources": [
@@ -46,7 +46,7 @@
       },
       {
         "year": 2021,
-        "value": "614058577",
+        "value": "65509854",
         "recordType": "actual",
         "verificationStatus": "verified",
         "sources": [
@@ -61,7 +61,7 @@
       },
       {
         "year": 2022,
-        "value": "687402285",
+        "value": "98187963",
         "recordType": "actual",
         "verificationStatus": "verified",
         "sources": [
@@ -76,7 +76,7 @@
       },
       {
         "year": 2023,
-        "value": "775183592",
+        "value": "137801372",
         "recordType": "actual",
         "verificationStatus": "verified",
         "sources": [
@@ -91,7 +91,7 @@
       },
       {
         "year": 2024,
-        "value": "836131585",
+        "value": "198499322",
         "recordType": "actual",
         "verificationStatus": "verified",
         "sources": [
@@ -109,115 +109,42 @@
           }
         ],
         "notes": "Terverifikasi"
-      },
-      {
-        "year": 2025,
-        "value": "817480000",
-        "recordType": "actual",
-        "verificationStatus": "verified",
-        "sources": [
-          {
-            "sourceSlug": "intelligence-final-2026-p2",
-            "citationLabel": "Laporan Kinerja Ditjen Minerba Tahun 2025",
-            "sourceUrl": "https://www.esdm.go.id/assets/media/content/content-laporan-kinerja-ditjen-mineral-dan-batubara-tahun-2025.pdf",
-            "pageReference": null
-          }
-        ],
-        "notes": "Terverifikasi"
       }
     ],
-    "missingYears": []
+    "missingYears": [
+      2025
+    ]
   },
   "priceSeries": {
-    "seriesCode": "hba-annual-canonical-esdm",
-    "standardCode": "HBA_6322",
-    "name": "Rata-rata tahunan HBA kualitas 6.322 kcal/kg GAR",
+    "seriesCode": "hma-nikel-annual-canonical-esdm",
+    "standardCode": "HMA_NIKEL",
+    "name": "Rata-rata tahunan HMA nikel (benchmark logam; bukan harga jual bijih)",
     "period": "annual",
     "aggregationMethod": "annual_average",
     "isCanonical": true,
     "isPublicDefault": true,
     "currencyCode": "USD",
-    "unitCode": "metric_ton",
-    "methodologyNotes": "HBA yang dipakai adalah seri kualitas 6.322 kcal/kg GAR. ESDM memuat 201,49 untuk 2023 pada rilis awal 2024, sedangkan Laporan Kinerja 2024 memuat pembanding 201,15; angka 201,49 dipertahankan dengan penanda konflik publikasi. Terdapat perubahan formula pada Maret 2023, pemisahan empat kualitas sejak September 2023, dan frekuensi dua kali per bulan sejak Maret 2025. Karena tidak ditemukan rata-rata tahunan resmi 2025, nilai 110,64 dari versi kiriman dikeluarkan. [H1–H9]",
+    "unitCode": "dry_metric_ton",
+    "methodologyNotes": "Harga HMA tidak identik dengan harga bijih aktual. Kadar, kadar air, faktor koreksi dan jenis produk memengaruhi HPM. Untuk bijih besi/bauksit, baris acuan dan spesifikasi pada keputusan harus ditetapkan sebelum mengisi angka. [H2]",
     "records": [
       {
-        "year": 2019,
-        "value": "77.89",
-        "recordType": "actual",
-        "verificationStatus": "verified",
-        "sources": [
-          {
-            "sourceSlug": "intelligence-final-2026-h5",
-            "citationLabel": "ESDM: HBA Desember dan rata-rata 2019",
-            "sourceUrl": "https://www.esdm.go.id/id/media-center/arsip-berita/pemerintah-patok-hba-desember-2019-sebesar-usd6630-per-ton",
-            "pageReference": null
-          }
-        ],
-        "notes": "Terverifikasi"
-      },
-      {
-        "year": 2020,
-        "value": "58.17",
-        "recordType": "actual",
-        "verificationStatus": "verified",
-        "sources": [
-          {
-            "sourceSlug": "intelligence-final-2026-h8",
-            "citationLabel": "Kementerian Keuangan: rata-rata HBA 2020",
-            "sourceUrl": "https://opini.kemenkeu.go.id/pages/read/menakar-faktor-yang-memengaruhi-outlook-pendapatan-negara-tahun-2021-",
-            "pageReference": null
-          }
-        ],
-        "notes": "Terverifikasi"
-      },
-      {
-        "year": 2021,
-        "value": "121.47",
-        "recordType": "actual",
-        "verificationStatus": "verified",
-        "sources": [
-          {
-            "sourceSlug": "intelligence-final-2026-h6",
-            "citationLabel": "ESDM: perkembangan HBA 2021–2023",
-            "sourceUrl": "https://www.esdm.go.id/en/media-center/news-archives/minerba-tetap-jadi-tulang-punggung-pnbp-sektor-esdm-tembus-rp17296-triliun",
-            "pageReference": null
-          }
-        ],
-        "notes": "Terverifikasi"
-      },
-      {
-        "year": 2022,
-        "value": "276.58",
-        "recordType": "actual",
-        "verificationStatus": "verified",
-        "sources": [
-          {
-            "sourceSlug": "intelligence-final-2026-h6",
-            "citationLabel": "ESDM: perkembangan HBA 2021–2023",
-            "sourceUrl": "https://www.esdm.go.id/en/media-center/news-archives/minerba-tetap-jadi-tulang-punggung-pnbp-sektor-esdm-tembus-rp17296-triliun",
-            "pageReference": null
-          }
-        ],
-        "notes": "Terverifikasi"
-      },
-      {
         "year": 2023,
-        "value": "201.49",
+        "value": "22823.75",
         "recordType": "actual",
         "verificationStatus": "verified",
         "sources": [
           {
-            "sourceSlug": "intelligence-final-2026-h6",
-            "citationLabel": "ESDM: perkembangan HBA 2021–2023",
-            "sourceUrl": "https://www.esdm.go.id/en/media-center/news-archives/minerba-tetap-jadi-tulang-punggung-pnbp-sektor-esdm-tembus-rp17296-triliun",
+            "sourceSlug": "intelligence-final-2026-h7",
+            "citationLabel": "Laporan Kinerja Kementerian ESDM 2024",
+            "sourceUrl": "https://esdm.go.id/assets/media/content/content-laporan-kinerja-kementerian-esdm-tahun-2024.pdf",
             "pageReference": null
           }
         ],
-        "notes": "Terverifikasi—konflik publikasi"
+        "notes": "Terverifikasi"
       },
       {
         "year": 2024,
-        "value": "121.44",
+        "value": "16917.65",
         "recordType": "actual",
         "verificationStatus": "verified",
         "sources": [
@@ -232,16 +159,20 @@
       }
     ],
     "missingYears": [
+      2019,
+      2020,
+      2021,
+      2022,
       2025
     ]
   },
   "regionCoverage": [
     {
-      "regionSlug": "sumatera-selatan",
-      "regionName": "Sumatera Selatan",
+      "regionSlug": "sulawesi-selatan",
+      "regionName": "Sulawesi Selatan",
       "coverageType": "known_occurrence",
-      "areaDescription": "Tanjung Enim",
-      "relatedCompanyName": "PT Bukit Asam Tbk",
+      "areaDescription": "Sorowako",
+      "relatedCompanyName": "PT Vale Indonesia Tbk",
       "industryCompanySlug": null,
       "productionValue": null,
       "productionYear": null,
@@ -251,9 +182,9 @@
       "rankingEvidence": null,
       "sources": [
         {
-          "sourceSlug": "intelligence-final-2026-l10",
-          "citationLabel": "PT Bukit Asam — operasi Tanjung Enim",
-          "sourceUrl": "https://www.ptba.co.id/",
+          "sourceSlug": "intelligence-final-2026-l2",
+          "citationLabel": "PT Vale operasi Indonesia",
+          "sourceUrl": "https://www.vale.com/indonesia/our-operations",
           "pageReference": null
         }
       ],
@@ -261,10 +192,10 @@
       "notes": "Belum diperingkat. Bukan klaim perusahaan atau tambang terbesar."
     },
     {
-      "regionSlug": "jambi",
-      "regionName": "Jambi",
+      "regionSlug": "sulawesi-tenggara",
+      "regionName": "Sulawesi Tenggara",
       "coverageType": "known_occurrence",
-      "areaDescription": "Sarolangun, Batanghari, Tebo",
+      "areaDescription": "Kolaka, Pomalaa, Wolo, Konawe, Konawe Utara, Konawe Selatan",
       "relatedCompanyName": null,
       "industryCompanySlug": null,
       "productionValue": null,
@@ -278,58 +209,10 @@
       "notes": "Belum diperingkat. Sumber langsung hubungan wilayah masih diperlukan."
     },
     {
-      "regionSlug": "kalimantan-timur",
-      "regionName": "Kalimantan Timur",
+      "regionSlug": "sulawesi-tengah",
+      "regionName": "Sulawesi Tengah",
       "coverageType": "known_occurrence",
-      "areaDescription": "Sangatta",
-      "relatedCompanyName": "PT Kaltim Prima Coal",
-      "industryCompanySlug": null,
-      "productionValue": null,
-      "productionYear": null,
-      "unitCode": null,
-      "rank": null,
-      "rankingStatus": "unverified",
-      "rankingEvidence": null,
-      "sources": [
-        {
-          "sourceSlug": "intelligence-final-2026-l1",
-          "citationLabel": "Kaltim Prima Coal",
-          "sourceUrl": "https://www.kpc.co.id/",
-          "pageReference": null
-        }
-      ],
-      "verificationStatus": "verified",
-      "notes": "Belum diperingkat. Bukan klaim perusahaan atau tambang terbesar."
-    },
-    {
-      "regionSlug": "kalimantan-selatan",
-      "regionName": "Kalimantan Selatan",
-      "coverageType": "known_occurrence",
-      "areaDescription": "Senakin, Satui, Batulicin, Asamasam, Kintap",
-      "relatedCompanyName": "PT Arutmin Indonesia",
-      "industryCompanySlug": null,
-      "productionValue": null,
-      "productionYear": null,
-      "unitCode": null,
-      "rank": null,
-      "rankingStatus": "unverified",
-      "rankingEvidence": null,
-      "sources": [
-        {
-          "sourceSlug": "intelligence-final-2026-l9",
-          "citationLabel": "PT Arutmin Indonesia — operasi",
-          "sourceUrl": "https://www.arutmin.com/business-info/operation",
-          "pageReference": null
-        }
-      ],
-      "verificationStatus": "verified",
-      "notes": "Belum diperingkat. Bukan klaim perusahaan atau tambang terbesar."
-    },
-    {
-      "regionSlug": "kalimantan-tengah",
-      "regionName": "Kalimantan Tengah",
-      "coverageType": "known_occurrence",
-      "areaDescription": "Barito Utara, Barito Timur, Murung Raya",
+      "areaDescription": "Morowali, Morowali Utara",
       "relatedCompanyName": null,
       "industryCompanySlug": null,
       "productionValue": null,
@@ -341,15 +224,63 @@
       "sources": [],
       "verificationStatus": "pending",
       "notes": "Belum diperingkat. Sumber langsung hubungan wilayah masih diperlukan."
+    },
+    {
+      "regionSlug": "maluku-utara",
+      "regionName": "Maluku Utara",
+      "coverageType": "known_occurrence",
+      "areaDescription": "Halmahera Tengah / Weda",
+      "relatedCompanyName": "PT Weda Bay Nickel",
+      "industryCompanySlug": null,
+      "productionValue": null,
+      "productionYear": null,
+      "unitCode": null,
+      "rank": null,
+      "rankingStatus": "unverified",
+      "rankingEvidence": null,
+      "sources": [
+        {
+          "sourceSlug": "intelligence-final-2026-l11",
+          "citationLabel": "PT Weda Bay Nickel",
+          "sourceUrl": "https://www.wedabaynickel.com/en/",
+          "pageReference": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "notes": "Belum diperingkat. Bukan klaim perusahaan atau tambang terbesar."
+    },
+    {
+      "regionSlug": "papua-barat-daya",
+      "regionName": "Papua Barat Daya",
+      "coverageType": "known_occurrence",
+      "areaDescription": "Pulau Gag, Raja Ampat",
+      "relatedCompanyName": "PT Gag Nikel",
+      "industryCompanySlug": null,
+      "productionValue": null,
+      "productionYear": null,
+      "unitCode": null,
+      "rank": null,
+      "rankingStatus": "unverified",
+      "rankingEvidence": null,
+      "sources": [
+        {
+          "sourceSlug": "intelligence-final-2026-l13",
+          "citationLabel": "PT Gag Nikel — profil perusahaan",
+          "sourceUrl": "https://gagnikel.com/en/about-us",
+          "pageReference": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "notes": "Belum diperingkat. Bukan klaim perusahaan atau tambang terbesar."
     }
   ],
   "locations": [
     {
-      "regionSlug": "sumatera-selatan",
-      "siteSlug": "tanjung-enim",
-      "siteName": "Tanjung Enim",
+      "regionSlug": "sulawesi-selatan",
+      "siteSlug": "sorowako",
+      "siteName": "Sorowako",
       "siteType": "mine",
-      "companyName": "PT Bukit Asam Tbk",
+      "companyName": "PT Vale Indonesia Tbk",
       "industryCompanySlug": null,
       "latitude": null,
       "longitude": null,
@@ -360,9 +291,9 @@
       "primaryReason": null,
       "sources": [
         {
-          "sourceSlug": "intelligence-final-2026-l10",
-          "citationLabel": "PT Bukit Asam — operasi Tanjung Enim",
-          "sourceUrl": "https://www.ptba.co.id/",
+          "sourceSlug": "intelligence-final-2026-l2",
+          "citationLabel": "PT Vale operasi Indonesia",
+          "sourceUrl": "https://www.vale.com/indonesia/our-operations",
           "pageReference": null
         }
       ],
@@ -370,11 +301,11 @@
       "notes": "Koordinat dan pembanding produksi tidak tersedia dalam dokumen final; bukan marker publik atau klaim terbesar."
     },
     {
-      "regionSlug": "kalimantan-timur",
-      "siteSlug": "sangatta",
-      "siteName": "Sangatta",
+      "regionSlug": "maluku-utara",
+      "siteSlug": "halmahera-tengah-weda",
+      "siteName": "Halmahera Tengah / Weda",
       "siteType": "mine",
-      "companyName": "PT Kaltim Prima Coal",
+      "companyName": "PT Weda Bay Nickel",
       "industryCompanySlug": null,
       "latitude": null,
       "longitude": null,
@@ -385,9 +316,34 @@
       "primaryReason": null,
       "sources": [
         {
-          "sourceSlug": "intelligence-final-2026-l1",
-          "citationLabel": "Kaltim Prima Coal",
-          "sourceUrl": "https://www.kpc.co.id/",
+          "sourceSlug": "intelligence-final-2026-l11",
+          "citationLabel": "PT Weda Bay Nickel",
+          "sourceUrl": "https://www.wedabaynickel.com/en/",
+          "pageReference": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "notes": "Koordinat dan pembanding produksi tidak tersedia dalam dokumen final; bukan marker publik atau klaim terbesar."
+    },
+    {
+      "regionSlug": "papua-barat-daya",
+      "siteSlug": "pulau-gag-raja-ampat",
+      "siteName": "Pulau Gag, Raja Ampat",
+      "siteType": "mine",
+      "companyName": "PT Gag Nikel",
+      "industryCompanySlug": null,
+      "latitude": null,
+      "longitude": null,
+      "locationAccuracy": "unknown",
+      "geometrySourceUrl": null,
+      "operationStatus": "operating",
+      "isPrimary": false,
+      "primaryReason": null,
+      "sources": [
+        {
+          "sourceSlug": "intelligence-final-2026-l13",
+          "citationLabel": "PT Gag Nikel — profil perusahaan",
+          "sourceUrl": "https://gagnikel.com/en/about-us",
           "pageReference": null
         }
       ],

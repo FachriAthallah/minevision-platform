@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "2.0",
+  "commoditySlug": "bijih-besi",
+  "documentSlug": "iron-ore",
+  "name": "Bijih Besi",
+  "productionSeries": {
+    "seriesCode": "bijih-besi-national-concentrate-badan-geologi",
+    "name": "Produksi konsentrat besi primer nasional",
+    "productForm": "concentrate",
+    "productionScope": "national",
+    "unitCode": "metric_ton",
+    "specification": "ton konsentrat",
+    "methodologyNotes": "2024 adalah konsentrat besi primer sesuai uraian P3. Pasir besi dan besi laterit berbeda indikator. Nilai 3 juta ton bijih 2022 tidak disambung ke seri konsentrat.",
+    "isCanonical": true,
+    "isPublicDefault": true,
+    "records": [
+      {
+        "year": 2024,
+        "value": "1193762",
+        "recordType": "actual",
+        "verificationStatus": "verified",
+        "sources": [
+          {
+            "sourceSlug": "intelligence-final-2026-p3",
+            "citationLabel": "Neraca Mineral dan Batubara Tahun 2025",
+            "sourceUrl": "https://geologi.esdm.go.id/storage/publikasi/KuRaTy8WEQyvo5KguWTchyJfBES8r6ZXs6rHLuYh.pdf",
+            "pageReference": null
+          }
+        ],
+        "notes": "Terverifikasi"
+      }
+    ],
+    "missingYears": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2025
+    ]
+  },
+  "priceSeries": {
+    "seriesCode": null,
+    "standardCode": null,
+    "name": "Belum ditetapkan untuk konsentrat besi primer; HMA bijih besi adalah produk berbeda",
+    "period": "annual",
+    "aggregationMethod": null,
+    "isCanonical": null,
+    "isPublicDefault": null,
+    "currencyCode": null,
+    "unitCode": null,
+    "methodologyNotes": "Harga HMA tidak identik dengan harga bijih aktual. Kadar, kadar air, faktor koreksi dan jenis produk memengaruhi HPM. Untuk bijih besi/bauksit, baris acuan dan spesifikasi pada keputusan harus ditetapkan sebelum mengisi angka. [H2]",
+    "records": [],
+    "missingYears": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "regionCoverage": [
+    {
+      "regionSlug": "sulawesi-selatan",
+      "regionName": "Sulawesi Selatan",
+      "coverageType": "known_occurrence",
+      "areaDescription": "Luwu, Bone",
+      "relatedCompanyName": null,
+      "industryCompanySlug": null,
+      "productionValue": null,
+      "productionYear": null,
+      "unitCode": null,
+      "rank": null,
+      "rankingStatus": "unverified",
+      "rankingEvidence": null,
+      "sources": [],
+      "verificationStatus": "pending",
+      "notes": "Belum diperingkat. Sumber langsung hubungan wilayah masih diperlukan."
+    },
+    {
+      "regionSlug": "kalimantan-selatan",
+      "regionName": "Kalimantan Selatan",
+      "coverageType": "known_occurrence",
+      "areaDescription": "Pulau Sebuku",
+      "relatedCompanyName": null,
+      "industryCompanySlug": null,
+      "productionValue": null,
+      "productionYear": null,
+      "unitCode": null,
+      "rank": null,
+      "rankingStatus": "unverified",
+      "rankingEvidence": null,
+      "sources": [],
+      "verificationStatus": "pending",
+      "notes": "Belum diperingkat. Sumber langsung hubungan wilayah masih diperlukan."
+    }
+  ],
+  "locations": []
+}

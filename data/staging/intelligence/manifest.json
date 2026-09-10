@@ -1,0 +1,371 @@
+{
+  "schemaVersion": "2.0",
+  "datasetName": "Intelligence — Fondasi Final Terverifikasi",
+  "effectiveDate": "2026-09-09",
+  "canonicalDocument": {
+    "fileName": "5. Data-Intelligence-Fondasi-Final-Terverifikasi.docx",
+    "sha256": "1d5c396475aecb6e16bd2b7a536277af34cfdacc4ebcede7c49421fb37289654"
+  },
+  "commodityFiles": [
+    {
+      "commoditySlug": "batubara",
+      "filePath": "batubara.json"
+    },
+    {
+      "commoditySlug": "nikel",
+      "filePath": "nikel.json"
+    },
+    {
+      "commoditySlug": "emas",
+      "filePath": "emas.json"
+    },
+    {
+      "commoditySlug": "tembaga",
+      "filePath": "tembaga.json"
+    },
+    {
+      "commoditySlug": "timah",
+      "filePath": "timah.json"
+    },
+    {
+      "commoditySlug": "bijih-besi",
+      "filePath": "bijih-besi.json"
+    },
+    {
+      "commoditySlug": "bauksit",
+      "filePath": "bauksit.json"
+    }
+  ],
+  "sourceCatalog": [
+    {
+      "code": "P1",
+      "slug": "intelligence-final-2026-p1",
+      "name": "ESDM produksi batubara 2020 sampai 2023",
+      "type": "government",
+      "organization": "Kementerian ESDM",
+      "url": "https://www.esdm.go.id/id/media-center/arsip-berita/dmo-terpenuhi-produksi-batubara-lampaui-target-2023-",
+      "description": "Siaran pers 15 Januari 2024; realisasi 2020 sebesar 564 juta ton.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "P2",
+      "slug": "intelligence-final-2026-p2",
+      "name": "Laporan Kinerja Ditjen Minerba Tahun 2025",
+      "type": "government",
+      "organization": "Kementerian ESDM",
+      "url": "https://www.esdm.go.id/assets/media/content/content-laporan-kinerja-ditjen-mineral-dan-batubara-tahun-2025.pdf",
+      "description": "Tabel 3.7, halaman PDF 54–55: batubara 2021–2025. Tabel 3.13, halaman PDF 77–78: bahan mentah nikel. Tahun data 2025, bukan target.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "P3",
+      "slug": "intelligence-final-2026-p3",
+      "name": "Neraca Mineral dan Batubara Tahun 2025",
+      "type": "government",
+      "organization": "Kementerian ESDM",
+      "url": "https://geologi.esdm.go.id/storage/publikasi/KuRaTy8WEQyvo5KguWTchyJfBES8r6ZXs6rHLuYh.pdf",
+      "description": "Data termutakhir Desember 2024; Tabel 3 halaman cetak 20, PDF 54. Definisi besi pada halaman cetak 90 dan timah pada 84. Bukan seri produksi 2025.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "P4",
+      "slug": "intelligence-final-2026-p4",
+      "name": "BPS Produksi Barang Tambang Mineral 2024",
+      "type": "statistics_agency",
+      "organization": "Badan Pusat Statistik",
+      "url": "https://www.bps.go.id/id/statistics-table/2/NTA4IzI%3D/produksi-barang-tambang-mineral.html",
+      "description": "Tabel nasional 2024. Nama produk dipertahankan: batubara, bauksit, emas, konsentrat timah, konsentrat tembaga, dan bijih nikel.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "P5",
+      "slug": "intelligence-final-2026-p5",
+      "name": "BPS Statistik Pertambangan Nonmigas 2019–2023",
+      "type": "statistics_agency",
+      "organization": "Badan Pusat Statistik",
+      "url": "https://www.bps.go.id/id/publication/2024/12/20/15a585268e537abcfe19f192/statistik-pertambangan-non-minyak-dan-gas-bumi-2019-2023.html",
+      "description": "Publikasi Survei Perusahaan Pertambangan Nonmigas; memuat volume produksi 2019–2023. Seri BPS dipakai tanpa mengubah jenis produk.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "P6",
+      "slug": "intelligence-final-2026-p6",
+      "name": "BPS Statistik Pertambangan Nonmigas 2020–2024",
+      "type": "statistics_agency",
+      "organization": "Badan Pusat Statistik",
+      "url": "https://www.bps.go.id/id/publication/2025/12/31/a0e94cbaeb68d53f9cee32df/statistik-pertambangan-non-minyak-dan-gas-bumi-2020-2024.html",
+      "description": "Publikasi pengganti untuk rentang 2020–2024; dipakai untuk konfirmasi silang dan angka 2024.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "H1",
+      "slug": "intelligence-final-2026-h1",
+      "name": "ESDM HBA periode kedua April 2025",
+      "type": "government",
+      "organization": "Kementerian ESDM",
+      "url": "https://esdm.go.id/id/media-center/arsip-berita/pemerintah-tetapkan-hba-periode-kedua-april-2025-sebesar-usd12020-per-ton",
+      "description": "Kepmen 133.K/MB.01/MEM.B/2025. Angka 120,20 USD/ton adalah satu periode, bukan rata-rata tahunan.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "H2",
+      "slug": "intelligence-final-2026-h2",
+      "name": "Pedoman harga patokan mineral dan batubara",
+      "type": "government",
+      "organization": "Kementerian ESDM",
+      "url": "https://jdih.esdm.go.id/dokumen/download?id=2025kmesdm268k.pdf",
+      "description": "Kepmen 268.K/MB.01/MEM.B/2025. HMA/HBA adalah dasar acuan; harga transaksi dan HPM/HPB harus dibedakan.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "H3",
+      "slug": "intelligence-final-2026-h3",
+      "name": "Keputusan harga Desember 2024",
+      "type": "government",
+      "organization": "Kementerian ESDM",
+      "url": "https://jdih.esdm.go.id/dokumen/download?id=2024kmesdm339k.pdf",
+      "description": "Salah satu keputusan periode bulanan. Tidak cukup untuk menghasilkan rata-rata setahun.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "H4",
+      "slug": "intelligence-final-2026-h4",
+      "name": "Keputusan harga periode kedua Desember 2025",
+      "type": "government",
+      "organization": "Kementerian ESDM",
+      "url": "https://jdih.esdm.go.id/dokumen/download?id=2025kmesdm420k.pdf",
+      "description": "Salah satu keputusan dua mingguan. Kelengkapan seluruh keputusan tahunan belum dibuktikan.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "H5",
+      "slug": "intelligence-final-2026-h5",
+      "name": "ESDM: HBA Desember dan rata-rata 2019",
+      "type": "government",
+      "organization": "Kementerian ESDM",
+      "url": "https://www.esdm.go.id/id/media-center/arsip-berita/pemerintah-patok-hba-desember-2019-sebesar-usd6630-per-ton",
+      "description": "Rata-rata HBA Januari–Desember 2019 dinyatakan USD 77,89/ton.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "H6",
+      "slug": "intelligence-final-2026-h6",
+      "name": "ESDM: perkembangan HBA 2021–2023",
+      "type": "government",
+      "organization": "Kementerian ESDM",
+      "url": "https://www.esdm.go.id/en/media-center/news-archives/minerba-tetap-jadi-tulang-punggung-pnbp-sektor-esdm-tembus-rp17296-triliun",
+      "description": "Menyebut rata-rata HBA 2021 USD 121,47; 2022 USD 276,58; dan 2023 USD 201,49 per ton.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "H7",
+      "slug": "intelligence-final-2026-h7",
+      "name": "Laporan Kinerja Kementerian ESDM 2024",
+      "type": "government",
+      "organization": "Kementerian ESDM",
+      "url": "https://esdm.go.id/assets/media/content/content-laporan-kinerja-kementerian-esdm-tahun-2024.pdf",
+      "description": "Menyebut rata-rata HBA 2024 USD 121,44/ton dan HMA nikel 2024 USD 16.917,65/dmt; pembanding HMA nikel 2023 USD 22.823,75/dmt.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "H8",
+      "slug": "intelligence-final-2026-h8",
+      "name": "Kementerian Keuangan: rata-rata HBA 2020",
+      "type": "government",
+      "organization": "Kementerian Keuangan",
+      "url": "https://opini.kemenkeu.go.id/pages/read/menakar-faktor-yang-memengaruhi-outlook-pendapatan-negara-tahun-2021-",
+      "description": "Menyebut rata-rata HBA 2020 sekitar USD 58,2/ton; angka dua desimal 58,17 dikonfirmasi oleh laporan emiten yang mengutip ESDM.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "H9",
+      "slug": "intelligence-final-2026-h9",
+      "name": "Laporan Kinerja Ditjen Minerba 2025",
+      "type": "government",
+      "organization": "Kementerian ESDM",
+      "url": "https://www.esdm.go.id/assets/media/content/content-laporan-kinerja-ditjen-mineral-dan-batubara-tahun-2025.pdf",
+      "description": "Menyebut rata-rata HMA emas 2024 USD 2.216,14/troy ounce dan 2025 USD 3.376,02/troy ounce. Juga menjelaskan 22 penetapan HBA/HMA pada 2025 dan perubahan metode sejak Maret 2025.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "L1",
+      "slug": "intelligence-final-2026-l1",
+      "name": "Kaltim Prima Coal",
+      "type": "company_report",
+      "organization": "Kaltim Prima Coal",
+      "url": "https://www.kpc.co.id/",
+      "description": "Operasi di Sangatta, Kutai Timur. Mendukung keterkaitan perusahaan dan lokasi, bukan peringkat produksi provinsi.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "L2",
+      "slug": "intelligence-final-2026-l2",
+      "name": "PT Vale operasi Indonesia",
+      "type": "company_report",
+      "organization": "PT Vale operasi Indonesia",
+      "url": "https://www.vale.com/indonesia/our-operations",
+      "description": "Sorowako adalah operasi yang telah berjalan sejak 1978. Halaman hidup mencakup proyek 2026; jangan otomatis memasukkannya sebagai produksi 2025.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "L3",
+      "slug": "intelligence-final-2026-l3",
+      "name": "PT Freeport Indonesia tentang operasi",
+      "type": "company_report",
+      "organization": "PT Freeport Indonesia tentang operasi",
+      "url": "https://ptfi.co.id/id/about",
+      "description": "Operasi bijih tembaga, emas dan perak di Mimika, Papua Tengah; penambangan bawah tanah.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "L4",
+      "slug": "intelligence-final-2026-l4",
+      "name": "AMMAN fase delapan Batu Hijau",
+      "type": "company_report",
+      "organization": "AMMAN fase delapan Batu Hijau",
+      "url": "https://www.amman.co.id/article/phase-8-batu-hijau-amman-s-strategic-transition-for-sustainable-mining-and-national-competitiveness",
+      "description": "13 Mei 2025; PT Amman Mineral Nusa Tenggara, Batu Hijau, Sumbawa Barat. Elang adalah pengembangan berikutnya, bukan produksi aktif pada 2025.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "L5",
+      "slug": "intelligence-final-2026-l5",
+      "name": "Tambang emas Tujuh Bukit",
+      "type": "company_report",
+      "organization": "Tambang emas Tujuh Bukit",
+      "url": "https://merdekacoppergold.com/en/our-business/tujuh-bukit-gold-mine/",
+      "description": "Sumberagung, Pesanggaran, Banyuwangi, Jawa Timur; operasi sejak 2016. Verifikasi badan usaha pemegang izin diperlukan sebelum menetapkan company_id.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "L6",
+      "slug": "intelligence-final-2026-l6",
+      "name": "Kepemilikan tambang Wetar",
+      "type": "company_report",
+      "organization": "Kepemilikan tambang Wetar",
+      "url": "https://merdekacoppergold.com/wp-content/uploads/2022/06/MDKA_2021-06-02_Press-Release_Moves-to-100_-Ownership_-Wetar-Copper-Mine.pdf",
+      "description": "2 Juni 2021; PT Batutua Tembaga Raya memiliki dan mengoperasikan proyek Wetar. Status dan pembagian izin tambang perlu diselaraskan dengan tahun acuan.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "L7",
+      "slug": "intelligence-final-2026-l7",
+      "name": "PT Timah penambangan timah",
+      "type": "company_report",
+      "organization": "PT Timah penambangan timah",
+      "url": "https://timah.com/blog/bisnis-kami/penambangan-timah.html",
+      "description": "Penambangan darat dan laut. Hubungan Bangka, Belitung dan Kundur dilengkapi halaman profil perusahaan.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "L8",
+      "slug": "intelligence-final-2026-l8",
+      "name": "PT Timah profil perusahaan",
+      "type": "company_report",
+      "organization": "PT Timah profil perusahaan",
+      "url": "https://timah.com/blog/tentang-kami/tentang-pt-timah-tbk.html",
+      "description": "IUP darat dan lepas pantai Bangka, Belitung, Pulau Kundur; tidak memberi ranking produksi per provinsi.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "L9",
+      "slug": "intelligence-final-2026-l9",
+      "name": "PT Arutmin Indonesia — operasi",
+      "type": "company_report",
+      "organization": "PT Arutmin Indonesia — operasi",
+      "url": "https://www.arutmin.com/business-info/operation",
+      "description": "Lima site aktif di Tanah Laut, Tanah Bumbu, dan Kotabaru, Kalimantan Selatan.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "L10",
+      "slug": "intelligence-final-2026-l10",
+      "name": "PT Bukit Asam — operasi Tanjung Enim",
+      "type": "company_report",
+      "organization": "PT Bukit Asam — operasi Tanjung Enim",
+      "url": "https://www.ptba.co.id/",
+      "description": "Rujukan perusahaan untuk operasi batubara Tanjung Enim, Sumatera Selatan; bukan bukti peringkat provinsi.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "L11",
+      "slug": "intelligence-final-2026-l11",
+      "name": "PT Weda Bay Nickel",
+      "type": "company_report",
+      "organization": "PT Weda Bay Nickel",
+      "url": "https://www.wedabaynickel.com/en/",
+      "description": "Operasi tambang terbuka nikel di Halmahera, Maluku Utara; laman perusahaan menyatakan produksi 2023 36,3 juta wmt.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "L12",
+      "slug": "intelligence-final-2026-l12",
+      "name": "Harita Nickel — profil operasi",
+      "type": "company_report",
+      "organization": "Harita Nickel — profil operasi",
+      "url": "https://careers.haritanickel.com/public/assets/Company%20Profile%20Harita%20Nickel.pdf",
+      "description": "Operasi pertambangan dan pengolahan nikel terintegrasi di Pulau Obi, Halmahera Selatan, Maluku Utara.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "L13",
+      "slug": "intelligence-final-2026-l13",
+      "name": "PT Gag Nikel — profil perusahaan",
+      "type": "company_report",
+      "organization": "PT Gag Nikel — profil perusahaan",
+      "url": "https://gagnikel.com/en/about-us",
+      "description": "Produksi dan penjualan bijih nikel di Pulau Gag, Raja Ampat, Papua Barat Daya sejak 2018.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "G1",
+      "slug": "intelligence-final-2026-g1",
+      "name": "MOMI Minerba",
+      "type": "government",
+      "organization": "Kementerian ESDM",
+      "url": "https://momi.minerba.esdm.go.id/",
+      "description": "Rujukan validasi izin dan geometri. Koordinat tidak diekstrak atau diverifikasi pada audit ini.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    },
+    {
+      "code": "G2",
+      "slug": "intelligence-final-2026-g2",
+      "name": "Geoportal ESDM",
+      "type": "government",
+      "organization": "Kementerian ESDM",
+      "url": "https://geoportal.esdm.go.id/",
+      "description": "Rujukan geospasial. Titik harus memiliki sumber geometri, sistem koordinat dan tanggal validasi.",
+      "isOfficial": true,
+      "verificationStatus": "verified"
+    }
+  ]
+}

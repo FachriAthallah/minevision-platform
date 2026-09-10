@@ -19,6 +19,7 @@
     "data:dry-run:intelligence": "tsx scripts/dry-run-intelligence-import.ts",
     "data:import:intelligence": "tsx scripts/import-intelligence.ts",
     "data:verify:intelligence": "tsx scripts/verify-intelligence-import.ts",
+    "data:promote:intelligence": "tsx scripts/promote-intelligence.ts",
     "data:validate:commodity": "tsx scripts/validate-commodity-import.ts",
     "data:preflight:commodity": "tsx scripts/preflight-commodity-import.ts",
     "data:dry-run:commodity": "tsx scripts/dry-run-commodity-import.ts",

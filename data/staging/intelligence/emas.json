@@ -1,22 +1,22 @@
 {
   "schemaVersion": "2.0",
-  "commoditySlug": "batubara",
-  "documentSlug": "coal",
-  "name": "Batubara",
+  "commoditySlug": "emas",
+  "documentSlug": "gold",
+  "name": "Emas",
   "productionSeries": {
-    "seriesCode": "batubara-national-coal-bps-esdm",
-    "name": "Produksi batubara nasional",
-    "productForm": "coal",
+    "seriesCode": "emas-national-metal-bps",
+    "name": "Produksi emas nasional (seri BPS, kg)",
+    "productForm": "metal",
     "productionScope": "national",
-    "unitCode": "metric_ton",
-    "specification": "ton",
-    "methodologyNotes": "Seri utama 2019–2024 mengikuti BPS dalam ton, bukan pembulatan juta ton. Angka 2025 mengikuti realisasi ESDM per 31 Desember dan disimpan sebagai observasi terbaru dengan sumber berbeda.",
+    "unitCode": "kilogram",
+    "specification": "kg logam",
+    "methodologyNotes": "Seri BPS dinyatakan dalam kg emas. Angka P3 sebesar 17 ton logam emas primer dan total emas+perak 483,04 ton pada P2 memiliki cakupan berbeda, sehingga tidak dicampur dan tidak dipakai menghitung pertumbuhan seri BPS.",
     "isCanonical": true,
     "isPublicDefault": true,
     "records": [
       {
         "year": 2019,
-        "value": "616154054",
+        "value": "108977",
         "recordType": "actual",
         "verificationStatus": "verified",
         "sources": [
@@ -31,7 +31,7 @@
       },
       {
         "year": 2020,
-        "value": "565640928",
+        "value": "65890",
         "recordType": "actual",
         "verificationStatus": "verified",
         "sources": [
@@ -46,7 +46,7 @@
       },
       {
         "year": 2021,
-        "value": "614058577",
+        "value": "78996",
         "recordType": "actual",
         "verificationStatus": "verified",
         "sources": [
@@ -61,7 +61,7 @@
       },
       {
         "year": 2022,
-        "value": "687402285",
+        "value": "85203",
         "recordType": "actual",
         "verificationStatus": "verified",
         "sources": [
@@ -76,7 +76,7 @@
       },
       {
         "year": 2023,
-        "value": "775183592",
+        "value": "82972",
         "recordType": "actual",
         "verificationStatus": "verified",
         "sources": [
@@ -91,7 +91,7 @@
       },
       {
         "year": 2024,
-        "value": "836131585",
+        "value": "60803",
         "recordType": "actual",
         "verificationStatus": "verified",
         "sources": [
@@ -109,16 +109,48 @@
           }
         ],
         "notes": "Terverifikasi"
-      },
+      }
+    ],
+    "missingYears": [
+      2025
+    ]
+  },
+  "priceSeries": {
+    "seriesCode": "hma-emas-annual-canonical-esdm",
+    "standardCode": "HMA_EMAS",
+    "name": "Rata-rata tahunan HMA emas",
+    "period": "annual",
+    "aggregationMethod": "annual_average",
+    "isCanonical": true,
+    "isPublicDefault": true,
+    "currencyCode": "USD",
+    "unitCode": "troy_ounce",
+    "methodologyNotes": "Nama komoditas dan satuan harus cocok dengan baris HMA. Harga emas ritel per gram dan harga konsentrat tidak boleh disambung dengan harga acuan logam. [H2–H4]",
+    "records": [
       {
-        "year": 2025,
-        "value": "817480000",
+        "year": 2024,
+        "value": "2216.14",
         "recordType": "actual",
         "verificationStatus": "verified",
         "sources": [
           {
-            "sourceSlug": "intelligence-final-2026-p2",
-            "citationLabel": "Laporan Kinerja Ditjen Minerba Tahun 2025",
+            "sourceSlug": "intelligence-final-2026-h9",
+            "citationLabel": "Laporan Kinerja Ditjen Minerba 2025",
+            "sourceUrl": "https://www.esdm.go.id/assets/media/content/content-laporan-kinerja-ditjen-mineral-dan-batubara-tahun-2025.pdf",
+            "pageReference": null
+          }
+        ],
+        "notes": "Terverifikasi"
+      },
+      {
+        "year": 2025,
+        "value": "3376.02",
+        "recordType": "actual",
+        "verificationStatus": "verified",
+        "sources": [
+          {
+            "sourceSlug": "intelligence-final-2026-h9",
+            "citationLabel": "Laporan Kinerja Ditjen Minerba 2025",
             "sourceUrl": "https://www.esdm.go.id/assets/media/content/content-laporan-kinerja-ditjen-mineral-dan-batubara-tahun-2025.pdf",
             "pageReference": null
           }
@@ -126,122 +158,21 @@
         "notes": "Terverifikasi"
       }
     ],
-    "missingYears": []
-  },
-  "priceSeries": {
-    "seriesCode": "hba-annual-canonical-esdm",
-    "standardCode": "HBA_6322",
-    "name": "Rata-rata tahunan HBA kualitas 6.322 kcal/kg GAR",
-    "period": "annual",
-    "aggregationMethod": "annual_average",
-    "isCanonical": true,
-    "isPublicDefault": true,
-    "currencyCode": "USD",
-    "unitCode": "metric_ton",
-    "methodologyNotes": "HBA yang dipakai adalah seri kualitas 6.322 kcal/kg GAR. ESDM memuat 201,49 untuk 2023 pada rilis awal 2024, sedangkan Laporan Kinerja 2024 memuat pembanding 201,15; angka 201,49 dipertahankan dengan penanda konflik publikasi. Terdapat perubahan formula pada Maret 2023, pemisahan empat kualitas sejak September 2023, dan frekuensi dua kali per bulan sejak Maret 2025. Karena tidak ditemukan rata-rata tahunan resmi 2025, nilai 110,64 dari versi kiriman dikeluarkan. [H1–H9]",
-    "records": [
-      {
-        "year": 2019,
-        "value": "77.89",
-        "recordType": "actual",
-        "verificationStatus": "verified",
-        "sources": [
-          {
-            "sourceSlug": "intelligence-final-2026-h5",
-            "citationLabel": "ESDM: HBA Desember dan rata-rata 2019",
-            "sourceUrl": "https://www.esdm.go.id/id/media-center/arsip-berita/pemerintah-patok-hba-desember-2019-sebesar-usd6630-per-ton",
-            "pageReference": null
-          }
-        ],
-        "notes": "Terverifikasi"
-      },
-      {
-        "year": 2020,
-        "value": "58.17",
-        "recordType": "actual",
-        "verificationStatus": "verified",
-        "sources": [
-          {
-            "sourceSlug": "intelligence-final-2026-h8",
-            "citationLabel": "Kementerian Keuangan: rata-rata HBA 2020",
-            "sourceUrl": "https://opini.kemenkeu.go.id/pages/read/menakar-faktor-yang-memengaruhi-outlook-pendapatan-negara-tahun-2021-",
-            "pageReference": null
-          }
-        ],
-        "notes": "Terverifikasi"
-      },
-      {
-        "year": 2021,
-        "value": "121.47",
-        "recordType": "actual",
-        "verificationStatus": "verified",
-        "sources": [
-          {
-            "sourceSlug": "intelligence-final-2026-h6",
-            "citationLabel": "ESDM: perkembangan HBA 2021–2023",
-            "sourceUrl": "https://www.esdm.go.id/en/media-center/news-archives/minerba-tetap-jadi-tulang-punggung-pnbp-sektor-esdm-tembus-rp17296-triliun",
-            "pageReference": null
-          }
-        ],
-        "notes": "Terverifikasi"
-      },
-      {
-        "year": 2022,
-        "value": "276.58",
-        "recordType": "actual",
-        "verificationStatus": "verified",
-        "sources": [
-          {
-            "sourceSlug": "intelligence-final-2026-h6",
-            "citationLabel": "ESDM: perkembangan HBA 2021–2023",
-            "sourceUrl": "https://www.esdm.go.id/en/media-center/news-archives/minerba-tetap-jadi-tulang-punggung-pnbp-sektor-esdm-tembus-rp17296-triliun",
-            "pageReference": null
-          }
-        ],
-        "notes": "Terverifikasi"
-      },
-      {
-        "year": 2023,
-        "value": "201.49",
-        "recordType": "actual",
-        "verificationStatus": "verified",
-        "sources": [
-          {
-            "sourceSlug": "intelligence-final-2026-h6",
-            "citationLabel": "ESDM: perkembangan HBA 2021–2023",
-            "sourceUrl": "https://www.esdm.go.id/en/media-center/news-archives/minerba-tetap-jadi-tulang-punggung-pnbp-sektor-esdm-tembus-rp17296-triliun",
-            "pageReference": null
-          }
-        ],
-        "notes": "Terverifikasi—konflik publikasi"
-      },
-      {
-        "year": 2024,
-        "value": "121.44",
-        "recordType": "actual",
-        "verificationStatus": "verified",
-        "sources": [
-          {
-            "sourceSlug": "intelligence-final-2026-h7",
-            "citationLabel": "Laporan Kinerja Kementerian ESDM 2024",
-            "sourceUrl": "https://esdm.go.id/assets/media/content/content-laporan-kinerja-kementerian-esdm-tahun-2024.pdf",
-            "pageReference": null
-          }
-        ],
-        "notes": "Terverifikasi"
-      }
-    ],
     "missingYears": [
-      2025
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
     ]
   },
   "regionCoverage": [
     {
-      "regionSlug": "sumatera-selatan",
-      "regionName": "Sumatera Selatan",
+      "regionSlug": "papua-tengah",
+      "regionName": "Papua Tengah",
       "coverageType": "known_occurrence",
-      "areaDescription": "Tanjung Enim",
-      "relatedCompanyName": "PT Bukit Asam Tbk",
+      "areaDescription": "Kawasan tambang bawah tanah Grasberg",
+      "relatedCompanyName": "PT Freeport Indonesia",
       "industryCompanySlug": null,
       "productionValue": null,
       "productionYear": null,
@@ -251,9 +182,9 @@
       "rankingEvidence": null,
       "sources": [
         {
-          "sourceSlug": "intelligence-final-2026-l10",
-          "citationLabel": "PT Bukit Asam — operasi Tanjung Enim",
-          "sourceUrl": "https://www.ptba.co.id/",
+          "sourceSlug": "intelligence-final-2026-l3",
+          "citationLabel": "PT Freeport Indonesia tentang operasi",
+          "sourceUrl": "https://ptfi.co.id/id/about",
           "pageReference": null
         }
       ],
@@ -261,10 +192,34 @@
       "notes": "Belum diperingkat. Bukan klaim perusahaan atau tambang terbesar."
     },
     {
-      "regionSlug": "jambi",
-      "regionName": "Jambi",
+      "regionSlug": "nusa-tenggara-barat",
+      "regionName": "Nusa Tenggara Barat",
       "coverageType": "known_occurrence",
-      "areaDescription": "Sarolangun, Batanghari, Tebo",
+      "areaDescription": "Batu Hijau",
+      "relatedCompanyName": "PT Amman Mineral Nusa Tenggara",
+      "industryCompanySlug": null,
+      "productionValue": null,
+      "productionYear": null,
+      "unitCode": null,
+      "rank": null,
+      "rankingStatus": "unverified",
+      "rankingEvidence": null,
+      "sources": [
+        {
+          "sourceSlug": "intelligence-final-2026-l4",
+          "citationLabel": "AMMAN fase delapan Batu Hijau",
+          "sourceUrl": "https://www.amman.co.id/article/phase-8-batu-hijau-amman-s-strategic-transition-for-sustainable-mining-and-national-competitiveness",
+          "pageReference": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "notes": "Belum diperingkat. Bukan klaim perusahaan atau tambang terbesar."
+    },
+    {
+      "regionSlug": "maluku-utara",
+      "regionName": "Maluku Utara",
+      "coverageType": "known_occurrence",
+      "areaDescription": "Gosowong",
       "relatedCompanyName": null,
       "industryCompanySlug": null,
       "productionValue": null,
@@ -278,11 +233,11 @@
       "notes": "Belum diperingkat. Sumber langsung hubungan wilayah masih diperlukan."
     },
     {
-      "regionSlug": "kalimantan-timur",
-      "regionName": "Kalimantan Timur",
+      "regionSlug": "sulawesi-utara",
+      "regionName": "Sulawesi Utara",
       "coverageType": "known_occurrence",
-      "areaDescription": "Sangatta",
-      "relatedCompanyName": "PT Kaltim Prima Coal",
+      "areaDescription": "Toka Tindung",
+      "relatedCompanyName": null,
       "industryCompanySlug": null,
       "productionValue": null,
       "productionYear": null,
@@ -290,23 +245,16 @@
       "rank": null,
       "rankingStatus": "unverified",
       "rankingEvidence": null,
-      "sources": [
-        {
-          "sourceSlug": "intelligence-final-2026-l1",
-          "citationLabel": "Kaltim Prima Coal",
-          "sourceUrl": "https://www.kpc.co.id/",
-          "pageReference": null
-        }
-      ],
-      "verificationStatus": "verified",
-      "notes": "Belum diperingkat. Bukan klaim perusahaan atau tambang terbesar."
+      "sources": [],
+      "verificationStatus": "pending",
+      "notes": "Belum diperingkat. Sumber langsung hubungan wilayah masih diperlukan."
     },
     {
-      "regionSlug": "kalimantan-selatan",
-      "regionName": "Kalimantan Selatan",
+      "regionSlug": "jawa-timur",
+      "regionName": "Jawa Timur",
       "coverageType": "known_occurrence",
-      "areaDescription": "Senakin, Satui, Batulicin, Asamasam, Kintap",
-      "relatedCompanyName": "PT Arutmin Indonesia",
+      "areaDescription": "Tumpang Pitu",
+      "relatedCompanyName": null,
       "industryCompanySlug": null,
       "productionValue": null,
       "productionYear": null,
@@ -314,22 +262,32 @@
       "rank": null,
       "rankingStatus": "unverified",
       "rankingEvidence": null,
-      "sources": [
-        {
-          "sourceSlug": "intelligence-final-2026-l9",
-          "citationLabel": "PT Arutmin Indonesia — operasi",
-          "sourceUrl": "https://www.arutmin.com/business-info/operation",
-          "pageReference": null
-        }
-      ],
-      "verificationStatus": "verified",
-      "notes": "Belum diperingkat. Bukan klaim perusahaan atau tambang terbesar."
+      "sources": [],
+      "verificationStatus": "pending",
+      "notes": "Belum diperingkat. Sumber langsung hubungan wilayah masih diperlukan."
     },
     {
-      "regionSlug": "kalimantan-tengah",
-      "regionName": "Kalimantan Tengah",
+      "regionSlug": "jawa-barat",
+      "regionName": "Jawa Barat",
       "coverageType": "known_occurrence",
-      "areaDescription": "Barito Utara, Barito Timur, Murung Raya",
+      "areaDescription": "Pongkor",
+      "relatedCompanyName": null,
+      "industryCompanySlug": null,
+      "productionValue": null,
+      "productionYear": null,
+      "unitCode": null,
+      "rank": null,
+      "rankingStatus": "unverified",
+      "rankingEvidence": null,
+      "sources": [],
+      "verificationStatus": "pending",
+      "notes": "Belum diperingkat. Sumber langsung hubungan wilayah masih diperlukan."
+    },
+    {
+      "regionSlug": "sumatera-utara",
+      "regionName": "Sumatera Utara",
+      "coverageType": "known_occurrence",
+      "areaDescription": "Martabe",
       "relatedCompanyName": null,
       "industryCompanySlug": null,
       "productionValue": null,
@@ -345,11 +303,11 @@
   ],
   "locations": [
     {
-      "regionSlug": "sumatera-selatan",
-      "siteSlug": "tanjung-enim",
-      "siteName": "Tanjung Enim",
+      "regionSlug": "papua-tengah",
+      "siteSlug": "kawasan-tambang-bawah-tanah-grasberg",
+      "siteName": "Kawasan tambang bawah tanah Grasberg",
       "siteType": "mine",
-      "companyName": "PT Bukit Asam Tbk",
+      "companyName": "PT Freeport Indonesia",
       "industryCompanySlug": null,
       "latitude": null,
       "longitude": null,
@@ -360,9 +318,9 @@
       "primaryReason": null,
       "sources": [
         {
-          "sourceSlug": "intelligence-final-2026-l10",
-          "citationLabel": "PT Bukit Asam — operasi Tanjung Enim",
-          "sourceUrl": "https://www.ptba.co.id/",
+          "sourceSlug": "intelligence-final-2026-l3",
+          "citationLabel": "PT Freeport Indonesia tentang operasi",
+          "sourceUrl": "https://ptfi.co.id/id/about",
           "pageReference": null
         }
       ],
@@ -370,11 +328,11 @@
       "notes": "Koordinat dan pembanding produksi tidak tersedia dalam dokumen final; bukan marker publik atau klaim terbesar."
     },
     {
-      "regionSlug": "kalimantan-timur",
-      "siteSlug": "sangatta",
-      "siteName": "Sangatta",
+      "regionSlug": "nusa-tenggara-barat",
+      "siteSlug": "batu-hijau",
+      "siteName": "Batu Hijau",
       "siteType": "mine",
-      "companyName": "PT Kaltim Prima Coal",
+      "companyName": "PT Amman Mineral Nusa Tenggara",
       "industryCompanySlug": null,
       "latitude": null,
       "longitude": null,
@@ -385,9 +343,9 @@
       "primaryReason": null,
       "sources": [
         {
-          "sourceSlug": "intelligence-final-2026-l1",
-          "citationLabel": "Kaltim Prima Coal",
-          "sourceUrl": "https://www.kpc.co.id/",
+          "sourceSlug": "intelligence-final-2026-l4",
+          "citationLabel": "AMMAN fase delapan Batu Hijau",
+          "sourceUrl": "https://www.amman.co.id/article/phase-8-batu-hijau-amman-s-strategic-transition-for-sustainable-mining-and-national-competitiveness",
           "pageReference": null
         }
       ],

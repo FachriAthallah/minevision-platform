@@ -6,10 +6,12 @@ import { db } from "@/db";
 import {
   commodities,
   commodityProduction,
+  commodityProductionSeries,
   measurementUnits,
 } from "@/db/schema";
 
 import type { PublicProductionOption } from "../types/production";
+import { publicProductionSeriesConditions } from "./public-production-series";
 
 export async function getPublicProductionOptions(): Promise<
   PublicProductionOption[]
@@ -31,8 +33,10 @@ export async function getPublicProductionOptions(): Promise<
       measurementUnits,
       eq(commodityProduction.unitCode, measurementUnits.code),
     )
+    .innerJoin(commodityProductionSeries, eq(commodityProduction.seriesId, commodityProductionSeries.id))
     .where(
       and(
+        publicProductionSeriesConditions(),
         eq(commodities.isActive, true),
         eq(commodities.isIntelligenceTracked, true),
         eq(measurementUnits.isActive, true),

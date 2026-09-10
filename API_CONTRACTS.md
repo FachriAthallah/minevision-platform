@@ -345,10 +345,20 @@ commodities.is_active = true
 commodities.is_intelligence_tracked = true
 commodity_production.verification_status = verified
 commodity_production.publication_status = published
+commodity_production_series.is_canonical = true
+commodity_production_series.is_public_default = true
+commodity_production_series.production_scope = national
+commodity_production_series.publication_status = published
+commodity_production_series.verification_status = verified
 measurement_units.is_active = true
 ```
 
 Citation hanya menggunakan sumber yang aktif dan terverifikasi.
+
+Query produksi dan pilihan filter mengikuti `series_id`, bukan memilih sumber
+atau record terbaru. Legacy tidak digabungkan ke seri kanonik. Perubahan ini
+memerlukan migration lokal 0020 sebelum deployment; response shape v1 tetap.
+Observasi kanonik baru belum publik sampai proses publikasi terpisah disetujui.
 
 ### Empty and Not Found
 
@@ -430,6 +440,19 @@ Target record memuat:
 - satuan;
 - record type;
 - sumber.
+
+Public query harga wajib join melalui `price_series_id` dan hanya memilih seri:
+
+```text
+commodity_price_series.is_canonical = true
+commodity_price_series.is_public_default = true
+commodity_price_series.publication_status = published
+commodity_price_series.verification_status = verified
+```
+
+Observasi tetap wajib `verified/published`. Tahun yang tidak tersedia pada seri
+kanonik tidak boleh diisi melalui fallback ke seri legacy. Pemilihan seri tidak
+boleh berdasarkan ID atau tanggal pembuatan terbaru.
 
 ## 13. Production Locations API
 

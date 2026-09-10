@@ -342,3 +342,45 @@ Importer menggunakan satu transaksi database. Jika satu record gagal, seluruh pe
 Freeport Indonesia memiliki dua laporan untuk 2024 dan 2025. Sebelas perusahaan lainnya masing-masing memiliki tiga laporan untuk 2023-2025.
 
 Profil lengkap dalam dokumen Industri tersedia untuk 10 perusahaan. Bayan Resources dan Trimegah Bangun Persada tetap dibuat sebagai perusahaan terverifikasi agar laporan resminya memiliki foreign key yang valid, tetapi field profil yang belum tersedia dibiarkan `null` dan diberi catatan untuk pengayaan berikutnya.
+
+## Intelligence — dataset kanonik versi 2.0 (belum diterapkan)
+
+Pipeline Intelligence sekarang menerima `data/staging/intelligence/manifest.json`,
+bukan bundle produksi legacy satu komoditas. Kontrak v1 tetap tersedia untuk audit,
+tetapi CLI import tidak lagi menerima bundle tanpa identitas seri.
+
+```powershell
+npm run data:validate:intelligence -- data/staging/intelligence/manifest.json
+npm run data:preflight:intelligence -- data/staging/intelligence/manifest.json
+npm run data:dry-run:intelligence -- data/staging/intelligence/manifest.json
+```
+
+Preflight/dry-run memakai transaksi READ ONLY dengan ROLLBACK dan fingerprint
+sebelum/sesudah. Missing schema dan konflik data menghasilkan exit code 1.
+Importer memakai transaksi serializable, insert-only, parameter binding,
+post-write verification, serta rollback otomatis bila gagal. Tanpa `--commit`,
+CLI berhenti sebelum membuka koneksi. Source/nilai existing yang berbeda ditolak,
+bukan ditimpa; pengayaan atau koreksi memerlukan keputusan terpisah.
+
+Migration lokal 0020 belum dijalankan. Jangan menjalankan import atau deploy query
+seri baru sebelum migration diuji pada PostgreSQL disposable dan disetujui.
+Sepuluh konflik harga diselesaikan melalui `commodity_price_series`, bukan
+production series. Migration membentuk seri legacy deterministic dan menjaga
+nilai/status observation lama, termasuk HMA emas 2025 published. Tiga seri
+kanonik baru menyimpan 10 observation dokumen final sebagai draft. HBA dan HMA
+Nikel 2025 tidak mempunyai observation kanonik dan tidak fallback ke legacy.
+
+Setelah prasyarat dan konflik diselesaikan, perintah verifikasi pasca-import adalah:
+
+```powershell
+npm run data:verify:intelligence -- data/staging/intelligence/manifest.json
+npm run data:promote:intelligence -- data/staging/intelligence/manifest.json
+```
+
+Verifier menuntut tidak ada insert/konflik tersisa pada manifest. Observasi,
+coverage, dan lokasi baru tetap draft; publikasi merupakan tahap terpisah.
+Identitas seri kanonik sendiri ditandai public-default/verified/published agar
+pilihan default eksplisit, tetapi tidak membuat observasi draft menjadi publik.
+Promotion tanpa `--commit` selalu memakai transaksi READ ONLY dan ROLLBACK.
+Promotion dengan `--commit` harus dilakukan secara terpisah setelah pre-check;
+series serta observation kanonik dipromosikan atomik dan legacy tidak diubah.

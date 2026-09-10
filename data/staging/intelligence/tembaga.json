@@ -1,0 +1,266 @@
+{
+  "schemaVersion": "2.0",
+  "commoditySlug": "tembaga",
+  "documentSlug": "copper",
+  "name": "Tembaga",
+  "productionSeries": {
+    "seriesCode": "tembaga-national-concentrate-bps",
+    "name": "Produksi konsentrat tembaga nasional",
+    "productForm": "concentrate",
+    "productionScope": "national",
+    "unitCode": "metric_ton",
+    "specification": "ton konsentrat",
+    "methodologyNotes": "Seri utama adalah konsentrat tembaga BPS. Produksi bijih tembaga P3 sebesar 108.130.087 ton pada 2024 adalah pembanding beda tahap produk; tidak boleh ditampilkan pada grafik konsentrat.",
+    "isCanonical": true,
+    "isPublicDefault": true,
+    "records": [
+      {
+        "year": 2019,
+        "value": "1697725",
+        "recordType": "actual",
+        "verificationStatus": "verified",
+        "sources": [
+          {
+            "sourceSlug": "intelligence-final-2026-p5",
+            "citationLabel": "BPS Statistik Pertambangan Nonmigas 2019–2023",
+            "sourceUrl": "https://www.bps.go.id/id/publication/2024/12/20/15a585268e537abcfe19f192/statistik-pertambangan-non-minyak-dan-gas-bumi-2019-2023.html",
+            "pageReference": null
+          }
+        ],
+        "notes": "Terverifikasi"
+      },
+      {
+        "year": 2020,
+        "value": "2273456",
+        "recordType": "actual",
+        "verificationStatus": "verified",
+        "sources": [
+          {
+            "sourceSlug": "intelligence-final-2026-p5",
+            "citationLabel": "BPS Statistik Pertambangan Nonmigas 2019–2023",
+            "sourceUrl": "https://www.bps.go.id/id/publication/2024/12/20/15a585268e537abcfe19f192/statistik-pertambangan-non-minyak-dan-gas-bumi-2019-2023.html",
+            "pageReference": null
+          }
+        ],
+        "notes": "Terverifikasi"
+      },
+      {
+        "year": 2021,
+        "value": "3377023",
+        "recordType": "actual",
+        "verificationStatus": "verified",
+        "sources": [
+          {
+            "sourceSlug": "intelligence-final-2026-p5",
+            "citationLabel": "BPS Statistik Pertambangan Nonmigas 2019–2023",
+            "sourceUrl": "https://www.bps.go.id/id/publication/2024/12/20/15a585268e537abcfe19f192/statistik-pertambangan-non-minyak-dan-gas-bumi-2019-2023.html",
+            "pageReference": null
+          }
+        ],
+        "notes": "Terverifikasi"
+      },
+      {
+        "year": 2022,
+        "value": "3321239",
+        "recordType": "actual",
+        "verificationStatus": "verified",
+        "sources": [
+          {
+            "sourceSlug": "intelligence-final-2026-p5",
+            "citationLabel": "BPS Statistik Pertambangan Nonmigas 2019–2023",
+            "sourceUrl": "https://www.bps.go.id/id/publication/2024/12/20/15a585268e537abcfe19f192/statistik-pertambangan-non-minyak-dan-gas-bumi-2019-2023.html",
+            "pageReference": null
+          }
+        ],
+        "notes": "Terverifikasi"
+      },
+      {
+        "year": 2023,
+        "value": "3999565",
+        "recordType": "actual",
+        "verificationStatus": "verified",
+        "sources": [
+          {
+            "sourceSlug": "intelligence-final-2026-p5",
+            "citationLabel": "BPS Statistik Pertambangan Nonmigas 2019–2023",
+            "sourceUrl": "https://www.bps.go.id/id/publication/2024/12/20/15a585268e537abcfe19f192/statistik-pertambangan-non-minyak-dan-gas-bumi-2019-2023.html",
+            "pageReference": null
+          }
+        ],
+        "notes": "Terverifikasi"
+      },
+      {
+        "year": 2024,
+        "value": "4491356",
+        "recordType": "actual",
+        "verificationStatus": "verified",
+        "sources": [
+          {
+            "sourceSlug": "intelligence-final-2026-p4",
+            "citationLabel": "BPS Produksi Barang Tambang Mineral 2024",
+            "sourceUrl": "https://www.bps.go.id/id/statistics-table/2/NTA4IzI%3D/produksi-barang-tambang-mineral.html",
+            "pageReference": null
+          },
+          {
+            "sourceSlug": "intelligence-final-2026-p6",
+            "citationLabel": "BPS Statistik Pertambangan Nonmigas 2020–2024",
+            "sourceUrl": "https://www.bps.go.id/id/publication/2025/12/31/a0e94cbaeb68d53f9cee32df/statistik-pertambangan-non-minyak-dan-gas-bumi-2020-2024.html",
+            "pageReference": null
+          }
+        ],
+        "notes": "Terverifikasi"
+      }
+    ],
+    "missingYears": [
+      2025
+    ]
+  },
+  "priceSeries": {
+    "seriesCode": null,
+    "standardCode": null,
+    "name": "Rata-rata tahunan HMA tembaga (benchmark logam; bukan harga konsentrat)",
+    "period": "annual",
+    "aggregationMethod": null,
+    "isCanonical": null,
+    "isPublicDefault": null,
+    "currencyCode": null,
+    "unitCode": null,
+    "methodologyNotes": "Nama komoditas dan satuan harus cocok dengan baris HMA. Harga emas ritel per gram dan harga konsentrat tidak boleh disambung dengan harga acuan logam. [H2–H4]",
+    "records": [],
+    "missingYears": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "regionCoverage": [
+    {
+      "regionSlug": "papua-tengah",
+      "regionName": "Papua Tengah",
+      "coverageType": "known_occurrence",
+      "areaDescription": "Kawasan tambang bawah tanah Grasberg",
+      "relatedCompanyName": "PT Freeport Indonesia",
+      "industryCompanySlug": null,
+      "productionValue": null,
+      "productionYear": null,
+      "unitCode": null,
+      "rank": null,
+      "rankingStatus": "unverified",
+      "rankingEvidence": null,
+      "sources": [
+        {
+          "sourceSlug": "intelligence-final-2026-l3",
+          "citationLabel": "PT Freeport Indonesia tentang operasi",
+          "sourceUrl": "https://ptfi.co.id/id/about",
+          "pageReference": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "notes": "Belum diperingkat. Bukan klaim perusahaan atau tambang terbesar."
+    },
+    {
+      "regionSlug": "nusa-tenggara-barat",
+      "regionName": "Nusa Tenggara Barat",
+      "coverageType": "known_occurrence",
+      "areaDescription": "Batu Hijau",
+      "relatedCompanyName": "PT Amman Mineral Nusa Tenggara",
+      "industryCompanySlug": null,
+      "productionValue": null,
+      "productionYear": null,
+      "unitCode": null,
+      "rank": null,
+      "rankingStatus": "unverified",
+      "rankingEvidence": null,
+      "sources": [
+        {
+          "sourceSlug": "intelligence-final-2026-l4",
+          "citationLabel": "AMMAN fase delapan Batu Hijau",
+          "sourceUrl": "https://www.amman.co.id/article/phase-8-batu-hijau-amman-s-strategic-transition-for-sustainable-mining-and-national-competitiveness",
+          "pageReference": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "notes": "Belum diperingkat. Bukan klaim perusahaan atau tambang terbesar."
+    },
+    {
+      "regionSlug": "maluku",
+      "regionName": "Maluku",
+      "coverageType": "known_occurrence",
+      "areaDescription": "Wetar",
+      "relatedCompanyName": "PT Batutua Tembaga Raya",
+      "industryCompanySlug": null,
+      "productionValue": null,
+      "productionYear": null,
+      "unitCode": null,
+      "rank": null,
+      "rankingStatus": "unverified",
+      "rankingEvidence": null,
+      "sources": [
+        {
+          "sourceSlug": "intelligence-final-2026-l6",
+          "citationLabel": "Kepemilikan tambang Wetar",
+          "sourceUrl": "https://merdekacoppergold.com/wp-content/uploads/2022/06/MDKA_2021-06-02_Press-Release_Moves-to-100_-Ownership_-Wetar-Copper-Mine.pdf",
+          "pageReference": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "notes": "Belum diperingkat. Bukan klaim perusahaan atau tambang terbesar."
+    }
+  ],
+  "locations": [
+    {
+      "regionSlug": "papua-tengah",
+      "siteSlug": "kawasan-tambang-bawah-tanah-grasberg",
+      "siteName": "Kawasan tambang bawah tanah Grasberg",
+      "siteType": "mine",
+      "companyName": "PT Freeport Indonesia",
+      "industryCompanySlug": null,
+      "latitude": null,
+      "longitude": null,
+      "locationAccuracy": "unknown",
+      "geometrySourceUrl": null,
+      "operationStatus": "operating",
+      "isPrimary": false,
+      "primaryReason": null,
+      "sources": [
+        {
+          "sourceSlug": "intelligence-final-2026-l3",
+          "citationLabel": "PT Freeport Indonesia tentang operasi",
+          "sourceUrl": "https://ptfi.co.id/id/about",
+          "pageReference": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "notes": "Koordinat dan pembanding produksi tidak tersedia dalam dokumen final; bukan marker publik atau klaim terbesar."
+    },
+    {
+      "regionSlug": "nusa-tenggara-barat",
+      "siteSlug": "batu-hijau",
+      "siteName": "Batu Hijau",
+      "siteType": "mine",
+      "companyName": "PT Amman Mineral Nusa Tenggara",
+      "industryCompanySlug": null,
+      "latitude": null,
+      "longitude": null,
+      "locationAccuracy": "unknown",
+      "geometrySourceUrl": null,
+      "operationStatus": "operating",
+      "isPrimary": false,
+      "primaryReason": null,
+      "sources": [
+        {
+          "sourceSlug": "intelligence-final-2026-l4",
+          "citationLabel": "AMMAN fase delapan Batu Hijau",
+          "sourceUrl": "https://www.amman.co.id/article/phase-8-batu-hijau-amman-s-strategic-transition-for-sustainable-mining-and-national-competitiveness",
+          "pageReference": null
+        }
+      ],
+      "verificationStatus": "verified",
+      "notes": "Koordinat dan pembanding produksi tidak tersedia dalam dokumen final; bukan marker publik atau klaim terbesar."
+    }
+  ]
+}
