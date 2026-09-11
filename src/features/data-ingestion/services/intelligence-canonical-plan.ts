@@ -179,6 +179,14 @@ export function legacyPriceFingerprint(snapshot: IntelligenceSnapshot): string {
   const canonicalIds = new Set(snapshot.commodity_price_series.filter((series) => series.is_canonical === true).map((series) => series.id));
   return createHash("sha256").update(stableValue(snapshot.commodity_domestic_prices.filter((row) => !canonicalIds.has(row.price_series_id)).sort((a, b) => String(a.id).localeCompare(String(b.id))))).digest("hex");
 }
+export function regionCoverageFingerprint(snapshot: IntelligenceSnapshot): string {
+  const rows = snapshot.commodity_region_coverage
+    .map((row) => Object.fromEntries(
+      Object.entries(row).filter(([column]) => column !== "publication_status"),
+    ))
+    .sort((a, b) => String(a.id).localeCompare(String(b.id)));
+  return createHash("sha256").update(stableValue(rows)).digest("hex");
+}
 export interface IntelligenceTransaction {
   snapshot(): Promise<IntelligenceSnapshot>;
   insert(batch: PlannedInsert[]): Promise<void>;
@@ -206,6 +214,7 @@ export type IntelligencePromotionPlan = {
   productionObservationIds: string[];
   priceSeriesIds: string[];
   priceObservationIds: string[];
+  regionCoverageIds: string[];
   issues: string[];
 };
 
@@ -217,6 +226,7 @@ export function planIntelligencePromotion(
   const result: IntelligencePromotionPlan = {
     productionSeriesIds: [], productionObservationIds: [],
     priceSeriesIds: [], priceObservationIds: [],
+    regionCoverageIds: [],
     issues: [...reconciliation.issues],
   };
   if (reconciliation.inserts.length) result.issues.push("Import kanonik belum lengkap; promotion ditolak");
@@ -226,29 +236,104 @@ export function planIntelligencePromotion(
         && row.is_canonical === true && row.is_public_default === true,
     );
     if (!productionSeries) continue;
-    result.productionSeriesIds.push(String(productionSeries.id));
+    if (productionSeries.verification_status !== "verified"
+      || productionSeries.publication_status !== "published") {
+      result.productionSeriesIds.push(String(productionSeries.id));
+    }
     for (const record of file.productionSeries.records) {
       const observation = snapshot.commodity_production.find((row) =>
         row.series_id === productionSeries.id
           && row.year === record.year
           && row.record_type === record.recordType,
       );
-      if (observation) result.productionObservationIds.push(String(observation.id));
+      if (observation && (observation.verification_status !== "verified"
+        || observation.publication_status !== "published")) {
+        result.productionObservationIds.push(String(observation.id));
+      }
     }
-    if (!file.priceSeries.seriesCode) continue;
-    const priceSeries = snapshot.commodity_price_series.find(
-      (row) => row.series_code === file.priceSeries.seriesCode
-        && row.is_canonical === true && row.is_public_default === true,
-    );
-    if (!priceSeries) continue;
-    result.priceSeriesIds.push(String(priceSeries.id));
-    for (const record of file.priceSeries.records) {
-      const observation = snapshot.commodity_domestic_prices.find((row) =>
-        row.price_series_id === priceSeries.id
-          && row.effective_date === `${record.year}-01-01`
-          && row.record_type === record.recordType,
+    if (file.priceSeries.seriesCode) {
+      const priceSeries = snapshot.commodity_price_series.find(
+        (row) => row.series_code === file.priceSeries.seriesCode
+          && row.is_canonical === true && row.is_public_default === true,
       );
-      if (observation) result.priceObservationIds.push(String(observation.id));
+      if (priceSeries) {
+        if (priceSeries.verification_status !== "verified"
+          || priceSeries.publication_status !== "published") {
+          result.priceSeriesIds.push(String(priceSeries.id));
+        }
+        for (const record of file.priceSeries.records) {
+          const observation = snapshot.commodity_domestic_prices.find((row) =>
+            row.price_series_id === priceSeries.id
+              && row.effective_date === `${record.year}-01-01`
+              && row.record_type === record.recordType,
+          );
+          if (observation && (observation.verification_status !== "verified"
+            || observation.publication_status !== "published")) {
+            result.priceObservationIds.push(String(observation.id));
+          }
+        }
+      }
+    }
+
+    const commodity = snapshot.commodities.find((row) =>
+      row.slug === file.commoditySlug && row.is_active !== false,
+    );
+    if (!commodity) continue;
+    for (const coverage of file.regionCoverage) {
+      const region = snapshot.regions.find((row) =>
+        row.slug === coverage.regionSlug && row.is_active !== false,
+      );
+      if (!region) continue;
+      const row = snapshot.commodity_region_coverage.find((candidate) =>
+        candidate.commodity_id === commodity.id
+          && candidate.region_id === region.id,
+      );
+      if (!row) continue;
+
+      if (row.publication_status === "published") {
+        if (coverage.verificationStatus !== "verified"
+          || row.verification_status !== "verified") {
+          result.issues.push(
+            `${file.commoditySlug}/${coverage.regionSlug}: coverage pending tidak boleh published`,
+          );
+        }
+      } else if (row.publication_status !== "draft") {
+        result.issues.push(
+          `${file.commoditySlug}/${coverage.regionSlug}: status coverage tidak dapat dipromosikan`,
+        );
+        continue;
+      } else if (row.verification_status !== "verified") {
+        continue;
+      }
+
+      if (row.verification_status !== "verified"
+        || coverage.verificationStatus !== "verified") continue;
+      const sourceReference = coverage.sources[0];
+      if (!sourceReference || row.source_id === null || row.source_id === undefined) {
+        result.issues.push(
+          `${file.commoditySlug}/${coverage.regionSlug}: coverage verified wajib mempunyai sumber`,
+        );
+        continue;
+      }
+      const source = snapshot.sources.find((candidate) =>
+        candidate.slug === sourceReference.sourceSlug,
+      );
+      if (!source || source.is_active === false
+        || source.verification_status !== "verified") {
+        result.issues.push(
+          `${file.commoditySlug}/${coverage.regionSlug}: sumber coverage tidak aktif atau belum verified`,
+        );
+        continue;
+      }
+      if (row.source_id !== source.id) {
+        result.issues.push(
+          `${file.commoditySlug}/${coverage.regionSlug}: sumber coverage berbeda dari manifest`,
+        );
+        continue;
+      }
+      if (row.publication_status === "draft") {
+        result.regionCoverageIds.push(String(row.id));
+      }
     }
   }
   result.issues = [...new Set(result.issues)];
@@ -267,6 +352,7 @@ export type IntelligencePromotionResult = {
   productionObservations: number;
   priceSeries: number;
   priceObservations: number;
+  regionCoverage: number;
 };
 
 export async function promoteIntelligenceCanonical(
@@ -281,6 +367,7 @@ export async function promoteIntelligenceCanonical(
     if (plan.issues.length) throw new Error("Pre-promotion verification gagal; tidak ada status yang diubah");
     const productionLegacy = legacyFingerprint(before);
     const priceLegacy = legacyPriceFingerprint(before);
+    const coverageIdentity = regionCoverageFingerprint(before);
     await tx.promote(plan);
     const after = await tx.snapshot();
     const verified = planIntelligencePromotion(dataset, after);
@@ -289,9 +376,11 @@ export async function promoteIntelligenceCanonical(
       ...plan.productionObservationIds.map((id) => after.commodity_production.find((row) => row.id === id)),
       ...plan.priceSeriesIds.map((id) => after.commodity_price_series.find((row) => row.id === id)),
       ...plan.priceObservationIds.map((id) => after.commodity_domestic_prices.find((row) => row.id === id)),
+      ...plan.regionCoverageIds.map((id) => after.commodity_region_coverage.find((row) => row.id === id)),
     ];
     if (verified.issues.length || targets.some((row) => row?.verification_status !== "verified" || row?.publication_status !== "published")
-      || productionLegacy !== legacyFingerprint(after) || priceLegacy !== legacyPriceFingerprint(after)) {
+      || productionLegacy !== legacyFingerprint(after) || priceLegacy !== legacyPriceFingerprint(after)
+      || coverageIdentity !== regionCoverageFingerprint(after)) {
       throw new Error("Post-promotion verification gagal; rollback seluruh transaksi");
     }
     return {
@@ -299,6 +388,7 @@ export async function promoteIntelligenceCanonical(
       productionObservations: plan.productionObservationIds.length,
       priceSeries: plan.priceSeriesIds.length,
       priceObservations: plan.priceObservationIds.length,
+      regionCoverage: plan.regionCoverageIds.length,
     };
   });
 }
