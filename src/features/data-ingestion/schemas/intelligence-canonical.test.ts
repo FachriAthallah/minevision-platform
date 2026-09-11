@@ -3,7 +3,7 @@ import { resolve } from "node:path";
 import { beforeAll, describe, expect, it } from "vitest";
 import { intelligenceCanonicalFileSchema, intelligenceDecimalSchema, intelligenceLocationSchema, intelligenceCoverageSchema, isPublicIntelligenceMarker } from "./intelligence-canonical";
 import { loadIntelligenceCanonical, validateIntelligenceCanonical, type CanonicalDataset } from "../services/validate-intelligence-canonical";
-import { applyIntelligenceCanonical, emptyIntelligenceSnapshot, legacyFingerprint, legacyPriceFingerprint, planIntelligenceCanonical, planIntelligencePromotion, promoteIntelligenceCanonical, type IntelligenceAdapter, type IntelligencePromotionAdapter, type IntelligenceSnapshot } from "../services/intelligence-canonical-plan";
+import { applyIntelligenceCanonical, emptyIntelligenceSnapshot, legacyFingerprint, legacyPriceFingerprint, planIntelligenceCanonical, planIntelligencePromotion, promoteIntelligenceCanonical, regionCoverageFingerprint, type IntelligenceAdapter, type IntelligencePromotionAdapter, type IntelligenceSnapshot } from "../services/intelligence-canonical-plan";
 
 let dataset: CanonicalDataset;
 beforeAll(async () => {
@@ -54,6 +54,11 @@ function promotionAdapter(initial: IntelligenceSnapshot, fail = false) {
           for (const [rows, ids] of groups) for (const row of rows) if (ids.includes(String(row.id))) {
             row.verification_status = "verified";
             row.publication_status = "published";
+          }
+          for (const row of pending.commodity_region_coverage) {
+            if (plan.regionCoverageIds.includes(String(row.id))) {
+              row.publication_status = "published";
+            }
           }
           if (fail) throw new Error("Injected promotion failure");
         },
@@ -240,11 +245,124 @@ describe("atomic promotion", () => {
     const before = imported.state();
     const promotion = promotionAdapter(before);
     const result = await promoteIntelligenceCanonical(dataset, promotion.adapter, true);
-    expect(result).toEqual({ productionSeries: 7, productionObservations: 38, priceSeries: 3, priceObservations: 10 });
+    expect(result).toEqual({ productionSeries: 0, productionObservations: 38, priceSeries: 3, priceObservations: 10, regionCoverage: 13 });
     expect(legacyFingerprint(promotion.state())).toBe(legacyFingerprint(before));
     expect(legacyPriceFingerprint(promotion.state())).toBe(legacyPriceFingerprint(before));
+    expect(regionCoverageFingerprint(promotion.state())).toBe(regionCoverageFingerprint(before));
     expect(promotion.state().commodity_domestic_prices.find((row) => row.id === "gold-2025-old")?.price_value).toBe("4165.000000");
-    expect(planIntelligencePromotion(dataset, promotion.state()).issues).toEqual([]);
+    const secondPlan = planIntelligencePromotion(dataset, promotion.state());
+    expect(secondPlan.issues).toEqual([]);
+    expect(secondPlan.productionSeriesIds).toEqual([]);
+    expect(secondPlan.productionObservationIds).toEqual([]);
+    expect(secondPlan.priceSeriesIds).toEqual([]);
+    expect(secondPlan.priceObservationIds).toEqual([]);
+    expect(secondPlan.regionCoverageIds).toEqual([]);
+    expect(promotion.state().commodity_region_coverage.filter((row) => row.verification_status === "verified" && row.publication_status === "published")).toHaveLength(13);
+    expect(promotion.state().commodity_region_coverage.filter((row) => row.verification_status === "pending" && row.publication_status === "draft")).toHaveLength(13);
+
+    const second = await promoteIntelligenceCanonical(dataset, promotion.adapter, true);
+    expect(second).toEqual({ productionSeries: 0, productionObservations: 0, priceSeries: 0, priceObservations: 0, regionCoverage: 0 });
+  });
+
+  it("targets exactly the 13 verified source-backed manifest coverage records", async () => {
+    const imported = memoryAdapter(snapshot());
+    await applyIntelligenceCanonical(dataset, imported.adapter, true);
+    const state = imported.state();
+    const plan = planIntelligencePromotion(dataset, state);
+    expect(plan.issues).toEqual([]);
+    expect(plan.regionCoverageIds).toHaveLength(13);
+
+    const commodityById = new Map(
+      state.commodities.map((row) => [row.id, row.slug]),
+    );
+    const counts = Object.fromEntries(
+      [...commodityById.values()].map((slug) => [slug, 0]),
+    );
+    for (const row of state.commodity_region_coverage) {
+      if (plan.regionCoverageIds.includes(String(row.id))) {
+        const slug = String(commodityById.get(row.commodity_id));
+        counts[slug] = (counts[slug] ?? 0) + 1;
+      }
+    }
+    expect(counts).toMatchObject({
+      batubara: 3,
+      nikel: 3,
+      emas: 2,
+      tembaga: 3,
+      timah: 2,
+      "bijih-besi": 0,
+      bauksit: 0,
+    });
+  });
+
+  it("rejects verified coverage without an eligible source and ignores pending or out-of-manifest records", async () => {
+    const imported = memoryAdapter(snapshot());
+    await applyIntelligenceCanonical(dataset, imported.adapter, true);
+    const state = imported.state();
+    const verified = state.commodity_region_coverage.find((row) =>
+      row.verification_status === "verified",
+    )!;
+    const pending = state.commodity_region_coverage.find((row) =>
+      row.verification_status === "pending",
+    )!;
+    state.commodity_region_coverage.push({
+      ...verified,
+      id: "outside-manifest",
+      region_id: "outside-manifest-region",
+    });
+    verified.source_id = null;
+    const plan = planIntelligencePromotion(dataset, state);
+    expect(plan.issues.some((issue) => issue.includes("wajib mempunyai sumber"))).toBe(true);
+    expect(plan.regionCoverageIds).not.toContain(String(verified.id));
+    expect(plan.regionCoverageIds).not.toContain(String(pending.id));
+    expect(plan.regionCoverageIds).not.toContain("outside-manifest");
+
+    const sourcedState = imported.state();
+    const sourcedCoverage = sourcedState.commodity_region_coverage.find((row) =>
+      row.verification_status === "verified"
+        && sourcedState.sources.some((source) => source.id === row.source_id),
+    )!;
+    const source = sourcedState.sources.find((row) =>
+      row.id === sourcedCoverage.source_id,
+    )!;
+    source.is_active = false;
+    expect(planIntelligencePromotion(dataset, sourcedState).issues.some((issue) =>
+      issue.includes("tidak aktif atau belum verified"),
+    )).toBe(true);
+
+    const unverifiedState = imported.state();
+    const unverifiedCoverage = unverifiedState.commodity_region_coverage.find((row) =>
+      row.verification_status === "verified"
+        && unverifiedState.sources.some((item) => item.id === row.source_id),
+    )!;
+    const unverifiedSource = unverifiedState.sources.find((row) =>
+      row.id === unverifiedCoverage.source_id,
+    )!;
+    unverifiedSource.verification_status = "pending";
+    expect(planIntelligencePromotion(dataset, unverifiedState).issues.some((issue) =>
+      issue.includes("tidak aktif atau belum verified"),
+    )).toBe(true);
+  });
+
+  it("does not mutate coverage outside the canonical manifest", async () => {
+    const imported = memoryAdapter(snapshot());
+    await applyIntelligenceCanonical(dataset, imported.adapter, true);
+    const before = imported.state();
+    const template = before.commodity_region_coverage[0];
+    const outside = {
+      ...template,
+      id: "outside-manifest",
+      commodity_id: "outside-commodity",
+      region_id: "outside-region",
+      verification_status: "verified",
+      publication_status: "draft",
+    };
+    before.commodity_region_coverage.push(outside);
+    const promotion = promotionAdapter(before);
+    await promoteIntelligenceCanonical(dataset, promotion.adapter, true);
+    expect(promotion.state().commodity_region_coverage.find((row) =>
+      row.id === outside.id,
+    )).toEqual(outside);
   });
 
   it("rolls back promotion atomically on failure", async () => {

@@ -98,10 +98,77 @@ export async function runCanonicalCli(mode: Mode) {
       if (modeRow.read_only !== "on") throw new Error("Transaksi bukan READ ONLY");
       const before = await readIntelligenceSnapshot(tx);
       const plan = planIntelligenceCanonical(validated.data, before.data);
+      const promotionPlan = planIntelligencePromotion(validated.data, before.data);
       const after = await readIntelligenceSnapshot(tx);
       const issues = [...before.issues, ...plan.issues];
       if (fingerprint(before.data) !== fingerprint(after.data)) issues.push("Fingerprint transaksi berubah");
       if (mode === "verify" && plan.inserts.length) issues.push("Dataset belum lengkap: masih ada record yang belum diimpor");
+      const canonicalCoverage = validated.data.files.flatMap((file) => {
+        const commodity = before.data.commodities.find((row) =>
+          row.slug === file.commoditySlug,
+        );
+        return file.regionCoverage.flatMap((coverage) => {
+          const region = before.data.regions.find((row) =>
+            row.slug === coverage.regionSlug,
+          );
+          if (!commodity || !region) return [];
+          const row = before.data.commodity_region_coverage.find((candidate) =>
+            candidate.commodity_id === commodity.id
+              && candidate.region_id === region.id,
+          );
+          return row ? [{ row, stagingStatus: coverage.verificationStatus }] : [];
+        });
+      });
+      const sourceIsEligible = (row: Row) => before.data.sources.some((source) =>
+        source.id === row.source_id
+          && source.is_active !== false
+          && source.verification_status === "verified",
+      );
+      const coverageVerification = {
+        canonicalRecords: canonicalCoverage.length,
+        promotionTargets: promotionPlan.regionCoverageIds.length,
+        verifiedPublished: canonicalCoverage.filter(({ row, stagingStatus }) =>
+          stagingStatus === "verified"
+            && row.verification_status === "verified"
+            && row.publication_status === "published"
+            && sourceIsEligible(row),
+        ).length,
+        pendingDraft: canonicalCoverage.filter(({ row, stagingStatus }) =>
+          stagingStatus === "pending"
+            && row.verification_status === "pending"
+            && row.publication_status === "draft",
+        ).length,
+        pendingPublished: before.data.commodity_region_coverage.filter((row) =>
+          row.verification_status === "pending"
+            && row.publication_status === "published",
+        ).length,
+        publishedWithoutEligibleSource: before.data.commodity_region_coverage.filter((row) =>
+          row.publication_status === "published" && !sourceIsEligible(row),
+        ).length,
+      };
+      if (mode === "verify") {
+        issues.push(...promotionPlan.issues);
+        const validPromotionState =
+          (coverageVerification.promotionTargets === 13
+            && coverageVerification.verifiedPublished === 0)
+          || (coverageVerification.promotionTargets === 0
+            && coverageVerification.verifiedPublished === 13);
+        if (!validPromotionState) {
+          issues.push("Coverage canonical berada pada status promotion parsial atau tidak valid");
+        }
+        if (coverageVerification.canonicalRecords !== 26) {
+          issues.push("Coverage canonical tidak lengkap: harus tepat 26 record manifest");
+        }
+        if (coverageVerification.pendingDraft !== 13) {
+          issues.push("Coverage pending/draft harus tetap tepat 13 record");
+        }
+        if (coverageVerification.pendingPublished > 0) {
+          issues.push("Coverage pending tidak boleh berstatus published");
+        }
+        if (coverageVerification.publishedWithoutEligibleSource > 0) {
+          issues.push("Coverage published wajib mempunyai sumber aktif dan verified");
+        }
+      }
       report = { mode, transaction: "READ ONLY / ROLLBACK", writes: 0, fingerprintBefore: fingerprint(before.data), fingerprintAfter: fingerprint(after.data),
         legacySeries: before.data.commodity_production_series.filter((row) => row.is_canonical === false).length,
         plannedLegacySeriesBackfill: before.data.commodity_production_series.length === 0
@@ -115,6 +182,7 @@ export async function runCanonicalCli(mode: Mode) {
           : 0,
         legacyPriceObservationsPreserved: plan.legacyPriceObservations,
         canonicalPriceSeries: before.data.commodity_price_series.filter((row) => row.is_canonical === true).length,
+        coverageVerification,
         proposedInserts: plan.counts, unchanged: plan.unchanged, updates: 0, deletes: 0, issues,
       };
       if (issues.length) process.exitCode = 1;
@@ -144,6 +212,27 @@ export async function runPromotionCli() {
       where id = any(${tx.array(ids)}::uuid[])
         and (verification_status <> 'verified' or publication_status <> 'published')`;
   };
+  const publishRegionCoverage = async (
+    tx: postgres.TransactionSql,
+    ids: string[],
+  ) => {
+    if (!ids.length) return;
+    await tx`
+      update commodity_region_coverage coverage
+      set publication_status = 'published'
+      where coverage.id = any(${tx.array(ids)}::uuid[])
+        and coverage.verification_status = 'verified'
+        and coverage.publication_status = 'draft'
+        and coverage.source_id is not null
+        and exists (
+          select 1
+          from sources source
+          where source.id = coverage.source_id
+            and source.is_active = true
+            and source.verification_status = 'verified'
+        )
+    `;
+  };
   try {
     if (commit) {
       const result = await promoteIntelligenceCanonical(validated.data, {
@@ -158,6 +247,7 @@ export async function runPromotionCli() {
             await update(tx, "commodity_production", plan.productionObservationIds);
             await update(tx, "commodity_price_series", plan.priceSeriesIds);
             await update(tx, "commodity_domestic_prices", plan.priceObservationIds);
+            await publishRegionCoverage(tx, plan.regionCoverageIds);
           },
         })),
       }, true);
@@ -177,7 +267,8 @@ export async function runPromotionCli() {
       report = { mode: "promotion-dry-run", transaction: "READ ONLY / ROLLBACK", writes: 0,
         fingerprintBefore: fingerprint(before.data), fingerprintAfter: fingerprint(after.data),
         targets: { productionSeries: plan.productionSeriesIds.length, productionObservations: plan.productionObservationIds.length,
-          priceSeries: plan.priceSeriesIds.length, priceObservations: plan.priceObservationIds.length }, issues };
+          priceSeries: plan.priceSeriesIds.length, priceObservations: plan.priceObservationIds.length,
+          regionCoverage: plan.regionCoverageIds.length }, issues };
       if (issues.length) process.exitCode = 1;
       throw rollback;
     }).catch((error: unknown) => { if (error !== rollback) throw error; });

@@ -131,6 +131,7 @@ sebagai string pengganti nilai kosong.
 | -------------------------------------------- | ------------------ | ------- | ------------- |
 | `/api/health`                                | GET                | Current | Public        |
 | `/api/v1/intelligence/production`            | GET                | Current | Public        |
+| `/api/v1/intelligence/dashboard`             | GET                | Current | Public        |
 | `/api/v1/commodities`                        | GET                | Target  | Public        |
 | `/api/v1/intelligence/prices`                | GET                | Target  | Public        |
 | `/api/v1/intelligence/production-locations`  | GET                | Target  | Public        |
@@ -258,6 +259,41 @@ Response:
 Health endpoint hanya menunjukkan bahwa application process dapat merespons. Endpoint ini tidak membuktikan database dan external service dalam kondisi sehat.
 
 Health response tidak boleh menampilkan credential atau detail koneksi.
+
+## 9.1 Intelligence Dashboard API
+
+Endpoint:
+
+```http
+GET /api/v1/intelligence/dashboard
+```
+
+Parameter `commodity` bersifat opsional dan hanya menerima salah satu slug
+Intelligence: `batubara`, `nikel`, `emas`, `tembaga`, `timah`, `bijih-besi`,
+atau `bauksit`. Tanpa parameter, response berisi ketujuh komoditas dalam urutan
+`display_order`.
+
+Response menggabungkan ringkasan komoditas, production observation, domestic
+price observation, region coverage, dan production location yang memenuhi
+seluruh aturan public visibility. Production dan price hanya berasal dari
+series `is_canonical = true`, `is_public_default = true`, `verified`, dan
+`published`; observation juga harus `verified` dan `published`. Tidak ada
+fallback ke legacy untuk tahun yang hilang.
+
+Data marker hanya membawa koordinat yang tersimpan pada lokasi. Client tidak
+membentuk koordinat dari nama wilayah atau centroid administratif.
+
+Setiap item `coverage` membawa `commoditySlug`, `coverageType`,
+`verificationStatus`, `publicationStatus`, sumber publik bila tersedia, serta
+identitas region berupa `id`, `code`, `name`, `slug`, dan `level`. Frontend
+mencocokkan polygon administratif menggunakan `region.code`; nama region tidak
+digunakan sebagai natural key geometry. Coverage tetap dibatasi pada
+`verified/published`, region aktif, dan sumber aktif/terverifikasi.
+
+Peta dasar provinsi merupakan aset frontend statis. Ketiadaan coverage publik
+atau koordinat lokasi tidak menghilangkan peta dasar. Marker hanya dibuat jika
+latitude dan longitude lengkap, berada pada rentang valid, dan akurasinya bukan
+`unknown` atau `regency_centroid`.
 
 ## 10. Production Intelligence API
 
