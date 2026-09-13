@@ -20,7 +20,11 @@ async function main() {
   console.log(`Smelters   : ${files.smelters.records.length}`);
   console.log(`Regulations: ${files.regulations.records.length}`);
   console.log(`Sources    : ${manifest.sourceCatalog.length}`);
-  console.log(`HOLD       : ${files.investment.records.length + files.exports.records.length + files.smelters.records.filter((row) => row.holdReason !== null).length}`);
+  const holdCount =
+    files.investment.records.filter((row) => row.holdReason !== null).length +
+    files.exports.records.filter((row) => row.holdReason !== null).length +
+    files.smelters.records.filter((row) => row.holdReason !== null).length;
+  console.log(`HOLD       : ${holdCount}`);
 }
 
 main().catch(() => {

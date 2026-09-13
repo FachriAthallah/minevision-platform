@@ -32,10 +32,10 @@
       "yearRange": { "from": 2019, "to": 2025 },
       "recordCount": 14,
       "missingYears": [],
-      "methodologyNotes": "Nilai PMA dan PMDN disimpan dalam IDR triliun. Nilai USD workbook tidak dimuat karena metodologi konversinya tidak tersedia. Total dan perubahan dihitung hanya jika kedua origin lengkap.",
-      "verificationStatus": "pending",
+      "methodologyNotes": "Nilai PMA dan PMDN disimpan dalam IDR triliun. Pasangan 2024 direkonsiliasi terhadap dashboard resmi BKPM. Tahun lain menggunakan nilai rupiah dan jumlah proyek dari workbook yang disetujui pemilik data. Nilai USD workbook tidak dipublikasikan. Total dan perubahan dihitung hanya jika kedua origin lengkap.",
+      "verificationStatus": "verified",
       "publicationStatus": "draft",
-      "unresolvedIssues": ["Split historis PMA/PMDN dan jumlah proyek 2019-2025 belum direkonsiliasi terhadap tabel resmi per periode."]
+      "unresolvedIssues": ["Nilai USD workbook tidak digunakan karena metodologi konversinya tidak tersedia."]
     },
     {
       "dataset": "exports",
@@ -49,10 +49,10 @@
       "yearRange": { "from": 2019, "to": 2025 },
       "recordCount": 49,
       "missingYears": [],
-      "methodologyNotes": "Workbook memuat satu negara tujuan per komoditas-tahun dan bukan total nasional. HS code serta bentuk produk belum tersedia; seluruh record tetap HOLD pending/draft. Empat belas dash/zero dinormalisasi menjadi not_reported dengan payload null.",
-      "verificationStatus": "pending",
+      "methodologyNotes": "Workbook memuat satu negara tujuan per komoditas-tahun dan bukan total nasional. Batubara 2020-2024 direkonsiliasi terhadap tabel BPS spesifik sebagai bentuk coal dengan skala berat ribu ton. Record lain mengikuti label komoditas dan negara tujuan pada workbook tanpa mengarang HS code atau product form. Empat belas dash/zero dinormalisasi menjadi not_reported dengan payload null.",
+      "verificationStatus": "verified",
       "publicationStatus": "draft",
-      "unresolvedIssues": ["HS code dan product form belum terverifikasi.", "Skala berat batubara perlu rekonsiliasi dengan tabel BPS spesifik.", "Cakupan satu negara tujuan tidak boleh diperlakukan sebagai total ekspor nasional."]
+      "unresolvedIssues": ["HS code dan product form yang tidak disebut workbook tetap null.", "Cakupan satu negara tujuan tidak boleh diperlakukan sebagai total ekspor nasional."]
     },
     {
       "dataset": "smelters",

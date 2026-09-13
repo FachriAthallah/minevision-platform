@@ -126,6 +126,27 @@ a {
   color: var(--background);
 }
 
+@keyframes economy-section-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.economy-section-transition {
+  animation: economy-section-in 240ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .economy-section-transition {
+    animation: none;
+  }
+}
+
 @media (min-width: 1024px) and (max-height: 959px) {
   .education-sidebar-category-label,
   .education-sidebar-trend-intro,

@@ -78,6 +78,7 @@ export function PublicFooter() {
                 alt="MineVision"
                 width={712}
                 height={150}
+                loading="eager"
                 style={{ height: "auto" }}
                 className="h-auto w-[164px] object-contain"
               />

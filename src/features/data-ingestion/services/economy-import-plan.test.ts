@@ -124,8 +124,34 @@ function buildSnapshot(): EconomySnapshot {
   return snapshot;
 }
 
+function buildPreCorrectionSnapshot(): EconomySnapshot {
+  const snapshot = buildSnapshot();
+  for (const record of dataset.files.investment.records) {
+    if (!record.expectedState) continue;
+    const row = snapshot.mining_investment_annual.find(
+      (candidate) => candidate.year === record.year && candidate.investment_origin === record.investmentOrigin,
+    )!;
+    row.investment_value = record.expectedState.investmentValue;
+    row.project_count = record.expectedState.projectCount;
+    row.verification_status = record.expectedState.verificationStatus;
+    row.publication_status = record.expectedState.publicationStatus;
+  }
+  for (const record of dataset.files.exports.records) {
+    if (!record.expectedState) continue;
+    const row = snapshot.minerba_exports_annual.find(
+      (candidate) => candidate.year === record.year && candidate.commodity_id === `commodity-${record.commoditySlug}`,
+    )!;
+    row.source_commodity_label = record.expectedState.sourceCommodityLabel;
+    row.fob_value = record.expectedState.fobValue;
+    row.product_form = record.expectedState.productForm;
+    row.verification_status = record.expectedState.verificationStatus;
+    row.publication_status = record.expectedState.publicationStatus;
+  }
+  return snapshot;
+}
+
 describe("planner Economy", () => {
-  it("bersifat idempoten dan menahan investasi/ekspor", () => {
+  it("bersifat idempoten setelah seluruh record workbook disetujui", () => {
     const snapshot = buildSnapshot();
     const initial = planEconomyImport(dataset, snapshot);
     expect(initial.issues).toEqual([]);
@@ -133,7 +159,39 @@ describe("planner Economy", () => {
     const second = planEconomyImport(dataset, snapshot);
     expect(second.inserts).toHaveLength(0);
     expect(second.corrections).toHaveLength(0);
-    expect(second.hold).toEqual({ investment: 14, exports: 49, smelters: 2 });
+    expect(second.investmentCorrections).toHaveLength(0);
+    expect(second.exportCorrections).toHaveLength(0);
+    expect(second.hold).toEqual({ investment: 0, exports: 0, smelters: 2 });
+  });
+
+  it("merencanakan koreksi expected-state seluruh record workbook", () => {
+    const plan = planEconomyImport(dataset, buildPreCorrectionSnapshot());
+    expect(plan.issues).toEqual([]);
+    expect(plan.investmentCorrections).toHaveLength(14);
+    expect(plan.exportCorrections).toHaveLength(49);
+    expect(plan.inserts).toHaveLength(0);
+  });
+
+  it("menganggap state verified/published hasil promotion sebagai unchanged", () => {
+    const snapshot = buildSnapshot();
+    for (const row of snapshot.mining_investment_annual) {
+      if (row.verification_status === "verified") row.publication_status = "published";
+    }
+    for (const row of snapshot.minerba_exports_annual) {
+      if (row.verification_status === "verified") row.publication_status = "published";
+    }
+
+    const plan = planEconomyImport(dataset, snapshot);
+
+    expect(plan.issues).toEqual([]);
+    expect(plan.investmentCorrections).toEqual([]);
+    expect(plan.exportCorrections).toEqual([]);
+    expect(planEconomyPromotion(dataset, snapshot)).toEqual({
+      investmentIds: [],
+      exportIds: [],
+      smelterIds: [],
+      issues: [],
+    });
   });
 
   it("mempertahankan source_published_at ekspor sebagai bagian fingerprint", () => {
@@ -142,9 +200,10 @@ describe("planner Economy", () => {
 
     const plan = planEconomyImport(dataset, snapshot);
 
-    expect(plan.issues).toContain(
-      "exports/2019/batubara: existing record berbeda pada source_published_at; tidak ditimpa",
-    );
+    expect(plan.issues.some((issue) =>
+      issue.startsWith("exports/2019/batubara: fingerprint expectedState tidak cocok") &&
+      issue.includes("source_published_at"),
+    )).toBe(true);
   });
 
   it("menggunakan relasi sumber PDB existing tanpa menduplikasi URL atau peran", () => {
@@ -165,11 +224,11 @@ describe("planner Economy", () => {
 
   it("hanya mempromosikan verified/draft dengan source eligible", () => {
     const snapshot = buildSnapshot();
-    snapshot.mining_investment_annual[0].verification_status = "verified";
     const plan = planEconomyPromotion(dataset, snapshot);
-    expect(plan.investmentIds).toEqual([snapshot.mining_investment_annual[0].id]);
-    expect(plan.exportIds).toEqual([]);
-    snapshot.sources.find((source) => source.id === snapshot.mining_investment_annual[0].source_id)!.is_active = false;
+    expect(plan.investmentIds).toHaveLength(14);
+    expect(plan.exportIds).toHaveLength(49);
+    const source = snapshot.sources.find((candidate) => candidate.slug === "kementerian-investasi-bkpm")!;
+    source.is_active = false;
     expect(planEconomyPromotion(dataset, snapshot).investmentIds).toEqual([]);
   });
 
@@ -186,6 +245,8 @@ describe("planner Economy", () => {
           snapshot: async () => working,
           insert: async () => undefined,
           correctFacilities: async () => { throw new Error("forced failure"); },
+          correctInvestments: async () => undefined,
+          correctExports: async () => undefined,
         });
       },
     }, true)).rejects.toThrow("forced failure");

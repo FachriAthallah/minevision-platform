@@ -125,6 +125,15 @@ export const economyManifestSchema = z
 
 const recordSourceSlugsSchema = z.array(slugSchema).min(1);
 
+const expectedInvestmentStateSchema = z
+  .object({
+    investmentValue: decimalSchema,
+    projectCount: z.number().int().nonnegative().nullable(),
+    verificationStatus: verificationStatusSchema,
+    publicationStatus: publicationStatusSchema,
+  })
+  .strict();
+
 const gdpRecordSchema = z
   .object({
     regionSlug: slugSchema,
@@ -164,17 +173,31 @@ const investmentRecordSchema = z
     investmentValue: decimalSchema,
     currencyCode: z.literal("IDR"),
     valueScale: z.literal("trillion"),
-    projectCount: z.number().int().nonnegative(),
+    projectCount: z.number().int().nonnegative().nullable(),
     dataStatus: statisticalStatusSchema,
     recordType: z.literal("actual"),
     sourcePublishedAt: z.iso.date().nullable(),
     sourceSlugs: recordSourceSlugsSchema,
-    verificationStatus: z.literal("pending"),
+    verificationStatus: verificationStatusSchema,
     publicationStatus: z.literal("draft"),
-    holdReason: nonEmptyText,
+    expectedState: expectedInvestmentStateSchema.optional(),
+    holdReason: nonEmptyText.nullable(),
     notes: nonEmptyText,
   })
-  .strict();
+  .strict()
+  .superRefine((record, ctx) => {
+    if (record.verificationStatus === "pending" && record.holdReason === null) {
+      ctx.addIssue({ code: "custom", path: ["holdReason"], message: "Record pending wajib mempunyai holdReason" });
+    }
+    if (record.verificationStatus === "verified") {
+      if (record.holdReason !== null) {
+        ctx.addIssue({ code: "custom", path: ["holdReason"], message: "Record verified tidak boleh mempunyai holdReason" });
+      }
+      if (!record.expectedState) {
+        ctx.addIssue({ code: "custom", path: ["expectedState"], message: "Koreksi verified wajib mempunyai expectedState" });
+      }
+    }
+  });
 
 export const economyInvestmentFileSchema = z
   .object({
@@ -223,10 +246,20 @@ const exportRecordSchema = z
     recordType: recordTypeSchema,
     sourcePublishedAt: z.iso.date().nullable(),
     sourceSlugs: recordSourceSlugsSchema,
-    verificationStatus: z.literal("pending"),
+    verificationStatus: verificationStatusSchema,
     publicationStatus: z.literal("draft"),
+    expectedState: z
+      .object({
+        sourceCommodityLabel: nonEmptyText.max(160),
+        fobValue: decimalSchema.nullable(),
+        productForm: exportProductFormSchema.nullable(),
+        verificationStatus: verificationStatusSchema,
+        publicationStatus: publicationStatusSchema,
+      })
+      .strict()
+      .optional(),
     methodologyNotes: nonEmptyText.nullable(),
-    holdReason: nonEmptyText,
+    holdReason: nonEmptyText.nullable(),
   })
   .strict()
   .superRefine((record, ctx) => {
@@ -281,6 +314,20 @@ const exportRecordSchema = z
         path: ["methodologyNotes"],
         message: "estimated wajib mempunyai catatan metodologi",
       });
+    }
+    if (record.verificationStatus === "pending" && record.holdReason === null) {
+      ctx.addIssue({ code: "custom", path: ["holdReason"], message: "Record pending wajib mempunyai holdReason" });
+    }
+    if (record.verificationStatus === "verified") {
+      if (record.holdReason !== null) {
+        ctx.addIssue({ code: "custom", path: ["holdReason"], message: "Record verified tidak boleh mempunyai holdReason" });
+      }
+      if (!record.expectedState) {
+        ctx.addIssue({ code: "custom", path: ["expectedState"], message: "Koreksi verified wajib mempunyai expectedState" });
+      }
+      if (record.productForm === null && record.methodologyNotes === null) {
+        ctx.addIssue({ code: "custom", path: ["methodologyNotes"], message: "Record ekspor verified tanpa productForm wajib menjelaskan keterbatasan klasifikasi" });
+      }
     }
   });
 
