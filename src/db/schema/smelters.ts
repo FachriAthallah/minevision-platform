@@ -71,7 +71,21 @@ export const smelterOperators = pgTable(
       as: "permissive",
       for: "select",
       to: [anonRole, authenticatedRole],
-      using: sql`${table.isActive} = true`,
+      using: sql`
+        ${table.isActive} = true
+        AND EXISTS (
+          SELECT 1
+          FROM smelter_facilities AS facility
+          INNER JOIN sources AS source
+            ON source.id = facility.source_id
+          WHERE facility.operator_id = ${table.id}
+            AND facility.is_active = true
+            AND facility.verification_status = 'verified'
+            AND facility.publication_status = 'published'
+            AND source.is_active = true
+            AND source.verification_status = 'verified'
+        )
+      `,
     }),
   ],
 ).enableRLS();
@@ -236,7 +250,15 @@ export const smelterFacilities = pgTable(
       to: [anonRole, authenticatedRole],
       using: sql`
         ${table.isActive} = true
+        AND ${table.verificationStatus} = 'verified'
         AND ${table.publicationStatus} = 'published'
+        AND EXISTS (
+          SELECT 1
+          FROM sources AS source
+          WHERE source.id = ${table.sourceId}
+            AND source.is_active = true
+            AND source.verification_status = 'verified'
+        )
       `,
     }),
   ],
@@ -369,7 +391,15 @@ export const smelterFacilityOutputs = pgTable(
           WHERE
             smelter_facility.id = ${table.facilityId}
             AND smelter_facility.is_active = true
+            AND smelter_facility.verification_status = 'verified'
             AND smelter_facility.publication_status = 'published'
+            AND EXISTS (
+              SELECT 1
+              FROM sources AS source
+              WHERE source.id = smelter_facility.source_id
+                AND source.is_active = true
+                AND source.verification_status = 'verified'
+            )
         )
       `,
     }),
@@ -452,7 +482,16 @@ export const smelterFacilitySources = pgTable(
           WHERE
             smelter_facility.id = ${table.facilityId}
             AND smelter_facility.is_active = true
+            AND smelter_facility.verification_status = 'verified'
             AND smelter_facility.publication_status = 'published'
+            AND ${table.sourceId} IS NOT NULL
+            AND EXISTS (
+              SELECT 1
+              FROM sources AS source
+              WHERE source.id = ${table.sourceId}
+                AND source.is_active = true
+                AND source.verification_status = 'verified'
+            )
         )
       `,
     }),
@@ -532,6 +571,13 @@ export const smelterFacilityCatalog = pgView("smelter_facility_catalog", {
       ON facility_output.facility_id = smelter_facility.id
     INNER JOIN ${commodities} AS commodity
       ON commodity.id = facility_output.commodity_id
+    INNER JOIN ${sources} AS source
+      ON source.id = smelter_facility.source_id
+    WHERE smelter_facility.is_active = true
+      AND smelter_facility.verification_status = 'verified'
+      AND smelter_facility.publication_status = 'published'
+      AND source.is_active = true
+      AND source.verification_status = 'verified'
   `);
 
 export const smelterSummaryByCommodity = pgView(
@@ -556,6 +602,21 @@ export const smelterSummaryByCommodity = pgView(
 ).with({
   securityInvoker: true,
 }).as(sql`
+    WITH eligible_outputs AS (
+      SELECT
+        facility_output.*,
+        ROW_NUMBER() OVER (
+          PARTITION BY
+            facility_output.facility_id,
+            facility_output.commodity_id,
+            facility_output.output_capacity_unit_code
+          ORDER BY
+            facility_output.is_primary DESC,
+            facility_output.output_product,
+            facility_output.id
+        ) AS capacity_row
+      FROM ${smelterFacilityOutputs} AS facility_output
+    )
     SELECT
       commodity.id AS commodity_id,
       commodity.name AS commodity_name,
@@ -569,12 +630,20 @@ export const smelterSummaryByCommodity = pgView(
       ) AS operating_facility_count,
       SUM(facility_output.output_capacity_value) FILTER (
         WHERE facility_output.output_capacity_unit_code = 'metric_ton'
+          AND facility_output.capacity_row = 1
       ) AS known_annual_output_capacity_metric_ton
-    FROM ${smelterFacilityOutputs} AS facility_output
+    FROM eligible_outputs AS facility_output
     INNER JOIN ${smelterFacilities} AS smelter_facility
       ON smelter_facility.id = facility_output.facility_id
     INNER JOIN ${commodities} AS commodity
       ON commodity.id = facility_output.commodity_id
+    INNER JOIN ${sources} AS source
+      ON source.id = smelter_facility.source_id
+    WHERE smelter_facility.is_active = true
+      AND smelter_facility.verification_status = 'verified'
+      AND smelter_facility.publication_status = 'published'
+      AND source.is_active = true
+      AND source.verification_status = 'verified'
     GROUP BY
       commodity.id,
       commodity.name,

@@ -148,6 +148,13 @@
       "when": 1789018197301,
       "tag": "0020_intelligence-canonical-series",
       "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1789191524077,
+      "tag": "0021_economy-data-finalization",
+      "breakpoints": true
     }
   ]
 }
