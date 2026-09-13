@@ -346,6 +346,8 @@ type InvestmentSummary = {
   invalid_record_type_records: number;
   records_without_sources: number;
   source_records: number;
+  public_eligible_records: number;
+  public_complete_summaries: number;
   metrics_view_records: number;
   summary_view_records: number;
 };
@@ -367,6 +369,7 @@ type ExportSummary = {
   invalid_record_type_records: number;
   records_without_sources: number;
   source_records: number;
+  public_eligible_records: number;
   view_records: number;
 };
 
@@ -377,6 +380,8 @@ type SmelterSummary = {
   source_records: number;
   catalog_records: number;
   summary_records: number;
+  public_eligible_catalog_records: number;
+  public_eligible_summary_records: number;
   commodity_records: number;
   province_records: number;
   operating_facilities: number;
@@ -1245,6 +1250,44 @@ async function verifyInvestmentData(
         FROM public.mining_investment_sources
       ) AS source_records,
 
+      COUNT(*) FILTER (
+        WHERE
+          investment.verification_status = 'verified'
+          AND investment.publication_status = 'published'
+      )::integer AS public_eligible_records,
+
+      (
+        SELECT COUNT(*)::integer
+        FROM (
+          SELECT
+            eligible_investment.region_id,
+            eligible_investment.year,
+            eligible_investment.sector_code,
+            eligible_investment.currency_code,
+            eligible_investment.value_scale,
+            eligible_investment.record_type
+          FROM public.mining_investment_annual AS eligible_investment
+          WHERE
+            eligible_investment.verification_status = 'verified'
+            AND eligible_investment.publication_status = 'published'
+          GROUP BY
+            eligible_investment.region_id,
+            eligible_investment.year,
+            eligible_investment.sector_code,
+            eligible_investment.currency_code,
+            eligible_investment.value_scale,
+            eligible_investment.record_type
+          HAVING
+            COUNT(*) = 2
+            AND COUNT(*) FILTER (
+              WHERE eligible_investment.investment_origin = 'pma'
+            ) = 1
+            AND COUNT(*) FILTER (
+              WHERE eligible_investment.investment_origin = 'pmdn'
+            ) = 1
+        ) AS eligible_investment_summary
+      ) AS public_complete_summaries,
+
       (
         SELECT COUNT(*)::integer
         FROM public.mining_investment_annual_metrics
@@ -1401,33 +1444,34 @@ async function verifyInvestmentData(
     );
   }
 
-  if (summary.metrics_view_records !== expectedAnnualRecords) {
+  if (summary.metrics_view_records !== summary.public_eligible_records) {
     console.error(
       `[FAIL] mining_investment_annual_metrics: ` +
         `${summary.metrics_view_records} record, ` +
-        `diharapkan ${expectedAnnualRecords}`,
+        `diharapkan ${summary.public_eligible_records} record eligible publik`,
     );
 
     valid = false;
   } else {
     console.log(
       `[OK] mining_investment_annual_metrics: ` +
-        `${summary.metrics_view_records} record`,
+        `${summary.metrics_view_records} record eligible publik`,
     );
   }
 
-  if (summary.summary_view_records !== expectedInvestmentYears.length) {
+  if (summary.summary_view_records !== summary.public_complete_summaries) {
     console.error(
       `[FAIL] mining_investment_annual_summary: ` +
         `${summary.summary_view_records} record, ` +
-        `diharapkan ${expectedInvestmentYears.length}`,
+        `diharapkan ${summary.public_complete_summaries} ringkasan ` +
+        "PMA/PMDN eligible publik",
     );
 
     valid = false;
   } else {
     console.log(
       `[OK] mining_investment_annual_summary: ` +
-        `${summary.summary_view_records} record`,
+        `${summary.summary_view_records} ringkasan PMA/PMDN eligible publik`,
     );
   }
 
@@ -1543,6 +1587,12 @@ async function verifyExportData(
         SELECT COUNT(*)::integer
         FROM public.minerba_export_sources
       ) AS source_records,
+
+      COUNT(*) FILTER (
+        WHERE
+          export_record.verification_status = 'verified'
+          AND export_record.publication_status = 'published'
+      )::integer AS public_eligible_records,
 
       (
         SELECT COUNT(*)::integer
@@ -1742,18 +1792,18 @@ async function verifyExportData(
     );
   }
 
-  if (summary.view_records !== expectedExportRecords) {
+  if (summary.view_records !== summary.public_eligible_records) {
     console.error(
       `[FAIL] minerba_exports_annual_metrics: ` +
         `${summary.view_records} record, ` +
-        `diharapkan ${expectedExportRecords}`,
+        `diharapkan ${summary.public_eligible_records} record eligible publik`,
     );
 
     valid = false;
   } else {
     console.log(
       `[OK] minerba_exports_annual_metrics: ` +
-        `${summary.view_records} record`,
+        `${summary.view_records} record eligible publik`,
     );
   }
 
@@ -1811,6 +1861,34 @@ async function verifySmelterData(
         SELECT COUNT(*)::integer
         FROM public.smelter_summary_by_commodity
       ) AS summary_records,
+      (
+        SELECT COUNT(*)::integer
+        FROM public.smelter_facility_outputs AS eligible_output
+        INNER JOIN public.smelter_facilities AS eligible_facility
+          ON eligible_facility.id = eligible_output.facility_id
+        INNER JOIN public.sources AS eligible_source
+          ON eligible_source.id = eligible_facility.source_id
+        WHERE
+          eligible_facility.is_active = true
+          AND eligible_facility.verification_status = 'verified'
+          AND eligible_facility.publication_status = 'published'
+          AND eligible_source.is_active = true
+          AND eligible_source.verification_status = 'verified'
+      ) AS public_eligible_catalog_records,
+      (
+        SELECT COUNT(DISTINCT eligible_output.commodity_id)::integer
+        FROM public.smelter_facility_outputs AS eligible_output
+        INNER JOIN public.smelter_facilities AS eligible_facility
+          ON eligible_facility.id = eligible_output.facility_id
+        INNER JOIN public.sources AS eligible_source
+          ON eligible_source.id = eligible_facility.source_id
+        WHERE
+          eligible_facility.is_active = true
+          AND eligible_facility.verification_status = 'verified'
+          AND eligible_facility.publication_status = 'published'
+          AND eligible_source.is_active = true
+          AND eligible_source.verification_status = 'verified'
+      ) AS public_eligible_summary_records,
       (
         SELECT COUNT(DISTINCT facility_output.commodity_id)::integer
         FROM public.smelter_facility_outputs AS facility_output
@@ -1973,29 +2051,33 @@ async function verifySmelterData(
     );
   }
 
-  if (summary.catalog_records !== expectedSmelterFacilityRecords) {
+  if (summary.catalog_records !== summary.public_eligible_catalog_records) {
     console.error(
       `[FAIL] smelter_facility_catalog: ${summary.catalog_records} record, ` +
-        `diharapkan ${expectedSmelterFacilityRecords}`,
+        `diharapkan ${summary.public_eligible_catalog_records} output ` +
+        "eligible publik",
     );
 
     valid = false;
   } else {
     console.log(
-      `[OK] smelter_facility_catalog: ${summary.catalog_records} record`,
+      `[OK] smelter_facility_catalog: ${summary.catalog_records} ` +
+        "output eligible publik",
     );
   }
 
-  if (summary.summary_records !== expectedSmelterCommodityRecords) {
+  if (summary.summary_records !== summary.public_eligible_summary_records) {
     console.error(
       `[FAIL] smelter_summary_by_commodity: ${summary.summary_records} ` +
-        `record, diharapkan ${expectedSmelterCommodityRecords}`,
+        `record, diharapkan ${summary.public_eligible_summary_records} ` +
+        "komoditas eligible publik",
     );
 
     valid = false;
   } else {
     console.log(
-      `[OK] smelter_summary_by_commodity: ${summary.summary_records} record`,
+      `[OK] smelter_summary_by_commodity: ${summary.summary_records} ` +
+        "komoditas eligible publik",
     );
   }
 

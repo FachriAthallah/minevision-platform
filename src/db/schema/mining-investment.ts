@@ -194,7 +194,7 @@ export const miningInvestmentAnnual = pgTable(
       `,
     }),
   ],
-);
+).enableRLS();
 
 export const miningInvestmentSources = pgTable(
   "mining_investment_sources",
@@ -262,7 +262,7 @@ export const miningInvestmentSources = pgTable(
       `,
     }),
   ],
-);
+).enableRLS();
 
 export const miningInvestmentAnnualMetrics = pgView(
   "mining_investment_annual_metrics",
@@ -347,7 +347,13 @@ export const miningInvestmentAnnualMetrics = pgView(
 ).with({
   securityInvoker: true,
 }).as(sql`
-    WITH row_metrics AS (
+    WITH eligible AS (
+      SELECT investment.*
+      FROM mining_investment_annual AS investment
+      WHERE investment.verification_status = 'verified'
+        AND investment.publication_status = 'published'
+    ),
+    row_metrics AS (
       SELECT
         investment.id,
         investment.region_id,
@@ -399,7 +405,7 @@ export const miningInvestmentAnnualMetrics = pgView(
             investment.record_type
         ) AS annual_total_project_count
 
-      FROM mining_investment_annual AS investment
+      FROM eligible AS investment
     )
 
     SELECT
@@ -510,7 +516,13 @@ export const miningInvestmentAnnualSummary = pgView(
 ).with({
   securityInvoker: true,
 }).as(sql`
-    WITH annual_summary AS (
+    WITH eligible AS (
+      SELECT investment.*
+      FROM mining_investment_annual AS investment
+      WHERE investment.verification_status = 'verified'
+        AND investment.publication_status = 'published'
+    ),
+    annual_summary AS (
       SELECT
         investment.region_id,
         investment.year,
@@ -550,7 +562,7 @@ export const miningInvestmentAnnualSummary = pgView(
           investment.publication_status = 'published'
         ) AS is_fully_published
 
-      FROM mining_investment_annual AS investment
+      FROM eligible AS investment
 
       GROUP BY
         investment.region_id,
@@ -559,6 +571,10 @@ export const miningInvestmentAnnualSummary = pgView(
         investment.currency_code,
         investment.value_scale,
         investment.record_type
+
+      HAVING COUNT(*) = 2
+        AND COUNT(*) FILTER (WHERE investment.investment_origin = 'pma') = 1
+        AND COUNT(*) FILTER (WHERE investment.investment_origin = 'pmdn') = 1
     ),
 
     summary_with_previous AS (

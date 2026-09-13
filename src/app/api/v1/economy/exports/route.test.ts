@@ -19,7 +19,7 @@ describe("GET /api/v1/economy/exports", () => {
     getPublicExportsMock.mockResolvedValue([]);
 
     const request = new NextRequest(
-      "http://localhost/api/v1/economy/exports?commodity=tembaga&origin=id&availability=reported&fromYear=2019&toYear=2025",
+      "http://localhost/api/v1/economy/exports?commodity=tembaga&origin=id&availability=reported&productForm=concentrate&fromYear=2019&toYear=2025",
     );
     const response = await GET(request);
     const body = await response.json();
@@ -30,6 +30,7 @@ describe("GET /api/v1/economy/exports", () => {
       commodity: "tembaga",
       origin: "ID",
       availability: "reported",
+      productForm: "concentrate",
       fromYear: 2019,
       toYear: 2025,
     });

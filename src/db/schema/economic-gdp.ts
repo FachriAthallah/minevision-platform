@@ -186,7 +186,7 @@ export const economicGdpAnnual = pgTable(
       `,
     }),
   ],
-);
+).enableRLS();
 
 export const economicGdpSources = pgTable(
   "economic_gdp_sources",
@@ -253,7 +253,7 @@ export const economicGdpSources = pgTable(
       `,
     }),
   ],
-);
+).enableRLS();
 
 export const economicGdpAnnualMetrics = pgView("economic_gdp_annual_metrics", {
   id: uuid("id"),
@@ -324,7 +324,13 @@ export const economicGdpAnnualMetrics = pgView("economic_gdp_annual_metrics", {
 }).with({
   securityInvoker: true,
 }).as(sql`
-    WITH annual_values AS (
+    WITH eligible AS (
+      SELECT gdp.*
+      FROM economic_gdp_annual AS gdp
+      WHERE gdp.verification_status = 'verified'
+        AND gdp.publication_status = 'published'
+    ),
+    annual_values AS (
       SELECT
         gdp.*,
         LAG(gdp.mining_quarrying_gdp_value) OVER (
@@ -335,7 +341,7 @@ export const economicGdpAnnualMetrics = pgView("economic_gdp_annual_metrics", {
             gdp.record_type
           ORDER BY gdp.year
         ) AS previous_mining_quarrying_gdp_value
-      FROM economic_gdp_annual AS gdp
+      FROM eligible AS gdp
     )
     SELECT
       annual_values.id,

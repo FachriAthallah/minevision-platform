@@ -6,6 +6,14 @@ export type TradeDataAvailability =
   | "reported_zero"
   | "estimated";
 
+export type ExportProductForm =
+  | "ore"
+  | "concentrate"
+  | "refined_metal"
+  | "processed_product"
+  | "coal"
+  | "other";
+
 export type PublicExportSource = {
   label: string | null;
   pageReference: string | null;
@@ -26,6 +34,7 @@ export type PublicExportRecord = {
     symbol: string | null;
     sourceLabel: string;
     hsCode: string | null;
+    productForm: ExportProductForm | null;
   };
   origin: {
     code: string;

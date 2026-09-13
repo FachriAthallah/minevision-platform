@@ -28,6 +28,15 @@ export const exportCoverageSchema = z.enum([
   "national_total",
 ]);
 
+export const exportProductFormSchema = z.enum([
+  "ore",
+  "concentrate",
+  "refined_metal",
+  "processed_product",
+  "coal",
+  "other",
+]);
+
 export const exportQuerySchema = z
   .object({
     commodity: z
@@ -44,6 +53,7 @@ export const exportQuerySchema = z
     destination: regionCodeSchema.optional(),
     availability: tradeDataAvailabilitySchema.optional(),
     coverage: exportCoverageSchema.optional(),
+    productForm: exportProductFormSchema.optional(),
     fromYear: yearSchema.optional(),
     toYear: yearSchema.optional(),
   })

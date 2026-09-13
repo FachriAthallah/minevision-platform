@@ -870,6 +870,24 @@ npm run build
 
 ## 25. API Rules
 
+### Economy public endpoints
+
+- `GET /api/v1/economy/gdp` hanya membaca record `verified/published`.
+  Nilai tahun-ke-tahun adalah perubahan nominal PDB Pertambangan ADHB dan
+  menggunakan field `nominalYoyChangePercentage`; bukan pertumbuhan ekonomi riil.
+- `GET /api/v1/economy/investment` hanya membaca record `verified/published`.
+  Ringkasan total tahunan hanya tersedia apabila PMA dan PMDN pada natural key
+  yang sama sama-sama lengkap.
+- `GET /api/v1/economy/exports` menerima filter opsional `productForm` dengan
+  nilai `ore`, `concentrate`, `refined_metal`, `processed_product`, `coal`, atau
+  `other`. Response menyertakan `productForm`; record dengan klasifikasi belum
+  terverifikasi tetap draft dan tidak dikembalikan kepada publik.
+- Query dan view Economy memfilter `verified/published` sebelum kalkulasi
+  `LAG`, total, dan agregasi. Data `not_reported` tetap `null` dan tidak dianggap
+  nol.
+- Katalog smelter publik mensyaratkan fasilitas `verified/published` serta sumber
+  kanonik yang aktif dan verified.
+
 ### Career public endpoints (implemented)
 
 - `GET /api/v1/careers`: optional `q` (trimmed, maximum 100 characters).

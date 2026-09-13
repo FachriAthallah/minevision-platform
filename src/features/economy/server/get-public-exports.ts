@@ -40,6 +40,7 @@ export async function getPublicExports(
       year: minerbaExportsAnnual.year,
       sourceCommodityLabel: minerbaExportsAnnual.sourceCommodityLabel,
       hsCode: minerbaExportsAnnual.hsCode,
+      productForm: minerbaExportsAnnual.productForm,
       coverageType: minerbaExportsAnnual.coverageType,
       exportVolume: minerbaExportsAnnual.exportVolume,
       volumeUnitCode: minerbaExportsAnnual.volumeUnitCode,
@@ -93,6 +94,9 @@ export async function getPublicExports(
           : undefined,
         query.coverage !== undefined
           ? eq(minerbaExportsAnnual.coverageType, query.coverage)
+          : undefined,
+        query.productForm !== undefined
+          ? eq(minerbaExportsAnnual.productForm, query.productForm)
           : undefined,
         query.fromYear !== undefined
           ? gte(minerbaExportsAnnual.year, query.fromYear)
@@ -188,6 +192,7 @@ export async function getPublicExports(
       symbol: record.commoditySymbol,
       sourceLabel: record.sourceCommodityLabel,
       hsCode: record.hsCode,
+      productForm: record.productForm,
     },
     origin: {
       code: record.originRegionCode,

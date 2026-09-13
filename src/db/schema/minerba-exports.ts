@@ -22,6 +22,7 @@ import { commodities } from "./commodities";
 import {
   createTimestampColumns,
   dataRecordTypeEnum,
+  exportProductFormEnum,
   publicationStatusEnum,
   statisticalDataStatusEnum,
   tradeDataAvailabilityEnum,
@@ -51,6 +52,8 @@ export const minerbaExportsAnnual = pgTable(
     hsCode: varchar("hs_code", {
       length: 20,
     }),
+
+    productForm: exportProductFormEnum("product_form"),
 
     coverageType: varchar("coverage_type", {
       length: 40,
@@ -186,8 +189,9 @@ export const minerbaExportsAnnual = pgTable(
       table.destinationRegionId,
       table.year,
       table.hsCode,
+      table.productForm,
       table.recordType,
-    ),
+    ).nullsNotDistinct(),
 
     check(
       "minerba_exports_annual_coverage_type_check",
@@ -264,6 +268,50 @@ export const minerbaExportsAnnual = pgTable(
     ),
 
     check(
+      "minerba_exports_annual_availability_payload_check",
+      sql`
+        (
+          ${table.dataAvailability} = 'reported'
+          AND ${table.destinationRegionId} IS NOT NULL
+          AND ${table.exportVolume} IS NOT NULL
+          AND ${table.volumeUnitCode} IS NOT NULL
+          AND ${table.volumeScale} IS NOT NULL
+          AND ${table.fobValue} IS NOT NULL
+          AND ${table.fobValueScale} IS NOT NULL
+        )
+        OR (
+          ${table.dataAvailability} = 'reported_zero'
+          AND ${table.destinationRegionId} IS NOT NULL
+          AND ${table.exportVolume} IS NOT NULL
+          AND ${table.volumeUnitCode} IS NOT NULL
+          AND ${table.volumeScale} IS NOT NULL
+          AND ${table.fobValue} IS NOT NULL
+          AND ${table.fobValueScale} IS NOT NULL
+          AND ${table.exportVolume} = 0
+          AND ${table.fobValue} = 0
+        )
+        OR (
+          ${table.dataAvailability} = 'not_reported'
+          AND ${table.exportVolume} IS NULL
+          AND ${table.volumeUnitCode} IS NULL
+          AND ${table.volumeScale} IS NULL
+          AND ${table.fobValue} IS NULL
+          AND ${table.fobValueScale} IS NULL
+        )
+        OR (
+          ${table.dataAvailability} = 'estimated'
+          AND ${table.destinationRegionId} IS NOT NULL
+          AND ${table.exportVolume} IS NOT NULL
+          AND ${table.volumeUnitCode} IS NOT NULL
+          AND ${table.volumeScale} IS NOT NULL
+          AND ${table.fobValue} IS NOT NULL
+          AND ${table.fobValueScale} IS NOT NULL
+          AND NULLIF(BTRIM(${table.notes}), '') IS NOT NULL
+        )
+      `,
+    ),
+
+    check(
       "minerba_exports_annual_volume_check",
       sql`
         ${table.exportVolume} IS NULL
@@ -299,7 +347,7 @@ export const minerbaExportsAnnual = pgTable(
       `,
     }),
   ],
-);
+).enableRLS();
 
 export const minerbaExportSources = pgTable(
   "minerba_export_sources",
@@ -365,7 +413,7 @@ export const minerbaExportSources = pgTable(
       `,
     }),
   ],
-);
+).enableRLS();
 
 export const minerbaExportsAnnualMetrics = pgView(
   "minerba_exports_annual_metrics",
@@ -411,6 +459,8 @@ export const minerbaExportsAnnualMetrics = pgView(
     hsCode: varchar("hs_code", {
       length: 20,
     }),
+
+    productForm: exportProductFormEnum("product_form"),
 
     coverageType: varchar("coverage_type", {
       length: 40,
@@ -483,7 +533,13 @@ export const minerbaExportsAnnualMetrics = pgView(
 ).with({
   securityInvoker: true,
 }).as(sql`
-    WITH normalized AS (
+    WITH eligible AS (
+      SELECT export_record.*
+      FROM minerba_exports_annual AS export_record
+      WHERE export_record.verification_status = 'verified'
+        AND export_record.publication_status = 'published'
+    ),
+    normalized AS (
       SELECT
         export_record.*,
 
@@ -511,7 +567,7 @@ export const minerbaExportsAnnualMetrics = pgView(
           ELSE NULL::numeric
         END AS normalized_fob_value_usd
 
-      FROM minerba_exports_annual AS export_record
+      FROM eligible AS export_record
     ),
 
     with_previous AS (
@@ -524,6 +580,8 @@ export const minerbaExportsAnnualMetrics = pgView(
             normalized.origin_region_id,
             normalized.destination_region_id,
             normalized.hs_code,
+            normalized.product_form,
+            normalized.coverage_type,
             normalized.record_type
           ORDER BY normalized.year
         ) AS previous_fob_value_usd
@@ -545,6 +603,7 @@ export const minerbaExportsAnnualMetrics = pgView(
       with_previous.year,
       with_previous.source_commodity_label,
       with_previous.hs_code,
+      with_previous.product_form,
       with_previous.coverage_type,
       with_previous.export_volume,
       with_previous.volume_unit_code,

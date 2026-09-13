@@ -90,6 +90,15 @@ export const tradeDataAvailabilityEnum = pgEnum("trade_data_availability", [
   "estimated",
 ]);
 
+export const exportProductFormEnum = pgEnum("export_product_form", [
+  "ore",
+  "concentrate",
+  "refined_metal",
+  "processed_product",
+  "coal",
+  "other",
+]);
+
 export const smelterFacilityTypeEnum = pgEnum("smelter_facility_type", [
   "smelter",
   "refinery",

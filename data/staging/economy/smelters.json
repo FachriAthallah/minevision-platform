@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1.0",
+  "dataset": "smelters",
+  "records": [
+    {
+      "facilityCode": "S001", "facilityName": "Fasilitas Pengolahan Terintegrasi Sorowako", "facilityType": "integrated_processing", "operatorName": "PT Vale Indonesia Tbk", "commoditySlug": "nikel", "inputMaterial": "Bijih nikel saprolit", "outputProduct": "Nickel Matte", "provinceRegionSlug": "sulawesi-selatan", "cityRegencyName": "Kabupaten Luwu Timur", "reportedOperationYear": 1978, "commissioningYear": null, "commercialOperationYear": 1978, "canonicalSourceSlug": "industry-vale-indonesia-reports", "verificationStatus": "verified", "publicationStatus": "published", "expectedState": { "sourceSlug": null, "verificationStatus": "verified", "publicationStatus": "published" }, "holdReason": null
+    },
+    {
+      "facilityCode": "S002", "facilityName": "Pabrik Feronikel Pomalaa", "facilityType": "smelter", "operatorName": "PT Aneka Tambang Tbk", "commoditySlug": "nikel", "inputMaterial": "Bijih nikel", "outputProduct": "Ferronickel", "provinceRegionSlug": "sulawesi-tenggara", "cityRegencyName": "Kabupaten Kolaka", "reportedOperationYear": 1976, "commissioningYear": null, "commercialOperationYear": 1976, "canonicalSourceSlug": "kementerian-esdm", "verificationStatus": "verified", "publicationStatus": "published", "expectedState": { "sourceSlug": "kementerian-esdm", "verificationStatus": "verified", "publicationStatus": "published" }, "holdReason": null
+    },
+    {
+      "facilityCode": "S003", "facilityName": "Chemical Grade Alumina Tayan", "facilityType": "refinery", "operatorName": "PT Indonesia Chemical Alumina", "commoditySlug": "bauksit", "inputMaterial": "Bauksit", "outputProduct": "Chemical Grade Alumina", "provinceRegionSlug": "kalimantan-barat", "cityRegencyName": "Kabupaten Sanggau", "reportedOperationYear": 2015, "commissioningYear": 2014, "commercialOperationYear": 2015, "canonicalSourceSlug": "kementerian-esdm", "verificationStatus": "verified", "publicationStatus": "published", "expectedState": { "sourceSlug": "kementerian-esdm", "verificationStatus": "verified", "publicationStatus": "published" }, "holdReason": null
+    },
+    {
+      "facilityCode": "S004", "facilityName": "Smelter Grade Alumina Refinery Ketapang", "facilityType": "refinery", "operatorName": "PT Well Harvest Winning Alumina Refinery", "commoditySlug": "bauksit", "inputMaterial": "Bauksit", "outputProduct": "Smelter Grade Alumina", "provinceRegionSlug": "kalimantan-barat", "cityRegencyName": "Kabupaten Ketapang", "reportedOperationYear": 2016, "commissioningYear": null, "commercialOperationYear": 2016, "canonicalSourceSlug": "economy-whw-profile", "verificationStatus": "verified", "publicationStatus": "published", "expectedState": { "sourceSlug": null, "verificationStatus": "verified", "publicationStatus": "published" }, "holdReason": null
+    },
+    {
+      "facilityCode": "S005", "facilityName": "Smelter Tembaga Gresik", "facilityType": "smelter", "operatorName": "PT Smelting", "commoditySlug": "tembaga", "inputMaterial": "Konsentrat tembaga", "outputProduct": "Katoda tembaga", "provinceRegionSlug": "jawa-timur", "cityRegencyName": "Kabupaten Gresik", "reportedOperationYear": 1996, "commissioningYear": 1998, "commercialOperationYear": 1999, "canonicalSourceSlug": "economy-pt-smelting-milestone", "verificationStatus": "verified", "publicationStatus": "published", "expectedState": { "sourceSlug": null, "verificationStatus": "verified", "publicationStatus": "published" }, "holdReason": null
+    },
+    {
+      "facilityCode": "S006", "facilityName": "AMMAN Copper Smelter", "facilityType": "smelter", "operatorName": "PT Amman Mineral Industri", "commoditySlug": "tembaga", "inputMaterial": "Konsentrat tembaga", "outputProduct": "Katoda tembaga", "provinceRegionSlug": "nusa-tenggara-barat", "cityRegencyName": "Kabupaten Sumbawa Barat", "reportedOperationYear": 2024, "commissioningYear": 2024, "commercialOperationYear": 2025, "canonicalSourceSlug": "industry-amman-mineral-reports", "verificationStatus": "verified", "publicationStatus": "published", "expectedState": { "sourceSlug": null, "verificationStatus": "verified", "publicationStatus": "published" }, "holdReason": null
+    },
+    {
+      "facilityCode": "S007", "facilityName": "PT Freeport Indonesia Smelter Manyar", "facilityType": "smelter", "operatorName": "PT Freeport Indonesia", "commoditySlug": "tembaga", "inputMaterial": "Konsentrat tembaga", "outputProduct": "Katoda tembaga", "provinceRegionSlug": "jawa-timur", "cityRegencyName": "Kabupaten Gresik", "reportedOperationYear": 2024, "commissioningYear": 2024, "commercialOperationYear": 2024, "canonicalSourceSlug": "industry-freeport-indonesia-reports", "verificationStatus": "verified", "publicationStatus": "published", "expectedState": { "sourceSlug": null, "verificationStatus": "verified", "publicationStatus": "published" }, "holdReason": null
+    },
+    {
+      "facilityCode": "S008", "facilityName": "Smelter Timah Kundur", "facilityType": "smelter", "operatorName": "PT Timah Tbk", "commoditySlug": "timah", "inputMaterial": "Konsentrat timah", "outputProduct": "Logam timah", "provinceRegionSlug": "kepulauan-riau", "cityRegencyName": "Kabupaten Karimun", "reportedOperationYear": 2023, "commissioningYear": null, "commercialOperationYear": null, "canonicalSourceSlug": null, "verificationStatus": "pending", "publicationStatus": "draft", "expectedState": { "sourceSlug": null, "verificationStatus": "pending", "publicationStatus": "draft" }, "holdReason": "Sumber resmi kanonik dan kronologi operasi belum terverifikasi."
+    },
+    {
+      "facilityCode": "S009", "facilityName": "Smelter Timah Muntok", "facilityType": "smelter", "operatorName": "PT Timah Tbk", "commoditySlug": "timah", "inputMaterial": "Konsentrat timah", "outputProduct": "Logam timah", "provinceRegionSlug": "kepulauan-bangka-belitung", "cityRegencyName": "Kabupaten Bangka Barat", "reportedOperationYear": 1990, "commissioningYear": null, "commercialOperationYear": null, "canonicalSourceSlug": null, "verificationStatus": "pending", "publicationStatus": "draft", "expectedState": { "sourceSlug": null, "verificationStatus": "pending", "publicationStatus": "draft" }, "holdReason": "Sumber resmi kanonik dan kronologi operasi belum terverifikasi."
+    }
+  ]
+}

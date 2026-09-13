@@ -1079,6 +1079,7 @@ Data ekspor Minerba tahunan.
 | `year`                   | `smallint`                |   No | —                     |
 | `source_commodity_label` | `varchar(160)`            |   No | —                     |
 | `hs_code`                | `varchar(20)`             |  Yes | —                     |
+| `product_form`           | `export_product_form`     |  Yes | —                     |
 | `coverage_type`          | `varchar(40)`             |   No | `destination_country` |
 | `export_volume`          | `numeric(24,6)`           |  Yes | —                     |
 | `volume_unit_code`       | `varchar(50)`             |  Yes | —                     |
@@ -1121,8 +1122,13 @@ Constraints:
   - `thousand`
   - `million`
   - `billion`
-- Unique:
-  `(commodity_id, origin_region_id, destination_region_id, year, hs_code, record_type)`
+- Unique `NULLS NOT DISTINCT`:
+  `(commodity_id, origin_region_id, destination_region_id, year, hs_code, product_form, record_type)`
+
+`product_form` memisahkan `ore`, `concentrate`, `refined_metal`,
+`processed_product`, `coal`, dan `other`. Nilai legacy/draft boleh tetap `NULL`
+sampai klasifikasi produk dan HS code telah diverifikasi; status tersebut tidak
+boleh dipromosikan sebagai data publik.
 
 Availability constraints:
 
@@ -1154,7 +1160,9 @@ Menandakan sumber secara eksplisit melaporkan nilai nol. Status ini berbeda deng
 
 ### `estimated`
 
-Digunakan jika nilai diperoleh melalui proses estimasi yang dapat dipertanggungjawabkan.
+Digunakan jika nilai diperoleh melalui proses estimasi yang dapat
+dipertanggungjawabkan. Payload berat, FOB, unit, tujuan, dan catatan metodologi
+wajib lengkap.
 
 Public RLS:
 

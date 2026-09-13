@@ -62,6 +62,7 @@ export async function getPublicSmelters(
       commodities,
       eq(smelterFacilityOutputs.commodityId, commodities.id),
     )
+    .innerJoin(sources, eq(smelterFacilities.sourceId, sources.id))
     .where(
       and(
         eq(smelterFacilities.isActive, true),
@@ -69,6 +70,8 @@ export async function getPublicSmelters(
         eq(smelterFacilities.publicationStatus, "published"),
         eq(smelterOperators.isActive, true),
         eq(commodities.isActive, true),
+        eq(sources.isActive, true),
+        eq(sources.verificationStatus, "verified"),
         query.commodity !== undefined
           ? eq(commodities.slug, query.commodity)
           : undefined,

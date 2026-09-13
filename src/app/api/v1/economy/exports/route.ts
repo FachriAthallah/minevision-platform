@@ -15,6 +15,7 @@ export async function GET(request: NextRequest) {
     destination: searchParams.get("destination") ?? undefined,
     availability: searchParams.get("availability") ?? undefined,
     coverage: searchParams.get("coverage") ?? undefined,
+    productForm: searchParams.get("productForm") ?? undefined,
     fromYear: searchParams.get("fromYear") ?? undefined,
     toYear: searchParams.get("toYear") ?? undefined,
   });
