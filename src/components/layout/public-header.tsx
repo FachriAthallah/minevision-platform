@@ -60,6 +60,7 @@ export function PublicHeader() {
                 alt=""
                 width={34}
                 height={34}
+                loading="eager"
                 className="h-8 w-8 object-contain sm:h-9 sm:w-9"
               />
 
@@ -68,6 +69,7 @@ export function PublicHeader() {
                 alt="MineVision"
                 width={712}
                 height={150}
+                loading="eager"
                 style={{ height: "auto" }}
                 className="h-auto w-[112px] object-contain sm:w-32"
               />

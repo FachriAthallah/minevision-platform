@@ -1222,8 +1222,10 @@ async function verifyInvestmentData(
 
       COUNT(*) FILTER (
         WHERE
-          investment.verification_status <> 'pending'
-          OR investment.publication_status <> 'draft'
+          NOT (
+            (investment.verification_status = 'pending' AND investment.publication_status = 'draft')
+            OR (investment.verification_status = 'verified' AND investment.publication_status IN ('draft', 'published'))
+          )
       )::integer AS invalid_status_records,
 
       COUNT(*) FILTER (
@@ -1389,12 +1391,12 @@ async function verifyInvestmentData(
   if (summary.invalid_status_records > 0) {
     console.error(
       `[FAIL] ${summary.invalid_status_records} record investasi ` +
-        "tidak berstatus pending dan draft",
+        "mempunyai kombinasi verification/publication status yang tidak aman",
     );
 
     valid = false;
   } else {
-    console.log("[OK] Seluruh data investasi masih pending dan draft");
+    console.log("[OK] Seluruh status investasi mengikuti workflow pending/draft atau verified draft/published");
   }
 
   if (summary.invalid_data_status_records > 0) {
@@ -1561,8 +1563,10 @@ async function verifyExportData(
 
       COUNT(*) FILTER (
         WHERE
-          export_record.verification_status <> 'pending'
-          OR export_record.publication_status <> 'draft'
+          NOT (
+            (export_record.verification_status = 'pending' AND export_record.publication_status = 'draft')
+            OR (export_record.verification_status = 'verified' AND export_record.publication_status IN ('draft', 'published'))
+          )
       )::integer AS invalid_status_records,
 
       COUNT(*) FILTER (
@@ -1733,12 +1737,12 @@ async function verifyExportData(
   if (summary.invalid_status_records > 0) {
     console.error(
       `[FAIL] ${summary.invalid_status_records} record ekspor ` +
-        "tidak berstatus pending dan draft",
+        "mempunyai kombinasi verification/publication status yang tidak aman",
     );
 
     valid = false;
   } else {
-    console.log("[OK] Seluruh data ekspor masih pending dan draft");
+    console.log("[OK] Seluruh status ekspor mengikuti workflow pending/draft atau verified draft/published");
   }
 
   if (summary.invalid_data_status_records !== expectedNonFinalExportRecords) {

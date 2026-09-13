@@ -53,7 +53,7 @@ Layout yang tersedia di Figma saat ini mencakup:
 - Intelligence — Produksi.
 - Intelligence — Harga.
 
-Halaman Economy belum memiliki layout khusus. Layout Economy akan dikembangkan menggunakan DNA visual yang sama dengan halaman Intelligence dan Industry.
+Halaman Economy menggunakan layout publik khusus dengan DNA visual Intelligence dan Education: hero ringkas, navigasi data responsif, kartu metrik, grafik, tabel, sumber, serta empty state yang mempertahankan batas publikasi data.
 
 Variasi Home yang menampilkan hero tanpa global header tidak menjadi target implementasi. Global header tetap wajib terlihat agar pengguna dapat berpindah modul tanpa kembali melalui jalur tidak langsung.
 

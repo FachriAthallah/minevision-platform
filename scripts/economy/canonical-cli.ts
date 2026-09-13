@@ -13,6 +13,7 @@ import {
   stableEconomyValue,
   type EconomyCorrection,
   type EconomyInsert,
+  type EconomyRecordCorrection,
   type EconomyPromotionPlan,
   type EconomySnapshot,
   type EconomyTransaction,
@@ -104,6 +105,50 @@ async function correctFacilities(tx: postgres.TransactionSql, corrections: Econo
   }
 }
 
+async function correctInvestments(tx: postgres.TransactionSql, corrections: EconomyRecordCorrection[]) {
+  for (const correction of corrections) {
+    const updated = await tx`
+      update mining_investment_annual
+      set investment_value = ${correction.target.investment_value as string}::numeric,
+          project_count = ${correction.target.project_count as number | null},
+          verification_status = ${correction.target.verification_status as string}::verification_status,
+          notes = ${correction.target.notes as string},
+          metadata = ${tx.json(correction.target.metadata as postgres.JSONValue)},
+          updated_at = now()
+      where id = ${correction.id}::uuid
+        and investment_value = ${correction.expected.investment_value as string}::numeric
+        and project_count is not distinct from ${correction.expected.project_count as number | null}
+        and verification_status = ${correction.expected.verification_status as string}::verification_status
+        and publication_status = ${correction.expected.publication_status as string}::publication_status
+      returning id
+    `;
+    if (updated.length !== 1) throw new Error(`Fingerprint investasi ${correction.key} berubah; koreksi dibatalkan`);
+  }
+}
+
+async function correctExports(tx: postgres.TransactionSql, corrections: EconomyRecordCorrection[]) {
+  for (const correction of corrections) {
+    const updated = await tx`
+      update minerba_exports_annual
+      set source_commodity_label = ${correction.target.source_commodity_label as string},
+          product_form = ${correction.target.product_form as string}::export_product_form,
+          fob_value = ${correction.target.fob_value as string}::numeric,
+          verification_status = ${correction.target.verification_status as string}::verification_status,
+          notes = ${correction.target.notes as string},
+          metadata = ${tx.json(correction.target.metadata as postgres.JSONValue)},
+          updated_at = now()
+      where id = ${correction.id}::uuid
+        and source_commodity_label = ${correction.expected.source_commodity_label as string}
+        and fob_value is not distinct from ${correction.expected.fob_value as string | null}::numeric
+        and product_form is not distinct from ${correction.expected.product_form as string | null}::export_product_form
+        and verification_status = ${correction.expected.verification_status as string}::verification_status
+        and publication_status = ${correction.expected.publication_status as string}::publication_status
+      returning id
+    `;
+    if (updated.length !== 1) throw new Error(`Fingerprint ekspor ${correction.key} berubah; koreksi dibatalkan`);
+  }
+}
+
 function printValidationIssues(result: Awaited<ReturnType<typeof loadEconomyImport>>) {
   if (result.success) return;
   for (const issue of result.issues) console.error(`${issue.filePath}: ${issue.path} [${issue.code}] ${issue.message}`);
@@ -135,6 +180,8 @@ export async function runEconomyCli(mode: Mode) {
             },
             insert: (rows) => insertBatches(tx, rows),
             correctFacilities: (rows) => correctFacilities(tx, rows),
+            correctInvestments: (rows) => correctInvestments(tx, rows),
+            correctExports: (rows) => correctExports(tx, rows),
           };
           return work(transaction);
         }),
@@ -154,7 +201,7 @@ export async function runEconomyCli(mode: Mode) {
       const after = await readEconomySnapshot(tx);
       const issues = [...before.issues, ...plan.issues, ...promotion.issues];
       if (fingerprint(before.data) !== fingerprint(after.data)) issues.push("Fingerprint database berubah di transaksi read-only");
-      if (mode === "verify" && (plan.inserts.length || plan.corrections.length)) issues.push("Dataset Economy belum selesai diimpor/dikoreksi");
+      if (mode === "verify" && (plan.inserts.length || plan.corrections.length || plan.investmentCorrections.length || plan.exportCorrections.length)) issues.push("Dataset Economy belum selesai diimpor/dikoreksi");
       report = {
         mode,
         transaction: "READ ONLY / ROLLBACK",
@@ -171,12 +218,12 @@ export async function runEconomyCli(mode: Mode) {
               ? `${entry.row.economic_gdp_id}:${entry.row.source_id}`
               : entry.row.id,
         })),
-        proposedCorrections: { smelterSources: plan.corrections.length },
-        proposedCorrectionRecords: plan.corrections.map((entry) => ({
-          facilityCode: entry.facilityCode,
-          fromSourceSlug: entry.expectedSourceSlug,
-          toSourceSlug: entry.canonicalSourceSlug,
-        })),
+        proposedCorrections: { investments: plan.investmentCorrections.length, exports: plan.exportCorrections.length, smelterSources: plan.corrections.length },
+        proposedCorrectionRecords: {
+          investments: plan.investmentCorrections.map((entry) => entry.key),
+          exports: plan.exportCorrections.map((entry) => entry.key),
+          smelters: plan.corrections.map((entry) => ({ facilityCode: entry.facilityCode, fromSourceSlug: entry.expectedSourceSlug, toSourceSlug: entry.canonicalSourceSlug })),
+        },
         promotionTargets: { investments: promotion.investmentIds.length, exports: promotion.exportIds.length, smelters: promotion.smelterIds.length },
         unchanged: plan.unchanged,
         hold: plan.hold,
@@ -215,11 +262,13 @@ export async function runEconomyPromotionCli() {
             return snapshot.data;
           },
           promote: async (plan: EconomyPromotionPlan) => {
-            const update = async (table: "mining_investment_annual" | "smelter_facilities", ids: string[]) => {
+            const update = async (table: "mining_investment_annual" | "minerba_exports_annual" | "smelter_facilities", ids: string[]) => {
               if (!ids.length) return;
-              await tx`update ${tx(table)} set publication_status = 'published', updated_at = now() where id = any(${tx.array(ids)}::uuid[]) and verification_status = 'verified' and publication_status = 'draft'`;
+              const updated = await tx`update ${tx(table)} set publication_status = 'published', updated_at = now() where id = any(${tx.array(ids)}::uuid[]) and verification_status = 'verified' and publication_status = 'draft' returning id`;
+              if (updated.length !== ids.length) throw new Error(`Target promotion ${table} berubah; transaksi dibatalkan`);
             };
             await update("mining_investment_annual", plan.investmentIds);
+            await update("minerba_exports_annual", plan.exportIds);
             await update("smelter_facilities", plan.smelterIds);
           },
         })),

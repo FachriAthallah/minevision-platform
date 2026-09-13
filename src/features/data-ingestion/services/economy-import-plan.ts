@@ -33,9 +33,18 @@ export type EconomyCorrection = {
   canonicalSourceSlug: string;
 };
 
+export type EconomyRecordCorrection = {
+  id: string;
+  key: string;
+  expected: EconomyRow;
+  target: EconomyRow;
+};
+
 export type EconomyPlan = {
   inserts: EconomyInsert[];
   corrections: EconomyCorrection[];
+  investmentCorrections: EconomyRecordCorrection[];
+  exportCorrections: EconomyRecordCorrection[];
   unchanged: number;
   hold: { investment: number; exports: number; smelters: number };
   issues: string[];
@@ -108,10 +117,12 @@ export function planEconomyImport(dataset: EconomyDataset, snapshot: EconomySnap
   const plan: EconomyPlan = {
     inserts: [],
     corrections: [],
+    investmentCorrections: [],
+    exportCorrections: [],
     unchanged: 0,
     hold: {
-      investment: dataset.files.investment.records.length,
-      exports: dataset.files.exports.records.length,
+      investment: dataset.files.investment.records.filter((row) => row.holdReason !== null).length,
+      exports: dataset.files.exports.records.filter((row) => row.holdReason !== null).length,
       smelters: dataset.files.smelters.records.filter((row) => row.holdReason !== null).length,
     },
     issues: [],
@@ -226,9 +237,9 @@ export function planEconomyImport(dataset: EconomyDataset, snapshot: EconomySnap
       record_type: record.recordType,
       source_id: sourceId,
       source_published_at: record.sourcePublishedAt,
-      verification_status: "pending",
-      publication_status: "draft",
-      notes: `${record.holdReason}\n${record.notes}`,
+      verification_status: record.verificationStatus,
+      publication_status: record.publicationStatus,
+      notes: [record.holdReason, record.notes].filter(Boolean).join("\n"),
       metadata: { holdReason: record.holdReason, sourceSlugs: record.sourceSlugs },
     };
     const existing = findOne("mining_investment_annual", ["region_id", "year", "sector_code", "investment_origin", "record_type"], expected);
@@ -236,9 +247,40 @@ export function planEconomyImport(dataset: EconomyDataset, snapshot: EconomySnap
       plan.inserts.push({ table: "mining_investment_annual", row: expected });
       continue;
     }
+    const promotedExpected = record.verificationStatus === "verified"
+      ? { ...expected, publication_status: "published" }
+      : null;
+    if (promotedExpected && !differences(existing, promotedExpected, ["id", "notes", "metadata"]).length) {
+      plan.unchanged++;
+      continue;
+    }
     const changed = differences(existing, expected, ["id", "notes", "metadata"]);
-    if (changed.length) plan.issues.push(`investment/${record.year}/${record.investmentOrigin}: existing record berbeda pada ${changed.join(", ")}; tidak ditimpa`);
-    else plan.unchanged++;
+    if (!changed.length) {
+      plan.unchanged++;
+      continue;
+    }
+    const baseline = record.expectedState && {
+      ...expected,
+      investment_value: record.expectedState.investmentValue,
+      project_count: record.expectedState.projectCount,
+      verification_status: record.expectedState.verificationStatus,
+      publication_status: record.expectedState.publicationStatus,
+    };
+    const key = `${record.year}/${record.investmentOrigin}`;
+    if (!baseline) {
+      plan.issues.push(`investment/${key}: existing record berbeda pada ${changed.join(", ")}; tidak ditimpa`);
+      continue;
+    }
+    const baselineDifferences = differences(existing, baseline, ["id", "notes", "metadata"]);
+    if (baselineDifferences.length) {
+      plan.issues.push(`investment/${key}: fingerprint expectedState tidak cocok pada ${baselineDifferences.join(", ")}; tidak ditimpa`);
+      continue;
+    }
+    if (existing.publication_status === "published") {
+      plan.issues.push(`investment/${key}: record published tidak boleh dikoreksi importer`);
+      continue;
+    }
+    plan.investmentCorrections.push({ id: String(existing.id), key, expected: baseline, target: expected });
   }
 
   for (const record of dataset.files.exports.records) {
@@ -271,20 +313,54 @@ export function planEconomyImport(dataset: EconomyDataset, snapshot: EconomySnap
         dataset.files.exports.expectedExistingSourcePublishedAtByYear[
           String(record.year) as keyof typeof dataset.files.exports.expectedExistingSourcePublishedAtByYear
         ],
-      verification_status: "pending",
-      publication_status: "draft",
+      verification_status: record.verificationStatus,
+      publication_status: record.publicationStatus,
       notes: [record.holdReason, record.methodologyNotes].filter(Boolean).join("\n"),
       metadata: { holdReason: record.holdReason, destinationCountryCode: record.destinationCountryCode },
     };
     const key = ["commodity_id", "origin_region_id", "destination_region_id", "year", "hs_code", "product_form", "record_type"];
-    const existing = findOne("minerba_exports_annual", key, expected);
+    const targetExisting = findOne("minerba_exports_annual", key, expected);
+    const baselineLookup = record.expectedState ? { ...expected, product_form: record.expectedState.productForm } : expected;
+    const existing = targetExisting ?? findOne("minerba_exports_annual", key, baselineLookup);
     if (!existing) {
       plan.inserts.push({ table: "minerba_exports_annual", row: expected });
       continue;
     }
-    const changed = differences(existing, expected, ["id", "notes", "metadata", "product_form"]);
-    if (changed.length) plan.issues.push(`exports/${record.year}/${record.commoditySlug}: existing record berbeda pada ${changed.join(", ")}; tidak ditimpa`);
-    else plan.unchanged++;
+    const promotedExpected = record.verificationStatus === "verified"
+      ? { ...expected, publication_status: "published" }
+      : null;
+    if (promotedExpected && !differences(existing, promotedExpected, ["id", "notes", "metadata"]).length) {
+      plan.unchanged++;
+      continue;
+    }
+    const changed = differences(existing, expected, ["id", "notes", "metadata"]);
+    if (!changed.length) {
+      plan.unchanged++;
+      continue;
+    }
+    const baseline = record.expectedState && {
+      ...expected,
+      source_commodity_label: record.expectedState.sourceCommodityLabel,
+      fob_value: record.expectedState.fobValue,
+      product_form: record.expectedState.productForm,
+      verification_status: record.expectedState.verificationStatus,
+      publication_status: record.expectedState.publicationStatus,
+    };
+    const recordKey = `${record.year}/${record.commoditySlug}`;
+    if (!baseline) {
+      plan.issues.push(`exports/${recordKey}: existing record berbeda pada ${changed.join(", ")}; tidak ditimpa`);
+      continue;
+    }
+    const baselineDifferences = differences(existing, baseline, ["id", "notes", "metadata"]);
+    if (baselineDifferences.length) {
+      plan.issues.push(`exports/${recordKey}: fingerprint expectedState tidak cocok pada ${baselineDifferences.join(", ")}; tidak ditimpa`);
+      continue;
+    }
+    if (existing.publication_status === "published") {
+      plan.issues.push(`exports/${recordKey}: record published tidak boleh dikoreksi importer`);
+      continue;
+    }
+    plan.exportCorrections.push({ id: String(existing.id), key: recordKey, expected: baseline, target: expected });
   }
 
   for (const record of dataset.files.smelters.records) {
@@ -329,6 +405,8 @@ export interface EconomyTransaction {
   snapshot(): Promise<EconomySnapshot>;
   insert(rows: EconomyInsert[]): Promise<void>;
   correctFacilities(rows: EconomyCorrection[]): Promise<void>;
+  correctInvestments(rows: EconomyRecordCorrection[]): Promise<void>;
+  correctExports(rows: EconomyRecordCorrection[]): Promise<void>;
 }
 export interface EconomyAdapter {
   transaction(work: (transaction: EconomyTransaction) => Promise<EconomyApplyResult>): Promise<EconomyApplyResult>;
@@ -342,12 +420,14 @@ export async function applyEconomyImport(dataset: EconomyDataset, adapter: Econo
     if (plan.issues.length) throw new Error("Preflight Economy mengandung konflik; transaksi dibatalkan");
     for (let index = 0; index < plan.inserts.length; index += 100) await transaction.insert(plan.inserts.slice(index, index + 100));
     await transaction.correctFacilities(plan.corrections);
+    await transaction.correctInvestments(plan.investmentCorrections);
+    await transaction.correctExports(plan.exportCorrections);
     const after = await transaction.snapshot();
     const verification = planEconomyImport(dataset, after);
-    if (verification.issues.length || verification.inserts.length || verification.corrections.length || economyPublishedFingerprint(before) !== economyPublishedFingerprint(after)) {
+    if (verification.issues.length || verification.inserts.length || verification.corrections.length || verification.investmentCorrections.length || verification.exportCorrections.length || economyPublishedFingerprint(before) !== economyPublishedFingerprint(after)) {
       throw new Error("Post-write verification Economy gagal; transaksi dibatalkan");
     }
-    return { inserted: plan.inserts.length, corrected: plan.corrections.length, unchanged: plan.unchanged, hold: plan.hold };
+    return { inserted: plan.inserts.length, corrected: plan.corrections.length + plan.investmentCorrections.length + plan.exportCorrections.length, unchanged: plan.unchanged, hold: plan.hold };
   });
 }
 
@@ -361,20 +441,25 @@ export type EconomyPromotionPlan = {
 export function planEconomyPromotion(dataset: EconomyDataset, snapshot: EconomySnapshot): EconomyPromotionPlan {
   const plan: EconomyPromotionPlan = { investmentIds: [], exportIds: [], smelterIds: [], issues: [] };
   const eligibleSource = (sourceId: unknown) => snapshot.sources.some((source) => source.id === sourceId && source.is_active !== false && source.verification_status === "verified");
-  const inInvestmentManifest = new Set(dataset.files.investment.records.map((row) => `${row.regionSlug}:${row.year}:${row.investmentOrigin}:${row.recordType}`));
+  const inInvestmentManifest = new Set(dataset.files.investment.records.filter((row) => row.verificationStatus === "verified").map((row) => `${row.regionSlug}:${row.year}:${row.investmentOrigin}:${row.recordType}`));
   const indonesia = snapshot.regions.find((row) => row.slug === "indonesia");
   for (const row of snapshot.mining_investment_annual) {
     const key = `indonesia:${row.year}:${row.investment_origin}:${row.record_type}`;
     if (!inInvestmentManifest.has(key) || row.region_id !== indonesia?.id) continue;
     if (row.verification_status === "verified" && row.publication_status === "draft" && eligibleSource(row.source_id)) plan.investmentIds.push(String(row.id));
   }
+  const exportManifest = new Set(dataset.files.exports.records.filter((record) => record.verificationStatus === "verified").map((record) => `${record.year}:${record.commoditySlug}:${record.recordType}`));
+  for (const row of snapshot.minerba_exports_annual) {
+    const commodity = snapshot.commodities.find((candidate) => candidate.id === row.commodity_id);
+    const key = `${row.year}:${commodity?.slug}:${row.record_type}`;
+    if (!exportManifest.has(key)) continue;
+    if (row.verification_status === "verified" && row.publication_status === "draft" && eligibleSource(row.source_id)) plan.exportIds.push(String(row.id));
+  }
   const manifestFacilities = new Set(dataset.files.smelters.records.map((row) => row.facilityCode));
   for (const row of snapshot.smelter_facilities) {
     if (!manifestFacilities.has(String(row.facility_code))) continue;
     if (row.verification_status === "verified" && row.publication_status === "draft" && eligibleSource(row.source_id)) plan.smelterIds.push(String(row.id));
   }
-  // Export staging is intentionally HOLD because HS/product form are unresolved.
-  plan.exportIds = [];
   return plan;
 }
 
@@ -396,6 +481,6 @@ export async function promoteEconomy(dataset: EconomyDataset, adapter: EconomyPr
     const after = await transaction.snapshot();
     const remaining = planEconomyPromotion(dataset, after);
     if (remaining.issues.length || remaining.investmentIds.length || remaining.exportIds.length || remaining.smelterIds.length) throw new Error("Post-promotion verification gagal");
-    return { inserted: 0, corrected: plan.investmentIds.length + plan.exportIds.length + plan.smelterIds.length, unchanged: 0, hold: { investment: 0, exports: dataset.files.exports.records.length, smelters: 0 } };
+    return { inserted: 0, corrected: plan.investmentIds.length + plan.exportIds.length + plan.smelterIds.length, unchanged: 0, hold: { investment: dataset.files.investment.records.filter((row) => row.holdReason !== null).length, exports: dataset.files.exports.records.filter((row) => row.holdReason !== null).length, smelters: dataset.files.smelters.records.filter((row) => row.holdReason !== null).length } };
   });
 }
