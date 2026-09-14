@@ -1,19 +1,16 @@
 import type { Metadata } from "next";
 
-import { ModulePlaceholder } from "@/components/shared/module-placeholder";
+import { aboutSections } from "@/features/resources/resource-content";
+import { ResourcePage } from "@/features/resources/resource-page";
 
 export const metadata: Metadata = {
-  title: "About",
-  description: "Informasi mengenai MineVision Intelligence Platform Indonesia.",
+  title: "Tentang MineVision",
+  description: "Tujuan, modul, pengguna, dan prinsip sumber MineVision.",
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {
   return (
-    <ModulePlaceholder
-      eyebrow="About MineVision"
-      title="Platform Informasi Pertambangan Indonesia"
-      description="MineVision mengintegrasikan edukasi, informasi industri, komoditas, karier, data intelligence, ekonomi, pencarian global, dan MineBot AI dalam satu platform."
-      nextStep="membangun profil platform, visi, tujuan, metodologi data, dan daftar sumber informasi."
-    />
+    <ResourcePage eyebrow="Tentang" title="MineVision" description="Platform informasi pertambangan Indonesia yang menghubungkan pembelajaran, profil entitas, dan data publik terverifikasi." sections={aboutSections} />
   );
 }

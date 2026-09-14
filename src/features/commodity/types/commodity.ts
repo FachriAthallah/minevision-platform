@@ -167,6 +167,7 @@ export type PublicCommodityProducer = {
   displayOrder: number;
   notes: string | null;
   industryCompanyId: string | null;
+  industryCompanySlug: string | null;
   primaryRegion: {
     name: string;
     slug: string;

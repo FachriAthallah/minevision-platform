@@ -111,6 +111,11 @@ export function IndustryCompanyDetail({
   const productionRows = buildPrimaryProductionRows(company);
   const financialRows = buildFinancialRows(company.financials);
   const references = buildOfficialReferences(company);
+  const relatedCommodities = [
+    ...new Map(
+      company.production.map((record) => [record.commodity.slug, record.commodity]),
+    ).values(),
+  ];
 
   return (
     <div className="bg-background pb-20 pt-32 sm:pt-36">
@@ -178,6 +183,19 @@ export function IndustryCompanyDetail({
 
           <section aria-labelledby="company-production-heading">
             <SectionHeading eyebrow="Kinerja Operasional" title="Produksi Komoditas Primer 2023–2025" id="company-production-heading" icon={Factory} />
+            {relatedCommodities.length ? (
+              <nav aria-label="Komoditas terkait" className="mt-5 flex flex-wrap gap-2">
+                {relatedCommodities.map((commodity) => (
+                  <Link
+                    key={commodity.slug}
+                    href={`/commodity/${commodity.slug}`}
+                    className="rounded-full border border-brand-cyan/25 bg-brand-cyan/5 px-4 py-2 text-sm font-bold text-brand-cyan transition-colors hover:border-brand-cyan hover:bg-brand-cyan/10 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-cyan"
+                  >
+                    {commodity.name}
+                  </Link>
+                ))}
+              </nav>
+            ) : null}
             {productionRows.length ? (
               <>
                 <IndustryDataTable caption={`Produksi komoditas primer ${company.name} tahun 2023 sampai 2025`} rows={productionRows} />
@@ -204,7 +222,7 @@ export function IndustryCompanyDetail({
             )}
           </section>
 
-          <section aria-labelledby="company-operation-heading">
+          <section id="wilayah-operasi" className="scroll-mt-32" aria-labelledby="company-operation-heading">
             <SectionHeading eyebrow="Persebaran Kegiatan" title="Wilayah operasi" id="company-operation-heading" icon={MapPin} />
             {company.operationAreaDescription ? (
               <Card variant="elevated" className="mt-5 p-6 sm:p-7">
@@ -227,7 +245,7 @@ export function IndustryCompanyDetail({
             )}
           </section>
 
-          <section aria-labelledby="company-reports-heading">
+          <section id="laporan" className="scroll-mt-32" aria-labelledby="company-reports-heading">
             <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
               <SectionHeading eyebrow="Dokumen Publik" title="Sustainability & Annual Report" id="company-reports-heading" icon={FileText} />
               <p className="text-sm text-muted-foreground">{company.reportCount} laporan tersedia</p>

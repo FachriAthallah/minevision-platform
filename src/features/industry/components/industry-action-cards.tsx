@@ -4,6 +4,7 @@ import { Bot, BookOpenCheck } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
+import { publicRoutes } from "@/config/site";
 
 export function IndustryActionCards() {
   return (
@@ -43,13 +44,13 @@ export function IndustryActionCards() {
               melalui entry point MineBot yang tersedia di halaman.
             </p>
             <Link
-              href="#minebot"
+              href={publicRoutes.mineBot}
               className={cn(
                 buttonVariants({ variant: "primary", size: "medium" }),
                 "mt-6 motion-reduce:transition-none",
               )}
             >
-              Tanya MineBot
+              Informasi MineBot
             </Link>
           </div>
         </Card>

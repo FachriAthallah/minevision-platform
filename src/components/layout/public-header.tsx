@@ -4,10 +4,10 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { LogIn, LogOut, Menu, UserRound, X } from "lucide-react";
+import { LogIn, LogOut, Menu, Search, UserRound, X } from "lucide-react";
 
 import { Container } from "@/components/ui/container";
-import { siteConfig } from "@/config/site";
+import { publicRoutes, siteConfig } from "@/config/site";
 import { signOut } from "@/features/auth/actions";
 import { cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
@@ -110,6 +110,13 @@ export function PublicHeader() {
 
             {/* Login and mobile menu */}
             <div className="flex items-center gap-2">
+              <Link
+                href={publicRoutes.search}
+                aria-label="Buka pencarian global"
+                className="hidden h-10 w-10 items-center justify-center rounded-full border border-white/10 text-[#9FACBA] transition-colors hover:border-brand-cyan/50 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-cyan sm:inline-flex"
+              >
+                <Search aria-hidden="true" className="h-4 w-4" />
+              </Link>
               {isAuthenticated ? (
                 <div className="hidden items-center gap-2 sm:flex">
                   <Link
@@ -164,6 +171,16 @@ export function PublicHeader() {
               className="border-t border-white/10 px-4 py-4 lg:hidden"
             >
               <ul className="grid gap-1 sm:grid-cols-2">
+                <li>
+                  <Link
+                    href={publicRoutes.search}
+                    onClick={() => setIsMenuOpen(false)}
+                    className="flex items-center gap-2 rounded-xl px-4 py-3 text-sm font-medium text-[#9FACBA] transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-brand-cyan"
+                  >
+                    <Search aria-hidden="true" className="size-4" />
+                    Global Search
+                  </Link>
+                </li>
                 {siteConfig.mainNavigation.map((item) => {
                   const active = isActive(item.href);
 

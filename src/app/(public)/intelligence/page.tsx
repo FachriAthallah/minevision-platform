@@ -5,6 +5,7 @@ import { Container } from "@/components/ui/container";
 import { IntelligenceDashboard } from "@/features/intelligence/components/intelligence-dashboard";
 import { formatCompactNumber } from "@/features/intelligence/lib/intelligence-format";
 import { getPublicIntelligenceDashboard } from "@/features/intelligence/server/get-public-intelligence-dashboard";
+import { intelligenceCommoditySlugs, type IntelligenceCommoditySlug } from "@/features/intelligence/types/dashboard";
 
 export const metadata: Metadata = {
   title: "Data Intelligence Pertambangan Indonesia",
@@ -14,8 +15,12 @@ export const metadata: Metadata = {
 
 export const dynamic = "force-dynamic";
 
-export default async function IntelligencePage() {
+type IntelligencePageProps = { searchParams: Promise<{ commodity?: string | string[] }> };
+export default async function IntelligencePage({ searchParams }: IntelligencePageProps) {
+  const raw = await searchParams;
   const dashboard = await getPublicIntelligenceDashboard();
+  const requested = typeof raw.commodity === "string" ? raw.commodity : undefined;
+  const initialCommodity = intelligenceCommoditySlugs.includes(requested as IntelligenceCommoditySlug) ? requested as IntelligenceCommoditySlug : undefined;
   const heroStats = [
     { icon: Database, value: dashboard.meta.commodityCount, label: "Komoditas", description: "Seri komoditas pilihan dalam satu dashboard." },
     { icon: BarChart3, value: dashboard.meta.productionObservationCount, label: "Data Produksi", description: "Observasi kanonik yang siap dibandingkan." },
@@ -56,7 +61,7 @@ export default async function IntelligencePage() {
 
       <section className="relative py-12 sm:py-16 lg:py-20">
         <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_12%_8%,rgba(40,103,228,.08),transparent_25%),radial-gradient(circle_at_90%_40%,rgba(60,195,171,.06),transparent_28%)]" />
-        <Container className="relative max-w-[1320px]"><IntelligenceDashboard dashboard={dashboard} /></Container>
+        <Container className="relative max-w-[1320px]"><IntelligenceDashboard dashboard={dashboard} initialCommodity={initialCommodity} /></Container>
       </section>
     </div>
   );

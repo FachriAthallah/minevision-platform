@@ -1,0 +1,4 @@
+import { describe, expect, it } from "vitest";
+import { educationArticles } from "@/features/education/content/education-content";
+import { careerEducationRelations, educationRelatedSlugs } from "./entity-relations";
+describe("curated entity relations",()=>{const education=new Set(educationArticles.map((item)=>item.slug));it("uses only canonical Education slugs",()=>{for(const [source,targets] of Object.entries(educationRelatedSlugs)){expect(education.has(source)).toBe(true);for(const target of targets)expect(education.has(target)).toBe(true);}for(const target of Object.values(careerEducationRelations))expect(education.has(target)).toBe(true);});it("never relates an Education article to itself",()=>{for(const [source,targets] of Object.entries(educationRelatedSlugs))expect(targets).not.toContain(source);});});

@@ -23,6 +23,7 @@ import {
   commodityResourceStatisticSources,
   contents,
   contentSources,
+  industryCompanies,
   measurementUnits,
   regions,
   sources,
@@ -369,6 +370,7 @@ export async function getPublicCommodityBySlug(
         notes: commodityProducers.notes,
         industryCompanyId:
           commodityProducers.industryCompanyId,
+        industryCompanySlug: industryCompanies.slug,
         sourceUrl: commodityProducers.sourceUrl,
         pageReference: commodityProducers.pageReference,
 
@@ -390,6 +392,15 @@ export async function getPublicCommodityBySlug(
       .leftJoin(
         regions,
         eq(regions.id, commodityProducers.primaryRegionId),
+      )
+      .leftJoin(
+        industryCompanies,
+        and(
+          eq(industryCompanies.id, commodityProducers.industryCompanyId),
+          eq(industryCompanies.isActive, true),
+          eq(industryCompanies.verificationStatus, "verified"),
+          eq(industryCompanies.publicationStatus, "published"),
+        ),
       )
       .where(
         and(
@@ -732,6 +743,7 @@ export async function getPublicCommodityBySlug(
     displayOrder: row.displayOrder,
     notes: row.notes,
     industryCompanyId: row.industryCompanyId,
+    industryCompanySlug: row.industryCompanySlug,
     primaryRegion:
       row.regionName === null || row.regionSlug === null
         ? null

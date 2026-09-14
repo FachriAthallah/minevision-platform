@@ -470,7 +470,7 @@ export function ProductionDetailDashboard({
                         <a
                           href={citation.url}
                           target="_blank"
-                          rel="noreferrer"
+                          rel="noopener noreferrer"
                           className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-cyan hover:text-brand-teal focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-cyan"
                         >
                           Buka sumber

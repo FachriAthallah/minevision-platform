@@ -1,19 +1,16 @@
 import type { Metadata } from "next";
 
-import { ModulePlaceholder } from "@/components/shared/module-placeholder";
+import { faqSections } from "@/features/resources/resource-content";
+import { ResourcePage } from "@/features/resources/resource-page";
 
 export const metadata: Metadata = {
   title: "FAQ",
-  description: "Pertanyaan umum mengenai platform dan layanan MineVision.",
+  description: "Pertanyaan umum tentang data dan fitur MineVision.",
+  alternates: { canonical: "/faq" },
 };
 
 export default function FaqPage() {
   return (
-    <ModulePlaceholder
-      eyebrow="FAQ"
-      title="Pertanyaan yang Sering Diajukan"
-      description="Halaman ini akan membantu pengguna memahami akses platform, sumber data, status publikasi, fitur akun, Global Search, dan MineBot AI."
-      nextStep="menyusun daftar pertanyaan dan jawaban setelah cakupan fitur MVP dikunci."
-    />
+    <ResourcePage eyebrow="Resource" title="Pertanyaan Umum" description="Jawaban singkat mengenai cakupan data publik dan fitur MineVision." sections={faqSections} />
   );
 }

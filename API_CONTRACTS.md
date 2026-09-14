@@ -940,3 +940,22 @@ Endpoint dianggap selesai jika:
 - build berhasil;
 - endpoint telah diuji;
 - frontend consumer telah diperiksa.
+
+## 27. Public Global Search
+
+`GET /api/v1/search?q={query}&page={page}&limit={limit}`
+
+- `q` wajib 2–100 karakter setelah whitespace dinormalisasi.
+- `page` minimal 1; `limit` maksimal 40.
+- Hasil mempunyai `title`, `summary`, `module`, `type`, dan canonical `href`.
+- Provider database memakai kontrak publik masing-masing modul. Record pending, draft, rejected, archived, dan HOLD tidak diindeks.
+- Response invalid menggunakan `400 INVALID_QUERY`; kegagalan server menggunakan `500 INTERNAL_SERVER_ERROR` tanpa stack trace.
+
+## 28. Public Source Catalog
+
+`GET /api/v1/sources?q={query}&publisher={publisher}&type={type}&module={module}&page={page}&limit={limit}`
+
+- Hanya sumber aktif, `verified`, ber-URL HTTPS, dan mempunyai relasi ke konten/data publik yang dikembalikan.
+- Filter `type` dan `module` menggunakan enum publik; `limit` maksimal 48.
+- DTO tidak memuat UUID database, catatan audit, fingerprint, staging metadata, atau credential.
+- URL sumber asli ditampilkan sebagai external link dengan proteksi `noopener noreferrer` pada consumer web.

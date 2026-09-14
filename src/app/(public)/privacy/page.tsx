@@ -1,19 +1,16 @@
 import type { Metadata } from "next";
 
-import { ModulePlaceholder } from "@/components/shared/module-placeholder";
+import { privacySections, resourceUpdatedAt } from "@/features/resources/resource-content";
+import { ResourcePage } from "@/features/resources/resource-page";
 
 export const metadata: Metadata = {
-  title: "Privacy",
-  description: "Kebijakan privasi dan penggunaan data MineVision.",
+  title: "Kebijakan Privasi",
+  description: "Ringkasan pemrosesan data akun, sesi, pencarian, dan tautan eksternal MineVision.",
+  alternates: { canonical: "/privacy" },
 };
 
 export default function PrivacyPage() {
   return (
-    <ModulePlaceholder
-      eyebrow="Privacy"
-      title="Privasi dan Penggunaan Data"
-      description="Halaman ini akan menjelaskan data yang diproses MineVision, penggunaan cookie, aktivitas pencarian, interaksi MineBot AI, serta perlindungan informasi pengguna."
-      nextStep="menyusun kebijakan privasi setelah sistem analytics, authentication, dan MineBot AI dikunci."
-    />
+    <ResourcePage eyebrow="Resource" title="Kebijakan Privasi" description="Penjelasan ringkas dan faktual tentang data yang diproses oleh fitur MineVision saat ini." updatedAt={resourceUpdatedAt} sections={privacySections} />
   );
 }

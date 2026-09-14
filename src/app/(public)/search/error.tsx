@@ -1,0 +1,2 @@
+"use client";
+export default function SearchError({reset}:{reset:()=>void}){return <div className="min-h-screen bg-[#020817] px-6 pt-40 text-center text-white" role="alert"><h1 className="text-3xl">Pencarian belum dapat dijalankan</h1><p className="mt-3 text-[#9facba]">Tidak ada data nonpublik yang digunakan sebagai pengganti.</p><button onClick={reset} className="mt-5 rounded-full bg-brand-cyan px-5 py-3 font-bold text-[#020817]">Coba lagi</button></div>}
