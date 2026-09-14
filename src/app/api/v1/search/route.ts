@@ -1,0 +1,5 @@
+import type { NextRequest } from "next/server";
+import { publicSearchQuerySchema } from "@/features/search/schemas/search-query";
+import { searchPublicSite } from "@/features/search/server/search-public-site";
+export const runtime="nodejs"; export const dynamic="force-dynamic";
+export async function GET(request:NextRequest){const params=request.nextUrl.searchParams;const parsed=publicSearchQuerySchema.safeParse({q:params.get("q")??undefined,page:params.get("page")??undefined,limit:params.get("limit")??undefined});if(!parsed.success)return Response.json({success:false,error:{code:"INVALID_QUERY",message:"Parameter pencarian tidak valid.",details:parsed.error.flatten().fieldErrors}},{status:400,headers:{"Cache-Control":"no-store"}});try{const result=await searchPublicSite(parsed.data);return Response.json({success:true,data:result},{headers:{"Cache-Control":"public, s-maxage=120, stale-while-revalidate=300"}})}catch{console.error("Public search failed.");return Response.json({success:false,error:{code:"INTERNAL_SERVER_ERROR",message:"Pencarian belum dapat dijalankan."}},{status:500,headers:{"Cache-Control":"no-store"}})}}

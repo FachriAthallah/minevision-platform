@@ -1,19 +1,16 @@
 import type { Metadata } from "next";
 
-import { ModulePlaceholder } from "@/components/shared/module-placeholder";
+import { resourceUpdatedAt, termsSections } from "@/features/resources/resource-content";
+import { ResourcePage } from "@/features/resources/resource-page";
 
 export const metadata: Metadata = {
-  title: "Syarat & Ketentuan",
-  description: "Syarat dan ketentuan penggunaan platform MineVision.",
+  title: "Ketentuan Penggunaan",
+  description: "Ketentuan penggunaan informasi dan data MineVision.",
+  alternates: { canonical: "/terms" },
 };
 
 export default function TermsPage() {
   return (
-    <ModulePlaceholder
-      eyebrow="Syarat & Ketentuan"
-      title="Ketentuan Penggunaan MineVision"
-      description="Halaman ini akan menjelaskan ketentuan akses, penggunaan konten dan data, batas tanggung jawab, serta perilaku pengguna pada platform MineVision."
-      nextStep="menyusun ketentuan final setelah autentikasi, data publik, Global Search, dan MineBot AI selesai didefinisikan."
-    />
+    <ResourcePage eyebrow="Resource" title="Ketentuan Penggunaan" description="Batas penggunaan informasi, tanggung jawab verifikasi sumber, dan cakupan layanan MineVision." updatedAt={resourceUpdatedAt} sections={termsSections} />
   );
 }

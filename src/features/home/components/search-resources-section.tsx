@@ -4,6 +4,7 @@ import {
   Bot,
   Search,
 } from "lucide-react";
+import { publicRoutes } from "@/config/site";
 
 const popularSearches = [
   {
@@ -119,16 +120,13 @@ export function SearchResourcesSection() {
               base MineVision yang sudah tervalidasi.
             </p>
 
-            <button
-              type="button"
-              disabled
-              aria-disabled="true"
-              title="MineBot AI akan tersedia setelah knowledge base terhubung"
-              className="brand-gradient mt-6 inline-flex cursor-not-allowed items-center gap-2 rounded-xl px-6 py-3 text-sm font-semibold text-primary-foreground opacity-60"
+            <Link
+              href={publicRoutes.mineBot}
+              className="brand-gradient mt-6 inline-flex items-center gap-2 rounded-xl px-6 py-3 text-sm font-semibold text-primary-foreground"
             >
-              Ask MineBot AI
+              Informasi MineBot
               <ArrowRight aria-hidden="true" className="h-4 w-4" />
-            </button>
+            </Link>
 
             <p className="mt-2 text-xs text-muted-foreground">
               Segera tersedia setelah integrasi knowledge base.

@@ -29,8 +29,8 @@ describe("migration Economy 0021", () => {
   });
 
   it("menolak payload reported_zero yang masih mempunyai nilai nonzero", () => {
-    expect(migration).toContain(
-      'AND "minerba_exports_annual"."export_volume" = 0\n          AND "minerba_exports_annual"."fob_value" = 0',
+    expect(migration).toMatch(
+      /AND "minerba_exports_annual"\."export_volume" = 0\s+AND "minerba_exports_annual"\."fob_value" = 0/u,
     );
     expect(migration).not.toContain(
       '"minerba_exports_annual"."export_volume" = 0 OR "minerba_exports_annual"."fob_value" = 0',

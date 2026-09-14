@@ -25,6 +25,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Container } from "@/components/ui/container";
 import { cn } from "@/lib/utils";
+import { publicRoutes } from "@/config/site";
 
 import {
   collectCommoditySources,
@@ -447,7 +448,18 @@ function CompaniesSection({ commodity }: { commodity: PublicCommodityDetail }) {
           {commodity.producers.map((producer) => (
             <article key={producer.id} className="rounded-2xl border border-white/8 bg-[#071426]/70 p-5">
               <Factory aria-hidden="true" className="h-5 w-5 text-brand-teal" />
-              <h3 className="mt-4 font-sans text-base font-bold text-white">{producer.companyName}</h3>
+              {producer.industryCompanySlug ? (
+                <h3 className="mt-4 font-sans text-base font-bold text-white">
+                  <Link
+                    href={`/industry/${producer.industryCompanySlug}`}
+                    className="rounded transition-colors hover:text-brand-cyan focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-cyan"
+                  >
+                    {producer.companyName}
+                  </Link>
+                </h3>
+              ) : (
+                <h3 className="mt-4 font-sans text-base font-bold text-white">{producer.companyName}</h3>
+              )}
               {producer.producerRole ? <p className="mt-1 text-xs font-bold uppercase tracking-[0.08em] text-brand-cyan">{producer.producerRole}</p> : null}
               <p className="mt-3 text-sm leading-6 text-[#9facba]">{producer.operationArea}</p>
               {producer.primaryRegion ? <p className="mt-3 text-xs text-[#8190a3]">Wilayah utama: {producer.primaryRegion.name}</p> : null}
@@ -499,7 +511,7 @@ function ActionCards({ commodity }: { commodity: PublicCommodityDetail }) {
             <BrainCircuit aria-hidden="true" className="size-7 text-brand-cyan" />
             <h2 className="mt-5 text-2xl text-foreground">Jelajahi Data Intelligence</h2>
             <p className="mt-3 max-w-xl text-sm leading-7 text-muted-foreground">Lihat indikator produksi, harga, dan tren yang tersedia dalam modul Intelligence MineVision.</p>
-            <Link href="/intelligence" className={cn(buttonVariants({ variant: "outline", size: "medium" }), "mt-6 motion-reduce:transition-none")}>Buka Intelligence <ArrowRight aria-hidden="true" className="size-4" /></Link>
+            <Link href={`/intelligence?commodity=${commodity.slug}`} className={cn(buttonVariants({ variant: "outline", size: "medium" }), "mt-6 motion-reduce:transition-none")}>Buka Intelligence {commodity.name} <ArrowRight aria-hidden="true" className="size-4" /></Link>
           </div>
         </Card>
       ) : (
@@ -518,7 +530,7 @@ function ActionCards({ commodity }: { commodity: PublicCommodityDetail }) {
           <Bot aria-hidden="true" className="size-7 text-brand-teal" />
           <h2 className="mt-5 text-2xl text-foreground">Tanya MineBot AI</h2>
           <p className="mt-3 max-w-xl text-sm leading-7 text-muted-foreground">Gunakan entry point MineBot pada halaman untuk mendalami informasi tentang {commodity.name}. Konteks pertanyaan otomatis akan ditambahkan setelah integrasi percakapan tersedia.</p>
-          <a href="#minebot" className={cn(buttonVariants({ variant: "primary", size: "medium" }), "mt-6 motion-reduce:transition-none")}>Tanya MineBot <ArrowRight aria-hidden="true" className="size-4" /></a>
+          <Link href={publicRoutes.mineBot} className={cn(buttonVariants({ variant: "primary", size: "medium" }), "mt-6 motion-reduce:transition-none")}>Informasi MineBot <ArrowRight aria-hidden="true" className="size-4" /></Link>
         </div>
       </Card>
     </section>

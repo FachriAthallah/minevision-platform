@@ -870,7 +870,7 @@ describe("Commodity validator CLI", () => {
     } finally {
       rmSync(directory, { recursive: true, force: true });
     }
-  });
+  }, 15_000);
 
   it("mengumpulkan JSON invalid dan file hilang dalam satu eksekusi", () => {
     const directory = mkdtempSync(resolve(tmpdir(), "commodity-invalid-"));

@@ -14,6 +14,7 @@ import { careerMaterialGroups } from "../lib/career-material";
 import { CareerMaterialSection } from "./career-material-section";
 import { CareerSectionHeading } from "./career-section-heading";
 import { CareerMinebotCard } from "./career-minebot-card";
+import { careerEducationRelations } from "@/config/entity-relations";
 
 export function CareerDetail({ career }: { career: CareerDetailData }) {
   const { category, profile, counts, navigation } = career;
@@ -22,6 +23,7 @@ export function CareerDetail({ career }: { career: CareerDetailData }) {
   const professionStart = intro.findIndex((text) => text.replace(/^#+\s*/, "").trim() === "Contoh Profesi");
   const paragraphs = (professionStart >= 0 ? intro.slice(0, professionStart) : intro)
     .filter((text) => text.trim() !== "Deskripsi Kategori" && text.trim() !== category.description?.trim());
+  const educationSlug = careerEducationRelations[category.slug];
   return <Container className="max-w-[1320px] pb-20 pt-32 sm:pt-36">
     <header className="rounded-3xl border border-border bg-surface p-6 sm:p-9">
       <Link href="/career" className={cn(buttonVariants({ variant: "secondary" }), "mb-7 max-w-full whitespace-normal")}><ArrowLeft className="size-4 shrink-0" aria-hidden="true" />Kembali ke kategori karier</Link>
@@ -62,6 +64,7 @@ export function CareerDetail({ career }: { career: CareerDetailData }) {
           {[{ item: navigation.previous, label: "Sebelumnya", icon: ArrowLeft }, { item: navigation.next, label: "Selanjutnya", icon: ArrowRight }].map(({ item, label, icon: Direction }) => item ? <Link key={label} href={`/career/${item.slug}`} className="rounded-2xl border border-border bg-surface p-5 hover:border-brand-cyan/40 focus-visible:outline-2 focus-visible:outline-brand-cyan"><span className="flex items-center gap-2 text-xs text-muted-foreground"><Direction className="size-4" aria-hidden="true" />{label}</span><span className="mt-2 block font-bold leading-7">{item.name}</span></Link> : <span key={label} />)}
         </nav>
         <CareerCta />
+        {educationSlug ? <Link href={`/education/${educationSlug}`} className="flex items-center justify-between gap-4 rounded-2xl border border-brand-cyan/25 bg-brand-cyan/5 p-5 hover:bg-brand-cyan/10 focus-visible:outline-2 focus-visible:outline-brand-cyan"><span><span className="block text-xs font-bold uppercase tracking-wider text-brand-cyan">Materi terkait</span><span className="mt-2 block font-bold">Pelajari fondasi Education untuk bidang ini</span></span><ArrowRight aria-hidden="true" className="size-5 shrink-0" /></Link> : null}
         <div className="lg:hidden"><CareerMinebotCard /></div>
       </article>
     </div>

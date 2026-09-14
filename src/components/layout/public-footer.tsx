@@ -1,49 +1,40 @@
 import Image from "next/image";
 import Link from "next/link";
+import { ExternalLink } from "lucide-react";
 
 import { Container } from "@/components/ui/container";
-import { siteConfig } from "@/config/site";
+import { officialSourceLinks, publicRoutes, siteConfig } from "@/config/site";
 
 const footerGroups = [
   {
     title: "Platform",
     links: [
-      { label: "Home", href: "/" },
-      { label: "Education", href: "/education" },
-      { label: "Industry", href: "/industry" },
-      { label: "Career", href: "/career" },
-      { label: "Intelligence", href: "/intelligence" },
-      { label: "Economy", href: "/economy" },
+      ...siteConfig.mainNavigation,
     ],
   },
   {
     title: "Explore",
     links: [
-      { label: "Komoditas", href: "/intelligence" },
-      { label: "Perusahaan", href: "/industry" },
-      { label: "Proyek Tambang", href: "/education" },
-      { label: "Artikel & Insight", href: "/economy" },
-      { label: "Mining Data", href: "/economy" },
+      { label: "Hilirisasi", href: publicRoutes.economyDownstream },
+      { label: "Istilah Pertambangan", href: publicRoutes.educationGlossary },
+      { label: "Kategori Karier", href: publicRoutes.careerCategories },
+      { label: "Komoditas", href: publicRoutes.commodity },
+      { label: "Wilayah Operasi", href: publicRoutes.industryOperations },
     ],
   },
   {
     title: "Resource",
     links: [
-      { label: "Tentang Kami", href: "/about" },
-      { label: "FAQ", href: "/faq" },
-      { label: "Kebijakan Privasi", href: "/privacy" },
-      { label: "Syarat & Ketentuan", href: "/terms" },
-      { label: "Kontak", href: "/contact" },
+      { label: "Tentang MineVision", href: publicRoutes.about },
+      { label: "Metodologi Data", href: publicRoutes.methodology },
+      { label: "Kebijakan Privasi", href: publicRoutes.privacy },
+      { label: "Ketentuan Penggunaan", href: publicRoutes.terms },
+      { label: "Kontak", href: publicRoutes.contact },
     ],
   },
   {
     title: "Data Source",
-    links: [
-      { label: "Kementerian ESDM", href: "/search?source=esdm" },
-      { label: "BPS", href: "/search?source=bps" },
-      { label: "Ditjen Minerba", href: "/search?source=minerba" },
-      { label: "Official Sources", href: "/search?source=official" },
-    ],
+    links: officialSourceLinks,
   },
 ] as const;
 
@@ -107,12 +98,13 @@ export function PublicFooter() {
                   <ul className="mt-5 space-y-3.5 text-sm">
                     {group.links.map((item) => (
                       <li key={item.label}>
-                        <Link
-                          href={item.href}
-                          className="transition-colors hover:text-brand-cyan focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-cyan"
-                        >
-                          {item.label}
-                        </Link>
+                        {"external" in item && item.external ? (
+                          <a href={item.href} target="_blank" rel="noopener noreferrer" aria-label={`${item.label} (buka situs resmi di tab baru)`} className="inline-flex items-center gap-1.5 transition-colors hover:text-brand-cyan focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-cyan">
+                            {item.label}<ExternalLink aria-hidden="true" className="size-3" />
+                          </a>
+                        ) : (
+                          <Link href={item.href} className="transition-colors hover:text-brand-cyan focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-cyan">{item.label}</Link>
+                        )}
                       </li>
                     ))}
                   </ul>

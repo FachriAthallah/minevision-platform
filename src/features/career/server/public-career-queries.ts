@@ -68,3 +68,13 @@ export async function getPublicCareerBySlug(slug: string): Promise<CareerDetail 
     navigation: adjacentCareerCategories(neighbors, row.slug),
   };
 }
+
+export async function searchPublicCareerProfessions(term: string) {
+  return db.select({ name: careerProfessions.name, slug: careerProfessions.slug, description: careerProfessions.description, categoryName: contentCategories.name, categorySlug: contentCategories.slug })
+    .from(careerProfessions)
+    .innerJoin(contents, eq(careerProfessions.contentId, contents.id))
+    .innerJoin(contentCategories, eq(contents.categoryId, contentCategories.id))
+    .where(and(eligibleCategory, eligibleContent, sql`${careerProfessions.name} ILIKE ${`%${term}%`}`))
+    .orderBy(asc(contentCategories.displayOrder), asc(careerProfessions.displayOrder))
+    .limit(12);
+}

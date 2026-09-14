@@ -113,7 +113,7 @@ export function IndustryTrustedSources({
               {officialWebsites.map((company) => (
                 <li key={company.id}>
                   <a
-                    href={company.officialWebsiteUrl ?? "#"}
+                    href={company.officialWebsiteUrl!}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group flex min-h-11 items-center justify-between gap-3 rounded-xl border border-white/8 bg-white/[0.025] px-3 py-2 text-sm font-bold text-[#d9e4ef] transition-colors hover:border-brand-cyan/40 hover:text-brand-cyan focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-cyan motion-reduce:transition-none"

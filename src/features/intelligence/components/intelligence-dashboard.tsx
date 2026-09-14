@@ -2,12 +2,14 @@
 
 import {
   useCallback,
+  useEffect,
   useMemo,
   useReducer,
   useState,
   type CSSProperties,
   type KeyboardEvent,
 } from "react";
+import Link from "next/link";
 import {
   ArrowRight,
   BarChart3,
@@ -24,6 +26,7 @@ import {
 } from "lucide-react";
 
 import { cn } from "@/lib/utils";
+import { publicRoutes } from "@/config/site";
 
 import { commodityPresentation } from "../config/commodity-presentation";
 import {
@@ -68,14 +71,6 @@ const coverageLabels = {
 
 const inputClassName =
   "min-h-11 rounded-xl border border-white/10 bg-[#061122] px-3 text-sm text-white outline-none transition-colors hover:border-white/20 focus:border-brand-cyan focus:ring-2 focus:ring-brand-cyan/20";
-
-function triggerMineBot() {
-  const mineBot = document.getElementById("minebot");
-  if (mineBot instanceof HTMLButtonElement) {
-    mineBot.focus();
-    mineBot.click();
-  }
-}
 
 function CommoditySelector({
   commodities,
@@ -160,9 +155,7 @@ function CommoditySelector({
               <p className="mt-2 text-xs leading-5 text-[#8fa0b4]">Tanyakan istilah, tren, atau konteks data yang sedang Anda lihat kepada MineBot.</p>
             </div>
           </div>
-          <button type="button" onClick={triggerMineBot} className="mt-4 inline-flex min-h-10 w-full items-center justify-center gap-2 rounded-full bg-[linear-gradient(90deg,var(--brand-blue),var(--brand-cyan),var(--brand-teal))] px-4 text-xs font-bold text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-cyan">
-            Tanya MineBot AI <ArrowRight aria-hidden="true" className="size-4" />
-          </button>
+          <Link href={publicRoutes.mineBot} className="mt-4 inline-flex min-h-10 w-full items-center justify-center gap-2 rounded-full bg-[linear-gradient(90deg,var(--brand-blue),var(--brand-cyan),var(--brand-teal))] px-4 text-xs font-bold text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-cyan">Informasi MineBot <ArrowRight aria-hidden="true" className="size-4" /></Link>
         </section>
       </div>
     </aside>
@@ -190,16 +183,18 @@ function MetricCard({ icon: Icon, label, value, detail, color }: { icon: typeof 
   );
 }
 
-export function IntelligenceDashboard({ dashboard }: { dashboard: PublicIntelligenceDashboardData }) {
+export function IntelligenceDashboard({ dashboard, initialCommodity }: { dashboard: PublicIntelligenceDashboardData; initialCommodity?: string }) {
   const first = dashboard.commodities[0];
   const [state, dispatch] = useReducer(intelligenceSelectionReducer, {
-    commodity: first?.slug ?? "",
+    commodity: dashboard.commodities.some((item) => item.slug === initialCommodity) ? initialCommodity! : first?.slug ?? "",
     tab: "production",
     productionYears: {},
     priceYears: {},
   });
   const [activeCoverage, setActiveCoverage] = useState<string | null>(null);
   const commodity = dashboard.commodities.find((item) => item.slug === state.commodity) ?? first;
+  useEffect(() => { const onPopState=()=>{const value=new URL(window.location.href).searchParams.get("commodity"); const next=dashboard.commodities.find((item)=>item.slug===value)?.slug??first?.slug; if(next) dispatch({type:"commodity",value:next});}; window.addEventListener("popstate",onPopState); return()=>window.removeEventListener("popstate",onPopState);},[dashboard.commodities,first?.slug]);
+  const selectCommodity=(slug:string)=>{dispatch({type:"commodity",value:slug});setActiveCoverage(null);const url=new URL(window.location.href);if(slug===first?.slug)url.searchParams.delete("commodity");else url.searchParams.set("commodity",slug);window.history.pushState({},"",url);};
 
   const handleCoverageSelect = useCallback((coverageId: string) => {
     setActiveCoverage(coverageId);
@@ -251,13 +246,14 @@ export function IntelligenceDashboard({ dashboard }: { dashboard: PublicIntellig
 
   return (
     <div className="grid min-w-0 gap-7 lg:grid-cols-[270px_minmax(0,1fr)] xl:grid-cols-[300px_minmax(0,1fr)]">
-      <CommoditySelector commodities={dashboard.commodities} selected={commodity.slug} onSelect={(slug) => { dispatch({ type: "commodity", value: slug }); setActiveCoverage(null); }} />
+      <CommoditySelector commodities={dashboard.commodities} selected={commodity.slug} onSelect={selectCommodity} />
 
       <div className="min-w-0 space-y-6">
         <header className="rounded-3xl border border-white/10 bg-[#0a192d] p-5 shadow-[0_18px_52px_rgba(0,0,0,.2)] sm:p-7">
           <p className="text-xs font-bold uppercase tracking-[0.16em]" style={{ color: presentation.color }}>Intelligence Komoditas</p>
           <h2 className="mt-2 text-3xl leading-tight text-white sm:text-4xl">Data {commodity.name} Indonesia</h2>
           <p className="mt-3 line-clamp-3 max-w-3xl text-sm leading-7 text-[#9facba]">{commodity.description ?? "Tren produksi, harga domestik, dan cakupan wilayah dari dataset publik terverifikasi."}</p>
+          <Link href={`/commodity/${commodity.slug}`} className="mt-3 inline-flex items-center gap-2 text-sm font-bold text-brand-cyan hover:text-white focus-visible:outline-2 focus-visible:outline-brand-cyan">Buka profil {commodity.name}<ArrowRight aria-hidden="true" className="size-4" /></Link>
         </header>
 
         <section aria-label="Ringkasan data terpilih" className="grid grid-cols-2 gap-3 xl:grid-cols-4">
@@ -443,7 +439,7 @@ export function IntelligenceDashboard({ dashboard }: { dashboard: PublicIntellig
 
         <section className="rounded-2xl border border-brand-cyan/20 bg-[linear-gradient(110deg,rgba(40,103,228,.12),rgba(0,177,196,.1),rgba(60,195,171,.08))] p-5 lg:hidden">
           <div className="flex items-start gap-3"><span className="flex size-10 shrink-0 items-center justify-center rounded-full border border-brand-cyan/30 bg-brand-cyan/5"><Bot aria-hidden="true" className="size-5 text-brand-cyan" /></span><div><h2 className="text-lg text-white">Tanya MineBot AI</h2><p className="mt-2 text-sm leading-6 text-[#9facba]">Perlu bantuan membaca istilah atau tren pada data ini?</p></div></div>
-          <button type="button" onClick={triggerMineBot} className="mt-4 inline-flex min-h-11 w-full items-center justify-center rounded-full bg-[linear-gradient(90deg,var(--brand-blue),var(--brand-cyan),var(--brand-teal))] px-5 text-sm font-bold text-white">Tanya MineBot AI</button>
+          <Link href={publicRoutes.mineBot} className="mt-4 inline-flex min-h-11 w-full items-center justify-center rounded-full bg-[linear-gradient(90deg,var(--brand-blue),var(--brand-cyan),var(--brand-teal))] px-5 text-sm font-bold text-white">Informasi MineBot</Link>
         </section>
       </div>
     </div>

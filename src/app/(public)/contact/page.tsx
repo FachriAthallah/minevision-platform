@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
 
-import { ModulePlaceholder } from "@/components/shared/module-placeholder";
+import { DeveloperContactCard } from "@/features/resources/developer-contact-card";
+import { contactSections } from "@/features/resources/resource-content";
+import { ResourcePage } from "@/features/resources/resource-page";
 
 export const metadata: Metadata = {
   title: "Kontak",
-  description: "Informasi kontak dan kanal komunikasi MineVision.",
+  description: "Kanal proyek dan panduan pertanyaan data MineVision.",
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {
   return (
-    <ModulePlaceholder
-      eyebrow="Kontak"
-      title="Hubungi MineVision"
-      description="Halaman ini akan menyediakan kanal untuk pertanyaan umum, koreksi data, kerja sama, dan masukan mengenai pengembangan MineVision."
-      nextStep="menentukan alamat kontak resmi dan alur penanganan pesan sebelum formulir publik diaktifkan."
-    />
+    <ResourcePage eyebrow="Resource" title="Kontak" description="Terhubung dengan pengembang MineVision dan telusuri sumber data yang digunakan platform." sections={contactSections}>
+      <DeveloperContactCard />
+    </ResourcePage>
   );
 }
