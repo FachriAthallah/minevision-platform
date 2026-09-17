@@ -13,5 +13,6 @@ export default defineConfig({
     environment: "node",
     clearMocks: true,
     restoreMocks: true,
+    setupFiles: ["./vitest.setup.ts"],
   },
 });

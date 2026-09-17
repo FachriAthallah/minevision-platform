@@ -136,7 +136,7 @@ sebagai string pengganti nilai kosong.
 | `/api/v1/intelligence/prices`                | GET                | Target  | Public        |
 | `/api/v1/intelligence/production-locations`  | GET                | Target  | Public        |
 | `/api/v1/search`                             | GET                | Target  | Public        |
-| `/api/v1/minebot/query`                      | POST               | Target  | Public        |
+| `/api/v1/minebot/query`                 | POST               | Current | Public (Rate Limited) |
 | `/api/v1/admin/contents`                     | GET, POST          | Target  | Admin         |
 | `/api/v1/admin/contents/{id}`                | GET, PATCH, DELETE | Target  | Admin         |
 | `/api/v1/admin/intelligence/production`      | GET, POST          | Target  | Admin         |
@@ -572,7 +572,7 @@ Target record:
 
 ## 15. MineBot API
 
-Target endpoint:
+Endpoint:
 
 ```http
 POST /api/v1/minebot/query
@@ -584,48 +584,98 @@ Access:
 Public dengan rate limit
 ```
 
-Target request:
+Status:
+
+```text
+Current (MineBot v1)
+```
+
+### Request
 
 ```json
 {
-  "question": "Apa perbedaan tambang terbuka dan tambang bawah tanah?",
+  "question": "Apa itu tambang terbuka?",
   "conversationId": null,
+  "history": [
+    { "role": "user", "content": "Bicara soal tambang." },
+    { "role": "assistant", "content": "Baik, mari lanjutkan." }
+  ],
   "context": {
-    "module": "education",
-    "pageUrl": "/edukasi/metode-penambangan"
+    "module": "intelligence",
+    "pageUrl": "/intelligence?commodity=nikel",
+    "commodity": "nikel"
   }
 }
 ```
 
-Target response:
+Batasan request:
+
+- `question`: 2–500 karakter (wajib).
+- `conversationId`: UUID opsional.
+- `history`: maksimal 6 pesan, setiap `content` maskimal 2000 karakter.
+- `context.module`: salah satu dari `home`, `education`, `industry`, `commodity`, `career`, `intelligence`, `economy`, `search`, `sources`.
+- `context.pageUrl` hanya menerima relative canonical URL internal.
+- Seluruh field menggunakan `.strict()` — field tidak dikenal ditolak.
+
+### Response contract
+
+Response dikirim sebagai **streaming NDJSON** (`Content-Type: application/x-ndjson`, satu JSON per baris).
+
+Event yang tersedia:
+
+1. `meta`
+2. `delta`
+3. `final`
+4. `error`
+
+Contoh sequence:
 
 ```json
-{
-  "success": true,
-  "data": {
-    "answer": "Tambang terbuka dilakukan dari permukaan...",
-    "conversationId": "uuid",
-    "citations": [],
-    "limitations": [],
-    "generatedAt": "2026-08-23T14:30:00.000Z"
-  },
-  "meta": {
-    "requestId": "request-id",
-    "timestamp": "2026-08-23T14:30:00.000Z"
-  }
-}
+{"type":"meta","data":{"conversationId":"conv-...","sourceType":"structured"}}
+{"type":"delta","data":{"text":"Produksi batubara"}}
+{"type":"delta","data":{"text":" tahun 2023 mencapai 775 juta ton."}}
+{"type":"final","data":{"answer":"Produksi batubara tahun 2023 mencapai 775 juta ton.","citations":[{"id":"S1","label":"Produksi Batubara 2023","organization":null,"url":"/intelligence?commodity=batubara","pageReference":"2023"}],"relatedLinks":[],"limitations":[],"generatedAt":"2026-09-15T..."}}
 ```
+
+Contoh event error:
+
+```json
+{"type":"error","data":{"code":"NO_ELIGIBLE_EVIDENCE","message":"MineBot belum menemukan informasi terverifikasi yang cukup..."}}
+```
+
+### Error codes
+
+| Code                        | HTTP Status | Fungsi                                      |
+| --------------------------- | ----------: | ------------------------------------------- |
+| `INVALID_REQUEST`           |         400 | Body/Content-Type tidak valid               |
+| `VALIDATION_ERROR`          |         400 | Schema tidak valid                          |
+| `HISTORY_LIMIT_EXCEEDED`    |         400 | History melebihi 6 pesan                    |
+| `UNSUPPORTED_CONTEXT`       |         400 | Context tidak didukung                      |
+| `AMBIGUOUS_QUESTION`        |         200 | Pertanyaan ambigu → klarifikasi tanpa LLM   |
+| `NO_ELIGIBLE_EVIDENCE`      |         200 | Tidak ada evidence eligible → fallback aman |
+| `RATE_LIMITED`              |         429 | Batas WAF/rate limit dilampaui              |
+| `AI_SERVICE_UNAVAILABLE`    |         503 | Gemini tidak dikonfigurasi/gagal            |
+| `AI_TIMEOUT`                |           - | Provider timeout (event error)              |
+| `INTERNAL_ERROR`            |         500 | Kesalahan internal                          |
+
+Seluruh event dan error `Cache-Control: no-store`. Setiap response memiliki `X-Request-ID` (non-streaming) atau `requestId` pada meta.
+
+MineBot tidak mengembalikan:
+
+- internal prompt;
+- raw retrieval context;
+- credential atau API key;
+- database internals / nama tabel;
+- draft, pending, rejected, archived, atau HOLD data.
 
 MineBot harus memiliki:
 
 - input limit;
 - output limit;
-- rate limiting;
+- rate limiting (Vercel WAF manual);
 - abuse protection;
 - safety validation;
 - citation filtering.
-
-MineBot tidak boleh mengembalikan internal prompt, secret, atau raw retrieval context.
 
 ## 16. Admin API
 

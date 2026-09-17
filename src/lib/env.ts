@@ -30,6 +30,9 @@ const environmentSchema = z.object({
     .min(1, "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY wajib diisi"),
 
   DATABASE_URL: databaseUrlSchema,
+
+  GEMINI_API_KEY: z.string().optional(),
+  GEMINI_MODEL: z.string().optional(),
 });
 
 const validationResult = environmentSchema.safeParse({
@@ -39,6 +42,8 @@ const validationResult = environmentSchema.safeParse({
   NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY:
     process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY,
   DATABASE_URL: process.env.DATABASE_URL,
+  GEMINI_API_KEY: process.env.GEMINI_API_KEY,
+  GEMINI_MODEL: process.env.GEMINI_MODEL,
 });
 
 if (!validationResult.success) {

@@ -271,7 +271,6 @@ Variable berikut baru ditambahkan ketika fiturnya diimplementasikan:
 | Area | Contoh fungsi |
 |---|---|
 | Authentication | Session dan authentication configuration |
-| MineBot | AI provider credential |
 | Search | Search service configuration |
 | Monitoring | Error tracking dan observability |
 | Rate limiting | Rate-limit storage atau provider |
@@ -280,6 +279,20 @@ Variable berikut baru ditambahkan ketika fiturnya diimplementasikan:
 Nama variable final harus ditambahkan ke `.env.example` dan validation sebelum digunakan.
 
 Jangan menambahkan variable target sebelum layanan terkait dipilih.
+
+## 12.1 MineBot Geminya (Sudah Aktif di v1)
+
+| Variable | Scope | Fungsi |
+|---|---|---|
+| `GEMINI_API_KEY` | Server | API key Gemini (server-only) |
+| `GEMINI_MODEL` | Server | Model Gemini, contoh `gemini-3.8-flash` |
+
+Ketentuan:
+
+- `GEMINI_API_KEY` tidak wajib untuk startup aplikasi. Halaman lain tetap berjalan tanpa key.
+- Jika key atau model tidak dikonfigurasi, endpoint `/api/v1/minebot/query` mengembalikan respons fallback aman (`AI_SERVICE_UNAVAILABLE`).
+- Jangan pernah menggunakan awalan `NEXT_PUBLIC_` untuk key ini.
+- Jangan menulis key pada test, fixture, snapshot, atau dokumentasi.
 
 ## 13. `.env.example` Rules
 
