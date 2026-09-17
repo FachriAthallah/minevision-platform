@@ -1,17 +1,30 @@
-import { useState, useCallback, useRef } from "react";
+import { useState, useCallback, useRef, useEffect } from "react";
 import type { MineBotUiMessage } from "../client/chat-state";
 import { applyStreamEvent, ensureTerminal } from "../client/chat-state";
 import { NDJSONParser } from "../client/ndjson-parser";
 import { buildMineBotRequestPayload } from "../client/request-payload";
+import {
+  clearPersistedMessages,
+  loadPersistedMessages,
+  persistMessages,
+} from "../client/chat-persistence";
 import type { MineBotRequestContext } from "../types/orchestrator";
 
 export function useMineBotChat() {
-  const [messages, setMessages] = useState<MineBotUiMessage[]>([]);
+  const [messages, setMessages] = useState<MineBotUiMessage[]>(() =>
+    loadPersistedMessages()
+  );
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const abortControllerRef = useRef<AbortController | null>(null);
   const isSendingRef = useRef(false);
   const lastQuestionRef = useRef<{ content: string; context?: MineBotRequestContext } | null>(null);
+
+  // Keep the conversation across page navigation and full reloads by persisting
+  // it to sessionStorage (client-side only; nothing leaves the browser).
+  useEffect(() => {
+    persistMessages(messages);
+  }, [messages]);
 
   const patchAssistant = useCallback((id: string, fn: (m: MineBotUiMessage) => MineBotUiMessage) => {
     setMessages((prev) =>
@@ -129,6 +142,7 @@ export function useMineBotChat() {
   const clearChat = useCallback(() => {
     setMessages([]);
     lastQuestionRef.current = null;
+    clearPersistedMessages();
   }, []);
 
   return { messages, isLoading, error, sendMessage, cancelRequest, retryLast, clearChat };
