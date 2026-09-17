@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 
 import { PublicFooter } from "@/components/layout/public-footer";
 import { PublicHeader } from "@/components/layout/public-header";
+import { MineBotProvider } from "@/features/minebot/components/minebot-provider";
 import { MineBotFab } from "@/features/minebot/components/minebot-fab";
 
 type PublicLayoutProps = {
@@ -10,14 +11,16 @@ type PublicLayoutProps = {
 
 export default function PublicLayout({ children }: PublicLayoutProps) {
   return (
-    <div className="flex min-h-screen flex-col bg-background text-foreground">
-      <PublicHeader />
+    <MineBotProvider>
+      <div className="flex min-h-screen flex-col bg-background text-foreground">
+        <PublicHeader />
 
-      <main className="flex-1">{children}</main>
+        <main className="flex-1">{children}</main>
 
-      <PublicFooter />
+        <PublicFooter />
 
-      <MineBotFab />
-    </div>
+        <MineBotFab />
+      </div>
+    </MineBotProvider>
   );
 }

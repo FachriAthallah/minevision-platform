@@ -24,7 +24,51 @@ RAG harus:
 Status RAG MineBot saat ini:
 
 ```text
-Target
+v1 Foundation Implemented
+```
+
+### MineBot v1 (Current)
+
+MineBot v1 menggunakan pendekatan **Structured Retrieval + Grounded Generation**:
+
+```
+User Query
+    ↓
+Query Validation (Zod)
+    ↓
+Intelligence Retriever (Keyword-based)
+    ↓
+Visibility Policy (verified + published only)
+    ↓
+Context Composition (with source markers)
+    ↓
+Gemini 3.8 Flash (configurable via `GEMINI_MODEL`)
+    ↓
+Citation Normalization (validate markers)
+    ↓
+Safe Response
+```
+
+**Fitur v1:**
+- Endpoint: `POST /api/v1/minebot/query`
+- Domain: Intelligence (produksi dan harga komoditas)
+- Visibility: Defense in depth (DB filter + policy)
+- Citation: Source marker validation
+- Fallback: Deterministic messages
+- Model: Gemini Flash (server-only, default `gemini-3.8-flash`)
+
+### MineBot v2 (Future)
+
+Fitur berikut direncanakan untuk v2:
+
+```
+- Semantic embeddings
+- pgvector untuk vector similarity
+- Hybrid retrieval (keyword + semantic)
+- Multi-domain retrieval
+- Conversation persistence
+- Multi-turn context
+- LLM intent classification
 ```
 
 Tampilan MineBot tidak berarti RAG pipeline sudah tersedia.
