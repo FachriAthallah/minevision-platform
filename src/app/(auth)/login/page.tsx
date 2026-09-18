@@ -72,11 +72,6 @@ export default async function LoginPage({ searchParams }: LoginPageProps) {
       </div>
 
       <GoogleAuthButton next={next} />
-
-      <p className="mt-6 text-center text-xs leading-5 text-[#718096]">
-        Akun administrator menggunakan form yang sama dan hanya dapat dibuat
-        melalui proses internal MineVision.
-      </p>
     </AuthShell>
   );
 }

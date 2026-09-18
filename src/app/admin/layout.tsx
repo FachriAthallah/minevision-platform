@@ -1,25 +1,25 @@
 import type { ReactNode } from "react";
-import { redirect } from "next/navigation";
+import { headers } from "next/headers";
 
-import {
-  getAuthenticatedIdentity,
-  isAdministrator,
-} from "@/features/auth/lib/session";
+import { requireAdminAccess } from "@/features/admin/lib/authorization";
 
 type AdminLayoutProps = {
   children: ReactNode;
 };
 
 export default async function AdminLayout({ children }: AdminLayoutProps) {
-  const identity = await getAuthenticatedIdentity();
+  const headerList = await headers();
+  const pathname = headerList.get("x-pathname") ?? "";
 
-  if (!identity) {
-    redirect("/login?next=/admin");
+  if (pathname === "/admin/login") {
+    return (
+      <div className="min-h-screen bg-background text-foreground">
+        {children}
+      </div>
+    );
   }
 
-  if (!isAdministrator(identity)) {
-    redirect("/account");
-  }
+  await requireAdminAccess();
 
   return (
     <div className="min-h-screen bg-background text-foreground">{children}</div>

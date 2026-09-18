@@ -1009,3 +1009,94 @@ Endpoint dianggap selesai jika:
 - Filter `type` dan `module` menggunakan enum publik; `limit` maksimal 48.
 - DTO tidak memuat UUID database, catatan audit, fingerprint, staging metadata, atau credential.
 - URL sumber asli ditampilkan sebagai external link dengan proteksi `noopener noreferrer` pada consumer web.
+
+
+## 29. Admin Dashboard API
+
+Semua endpoint admin memakai `Cache-Control: no-store`.
+
+Otorisasi pada setiap route diverifikasi server-side:
+
+- Belum login: `403 ADMIN_FORBIDDEN`.
+- Login tanpa role admin aktif: `403 ADMIN_FORBIDDEN`.
+- Role `analyst`: hanya dapat membaca analytics dan activity log (read-only).
+- Role `owner`/`administrator`: dapat membaca analytics dan mengelola konfigurasi, media, serta profil.
+
+Tidak ada endpoint admin yang bergantung pada `user_metadata`, email hardcoded,
+domain, client variable, atau parameter URL.
+
+### 29.1 Analytics Public Ingestion
+
+`POST /api/v1/analytics/events`
+
+- Zod strict; event type & approved list.
+- Payload tidak menyimpan isi query mentah, IP mentah, fingerprint, atau lokasi presisi.
+- Path dinormalisasi tanpa query string.
+- Path `/admin*` ditolak (`422 ADMIN_PATH_NOT_TRACKED`).
+- Validasi origin/same-site; rate limit per IP-hash 60 req/menit (`429 RATE_LIMITED`).
+
+`POST /api/v1/analytics/vitals`
+
+- Metrik `LCP`, `INP`, `CLS`, `TTFB`, `FCP`.
+- Path admin ditolak; nilai dibatasi 0-300000.
+
+### 29.2 Admin Analytics Read
+
+`GET /api/v1/admin/overview?days={n}`
+
+`GET /api/v1/admin/traffic?days={n}`
+`GET /api/v1/admin/traffic/export?days={n}` (CSV UTF-8)
+
+`GET /api/v1/admin/audience?days={n}`
+
+`GET /api/v1/admin/engagement?days={n}`
+
+`GET /api/v1/admin/performance?days={n}`
+
+`GET /api/v1/admin/activity-log?from=&to=&action=&resource_type=&status=&actor_id=&limit=&offset=`
+
+Rentang diambil dari `days` (default 30, maks 365) atau `from`/`to` (dibatasi maks 365 hari).
+
+### 29.3 Admin Configuration (role owner/administrator)
+
+Appearance:
+
+- `GET /api/v1/admin/appearance`
+- `PATCH /api/v1/admin/appearance` body `{ data, expectedDraftVersion? }`
+- `POST /api/v1/admin/appearance/publish` body `{ expectedDraftVersion? }`
+- `POST /api/v1/admin/appearance/rollback` body `{ expectedPublishedVersion? }`
+
+Site Profile:
+
+- `GET /api/v1/admin/site-profile`
+- `PATCH /api/v1/admin/site-profile`
+- `POST /api/v1/admin/site-profile/publish`
+- `POST /api/v1/admin/site-profile/rollback`
+
+Konflik versi mengembalikan `409 VERSION_CONFLICT`.
+
+Rollback tanpa riwayat mengembalikan `409 NO_PREVIOUS_VERSION`.
+
+### 29.4 Media Library (role owner/administrator)
+
+- `GET /api/v1/admin/media`
+- `POST /api/v1/admin/media` (multipart `file` + `name`)
+- `GET /api/v1/admin/media/:id` (signed URL)
+- `PATCH /api/v1/admin/media/:id`
+- `POST /api/v1/admin/media/:id` body `{ archived }`
+
+Batasan: MIME `image/png`, `image/jpeg`, `image/webp` (validasi signature,
+bukan ekstensi), maks 10 MiB (`413 FILE_TOO_LARGE`), tipe lain `415 UNSUPPORTED_TYPE`.
+
+### 29.5 Profile
+
+- `GET /api/v1/admin/profile`
+- `PATCH /api/v1/admin/profile` body `{ displayName, avatarUrl? }`
+
+### 29.6 Keamanan
+
+- Tidak ada route admin publik.
+- Tidak ada admin API tanpa authorization server-side.
+- Tidak ada `service_role`/secret pada client.
+- Tidak ada public write ke settings/media/activity-log/analytics.
+- Draft tidak pernah dibaca halaman publik; publik hanya membaca `published`.

@@ -1,6 +1,7 @@
 import {
   boolean,
   index,
+  pgEnum,
   primaryKey,
   pgTable,
   text,
@@ -11,6 +12,12 @@ import {
 } from "drizzle-orm/pg-core";
 
 import { createTimestampColumns } from "./common";
+
+export const roleAssignmentStatusEnum = pgEnum("role_assignment_status", [
+  "active",
+  "suspended",
+  "revoked",
+]);
 
 export const userProfiles = pgTable(
   "user_profiles",
@@ -69,6 +76,8 @@ export const userRoleAssignments = pgTable(
       }),
 
     assignedBy: uuid("assigned_by"),
+
+    status: roleAssignmentStatusEnum("status").notNull().default("active"),
 
     assignedAt: timestamp("assigned_at", {
       withTimezone: true,
