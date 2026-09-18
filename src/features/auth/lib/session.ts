@@ -4,6 +4,7 @@ import { eq } from "drizzle-orm";
 
 import { db } from "@/db";
 import {
+  roleAssignmentStatusEnum,
   roles,
   userProfiles,
   userRoleAssignments,
@@ -12,6 +13,11 @@ import { createClient } from "@/lib/supabase/server";
 
 import { getSafeInternalPath } from "./validation";
 
+export type RoleAssignmentSummary = {
+  key: string;
+  status: (typeof roleAssignmentStatusEnum.enumValues)[number];
+};
+
 export type AuthenticatedIdentity = {
   id: string;
   email: string | null;
@@ -19,6 +25,7 @@ export type AuthenticatedIdentity = {
   displayName: string | null;
   avatarUrl: string | null;
   roles: string[];
+  roleAssignments: RoleAssignmentSummary[];
 };
 
 export async function getAuthenticatedIdentity(): Promise<AuthenticatedIdentity | null> {
@@ -40,11 +47,7 @@ export async function getAuthenticatedIdentity(): Promise<AuthenticatedIdentity 
       .from(userProfiles)
       .where(eq(userProfiles.userId, userId))
       .limit(1),
-    db
-      .select({ key: roles.key })
-      .from(userRoleAssignments)
-      .innerJoin(roles, eq(userRoleAssignments.roleId, roles.id))
-      .where(eq(userRoleAssignments.userId, userId)),
+    loadRoleAssignments(userId),
   ]);
 
   const claimsEmail = data.claims.email;
@@ -56,11 +59,44 @@ export async function getAuthenticatedIdentity(): Promise<AuthenticatedIdentity 
     displayName: profile[0]?.displayName ?? null,
     avatarUrl: profile[0]?.avatarUrl ?? null,
     roles: assignedRoles.map((role) => role.key),
+    roleAssignments: assignedRoles.map((role) => ({
+      key: role.key,
+      status: role.status,
+    })),
   };
 }
 
+async function loadRoleAssignments(userId: string): Promise<RoleAssignmentSummary[]> {
+  try {
+    return await db
+      .select({ key: roles.key, status: userRoleAssignments.status })
+      .from(userRoleAssignments)
+      .innerJoin(roles, eq(userRoleAssignments.roleId, roles.id))
+      .where(eq(userRoleAssignments.userId, userId));
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    const columnMissing = /column .*status.* does not exist/i.test(message);
+
+    if (!columnMissing) {
+      throw error;
+    }
+
+    // Migration 0022 belum diterapkan. Anggap assignment active sementara
+    // agar login yang sudah ada tetap berfungsi.
+    const legacy = await db
+      .select({ key: roles.key })
+      .from(userRoleAssignments)
+      .innerJoin(roles, eq(userRoleAssignments.roleId, roles.id))
+      .where(eq(userRoleAssignments.userId, userId));
+
+    return legacy.map((row) => ({ key: row.key, status: "active" }));
+  }
+}
+
 export function isAdministrator(identity: AuthenticatedIdentity) {
-  return identity.roles.includes("administrator");
+  return identity.roles.some((role) =>
+    ["owner", "administrator", "analyst"].includes(role),
+  );
 }
 
 export function getPostLoginPath(

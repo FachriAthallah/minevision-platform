@@ -3,45 +3,51 @@ import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 
 import { Container } from "@/components/ui/container";
-import { officialSourceLinks, publicRoutes, siteConfig } from "@/config/site";
+import { officialSourceLinks as defaultOfficialSourceLinks, publicRoutes, siteConfig } from "@/config/site";
 
-const footerGroups = [
-  {
-    title: "Platform",
-    links: [
-      ...siteConfig.mainNavigation,
-    ],
-  },
-  {
-    title: "Explore",
-    links: [
-      { label: "Hilirisasi", href: publicRoutes.economyDownstream },
-      { label: "Istilah Pertambangan", href: publicRoutes.educationGlossary },
-      { label: "Kategori Karier", href: publicRoutes.careerCategories },
-      { label: "Komoditas", href: publicRoutes.commodity },
-      { label: "Wilayah Operasi", href: publicRoutes.industryOperations },
-    ],
-  },
-  {
-    title: "Resource",
-    links: [
-      { label: "Tentang MineVision", href: publicRoutes.about },
-      { label: "Metodologi Data", href: publicRoutes.methodology },
-      { label: "Kebijakan Privasi", href: publicRoutes.privacy },
-      { label: "Ketentuan Penggunaan", href: publicRoutes.terms },
-      { label: "Kontak", href: publicRoutes.contact },
-    ],
-  },
-  {
-    title: "Data Source",
-    links: officialSourceLinks,
-  },
-] as const;
+export function PublicFooter({
+  officialSourceLinks = defaultOfficialSourceLinks,
+  copyrightText,
+  footerDescription,
+}: {
+  officialSourceLinks?: typeof defaultOfficialSourceLinks;
+  copyrightText?: string;
+  footerDescription?: string;
+}) {
+  const footerGroups = [
+    {
+      title: "Platform",
+      links: siteConfig.mainNavigation,
+    },
+    {
+      title: "Explore",
+      links: [
+        { label: "Hilirisasi", href: publicRoutes.economyDownstream },
+        { label: "Istilah Pertambangan", href: publicRoutes.educationGlossary },
+        { label: "Kategori Karier", href: publicRoutes.careerCategories },
+        { label: "Komoditas", href: publicRoutes.commodity },
+        { label: "Wilayah Operasi", href: publicRoutes.industryOperations },
+      ],
+    },
+    {
+      title: "Resource",
+      links: [
+        { label: "Tentang MineVision", href: publicRoutes.about },
+        { label: "Metodologi Data", href: publicRoutes.methodology },
+        { label: "Kebijakan Privasi", href: publicRoutes.privacy },
+        { label: "Ketentuan Penggunaan", href: publicRoutes.terms },
+        { label: "Kontak", href: publicRoutes.contact },
+      ],
+    },
+    {
+      title: "Data Source",
+      links: officialSourceLinks,
+    },
+  ];
 
-const footerSectionId = (title: string) =>
-  `footer-${title.toLowerCase().replaceAll(" ", "-")}`;
+  const footerSectionId = (title: string) =>
+    `footer-${title.toLowerCase().replaceAll(" ", "-")}`;
 
-export function PublicFooter() {
   return (
     <footer className="relative overflow-hidden border-t border-white/10 bg-[#030a18] text-nav-muted">
       <div
@@ -76,8 +82,8 @@ export function PublicFooter() {
             </Link>
 
             <p className="mt-6 text-sm leading-7">
-              Platform intelligence pertambangan Indonesia untuk edukasi,
-              industri, komoditas, karier, data, dan ekonomi.
+              {footerDescription ??
+                "Platform intelligence pertambangan Indonesia untuk edukasi, industri, komoditas, karier, data, dan ekonomi."}
             </p>
           </div>
 
@@ -116,7 +122,8 @@ export function PublicFooter() {
 
         <div className="flex flex-col gap-3 pt-7 text-xs sm:flex-row sm:items-center sm:justify-between">
           <p>
-            © {new Date().getFullYear()} {siteConfig.fullName}.
+            © {new Date().getFullYear()}{" "}
+            {copyrightText ?? siteConfig.fullName}.
           </p>
           <p>Informasi disajikan bersama sumber dan status publikasinya.</p>
         </div>

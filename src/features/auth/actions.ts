@@ -15,7 +15,8 @@ import {
   getSafeInternalPath,
   loginSchema,
 } from "./lib/validation";
-import { getAuthenticatedIdentity, getPostLoginPath } from "./lib/session";
+import { getAuthenticatedIdentity, getPostLoginPath, isAdministrator } from "./lib/session";
+import { recordAdminActivity } from "@/features/admin/lib/activity-log";
 
 export async function signInWithPassword(
   _previousState: AuthFormState,
@@ -57,6 +58,19 @@ export async function signInWithPassword(
       status: "error",
       message: "Sesi login tidak dapat diverifikasi. Silakan coba kembali.",
     };
+  }
+
+  if (isAdministrator(identity)) {
+    await recordAdminActivity({
+      actor: {
+        userId: identity.id,
+        email: identity.email,
+        displayName: identity.displayName,
+      },
+      action: "admin_login",
+      resourceType: "admin_session",
+      resourceId: identity.id,
+    });
   }
 
   redirect(getPostLoginPath(identity, parsed.data.next));

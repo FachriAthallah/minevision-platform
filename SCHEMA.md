@@ -1929,3 +1929,138 @@ Status: source schema dan migration sudah disiapkan; **belum diterapkan ke devel
 - Migration harus dijalankan lewat migrator transaksional Drizzle. Uji eksekusi
   SQL pada PostgreSQL disposable masih diperlukan sebelum persetujuan penerapan;
   test adapter importer tidak menggantikan uji migrasi PostgreSQL.
+
+
+
+# 17. Admin Dashboard Schema
+
+Tabel pada bagian ini ditambahkan oleh migration `0022_admin-dashboard.sql`.
+Seluruh tabel yang diekspos mengaktifkan Row Level Security.
+
+## 17.1 `admin_activity_logs`
+
+Log aktivitas administratif (append-only; tidak boleh di-update/dihapus via UI).
+
+| Kolom | Tipe | Keterangan |
+| --- | --- | --- |
+| `id` | `uuid` PK | `gen_random_uuid()` |
+| `actor_id` | `uuid` NOT NULL | Pelaku aksi |
+| `action` | `varchar(120)` NOT NULL | Aksi, contoh `appearance_published` |
+| `resource_type` | `varchar(80)` | Tipe sumber daya |
+| `resource_id` | `varchar(200)` | ID sumber daya |
+| `before_summary` | `jsonb` | Ringkasan aman sebelum |
+| `after_summary` | `jsonb` | Ringkasan aman sesudah |
+| `result` | `admin_activity_result` | `success` / `failure` |
+| `correlation_id` | `varchar(64)` | - |
+| `request_id` | `varchar(64)` | - |
+| `created_at` | `timestamptz` | Default `now()`, tanpa update |
+
+Tidak menyimpan password, token, API key, cookie, atau file mentah.
+
+## 17.2 `analytics_events`
+
+Event analytics first-party yang mengutamakan privasi.
+
+| Kolom | Tipe | Keterangan |
+| --- | --- | --- |
+| `id` | `uuid` PK | - |
+| `event_type` | `analytics_event_type` | `page_view`, `module_opened`, `search_submitted`, `search_result_clicked`, `related_link_clicked`, `outbound_source_clicked`, `cta_clicked`, `session_started`, `web_vital` |
+| `session_id` | `varchar(64)` NOT NULL | Random first-party anonymous identifier |
+| `occurred_at` | `timestamptz` NOT NULL | - |
+| `path` | `varchar(500)` | Path dinormalisasi tanpa query |
+| `module` | `varchar(64)` | Modul |
+| `referrer_domain` | `varchar(255)` | - |
+| `device_category` | `analytics_device_category` | `desktop`/`mobile`/`tablet`/`unknown` |
+| `browser_family` | `varchar(80)` | - |
+| `os_family` | `varchar(80)` | - |
+| `country_code` | `varchar(2)` | - |
+| `event_properties` | `jsonb` | Atribut aman; untuk vitals berisi `{ metric, value }` |
+
+Privasi: tidak menyimpan IP mentah, fingerprint, lokasi presisi, form content,
+atau isi query sensitif. Route `/admin*` tidak di-track.
+
+## 17.3 `site_settings`
+
+Konfigurasi low-risiko dengan mekanisme draft/published + optimistic concurrency.
+
+| Kolom | Tipe | Keterangan |
+| --- | --- | --- |
+| `key` | `varchar(64)` PK | `appearance`, `site_profile` |
+| `draft` | `jsonb` NOT NULL | Draft admin |
+| `published` | `jsonb` NOT NULL | Versi yang dibaca publik |
+| `draft_version` | `integer` NOT NULL | Untuk CWV (compare-and-swap) |
+| `published_version` | `integer` NOT NULL | Versi published terbaru |
+| `updated_by` | `uuid` | - |
+| `published_by` | `uuid` | - |
+| `created_at` / `updated_at` | `timestamptz` | - |
+
+Publish menyalin `draft` â†’ `published`, menaikkan versi, mencatat riwayat,
+dan meng-invalidasi cache tag `site-settings`.
+
+## 17.4 `site_setting_versions`
+
+Riwayat versi published (append-only) untuk rollback.
+
+| Kolom | Tipe | Keterangan |
+| --- | --- | --- |
+| `id` | `uuid` PK | - |
+| `setting_key` | `varchar(64)` FK â†’ `site_settings.key` | - |
+| `state` | `site_setting_state` | `draft`/`published` |
+| `version` | `integer` | - |
+| `payload` | `jsonb` | Snapshot |
+| `applied_by` | `uuid` | - |
+| `applied_at` | `timestamptz` | - |
+
+Unique: `(setting_key, state, version)`.
+
+## 17.5 `media_assets`
+
+Metadata media di Supabase Storage (bucket privat `admin-media`).
+
+| Kolom | Tipe | Keterangan |
+| --- | --- | --- |
+| `id` | `uuid` PK | - |
+| `bucket` | `varchar(80)` NOT NULL | `admin-media` |
+| `storage_path` | `varchar(500)` NOT NULL | Nama object acak, tanpa path traversal |
+| `kind` | `media_asset_kind` | `logo`/`favicon`/`hero_image`/`content_image`/`avatar`/`other` |
+| `original_file_name` | `varchar(255)` | - |
+| `display_name` | `varchar(255)` | - |
+| `alt_text` | `text` | - |
+| `mime_type` | `varchar(120)` NOT NULL | Hanya PNG/JPEG/WebP |
+| `size_bytes` | `integer` NOT NULL | Maks 10 MiB |
+| `width` / `height` | `integer` | - |
+| `tags` | `jsonb` | - |
+| `is_archived` | `boolean` NOT NULL | - |
+| `uploaded_by` | `uuid` | - |
+| `created_at` / `updated_at` | `timestamptz` | - |
+
+Unique: `(bucket, storage_path)`.
+
+## 17.6 Perubahan pada schema autentikasi
+
+Migration `0022` menambahkan kolom `status` pada `user_role_assignments`
+(enum `role_assignment_status`: `active`/`suspended`/`revoked`, default `active`).
+
+## 17.7 Role admin
+
+Migration menyediakan role sistem tambahan dengan pola idempotent:
+
+- `owner` â€” akses penuh admin.
+- `analyst` â€” baca analytics + activity log (read-only).
+
+Role `administrator` yang sudah ada tetap bermakna "dapat mengelola konfigurasi".
+
+## 17.8 Storage: bucket `admin-media`
+
+Bucket privat `admin-media` dibuat idempotent di migration (mengikuti pola bucket
+`industry-reports`). Upload melalui server route dengan secret key Supabase;
+publik membaca melalui signed URL yang dibuat server-side.
+
+## 17.9 RLS dan privilege
+
+Semua tabel section ini mengaktifkan RLS. Akses klien langsung (`anon`/`authenticated`)
+tidak diberikan policy pada tabel admin & analytics; aplikasi membaca/menulis
+melalui koneksi server yang memakai hak eksekusi service/privileged.
+
+Role `owner`/`analyst` aktual diberikan hanya melalui script manual
+`npm run auth:bootstrap-owner -- <email> --commit` (default dry-run).
