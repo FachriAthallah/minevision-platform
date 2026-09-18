@@ -317,3 +317,92 @@ a {
     transform: none;
   }
 }
+
+/* ========================================================================
+   MineVision scroll reveal — scoped motion system
+   Uses transform / opacity / filter only. No layout-affecting properties.
+   ======================================================================== */
+
+.mv-reveal {
+  --mv-x: 0px;
+  --mv-y: 28px;
+  --mv-scale: 0.97;
+  --mv-blur: 7px;
+  opacity: 0;
+  transform: translate3d(var(--mv-x), var(--mv-y), 0) scale(var(--mv-scale));
+  filter: blur(var(--mv-blur));
+  transition:
+    opacity 700ms cubic-bezier(0.22, 0.61, 0.36, 1),
+    transform 700ms cubic-bezier(0.22, 0.61, 0.36, 1),
+    filter 700ms cubic-bezier(0.22, 0.61, 0.36, 1);
+  will-change: opacity, transform, filter;
+}
+
+.mv-reveal-is-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0) scale(1);
+  filter: none;
+}
+
+.mv-reveal--up {
+  --mv-y: 28px;
+}
+
+.mv-reveal--down {
+  --mv-y: -26px;
+}
+
+.mv-reveal--left {
+  --mv-x: -20px;
+  --mv-y: 0px;
+}
+
+.mv-reveal--right {
+  --mv-x: 20px;
+  --mv-y: 0px;
+}
+
+.mv-reveal--scale {
+  --mv-y: 0px;
+  --mv-scale: 0.96;
+}
+
+.mv-reveal--fade {
+  --mv-y: 0px;
+  --mv-scale: 1;
+  --mv-blur: 0px;
+}
+
+@media (max-width: 640px) {
+  .mv-reveal {
+    --mv-y: 18px;
+    --mv-scale: 0.98;
+    --mv-blur: 5px;
+  }
+
+  .mv-reveal--down {
+    --mv-y: -16px;
+  }
+
+  .mv-reveal--left {
+    --mv-x: -12px;
+  }
+
+  .mv-reveal--right {
+    --mv-x: 12px;
+  }
+
+  .mv-reveal--scale {
+    --mv-scale: 0.98;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mv-reveal {
+    opacity: 1;
+    transform: none;
+    filter: none;
+    transition: none;
+    will-change: auto;
+  }
+}

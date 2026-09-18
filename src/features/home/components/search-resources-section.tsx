@@ -4,6 +4,7 @@ import {
   Bot,
   Search,
 } from "lucide-react";
+import { Reveal } from "@/components/shared/reveal";
 import { publicRoutes } from "@/config/site";
 
 const popularSearches = [
@@ -37,6 +38,7 @@ export function SearchResourcesSection() {
       className="mx-auto max-w-[1320px] scroll-mt-24 px-6 py-20"
     >
       <div className="grid gap-8 lg:grid-cols-2">
+        <Reveal direction="up">
         <div>
           <h2
             id="search-heading"
@@ -100,8 +102,10 @@ export function SearchResourcesSection() {
             ))}
           </div>
         </div>
+      </Reveal>
 
-        <article className="flex flex-wrap items-center gap-8 rounded-2xl border border-border bg-surface/70 p-8 shadow-sm backdrop-blur md:flex-nowrap">
+      <Reveal direction="up" delay={120}>
+        <article className="flex h-full flex-wrap items-center gap-8 rounded-2xl border border-border bg-surface/70 p-8 shadow-sm backdrop-blur md:flex-nowrap">
           <span className="flex h-24 w-24 shrink-0 items-center justify-center rounded-full border border-accent/50 bg-surface-elevated shadow-[var(--shadow-float)]">
             <Bot
               aria-hidden="true"
@@ -133,6 +137,7 @@ export function SearchResourcesSection() {
             </p>
           </div>
         </article>
+      </Reveal>
       </div>
 
     </section>
