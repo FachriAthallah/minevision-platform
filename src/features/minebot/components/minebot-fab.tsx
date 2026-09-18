@@ -1,5 +1,3 @@
-"use client";
-
 import { useEffect, useRef, useState } from "react";
 import { Bot } from "lucide-react";
 
@@ -26,8 +24,10 @@ export function MineBotFab() {
 
   const handleClose = () => {
     setIsOpen(false);
-    // Restore focus to the FAB after the panel closes.
-    requestAnimationFrame(() => fabRef.current?.focus());
+
+    requestAnimationFrame(() => {
+      fabRef.current?.focus();
+    });
   };
 
   return (
@@ -42,12 +42,10 @@ export function MineBotFab() {
           className={cn(
             "relative",
             !isOpen && "minebot-fab-idle",
-            pressed && "minebot-fab-open"
+            pressed && "minebot-fab-open",
           )}
         >
-          {!isOpen && (
-            <span className="minebot-fab-ring" aria-hidden="true" />
-          )}
+          {!isOpen && <span className="minebot-fab-ring" aria-hidden="true" />}
 
           <button
             ref={fabRef}
@@ -63,16 +61,22 @@ export function MineBotFab() {
               "backdrop-blur transition hover:border-brand-cyan/50 hover:shadow-[0_16px_50px_rgba(0,177,196,0.22)]",
               "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-cyan",
               "active:scale-[0.97]",
-              isOpen && "pointer-events-none opacity-0"
+              isOpen && "pointer-events-none opacity-0",
             )}
           >
             <span className="grid h-10 w-10 place-items-center rounded-full bg-gradient-to-br from-brand-blue via-brand-cyan to-brand-teal shadow-[0_4px_16px_rgba(0,177,196,0.4)]">
-              <Bot className="h-5 w-5 text-[#02131a]" strokeWidth={2.1} aria-hidden="true" />
+              <Bot
+                className="h-5 w-5 text-[#02131a]"
+                strokeWidth={2.1}
+                aria-hidden="true"
+              />
             </span>
+
             <span className="hidden flex-col items-start text-left min-[380px]:flex">
               <span className="text-[13px] font-semibold leading-tight text-foreground">
                 MineBot
               </span>
+
               <span className="text-[10px] leading-tight text-muted-foreground">
                 Tanya pertambangan
               </span>
