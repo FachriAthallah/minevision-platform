@@ -3,6 +3,7 @@ import { Bot, BookOpenCheck } from "lucide-react";
 
 import { buttonVariants } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { Reveal } from "@/components/shared/reveal";
 import { cn } from "@/lib/utils";
 import { publicRoutes } from "@/config/site";
 
@@ -13,7 +14,8 @@ export function IndustryActionCards() {
         Pelajari Industri lebih lanjut
       </h2>
       <div className="grid gap-5 lg:grid-cols-2">
-        <Card variant="elevated" className="relative overflow-hidden p-6 sm:p-7">
+        <Reveal direction="up">
+          <Card variant="elevated" className="relative overflow-hidden p-6 sm:p-7">
           <div aria-hidden="true" className="absolute -right-14 -top-14 size-40 rounded-full bg-brand-blue/10 blur-3xl" />
           <div className="relative">
             <BookOpenCheck aria-hidden="true" className="size-7 text-brand-cyan" />
@@ -33,7 +35,9 @@ export function IndustryActionCards() {
             </Link>
           </div>
         </Card>
+        </Reveal>
 
+        <Reveal direction="up" delay={70}>
         <Card variant="elevated" className="relative overflow-hidden p-6 sm:p-7">
           <div aria-hidden="true" className="absolute -right-14 -top-14 size-40 rounded-full bg-brand-teal/10 blur-3xl" />
           <div className="relative">
@@ -54,6 +58,7 @@ export function IndustryActionCards() {
             </Link>
           </div>
         </Card>
+        </Reveal>
       </div>
     </section>
   );

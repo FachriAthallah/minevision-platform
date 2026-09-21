@@ -24,6 +24,7 @@ import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Container } from "@/components/ui/container";
+import { Reveal } from "@/components/shared/reveal";
 import { cn } from "@/lib/utils";
 import { publicRoutes } from "@/config/site";
 
@@ -279,15 +280,21 @@ function CommodityHero({ commodity }: { commodity: PublicCommodityDetail }) {
         className="absolute inset-0 -z-20 bg-[radial-gradient(circle_at_78%_38%,rgba(0,177,196,0.14),transparent_27%),linear-gradient(115deg,#020817_0%,#071426_58%,#06202d_100%)]"
       />
       <Container className="max-w-[1320px]">
-        <Link
-          href="/commodity"
-          className="inline-flex min-h-11 items-center gap-2 rounded-full border border-brand-cyan/35 bg-brand-cyan/10 px-5 text-sm font-bold text-brand-cyan transition-colors hover:bg-brand-cyan/15 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-cyan"
-        >
-          <ArrowLeft aria-hidden="true" className="h-4 w-4" />
-          Kembali ke katalog
-        </Link>
+        <Reveal direction="up">
+          <Link
+            href="/commodity"
+            className={cn(
+              buttonVariants({ variant: "primary", size: "medium" }),
+              "motion-reduce:transition-none",
+            )}
+          >
+            <ArrowLeft aria-hidden="true" className="h-4 w-4" />
+            Kembali ke katalog
+          </Link>
+        </Reveal>
 
-        <div className="mt-7 grid items-center gap-8 lg:grid-cols-[minmax(0,1fr)_390px] lg:gap-14">
+        <Reveal direction="up" delay={70}>
+          <div className="mt-7 grid items-center gap-8 lg:grid-cols-[minmax(0,1fr)_390px] lg:gap-14">
           <div>
             <div className="flex flex-wrap items-center gap-2">
               <span className="rounded-full border border-brand-cyan/25 bg-brand-cyan/5 px-3 py-1 text-xs font-bold uppercase tracking-[0.12em] text-brand-cyan">
@@ -322,6 +329,7 @@ function CommodityHero({ commodity }: { commodity: PublicCommodityDetail }) {
             )}
           </div>
         </div>
+        </Reveal>
       </Container>
     </section>
   );
@@ -569,18 +577,24 @@ export function CommodityDetail({ commodity, previous, next }: CommodityDetailPr
             <SectionNavigation sections={navigation} />
             <article className="min-w-0 space-y-7">
               {(overview || commodity.specification) ? (
-                <section id="overview" className="scroll-mt-44 rounded-3xl border border-white/10 bg-[#0a192d] p-5 sm:p-7 lg:scroll-mt-32 lg:p-8">
-                  <div className="flex items-start gap-4"><FileText aria-hidden="true" className="mt-1 h-6 w-6 shrink-0 text-brand-cyan" /><div className="min-w-0 flex-1"><h2 className="text-xl text-white sm:text-2xl">Identitas Teknis</h2><TechnicalIdentity commodity={commodity} /></div></div>
-                </section>
+                <Reveal direction="up">
+                  <section id="overview" className="scroll-mt-44 rounded-3xl border border-white/10 bg-[#0a192d] p-5 sm:p-7 lg:scroll-mt-32 lg:p-8">
+                    <div className="flex items-start gap-4"><FileText aria-hidden="true" className="mt-1 h-6 w-6 shrink-0 text-brand-cyan" /><div className="min-w-0 flex-1"><h2 className="text-xl text-white sm:text-2xl">Identitas Teknis</h2><TechnicalIdentity commodity={commodity} /></div></div>
+                  </section>
+                </Reveal>
               ) : null}
-              {remainingBodySections.map((section, index) => <ProfileSection key={section.title} section={section} index={index + 1} />)}
-              <IndonesiaSection commodity={commodity} />
-              <GlobalSection commodity={commodity} />
-              <CompaniesSection commodity={commodity} />
-              <SourcesSection commodity={commodity} />
-              <ActionCards commodity={commodity} />
-              <CommodityPagination previous={previous} next={next} />
-              <div className="flex justify-center"><a href="#commodity-content" className="inline-flex min-h-11 items-center gap-2 rounded-full border border-white/10 px-5 text-sm font-bold text-[#9facba] hover:border-brand-cyan/35 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-cyan"><ArrowUp aria-hidden="true" className="h-4 w-4" /> Kembali ke atas</a></div>
+              {remainingBodySections.map((section, index) => (
+                <Reveal key={section.title} direction="up" delay={Math.min(index, 3) * 60}>
+                  <ProfileSection section={section} index={index + 1} />
+                </Reveal>
+              ))}
+              <Reveal direction="up"><IndonesiaSection commodity={commodity} /></Reveal>
+              <Reveal direction="up" delay={40}><GlobalSection commodity={commodity} /></Reveal>
+              <Reveal direction="up" delay={40}><CompaniesSection commodity={commodity} /></Reveal>
+              <Reveal direction="up" delay={40}><SourcesSection commodity={commodity} /></Reveal>
+              <Reveal direction="up"><ActionCards commodity={commodity} /></Reveal>
+              <Reveal direction="up" delay={40}><CommodityPagination previous={previous} next={next} /></Reveal>
+              <div className="flex justify-center"><a href="#commodity-content" className={cn(buttonVariants({ variant: "primary", size: "medium" }), "motion-reduce:transition-none")}><ArrowUp aria-hidden="true" className="h-4 w-4" /> Kembali ke atas</a></div>
             </article>
           </div>
         </Container>

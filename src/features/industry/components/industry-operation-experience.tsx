@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { MapPinned, X } from "lucide-react";
 import "maplibre-gl/dist/maplibre-gl.css";
 
+import { Reveal } from "@/components/shared/reveal";
 import {
   filterOperationSitesByCompany,
   getIndustryMarkerColor,
@@ -13,6 +14,7 @@ import type {
   PublicIndustryOperationSite,
 } from "@/features/industry/types/industry";
 
+import { IndustrySelect } from "./industry-select";
 import { IndustryState } from "./industry-states";
 
 type MapLibreModule = typeof import("maplibre-gl");
@@ -22,9 +24,6 @@ type MarkerElementState = {
   dot: HTMLSpanElement;
   color: string;
 };
-
-const selectClassName =
-  "min-h-11 w-full rounded-xl border border-border bg-background/80 px-4 text-sm text-foreground outline-none transition-colors hover:border-brand-cyan/40 focus:border-brand-cyan focus:ring-2 focus:ring-brand-cyan/20";
 
 const siteTypeLabels: Record<PublicIndustryOperationSite["siteType"], string> = {
   mine: "Tambang",
@@ -375,49 +374,59 @@ export function IndustryOperationExperience({
 
   return (
     <section aria-labelledby="industry-operations-heading">
-      <div className="flex flex-col gap-6 border-b border-border pb-7 lg:flex-row lg:items-end lg:justify-between">
-        <div className="max-w-3xl">
-          <p className="text-xs font-bold uppercase tracking-[0.16em] text-brand-teal">Eksplorasi Geografis</p>
-          <h2 id="industry-operations-heading" className="mt-2 text-3xl text-foreground">Wilayah Operasi</h2>
-          <p className="mt-3 text-sm leading-7 text-muted-foreground">
-            Jelajahi persebaran tambang, smelter, refinery, proyek, pelabuhan, kawasan industri, dan fasilitas lain yang mendukung kegiatan perusahaan.
-          </p>
+      <Reveal direction="up" className="relative z-30">
+        <div className="flex flex-col gap-6 border-b border-border pb-7 lg:flex-row lg:items-end lg:justify-between">
+          <div className="max-w-3xl">
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-brand-teal">Eksplorasi Geografis</p>
+            <h2 id="industry-operations-heading" className="mt-2 text-3xl text-foreground">Wilayah Operasi</h2>
+            <p className="mt-3 text-sm leading-7 text-muted-foreground">
+              Jelajahi persebaran tambang, smelter, refinery, proyek, pelabuhan, kawasan industri, dan fasilitas lain yang mendukung kegiatan perusahaan.
+            </p>
+          </div>
+          <div className="w-full lg:max-w-sm">
+            <label htmlFor="operation-company" className="text-sm font-bold text-foreground">Perusahaan</label>
+            <IndustrySelect
+              id="operation-company"
+              value={selectedCompanySlug}
+              onChange={setSelectedCompanySlug}
+              placeholder="Semua Perusahaan"
+              options={[
+                { value: "", label: "Semua Perusahaan" },
+                ...companies.map((company) => ({ value: company.slug, label: company.name })),
+              ]}
+              className="mt-2"
+            />
+          </div>
         </div>
-        <div className="w-full lg:max-w-sm">
-          <label htmlFor="operation-company" className="text-sm font-bold text-foreground">Perusahaan</label>
-          <select
-            id="operation-company"
-            value={selectedCompanySlug}
-            onChange={(event) => setSelectedCompanySlug(event.target.value)}
-            className={`${selectClassName} mt-2`}
-          >
-            <option value="">Semua Perusahaan</option>
-            {companies.map((company) => <option key={company.id} value={company.slug}>{company.name}</option>)}
-          </select>
+      </Reveal>
+
+      <Reveal direction="up" delay={60}>
+        <div className="mt-6 flex items-start gap-3 rounded-2xl border border-brand-cyan/20 bg-brand-cyan/5 p-4 text-sm leading-6 text-muted-foreground">
+          <MapPinned aria-hidden="true" className="mt-0.5 size-5 shrink-0 text-brand-cyan" />
+          <p>Pilih perusahaan untuk memusatkan peta, lalu tekan salah satu titik untuk melihat nama, wilayah, jenis fasilitas, komoditas, dan status operasinya.</p>
         </div>
-      </div>
+      </Reveal>
 
-      <div className="mt-6 flex items-start gap-3 rounded-2xl border border-brand-cyan/20 bg-brand-cyan/5 p-4 text-sm leading-6 text-muted-foreground">
-        <MapPinned aria-hidden="true" className="mt-0.5 size-5 shrink-0 text-brand-cyan" />
-        <p>Pilih perusahaan untuk memusatkan peta, lalu tekan salah satu titik untuk melihat nama, wilayah, jenis fasilitas, komoditas, dan status operasinya.</p>
-      </div>
-
-      <div className="mt-6">
-        <IndustryOperationMap sites={operationSites} selectedCompanySlug={selectedCompanySlug} />
-      </div>
+<Reveal direction="up" delay={100}>
+        <div className="mt-6">
+          <IndustryOperationMap sites={operationSites} selectedCompanySlug={selectedCompanySlug} />
+        </div>
+      </Reveal>
 
       {selectedCompanySlug === "" ? (
-        <div aria-label="Legenda warna perusahaan" className="mt-6 rounded-2xl border border-border bg-surface p-5">
-          <h3 className="font-sans text-sm font-bold text-foreground">Legenda perusahaan</h3>
-          <ul className="mt-4 grid gap-x-6 gap-y-3 sm:grid-cols-2 lg:grid-cols-3">
-            {companies.map((company) => (
-              <li key={company.id} className="flex items-center gap-3 text-sm text-muted-foreground">
-                <span aria-hidden="true" className="size-3.5 shrink-0 rounded-full border-2 border-white" style={{ backgroundColor: getIndustryMarkerColor(company.slug), boxShadow: `0 0 0 1px ${getIndustryMarkerColor(company.slug)}` }} />
-                <span>{company.name}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
+        <Reveal direction="up" delay={140}>
+          <div aria-label="Legenda perusahaan" className="mt-6 rounded-2xl border border-border bg-surface p-5">
+            <h3 className="font-sans text-sm font-bold text-foreground">Legenda perusahaan</h3>
+            <ul className="mt-4 grid gap-x-6 gap-y-3 sm:grid-cols-2 lg:grid-cols-3">
+              {companies.map((company) => (
+                <li key={company.id} className="flex items-center gap-3 text-sm text-muted-foreground">
+                  <span aria-hidden="true" className="size-3.5 shrink-0 rounded-full border-2 border-white" style={{ backgroundColor: getIndustryMarkerColor(company.slug), boxShadow: `0 0 0 1px ${getIndustryMarkerColor(company.slug)}` }} />
+                  <span>{company.name}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </Reveal>
       ) : null}
     </section>
   );

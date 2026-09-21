@@ -27,8 +27,10 @@ import {
 } from "react";
 import Link from "next/link";
 
-import { cn } from "@/lib/utils";
+import { Reveal } from "@/components/shared/reveal";
 import { publicRoutes } from "@/config/site";
+import { IndustrySelect } from "@/features/industry/components/industry-select";
+import { cn } from "@/lib/utils";
 
 import {
   createGdpInsight,
@@ -165,65 +167,82 @@ function GdpSection({ records }: { records: PublicEconomyDashboard["gdp"] }) {
   })));
 
   if (!activeRecord) {
-    return <EmptyState title="Data PDB belum tersedia" description="Belum ada record PDB yang terverifikasi dan dipublikasikan." detail="Data draft tidak digunakan sebagai pengganti." />;
+    return <Reveal direction="up"><EmptyState title="Data PDB belum tersedia" description="Belum ada record PDB yang terverifikasi dan dipublikasikan." detail="Data draft tidak digunakan sebagai pengganti." /></Reveal>;
   }
 
   return (
     <div className="space-y-6">
-      <section aria-labelledby="gdp-heading" className="rounded-3xl border border-white/10 bg-[#0a192d] p-5 shadow-[0_18px_52px_rgba(0,0,0,.2)] sm:p-7">
-        <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
-          <div>
-            <p className="text-xs font-bold uppercase tracking-[0.16em] text-brand-cyan">Produk Domestik Bruto</p>
-            <h2 id="gdp-heading" className="mt-2 text-2xl text-white sm:text-3xl">PDB Pertambangan Indonesia</h2>
-            <p className="mt-2 max-w-3xl text-sm leading-7 text-[#9facba]">Seri atas dasar harga berlaku (ADHB). Perubahan tahunan di bawah adalah perubahan nominal, bukan pertumbuhan ekonomi riil.</p>
+      <Reveal direction="up" delay={20} className="relative z-30">
+        <section aria-labelledby="gdp-heading" className="rounded-3xl border border-white/10 bg-[#0a192d] p-5 shadow-[0_18px_52px_rgba(0,0,0,.2)] sm:p-7">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p className="text-xs font-bold uppercase tracking-[0.16em] text-brand-cyan">Produk Domestik Bruto</p>
+              <h2 id="gdp-heading" className="mt-2 text-2xl text-white sm:text-3xl">PDB Pertambangan Indonesia</h2>
+              <p className="mt-2 max-w-3xl text-sm leading-7 text-[#9facba]">Seri atas dasar harga berlaku (ADHB). Perubahan tahunan di bawah adalah perubahan nominal, bukan pertumbuhan ekonomi riil.</p>
+            </div>
+            <label htmlFor="economy-gdp-year" className="flex shrink-0 flex-col gap-1.5 text-xs font-bold text-[#a8b5c5]">
+              <span>Pilih tahun PDB</span>
+              <IndustrySelect
+                id="economy-gdp-year"
+                value={String(activeYear ?? "")}
+                onChange={(value) => setSelectedYear(Number(value))}
+                placeholder="Pilih tahun"
+                options={[...trend].reverse().map((record) => ({ value: String(record.year), label: String(record.year) }))}
+                className="w-40 min-w-0 sm:w-44"
+              />
+            </label>
           </div>
-          <label className="flex shrink-0 flex-col gap-1.5 text-xs font-bold text-[#a8b5c5]">
-            <span>Pilih tahun PDB</span>
-            <select aria-label="Pilih tahun PDB" value={activeYear ?? ""} onChange={(event) => setSelectedYear(Number(event.target.value))} className="min-h-11 rounded-xl border border-white/10 bg-[#061122] px-3 text-sm text-white outline-none transition-colors hover:border-white/20 focus:border-brand-cyan focus:ring-2 focus:ring-brand-cyan/20">
-              {trend.map((record) => <option key={record.year} value={record.year}>{record.year}</option>)}
-            </select>
-          </label>
-        </div>
-      </section>
-
-      <section aria-label="Ringkasan PDB tahun terpilih" className="grid grid-cols-2 gap-3 xl:grid-cols-4">
-        <MetricCard icon={TrendingUp} label="Kontribusi PDB" value={formatEconomyPercentage(activeRecord.contributionPercentage)} description="Porsi Pertambangan dan Penggalian terhadap PDB nasional." />
-        <MetricCard icon={CircleDollarSign} label="Nilai Tambah Bruto" value={formatEconomyCurrency(activeRecord.miningQuarryingGdpValue, activeRecord.currencyCode, activeRecord.valueScale)} description="Nilai nominal sektor Pertambangan dan Penggalian ADHB." />
-        <MetricCard icon={BarChart3} label="Perubahan Nominal" value={formatEconomyPercentage(activeRecord.nominalYoyChangePercentage, true)} description="Dibanding observasi publik tahun sebelumnya." />
-        <MetricCard icon={FileCheck2} label="Status Data" value={dataStatusLabels[activeRecord.dataStatus]} description={`${activeRecord.year} · ${activeRecord.priceBasis === "current_prices" ? "ADHB" : "ADHK"}`} />
-      </section>
-
-      <div className="grid gap-5 xl:grid-cols-2">
-        <section className="min-w-0 rounded-3xl border border-white/10 bg-[#0a192d] p-5 sm:p-6">
-          <h3 className="text-xl text-white">Kontribusi terhadap PDB Nasional</h3>
-          <p className="mt-1 text-xs text-[#8292a6]">Persentase · 2019–2025</p>
-          <div className="mt-4"><GdpContributionChart records={trend} activeYear={activeYear} /></div>
         </section>
-        <section className="min-w-0 rounded-3xl border border-white/10 bg-[#0a192d] p-5 sm:p-6">
-          <h3 className="text-xl text-white">Nilai Nominal PDB Pertambangan</h3>
-          <p className="mt-1 text-xs text-[#8292a6]">ADHB · unit sumber {activeRecord.valueScale}</p>
-          <div className="mt-4"><GdpValueChart records={trend} activeYear={activeYear} /></div>
+      </Reveal>
+
+      <Reveal direction="up" delay={30}>
+        <section aria-label="Ringkasan PDB tahun terpilih" className="grid grid-cols-2 gap-3 xl:grid-cols-4">
+          <MetricCard icon={TrendingUp} label="Kontribusi PDB" value={formatEconomyPercentage(activeRecord.contributionPercentage)} description="Porsi Pertambangan dan Penggalian terhadap PDB nasional." />
+          <MetricCard icon={CircleDollarSign} label="Nilai Tambah Bruto" value={formatEconomyCurrency(activeRecord.miningQuarryingGdpValue, activeRecord.currencyCode, activeRecord.valueScale)} description="Nilai nominal sektor Pertambangan dan Penggalian ADHB." />
+          <MetricCard icon={BarChart3} label="Perubahan Nominal" value={formatEconomyPercentage(activeRecord.nominalYoyChangePercentage, true)} description="Dibanding observasi publik tahun sebelumnya." />
+          <MetricCard icon={FileCheck2} label="Status Data" value={dataStatusLabels[activeRecord.dataStatus]} description={`${activeRecord.year} · ${activeRecord.priceBasis === "current_prices" ? "ADHB" : "ADHK"}`} />
         </section>
-      </div>
+      </Reveal>
 
-      <section className="overflow-hidden rounded-3xl border border-white/10 bg-[#0a192d]">
-        <div className="border-b border-white/10 px-5 py-5 sm:px-6"><h3 className="text-xl text-white">Rincian PDB 2019–2025</h3></div>
-        <div className="max-w-full overflow-x-auto">
-          <table className="w-full min-w-[800px] border-collapse text-left text-sm">
-            <thead className="bg-[#061122] text-xs uppercase tracking-[0.08em] text-[#8292a6]"><tr><th className="px-5 py-4">Tahun</th><th className="px-5 py-4">PDB Nasional ADHB</th><th className="px-5 py-4">PDB Pertambangan ADHB</th><th className="px-5 py-4">Kontribusi</th><th className="px-5 py-4">Perubahan nominal</th><th className="px-5 py-4">Status</th></tr></thead>
-            <tbody className="divide-y divide-white/8 text-[#b7c3d1]">
-              {trend.map((record) => <tr key={record.id} className="transition-colors hover:bg-white/[0.025]"><td className="px-5 py-4 font-bold text-white">{record.year}</td><td className="px-5 py-4">{formatEconomyCurrency(record.nationalGdpValue, record.currencyCode, record.valueScale)}</td><td className="px-5 py-4">{formatEconomyCurrency(record.miningQuarryingGdpValue, record.currencyCode, record.valueScale)}</td><td className="px-5 py-4">{formatEconomyPercentage(record.contributionPercentage)}</td><td className="px-5 py-4">{formatEconomyPercentage(record.nominalYoyChangePercentage, true)}</td><td className="px-5 py-4">{dataStatusLabels[record.dataStatus]}</td></tr>)}
-            </tbody>
-          </table>
+      <Reveal direction="up" delay={40}>
+        <div className="grid gap-5 xl:grid-cols-2">
+          <section className="min-w-0 rounded-3xl border border-white/10 bg-[#0a192d] p-5 sm:p-6">
+            <h3 className="text-xl text-white">Kontribusi terhadap PDB Nasional</h3>
+            <p className="mt-1 text-xs text-[#8292a6]">Persentase · 2019–2025</p>
+            <div className="mt-4"><GdpContributionChart records={trend} activeYear={activeYear} /></div>
+          </section>
+          <section className="min-w-0 rounded-3xl border border-white/10 bg-[#0a192d] p-5 sm:p-6">
+            <h3 className="text-xl text-white">Nilai Nominal PDB Pertambangan</h3>
+            <p className="mt-1 text-xs text-[#8292a6]">ADHB · unit sumber {activeRecord.valueScale}</p>
+            <div className="mt-4"><GdpValueChart records={trend} activeYear={activeYear} /></div>
+          </section>
         </div>
-      </section>
+      </Reveal>
 
-      <div className="grid gap-5 lg:grid-cols-2">
-        <section className="rounded-3xl border border-white/10 bg-[#0a192d] p-6"><Landmark aria-hidden="true" className="size-6 text-brand-cyan" /><h3 className="mt-4 text-xl text-white">Tentang PDB</h3><p className="mt-3 text-sm leading-7 text-[#a7b4c4]">PDB atas dasar harga berlaku menggambarkan nilai tambah bruto dengan harga pada tahun berjalan. Karena itu, perubahan nominal dapat mencerminkan perubahan harga maupun volume dan tidak boleh disebut pertumbuhan riil.</p></section>
-        <section className="rounded-3xl border border-white/10 bg-[#0a192d] p-6"><Sparkles aria-hidden="true" className="size-6 text-brand-teal" /><h3 className="mt-4 text-xl text-white">Insight Data</h3><p className="mt-3 text-sm leading-7 text-[#a7b4c4]">{createGdpInsight(activeRecord)}</p></section>
-      </div>
+      <Reveal direction="up" delay={50}>
+        <section className="overflow-hidden rounded-3xl border border-white/10 bg-[#0a192d]">
+          <div className="border-b border-white/10 px-5 py-5 sm:px-6"><h3 className="text-xl text-white">Rincian PDB 2019–2025</h3></div>
+          <div className="max-w-full overflow-x-auto">
+            <table className="w-full min-w-[800px] border-collapse text-left text-sm">
+              <thead className="bg-[#061122] text-xs uppercase tracking-[0.08em] text-[#8292a6]"><tr><th className="px-5 py-4">Tahun</th><th className="px-5 py-4">PDB Nasional ADHB</th><th className="px-5 py-4">PDB Pertambangan ADHB</th><th className="px-5 py-4">Kontribusi</th><th className="px-5 py-4">Perubahan nominal</th><th className="px-5 py-4">Status</th></tr></thead>
+              <tbody className="divide-y divide-white/8 text-[#b7c3d1]">
+                {trend.map((record) => <tr key={record.id} className="transition-colors hover:bg-white/[0.025]"><td className="px-5 py-4 font-bold text-white">{record.year}</td><td className="px-5 py-4">{formatEconomyCurrency(record.nationalGdpValue, record.currencyCode, record.valueScale)}</td><td className="px-5 py-4">{formatEconomyCurrency(record.miningQuarryingGdpValue, record.currencyCode, record.valueScale)}</td><td className="px-5 py-4">{formatEconomyPercentage(record.contributionPercentage)}</td><td className="px-5 py-4">{formatEconomyPercentage(record.nominalYoyChangePercentage, true)}</td><td className="px-5 py-4">{dataStatusLabels[record.dataStatus]}</td></tr>)}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </Reveal>
 
-      <section className="rounded-3xl border border-white/10 bg-[#0a192d] p-6"><h3 className="text-xl text-white">Sumber Resmi</h3><div className="mt-4"><SourceList sources={sources} /></div></section>
+      <Reveal direction="up" delay={60}>
+        <div className="grid gap-5 lg:grid-cols-2">
+          <section className="rounded-3xl border border-white/10 bg-[#0a192d] p-6"><Landmark aria-hidden="true" className="size-6 text-brand-cyan" /><h3 className="mt-4 text-xl text-white">Tentang PDB</h3><p className="mt-3 text-sm leading-7 text-[#a7b4c4]">PDB atas dasar harga berlaku menggambarkan nilai tambah bruto dengan harga pada tahun berjalan. Karena itu, perubahan nominal dapat mencerminkan perubahan harga maupun volume dan tidak boleh disebut pertumbuhan riil.</p></section>
+          <section className="rounded-3xl border border-white/10 bg-[#0a192d] p-6"><Sparkles aria-hidden="true" className="size-6 text-brand-teal" /><h3 className="mt-4 text-xl text-white">Insight Data</h3><p className="mt-3 text-sm leading-7 text-[#a7b4c4]">{createGdpInsight(activeRecord)}</p></section>
+        </div>
+      </Reveal>
+
+      <Reveal direction="up" delay={70}>
+        <section className="rounded-3xl border border-white/10 bg-[#0a192d] p-6"><h3 className="text-xl text-white">Sumber Resmi</h3><div className="mt-4"><SourceList sources={sources} /></div></section>
+      </Reveal>
     </div>
   );
 }
@@ -248,10 +267,16 @@ function ExportSection({ records }: { records: PublicEconomyDashboard["exports"]
 
   return (
     <div className="space-y-6">
-      <SectionHeader eyebrow="Perdagangan Minerba" title="Ekspor Mineral dan Batubara" description="Ringkasan ekspor hanya mencakup record publik dengan cakupan produk dan tujuan yang jelas." yearLabel="Pilih tahun ekspor" years={years} year={year} onYearChange={setYear} />
+      <SectionHeader eyebrow="Perdagangan Minerba" title="Ekspor Mineral dan Batubara" description="Ringkasan ekspor hanya mencakup record publik dengan cakupan produk dan tujuan yang jelas." yearLabel="Pilih tahun ekspor" years={years} year={year} onYearChange={setYear} id="economy-export-year" />
+      <Reveal direction="up" delay={30}>
       <section className="grid grid-cols-2 gap-3 xl:grid-cols-4"><MetricCard icon={CircleDollarSign} label="Nilai FOB" value={formatEconomyCurrency(totalFob, "USD")} description="Total record publik pada filter aktif." /><MetricCard icon={Ship} label="Berat Bersih" value={formatEconomyValue(totalVolume, "ton")} description="Berat yang tersedia dan ternormalisasi." /><MetricCard icon={Database} label="Komoditas" value={formatEconomyNumber(new Set(active.map((record) => record.commodity.slug)).size)} description="Klasifikasi komoditas publik." /><MetricCard icon={Landmark} label="Negara Tujuan" value={formatEconomyNumber(new Set(active.map((record) => record.destination?.code).filter(Boolean)).size)} description="Tujuan yang dinyatakan sumber." /></section>
+      </Reveal>
+      <Reveal direction="up" delay={40}>
       <ChartPanel title="Nilai FOB per Komoditas dan Negara Tujuan"><EconomyReadyBarChart label="Grafik nilai ekspor per komoditas dan negara tujuan" valueLabel="USD" data={[...commodityMap].map(([label, value]) => ({ label, value }))} /></ChartPanel>
+      </Reveal>
+      <Reveal direction="up" delay={50}>
       <section className="overflow-hidden rounded-3xl border border-white/10 bg-[#0a192d]"><div className="border-b border-white/10 px-5 py-5"><h3 className="text-xl text-white">Ringkasan Ekspor {year}</h3></div><div className="max-w-full overflow-x-auto"><table className="w-full min-w-[760px] text-left text-sm"><thead className="bg-[#061122] text-xs uppercase text-[#8292a6]"><tr><th className="px-5 py-4">Komoditas</th><th className="px-5 py-4">Bentuk</th><th className="px-5 py-4">Tujuan</th><th className="px-5 py-4">Berat</th><th className="px-5 py-4">FOB</th></tr></thead><tbody className="divide-y divide-white/8">{active.map((record) => <tr key={record.id}><td className="px-5 py-4 font-bold text-white">{record.commodity.name}</td><td className="px-5 py-4 text-[#b7c3d1]">{record.commodity.productForm ?? "Belum dirinci"}</td><td className="px-5 py-4 text-[#b7c3d1]">{record.destination?.name ?? "Tidak dirinci"}</td><td className="px-5 py-4 text-[#b7c3d1]">{record.volume ? formatEconomyValue(record.volume.normalizedMetricTon ?? record.volume.value, record.volume.normalizedMetricTon === null ? record.volume.unitCode : "ton") : "Tidak dilaporkan"}</td><td className="px-5 py-4 text-[#b7c3d1]">{record.fob ? formatEconomyCurrency(record.fob.normalizedUsd ?? record.fob.value, record.fob.currencyCode, record.fob.normalizedUsd === null ? record.fob.scale ?? "unit" : "unit") : "Tidak dilaporkan"}</td></tr>)}</tbody></table></div></section>
+      </Reveal>
     </div>
   );
 }
@@ -278,10 +303,16 @@ function InvestmentSection({ records }: { records: PublicEconomyDashboard["inves
   const valueScale = active[0]?.currency.scale ?? "unit";
   return (
     <div className="space-y-6">
-      <SectionHeader eyebrow="Realisasi Modal" title="Investasi Pertambangan" description="PMA dan PMDN ditampilkan terpisah; total hanya dihitung saat kedua komponen lengkap." yearLabel="Pilih tahun investasi" years={years} year={year} onYearChange={setYear} />
+      <SectionHeader eyebrow="Realisasi Modal" title="Investasi Pertambangan" description="PMA dan PMDN ditampilkan terpisah; total hanya dihitung saat kedua komponen lengkap." yearLabel="Pilih tahun investasi" years={years} year={year} onYearChange={setYear} id="economy-investment-year" />
+      <Reveal direction="up" delay={30}>
       <section className="grid grid-cols-2 gap-3 xl:grid-cols-4"><MetricCard icon={CircleDollarSign} label="PMA" value={pma ? formatEconomyCurrency(pma.investmentValue, currencyCode, valueScale) : "Belum tersedia"} description="Penanaman Modal Asing." /><MetricCard icon={WalletCards} label="PMDN" value={pmdn ? formatEconomyCurrency(pmdn.investmentValue, currencyCode, valueScale) : "Belum tersedia"} description="Penanaman Modal Dalam Negeri." /><MetricCard icon={TrendingUp} label="Total Investasi" value={completeTotal === null ? "Belum tersedia" : formatEconomyCurrency(completeTotal, currencyCode, valueScale)} description="Hanya dari pasangan PMA dan PMDN lengkap." /><MetricCard icon={Building2} label="Jumlah Proyek" value={active.every((record) => record.projectCount !== null) ? formatEconomyNumber(active.reduce((sum, record) => sum + (record.projectCount ?? 0), 0)) : "Belum tersedia"} description="Proyek yang dilaporkan pada tahun aktif." /></section>
+      </Reveal>
+      <Reveal direction="up" delay={40}>
       <ChartPanel title="Perkembangan PMA dan PMDN"><EconomyGroupedInvestmentChart data={annual} currencyCode={currencyCode} valueScale={valueScale} /></ChartPanel>
+      </Reveal>
+      <Reveal direction="up" delay={50}>
       <section className="overflow-hidden rounded-3xl border border-white/10 bg-[#0a192d]"><div className="border-b border-white/10 px-5 py-5"><h3 className="text-xl text-white">Komposisi PMA dan PMDN</h3></div><div className="max-w-full overflow-x-auto"><table className="w-full min-w-[600px] text-left text-sm"><thead className="bg-[#061122] text-xs uppercase text-[#8292a6]"><tr><th className="px-5 py-4">Tahun</th><th className="px-5 py-4">Asal</th><th className="px-5 py-4">Nilai</th><th className="px-5 py-4">Proyek</th></tr></thead><tbody className="divide-y divide-white/8">{records.map((record) => <tr key={record.id}><td className="px-5 py-4 font-bold text-white">{record.year}</td><td className="px-5 py-4 text-[#b7c3d1]">{record.origin.toUpperCase()}</td><td className="px-5 py-4 text-[#b7c3d1]">{formatEconomyCurrency(record.investmentValue, record.currency.code, record.currency.scale)}</td><td className="px-5 py-4 text-[#b7c3d1]">{record.projectCount === null ? "Belum tersedia" : formatEconomyNumber(record.projectCount)}</td></tr>)}</tbody></table></div></section>
+      </Reveal>
     </div>
   );
 }
@@ -293,14 +324,23 @@ function DownstreamSection({ dashboard }: { dashboard: PublicEconomyDashboard })
 
   return (
     <div className="space-y-6">
+      <Reveal direction="up" delay={20}>
       <section className="rounded-3xl border border-white/10 bg-[#0a192d] p-5 sm:p-7"><p className="text-xs font-bold uppercase tracking-[0.16em] text-brand-cyan">Pengolahan dan Pemurnian</p><h2 className="mt-2 text-2xl text-white sm:text-3xl">Hilirisasi Mineral Indonesia</h2><p className="mt-2 max-w-3xl text-sm leading-7 text-[#9facba]">Fasilitas aktif yang terverifikasi, dipublikasikan, dan memiliki sumber kanonik layak publik.</p></section>
+      </Reveal>
+      <Reveal direction="up" delay={30}>
       <section className="grid grid-cols-2 gap-3 xl:grid-cols-4"><MetricCard icon={Factory} label="Fasilitas Eligible" value={formatEconomyNumber(dashboard.meta.smelterFacilityCount)} description="Dua fasilitas HOLD tidak disertakan." /><MetricCard icon={Database} label="Komoditas" value={formatEconomyNumber(dashboard.meta.smelterCommodityCount)} description="Berdasarkan output utama fasilitas." /><MetricCard icon={Landmark} label="Provinsi" value={formatEconomyNumber(dashboard.meta.smelterProvinceCount)} description="Lokasi fasilitas yang dinyatakan sumber." /><MetricCard icon={FileCheck2} label="Output Utama" value={formatEconomyNumber(primaryOutputs.length)} description="Output non-primary tidak dihitung ganda." /></section>
+      </Reveal>
+      <Reveal direction="up" delay={40}>
       <div className="grid gap-5 xl:grid-cols-[minmax(0,.8fr)_minmax(0,1.2fr)]">
         <section className="rounded-3xl border border-white/10 bg-[#0a192d] p-6"><h3 className="text-xl text-white">Fasilitas per Komoditas</h3><ul className="mt-5 space-y-4">{commoditySummary.map((item) => { const max = Math.max(...commoditySummary.map((row) => row.facilityCount), 1); const capacities = new Map<string, { outputProduct: string; unitCode: string; value: number }>(); for (const capacity of item.primaryCapacity) { const key = `${capacity.outputProduct}|${capacity.unitCode}`; const current = capacities.get(key); capacities.set(key, { outputProduct: capacity.outputProduct, unitCode: capacity.unitCode, value: (current?.value ?? 0) + capacity.value }); } return <li key={item.slug}><div className="flex items-center justify-between gap-4 text-sm"><span className="font-bold text-white">{item.name}</span><span className="text-[#a7b4c4]">{item.facilityCount} fasilitas</span></div><div className="mt-2 h-2 overflow-hidden rounded-full bg-[#061122]"><div className="h-full rounded-full bg-[linear-gradient(90deg,var(--brand-blue),var(--brand-cyan),var(--brand-teal))]" style={{ width: `${Math.max(14, item.facilityCount / max * 100)}%` }} /></div>{capacities.size ? <p className="mt-2 text-xs leading-5 text-[#8292a6]">{[...capacities.values()].map((capacity) => `${capacity.outputProduct}: ${formatEconomyValue(capacity.value, capacity.unitCode)}`).join(" · ")}</p> : null}</li>; })}</ul></section>
         <section className="rounded-3xl border border-white/10 bg-[#0a192d] p-6"><Factory aria-hidden="true" className="size-6 text-brand-teal" /><h3 className="mt-4 text-xl text-white">Tentang Hilirisasi</h3><p className="mt-3 text-sm leading-7 text-[#a7b4c4]">Hilirisasi mencakup fasilitas pengolahan, pemurnian, dan pengolahan terintegrasi. Ringkasan kapasitas memakai output utama tiap fasilitas dan tidak menjumlahkan produk dengan satuan berbeda sebagai satu angka.</p><p className="mt-4 rounded-xl border border-brand-cyan/15 bg-brand-cyan/5 px-4 py-3 text-xs leading-6 text-[#9facba]">Daftar ini bukan inventaris seluruh fasilitas di Indonesia; hanya record yang memenuhi kontrak publik.</p></section>
       </div>
+      </Reveal>
+      <Reveal direction="up" delay={50}>
       <section className="overflow-hidden rounded-3xl border border-white/10 bg-[#0a192d]"><div className="border-b border-white/10 px-5 py-5 sm:px-6"><h3 className="text-xl text-white">Fasilitas Publik</h3></div><div className="max-w-full overflow-x-auto"><table className="w-full min-w-[980px] text-left text-sm"><thead className="bg-[#061122] text-xs uppercase tracking-[0.06em] text-[#8292a6]"><tr><th className="px-5 py-4">Fasilitas</th><th className="px-5 py-4">Operator</th><th className="px-5 py-4">Lokasi</th><th className="px-5 py-4">Tipe</th><th className="px-5 py-4">Output utama</th><th className="px-5 py-4">Kapasitas</th><th className="px-5 py-4">Sumber</th></tr></thead><tbody className="divide-y divide-white/8">{facilities.map((facility) => { const output = facility.outputs.find((item) => item.isPrimary); const source = facility.sources.find((item) => item.isOfficial) ?? facility.sources[0]; const sourceUrl = source?.url ?? source?.source?.url ?? null; return <tr key={facility.id} className="align-top transition-colors hover:bg-white/[0.025]"><td className="px-5 py-4 font-bold text-white">{facility.name}</td><td className="px-5 py-4 text-[#b7c3d1]">{facility.operator.name}</td><td className="px-5 py-4 text-[#b7c3d1]">{facility.location.cityRegency}, {facility.location.province}</td><td className="px-5 py-4 text-[#b7c3d1]">{facilityTypeLabels[facility.facilityType]}</td><td className="px-5 py-4 text-[#b7c3d1]">{output?.outputProduct ?? "Belum tersedia"}</td><td className="px-5 py-4 text-[#b7c3d1]">{output?.outputCapacity ? formatEconomyValue(output.outputCapacity.value, output.outputCapacity.unitCode) : "Belum tersedia"}</td><td className="px-5 py-4">{sourceUrl ? <a href={sourceUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-brand-cyan hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-cyan">{source?.publisherName ?? source?.source?.name ?? "Sumber resmi"}<ExternalLink aria-hidden="true" className="size-3.5" /></a> : <span className="text-[#8292a6]">Belum tersedia</span>}</td></tr>; })}</tbody></table></div></section>
+      </Reveal>
       {commoditySummary.length ? (
+        <Reveal direction="up" delay={60}>
         <nav
           aria-label="Profil komoditas hilirisasi"
           className="rounded-3xl border border-white/10 bg-[#0a192d] p-5 sm:p-6"
@@ -318,6 +358,7 @@ function DownstreamSection({ dashboard }: { dashboard: PublicEconomyDashboard })
             ))}
           </div>
         </nav>
+        </Reveal>
       ) : null}
     </div>
   );
@@ -329,14 +370,18 @@ function RegulationsSection({ regulations }: { regulations: PublicEconomyDashboa
   const filtered = regulations.filter((record) => !normalizedQuery || [record.type, record.number, record.title, record.subject, String(record.year)].some((value) => value.toLocaleLowerCase("id").includes(normalizedQuery)));
   return (
     <div className="space-y-6">
+      <Reveal direction="up" delay={20}>
       <section className="rounded-3xl border border-white/10 bg-[#0a192d] p-5 sm:p-7"><p className="text-xs font-bold uppercase tracking-[0.16em] text-brand-cyan">Kebijakan Minerba</p><h2 className="mt-2 text-2xl text-white sm:text-3xl">Regulasi Pertambangan</h2><p className="mt-2 max-w-3xl text-sm leading-7 text-[#9facba]">Daftar statis terkurasi dari kanal resmi JDIH. Status yang belum terkonfirmasi ditandai secara eksplisit.</p><label className="relative mt-5 block max-w-xl"><span className="sr-only">Cari regulasi</span><Search aria-hidden="true" className="pointer-events-none absolute left-4 top-1/2 size-4 -translate-y-1/2 text-[#8292a6]" /><input value={query} onChange={(event) => setQuery(event.target.value)} type="search" placeholder="Cari nomor, judul, subjek, atau tahun" className="min-h-12 w-full rounded-xl border border-white/10 bg-[#061122] pl-11 pr-4 text-sm text-white outline-none placeholder:text-[#66768a] focus:border-brand-cyan focus:ring-2 focus:ring-brand-cyan/20" /></label><p className="mt-3 text-xs text-[#8292a6]">{filtered.length} dari {regulations.length} regulasi</p></section>
+      </Reveal>
+      <Reveal direction="up" delay={30}>
       {filtered.length ? <div className="grid gap-4 lg:grid-cols-2">{filtered.map((record) => <article key={record.id} className="rounded-2xl border border-white/10 bg-[#0a192d] p-5 transition-[border-color,transform,box-shadow] hover:-translate-y-0.5 hover:border-brand-cyan/30 hover:shadow-[0_14px_38px_rgba(0,0,0,.2)] motion-reduce:transform-none"><div className="flex flex-wrap items-center gap-2 text-xs"><span className="rounded-full border border-brand-cyan/20 bg-brand-cyan/5 px-2.5 py-1 font-bold text-brand-cyan">{record.type} {record.number}/{record.year}</span><span className={cn("rounded-full border px-2.5 py-1 font-bold", record.status === "active" ? "border-success/25 bg-success/5 text-success" : record.status === "unknown" ? "border-warning/25 bg-warning/5 text-warning" : "border-white/10 bg-white/[0.03] text-[#a7b4c4]")}>{regulationStatusLabels[record.status]}</span></div><h3 className="mt-4 text-lg leading-7 text-white">{record.title}</h3><p className="mt-3 text-sm text-[#a7b4c4]">{record.subject}</p>{record.notes ? <p className="mt-3 text-xs leading-6 text-[#8292a6]">{record.notes}</p> : null}<a href={record.officialUrl} target="_blank" rel="noopener noreferrer" className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-brand-cyan transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-cyan">Buka sumber resmi<ExternalLink aria-hidden="true" className="size-4" /></a></article>)}</div> : <EmptyState title="Regulasi tidak ditemukan" description="Tidak ada regulasi yang cocok dengan pencarian Anda." detail="Hapus kata pencarian untuk menampilkan kembali seluruh regulasi." />}
+      </Reveal>
     </div>
   );
 }
 
-function SectionHeader({ eyebrow, title, description, yearLabel, years, year, onYearChange }: { eyebrow: string; title: string; description: string; yearLabel: string; years: number[]; year: number; onYearChange: (year: number) => void }) {
-  return <section className="rounded-3xl border border-white/10 bg-[#0a192d] p-5 sm:p-7"><div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between"><div><p className="text-xs font-bold uppercase tracking-[0.16em] text-brand-cyan">{eyebrow}</p><h2 className="mt-2 text-2xl text-white sm:text-3xl">{title}</h2><p className="mt-2 max-w-3xl text-sm leading-7 text-[#9facba]">{description}</p></div><label className="flex shrink-0 flex-col gap-1.5 text-xs font-bold text-[#a8b5c5]"><span>{yearLabel}</span><select aria-label={yearLabel} value={year} onChange={(event) => onYearChange(Number(event.target.value))} className="min-h-11 rounded-xl border border-white/10 bg-[#061122] px-3 text-sm text-white outline-none focus:border-brand-cyan focus:ring-2 focus:ring-brand-cyan/20">{years.map((item) => <option key={item} value={item}>{item}</option>)}</select></label></div></section>;
+function SectionHeader({ eyebrow, title, description, yearLabel, years, year, onYearChange, id }: { eyebrow: string; title: string; description: string; yearLabel: string; years: number[]; year: number; onYearChange: (year: number) => void; id: string }) {
+  return <Reveal direction="up" delay={20} className="relative z-30"><section className="rounded-3xl border border-white/10 bg-[#0a192d] p-5 sm:p-7"><div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between"><div><p className="text-xs font-bold uppercase tracking-[0.16em] text-brand-cyan">{eyebrow}</p><h2 className="mt-2 text-2xl text-white sm:text-3xl">{title}</h2><p className="mt-2 max-w-3xl text-sm leading-7 text-[#9facba]">{description}</p></div><label htmlFor={id} className="flex shrink-0 flex-col gap-1.5 text-xs font-bold text-[#a8b5c5]"><span>{yearLabel}</span><IndustrySelect id={id} value={String(year)} onChange={(value) => onYearChange(Number(value))} placeholder="Pilih tahun" options={years.map((item) => ({ value: String(item), label: String(item) }))} className="w-40 min-w-0 sm:w-44" /></label></div></section></Reveal>;
 }
 
 function ChartPanel({ title, children }: { title: string; children: React.ReactNode }) {

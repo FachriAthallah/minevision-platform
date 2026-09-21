@@ -25,8 +25,10 @@ import {
   TrendingUp,
 } from "lucide-react";
 
-import { cn } from "@/lib/utils";
+import { Reveal } from "@/components/shared/reveal";
 import { publicRoutes } from "@/config/site";
+import { IndustrySelect } from "@/features/industry/components/industry-select";
+import { cn } from "@/lib/utils";
 
 import { commodityPresentation } from "../config/commodity-presentation";
 import {
@@ -69,9 +71,6 @@ const coverageLabels = {
   historical: "Historis",
 };
 
-const inputClassName =
-  "min-h-11 rounded-xl border border-white/10 bg-[#061122] px-3 text-sm text-white outline-none transition-colors hover:border-white/20 focus:border-brand-cyan focus:ring-2 focus:ring-brand-cyan/20";
-
 function CommoditySelector({
   commodities,
   selected,
@@ -94,7 +93,7 @@ function CommoditySelector({
 
   return (
     <aside aria-label="Pemilih komoditas Intelligence" className="min-w-0 lg:self-stretch">
-      <div className="space-y-4 lg:sticky lg:top-28">
+      <Reveal direction="up" delay={40} className="space-y-4 lg:sticky lg:top-28">
         <section className="rounded-2xl border border-white/10 bg-[#08172a] p-4 shadow-[0_14px_38px_rgba(0,0,0,0.2)]">
           <div className="flex items-center gap-2">
             <Database aria-hidden="true" className="size-4 text-brand-cyan" />
@@ -157,7 +156,7 @@ function CommoditySelector({
           </div>
           <Link href={publicRoutes.mineBot} className="mt-4 inline-flex min-h-10 w-full items-center justify-center gap-2 rounded-full bg-[linear-gradient(90deg,var(--brand-blue),var(--brand-cyan),var(--brand-teal))] px-4 text-xs font-bold text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-cyan">Informasi MineBot <ArrowRight aria-hidden="true" className="size-4" /></Link>
         </section>
-      </div>
+      </Reveal>
     </aside>
   );
 }
@@ -212,7 +211,7 @@ export function IntelligenceDashboard({ dashboard, initialCommodity }: { dashboa
   const priceChange = calculateObservationChange(prices, activePrice);
 
   if (!commodity) {
-    return <EmptyPanel title="Data Intelligence belum tersedia" description="Belum ada seri kanonik terverifikasi dan dipublikasikan yang dapat ditampilkan." />;
+    return <Reveal direction="up"><EmptyPanel title="Data Intelligence belum tersedia" description="Belum ada seri kanonik terverifikasi dan dipublikasikan yang dapat ditampilkan." /></Reveal>;
   }
 
   const presentation = commodityPresentation[commodity.slug];
@@ -249,21 +248,26 @@ export function IntelligenceDashboard({ dashboard, initialCommodity }: { dashboa
       <CommoditySelector commodities={dashboard.commodities} selected={commodity.slug} onSelect={selectCommodity} />
 
       <div className="min-w-0 space-y-6">
-        <header className="rounded-3xl border border-white/10 bg-[#0a192d] p-5 shadow-[0_18px_52px_rgba(0,0,0,.2)] sm:p-7">
-          <p className="text-xs font-bold uppercase tracking-[0.16em]" style={{ color: presentation.color }}>Intelligence Komoditas</p>
-          <h2 className="mt-2 text-3xl leading-tight text-white sm:text-4xl">Data {commodity.name} Indonesia</h2>
-          <p className="mt-3 line-clamp-3 max-w-3xl text-sm leading-7 text-[#9facba]">{commodity.description ?? "Tren produksi, harga domestik, dan cakupan wilayah dari dataset publik terverifikasi."}</p>
-          <Link href={`/commodity/${commodity.slug}`} className="mt-3 inline-flex items-center gap-2 text-sm font-bold text-brand-cyan hover:text-white focus-visible:outline-2 focus-visible:outline-brand-cyan">Buka profil {commodity.name}<ArrowRight aria-hidden="true" className="size-4" /></Link>
-        </header>
+        <Reveal direction="up">
+          <header className="rounded-3xl border border-white/10 bg-[#0a192d] p-5 shadow-[0_18px_52px_rgba(0,0,0,.2)] sm:p-7">
+            <p className="text-xs font-bold uppercase tracking-[0.16em]" style={{ color: presentation.color }}>Intelligence Komoditas</p>
+            <h2 className="mt-2 text-3xl leading-tight text-white sm:text-4xl">Data {commodity.name} Indonesia</h2>
+            <p className="mt-3 line-clamp-3 max-w-3xl text-sm leading-7 text-[#9facba]">{commodity.description ?? "Tren produksi, harga domestik, dan cakupan wilayah dari dataset publik terverifikasi."}</p>
+            <Link href={`/commodity/${commodity.slug}`} className="mt-3 inline-flex items-center gap-2 text-sm font-bold text-brand-cyan hover:text-white focus-visible:outline-2 focus-visible:outline-brand-cyan">Buka profil {commodity.name}<ArrowRight aria-hidden="true" className="size-4" /></Link>
+          </header>
+        </Reveal>
 
-        <section aria-label="Ringkasan data terpilih" className="grid grid-cols-2 gap-3 xl:grid-cols-4">
-          <MetricCard icon={isProduction ? BarChart3 : LineChartIcon} label={isProduction ? "Produksi Terpilih" : "Harga Terpilih"} value={currentValue} detail={isProduction ? "Satuan kanonik tetap dipertahankan" : activePrice?.standard.name ?? "Seri harga domestik kanonik"} color={presentation.color} />
-          <MetricCard icon={change !== null && change < 0 ? TrendingDown : TrendingUp} label="Perubahan" value={formatPercentage(change)} detail="Dibanding observasi sebelumnya yang tersedia" color={presentation.color} />
-          <MetricCard icon={CalendarDays} label="Tahun Data" value={activeYear === null ? "—" : String(activeYear)} detail="Missing year tidak dihitung sebagai nol" color={presentation.color} />
-          <MetricCard icon={FileCheck2} label="Status Record" value={recordType} detail="Kanonik · terverifikasi · dipublikasikan" color={presentation.color} />
-        </section>
+        <Reveal direction="up" delay={30}>
+          <section aria-label="Ringkasan data terpilih" className="grid grid-cols-2 gap-3 xl:grid-cols-4">
+            <MetricCard icon={isProduction ? BarChart3 : LineChartIcon} label={isProduction ? "Produksi Terpilih" : "Harga Terpilih"} value={currentValue} detail={isProduction ? "Satuan kanonik tetap dipertahankan" : activePrice?.standard.name ?? "Seri harga domestik kanonik"} color={presentation.color} />
+            <MetricCard icon={change !== null && change < 0 ? TrendingDown : TrendingUp} label="Perubahan" value={formatPercentage(change)} detail="Dibanding observasi sebelumnya yang tersedia" color={presentation.color} />
+            <MetricCard icon={CalendarDays} label="Tahun Data" value={activeYear === null ? "—" : String(activeYear)} detail="Missing year tidak dihitung sebagai nol" color={presentation.color} />
+            <MetricCard icon={FileCheck2} label="Status Record" value={recordType} detail="Kanonik · terverifikasi · dipublikasikan" color={presentation.color} />
+          </section>
+        </Reveal>
 
-        <section className="overflow-hidden rounded-3xl border border-white/10 bg-[#0a192d] shadow-[0_18px_52px_rgba(0,0,0,.2)]">
+        <Reveal direction="up" delay={30}>
+          <section className="overflow-hidden rounded-3xl border border-white/10 bg-[#0a192d] shadow-[0_18px_52px_rgba(0,0,0,.2)]">
           <div role="tablist" aria-label="Jenis data Intelligence" className="flex border-b border-white/10 px-5 sm:px-7">
             {(["production", "price"] as const).map((tab) => {
               const active = state.tab === tab;
@@ -296,17 +300,19 @@ export function IntelligenceDashboard({ dashboard, initialCommodity }: { dashboa
                     <h3 className="text-xl text-white sm:text-2xl">{isProduction ? `Produksi ${commodity.name} Indonesia` : `Harga ${commodity.name} Indonesia`}</h3>
                     <p className="mt-1 text-xs text-[#8292a6]">{isProduction ? production[0]?.unit.name ?? "Satuan belum tersedia" : activePrice ? `${activePrice.standard.code} · ${activePrice.currencyCode}/${activePrice.unit.symbol}` : "Harga domestik canonical"}</p>
                   </div>
-                  <label className="flex shrink-0 flex-col gap-1.5 text-xs font-bold text-[#a8b5c5]">
+                  <label htmlFor={isProduction ? "intelligence-year-production" : "intelligence-year-price"} className="flex shrink-0 flex-col gap-1.5 text-xs font-bold text-[#a8b5c5]">
                     <span>{isProduction ? "Pilih tahun produksi" : "Pilih tahun harga"}</span>
-                    <select
-                      aria-label={isProduction ? "Pilih tahun produksi" : "Pilih tahun harga"}
-                      value={isProduction ? selectedProductionYear : selectedPriceYear}
-                      onChange={(event) => dispatch({ type: "year", tab: state.tab, commodity: commodity.slug, value: event.target.value })}
-                      className={inputClassName}
-                    >
-                      <option value="all">Semua Tahun</option>
-                      {(isProduction ? productionYears : priceYears).map((year) => <option key={year} value={year}>{year}</option>)}
-                    </select>
+                    <IndustrySelect
+                      id={isProduction ? "intelligence-year-production" : "intelligence-year-price"}
+                      value={String(isProduction ? selectedProductionYear : selectedPriceYear)}
+                      onChange={(value) => dispatch({ type: "year", tab: state.tab, commodity: commodity.slug, value })}
+                      placeholder="Semua Tahun"
+                      options={[
+                        { value: "all", label: "Semua Tahun" },
+                        ...(isProduction ? productionYears : priceYears).map((year) => ({ value: String(year), label: String(year) })),
+                      ]}
+                      className="w-44 min-w-0 sm:w-56"
+                    />
                   </label>
                 </div>
 
@@ -339,8 +345,10 @@ export function IntelligenceDashboard({ dashboard, initialCommodity }: { dashboa
             </div>
           </div>
         </section>
+        </Reveal>
 
-        <section aria-labelledby="intelligence-map-heading" className="rounded-3xl border border-white/10 bg-[#0a192d] p-5 shadow-[0_18px_52px_rgba(0,0,0,.2)] sm:p-7">
+        <Reveal direction="up" delay={40}>
+          <section aria-labelledby="intelligence-map-heading" className="rounded-3xl border border-white/10 bg-[#0a192d] p-5 shadow-[0_18px_52px_rgba(0,0,0,.2)] sm:p-7">
           <div className="flex items-start gap-3">
             <span className="flex size-10 shrink-0 items-center justify-center rounded-full border border-white/10" style={{ backgroundColor: presentation.softColor }}><MapPinned aria-hidden="true" className="size-5" style={{ color: presentation.color }} /></span>
             <div>
@@ -436,11 +444,14 @@ export function IntelligenceDashboard({ dashboard, initialCommodity }: { dashboa
             </div>
           </div>
         </section>
+        </Reveal>
 
-        <section className="rounded-2xl border border-brand-cyan/20 bg-[linear-gradient(110deg,rgba(40,103,228,.12),rgba(0,177,196,.1),rgba(60,195,171,.08))] p-5 lg:hidden">
+        <Reveal direction="up" delay={40}>
+          <section className="rounded-2xl border border-brand-cyan/20 bg-[linear-gradient(110deg,rgba(40,103,228,.12),rgba(0,177,196,.1),rgba(60,195,171,.08))] p-5 lg:hidden">
           <div className="flex items-start gap-3"><span className="flex size-10 shrink-0 items-center justify-center rounded-full border border-brand-cyan/30 bg-brand-cyan/5"><Bot aria-hidden="true" className="size-5 text-brand-cyan" /></span><div><h2 className="text-lg text-white">Tanya MineBot AI</h2><p className="mt-2 text-sm leading-6 text-[#9facba]">Perlu bantuan membaca istilah atau tren pada data ini?</p></div></div>
           <Link href={publicRoutes.mineBot} className="mt-4 inline-flex min-h-11 w-full items-center justify-center rounded-full bg-[linear-gradient(90deg,var(--brand-blue),var(--brand-cyan),var(--brand-teal))] px-5 text-sm font-bold text-white">Informasi MineBot</Link>
         </section>
+        </Reveal>
       </div>
     </div>
   );

@@ -20,6 +20,7 @@ type IndustryExplorerProps = {
   reports: IndustryReportCatalogItem[];
   operationSites: PublicIndustryOperationSite[];
   dataError: boolean;
+  highlightSlug?: string;
 };
 
 export function IndustryExplorer({
@@ -28,6 +29,7 @@ export function IndustryExplorer({
   reports,
   operationSites,
   dataError,
+  highlightSlug,
 }: IndustryExplorerProps) {
   if (dataError) {
     return (
@@ -62,5 +64,5 @@ export function IndustryExplorer({
     );
   }
 
-  return <IndustryCompaniesDirectory companies={companies} />;
+  return <IndustryCompaniesDirectory companies={companies} highlightSlug={highlightSlug} />;
 }

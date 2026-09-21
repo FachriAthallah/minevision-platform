@@ -578,7 +578,7 @@ export const educationArticles: EducationArticle[] = [
           {
             title: "Drilling Rig",
             description:
-              "Alat yang digunakan untuk melakukan pemboran pada batuan.",
+              "Alat yang digunakan untuk melakukan pengeboran pada permukaan atau lapisan batuan untuk kegiatan eksplorasi, produksi, dan peledakan.",
             details: [
               {
                 label: "Fungsi",
@@ -595,7 +595,7 @@ export const educationArticles: EducationArticle[] = [
           {
             title: "Crusher",
             description:
-              "Mesin yang digunakan untuk memperkecil ukuran batuan atau bijih sebelum diproses lebih lanjut. Ada 4 jenis crusher seperti Jaw Crusher, Grygatory Crusher, Cone Crusher, dan Impact Crusher.",
+              "Mesin yang digunakan untuk memperkecil ukuran batuan atau bijih sebelum diproses lebih lanjut. Ada 4 jenis crusher seperti Jaw, Grygatory, Cone, dan Impact Crusher.",
             details: [
               {
                 label: "Fungsi",
@@ -612,7 +612,7 @@ export const educationArticles: EducationArticle[] = [
           {
             title: "Conveyor",
             description:
-              "Sistem transportasi material kontinu menggunakan sabuk berjalan (belt)..",
+              "Sistem pengangkutan material tambang menggunakan sabuk berjalan untuk memindahkan material secara kontinu menuju crusher atau stockpile.",
             details: [
               {
                 label: "Fungsi",
@@ -644,7 +644,7 @@ export const educationArticles: EducationArticle[] = [
           {
             title: "Electric Rope Shovel",
             description:
-              "Alat gali-muat berkapasitas besar yang dirancang untuk operasi tambang skala besar..",
+              "Alat gali-muat berkapasitas besar yang dirancang untuk operasi tambang skala besar.",
             details: [
               {
                 label: "Fungsi",
@@ -659,7 +659,7 @@ export const educationArticles: EducationArticle[] = [
           {
             title: "Compactor",
             description:
-              "Alat berat yang digunakan untuk memadatkan tanah atau material agar memiliki daya dukung yang baik..",
+              "Alat berat yang digunakan untuk memadatkan tanah atau material agar memiliki daya dukung yang baik.",
             details: [
               {
                 label: "Fungsi",

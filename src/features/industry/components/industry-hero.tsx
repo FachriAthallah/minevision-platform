@@ -1,6 +1,7 @@
 import { Building2, FileText, Landmark, MapPinned } from "lucide-react";
 
 import { Container } from "@/components/ui/container";
+import { Reveal } from "@/components/shared/reveal";
 import type { PublicIndustryCompanySummary } from "@/features/industry/types/industry";
 import type { PublicIndustryOperationSite } from "@/features/industry/types/industry";
 import { getIndustryHeroStatistics } from "@/features/industry/lib/industry-company-view";
@@ -59,41 +60,45 @@ export function IndustryHero({
       <Container className="max-w-[1320px]">
         <div className="grid gap-10 lg:grid-cols-[minmax(0,1.25fr)_minmax(360px,0.75fr)] lg:items-end">
           <div className="max-w-3xl">
-            <div className="flex items-center gap-2 text-sm font-semibold text-brand-cyan">
-              <Landmark aria-hidden="true" className="size-4" />
-              <span>Industry</span>
-            </div>
-            <h1 className="mt-5 text-4xl leading-tight text-foreground sm:text-5xl lg:text-6xl">
-              Industri Pertambangan Indonesia
-            </h1>
-            <p className="mt-5 max-w-2xl text-base leading-8 text-muted-foreground sm:text-lg">
-              Jelajahi perusahaan tambang utama, laporan tahunan dan
-              keberlanjutan, serta keterangan wilayah operasi yang telah
-              tersedia untuk publik.
-            </p>
+            <Reveal direction="fade">
+              <div className="flex items-center gap-2 text-sm font-semibold text-brand-cyan">
+                <Landmark aria-hidden="true" className="size-4" />
+                <span>Industry</span>
+              </div>
+              <h1 className="mt-5 text-4xl leading-tight text-foreground sm:text-5xl lg:text-6xl">
+                Industri Pertambangan Indonesia
+              </h1>
+              <p className="mt-5 max-w-2xl text-base leading-8 text-muted-foreground sm:text-lg">
+                Jelajahi perusahaan tambang utama, laporan tahunan dan
+                keberlanjutan, serta keterangan wilayah operasi yang telah
+                tersedia untuk publik.
+              </p>
+            </Reveal>
           </div>
 
-          <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-1">
-            {stats.map((stat) => (
-              <div
-                key={stat.label}
-                className="flex items-center gap-4 rounded-2xl border border-border bg-surface/80 p-4 shadow-[0_14px_38px_rgba(0,0,0,0.2)] backdrop-blur-sm"
-              >
-                <span className="flex size-10 shrink-0 items-center justify-center rounded-xl border border-brand-cyan/25 bg-brand-cyan/5">
-                  <stat.icon aria-hidden="true" className="size-5 text-brand-cyan" />
-                </span>
-                <div className="min-w-0">
-                  <p className="text-lg font-bold text-foreground">{stat.value}</p>
-                  <p className="text-sm font-bold leading-5 text-foreground">
-                    {stat.label}
-                  </p>
-                  <p className="mt-1 text-xs leading-5 text-muted-foreground">
-                    {stat.description}
-                  </p>
+          <Reveal direction="up" delay={140}>
+            <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-1">
+              {stats.map((stat) => (
+                <div
+                  key={stat.label}
+                  className="flex items-center gap-4 rounded-2xl border border-border bg-surface/80 p-4 shadow-[0_14px_38px_rgba(0,0,0,0.2)] backdrop-blur-sm"
+                >
+                  <span className="flex size-10 shrink-0 items-center justify-center rounded-xl border border-brand-cyan/25 bg-brand-cyan/5">
+                    <stat.icon aria-hidden="true" className="size-5 text-brand-cyan" />
+                  </span>
+                  <div className="min-w-0">
+                    <p className="text-lg font-bold text-foreground">{stat.value}</p>
+                    <p className="text-sm font-bold leading-5 text-foreground">
+                      {stat.label}
+                    </p>
+                    <p className="mt-1 text-xs leading-5 text-muted-foreground">
+                      {stat.description}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          </Reveal>
         </div>
       </Container>
     </section>

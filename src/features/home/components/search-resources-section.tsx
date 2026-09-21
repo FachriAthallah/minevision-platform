@@ -133,7 +133,6 @@ export function SearchResourcesSection() {
             </Link>
 
             <p className="mt-2 text-xs text-muted-foreground">
-              Segera tersedia setelah integrasi knowledge base.
             </p>
           </div>
         </article>

@@ -1,6 +1,9 @@
-import { ArrowUpRight, BrainCircuit, Gem } from "lucide-react";
+import { ArrowRight, BrainCircuit, Gem } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 
 import {
   commodityCategoryLabels,
@@ -63,11 +66,14 @@ export function CommodityCard({
 
         <Link
           href={getCommodityHref(commodity.slug)}
-          className="mt-6 inline-flex min-h-11 items-center justify-between gap-3 rounded-full border border-white/12 bg-white/[0.035] px-4 text-sm font-bold text-white transition-colors hover:border-brand-cyan/45 hover:text-brand-cyan focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-cyan"
+          className={cn(
+            buttonVariants({ variant: "outline", size: "medium" }),
+            "mt-6 w-full motion-reduce:transition-none",
+          )}
           aria-label={`Lihat detail ${commodity.name}`}
         >
           Lihat detail
-          <ArrowUpRight aria-hidden="true" className="h-4 w-4" />
+          <ArrowRight aria-hidden="true" className="h-4 w-4" />
         </Link>
       </div>
     </article>
