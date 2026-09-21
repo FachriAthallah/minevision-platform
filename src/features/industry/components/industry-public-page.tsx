@@ -11,12 +11,14 @@ type IndustryPublicPageProps = {
   activeCategory: IndustryCategory;
   experience: PublicIndustryExperience;
   dataError: boolean;
+  highlightSlug?: string;
 };
 
 export function IndustryPublicPage({
   activeCategory,
   experience,
   dataError,
+  highlightSlug,
 }: IndustryPublicPageProps) {
   return (
     <div className="bg-background">
@@ -34,14 +36,17 @@ export function IndustryPublicPage({
         <Container className="relative max-w-[1320px]">
           <IndustryCategoryNavigation activeCategory={activeCategory} />
 
-          <div className="mt-10 rounded-3xl border border-border bg-background/45 p-5 shadow-[0_20px_58px_rgba(0,0,0,0.18)] sm:p-7 lg:mt-12 lg:p-9">
+          <div
+            key={activeCategory}
+            className="mv-material-switch mt-10 rounded-3xl border border-border bg-background/45 p-5 shadow-[0_20px_58px_rgba(0,0,0,0.18)] sm:p-7 lg:mt-12 lg:p-9"
+          >
             <IndustryExplorer
-              key={activeCategory}
               category={activeCategory}
               companies={experience.companies}
               reports={experience.reports}
               operationSites={experience.operationSites}
               dataError={dataError}
+              highlightSlug={highlightSlug}
             />
           </div>
 

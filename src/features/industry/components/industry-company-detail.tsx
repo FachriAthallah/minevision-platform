@@ -15,6 +15,7 @@ import {
 import { buttonVariants } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Container } from "@/components/ui/container";
+import { Reveal } from "@/components/shared/reveal";
 import { getIndustryCompanyPresentation } from "@/features/industry/content/industry-company-content";
 import {
   buildFinancialRows,
@@ -130,7 +131,8 @@ export function IndustryCompanyDetail({
           </ol>
         </nav>
 
-        <header className="relative mt-7 overflow-hidden rounded-3xl border border-border bg-surface p-6 shadow-[0_20px_58px_rgba(0,0,0,0.22)] sm:p-8 lg:p-10">
+        <Reveal direction="up">
+          <header className="relative mt-7 overflow-hidden rounded-3xl border border-border bg-surface p-6 shadow-[0_20px_58px_rgba(0,0,0,0.22)] sm:p-8 lg:p-10">
           <div aria-hidden="true" className="absolute -right-20 -top-24 size-72 rounded-full bg-brand-blue/10 blur-3xl" />
           <div className="relative flex flex-col gap-7 md:flex-row md:items-center">
             <div className="flex h-32 w-full shrink-0 items-center justify-center rounded-2xl border border-border bg-white p-5 md:w-52">
@@ -150,8 +152,10 @@ export function IndustryCompanyDetail({
             </div>
           </div>
         </header>
+        </Reveal>
 
         <div className="mt-10 grid gap-12">
+          <Reveal direction="up">
           <section aria-labelledby="company-profile-heading">
             <SectionHeading eyebrow="Informasi Perusahaan" title="Profil perusahaan" id="company-profile-heading" icon={Building2} />
             <dl className="mt-5 grid gap-4 md:grid-cols-2">
@@ -163,7 +167,9 @@ export function IndustryCompanyDetail({
               {presentation?.primaryCommodity ? <ProfileItem label="Komoditas utama" value={presentation.primaryCommodity} /> : null}
             </dl>
           </section>
+          </Reveal>
 
+          <Reveal direction="up" delay={60}>
           <section aria-labelledby="company-history-heading">
             <SectionHeading eyebrow="Tonggak Perusahaan" title="Sejarah perusahaan" id="company-history-heading" icon={Landmark} />
             {presentation?.timeline.length ? (
@@ -180,7 +186,9 @@ export function IndustryCompanyDetail({
               <IndustryState kind="companies" title="Sejarah belum tersedia" description="Tonggak perusahaan belum tersedia pada konten terverifikasi." className="mt-5" />
             )}
           </section>
+          </Reveal>
 
+          <Reveal direction="up" delay={120}>
           <section aria-labelledby="company-production-heading">
             <SectionHeading eyebrow="Kinerja Operasional" title="Produksi Komoditas Primer 2023–2025" id="company-production-heading" icon={Factory} />
             {relatedCommodities.length ? (
@@ -207,7 +215,9 @@ export function IndustryCompanyDetail({
               <IndustryState kind="companies" title="Data produksi belum tersedia" description="Belum ada produksi komoditas primer yang terverifikasi dan dipublikasikan." className="mt-5" />
             )}
           </section>
+          </Reveal>
 
+          <Reveal direction="up" delay={180}>
           <section aria-labelledby="company-financial-heading">
             <SectionHeading eyebrow="Kinerja Perusahaan" title="Kinerja Keuangan 2023–2025" id="company-financial-heading" icon={TrendingUp} />
             {financialRows.length ? (
@@ -221,7 +231,9 @@ export function IndustryCompanyDetail({
               <IndustryState kind="companies" title="Data keuangan belum tersedia" description="Belum ada data keuangan yang terverifikasi dan dipublikasikan." className="mt-5" />
             )}
           </section>
+          </Reveal>
 
+          <Reveal direction="up" delay={240}>
           <section id="wilayah-operasi" className="scroll-mt-32" aria-labelledby="company-operation-heading">
             <SectionHeading eyebrow="Persebaran Kegiatan" title="Wilayah operasi" id="company-operation-heading" icon={MapPin} />
             {company.operationAreaDescription ? (
@@ -244,7 +256,9 @@ export function IndustryCompanyDetail({
               <IndustryState kind="operations" title="Lokasi operasi belum tersedia" description="Belum ada lokasi berkoordinat yang terverifikasi dan dipublikasikan." className="mt-5" />
             )}
           </section>
+          </Reveal>
 
+          <Reveal direction="up" delay={300}>
           <section id="laporan" className="scroll-mt-32" aria-labelledby="company-reports-heading">
             <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
               <SectionHeading eyebrow="Dokumen Publik" title="Sustainability & Annual Report" id="company-reports-heading" icon={FileText} />
@@ -270,7 +284,9 @@ export function IndustryCompanyDetail({
               <IndustryState kind="reports" title="Laporan belum tersedia" description="Belum ada laporan perusahaan yang terverifikasi dan dipublikasikan." className="mt-5" />
             )}
           </section>
+          </Reveal>
 
+          <Reveal direction="up" delay={360}>
           <section id="sumber-dan-referensi-resmi" aria-labelledby="company-sources-heading" className="scroll-mt-32">
             <SectionHeading eyebrow="Transparansi Data" title="Sumber dan Referensi Resmi" id="company-sources-heading" icon={FileText} />
             {references.length ? (
@@ -289,11 +305,20 @@ export function IndustryCompanyDetail({
               <IndustryState kind="reports" title="Referensi belum tersedia" description="Belum ada tautan sumber resmi pada data publik perusahaan ini." className="mt-5" />
             )}
           </section>
+          </Reveal>
         </div>
 
-        <Link href="/industry?category=companies" className={cn(buttonVariants({ variant: "primary", size: "medium" }), "mt-10 motion-reduce:transition-none")}>
-          <ArrowLeft aria-hidden="true" className="size-4" /> Kembali ke direktori perusahaan
-        </Link>
+        <Reveal direction="up">
+          <Link
+            href={`/industry?category=companies&company=${company.slug}`}
+            className={cn(
+              buttonVariants({ variant: "primary", size: "medium" }),
+              "mt-10 motion-reduce:transition-none",
+            )}
+          >
+            <ArrowLeft aria-hidden="true" className="size-4" /> Kembali ke direktori perusahaan
+          </Link>
+        </Reveal>
       </Container>
     </div>
   );

@@ -2,10 +2,11 @@ import Link from "next/link";
 import { ArrowRight, GraduationCap } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { Reveal } from "@/components/shared/reveal";
 import { cn } from "@/lib/utils";
 
 export function CareerCta() {
-  return <Card variant="elevated" className="relative overflow-hidden p-6 sm:p-9 lg:p-10">
+  return <Reveal direction="up"><Card variant="elevated" className="relative overflow-hidden p-6 sm:p-9 lg:p-10">
     <div className="grid items-center gap-7 lg:grid-cols-[1fr_auto]">
       <div className="max-w-2xl">
         <p className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-brand-cyan"><GraduationCap className="size-5" aria-hidden="true" />Rencanakan Langkah Berikutnya</p>
@@ -14,6 +15,6 @@ export function CareerCta() {
       </div>
       <Link href="/education" className={cn(buttonVariants({ size: "large" }), "w-fit max-w-full whitespace-normal motion-reduce:transition-none")}>Jelajahi Edukasi<ArrowRight className="size-4 shrink-0" aria-hidden="true" /></Link>
     </div>
-  </Card>;
+  </Card></Reveal>;
 }
 

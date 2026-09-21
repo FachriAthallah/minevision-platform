@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, CalendarDays, Globe, Info } from "lucide-react";
 
+import { Reveal } from "@/components/shared/reveal";
 import { getPublicCommodities } from "@/features/commodity/server/get-public-commodities";
 
 import { ProductionPreviewChart } from "./intelligence-preview-chart";
@@ -103,6 +104,7 @@ export async function IntelligencePreviewSection() {
       className="mx-auto max-w-[1320px] scroll-mt-24 px-6 py-24"
     >
       <div className="grid items-start gap-6 lg:grid-cols-[320px_1fr_1fr]">
+        <Reveal direction="left">
         <div>
           <span className="inline-block rounded-md border border-border px-3 py-1 text-[11px] font-semibold tracking-widest text-accent">
             INTELLIGENCE
@@ -141,7 +143,9 @@ export async function IntelligencePreviewSection() {
             })}
           </div>
         </div>
+      </Reveal>
 
+      <Reveal direction="up" delay={90}>
         <ChartPanel
           title="Tren Produksi"
           unit="(data publik)"
@@ -149,11 +153,15 @@ export async function IntelligencePreviewSection() {
         >
           <ProductionPreviewChart />
         </ChartPanel>
+      </Reveal>
 
+      <Reveal direction="up" delay={180}>
         <DomesticPricePreview />
+      </Reveal>
       </div>
 
       <div className="mt-8 rounded-2xl border border-border bg-surface/70 p-6 shadow-sm sm:p-8">
+        <Reveal direction="up">
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div>
             <h3 className="text-2xl font-bold text-foreground">
@@ -174,20 +182,23 @@ export async function IntelligencePreviewSection() {
             <ArrowRight aria-hidden="true" className="h-4 w-4" />
           </Link>
         </div>
+      </Reveal>
 
-        <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {featuredCommodities.map((commodity) => {
-            const imageUrl =
-              commodity.image?.url ?? `/images/commodity/${commodity.slug}.png`;
+      <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        {featuredCommodities.map((commodity, index) => {
+          const imageUrl =
+            commodity.image?.url ?? `/images/commodity/${commodity.slug}.png`;
 
-            const imageAlt =
-              commodity.image?.alt ?? `Gambar komoditas ${commodity.name}`;
+          const imageAlt =
+            commodity.image?.alt ?? `Gambar komoditas ${commodity.name}`;
 
-            return (
-              <article
-                key={commodity.id}
-                className="group overflow-hidden rounded-2xl border border-border bg-background/40"
-              >
+          return (
+            <Reveal
+              direction="up"
+              delay={(index % 4) * 70}
+              key={commodity.id}
+            >
+              <article className="group h-full overflow-hidden rounded-2xl border border-border bg-background/40">
                 <Link
                   href={`/commodity/${commodity.slug}`}
                   aria-label={`Pelajari komoditas ${commodity.name}`}
@@ -220,9 +231,10 @@ export async function IntelligencePreviewSection() {
                   </div>
                 </Link>
               </article>
-            );
-          })}
-        </div>
+            </Reveal>
+          );
+        })}
+      </div>
       </div>
     </section>
   );

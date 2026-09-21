@@ -19,12 +19,16 @@ export function CareerHero({ counts }: { counts: CareerAggregateCounts }) {
         <h1 className="mt-5 text-4xl leading-tight sm:text-5xl lg:text-6xl">Temukan Jalur Kariermu di Industri Pertambangan</h1>
         <p className="mt-5 max-w-2xl text-base leading-8 text-muted-foreground sm:text-lg">Jelajahi berbagai bidang profesi pertambangan, pahami ruang lingkup pekerjaan, serta kenali kompetensi, pendidikan, software, dan pelatihan yang dibutuhkan untuk membangun karier di industri ini.</p>
       </div>
-      <dl className="mt-10 grid grid-cols-2 gap-3 lg:grid-cols-4 lg:gap-5">
-        {stats.map(({ label, value, icon: Icon, description }) => <div key={label} className="flex flex-col rounded-2xl border border-white/10 bg-surface/90 p-4 shadow-xl shadow-black/20 sm:p-6">
-          <dt className="flex items-center gap-2 text-sm font-bold"><Icon className="size-5 shrink-0 text-brand-cyan" aria-hidden="true" />{label}</dt>
-          <dd className="mt-3"><span className="block text-2xl font-bold sm:text-3xl">{formatCareerCount(value)}</span><span className="mt-3 block text-xs leading-6 text-muted-foreground sm:text-sm">{description}</span></dd>
+      <div className="mt-10 grid grid-cols-2 gap-3 lg:grid-cols-4 lg:gap-5">
+        {stats.map(({ label, value, icon: Icon, description }) => <div key={label} className="rounded-2xl border border-white/10 bg-surface/90 p-4 shadow-xl shadow-black/20 sm:p-6">
+          <span className="flex items-center gap-2">
+            <Icon className="size-5 shrink-0 text-brand-cyan" aria-hidden="true" />
+            <span className="text-2xl font-bold sm:text-3xl">{formatCareerCount(value)}</span>
+          </span>
+          <p className="mt-3 text-sm font-bold">{label}</p>
+          <p className="mt-2 text-xs leading-6 text-muted-foreground sm:text-sm">{description}</p>
         </div>)}
-      </dl>
+      </div>
     </Container>
   </section>;
 }

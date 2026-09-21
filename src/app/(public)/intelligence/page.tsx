@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { BarChart3, Database, MapPinned, TrendingUp } from "lucide-react";
 
+import { Reveal } from "@/components/shared/reveal";
 import { Container } from "@/components/ui/container";
 import { IntelligenceDashboard } from "@/features/intelligence/components/intelligence-dashboard";
 import { formatCompactNumber } from "@/features/intelligence/lib/intelligence-format";
@@ -36,26 +37,30 @@ export default async function IntelligencePage({ searchParams }: IntelligencePag
         <div aria-hidden="true" className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_72%_40%,rgba(0,177,196,.14),transparent_32%)]" />
         <Container className="max-w-[1320px]">
           <div className="max-w-3xl">
-            <p className="flex items-center gap-2 text-sm font-semibold text-brand-cyan"><Database aria-hidden="true" className="size-4" />Intelligence</p>
-            <h1 className="mt-5 text-4xl leading-tight text-white sm:text-5xl lg:text-6xl">Data Pertambangan dalam Satu Pandangan</h1>
-            <p className="mt-5 max-w-2xl text-base leading-8 text-[#b7c3d1] sm:text-lg">Bandingkan tren produksi, harga domestik, dan persebaran wilayah tujuh komoditas melalui data kanonik yang telah diverifikasi dan dipublikasikan.</p>
+            <Reveal direction="fade">
+              <p className="flex items-center gap-2 text-sm font-semibold text-brand-cyan"><Database aria-hidden="true" className="size-4" />Intelligence</p>
+              <h1 className="mt-5 text-4xl leading-tight text-white sm:text-5xl lg:text-6xl">Data Pertambangan dalam Satu Pandangan</h1>
+              <p className="mt-5 max-w-2xl text-base leading-8 text-[#b7c3d1] sm:text-lg">Bandingkan tren produksi, harga domestik, dan persebaran wilayah tujuh komoditas melalui data kanonik yang telah diverifikasi dan dipublikasikan.</p>
+            </Reveal>
           </div>
-          <dl className="mt-9 grid max-w-5xl gap-4 sm:grid-cols-2 xl:grid-cols-4">
-            {heroStats.map(({ icon: Icon, value, label, description }) => (
-              <div key={label} className="min-h-36 rounded-2xl border border-white/10 bg-[#08172a]/82 p-5 shadow-[0_16px_45px_rgba(0,0,0,.22)] backdrop-blur-sm">
-                <div className="flex items-start gap-3">
-                  <Icon aria-hidden="true" className="mt-0.5 size-5 shrink-0 text-brand-cyan" />
-                  <div className="flex flex-col">
-                    <dt className="order-2 mt-1 text-sm font-semibold text-white">{label}</dt>
-                    <dd className="contents">
-                      <span className="order-1 text-lg font-bold leading-tight text-white">{formatCompactNumber(value)}</span>
-                      <span className="order-3 mt-1.5 text-xs leading-5 text-[#8fa0b4]">{description}</span>
-                    </dd>
+          <Reveal direction="up" delay={140}>
+            <dl className="mt-9 grid max-w-5xl gap-4 sm:grid-cols-2 xl:grid-cols-4">
+              {heroStats.map(({ icon: Icon, value, label, description }) => (
+                <div key={label} className="min-h-36 rounded-2xl border border-white/10 bg-[#08172a]/82 p-5 shadow-[0_16px_45px_rgba(0,0,0,.22)] backdrop-blur-sm">
+                  <div className="flex items-start gap-3">
+                    <Icon aria-hidden="true" className="mt-0.5 size-5 shrink-0 text-brand-cyan" />
+                    <div className="flex flex-col">
+                      <dt className="order-2 mt-1 text-sm font-semibold text-white">{label}</dt>
+                      <dd className="contents">
+                        <span className="order-1 text-lg font-bold leading-tight text-white">{formatCompactNumber(value)}</span>
+                        <span className="order-3 mt-1.5 text-xs leading-5 text-[#8fa0b4]">{description}</span>
+                      </dd>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
-          </dl>
+              ))}
+            </dl>
+          </Reveal>
         </Container>
       </section>
 

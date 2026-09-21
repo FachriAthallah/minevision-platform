@@ -46,10 +46,10 @@ export const methodologySections: ResourceSection[] = [
   { title: "Kebijakan publik", paragraphs: ["Pengalaman publik hanya membaca data verified/published dan relasi sumber yang layak. Tautan sumber membuka publikasi asli. Metodologi ini mengurangi risiko salah tafsir, tetapi setiap publikasi eksternal tetap dapat direvisi oleh penerbitnya."] },
 ];
 export const privacySections: ResourceSection[] = [
-  { title: "Data akun dan sesi", paragraphs: ["MineVision memproses informasi akun dan sesi ketika pengguna memilih masuk. Sesi menjaga status autentikasi dan menyediakan halaman akun; fitur publik tetap dapat digunakan tanpa login."] },
-  { title: "Pencarian dan penggunaan", paragraphs: ["Global Search memproses kata kunci melalui parameter URL untuk menghasilkan hasil publik. Repository saat ini tidak mendefinisikan pengumpulan analytics khusus. Infrastruktur hosting dapat menghasilkan log teknis dasar sesuai kebijakan penyedianya."] },
+  { title: "Data akun dan sesi", paragraphs: ["MineVision memproses informasi akun dan sesi ketika pengguna memilih masuk. Sesi menjaga status autentikasi dan menyediakan halaman akun. Fitur publik tetap dapat digunakan tanpa login."] },
+  { title: "Pencarian dan penggunaan", paragraphs: ["Global Search dan pencarian pada halaman modul membantu menelusuri konten serta data publik. Kata kunci dikirim melalui parameter URL dan hanya digunakan untuk menyusun hasil pencarian pada halaman tersebut. Repository saat ini tidak mendefinisikan pengumpulan analytics khusus. Infrastruktur hosting dapat menghasilkan log teknis dasar sesuai kebijakan penyedianya."] },
   { title: "Cookie dan keamanan", paragraphs: ["Cookie autentikasi dapat digunakan untuk mempertahankan sesi. MineVision tidak mengirim credential database ke client dan mengandalkan kontrol akses database untuk data terbatas."] },
-  { title: "MineBot dan tautan eksternal", paragraphs: ["MineBot belum memproses percakapan pada pengalaman publik ini. Tautan eksternal membawa pengguna ke situs pihak lain dengan kebijakan privasinya sendiri."] },
+  { title: "MineBot dan tautan eksternal", paragraphs: ["MineBot adalah fitur AI pada MineVision yang menyusun jawaban dari informasi dan sumber yang tersedia pada platform. Jawaban yang dihasilkan harus dipahami dalam konteks informasi yang tersedia dan tetap perlu diverifikasi terhadap publikasi aslinya. Tautan eksternal yang disertakan dapat mengarah ke situs atau sumber pihak ketiga dengan kebijakan privasinya sendiri."] },
   { title: "Retensi dan hak pengguna", paragraphs: ["Data akun mengikuti kebutuhan layanan autentikasi dan infrastruktur yang digunakan. Pengguna dapat keluar untuk mengakhiri sesi aktif."], links: [{ label: "Buka halaman Kontak", href: publicRoutes.contact }] },
 ];
 export const termsSections: ResourceSection[] = [
@@ -57,7 +57,7 @@ export const termsSections: ResourceSection[] = [
   { title: "Penggunaan data", paragraphs: ["Pengguna bertanggung jawab memeriksa publikasi resmi, definisi, satuan, periode, dan status revisi. Data tidak tersedia tidak boleh ditafsirkan sebagai nol."] },
   { title: "Hak cipta dan sumber", paragraphs: ["Hak atas publikasi sumber tetap berada pada pemiliknya. MineVision menampilkan atribusi dan tautan penelusuran, bukan memindahkan kepemilikan publikasi."] },
   { title: "Batas tanggung jawab", paragraphs: ["Informasi dapat berubah ketika instansi sumber menerbitkan pembaruan. MineVision tidak menjamin kesesuaian data untuk keputusan tertentu."] },
-  { title: "Layanan, tautan eksternal, dan MineBot", paragraphs: ["Fitur dan cakupan layanan dapat berubah. Tautan eksternal dikelola pihak ketiga. MineBot belum menyediakan jawaban AI; ketika diaktifkan kelak, jawabannya tetap harus diperiksa terhadap sumber asli."] },
+  { title: "Layanan, tautan eksternal, dan MineBot", paragraphs: ["Fitur dan cakupan layanan dapat berubah. Tautan eksternal dikelola pihak ketiga. MineBot menyusun jawaban dari informasi dan sumber yang tersedia pada MineVision. Jawaban tetap harus diperiksa terhadap publikasi asli sebelum digunakan untuk keputusan atau verifikasi."] },
 ];
 export const contactSections: ResourceSection[] = [
   { title: "Tentang kanal kontak", paragraphs: ["Informasi kontak pengembang tersedia untuk komunikasi mengenai proyek MineVision. Halaman ini tidak memakai formulir pengiriman atau meminta data pribadi pengunjung."] },

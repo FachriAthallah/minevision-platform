@@ -2,6 +2,7 @@ import type { LucideIcon } from "lucide-react";
 import { Building2, FileText, MapPinned } from "lucide-react";
 import Link from "next/link";
 
+import { Reveal } from "@/components/shared/reveal";
 import type { IndustryCategory } from "@/features/industry/types/industry-view";
 import { cn } from "@/lib/utils";
 
@@ -41,47 +42,54 @@ export function IndustryCategoryNavigation({
   return (
     <nav aria-label="Kategori Industri">
       <ul className="grid gap-4 lg:grid-cols-3">
-        {categories.map((category) => {
+        {categories.map((category, index) => {
           const active = category.id === activeCategory;
           const Icon = category.icon;
 
           return (
-            <li key={category.id}>
-              <Link
-                href={`/industry?category=${category.id}`}
-                aria-current={active ? "page" : undefined}
-                className={cn(
-                  "group flex h-full min-h-36 items-start gap-4 rounded-2xl border p-5 transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-cyan motion-reduce:transition-none",
-                  active
-                    ? "border-brand-cyan/55 bg-[linear-gradient(115deg,rgba(40,103,228,0.16),rgba(0,177,196,0.13),rgba(60,195,171,0.09))] shadow-[0_16px_42px_rgba(0,177,196,0.08)]"
-                    : "border-border bg-surface hover:border-brand-cyan/35 hover:bg-surface-secondary",
-                )}
+            <li key={category.id} className="h-full">
+              <Reveal
+                direction="up"
+                delay={index * 80}
+                className="h-full"
               >
-                <span
+                <Link
+                  href={`/industry?category=${category.id}`}
+                  scroll={false}
+                  aria-current={active ? "page" : undefined}
                   className={cn(
-                    "flex size-11 shrink-0 items-center justify-center rounded-xl border",
+                    "group flex h-full min-h-36 items-start gap-4 rounded-2xl border p-5 transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-cyan motion-reduce:transition-none",
                     active
-                      ? "border-brand-cyan/35 bg-brand-cyan/10"
-                      : "border-border bg-background/40 group-hover:border-brand-cyan/25",
+                      ? "border-brand-cyan/55 bg-[linear-gradient(115deg,rgba(40,103,228,0.16),rgba(0,177,196,0.13),rgba(60,195,171,0.09))] shadow-[0_16px_42px_rgba(0,177,196,0.08)]"
+                      : "border-border bg-surface hover:border-brand-cyan/35 hover:bg-surface-secondary",
                   )}
                 >
-                  <Icon
-                    aria-hidden="true"
+                  <span
                     className={cn(
-                      "size-5",
-                      active ? "text-brand-cyan" : "text-muted-foreground",
+                      "flex size-11 shrink-0 items-center justify-center rounded-xl border",
+                      active
+                        ? "border-brand-cyan/35 bg-brand-cyan/10"
+                        : "border-border bg-background/40 group-hover:border-brand-cyan/25",
                     )}
-                  />
-                </span>
-                <span>
-                  <span className="block font-serif text-lg font-bold leading-7 text-foreground">
-                    {category.title}
+                  >
+                    <Icon
+                      aria-hidden="true"
+                      className={cn(
+                        "size-5",
+                        active ? "text-brand-cyan" : "text-muted-foreground",
+                      )}
+                    />
                   </span>
-                  <span className="mt-2 block text-sm leading-6 text-muted-foreground">
-                    {category.description}
+                  <span>
+                    <span className="block font-serif text-lg font-bold leading-7 text-foreground">
+                      {category.title}
+                    </span>
+                    <span className="mt-2 block text-sm leading-6 text-muted-foreground">
+                      {category.description}
+                    </span>
                   </span>
-                </span>
-              </Link>
+                </Link>
+              </Reveal>
             </li>
           );
         })}

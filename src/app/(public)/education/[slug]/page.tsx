@@ -48,5 +48,5 @@ export default async function EducationArticlePage({
     notFound();
   }
 
-  return <EducationPage article={article} />;
+  return <EducationPage key={slug} article={article} />;
 }

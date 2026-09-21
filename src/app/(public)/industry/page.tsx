@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import { IndustryPublicPage as IndustryExperience } from "@/features/industry/components/industry-public-page";
 import { parseIndustryCategory } from "@/features/industry/lib/industry-view";
+import { industryCompanySlugSchema } from "@/features/industry/schemas/industry-query";
 import {
   getPublicIndustryExperience,
   type PublicIndustryExperience,
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
 type IndustryPageProps = {
   searchParams: Promise<{
     category?: string | string[];
+    company?: string | string[];
   }>;
 };
 
@@ -41,11 +43,18 @@ export default async function IndustryPage({ searchParams }: IndustryPageProps) 
     dataError = true;
   }
 
+  const companySlugResult = industryCompanySlugSchema.safeParse(query.company);
+  const highlightSlug =
+    activeCategory === "companies" && companySlugResult.success
+      ? companySlugResult.data
+      : undefined;
+
   return (
     <IndustryExperience
       activeCategory={activeCategory}
       experience={experience}
       dataError={dataError}
+      highlightSlug={highlightSlug}
     />
   );
 }

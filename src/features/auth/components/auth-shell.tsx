@@ -17,7 +17,7 @@ export function AuthShell({ title, subtitle, children }: AuthShellProps) {
         className="pointer-events-none absolute inset-0 bg-[linear-gradient(145deg,rgba(40,103,228,0.08),transparent_35%,rgba(60,195,171,0.05))]"
       />
 
-      <section className="relative w-full max-w-[520px] rounded-[28px] border border-white/10 bg-[#071426]/95 px-6 py-7 shadow-[0_24px_80px_rgba(0,0,0,0.38)] sm:px-10 sm:py-9">
+      <section className="auth-card-reveal relative w-full max-w-[520px] rounded-[28px] border border-white/10 bg-[#071426]/95 px-6 py-7 shadow-[0_24px_80px_rgba(0,0,0,0.38)] sm:px-10 sm:py-9">
         <div className="flex items-center justify-between gap-4">
           <Link
             href="/"

@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 
+import { Reveal } from "@/components/shared/reveal";
 import { Container } from "@/components/ui/container";
 
 import {
@@ -113,21 +114,24 @@ export function CommodityCatalog({
 
         <Container className="max-w-[1320px]">
           <div className="grid gap-10 lg:grid-cols-[minmax(0,1.25fr)_minmax(360px,0.75fr)] lg:items-end">
-            <div className="max-w-3xl">
-              <div className="flex items-center gap-2 text-sm font-semibold text-brand-cyan">
-                <Gem aria-hidden="true" className="h-4 w-4" />
-                Commodity
+            <Reveal direction="up">
+              <div className="max-w-3xl">
+                <div className="flex items-center gap-2 text-sm font-semibold text-brand-cyan">
+                  <Gem aria-hidden="true" className="h-4 w-4" />
+                  Commodity
+                </div>
+                <h1 className="mt-5 text-4xl leading-tight text-white sm:text-5xl lg:text-6xl">
+                  Komoditas Pertambangan Indonesia
+                </h1>
+                <p className="mt-5 max-w-2xl text-base leading-8 text-[#b7c3d1] sm:text-lg">
+                  Jelajahi profil mineral logam, mineral non-logam, dan energi
+                  dengan data yang terhubung ke sumber resmi.
+                </p>
               </div>
-              <h1 className="mt-5 text-4xl leading-tight text-white sm:text-5xl lg:text-6xl">
-                Komoditas Pertambangan Indonesia
-              </h1>
-              <p className="mt-5 max-w-2xl text-base leading-8 text-[#b7c3d1] sm:text-lg">
-                Jelajahi profil mineral logam, mineral non-logam, dan energi
-                dengan data yang terhubung ke sumber resmi.
-              </p>
-            </div>
+            </Reveal>
 
-            <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-1">
+            <Reveal direction="up" delay={90}>
+              <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-1">
               {[
                 { icon: Gem, value: String(commodities.length), label: "Profil Komoditas", description: "Komoditas tambang di Indonesia." },
                 { icon: Layers3, value: "3", label: "Kategori Utama", description: "Mineral Logam, Mineral Non-Logam, dan Energi." },
@@ -144,7 +148,8 @@ export function CommodityCatalog({
                   </div>
                 </div>
               ))}
-            </div>
+              </div>
+            </Reveal>
           </div>
         </Container>
       </section>
@@ -155,10 +160,11 @@ export function CommodityCatalog({
           className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_12%_10%,rgba(40,103,228,0.08),transparent_25%),radial-gradient(circle_at_90%_32%,rgba(60,195,171,0.055),transparent_28%)]"
         />
         <Container className="relative max-w-[1320px]">
-          <section
-            aria-labelledby="commodity-explorer-title"
-            className="rounded-3xl border border-white/10 bg-[#08172a] p-5 shadow-[0_18px_52px_rgba(0,0,0,0.18)] sm:p-7"
-          >
+          <Reveal direction="up">
+            <section
+              aria-labelledby="commodity-explorer-title"
+              className="rounded-3xl border border-white/10 bg-[#08172a] p-5 shadow-[0_18px_52px_rgba(0,0,0,0.18)] sm:p-7"
+            >
             <div className="flex items-start gap-3">
               <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-brand-cyan/30 bg-brand-cyan/5">
                 <Search aria-hidden="true" className="h-5 w-5 text-brand-cyan" />
@@ -229,48 +235,60 @@ export function CommodityCatalog({
                 })}
               </ul>
             </nav>
-          </section>
+            </section>
+          </Reveal>
 
-          <div className="mt-10 flex flex-wrap items-end justify-between gap-3">
-            <div>
-              <div className="flex items-center gap-2 text-brand-teal">
-                <Layers3 aria-hidden="true" className="h-4 w-4" />
-                <p className="text-xs font-bold uppercase tracking-[0.14em]">
-                  Katalog publik
-                </p>
+          <Reveal direction="up" delay={40}>
+            <div className="mt-10 flex flex-wrap items-end justify-between gap-3">
+              <div>
+                <div className="flex items-center gap-2 text-brand-teal">
+                  <Layers3 aria-hidden="true" className="h-4 w-4" />
+                  <p className="text-xs font-bold uppercase tracking-[0.14em]">
+                    Katalog publik
+                  </p>
+                </div>
+                <h2 className="mt-2 text-2xl text-white sm:text-3xl">
+                  {category === "all"
+                    ? "Seluruh Komoditas"
+                    : commodityCategoryLabels[category]}
+                </h2>
               </div>
-              <h2 className="mt-2 text-2xl text-white sm:text-3xl">
-                {category === "all"
-                  ? "Seluruh Komoditas"
-                  : commodityCategoryLabels[category]}
-              </h2>
+              <p aria-live="polite" className="text-sm text-[#8fa0b4]">
+                {results.length} dari {commodities.length} komoditas
+              </p>
             </div>
-            <p aria-live="polite" className="text-sm text-[#8fa0b4]">
-              {results.length} dari {commodities.length} komoditas
-            </p>
-          </div>
+          </Reveal>
 
           {results.length > 0 ? (
             <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-              {results.map((commodity) => (
-                <CommodityCard key={commodity.id} commodity={commodity} />
+              {results.map((commodity, index) => (
+                <Reveal
+                  key={commodity.id}
+                  direction="up"
+                  delay={Math.min(index, 3) * 70}
+                  className="h-full"
+                >
+                  <CommodityCard commodity={commodity} />
+                </Reveal>
               ))}
             </div>
           ) : (
-            <section className="mt-6 rounded-3xl border border-dashed border-white/15 bg-[#071426] px-6 py-16 text-center">
-              <BrainCircuit aria-hidden="true" className="mx-auto h-9 w-9 text-brand-cyan" />
-              <h2 className="mt-4 text-xl text-white">Komoditas tidak ditemukan</h2>
-              <p className="mx-auto mt-2 max-w-md text-sm leading-6 text-[#8fa0b4]">
-                Coba gunakan kata kunci lain atau kembalikan filter ke seluruh kategori.
-              </p>
-              <button
-                type="button"
-                onClick={resetFilters}
-                className="mt-6 inline-flex min-h-11 items-center rounded-full border border-brand-cyan/45 px-5 text-sm font-bold text-brand-cyan hover:bg-brand-cyan/10 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-cyan"
-              >
-                Tampilkan semua komoditas
-              </button>
-            </section>
+            <Reveal direction="up">
+              <section className="mt-6 rounded-3xl border border-dashed border-white/15 bg-[#071426] px-6 py-16 text-center">
+                <BrainCircuit aria-hidden="true" className="mx-auto h-9 w-9 text-brand-cyan" />
+                <h2 className="mt-4 text-xl text-white">Komoditas tidak ditemukan</h2>
+                <p className="mx-auto mt-2 max-w-md text-sm leading-6 text-[#8fa0b4]">
+                  Coba gunakan kata kunci lain atau kembalikan filter ke seluruh kategori.
+                </p>
+                <button
+                  type="button"
+                  onClick={resetFilters}
+                  className="mt-6 inline-flex min-h-11 items-center rounded-full border border-brand-cyan/45 px-5 text-sm font-bold text-brand-cyan hover:bg-brand-cyan/10 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-cyan"
+                >
+                  Tampilkan semua komoditas
+                </button>
+              </section>
+            </Reveal>
           )}
         </Container>
       </main>
