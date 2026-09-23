@@ -1,11 +1,17 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { FileImage } from "lucide-react";
 
 import {
+  AdminButton,
   AdminCard,
+  AdminCardTitle,
   AdminEmptyState,
+  AdminFieldLabel,
+  AdminNote,
   AdminPageHeader,
+  StatusBadge,
 } from "@/features/admin/components/admin-ui";
 
 type MediaAsset = {
@@ -86,41 +92,38 @@ export default function AdminMediaPage() {
   }
 
   if (loading) {
-    return <p className="text-sm text-[#718196]">Memuat media…</p>;
+    return <p className="text-sm text-admin-muted">Memuat media…</p>;
   }
 
   return (
     <div className="space-y-6">
       <AdminPageHeader
-        eyebrow="Website"
         title="Media Library"
         description="Unggah dan kelola gambar untuk logo, hero, dan konten. Batasan: PNG/JPEG/WebP maksimal 10 MB."
       />
 
-      {status ? <p className="text-sm font-semibold text-success">{status}</p> : null}
-      {error ? <p className="text-sm font-semibold text-danger">{error}</p> : null}
+      {status ? <AdminNote tone="good">{status}</AdminNote> : null}
+      {error ? <AdminNote tone="bad">{error}</AdminNote> : null}
 
       <AdminCard>
-        <h2 className="text-lg font-semibold text-white">Upload Gambar</h2>
-        <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center">
-          <input
-            type="file"
-            accept="image/png,image/jpeg,image/webp"
-            aria-label="Pilih gambar untuk diunggah"
-            className="block w-full max-w-md text-sm text-[#9FACBA] file:mr-3 file:rounded-full file:border-0 file:bg-brand-cyan/10 file:px-4 file:py-2 file:font-semibold file:text-brand-cyan"
-            onChange={(event) => setSelectedFile(event.target.files?.[0] ?? null)}
-          />
-          <button
-            type="button"
-            onClick={upload}
-            disabled={!selectedFile || uploading}
-            className="brand-gradient inline-flex h-11 items-center rounded-full px-5 text-sm font-bold text-white disabled:cursor-not-allowed disabled:opacity-40"
-          >
+        <AdminCardTitle>Upload Gambar</AdminCardTitle>
+        <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-end">
+          <div className="w-full max-w-md">
+            <AdminFieldLabel>Pilih file gambar</AdminFieldLabel>
+            <input
+              type="file"
+              accept="image/png,image/jpeg,image/webp"
+              aria-label="Pilih gambar untuk diunggah"
+              className="block w-full text-sm text-admin-muted file:mr-3 file:rounded-md file:border-0 file:bg-admin-raised file:px-3.5 file:py-2 file:font-semibold file:text-admin-text"
+              onChange={(event) => setSelectedFile(event.target.files?.[0] ?? null)}
+            />
+          </div>
+          <AdminButton type="button" onClick={upload} disabled={!selectedFile || uploading} className="h-10">
             {uploading ? "Mengunggah…" : "Upload"}
-          </button>
+          </AdminButton>
         </div>
         {selectedFile ? (
-          <p className="mt-2 text-xs text-[#718196]">
+          <p className="mt-2 text-xs tabular-nums text-admin-muted">
             {selectedFile.name} · {(selectedFile.size / 1024).toFixed(1)} KB
           </p>
         ) : null}
@@ -134,26 +137,33 @@ export default function AdminMediaPage() {
       ) : (
         <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
           {assets.map((asset) => (
-            <AdminCard key={asset.id}>
-              <div className="flex items-start justify-between gap-3">
-                <div className="min-w-0">
-                  <p className="truncate font-semibold text-white">{asset.displayName ?? asset.originalFileName ?? "Tanpa nama"}</p>
-                  <p className="mt-1 text-xs text-[#718196]">{asset.mimeType}</p>
-                  <p className="mt-1 text-xs text-[#718196]">{(asset.sizeBytes / 1024).toFixed(1)} KB</p>
+            <AdminCard key={asset.id} className="p-4">
+              <div className="flex items-start gap-3">
+                <div className="grid size-11 shrink-0 place-items-center rounded-md bg-admin-raised">
+                  <FileImage aria-hidden="true" className="size-5 text-admin-accent" />
                 </div>
-                {asset.isArchived ? (
-                  <span className="rounded-full border border-warning/25 bg-warning/5 px-2.5 py-1 text-xs font-bold text-warning">
-                    Arsip
-                  </span>
-                ) : null}
+                <div className="min-w-0 flex-1">
+                  <p className="truncate text-sm font-semibold text-admin-text">
+                    {asset.displayName ?? asset.originalFileName ?? "Tanpa nama"}
+                  </p>
+                  <p className="mt-1 text-xs text-admin-muted">{asset.mimeType}</p>
+                  <p className="mt-0.5 text-xs tabular-nums text-admin-muted">
+                    {(asset.sizeBytes / 1024).toFixed(1)} KB ·{" "}
+                    {new Date(asset.createdAt).toLocaleDateString("id-ID")}
+                  </p>
+                </div>
+                {asset.isArchived ? <StatusBadge tone="warn">Arsip</StatusBadge> : null}
               </div>
-              <button
-                type="button"
-                onClick={() => void archive(asset.id, !asset.isArchived)}
-                className="mt-4 w-full rounded-xl border border-white/10 px-3 py-2 text-sm font-semibold text-[#9FACBA] hover:border-brand-cyan hover:text-white focus-visible:outline-2 focus-visible:outline-brand-cyan"
-              >
-                {asset.isArchived ? "Pulihkan" : "Arsip"}
-              </button>
+              <div className="mt-4">
+                <AdminButton
+                  variant={asset.isArchived ? "secondary" : "ghost"}
+                  type="button"
+                  onClick={() => void archive(asset.id, !asset.isArchived)}
+                  className="w-full justify-center"
+                >
+                  {asset.isArchived ? "Pulihkan" : "Arsip"}
+                </AdminButton>
+              </div>
             </AdminCard>
           ))}
         </div>

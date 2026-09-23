@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 
 import { isAdminPath } from "@/features/admin/lib/analytics-paths";
+import { getClientContext } from "@/features/admin/lib/client-context";
 
 const SESSION_STORAGE_KEY = "minevision_anonymous_session";
 
@@ -45,9 +46,6 @@ function sendEvent(payload: {
   path: string;
   module?: string;
   referrer_domain?: string;
-  device_category?: string;
-  browser_family?: string;
-  os_family?: string;
   properties?: Record<string, unknown>;
 }) {
   if (!navigator.sendBeacon) {
@@ -55,12 +53,16 @@ function sendEvent(payload: {
   }
 
   const sessionId = getOrCreateSessionId();
+  const ctx = getClientContext();
 
   const blob = new Blob(
     [
       JSON.stringify({
         ...payload,
         session_id: sessionId,
+        device_category: ctx.deviceCategory,
+        browser_family: ctx.browserFamily,
+        os_family: ctx.osFamily,
       }),
     ],
     { type: "application/json" },
@@ -101,16 +103,11 @@ export function AnalyticsTracker({
       // referrer tidak valid diabaikan.
     }
 
-    const deviceCategory = window.matchMedia("(pointer: coarse)").matches
-      ? "mobile"
-      : "desktop";
-
     sendEvent({
       event_type: "page_view",
       path: getNormalizedPath(),
       module: moduleName || undefined,
       referrer_domain: referrerDomain || undefined,
-      device_category: deviceCategory,
     });
 
     return () => {

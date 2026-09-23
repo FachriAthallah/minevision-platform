@@ -113,6 +113,9 @@ export const adminWebVitalSchema = z
     device_category: z
       .enum(["desktop", "mobile", "tablet", "unknown"])
       .default("unknown"),
+    browser_family: z.string().max(80).optional(),
+    os_family: z.string().max(80).optional(),
+    country_code: z.string().regex(/^[A-Z]{2}$/).optional(),
   })
   .strict();
 

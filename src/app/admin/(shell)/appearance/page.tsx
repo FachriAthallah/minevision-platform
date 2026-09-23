@@ -3,7 +3,12 @@
 import { useEffect, useState } from "react";
 
 import {
+  ADMIN_INPUT_CLASS,
+  AdminButton,
   AdminCard,
+  AdminCardTitle,
+  AdminFieldLabel,
+  AdminNote,
   AdminPageHeader,
 } from "@/features/admin/components/admin-ui";
 
@@ -14,11 +19,16 @@ type SettingRow = {
   publishedVersion: number;
 };
 
+type FocalPoint = { x: number; y: number };
+
 type FormState = {
   logo: string;
+  logoCompact: string;
   favicon: string;
   heroImage: string;
   heroAltText: string;
+  heroFocalX: number;
+  heroFocalY: number;
   overlayOpacity: number;
 };
 
@@ -28,12 +38,17 @@ async function requestJson<T>(input: RequestInfo, init?: RequestInit): Promise<{
   return body;
 }
 
+const DEFAULT_FOCAL: FocalPoint = { x: 50, y: 50 };
+
 export default function AdminAppearancePage() {
   const [form, setForm] = useState<FormState>({
     logo: "",
+    logoCompact: "",
     favicon: "",
     heroImage: "",
     heroAltText: "",
+    heroFocalX: DEFAULT_FOCAL.x,
+    heroFocalY: DEFAULT_FOCAL.y,
     overlayOpacity: 50,
   });
   const [draftVersion, setDraftVersion] = useState<number | null>(null);
@@ -47,12 +62,16 @@ export default function AdminAppearancePage() {
     void (async () => {
       const result = await requestJson<SettingRow>("/api/v1/admin/appearance");
       if (result.success && result.data) {
-        const draft = (result.data.draft ?? {}) as Partial<FormState>;
+        const draft = (result.data.draft ?? {}) as Partial<FormState> & { heroFocalPoint?: FocalPoint };
+        const focal = draft.heroFocalPoint ?? DEFAULT_FOCAL;
         setForm({
           logo: String(draft.logo ?? ""),
+          logoCompact: String(draft.logoCompact ?? ""),
           favicon: String(draft.favicon ?? ""),
           heroImage: String(draft.heroImage ?? ""),
           heroAltText: String(draft.heroAltText ?? ""),
+          heroFocalX: Number(focal.x ?? DEFAULT_FOCAL.x),
+          heroFocalY: Number(focal.y ?? DEFAULT_FOCAL.y),
           overlayOpacity: Number(draft.overlayOpacity ?? 50) * 100,
         });
         setDraftVersion(result.data.draftVersion);
@@ -78,9 +97,11 @@ export default function AdminAppearancePage() {
       body: JSON.stringify({
         data: {
           logo: form.logo,
+          logoCompact: form.logoCompact,
           favicon: form.favicon,
           heroImage: form.heroImage,
           heroAltText: form.heroAltText,
+          heroFocalPoint: { x: form.heroFocalX, y: form.heroFocalY },
           overlayOpacity: form.overlayOpacity / 100,
         },
         expectedDraftVersion: draftVersion,
@@ -132,124 +153,145 @@ export default function AdminAppearancePage() {
   }
 
   if (loading) {
-    return <p className="text-sm text-[#718196]">Memuat pengaturan appearance…</p>;
+    return <p className="text-sm text-admin-muted">Memuat pengaturan appearance…</p>;
   }
-
-  const inputClass =
-    "min-h-11 w-full rounded-xl border border-white/10 bg-[#061122] px-4 text-sm text-white outline-none placeholder:text-[#51637a] focus:border-brand-cyan focus:ring-2 focus:ring-brand-cyan/20";
 
   return (
     <div className="space-y-6">
       <AdminPageHeader
-        eyebrow="Website"
         title="Appearance"
-        description="Kelola elemen visual berisiko rendah. Perubahan publik hanya aktif setelah Publish."
+        description="Configurasi visual internal MineVision. Perubahan publik hanya aktif setelah Publish."
         actions={
           <>
-            <button
-              type="button"
-              onClick={rollback}
-              disabled={saving || publishedVersion === null || publishedVersion === 0}
-              className="inline-flex h-10 items-center rounded-full border border-white/15 px-4 text-sm font-semibold text-[#9FACBA] hover:border-brand-cyan hover:text-white disabled:cursor-not-allowed disabled:opacity-40"
-            >
+            <AdminButton variant="secondary" type="button" onClick={rollback} disabled={saving || publishedVersion === null || publishedVersion === 0}>
               Rollback
-            </button>
-            <button
-              type="button"
-              onClick={saveDraft}
-              disabled={saving}
-              className="inline-flex h-10 items-center rounded-full border border-white/15 px-4 text-sm font-semibold text-white hover:border-brand-cyan disabled:opacity-40"
-            >
+            </AdminButton>
+            <AdminButton variant="secondary" type="button" onClick={saveDraft} disabled={saving}>
               Simpan Draft
-            </button>
-            <button
-              type="button"
-              onClick={publish}
-              disabled={saving || draftVersion === null}
-              className="brand-gradient inline-flex h-10 items-center rounded-full px-4 text-sm font-bold text-white disabled:cursor-not-allowed disabled:opacity-40"
-            >
+            </AdminButton>
+            <AdminButton variant="primary" type="button" onClick={publish} disabled={saving || draftVersion === null}>
               Publish
-            </button>
+            </AdminButton>
           </>
         }
       />
 
-      {status ? <p className="text-sm font-semibold text-success">{status}</p> : null}
-      {error ? <p className="text-sm font-semibold text-danger">{error}</p> : null}
+      {status ? <AdminNote tone="good">{status}</AdminNote> : null}
+      {error ? <AdminNote tone="bad">{error}</AdminNote> : null}
 
-      <div className="grid gap-5 lg:grid-cols-2">
+      <div className="admin-reveal grid gap-5 lg:grid-cols-2">
         <AdminCard>
-          <h2 className="text-lg font-semibold text-white">Logo</h2>
-          <div className="mt-4 space-y-4">
-            <label className="block text-xs font-bold text-[#9FACBA]">
-              Logo utama (storage path)
+          <AdminCardTitle>Identitas Visual</AdminCardTitle>
+          <p className="mt-1 text-xs text-admin-muted">
+            Logo utama, varian compact, dan favicon yang dipakai di seluruh halaman publik.
+          </p>
+          <div className="mt-5 space-y-5">
+            <div>
+              <AdminFieldLabel>Logo utama (storage path)</AdminFieldLabel>
               <input
                 value={form.logo}
                 onChange={(event) => setField("logo", event.target.value)}
                 placeholder="admin/…"
-                className={`mt-2 ${inputClass}`}
+                className={ADMIN_INPUT_CLASS}
               />
-            </label>
-            <label className="block text-xs font-bold text-[#9FACBA]">
-              Favicon (storage path)
+            </div>
+            <div>
+              <AdminFieldLabel>Logo compact (storage path)</AdminFieldLabel>
+              <input
+                value={form.logoCompact}
+                onChange={(event) => setField("logoCompact", event.target.value)}
+                placeholder="admin/…"
+                className={ADMIN_INPUT_CLASS}
+              />
+            </div>
+            <div>
+              <AdminFieldLabel>Favicon (storage path)</AdminFieldLabel>
               <input
                 value={form.favicon}
                 onChange={(event) => setField("favicon", event.target.value)}
                 placeholder="admin/…"
-                className={`mt-2 ${inputClass}`}
+                className={ADMIN_INPUT_CLASS}
               />
-            </label>
+            </div>
           </div>
         </AdminCard>
 
         <AdminCard>
-          <h2 className="text-lg font-semibold text-white">Hero Background</h2>
-          <div className="mt-4 space-y-4">
-            <label className="block text-xs font-bold text-[#9FACBA]">
-              Gambar hero (storage path)
+          <AdminCardTitle>Hero Background</AdminCardTitle>
+          <p className="mt-1 text-xs text-admin-muted">
+            Gambar latar, posisi fokus, dan intensitas overlay untuk hero publik.
+          </p>
+          <div className="mt-5 space-y-5">
+            <div>
+              <AdminFieldLabel>Gambar hero (storage path)</AdminFieldLabel>
               <input
                 value={form.heroImage}
                 onChange={(event) => setField("heroImage", event.target.value)}
                 placeholder="admin/…"
-                className={`mt-2 ${inputClass}`}
+                className={ADMIN_INPUT_CLASS}
               />
-            </label>
-            <label className="block text-xs font-bold text-[#9FACBA]">
-              Alt text
+            </div>
+            <div>
+              <AdminFieldLabel>Alt text</AdminFieldLabel>
               <input
                 value={form.heroAltText}
                 onChange={(event) => setField("heroAltText", event.target.value)}
-                className={`mt-2 ${inputClass}`}
+                className={ADMIN_INPUT_CLASS}
               />
-            </label>
-            <label className="block text-xs font-bold text-[#9FACBA]">
-              Overlay opacity: {Math.round(form.overlayOpacity)}%
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <AdminFieldLabel>Fokus horizontal: {form.heroFocalX}%</AdminFieldLabel>
+                <input
+                  type="range"
+                  min={0}
+                  max={100}
+                  value={form.heroFocalX}
+                  onChange={(event) => setField("heroFocalX", Number(event.target.value))}
+                  className="mt-2 block w-full accent-[--admin-accent]"
+                />
+              </div>
+              <div>
+                <AdminFieldLabel>Fokus vertikal: {form.heroFocalY}%</AdminFieldLabel>
+                <input
+                  type="range"
+                  min={0}
+                  max={100}
+                  value={form.heroFocalY}
+                  onChange={(event) => setField("heroFocalY", Number(event.target.value))}
+                  className="mt-2 block w-full accent-[--admin-accent]"
+                />
+              </div>
+            </div>
+            <div>
+              <AdminFieldLabel>Overlay opacity: {Math.round(form.overlayOpacity)}%</AdminFieldLabel>
               <input
                 type="range"
                 min={0}
                 max={90}
                 value={form.overlayOpacity}
                 onChange={(event) => setField("overlayOpacity", Number(event.target.value))}
-                className="mt-3 block w-full accent-[--brand-cyan]"
+                className="mt-2 block w-full accent-[--admin-accent]"
               />
-            </label>
+            </div>
           </div>
         </AdminCard>
       </div>
 
-      <AdminCard>
-        <h2 className="text-lg font-semibold text-white">Preview</h2>
-        <p className="mt-2 text-sm leading-6 text-[#9FACBA]">
-          Preview desktop/tablet/mobile membutuhkan daftar Media Library. Unggah aset lalu isi storage path pada
-          field logo/favicon/hero di atas agar dapat di-preview pada tahap berikutnya.
-        </p>
-      </AdminCard>
-
-      <div>
-        <p className="text-xs text-[#718196]">
-          Versi: draft {draftVersion ?? 0} · published {publishedVersion ?? 0}
-        </p>
+      <div className="admin-reveal">
+        <AdminCard>
+          <AdminCardTitle>Preview</AdminCardTitle>
+          <div className="mt-3">
+            <AdminNote>
+              Preview desktop/tablet/mobile akan menampilkan aset setelah diunggah ke Media Library dan path diisi. Saat ini belum ada aset hero pada draft.
+            </AdminNote>
+          </div>
+        </AdminCard>
       </div>
+
+      <p className="text-xs tabular-nums text-admin-muted">
+        Versi: draft {draftVersion ?? 0} · published {publishedVersion ?? 0}
+      </p>
     </div>
   );
 }

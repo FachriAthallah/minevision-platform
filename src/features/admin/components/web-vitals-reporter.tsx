@@ -2,6 +2,7 @@
 
 import { useReportWebVitals } from "next/web-vitals";
 import { isAdminPath } from "@/features/admin/lib/analytics-paths";
+import { getClientContext } from "@/features/admin/lib/client-context";
 
 type VitalsMetric = {
   name?: string;
@@ -35,9 +36,7 @@ export function WebVitalsReporter() {
       return;
     }
 
-    const deviceCategory = window.matchMedia("(pointer: coarse)").matches
-      ? "mobile"
-      : "desktop";
+    const ctx = getClientContext();
 
     if (navigator.sendBeacon) {
       const blob = new Blob(
@@ -46,7 +45,9 @@ export function WebVitalsReporter() {
             metric: name,
             value,
             path: path.length > 500 ? path.slice(0, 500) : path,
-            device_category: deviceCategory,
+            device_category: ctx.deviceCategory,
+            browser_family: ctx.browserFamily,
+            os_family: ctx.osFamily,
           }),
         ],
         { type: "application/json" },
