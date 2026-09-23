@@ -34,6 +34,19 @@
   --radius-large: 1rem;
   --radius-full: 9999px;
 
+/* Admin-shell tokens (scoped, tidak dipakai public pages) */
+  --admin-ink: #0a0e14;
+  --admin-surface: #12161f;
+  --admin-raised: #171c27;
+  --admin-line: #232a38;
+  --admin-text: #e7eaf0;
+  --admin-muted: #8b93a7;
+  --admin-accent: #2dd4c8;
+  --admin-good: #3ecf8e;
+  --admin-warn: #e8a33d;
+  --admin-bad: #ef5a5a;
+  --admin-gold: #c9a227;
+
   --chart-production: #22d3ee;
   --chart-projection: #2dd4bf;
   --chart-provisional: #f59e0b;
@@ -68,6 +81,18 @@
   --color-success: var(--success);
   --color-warning: var(--warning);
   --color-danger: var(--danger);
+
+  --color-admin-ink: var(--admin-ink);
+  --color-admin-surface: var(--admin-surface);
+  --color-admin-raised: var(--admin-raised);
+  --color-admin-line: var(--admin-line);
+  --color-admin-text: var(--admin-text);
+  --color-admin-muted: var(--admin-muted);
+  --color-admin-accent: var(--admin-accent);
+  --color-admin-good: var(--admin-good);
+  --color-admin-warn: var(--admin-warn);
+  --color-admin-bad: var(--admin-bad);
+  --color-admin-gold: var(--admin-gold);
 
   --font-sans: var(--font-lato);
   --font-serif: var(--font-merriweather);
@@ -489,4 +514,77 @@ a {
 /* Chevron rotate for the custom select trigger */
 .mv-dropdown-trigger[aria-expanded="true"] .mv-dropdown-chevron {
   transform: rotate(180deg);
+}
+
+/* ========================================================================
+   Admin shell — scoped system for the internal MVIP dashboard
+   Semua class diawali `admin-` agar tidak berdampak ke public pages.
+   ======================================================================== */
+
+.admin-shell {
+  background: var(--admin-ink);
+  color: var(--admin-text);
+}
+
+.admin-shell h1,
+.admin-shell h2,
+.admin-shell h3 {
+  font-family: var(--font-lato), Arial, sans-serif;
+}
+
+@keyframes admin-page-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.admin-page {
+  animation: admin-page-in 380ms ease-out both;
+}
+
+.admin-reveal {
+  opacity: 0;
+  animation: admin-page-in 380ms ease-out both;
+  animation-delay: var(--admin-delay, 0ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .admin-page,
+  .admin-reveal {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Admin table — konsisten di seluruh halaman */
+.admin-table thead th {
+  padding: 0.625rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--admin-muted);
+  border-bottom: 1px solid var(--admin-line);
+  white-space: nowrap;
+}
+
+.admin-table tbody td {
+  padding: 0.75rem 1rem;
+  vertical-align: middle;
+}
+
+.admin-table tbody tr {
+  border-bottom: 1px solid color-mix(in srgb, var(--admin-line) 55%, transparent);
+}
+
+.admin-table tbody tr:last-child {
+  border-bottom: 0;
+}
+
+.admin-table tbody tr:hover {
+  background: color-mix(in srgb, var(--admin-raised) 65%, transparent);
 }

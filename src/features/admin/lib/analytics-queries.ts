@@ -1,6 +1,14 @@
 import "server-only";
 
-import { and, eq, gte, lt, sql } from "drizzle-orm";
+import {
+  and,
+  asc,
+  eq,
+  gte,
+  isNotNull,
+  lt,
+  sql,
+} from "drizzle-orm";
 import { db } from "@/db";
 import { analyticsEvents } from "@/db/schema";
 
@@ -161,6 +169,48 @@ export async function getTopPages(
     .filter((row): row is TopPageRow => row.path !== null);
 }
 
+export type LandingPageRow = {
+  path: string;
+  sessions: number;
+};
+
+export async function getLandingPages(
+  range: AnalyticsRange,
+  limit = 10,
+): Promise<LandingPageRow[]> {
+  const firstViews = db
+    .selectDistinctOn([analyticsEvents.sessionId], {
+      sessionId: analyticsEvents.sessionId,
+      path: analyticsEvents.path,
+    })
+    .from(analyticsEvents)
+    .where(
+      and(
+        eq(analyticsEvents.eventType, "page_view"),
+        isNotNull(analyticsEvents.path),
+        gte(analyticsEvents.occurredAt, range.from),
+        lt(analyticsEvents.occurredAt, range.to),
+      ),
+    )
+    .orderBy(analyticsEvents.sessionId, asc(analyticsEvents.occurredAt))
+    .as("first_views");
+
+  const rows = await db
+    .select({
+      path: firstViews.path,
+      sessions: sql<number>`count(*)`,
+    })
+    .from(firstViews)
+    .where(isNotNull(firstViews.path))
+    .groupBy(firstViews.path)
+    .orderBy(sql`count(*) desc`)
+    .limit(limit);
+
+  return rows.filter(
+    (row): row is LandingPageRow => typeof row.path === "string",
+  );
+}
+
 export async function getTopTrafficSources(
   range: AnalyticsRange,
   limit = 5,
@@ -286,6 +336,68 @@ export async function getEngagementMetrics(range: AnalyticsRange) {
   };
 }
 
+export type EngagementEventRow = {
+  eventType: string;
+  count: number;
+  lastRecorded: Date | null;
+  previousCount: number;
+};
+
+export async function getEngagementEventTable(
+  range: AnalyticsRange,
+): Promise<EngagementEventRow[]> {
+  const interactionTypes = INTERACTION_EVENT_TYPES;
+  const inClause = sql`${analyticsEvents.eventType} IN (${sql.join(
+    interactionTypes.map((type) => sql.raw(`'${type}'`)),
+    sql`, `,
+  )})`;
+  const spanMs = range.to.getTime() - range.from.getTime();
+  const previousFrom = new Date(range.from.getTime() - spanMs);
+
+  const [current, previous] = await Promise.all([
+    db
+      .select({
+        eventType: analyticsEvents.eventType,
+        count: sql<number>`count(*)`,
+        lastRecorded: sql<Date>`max(${analyticsEvents.occurredAt})`,
+      })
+      .from(analyticsEvents)
+      .where(
+        and(
+          inClause,
+          gte(analyticsEvents.occurredAt, range.from),
+          lt(analyticsEvents.occurredAt, range.to),
+        ),
+      )
+      .groupBy(analyticsEvents.eventType),
+    db
+      .select({
+        eventType: analyticsEvents.eventType,
+        count: sql<number>`count(*)`,
+      })
+      .from(analyticsEvents)
+      .where(
+        and(
+          inClause,
+          gte(analyticsEvents.occurredAt, previousFrom),
+          lt(analyticsEvents.occurredAt, range.from),
+        ),
+      )
+      .groupBy(analyticsEvents.eventType),
+  ]);
+
+  const previousCounts = new Map(previous.map((row) => [row.eventType, row.count]));
+
+  return current
+    .map((row) => ({
+      eventType: row.eventType,
+      count: row.count,
+      lastRecorded: row.lastRecorded ?? null,
+      previousCount: previousCounts.get(row.eventType) ?? 0,
+    }))
+    .sort((a, b) => b.count - a.count);
+}
+
 async function getSearchNoResultCount(range: AnalyticsRange): Promise<number> {
   const rows = await db
     .select({ count: sql<number>`count(*)` })
@@ -310,6 +422,7 @@ export async function getVitalsMetrics(range: AnalyticsRange) {
       count: sql<number>`count(*)`,
       avg: sql<number>`avg((${analyticsEvents.eventProperties}->>'value')::double precision)`,
       p75: sql<number>`percentile_cont(0.75) within group (order by (${analyticsEvents.eventProperties}->>'value')::double precision)`,
+      max: sql<number>`max((${analyticsEvents.eventProperties}->>'value')::double precision)`,
     })
     .from(analyticsEvents)
     .where(
@@ -327,5 +440,45 @@ export async function getVitalsMetrics(range: AnalyticsRange) {
     count: row.count,
     avg: row.avg,
     p75: row.p75,
+    max: row.max,
   }));
+}
+
+export type SlowPageRow = {
+  path: string;
+  metric: string;
+  count: number;
+  avg: number;
+};
+
+export async function getSlowPages(
+  range: AnalyticsRange,
+  limit = 10,
+): Promise<SlowPageRow[]> {
+  const valueExpr = sql`(${analyticsEvents.eventProperties}->>'value')::double precision`;
+  const rows = await db
+    .select({
+      path: analyticsEvents.path,
+      metric: sql<string>`${analyticsEvents.eventProperties}->>'metric'`,
+      count: sql<number>`count(*)`,
+      avg: sql<number>`avg(${valueExpr})`,
+    })
+    .from(analyticsEvents)
+    .where(
+      and(
+        eq(analyticsEvents.eventType, "web_vital"),
+        isNotNull(analyticsEvents.path),
+        sql`${analyticsEvents.eventProperties}->>'metric' IN ('LCP', 'CLS')`,
+        gte(analyticsEvents.occurredAt, range.from),
+        lt(analyticsEvents.occurredAt, range.to),
+      ),
+    )
+    .groupBy(analyticsEvents.path, sql`${analyticsEvents.eventProperties}->>'metric'`)
+    .orderBy(sql`avg(${valueExpr}) desc`)
+    .limit(limit);
+
+  return rows.filter(
+    (row): row is SlowPageRow =>
+      typeof row.path === "string" && typeof row.metric === "string",
+  );
 }

@@ -77,6 +77,9 @@ export async function ingestWebVital(
     sessionId: "vitals",
     path,
     deviceCategory: input.device_category,
+    browserFamily: input.browser_family,
+    osFamily: input.os_family,
+    countryCode: input.country_code,
     eventProperties: {
       metric: input.metric,
       value: input.value,

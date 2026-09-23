@@ -1,16 +1,22 @@
 import Link from "next/link";
+import { ChevronRight } from "lucide-react";
+import type { CSSProperties } from "react";
 
 import {
   AdminCard,
+  AdminCardTitle,
   AdminEmptyState,
+  AdminNumberCell,
   AdminPageHeader,
   AdminRangeHint,
   AdminStat,
+  AdminTable,
 } from "@/features/admin/components/admin-ui";
 import {
   AdminDonutByKey,
   AdminTrafficSeries,
 } from "@/features/admin/components/admin-charts";
+import { AdminRangeSelector } from "@/features/admin/components/admin-range";
 import {
   getDailySeries,
   getEngagementMetrics,
@@ -38,91 +44,110 @@ export default async function AdminOverviewPage({
     getEngagementMetrics({ from, to: now }),
   ]);
 
-  const bounceLabel = kpis.bounceRate !== null ? `${(kpis.bounceRate * 100).toFixed(1)}%` : "Belum cukup data";
+  const bounceLabel =
+    kpis.bounceRate !== null ? `${(kpis.bounceRate * 100).toFixed(1)}%` : "—";
+
+  const reveal = (delay: string) =>
+    ({ ["--admin-delay" as string]: delay }) as CSSProperties;
 
   return (
     <div className="space-y-6">
-      <AdminPageHeader
-        eyebrow="Analytics"
-        title="Dashboard Overview"
-        description="Ringkasan performa MineVision: pengunjung, pageviews, dan interaksi."
-        actions={<AdminRangeHint from={from.toISOString()} to={now.toISOString()} />}
-      />
-
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
-        <AdminStat label="Total Visitors" value={kpis.totalVisitors.toLocaleString("id-ID")} />
-        <AdminStat label="Pageviews" value={kpis.pageviews.toLocaleString("id-ID")} />
-        <AdminStat label="Bounce Rate" value={bounceLabel} />
-        <AdminStat label="Total Interactions" value={kpis.interactions.toLocaleString("id-ID")} />
+      <div className="admin-reveal" style={reveal("0ms")}>
+        <AdminPageHeader
+          title="Dashboard Overview"
+          description="Ringkasan performa MineVision: pengunjung, pageviews, dan interaksi."
+          actions={<AdminRangeSelector days={days} />}
+        />
+        <div className="mt-4">
+          <AdminRangeHint from={from.toISOString()} to={now.toISOString()} />
+        </div>
       </div>
 
-      <AdminCard>
-        <div className="mb-4 flex items-end justify-between gap-4">
-          <div>
-            <h2 className="text-xl font-semibold text-white">Traffic Overview</h2>
-            <p className="mt-1 text-xs text-[#718196]">Visitors dan pageviews per hari</p>
-          </div>
-        </div>
-        {series.length ? (
-          <AdminTrafficSeries data={series} />
-        ) : (
-          <AdminEmptyState
-            title="Belum ada data analytics"
-            description="Kumpulan data akan mulai terisi setelah tracking aktif di website publik."
-          />
-        )}
-      </AdminCard>
+      <div className="admin-reveal grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4" style={reveal("60ms")}>
+        <AdminStat label="Total visitors" value={kpis.totalVisitors.toLocaleString("id-ID")} />
+        <AdminStat label="Pageviews" value={kpis.pageviews.toLocaleString("id-ID")} />
+        <AdminStat
+          label="Bounce rate"
+          value={bounceLabel}
+          hint="Belum ada traffic tercatat. Data akan muncul setelah aktivitas pengunjung publik tersedia."
+        />
+        <AdminStat label="Total interactions" value={kpis.interactions.toLocaleString("id-ID")} />
+      </div>
 
-      <div className="grid gap-5 lg:grid-cols-2">
+      <div className="admin-reveal" style={reveal("120ms")}>
         <AdminCard>
-          <h2 className="text-xl font-semibold text-white">Top Pages</h2>
-          {topPages.length ? (
-            <div className="mt-4 overflow-hidden rounded-xl border border-white/10">
-              <table className="w-full text-left text-sm">
-                <thead className="bg-[#061122] text-xs uppercase tracking-wider text-[#8292a6]">
-                  <tr>
-                    <th className="px-4 py-3">#</th>
-                    <th className="px-4 py-3">Halaman</th>
-                    <th className="px-4 py-3 text-right">Visitors</th>
-                    <th className="px-4 py-3 text-right">Pageviews</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-white/5">
-                  {topPages.map((row, index) => (
-                    <tr key={row.path}>
-                      <td className="px-4 py-3 text-[#718196]">{index + 1}</td>
-                      <td className="px-4 py-3 font-semibold text-white">{row.path}</td>
-                      <td className="px-4 py-3 text-right text-[#9FACBA]">{row.visitors}</td>
-                      <td className="px-4 py-3 text-right text-[#9FACBA]">{row.pageviews}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+          <AdminCardTitle>Traffic Overview</AdminCardTitle>
+          <p className="mt-1 text-xs text-admin-muted">Visitors dan pageviews per hari</p>
+          {series.length ? (
+            <div className="mt-4">
+              <AdminTrafficSeries data={series} />
             </div>
           ) : (
-            <AdminEmptyState title="Belum ada halaman" description="Top pages tampil setelah ada pageview." />
+            <div className="mt-4">
+              <AdminEmptyState
+                title="Belum ada data analytics"
+                description="Kumpulan data akan mulai terisi setelah tracking aktif di website publik."
+              />
+            </div>
           )}
-          <Link href="/admin/traffic" className="mt-4 inline-flex text-sm font-semibold text-brand-cyan hover:text-white">
-            Lihat semua →
+        </AdminCard>
+      </div>
+
+      <div className="admin-reveal grid gap-5 lg:grid-cols-2" style={reveal("180ms")}>
+        <AdminCard>
+          <AdminCardTitle>Top Pages</AdminCardTitle>
+          {topPages.length ? (
+            <div className="mt-4">
+              <AdminTable
+                headers={["#", "Halaman", "Visitors", "Pageviews"]}
+                aligns={["left", "left", "right", "right"]}
+                caption="Halaman dengan kunjungan terbanyak"
+              >
+                {topPages.map((row, index) => (
+                  <tr key={row.path} className="text-admin-text">
+                    <td className="text-admin-muted">{index + 1}</td>
+                    <td className="font-medium">{row.path}</td>
+                    <AdminNumberCell>{row.visitors.toLocaleString("id-ID")}</AdminNumberCell>
+                    <AdminNumberCell>{row.pageviews.toLocaleString("id-ID")}</AdminNumberCell>
+                  </tr>
+                ))}
+              </AdminTable>
+            </div>
+          ) : (
+            <div className="mt-4">
+              <AdminEmptyState title="Belum ada halaman" description="Top pages tampil setelah ada pageview." />
+            </div>
+          )}
+          <Link
+            href="/admin/traffic"
+            className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-admin-accent hover:text-admin-text"
+          >
+            Lihat semua
+            <ChevronRight aria-hidden="true" className="size-4" />
           </Link>
         </AdminCard>
 
         <div className="grid gap-5">
           <AdminCard>
-            <h2 className="text-xl font-semibold text-white">Top Traffic Source</h2>
+            <AdminCardTitle>Top Traffic Source</AdminCardTitle>
             <div className="mt-4">
               {trafficSources.length ? (
-                <AdminDonutByKey data={trafficSources.map((source) => ({ label: source.source, value: source.visitors }))} />
+                <AdminDonutByKey
+                  data={trafficSources.map((source) => ({ label: source.source, value: source.visitors }))}
+                  colors={["var(--admin-accent)"]}
+                />
               ) : (
-                <p className="text-sm text-[#718196]">Belum cukup data.</p>
+                <p className="text-sm text-admin-muted">Belum cukup data.</p>
               )}
             </div>
           </AdminCard>
 
           <AdminCard>
-            <h2 className="text-xl font-semibold text-white">Top Interaction</h2>
-            <p className="mt-3 text-3xl font-bold text-white">{engagement.totalInteractions.toLocaleString("id-ID")}</p>
-            <p className="mt-1 text-xs text-[#718196]">total interaksi pada periode aktif</p>
+            <AdminCardTitle>Top Interaction</AdminCardTitle>
+            <p className="mt-3 text-[34px] font-bold leading-none tracking-tight text-admin-text tabular-nums">
+              {engagement.totalInteractions.toLocaleString("id-ID")}
+            </p>
+            <p className="mt-2 text-xs text-admin-muted">total interaksi pada periode aktif</p>
           </AdminCard>
         </div>
       </div>

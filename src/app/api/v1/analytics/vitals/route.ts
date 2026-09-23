@@ -15,6 +15,13 @@ function getClientIp(request: NextRequest): string {
   );
 }
 
+function resolveCountryCode(request: NextRequest): string | undefined {
+  const raw =
+    request.headers.get("x-vercel-ip-country") ??
+    request.headers.get("cf-ipcountry");
+  return raw && /^[A-Z]{2}$/.test(raw) ? raw : undefined;
+}
+
 function isSameSite(request: NextRequest): boolean {
   const secFetchSite = request.headers.get("sec-fetch-site");
   if (secFetchSite === "same-origin" || secFetchSite === "none") {
@@ -67,7 +74,11 @@ export async function POST(request: NextRequest) {
   }
 
   try {
-    const result = await ingestWebVital(parsed.data);
+    const countryCode = resolveCountryCode(request);
+    const input = countryCode
+      ? { ...parsed.data, country_code: countryCode }
+      : parsed.data;
+    const result = await ingestWebVital(input);
     if (!result.ok) {
       return Response.json(
         { success: false, error: { code: result.code, message: "Vital ditolak." } },

@@ -33,8 +33,8 @@ export default async function AdminLoginPage() {
 
       <div className="mt-6 flex items-center gap-4" aria-hidden="true">
         <span className="h-px flex-1 bg-white/10" />
-        <span className="text-xs font-bold uppercase tracking-[0.14em] text-[#718096]">
-          authorized access
+        <span className="text-xs font-medium text-[#718096]">
+          Authorized access
         </span>
         <span className="h-px flex-1 bg-white/10" />
       </div>
